@@ -263,7 +263,7 @@
   )
 
   (module Connect:USB_Micro-B (layer B.Cu) (tedit 5543E447) (tstamp 56A9630A)
-    (at 100.2 54.8 90)
+    (at 98 50.8 90)
     (descr "Micro USB Type B Receptacle")
     (tags "USB USB_B USB_micro USB_OTG")
     (path /56ACC213)
@@ -300,7 +300,7 @@
   )
 
   (module Connect:USB_Micro-B (layer B.Cu) (tedit 5543E447) (tstamp 56A96317)
-    (at 100.2 77.6 90)
+    (at 97.93746 77.4991 90)
     (descr "Micro USB Type B Receptacle")
     (tags "USB USB_B USB_micro USB_OTG")
     (path /56ACC38E)
@@ -337,7 +337,7 @@
   )
 
   (module micro-hdmi-d:MICRO-HDMI-D (layer B.Cu) (tedit 53F70906) (tstamp 56A965BA)
-    (at 97 66.2 90)
+    (at 94.8 64.2 90)
     (path /56ACD5D4)
     (attr smd)
     (fp_text reference GPDI1 (at -0.025 3.125 90) (layer B.SilkS)
