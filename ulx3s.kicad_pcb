@@ -2,11 +2,11 @@
 
   (general
     (links 200)
-    (no_connects 199)
-    (area 87.599999 56.189999 184.420001 109.830001)
+    (no_connects 200)
+    (area 64.660001 38.4 193.621334 117.925001)
     (thickness 1.6)
     (drawings 20)
-    (tracks 0)
+    (tracks 6)
     (zones 0)
     (modules 13)
     (nets 44)
@@ -65,7 +65,7 @@
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 82.67 62.69)
     (grid_origin 86.48 79.2)
-    (visible_elements 7FFFF7FF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -743,7 +743,7 @@
   )
 
   (module lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm (layer F.Cu) (tedit 56A8C998) (tstamp 56AA0CD9)
-    (at 135.864 84.68)
+    (at 135.48 84.8)
     (path /56AA9804)
     (attr smd)
     (fp_text reference U1 (at -7.6 -9.2) (layer F.SilkS)
@@ -2306,5 +2306,12 @@
   (gr_line (start 180.46 56.34) (end 91.56 56.34) (layer Edge.Cuts) (width 0.3))
   (gr_line (start 184.27 105.87) (end 184.27 60.15) (layer Edge.Cuts) (width 0.3))
   (gr_line (start 91.56 109.68) (end 180.46 109.68) (layer Edge.Cuts) (width 0.3))
+
+  (segment (start 132.28 80) (end 131.485886 80.794114) (width 0.25) (layer In1.Cu) (net 28))
+  (segment (start 127.12 101.16) (end 127.12 104.6) (width 0.25) (layer In1.Cu) (net 28))
+  (segment (start 131.485886 80.794114) (end 131.485886 96.794114) (width 0.25) (layer In1.Cu) (net 28))
+  (segment (start 131.485886 96.794114) (end 127.12 101.16) (width 0.25) (layer In1.Cu) (net 28))
+  (segment (start 132.68 79.6) (end 132.28 80) (width 0.25) (layer F.Cu) (net 28))
+  (via micro (at 132.28 80) (size 0.3) (drill 0.1) (layers F.Cu In1.Cu) (net 28))
 
 )
