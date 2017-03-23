@@ -3,7 +3,7 @@
   (general
     (links 198)
     (no_connects 198)
-    (area 89.631999 59.491999 182.388001 109.068001)
+    (area 64.660001 38.4 193.621334 117.925001)
     (thickness 1.6)
     (drawings 20)
     (tracks 0)
@@ -422,7 +422,7 @@
   )
 
   (module Connectors:USB_Micro-B (layer F.Cu) (tedit 5543E447) (tstamp 56A9630A)
-    (at 170.244 62.516 180)
+    (at 162.68 61.42 180)
     (descr "Micro USB Type B Receptacle")
     (tags "USB USB_B USB_micro USB_OTG")
     (path /56ACC213)
@@ -463,7 +463,7 @@
   )
 
   (module Connect:USB_Micro-B (layer F.Cu) (tedit 5543E447) (tstamp 56A96317)
-    (at 152.52 62.30346 180)
+    (at 148.6691 61.42 180)
     (descr "Micro USB Type B Receptacle")
     (tags "USB USB_B USB_micro USB_OTG")
     (path /56ACC38E)
@@ -1747,7 +1747,7 @@
   )
 
   (module micro-hdmi-d:MICRO-HDMI-D (layer F.Cu) (tedit 53F70906) (tstamp 56A965BA)
-    (at 133.47 58.88 180)
+    (at 133.47 57.61 180)
     (path /56ACD5D4)
     (attr smd)
     (fp_text reference GPDI1 (at -0.025 -3.125 180) (layer F.SilkS)
