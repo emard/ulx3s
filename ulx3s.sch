@@ -716,4 +716,15 @@ U 56AC389C
 F0 "gpio" 60
 F1 "gpio.sch" 60
 $EndSheet
+$Comp
+L CONN_02X06 J3
+U 1 1 58D3C869
+P 3000 3200
+F 0 "J3" H 3000 3550 50  0000 C CNN
+F 1 "CONN_02X06" H 3000 2850 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x06_Pitch2.54mm" H 3000 2000 50  0001 C CNN
+F 3 "" H 3000 2000 50  0001 C CNN
+	1    3000 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
