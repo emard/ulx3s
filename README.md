@@ -41,4 +41,12 @@ SDRAM chip 32MB
 
 LEDs: 8 blinkleds, 1 usb led
 
-PushButtons: 6 cursor style
+IR camera placeholder
+
+OV767 color camera placeholder
+
+RTC clock low ppm drift
+
+PushButtons: 6 (2+4)
+             U
+    A B    L D R
