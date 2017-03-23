@@ -1,7 +1,7 @@
 # ULX3S PCB
 
 This is work-in-progress place for putting
-some wishes of a small FPGA board, RPI-0 size.
+some wishes of a small FPGA board.
 
 Instead of describing in written, 
 it is better explained when drawn in kicad.
@@ -25,7 +25,7 @@ Switching voltage regulators
 
 Check SD card slot footprint
 
-USB and HDMI footprints without thru-holes
+USB and GPDI footprints without thru-holes
 
 SPI OLED placeholder (thru hole probably)
 
@@ -41,4 +41,4 @@ SDRAM chip 32MB
 
 LEDs: 8 blinkleds, 1 usb led
 
-PushButtons: 5-6 cursor style
+PushButtons: 6 cursor style
