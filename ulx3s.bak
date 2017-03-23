@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ulx3s-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -543,7 +544,7 @@ F 3 "" H 2300 6600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG P1
+L USB_OTG-RESCUE-ulx3s P1
 U 1 1 56ACC213
 P 5200 6350
 F 0 "P1" H 5525 6225 50  0000 C CNN
@@ -554,7 +555,7 @@ F 3 "" V 5150 6250 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L USB_OTG P2
+L USB_OTG-RESCUE-ulx3s P2
 U 1 1 56ACC38E
 P 5200 7300
 F 0 "P2" H 5525 7175 50  0000 C CNN
