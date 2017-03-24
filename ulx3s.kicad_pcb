@@ -2,11 +2,11 @@
 
   (general
     (links 286)
-    (no_connects 285)
+    (no_connects 286)
     (area 93.949999 61.269999 178.070001 109.830001)
     (thickness 1.6)
     (drawings 16)
-    (tracks 3)
+    (tracks 1)
     (zones 0)
     (modules 33)
     (nets 82)
@@ -1827,7 +1827,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer B.Cu) (tedit 541A9B8D) (tstamp 58D58A25)
-    (at 157.6 79.708)
+    (at 158.235 79.708)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /58D51CAD/58D5A146)
@@ -1860,7 +1860,7 @@
   )
 
   (module SMD_Packages:SMD-2112_Pol (layer B.Cu) (tedit 0) (tstamp 58D58A2B)
-    (at 149.345 81.232)
+    (at 149.98 81.105)
     (path /58D51CAD/58D5AE64)
     (attr smd)
     (fp_text reference C3 (at 0.762 0 270) (layer B.SilkS)
@@ -1889,7 +1889,7 @@
   )
 
   (module SMD_Packages:SMD-2112_Pol (layer B.Cu) (tedit 0) (tstamp 58D58A31)
-    (at 149.345 88.344)
+    (at 149.98 86.185)
     (path /58D51CAD/58D5AEB3)
     (attr smd)
     (fp_text reference C4 (at 0.762 0 270) (layer B.SilkS)
@@ -1951,7 +1951,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 58307B90) (tstamp 58D58A3D)
-    (at 157.6 82.248)
+    (at 158.235 82.248)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /58D51CAD/58D5E37A)
@@ -1984,7 +1984,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 58307B90) (tstamp 58D58A43)
-    (at 157.6 84.788)
+    (at 158.235 84.915)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /58D51CAD/58D5A193)
@@ -2017,7 +2017,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 58307B90) (tstamp 58D58A49)
-    (at 157.6 87.328)
+    (at 158.235 87.455)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /58D51CAD/58D5A1E5)
@@ -2039,9 +2039,9 @@
     (fp_line (start 0.6 -0.875) (end -0.6 -0.875) (layer B.SilkS) (width 0.15))
     (fp_line (start -0.6 0.875) (end 0.6 0.875) (layer B.SilkS) (width 0.15))
     (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
-      (net 80 "Net-(C2-Pad2)"))
-    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
+      (net 80 "Net-(C2-Pad2)"))
     (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2105,7 +2105,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer B.Cu) (tedit 541A9B8D) (tstamp 58D599A0)
-    (at 157.6 89.868 180)
+    (at 158.235 89.995 180)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /58D51CAD/58D6296A)
@@ -2138,7 +2138,7 @@
   )
 
   (module SMD_Packages:SMD-2112_Pol (layer B.Cu) (tedit 0) (tstamp 58D599A6)
-    (at 166.236 86.82 180)
+    (at 166.236 86.185 180)
     (path /58D51CAD/58D62988)
     (attr smd)
     (fp_text reference C7 (at 0.762 0 450) (layer B.SilkS)
@@ -2229,7 +2229,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 58307B90) (tstamp 58D599B8)
-    (at 157.6 92.408)
+    (at 158.235 92.535)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /58D51CAD/58D629B6)
@@ -2262,7 +2262,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 58307B90) (tstamp 58D599BE)
-    (at 157.6 97.488)
+    (at 158.235 97.615)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /58D51CAD/58D62970)
@@ -2295,7 +2295,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 58307B90) (tstamp 58D599C4)
-    (at 157.6 94.948)
+    (at 158.235 95.075)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /58D51CAD/58D62976)
@@ -2317,9 +2317,9 @@
     (fp_line (start 0.6 -0.875) (end -0.6 -0.875) (layer B.SilkS) (width 0.15))
     (fp_line (start -0.6 0.875) (end 0.6 0.875) (layer B.SilkS) (width 0.15))
     (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
-      (net 81 "Net-(C6-Pad2)"))
-    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
+      (net 81 "Net-(C6-Pad2)"))
     (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2415,7 +2415,5 @@
   (gr_line (start 94.1 109.68) (end 177.92 109.68) (layer Edge.Cuts) (width 0.3))
 
   (segment (start 159.05 83.772) (end 158.95 83.772) (width 0.25) (layer B.Cu) (net 0))
-  (segment (start 156.35 88.852) (end 156.25 88.852) (width 0.25) (layer B.Cu) (net 0))
-  (segment (start 156.15 88.852) (end 156.25 88.852) (width 0.25) (layer B.Cu) (net 0))
 
 )
