@@ -359,7 +359,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 850  850  850 
 Wire Wire Line
-	2650 850  3000 850 
+	2650 850  3050 850 
 Wire Wire Line
 	2100 1050 2250 1050
 Wire Wire Line
