@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP3429A
+D AP3429A DC-DC Converter
+K DC converter swtiching step down
+$ENDCMP
+#
+#End Doc Library

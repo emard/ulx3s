@@ -1,4 +1,4 @@
-update=Pet 24 Ožu 2017 00:52:28
+update=Pet 24 Ožu 2017 21:16:28
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=footprints/esp8266;footprints/lattice;footprints/micro-hdmi-d
+LibDir=footprints/esp8266;footprints/lattice;footprints/micro-hdmi-d;footprints/dcdc_converter
 [eeschema/libraries]
 LibName1=ulx3s-rescue
 LibName2=power
@@ -62,3 +62,4 @@ LibName30=valves
 LibName31=footprints/esp8266/ESP8266
 LibName32=footprints/lattice/lfe5bg381
 LibName33=footprints/micro-hdmi-d/micro-hdmi-d
+LibName34=footprints/dcdc_converter/ap3429a
