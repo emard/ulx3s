@@ -2,7 +2,7 @@
 
   (general
     (links 234)
-    (no_connects 234)
+    (no_connects 233)
     (area 86.329999 53.649999 185.690001 109.830001)
     (thickness 1.6)
     (drawings 20)
@@ -486,7 +486,7 @@
     (fp_text reference U1 (at -7.6 -9.2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LFE5-BG381 (at 2 -9.2) (layer F.Fab)
+    (fp_text value LFE5U-25F-6BG381C (at 2 -9.2) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -8.4 8.4) (end 8.4 8.4) (layer F.SilkS) (width 0.15))
