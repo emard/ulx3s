@@ -735,4 +735,6 @@ F 3 "" H 2550 900 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	2550 700  2550 750 
+Text Notes 7300 3450 0    60   ~ 0
+OLED 1.3" PCB \n14x14 units\n1 unit = 2.54 mm
 $EndSCHEMATC
