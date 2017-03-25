@@ -50,3 +50,11 @@ RTC clock low ppm drift
 PushButtons: 6 (2+4)
              U
     A B    L D R
+
+
+# PCB Todo
+    SD card corrected footprint
+    RTC quartz and battery
+    SPI Flash chip
+    Oscillator
+    GPDI 3.3V-5V bidirectional level shifter
