@@ -1110,7 +1110,7 @@ F 3 "" H 6250 4800 50  0000 C CNN
 $EndComp
 Text Notes 4800 3250 0    60   ~ 0
 (15k/15k+1)*0.6V = 1.2V\n
-Text Label 4850 3800 0    60   ~ 0
+Text Label 4900 3800 0    60   ~ 0
 FB1
 Text Notes 4800 4700 0    60   ~ 0
 (15k/4.7k+1)*0.6V = 2.51V\n
@@ -1128,4 +1128,8 @@ Wire Wire Line
 	1900 5250 2450 5250
 Text Label 2000 5250 0    60   ~ 0
 PWREN
+Text Label 4900 6650 0    60   ~ 0
+FB3
+Text Label 4900 5250 0    60   ~ 0
+FB2
 $EndSCHEMATC
