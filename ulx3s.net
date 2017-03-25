@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/davor/tmp/ulx3s/ulx3s.sch)
-    (date "Sub 25 Ožu 2017 02:21:09")
+    (date "Sub 25 Ožu 2017 11:56:57")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -141,7 +141,7 @@
       (tstamp 58D5E6B8))
     (comp (ref IC1)
       (value MT48LC16M4A2P)
-      (footprint Housings_SSOP:VSO-56_11.1x21.5mm_Pitch0.75mm)
+      (footprint TSOP54:TSOP54)
       (libsource (lib memory) (part MT48LC16M4A2P))
       (sheetpath (names /) (tstamps /))
       (tstamp 58D5C787))
