@@ -1,0 +1,1 @@
+function CloseNCMBanner(){HideNewCustomerMessaging("1");var a=$("#NewCustMsgBanmanDiv");a.addClass("hidden");a=$("#zone34-banner");a.addClass("hidden")};
