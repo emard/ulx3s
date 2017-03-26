@@ -8,4 +8,5 @@
   (lib (name usb_otg)(type KiCad)(uri "$(KIPRJMOD)/footprints/usb_otg/usb_otg.pretty")(options "")(descr ""))
   (lib (name TSOT-25)(type KiCad)(uri "$(KIPRJMOD)/footprints/dcdc_converter/TSOT-25.pretty")(options "")(descr ""))
   (lib (name TSOP54)(type KiCad)(uri "$(KIPRJMOD)/footprints/sdram/TSOP54.pretty")(options "")(descr ""))
+  (lib (name Keystone_3000_1x12mm-CoinCell)(type KiCad)(uri "$(KIPRJMOD)/footprints/battery/Keystone_3000_1x12mm-CoinCell.pretty")(options "")(descr ""))
 )
