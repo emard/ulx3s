@@ -1184,9 +1184,9 @@ Wire Wire Line
 Wire Wire Line
 	2500 3450 2600 3450
 Text GLabel 2600 3350 2    60   Input ~ 0
-BOARD_SCL
+I2C_SCL
 Text GLabel 2600 3450 2    60   Input ~ 0
-BOARD_SDA
+I2C_SDA
 $Comp
 L Crystal Y1
 U 1 1 58D70E83
