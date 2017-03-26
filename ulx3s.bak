@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "ULX3S"
 Date ""
 Rev "0.0.1"
@@ -64,17 +64,6 @@ F 1 "SD_Card" H 3900 5700 50  0000 C CNN
 F 2 "micro-sd:MicroSD_TF02D" H 3500 6600 50  0000 C CNN
 F 3 "" H 3300 6250 60  0000 C CNN
 	1    3300 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L JACK_TRS_6PINS AUDIO1
-U 1 1 56A9D95B
-P 1300 2650
-F 0 "AUDIO1" H 1300 3050 50  0000 C CNN
-F 1 "JACK_TRS_6PINS" H 1250 2350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x03" H 1400 2500 60  0001 C CNN
-F 3 "" H 1400 2500 60  0000 C CNN
-	1    1300 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -235,4 +224,10 @@ Text GLabel 4600 6050 2    60   Input ~ 0
 SD_CD
 Text GLabel 4600 6150 2    60   Input ~ 0
 SD_WP
+$Sheet
+S 8700 5900 750  450 
+U 58D82BD0
+F0 "analog" 60
+F1 "analog.sch" 60
+$EndSheet
 $EndSCHEMATC
