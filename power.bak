@@ -1207,7 +1207,7 @@ L Battery_Cell BAT1
 U 1 1 58D72202
 P 2800 4000
 F 0 "BAT1" H 2900 4100 50  0000 L CNN
-F 1 "3V" H 2900 4000 50  0000 L CNN
+F 1 "CR1225" H 2900 4000 50  0000 L CNN
 F 2 "Keystone_3000_1x12mm-CoinCell:Keystone_3000_1x12mm-CoinCell" V 2800 4060 50  0001 C CNN
 F 3 "" V 2800 4060 50  0000 C CNN
 	1    2800 4000
@@ -1360,7 +1360,7 @@ F 3 "" H 4700 3800 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4700 3800 4700 4000
-Text Notes 3100 4200 0    60   ~ 0
+Text Notes 3150 4450 0    60   ~ 0
 WAKEUPn\nopen drain \nactive low
 $Comp
 L Q_PNP_BCE Q1
