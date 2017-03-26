@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/davor/tmp/ulx3s/ulx3s.sch)
-    (date "Ned 26 Ožu 2017 21:50:24")
+    (date "Ned 26 Ožu 2017 22:38:59")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -100,7 +100,7 @@
       (tstamp 56ACBF19))
     (comp (ref AUDIO1)
       (value JACK_TRS_6PINS)
-      (footprint Pin_Headers:Pin_Header_Angled_2x03)
+      (footprint audio-jack:CUI_SJ-43516-SMT)
       (libsource (lib conn) (part JACK_TRS_6PINS))
       (sheetpath (names /) (tstamps /))
       (tstamp 56A9D95B))

@@ -3997,7 +3997,7 @@
     )
   )
 
-  (module usb_otg:USB-MICRO-B-FCI-10118192 (layer B.Cu) (tedit 55D9BD68) (tstamp 58D81E1A)
+  (module usb_otg:USB-MICRO-B-FCI-10118192-0001LF (layer B.Cu) (tedit 55D9BD68) (tstamp 58D81F93)
     (at 144.91 63.96)
     (path /58D6BF46/58D6C840)
     (fp_text reference US1 (at 0 4.2) (layer B.SilkS)
@@ -4044,7 +4044,7 @@
     (pad "" smd rect (at 3.8 0) (size 1.8 1.9) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module usb_otg:USB-MICRO-B-FCI-10118192 (layer B.Cu) (tedit 55D9BD68) (tstamp 58D81E28)
+  (module usb_otg:USB-MICRO-B-FCI-10118192-0001LF (layer B.Cu) (tedit 55D9BD68) (tstamp 58D81FA1)
     (at 164.02 63.96)
     (path /58D6BF46/58D6C841)
     (fp_text reference US2 (at 0 4.2) (layer B.SilkS)
