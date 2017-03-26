@@ -101,13 +101,13 @@ Wire Wire Line
 Wire Wire Line
 	2300 6650 2400 6650
 $Sheet
-S 7000 5250 750  450 
+S 7000 5900 750  450 
 U 56AC389C
 F0 "gpio" 60
 F1 "gpio.sch" 60
 $EndSheet
 $Sheet
-S 7850 5250 750  450 
+S 7000 5250 750  450 
 U 58D51CAD
 F0 "power" 60
 F1 "power.sch" 60
@@ -186,25 +186,25 @@ $EndSheet
 Text Notes 7000 5100 0    60   ~ 0
 click on mouse pointer arrow on top of right toolbar\nand double-click on sheet to open
 $Sheet
-S 9550 5250 750  450 
+S 7850 5900 750  450 
 U 58D686D9
 F0 "gpdi" 60
 F1 "gpdi.sch" 60
 $EndSheet
 $Sheet
-S 10400 5250 750  450 
+S 7850 5250 750  450 
 U 58D6BF46
 F0 "usb" 60
 F1 "usb.sch" 60
 $EndSheet
 $Sheet
-S 7000 5900 750  450 
+S 9550 5900 750  450 
 U 58D6D447
 F0 "wifi" 60
 F1 "wifi.sch" 60
 $EndSheet
 $Sheet
-S 7850 5900 750  450 
+S 9550 5250 750  450 
 U 58D6D507
 F0 "ram" 60
 F1 "ram.sch" 60
