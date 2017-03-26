@@ -1,5 +1,5 @@
 (module abs25:Crystal_SMD_ABS25 (layer F.Cu) (tedit 58D83518)
-  (descr "Abracon ABS25 Ceramic SMD Crystal http://www.abracon.com/Resonators/abs25.pdf")
+  (descr "Abracon ABS25 Plastic SMD Crystal http://www.abracon.com/Resonators/abs25.pdf")
   (tags "plastic smd crystal")
   (attr smd)
   (fp_text reference Y1 (at 0 -3.2) (layer F.SilkS)
