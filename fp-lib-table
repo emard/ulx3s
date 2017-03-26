@@ -10,4 +10,5 @@
   (lib (name TSOP54)(type KiCad)(uri "$(KIPRJMOD)/footprints/sdram/TSOP54.pretty")(options "")(descr ""))
   (lib (name Keystone_3000_1x12mm-CoinCell)(type KiCad)(uri "$(KIPRJMOD)/footprints/battery/Keystone_3000_1x12mm-CoinCell.pretty")(options "")(descr ""))
   (lib (name audio-jack)(type KiCad)(uri "$(KIPRJMOD)/footprints/audio-jack/audio-jack.pretty")(options "")(descr ""))
+  (lib (name abs25)(type KiCad)(uri "$(KIPRJMOD)/footprints/crystal/abs25.pretty")(options "")(descr ""))
 )
