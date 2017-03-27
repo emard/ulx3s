@@ -14,7 +14,7 @@ physically fit and look.
 
 From production of this, we are far, far away :)
 
-TODO
+# Features
 
 3.5 mm jack footprint
 
@@ -23,38 +23,34 @@ checking fitness for the footprint
 
 Switching voltage regulators
 
-Check SD card slot footprint
-
-USB and GPDI footprints without thru-holes
+USB footprints without thru-holes
 
 SPI OLED placeholder (thru hole probably)
 
-2.54 mm external JTAG header
+FTDI 2232 usb-jtag chip
 
-FTDI usb-jtag chip
+SPI flash chip
+
+SDRAM chip
+
+LEDs: 8 blinkleds, 1 usb led
+
+RTC clock, quartz and battery
+
+GPDI 3.3V-5V bidirectional level shifter
+
+# Todo
+
+Check SD card slot footprint
 
 Oscillators (25/50/100 MHz)
 
-SPI flash chip for fpga configuration
-
-SDRAM chip 32MB
-
-LEDs: 8 blinkleds, 1 usb led
+rearrange PushButtons: 6 (2+4)
+             U
+    A B    L D R
 
 IR camera placeholder
 
 OV767 color camera placeholder
 
-RTC clock low ppm drift
-
-PushButtons: 6 (2+4)
-             U
-    A B    L D R
-
-
-# PCB Todo
-    SD card corrected footprint
-    RTC quartz and battery
-    SPI Flash chip
-    Oscillator
-    GPDI 3.3V-5V bidirectional level shifter
+2.54 mm external JTAG header
