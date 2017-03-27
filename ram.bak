@@ -214,4 +214,12 @@ Text GLabel 4650 3950 0    60   Input ~ 0
 SDRAM_CLK
 Text GLabel 4650 4050 0    60   Input ~ 0
 SDRAM_CKE
+Text GLabel 4650 4200 0    60   Input ~ 0
+SDRAM_nRAS
+Text GLabel 4650 4300 0    60   Input ~ 0
+SDRAM_nCAS
+Text GLabel 4650 4400 0    60   Input ~ 0
+SDRAM_nWE
+Text GLabel 4650 4550 0    60   Input ~ 0
+SDRAM_nCS
 $EndSCHEMATC
