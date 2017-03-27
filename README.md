@@ -4,20 +4,21 @@ This is work-in-progress place for putting
 some wishes of a small FPGA board.
 
 Instead of describing in written, 
-it is better explained when drawn in kicad.
+it is better explained when drawn in kicad:
 
-Currently PCB is not routed. Only some footprintes 
-are being collected and some are incomplete,
+    kicad ulx3s.pro
 
-Here are just so get some insight how will it all
-physically fit and look.
+Currently this is only partial schematics and partial floorplanning.
+PCB is not routed. Some footprintes are collected and some are incomplete.
+
+An overview if the parts will fit in the space
+how it will look.
 
 From production of this, we are far, far away :)
 
 # Features
 
 3.5 mm jack footprint
-
 
 Switching voltage regulators
 
