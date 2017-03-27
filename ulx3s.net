@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/davor/src/circuits/fpga/ulx3s/ulx3s.sch)
-    (date "Pon 27 Ožu 2017 13:36:03")
+    (date "Pon 27 Ožu 2017 14:06:02")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1491,10 +1491,10 @@
       (uri /usr/share/kicad/library/philips.lib))
     (library (logical ESP8266)
       (uri footprints/esp8266/ESP8266.lib))
-    (library (logical micro-hdmi-d)
-      (uri footprints/micro-hdmi-d/micro-hdmi-d.lib))
     (library (logical lfe5bg381)
       (uri footprints/lattice/lfe5bg381.lib))
+    (library (logical micro-hdmi-d)
+      (uri footprints/micro-hdmi-d/micro-hdmi-d.lib))
     (library (logical ap3429a)
       (uri footprints/dcdc_converter/ap3429a.lib))
     (library (logical ft2232)
