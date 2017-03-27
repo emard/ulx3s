@@ -18,8 +18,6 @@ From production of this, we are far, far away :)
 
 3.5 mm jack footprint
 
-Completing FPGA shcematics blocks and
-checking fitness for the footprint
 
 Switching voltage regulators
 
@@ -40,6 +38,8 @@ RTC clock, quartz and battery
 GPDI 3.3V-5V bidirectional level shifter
 
 # Todo
+
+Completing FPGA IO bank shcematics blocks
 
 Check SD card slot footprint
 
