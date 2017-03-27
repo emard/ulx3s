@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title "ULX3S"
 Date ""
 Rev "0.0.1"
@@ -104,5 +104,11 @@ S 10400 5250 750  450
 U 58DA7327
 F0 "sdcard" 60
 F1 "sdcard.sch" 60
+$EndSheet
+$Sheet
+S 10400 5900 750  450 
+U 58D913EC
+F0 "flash" 60
+F1 "flash.sch" 60
 $EndSheet
 $EndSCHEMATC
