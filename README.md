@@ -46,6 +46,7 @@ Check SD card slot footprint
 Oscillators (25/50/100 MHz)
 
 rearrange PushButtons: 6 (2+4)
+
              U
     A B    L D R
 
