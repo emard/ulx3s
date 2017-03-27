@@ -1479,7 +1479,7 @@ Wire Wire Line
 	5100 3800 5100 4000
 Connection ~ 4700 4850
 Text GLabel 5100 3800 1    60   Input ~ 0
-FTDI_PWREN
+FTDI_nSUSPEND
 $Comp
 L R R8
 U 1 1 58D8111E
