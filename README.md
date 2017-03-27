@@ -37,6 +37,9 @@ LEDs: 8 blinkleds, 1 usb led
 RTC clock, quartz and battery
 
 GPDI 3.3V-5V bidirectional level shifter
+General Purpose Differential Interface,
+female socket more-or-less compatible
+with digital monitors/TVs
 
 # Todo
 
