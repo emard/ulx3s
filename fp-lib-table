@@ -11,4 +11,5 @@
   (lib (name Keystone_3000_1x12mm-CoinCell)(type KiCad)(uri "$(KIPRJMOD)/footprints/battery/Keystone_3000_1x12mm-CoinCell.pretty")(options "")(descr ""))
   (lib (name audio-jack)(type KiCad)(uri "$(KIPRJMOD)/footprints/audio-jack/audio-jack.pretty")(options "")(descr ""))
   (lib (name abs25)(type KiCad)(uri "$(KIPRJMOD)/footprints/crystal/abs25.pretty")(options "")(descr ""))
+  (lib (name hdmi-swm-19)(type KiCad)(uri "$(KIPRJMOD)/footprints/micro-hdmi-d/hdmi-swm-19.pretty")(options "")(descr ""))
 )
