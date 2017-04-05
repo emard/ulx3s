@@ -51,15 +51,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 7000 5850 3    60   Input ~ 0
-SD_MTDO
+SD_D0
 Text GLabel 7100 5850 3    60   Input ~ 0
-SD_MTDI
+SD_D1
 Text GLabel 6700 5850 3    60   Input ~ 0
 SD_3
 Text GLabel 6800 5850 3    60   Input ~ 0
-SD_MTMS
+SD_CMD
 Text GLabel 6900 5850 3    60   Input ~ 0
-SD_MTCK
+SD_CLK
 Text GLabel 6600 5850 3    60   Input ~ 0
 SD_2
 Text GLabel 7750 4550 2    60   Input ~ 0
@@ -72,27 +72,53 @@ Text GLabel 7300 5850 3    60   Input ~ 0
 WIFI_GPIO2
 Text GLabel 7200 5850 3    60   Input ~ 0
 WIFI_GPIO15
-Text GLabel 5900 5200 0    60   Input ~ 0
+Text GLabel 7750 4850 2    60   Input ~ 0
 JTAG_TDI
-Text GLabel 5900 5300 0    60   Input ~ 0
+Text GLabel 7750 4750 2    60   Input ~ 0
 JTAG_TDO
-Text GLabel 5900 5400 0    60   Input ~ 0
+Text GLabel 7750 4950 2    60   Input ~ 0
 JTAG_TCK
-Text GLabel 5900 5100 0    60   Input ~ 0
+Text GLabel 7750 5050 2    60   Input ~ 0
 JTAG_TMS
 Text GLabel 5900 4300 0    60   Input ~ 0
 WIFI_PD
 Text GLabel 5900 4700 0    60   Input ~ 0
 WIFI_RESET
 $Comp
-L ESP-32S U?
+L ESP-32S U2
 U 1 1 58E5662B
 P 6850 4800
-F 0 "U?" H 6150 6050 60  0000 C CNN
+F 0 "U2" H 6150 6050 60  0000 C CNN
 F 1 "ESP-32S" H 7350 6050 60  0000 C CNN
 F 2 "ESP32-footprints-Lib:ESP-32S" H 7200 6150 60  0001 C CNN
 F 3 "" H 6400 5250 60  0001 C CNN
 	1    6850 4800
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR083
+U 1 1 58E56E8D
+P 5500 4100
+F 0 "#PWR083" H 5500 3850 50  0001 C CNN
+F 1 "GND" H 5500 3950 50  0000 C CNN
+F 2 "" H 5500 4100 50  0000 C CNN
+F 3 "" H 5500 4100 50  0000 C CNN
+	1    5500 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR084
+U 1 1 58E56EA3
+P 5350 4200
+F 0 "#PWR084" H 5350 4050 50  0001 C CNN
+F 1 "+3V3" H 5350 4340 50  0000 C CNN
+F 2 "" H 5350 4200 50  0000 C CNN
+F 3 "" H 5350 4200 50  0000 C CNN
+	1    5350 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 4100 5900 4100
+Wire Wire Line
+	5350 4200 5900 4200
 $EndSCHEMATC

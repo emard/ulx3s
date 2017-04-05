@@ -143,13 +143,13 @@ SD_2
 Text GLabel 2300 5950 0    60   Input ~ 0
 SD_3
 Text GLabel 2300 6050 0    60   Input ~ 0
-SD_MTMS
+SD_CMD
 Text GLabel 2300 6350 0    60   Input ~ 0
-SD_MTCK
+SD_CLK
 Text GLabel 2300 6550 0    60   Input ~ 0
-SD_MTDO
+SD_D0
 Text GLabel 2300 6650 0    60   Input ~ 0
-SD_MTDI
+SD_D1
 Text GLabel 4600 6050 2    60   Input ~ 0
 SD_CD
 Text GLabel 4600 6150 2    60   Input ~ 0
