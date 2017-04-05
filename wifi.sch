@@ -34,6 +34,7 @@ LIBS:lfe5bg381
 LIBS:micro-hdmi-d
 LIBS:ap3429a
 LIBS:ft2232
+LIBS:ESP32
 LIBS:ulx3s-cache
 EELAYER 25 0
 EELAYER END
@@ -49,109 +50,75 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 7000 5850 3    60   Input ~ 0
+SD_MTDO
+Text GLabel 7100 5850 3    60   Input ~ 0
+SD_MTDI
+Text GLabel 6700 5850 3    60   Input ~ 0
+SD_3
+Text GLabel 6800 5850 3    60   Input ~ 0
+SD_MTMS
+Text GLabel 6900 5850 3    60   Input ~ 0
+SD_MTCK
+Text GLabel 6600 5850 3    60   Input ~ 0
+SD_2
+Text GLabel 7750 4550 2    60   Input ~ 0
+WIFI_RXD
+Text GLabel 7750 4450 2    60   Input ~ 0
+WIFI_TXD
+Text GLabel 7750 5450 2    60   Input ~ 0
+WIFI_GPIO0
+Text GLabel 7300 5850 3    60   Input ~ 0
+WIFI_GPIO2
+Text GLabel 7200 5850 3    60   Input ~ 0
+WIFI_GPIO15
+Text GLabel 5900 5200 0    60   Input ~ 0
+JTAG_TDI
+Text GLabel 5900 5300 0    60   Input ~ 0
+JTAG_TDO
+Text GLabel 5900 5400 0    60   Input ~ 0
+JTAG_TCK
+Text GLabel 5900 5100 0    60   Input ~ 0
+JTAG_TMS
+Text GLabel 5900 4300 0    60   Input ~ 0
+WIFI_PD
+Text GLabel 5900 4700 0    60   Input ~ 0
+WIFI_RESET
 $Comp
-L ESP-12E U2
-U 1 1 58D75E1E
-P 3200 4550
-F 0 "U2" H 3200 4450 50  0000 C CNN
-F 1 "ESP-12E" H 3200 4650 50  0000 C CNN
-F 2 "ESP8266:ESP-12E" H 3200 4550 50  0001 C CNN
-F 3 "" H 3200 4550 50  0001 C CNN
-	1    3200 4550
+L ESP-32S U2
+U 1 1 58E5662B
+P 6850 4800
+F 0 "U2" H 6150 6050 60  0000 C CNN
+F 1 "ESP-32S" H 7350 6050 60  0000 C CNN
+F 2 "ESP32-footprints-Lib:ESP-32S" H 7200 6150 60  0001 C CNN
+F 3 "" H 6400 5250 60  0001 C CNN
+	1    6850 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 4650 2000 4650
-Wire Wire Line
-	2300 4550 2000 4550
-Wire Wire Line
-	2000 4750 2300 4750
-Wire Wire Line
-	2000 4850 2300 4850
-Wire Wire Line
-	4100 4950 4200 4950
 $Comp
-L GND #PWR84
-U 1 1 58D75E1F
-P 4200 4950
-F 0 "#PWR84" H 4200 4700 50  0001 C CNN
-F 1 "GND" H 4200 4800 50  0000 C CNN
-F 2 "" H 4200 4950 60  0000 C CNN
-F 3 "" H 4200 4950 60  0000 C CNN
-	1    4200 4950
+L GND #PWR083
+U 1 1 58E56E8D
+P 5500 4100
+F 0 "#PWR083" H 5500 3850 50  0001 C CNN
+F 1 "GND" H 5500 3950 50  0000 C CNN
+F 2 "" H 5500 4100 50  0000 C CNN
+F 3 "" H 5500 4100 50  0000 C CNN
+	1    5500 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR084
+U 1 1 58E56EA3
+P 5350 4200
+F 0 "#PWR084" H 5350 4050 50  0001 C CNN
+F 1 "+3V3" H 5350 4340 50  0000 C CNN
+F 2 "" H 5350 4200 50  0000 C CNN
+F 3 "" H 5350 4200 50  0000 C CNN
+	1    5350 4200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2950 5450 2950 5700
+	5500 4100 5900 4100
 Wire Wire Line
-	3050 5450 3050 5700
-Wire Wire Line
-	3150 5450 3150 5700
-Wire Wire Line
-	3250 5450 3250 5700
-Wire Wire Line
-	3350 5450 3350 5700
-Wire Wire Line
-	3450 5450 3450 5700
-Wire Wire Line
-	2250 4950 2300 4950
-Wire Wire Line
-	4100 4250 4400 4250
-Wire Wire Line
-	4100 4350 4400 4350
-$Comp
-L +3V3 #PWR83
-U 1 1 58D75E28
-P 2250 4950
-F 0 "#PWR83" H 2250 4800 50  0001 C CNN
-F 1 "+3V3" H 2250 5090 50  0000 C CNN
-F 2 "" H 2250 4950 50  0000 C CNN
-F 3 "" H 2250 4950 50  0000 C CNN
-	1    2250 4950
-	0    -1   -1   0   
-$EndComp
-Text GLabel 2950 5700 3    60   Input ~ 0
-SD_MTDO
-Text GLabel 3050 5700 3    60   Input ~ 0
-SD_MTDI
-Text GLabel 3150 5700 3    60   Input ~ 0
-SD_3
-Text GLabel 3250 5700 3    60   Input ~ 0
-SD_MTMS
-Text GLabel 3350 5700 3    60   Input ~ 0
-SD_MTCK
-Text GLabel 3450 5700 3    60   Input ~ 0
-SD_2
-Text GLabel 4400 4350 2    60   Input ~ 0
-WIFI_RXD
-Text GLabel 4400 4250 2    60   Input ~ 0
-WIFI_TXD
-Text GLabel 4400 4650 2    60   Input ~ 0
-WIFI_GPIO0
-Text GLabel 4400 4750 2    60   Input ~ 0
-WIFI_GPIO2
-Text GLabel 4400 4850 2    60   Input ~ 0
-WIFI_GPIO15
-Wire Wire Line
-	4100 4650 4400 4650
-Wire Wire Line
-	4100 4750 4400 4750
-Wire Wire Line
-	4100 4850 4400 4850
-Text GLabel 2000 4550 0    60   Input ~ 0
-JTAG_TDI
-Text GLabel 2000 4650 0    60   Input ~ 0
-JTAG_TDO
-Text GLabel 2000 4750 0    60   Input ~ 0
-JTAG_TCK
-Text GLabel 2000 4850 0    60   Input ~ 0
-JTAG_TMS
-Text GLabel 2000 4450 0    60   Input ~ 0
-WIFI_PD
-Wire Wire Line
-	2000 4450 2300 4450
-Text GLabel 2000 4250 0    60   Input ~ 0
-WIFI_RESET
-Wire Wire Line
-	2000 4250 2300 4250
+	5350 4200 5900 4200
 $EndSCHEMATC

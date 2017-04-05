@@ -12,4 +12,5 @@
   (lib (name audio-jack)(type KiCad)(uri "$(KIPRJMOD)/footprints/audio-jack/audio-jack.pretty")(options "")(descr ""))
   (lib (name abs25)(type KiCad)(uri "$(KIPRJMOD)/footprints/crystal/abs25.pretty")(options "")(descr ""))
   (lib (name hdmi-swm-19)(type KiCad)(uri "$(KIPRJMOD)/footprints/micro-hdmi-d/hdmi-swm-19.pretty")(options "")(descr ""))
+  (lib (name ESP32-footprints-Lib)(type KiCad)(uri /home/davor/tmp/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Lib.pretty)(options "")(descr ""))
 )
