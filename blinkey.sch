@@ -35,6 +35,7 @@ LIBS:micro-hdmi-d
 LIBS:ap3429a
 LIBS:ft2232
 LIBS:ESP32
+LIBS:ssd_13xx
 LIBS:ulx3s-cache
 EELAYER 25 0
 EELAYER END
@@ -50,17 +51,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_01X07 OLED1
-U 1 1 58D66046
-P 4550 1550
-F 0 "OLED1" H 4550 1950 50  0000 C CNN
-F 1 "CONN_01X07" V 4650 1550 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x07" H 4550 1550 50  0001 C CNN
-F 3 "" H 4550 1550 50  0000 C CNN
-	1    4550 1550
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 1250 4850 1250
 Wire Wire Line
@@ -405,14 +395,14 @@ to global onboard reset?
 Text Label 2750 2800 0    60   ~ 0
 BTNPU
 $Comp
-L CONN_01X07 OLED2
-U 1 1 58E6C72A
-P 7200 1550
-F 0 "OLED2" H 7200 1950 50  0000 C CNN
-F 1 "SSD1331" V 7300 1550 50  0000 C CNN
-F 2 "oled:oled_13xx" H 7200 1550 50  0001 C CNN
-F 3 "" H 7200 1550 50  0000 C CNN
-	1    7200 1550
-	-1   0    0    -1  
+L SSD_13xx OLED1
+U 1 1 58E6D4AC
+P 4750 1550
+F 0 "OLED1" H 4750 1150 50  0000 C CNN
+F 1 "SSD_1331" H 4750 1050 50  0000 C CNN
+F 2 "oled:oled_13xx" V 4750 1350 50  0001 C CNN
+F 3 "" V 4750 1350 50  0000 C CNN
+	1    4750 1550
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

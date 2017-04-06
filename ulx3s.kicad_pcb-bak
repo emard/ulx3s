@@ -353,7 +353,7 @@
     (fp_text reference OLED2 (at -7.62 -5.1 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X07 (at -7.62 -3.1 270) (layer F.Fab)
+    (fp_text value SSD1331 (at -7.62 -3.1 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user CS (at 7.62 2.54 270) (layer F.SilkS)

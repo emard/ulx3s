@@ -35,6 +35,7 @@ LIBS:micro-hdmi-d
 LIBS:ap3429a
 LIBS:ft2232
 LIBS:ESP32
+LIBS:ssd_13xx
 LIBS:ulx3s-cache
 EELAYER 25 0
 EELAYER END
