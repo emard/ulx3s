@@ -404,4 +404,15 @@ Text Notes 5400 1700 0    60   ~ 0
 to global onboard reset?
 Text Label 2750 2800 0    60   ~ 0
 BTNPU
+$Comp
+L CONN_01X07 OLED2
+U 1 1 58E6C72A
+P 7200 1550
+F 0 "OLED2" H 7200 1950 50  0000 C CNN
+F 1 "SSD1331" V 7300 1550 50  0000 C CNN
+F 2 "oled:oled_13xx" H 7200 1550 50  0001 C CNN
+F 3 "" H 7200 1550 50  0000 C CNN
+	1    7200 1550
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
