@@ -54,41 +54,41 @@ $EndDescr
 $Comp
 L LFE5-BG381 U1
 U 1 1 56AC4242
-P 4900 1550
+P 4900 1750
 AR Path="/56AC4242" Ref="U1"  Part="1" 
 AR Path="/56AC389C/56AC4242" Ref="U1"  Part="1" 
-F 0 "U1" H 4900 2500 60  0000 C CNN
-F 1 "LFE5U-25F-6BG381C" H 4900 2400 60  0000 C CNN
-F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 3850 2500 60  0001 C CNN
-F 3 "" H 3850 2500 60  0000 C CNN
-	1    4900 1550
+F 0 "U1" H 4900 2700 60  0000 C CNN
+F 1 "LFE5U-25F-6BG381C" H 4900 2600 60  0000 C CNN
+F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 3850 2700 60  0001 C CNN
+F 3 "" H 3850 2700 60  0000 C CNN
+	1    4900 1750
 	1    0    0    -1  
 $EndComp
-Text Label 5700 850  0    60   ~ 0
-C11
-Text Label 5700 950  0    60   ~ 0
-A11
 Text Label 5700 1050 0    60   ~ 0
-A9
+C11
 Text Label 5700 1150 0    60   ~ 0
-B9
+A11
 Text Label 5700 1250 0    60   ~ 0
-D9
+A9
 Text Label 5700 1350 0    60   ~ 0
-A7
+B9
 Text Label 5700 1450 0    60   ~ 0
-C8
-Text Label 3950 1550 0    60   ~ 0
-D8
+D9
 Text Label 5700 1550 0    60   ~ 0
-E8
-Text Label 3950 1650 0    60   ~ 0
-C7
+A7
 Text Label 5700 1650 0    60   ~ 0
-C6
+C8
 Text Label 3950 1750 0    60   ~ 0
-D7
+D8
 Text Label 5700 1750 0    60   ~ 0
+E8
+Text Label 3950 1850 0    60   ~ 0
+C7
+Text Label 5700 1850 0    60   ~ 0
+C6
+Text Label 3950 1950 0    60   ~ 0
+D7
+Text Label 5700 1950 0    60   ~ 0
 E7
 $Comp
 L GND #PWR05
@@ -152,31 +152,31 @@ $EndComp
 $Comp
 L LFE5-BG381 U1
 U 2 1 56AC5F89
-P 4900 3200
+P 4900 3400
 AR Path="/56AC5F89" Ref="U1"  Part="2" 
 AR Path="/56AC389C/56AC5F89" Ref="U1"  Part="2" 
-F 0 "U1" H 4900 4150 60  0000 C CNN
-F 1 "LFE5U-25F-6BG381C" H 4900 4050 60  0000 C CNN
-F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 3850 4150 60  0001 C CNN
-F 3 "" H 3850 4150 60  0000 C CNN
-	2    4900 3200
+F 0 "U1" H 4900 4350 60  0000 C CNN
+F 1 "LFE5U-25F-6BG381C" H 4900 4250 60  0000 C CNN
+F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 3850 4350 60  0001 C CNN
+F 3 "" H 3850 4350 60  0000 C CNN
+	2    4900 3400
 	1    0    0    -1  
 $EndComp
-Text Label 3950 1850 0    60   ~ 0
+Text Label 3950 2050 0    60   ~ 0
 D6
-Text Label 3950 1950 0    60   ~ 0
+Text Label 3950 2150 0    60   ~ 0
 B6
-Text Label 3950 2500 0    60   ~ 0
+Text Label 3950 2700 0    60   ~ 0
 A19
-Text Label 3950 2600 0    60   ~ 0
+Text Label 3950 2800 0    60   ~ 0
 A18
-Text Label 5700 1850 0    60   ~ 0
+Text Label 5700 2050 0    60   ~ 0
 E6
-Text Label 5700 1950 0    60   ~ 0
+Text Label 5700 2150 0    60   ~ 0
 A6
-Text Label 5700 2500 0    60   ~ 0
+Text Label 5700 2700 0    60   ~ 0
 B20
-Text Label 5700 2600 0    60   ~ 0
+Text Label 5700 2800 0    60   ~ 0
 B19
 $Comp
 L +3V3 #PWR08
@@ -203,14 +203,14 @@ $EndComp
 $Comp
 L LFE5-BG381 U?
 U 3 1 58D9899C
-P 4900 5300
+P 4900 5950
 AR Path="/58D9899C" Ref="U?"  Part="2" 
 AR Path="/56AC389C/58D9899C" Ref="U1"  Part="3" 
-F 0 "U1" H 4900 6250 60  0000 C CNN
-F 1 "LFE5U-25F-6BG381C" H 4900 6150 60  0000 C CNN
-F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 3850 6250 60  0001 C CNN
-F 3 "" H 3850 6250 60  0000 C CNN
-	3    4900 5300
+F 0 "U1" H 4900 6900 60  0000 C CNN
+F 1 "LFE5U-25F-6BG381C" H 4900 6800 60  0000 C CNN
+F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 3850 6900 60  0001 C CNN
+F 3 "" H 3850 6900 60  0000 C CNN
+	3    4900 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -324,10 +324,6 @@ F 3 "" H 2500 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5650 850  5950 850 
-Wire Wire Line
-	5650 950  5950 950 
-Wire Wire Line
 	5650 1050 5950 1050
 Wire Wire Line
 	5650 1150 5950 1150
@@ -338,17 +334,21 @@ Wire Wire Line
 Wire Wire Line
 	5650 1450 5950 1450
 Wire Wire Line
-	3900 1550 4150 1550
-Wire Wire Line
 	5650 1550 5950 1550
-Wire Wire Line
-	3900 1650 4150 1650
 Wire Wire Line
 	5650 1650 5950 1650
 Wire Wire Line
 	3900 1750 4150 1750
 Wire Wire Line
 	5650 1750 5950 1750
+Wire Wire Line
+	3900 1850 4150 1850
+Wire Wire Line
+	5650 1850 5950 1850
+Wire Wire Line
+	3900 1950 4150 1950
+Wire Wire Line
+	5650 1950 5950 1950
 Wire Wire Line
 	1400 950  1600 950 
 Wire Wire Line
@@ -360,21 +360,21 @@ Wire Wire Line
 Wire Wire Line
 	1150 5200 1600 5200
 Wire Wire Line
-	3900 1850 4150 1850
+	3900 2050 4150 2050
 Wire Wire Line
-	3900 1950 4150 1950
+	3900 2150 4150 2150
 Wire Wire Line
-	3900 2500 4150 2500
+	3900 2700 4150 2700
 Wire Wire Line
-	3900 2600 4150 2600
+	3900 2800 4150 2800
 Wire Wire Line
-	5650 1850 5950 1850
+	5650 2050 5950 2050
 Wire Wire Line
-	5650 1950 5950 1950
+	5650 2150 5950 2150
 Wire Wire Line
-	5650 2500 5950 2500
+	5650 2700 5950 2700
 Wire Wire Line
-	5650 2600 5950 2600
+	5650 2800 5950 2800
 Wire Wire Line
 	2100 850  2500 850 
 Wire Wire Line
@@ -534,52 +534,48 @@ F 3 "" H 2750 5200 50  0000 C CNN
 	1    2750 5200
 	0    1    1    0   
 $EndComp
-Text Label 3950 2700 0    60   ~ 0
-A17
-Text Label 3950 2800 0    60   ~ 0
-B17
 Text Label 3950 2900 0    60   ~ 0
-C16
+A17
 Text Label 3950 3000 0    60   ~ 0
-A16
+B17
 Text Label 3950 3100 0    60   ~ 0
-D15
+C16
 Text Label 3950 3200 0    60   ~ 0
-B15
+A16
 Text Label 3950 3300 0    60   ~ 0
+D15
+Text Label 3950 3400 0    60   ~ 0
+B15
+Text Label 3950 3500 0    60   ~ 0
 D14
-Wire Wire Line
-	4150 2700 3900 2700
-Wire Wire Line
-	3900 2800 4150 2800
 Wire Wire Line
 	4150 2900 3900 2900
 Wire Wire Line
 	3900 3000 4150 3000
 Wire Wire Line
-	3900 3100 4150 3100
+	4150 3100 3900 3100
 Wire Wire Line
 	3900 3200 4150 3200
 Wire Wire Line
 	3900 3300 4150 3300
-Text Label 5700 2700 0    60   ~ 0
-B18
-Text Label 5700 2800 0    60   ~ 0
-C17
+Wire Wire Line
+	3900 3400 4150 3400
+Wire Wire Line
+	3900 3500 4150 3500
 Text Label 5700 2900 0    60   ~ 0
-D16
+B18
 Text Label 5700 3000 0    60   ~ 0
-B16
+C17
 Text Label 5700 3100 0    60   ~ 0
-E15
+D16
 Text Label 5700 3200 0    60   ~ 0
-C15
+B16
 Text Label 5700 3300 0    60   ~ 0
+E15
+Text Label 5700 3400 0    60   ~ 0
+C15
+Text Label 5700 3500 0    60   ~ 0
 E14
-Wire Wire Line
-	5650 2700 5950 2700
-Wire Wire Line
-	5650 2800 5950 2800
 Wire Wire Line
 	5650 2900 5950 2900
 Wire Wire Line
@@ -590,24 +586,24 @@ Wire Wire Line
 	5650 3200 5950 3200
 Wire Wire Line
 	5650 3300 5950 3300
-Text Label 3950 3400 0    60   ~ 0
-A14
-Text Label 3950 3500 0    60   ~ 0
-D13
+Wire Wire Line
+	5650 3400 5950 3400
+Wire Wire Line
+	5650 3500 5950 3500
 Text Label 3950 3600 0    60   ~ 0
-B13
+A14
 Text Label 3950 3700 0    60   ~ 0
-A12
+D13
 Text Label 3950 3800 0    60   ~ 0
-D12
+B13
 Text Label 3950 3900 0    60   ~ 0
-B12
+A12
 Text Label 3950 4000 0    60   ~ 0
+D12
+Text Label 3950 4100 0    60   ~ 0
+B12
+Text Label 3950 4200 0    60   ~ 0
 D11
-Wire Wire Line
-	3900 3400 4150 3400
-Wire Wire Line
-	3900 3500 4150 3500
 Wire Wire Line
 	3900 3600 4150 3600
 Wire Wire Line
@@ -618,24 +614,24 @@ Wire Wire Line
 	3900 3900 4150 3900
 Wire Wire Line
 	3900 4000 4150 4000
-Text Label 5700 3400 0    60   ~ 0
-C14
-Text Label 5700 3500 0    60   ~ 0
-E13
+Wire Wire Line
+	3900 4100 4150 4100
+Wire Wire Line
+	3900 4200 4150 4200
 Text Label 5700 3600 0    60   ~ 0
-C13
+C14
 Text Label 5700 3700 0    60   ~ 0
-A13
+E13
 Text Label 5700 3800 0    60   ~ 0
-E12
+C13
 Text Label 5700 3900 0    60   ~ 0
-C12
+A13
 Text Label 5700 4000 0    60   ~ 0
+E12
+Text Label 5700 4100 0    60   ~ 0
+C12
+Text Label 5700 4200 0    60   ~ 0
 E11
-Wire Wire Line
-	5650 3400 5950 3400
-Wire Wire Line
-	5650 3500 5950 3500
 Wire Wire Line
 	5650 3600 5950 3600
 Wire Wire Line
@@ -647,6 +643,14 @@ Wire Wire Line
 Wire Wire Line
 	5650 4000 5950 4000
 Wire Wire Line
+	5650 4100 5950 4100
+Wire Wire Line
+	5650 4200 5950 4200
+Wire Wire Line
+	3900 1650 4150 1650
+Wire Wire Line
+	3900 1550 4150 1550
+Wire Wire Line
 	3900 1450 4150 1450
 Wire Wire Line
 	3900 1350 4150 1350
@@ -655,24 +659,20 @@ Wire Wire Line
 Wire Wire Line
 	3900 1150 4150 1150
 Wire Wire Line
-	3900 1050 4150 1050
-Wire Wire Line
-	3900 950  4150 950 
-Wire Wire Line
-	4150 850  3900 850 
-Text Label 3950 1450 0    60   ~ 0
+	4150 1050 3900 1050
+Text Label 3950 1650 0    60   ~ 0
 B8
-Text Label 3950 1350 0    60   ~ 0
+Text Label 3950 1550 0    60   ~ 0
 A8
-Text Label 3950 1250 0    60   ~ 0
+Text Label 3950 1450 0    60   ~ 0
 E9
-Text Label 3950 1150 0    60   ~ 0
+Text Label 3950 1350 0    60   ~ 0
 C10
-Text Label 3950 1050 0    60   ~ 0
+Text Label 3950 1250 0    60   ~ 0
 B10
-Text Label 3950 950  0    60   ~ 0
+Text Label 3950 1150 0    60   ~ 0
 A10
-Text Label 3950 850  0    60   ~ 0
+Text Label 3950 1050 0    60   ~ 0
 B11
 Wire Wire Line
 	1350 1650 1600 1650
@@ -913,41 +913,41 @@ F 3 "" H 6550 2650 60  0000 C CNN
 $EndComp
 $Comp
 L LFE5-BG381 U?
-U 5 1 58E8B762
-P 9900 3900
-AR Path="/58E8B762" Ref="U?"  Part="1" 
-AR Path="/56AC389C/58E8B762" Ref="U?"  Part="5" 
-F 0 "U?" H 9900 4850 60  0000 C CNN
-F 1 "LFE5U-25F-6BG381C" H 9900 4750 60  0000 C CNN
-F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 8850 4850 60  0001 C CNN
-F 3 "" H 8850 4850 60  0000 C CNN
-	5    9900 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L LFE5-BG381 U?
-U 7 1 58E8B906
+U 5 1 58E8B906
 P 7600 3900
 AR Path="/58E8B906" Ref="U?"  Part="1" 
-AR Path="/56AC389C/58E8B906" Ref="U?"  Part="7" 
+AR Path="/56AC389C/58E8B906" Ref="U?"  Part="5" 
 F 0 "U?" H 7600 4850 60  0000 C CNN
 F 1 "LFE5U-25F-6BG381C" H 7600 4750 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 6550 4850 60  0001 C CNN
 F 3 "" H 6550 4850 60  0000 C CNN
-	7    7600 3900
+	5    7600 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L LFE5-BG381 U?
-U 8 1 58E8BC7A
+U 6 1 58E8BC7A
 P 9900 1650
 AR Path="/58E8BC7A" Ref="U?"  Part="1" 
-AR Path="/56AC389C/58E8BC7A" Ref="U?"  Part="8" 
+AR Path="/56AC389C/58E8BC7A" Ref="U?"  Part="6" 
 F 0 "U?" H 9900 2600 60  0000 C CNN
 F 1 "LFE5U-25F-6BG381C" H 9900 2500 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 8850 2600 60  0001 C CNN
 F 3 "" H 8850 2600 60  0000 C CNN
-	8    9900 1650
+	6    9900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LFE5-BG381 U?
+U 7 1 58E7895F
+P 9900 3900
+AR Path="/58E7895F" Ref="U?"  Part="1" 
+AR Path="/56AC389C/58E7895F" Ref="U?"  Part="7" 
+F 0 "U?" H 9900 4850 60  0000 C CNN
+F 1 "LFE5U-25F-6BG381C" H 9900 4750 60  0000 C CNN
+F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 8850 4850 60  0001 C CNN
+F 3 "" H 8850 4850 60  0000 C CNN
+	7    9900 3900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
