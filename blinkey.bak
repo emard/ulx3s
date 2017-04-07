@@ -51,17 +51,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_01X07 OLED1
-U 1 1 58D66046
-P 4550 1550
-F 0 "OLED1" H 4550 1950 50  0000 C CNN
-F 1 "CONN_01X07" V 4650 1550 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x07" H 4550 1550 50  0001 C CNN
-F 3 "" H 4550 1550 50  0000 C CNN
-	1    4550 1550
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 1250 4850 1250
 Wire Wire Line
@@ -406,14 +395,14 @@ to global onboard reset?
 Text Label 2750 2800 0    60   ~ 0
 BTNPU
 $Comp
-L SSD_13xx OLED2
+L SSD_13xx OLED1
 U 1 1 58E6D4AC
-P 8300 1100
-F 0 "OLED2" H 8300 700 50  0000 C CNN
-F 1 "SSD_1331" H 8300 600 50  0000 C CNN
-F 2 "" V 8300 900 50  0000 C CNN
-F 3 "" V 8300 900 50  0000 C CNN
-	1    8300 1100
-	1    0    0    -1  
+P 4750 1550
+F 0 "OLED1" H 4750 1150 50  0000 C CNN
+F 1 "SSD_1331" H 4750 1050 50  0000 C CNN
+F 2 "oled:oled_13xx" V 4750 1350 50  0001 C CNN
+F 3 "" V 4750 1350 50  0000 C CNN
+	1    4750 1550
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
