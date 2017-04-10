@@ -3,7 +3,7 @@
   (general
     (links 462)
     (no_connects 462)
-    (area 93.949999 61.269999 178.070001 109.830001)
+    (area 93.949999 61.269999 178.070001 112.370001)
     (thickness 1.6)
     (drawings 6)
     (tracks 14)
@@ -843,7 +843,7 @@
   )
 
   (module Buttons_Switches_SMD:SW_SPST_SKQG (layer F.Cu) (tedit 56EC5E16) (tstamp 58D659AE)
-    (at 122.04 84.28)
+    (at 122.04 86.82)
     (descr "ALPS 5.2mm Square Low-profile TACT Switch (SMD)")
     (tags "SPST Button Switch")
     (path /58D6547C/58D6605A)
@@ -886,7 +886,7 @@
   )
 
   (module Buttons_Switches_SMD:SW_SPST_SKQG (layer F.Cu) (tedit 56EC5E16) (tstamp 58D659B6)
-    (at 67.43 103.33)
+    (at 110.61 86.82)
     (descr "ALPS 5.2mm Square Low-profile TACT Switch (SMD)")
     (tags "SPST Button Switch")
     (path /58D6547C/58D6605B)
@@ -2894,7 +2894,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58307AEF) (tstamp 58D8FA8A)
-    (at 117.128 69.422)
+    (at 116.493 68.787)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /58D82BD0/58D90500)
@@ -2926,7 +2926,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58307AEF) (tstamp 58D8FA90)
-    (at 117.128 70.946)
+    (at 116.493 70.311)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /58D82BD0/58D904D5)
@@ -2958,7 +2958,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58307AEF) (tstamp 58D8FA96)
-    (at 117.128 72.47)
+    (at 116.493 71.835)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /58D82BD0/58D904AE)
@@ -2990,7 +2990,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58307AEF) (tstamp 58D8FA9C)
-    (at 117.128 73.994)
+    (at 116.493 73.359)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /58D82BD0/58D90455)
@@ -3022,7 +3022,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58307AEF) (tstamp 58D8FAA2)
-    (at 117.128 63.31)
+    (at 116.493 62.675)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /58D82BD0/58D907DC)
@@ -3054,7 +3054,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58307AEF) (tstamp 58D8FAA8)
-    (at 117.128 64.834)
+    (at 116.493 64.199)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /58D82BD0/58D907D6)
@@ -3086,7 +3086,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58307AEF) (tstamp 58D8FAAE)
-    (at 117.128 66.358)
+    (at 116.493 65.723)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /58D82BD0/58D907D0)
@@ -3118,7 +3118,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58307AEF) (tstamp 58D8FAB4)
-    (at 117.128 67.882)
+    (at 116.493 67.247)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /58D82BD0/58D907CA)
@@ -4014,7 +4014,7 @@
   )
 
   (module Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer B.Cu) (tedit 54130A77) (tstamp 58D911E2)
-    (at 123.31 72.85 270)
+    (at 118.865 77.93 270)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /58D913EC/58D913F5)
@@ -4654,7 +4654,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 58E6B6EC)
-    (at 128.39 105.87)
+    (at 128.39 108.41)
     (descr "Mounting Hole 3.2mm, M3, ISO14580")
     (tags "mounting hole 3.2mm m3 iso14580")
     (path /58E6B981)
@@ -4671,7 +4671,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 58E6B6F1)
-    (at 169.03 105.87)
+    (at 169.03 108.41)
     (descr "Mounting Hole 3.2mm, M3, ISO14580")
     (tags "mounting hole 3.2mm m3 iso14580")
     (path /58E6BACE)
@@ -4705,7 +4705,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 58E6B6FB)
-    (at 111.88 65.23)
+    (at 107.435 65.23)
     (descr "Mounting Hole 3.2mm, M3, ISO14580")
     (tags "mounting hole 3.2mm m3 iso14580")
     (path /58E6BBE9)
