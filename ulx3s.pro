@@ -1,4 +1,4 @@
-update=Pet 07 Tra 2017 01:09:43
+update=Pon 10 Tra 2017 12:13:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,4 @@ LibName34=footprints/dcdc_converter/ap3429a
 LibName35=footprints/usbserial/ft2232
 LibName36=footprints/esp32/ESP32
 LibName37=footprints/oled/ssd_13xx
+LibName38=footprints/usbserial/ftdi
