@@ -1,4 +1,4 @@
-(pcb /home/davor/src/circuits/fpga/ulx3s/ulx3s.dsn
+(pcb /home/davor/tmp/ulx3s/ulx3s.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -49,8 +49,8 @@
       (place BAT1 135730 -98250 back 180 (PN CR1225))
     )
     (component "SMD_Packages:SMD-1206_Pol"
-      (place D52 110610 -81740 back 180 (PN 2A))
-      (place D51 110610 -84280 back 0 (PN 2A))
+      (place D52 171570 -64341 front 90 (PN 2A))
+      (place D51 171570 -64595 back 90 (PN 2A))
       (place D8 165220 -72850 back 180 (PN 2A))
       (place D9 165220 -75390 back 0 (PN 2A))
     )
@@ -108,8 +108,8 @@
       (place D12 167760 -88090 back 270 (PN 1N4148))
       (place D13 156330 -94440 back 180 (PN 1N4148))
       (place D14 162680 -80470 back 180 (PN 1N4148))
-      (place D16 112100 -76025 back 180 (PN 1N4148))
-      (place D17 111880 -77930 back 180 (PN 1N4148))
+      (place D16 109340 -71580 back 90 (PN 1N4148))
+      (place D17 111880 -71580 back 90 (PN 1N4148))
     )
     (component "usb_otg:USB-MICRO-B-FCI-10118192-0001LF"
       (place US1 165220 -63825 back 180 (PN USB_FTDI))
@@ -160,12 +160,21 @@
       (place R19 116493 -64199 back 180 (PN 400))
       (place R20 116493 -65723 back 180 (PN 200))
       (place R21 116493 -67247 back 180 (PN 100))
-      (place R3 113150 -72850 back 90 (PN 4.7k))
+      (place R3 106800 -71580 back 270 (PN 4.7k))
       (place R22 147440 -96980 back 270 (PN 2.2k))
       (place R23 148710 -98250 back 270 (PN 2.2k))
       (place R24 158870 -99520 back 270 (PN 100k))
       (place R25 160140 -98250 back 270 (PN 470))
       (place R26 161410 -96980 back 270 (PN 470))
+      (place R11 105530 -76660 back 270 (PN 10k))
+      (place R12 109340 -76660 back 270 (PN 10k))
+      (place R27 111245 -76660 back 270 (PN 10k))
+      (place R28 113150 -81105 back 270 (PN 10k))
+      (place R29 111245 -81105 back 270 (PN 1k))
+      (place R30 113150 -76660 back 270 (PN 4.7k))
+      (place R31 107435 -81105 back 270 (PN 10k))
+      (place R32 109340 -81105 back 270 (PN 10k))
+      (place R33 107435 -76660 back 270 (PN 10k))
     )
     (component "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm"
       (place U1 135480 -84800 front 0 (PN "LFE5U-25F-6BG381C"))
@@ -1552,13 +1561,13 @@
         U1-G17 U1-H19 U1-J2 U1-J7 U1-J9 U1-J10 U1-J11 U1-J12 U1-J14 U1-K6 U1-K7 U1-K9
         U1-K10 U1-K11 U1-K12 U1-K14 U1-K15 U1-L9 U1-L10 U1-L11 U1-L12 U1-M2 U1-M7
         U1-M9 U1-M10 U1-M11 U1-M12 U1-M14 U1-M16 U1-N6 U1-N7 U1-N14 U1-N15 U1-P7 U1-P8
-        U1-P11 U1-P12 U1-P13 U1-P14 U1-R19 U1-T6 U1-T7 U1-T8 U1-T9 U1-T10 U1-U6 U1-U7
-        U1-U8 U1-U9 U1-U10 U1-U11 U1-U12 U1-U13 U1-U14 U1-V5 U1-V6 U1-V7 U1-V8 U1-V9
-        U1-V10 U1-V11 U1-V12 U1-V13 U1-V14 U1-V15 U1-V16 U1-V19 U1-V20 U1-W6 U1-W7
-        U1-W12 U1-W15 U1-W16 U1-W19 U1-Y5 U1-Y6 U1-Y7 U1-Y8 U1-Y11 U1-Y12 GPDI1-0
-        GPDI1-0@1 GPDI1-0@2 GPDI1-4 GPDI1-7 GPDI1-10 GPDI1-13 GPDI1-16 GPDI1-0@3 U10-4
-        C18-2 U11-1 D13-2 U2-1 J1-3 J1-4 J1-21 J1-22 J1-37 J1-38 J2-3 J2-4 J2-21 J2-22
-        J2-37 J2-38 H1-1 H2-1 H3-1 H4-1 OLED1-1 BTN0-2 BTN0-2@1 U6-6 U6-16)
+        U1-P11 U1-P12 U1-P13 U1-P14 U1-R4 U1-R19 U1-T6 U1-T7 U1-T8 U1-T9 U1-T10 U1-U4
+        U1-U6 U1-U7 U1-U8 U1-U9 U1-U10 U1-U11 U1-U12 U1-U13 U1-U14 U1-V5 U1-V6 U1-V7
+        U1-V8 U1-V9 U1-V10 U1-V11 U1-V12 U1-V13 U1-V14 U1-V15 U1-V16 U1-V19 U1-V20
+        U1-W6 U1-W7 U1-W12 U1-W15 U1-W16 U1-W19 U1-Y5 U1-Y6 U1-Y7 U1-Y8 U1-Y11 U1-Y12
+        GPDI1-0 GPDI1-0@1 GPDI1-0@2 GPDI1-4 GPDI1-7 GPDI1-10 GPDI1-13 GPDI1-16 GPDI1-0@3
+        U10-4 C18-2 U11-1 D13-2 U2-1 J1-3 J1-4 J1-21 J1-22 J1-37 J1-38 J2-3 J2-4 J2-21
+        J2-22 J2-37 J2-38 H1-1 H2-1 H3-1 H4-1 OLED1-1 BTN0-2 BTN0-2@1 U6-6 U6-16)
     )
     (net +5V
       (pins D52-2 D51-1 U3-4 U4-4 U5-4 C1-1 C5-1 C9-1 D8-1 D9-2 C13-1 Q1-2 GPDI1-19
@@ -1573,8 +1582,9 @@
     (net +3V3
       (pins SD1-4 L2-2 C7-1 C8-1 D11-2 U9-1 U9-3 U9-9 U9-14 U9-27 U9-43 U9-49 C6-1
         R7-1 RA3-1 U1-F9 U1-F10 U1-F11 U1-F12 U1-H6 U1-H7 U1-H14 U1-H15 U1-J6 U1-J15
-        U1-L6 U1-L7 U1-L14 U1-L15 U1-M6 U1-M15 U1-P9 U1-P10 U10-8 U11-2 D14-1 U2-2
-        J1-1 J1-2 J1-19 J1-20 J1-39 J1-40 J2-1 J2-2 J2-19 J2-20 OLED1-2 R22-1 R23-1)
+        U1-L6 U1-L7 U1-L14 U1-L15 U1-M6 U1-M15 U1-P9 U1-P10 U1-T2 U1-T3 U1-T4 U1-U2
+        U10-8 U11-2 D14-1 U2-2 J1-1 J1-2 J1-19 J1-20 J1-39 J1-40 J2-1 J2-2 J2-19 J2-20
+        OLED1-2 R22-1 R23-1 R11-1 R12-1 R27-1 R28-1 R29-1 R30-1 R31-1 R32-1 R33-1)
     )
     (net "Net-(L1-Pad1)"
       (pins L1-1 U3-3)
@@ -2077,13 +2087,61 @@
     (net SDRAM_nWE
       (pins U9-16 U1-U19)
     )
+    (net /flash/FLASH_nWP
+      (pins U10-3 R11-2)
+    )
+    (net /flash/FLASH_nHOLD
+      (pins U10-7 R12-2)
+    )
+    (net /flash/FLASH_MOSI
+      (pins U1-W2 U10-5 R27-2)
+    )
+    (net /flash/FLASH_MISO
+      (pins U1-V2 U10-2 R28-2)
+    )
+    (net /flash/FLASH_SCK
+      (pins U1-U3 U10-6 R29-2)
+    )
+    (net /flash/FLASH_nCS
+      (pins U1-R2 U10-1 R30-2)
+    )
+    (net /flash/FPGA_PROGRAMN
+      (pins U1-W3 R31-2)
+    )
+    (net /flash/FPGA_DONE
+      (pins U1-Y3 R32-2)
+    )
+    (net /flash/FPGA_INITN
+      (pins U1-V3 R33-2)
+    )
     (class kicad_default "" +1V2 +2V5 +3V3 +5V /analog/AUDIO_L /analog/AUDIO_R
-      /blinkey/BTNPU /gpdi/VREF2 /gpio/IN5V /gpio/OUT5V /power/FB1 /power/FB2
-      /power/FB3 /power/HOLD /power/OSCI_32k /power/OSCO_32k /power/PWREN
-      /power/SHUT /power/VBAT /power/WAKE /power/WAKEUPn /power/WKUP /power/WKn
-      /usb/FT3V3 FTDI_nDTR FTDI_nSUSPEND "Net-(BTN0-Pad1)" "Net-(D9-Pad1)"
-      "Net-(L1-Pad1)" "Net-(L2-Pad1)" "Net-(L3-Pad1)" "Net-(Q2-Pad3)" SHUTDOWN
-      USB5V USB_FTDI_DM USB_FTDI_DP nRESET
+      /blinkey/BTNPU /flash/FLASH_MISO /flash/FLASH_MOSI /flash/FLASH_SCK
+      /flash/FLASH_nCS /flash/FLASH_nHOLD /flash/FLASH_nWP /flash/FPGA_DONE
+      /flash/FPGA_INITN /flash/FPGA_PROGRAMN /gpdi/VREF2 /gpio/IN5V /gpio/OUT5V
+      /power/FB1 /power/FB2 /power/FB3 /power/HOLD /power/OSCI_32k /power/OSCO_32k
+      /power/PWREN /power/SHUT /power/VBAT /power/WAKE /power/WAKEUPn /power/WKUP
+      /power/WKn /usb/FT3V3 AUDIO_L0 AUDIO_L1 AUDIO_L2 AUDIO_L3 AUDIO_R0 AUDIO_R1
+      AUDIO_R2 AUDIO_R3 FTDI_RXD FTDI_TXD FTDI_nCTS FTDI_nDCD FTDI_nDSR FTDI_nDTR
+      FTDI_nRI FTDI_nRTS FTDI_nSUSPEND I2C_SCL I2C_SDA "Net-(AUDIO1-Pad4)"
+      "Net-(AUDIO1-Pad5)" "Net-(AUDIO1-Pad6)" "Net-(BTN0-Pad1)" "Net-(D9-Pad1)"
+      "Net-(L1-Pad1)" "Net-(L2-Pad1)" "Net-(L3-Pad1)" "Net-(Q2-Pad3)" "Net-(U1-PadE2)"
+      "Net-(U1-PadF2)" "Net-(U1-PadF3)" "Net-(U1-PadG3)" "Net-(U1-PadL16)"
+      "Net-(U1-PadL17)" "Net-(U1-PadL18)" "Net-(U1-PadL19)" "Net-(U1-PadL20)"
+      "Net-(U1-PadM17)" "Net-(U1-PadM18)" "Net-(U1-PadM19)" "Net-(U1-PadM20)"
+      "Net-(U1-PadN16)" "Net-(U1-PadN17)" "Net-(U1-PadN18)" "Net-(U1-PadN19)"
+      "Net-(U1-PadN20)" "Net-(U1-PadP16)" "Net-(U1-PadP17)" "Net-(U1-PadP18)"
+      "Net-(U1-PadP19)" "Net-(U1-PadR1)" "Net-(U1-PadR16)" "Net-(U1-PadR17)"
+      "Net-(U1-PadR18)" "Net-(U1-PadR3)" "Net-(U1-PadT1)" "Net-(U1-PadT18)"
+      "Net-(U1-PadT20)" "Net-(U1-PadU1)" "Net-(U1-PadU20)" "Net-(U1-PadV1)"
+      "Net-(U1-PadW1)" "Net-(U1-PadY2)" "Net-(U2-Pad10)" "Net-(U2-Pad11)"
+      "Net-(U2-Pad12)" "Net-(U2-Pad13)" "Net-(U2-Pad14)" "Net-(U2-Pad15)"
+      "Net-(U2-Pad16)" "Net-(U2-Pad26)" "Net-(U2-Pad27)" "Net-(U2-Pad28)"
+      "Net-(U2-Pad29)" "Net-(U2-Pad36)" "Net-(U2-Pad37)" "Net-(U2-Pad38)"
+      "Net-(U2-Pad39)" "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad6)" "Net-(U2-Pad8)"
+      "Net-(U2-Pad9)" "Net-(US1-Pad4)" "Net-(US2-Pad4)" "Net-(Y1-Pad2)" "Net-(Y1-Pad3)"
+      OLED_CLK OLED_CS OLED_DC OLED_MOSI OLED_RES SD_2 SHUTDOWN USB5V USB_FPGA_DM
+      USB_FPGA_DP USB_FTDI_DM USB_FTDI_DP WIFI_GPIO0 WIFI_GPIO15 WIFI_GPIO2
+      WIFI_PD WIFI_RESET WIFI_RXD WIFI_TXD nRESET
       (circuit
         (use_via Via[0-3]_600:400_um)
       )
