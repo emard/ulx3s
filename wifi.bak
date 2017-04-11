@@ -82,10 +82,6 @@ Text GLabel 7750 4950 2    60   Input ~ 0
 JTAG_TCK
 Text GLabel 7750 4650 2    60   Input ~ 0
 JTAG_TMS
-Text GLabel 5900 4300 0    60   Input ~ 0
-WIFI_PD
-Text GLabel 5900 4700 0    60   Input ~ 0
-WIFI_RESET
 $Comp
 L ESP-32S U2
 U 1 1 58E5662B
@@ -123,4 +119,30 @@ Wire Wire Line
 	5500 4100 5900 4100
 Wire Wire Line
 	5350 4200 5900 4200
+Text GLabel 5900 4300 0    60   Input ~ 0
+WIFI_EN
+$Comp
+L +3V3 #PWR084
+U 1 1 58ED6C57
+P 4600 4300
+F 0 "#PWR084" H 4600 4150 50  0001 C CNN
+F 1 "+3V3" H 4600 4440 50  0000 C CNN
+F 2 "" H 4600 4300 50  0000 C CNN
+F 3 "" H 4600 4300 50  0000 C CNN
+	1    4600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R34
+U 1 1 58ED6C6D
+P 4600 4450
+F 0 "R34" V 4680 4450 50  0000 C CNN
+F 1 "15k" V 4600 4450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4530 4450 50  0001 C CNN
+F 3 "" H 4600 4450 50  0000 C CNN
+	1    4600 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 4600 3    60   Input ~ 0
+WIFI_EN
 $EndSCHEMATC

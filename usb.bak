@@ -216,21 +216,21 @@ FTDI_nRI
 $Comp
 L LFE5-BG381 U1
 U 10 1 58D87A63
-P 8800 1900
-F 0 "U1" H 8700 2300 60  0000 C CNN
-F 1 "LFE5U-25F-6BG381C" H 8700 2200 60  0000 C CNN
-F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 7750 2850 60  0001 C CNN
-F 3 "" H 7750 2850 60  0000 C CNN
-	10   8800 1900
+P 8600 3950
+F 0 "U1" H 8500 4350 60  0000 C CNN
+F 1 "LFE5U-25F-6BG381C" H 8500 4250 60  0000 C CNN
+F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 7550 4900 60  0001 C CNN
+F 3 "" H 7550 4900 60  0000 C CNN
+	10   8600 3950
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9500 1750 2    60   Input ~ 0
+Text GLabel 9300 3800 2    60   Input ~ 0
 JTAG_TDI
-Text GLabel 9500 1850 2    60   Input ~ 0
+Text GLabel 9300 3900 2    60   Input ~ 0
 JTAG_TDO
-Text GLabel 9500 1950 2    60   Input ~ 0
+Text GLabel 9300 4000 2    60   Input ~ 0
 JTAG_TCK
-Text GLabel 9500 2050 2    60   Input ~ 0
+Text GLabel 9300 4100 2    60   Input ~ 0
 JTAG_TMS
 Text GLabel 2150 1500 2    60   Input ~ 0
 USB5V
@@ -367,4 +367,69 @@ Wire Wire Line
 	6350 5150 6450 5150
 Wire Wire Line
 	6750 5150 6850 5150
+$Comp
+L LFE5-BG381 U?
+U 5 1 58EDBDE6
+P 9400 2050
+F 0 "U?" H 9400 3000 60  0000 C CNN
+F 1 "LFE5U-25F-6BG381C" H 9400 2900 60  0000 C CNN
+F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 8350 3000 60  0001 C CNN
+F 3 "" H 8350 3000 60  0000 C CNN
+	5    9400 2050
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10150 1350 2    60   Input ~ 0
+FTDI_TXD
+Text GLabel 10150 1450 2    60   Input ~ 0
+FTDI_RXD
+Text GLabel 10150 1550 2    60   Input ~ 0
+FTDI_nRTS
+Text GLabel 10150 1650 2    60   Input ~ 0
+FTDI_nCTS
+Text GLabel 10150 1750 2    60   Input ~ 0
+FTDI_nDTR
+Text GLabel 10150 1950 2    60   Input ~ 0
+FTDI_nDCD
+Text GLabel 10150 1850 2    60   Input ~ 0
+FTDI_nDSR
+Text GLabel 10150 2050 2    60   Input ~ 0
+FTDI_nRI
+Text GLabel 8650 1350 0    60   Input ~ 0
+WIFI_TXD
+Text GLabel 8650 1450 0    60   Input ~ 0
+WIFI_RXD
+Text GLabel 8650 1550 0    60   Input ~ 0
+WIFI_GPIO0
+Text GLabel 8650 1650 0    60   Input ~ 0
+WIFI_GPIO2
+Text GLabel 8650 1750 0    60   Input ~ 0
+WIFI_GPIO15
+Text GLabel 8650 1850 0    60   Input ~ 0
+WIFI_EN
+Text GLabel 8650 2550 0    60   Input ~ 0
+AUDIO_L0
+Text GLabel 8650 2650 0    60   Input ~ 0
+AUDIO_L1
+Text GLabel 8650 2750 0    60   Input ~ 0
+AUDIO_L2
+Text GLabel 8650 2850 0    60   Input ~ 0
+AUDIO_L3
+Text GLabel 10150 2550 2    60   Input ~ 0
+AUDIO_R0
+Text GLabel 10150 2650 2    60   Input ~ 0
+AUDIO_R1
+Text GLabel 10150 2750 2    60   Input ~ 0
+AUDIO_R2
+Text GLabel 10150 2850 2    60   Input ~ 0
+AUDIO_R3
+Text GLabel 8650 2150 0    60   Input ~ 0
+OLED_RES
+Text GLabel 8650 2050 0    60   Input ~ 0
+OLED_MOSI
+Text GLabel 8650 1950 0    60   Input ~ 0
+OLED_CLK
+Text GLabel 8650 2250 0    60   Input ~ 0
+OLED_DC
+Text GLabel 8650 2350 0    60   Input ~ 0
+OLED_CS
 $EndSCHEMATC
