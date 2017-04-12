@@ -48,7 +48,7 @@
     (edge_width 0.2)
     (via_size 0.6)
     (via_drill 0.4)
-    (via_min_size 0.45)
+    (via_min_size 0.454)
     (via_min_drill 0.254)
     (uvia_size 0.3)
     (uvia_drill 0.1)
@@ -346,9 +346,9 @@
   )
 
   (net_class BGA ""
-    (clearance 0.13)
+    (clearance 0.127)
     (trace_width 0.2)
-    (via_dia 0.45)
+    (via_dia 0.454)
     (via_drill 0.254)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
