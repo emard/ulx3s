@@ -815,7 +815,7 @@
   )
 
   (module Buttons_Switches_SMD:SW_SPST_SKQG (layer F.Cu) (tedit 56EC5E16) (tstamp 58D6598E)
-    (at 106.8 86.82)
+    (at 104.26 89.36)
     (descr "ALPS 5.2mm Square Low-profile TACT Switch (SMD)")
     (tags "SPST Button Switch")
     (path /58D6547C/58D66056)
@@ -858,7 +858,7 @@
   )
 
   (module Buttons_Switches_SMD:SW_SPST_SKQG (layer F.Cu) (tedit 56EC5E16) (tstamp 58D65996)
-    (at 118.23 86.82)
+    (at 115.69 89.36)
     (descr "ALPS 5.2mm Square Low-profile TACT Switch (SMD)")
     (tags "SPST Button Switch")
     (path /58D6547C/58D66057)
