@@ -143,6 +143,33 @@ F 3 "" H 4600 4450 50  0000 C CNN
 	1    4600 4450
 	1    0    0    -1  
 $EndComp
-Text GLabel 4600 4600 3    60   Input ~ 0
+Text GLabel 4750 4650 2    60   Input ~ 0
 WIFI_EN
+Wire Wire Line
+	4600 4600 4600 4700
+Wire Wire Line
+	4600 4650 4750 4650
+Connection ~ 4600 4650
+$Comp
+L GND #PWR087
+U 1 1 58EE2982
+P 4600 5200
+F 0 "#PWR087" H 4600 4950 50  0001 C CNN
+F 1 "GND" H 4600 5050 50  0000 C CNN
+F 2 "" H 4600 5200 50  0000 C CNN
+F 3 "" H 4600 5200 50  0000 C CNN
+	1    4600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X01 J3
+U 1 1 58EE29FF
+P 4600 4950
+F 0 "J3" H 4600 5050 50  0000 C CNN
+F 1 "WIFI_OFF" H 4600 4850 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x01" H 4600 3750 50  0001 C CNN
+F 3 "" H 4600 3750 50  0000 C CNN
+	1    4600 4950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
