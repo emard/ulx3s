@@ -252,21 +252,21 @@ Text GLabel 10050 3050 2    60   Input ~ 0
 SDRAM_D6
 Text GLabel 10050 3150 2    60   Input ~ 0
 SDRAM_D7
-Text GLabel 10050 3250 2    60   Input ~ 0
+Text GLabel 10050 5150 2    60   Input ~ 0
 SDRAM_D8
-Text GLabel 10050 3350 2    60   Input ~ 0
+Text GLabel 10050 4750 2    60   Input ~ 0
 SDRAM_D9
-Text GLabel 10050 3450 2    60   Input ~ 0
+Text GLabel 10050 4850 2    60   Input ~ 0
 SDRAM_D10
 Text GLabel 10050 3550 2    60   Input ~ 0
 SDRAM_D11
 Text GLabel 10050 3650 2    60   Input ~ 0
 SDRAM_D12
-Text GLabel 10050 3750 2    60   Input ~ 0
+Text GLabel 10050 5050 2    60   Input ~ 0
 SDRAM_D13
-Text GLabel 10050 3850 2    60   Input ~ 0
+Text GLabel 10050 4950 2    60   Input ~ 0
 SDRAM_D14
-Text GLabel 10050 3950 2    60   Input ~ 0
+Text GLabel 10050 5650 2    60   Input ~ 0
 SDRAM_D15
 Text GLabel 8550 2450 0    60   Input ~ 0
 SDRAM_A0
@@ -284,19 +284,19 @@ Text GLabel 8550 3050 0    60   Input ~ 0
 SDRAM_A6
 Text GLabel 8550 3150 0    60   Input ~ 0
 SDRAM_A7
-Text GLabel 8550 3250 0    60   Input ~ 0
+Text GLabel 8550 5850 0    60   Input ~ 0
 SDRAM_A8
 Text GLabel 8550 3350 0    60   Input ~ 0
 SDRAM_A9
-Text GLabel 8550 3450 0    60   Input ~ 0
+Text GLabel 8550 5150 0    60   Input ~ 0
 SDRAM_A10
-Text GLabel 8550 3550 0    60   Input ~ 0
+Text GLabel 8550 4650 0    60   Input ~ 0
 SDRAM_A11
 Text GLabel 8550 3650 0    60   Input ~ 0
 SDRAM_BA0
 Text GLabel 8550 3750 0    60   Input ~ 0
 SDRAM_BA1
-Text GLabel 8550 3850 0    60   Input ~ 0
+Text GLabel 8550 5050 0    60   Input ~ 0
 SDRAM_CLK
 Text GLabel 8550 3950 0    60   Input ~ 0
 SDRAM_CKE
@@ -311,32 +311,32 @@ F 3 "" H 8250 6200 60  0000 C CNN
 	4    9300 5250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10050 4550 2    60   Input ~ 0
+Text GLabel 10050 5850 2    60   Input ~ 0
 SDRAM_DQM0
-Text GLabel 10050 4650 2    60   Input ~ 0
+Text GLabel 10050 5950 2    60   Input ~ 0
 SDRAM_DQM1
-Text GLabel 8550 4550 0    60   Input ~ 0
+Text GLabel 8550 5950 0    60   Input ~ 0
 SDRAM_nRAS
-Text GLabel 8550 4650 0    60   Input ~ 0
-SDRAM_nCAS
 Text GLabel 8550 4750 0    60   Input ~ 0
-SDRAM_nWE
+SDRAM_nCAS
 Text GLabel 8550 4850 0    60   Input ~ 0
-SDRAM_nCS
-Text GLabel 8550 5050 0    60   Input ~ 0
-SD_CMD
-Text GLabel 8550 5150 0    60   Input ~ 0
-SD_D0
+SDRAM_nWE
 Text GLabel 8550 4950 0    60   Input ~ 0
-SD_CLK
+SDRAM_nCS
+Text GLabel 8550 5350 0    60   Input ~ 0
+SD_CMD
+Text GLabel 8550 5450 0    60   Input ~ 0
+SD_D0
 Text GLabel 8550 5250 0    60   Input ~ 0
+SD_CLK
+Text GLabel 8550 5550 0    60   Input ~ 0
 SD_D3
-Text GLabel 10050 4950 2    60   Input ~ 0
-SD_D1
-Text GLabel 10050 5050 2    60   Input ~ 0
-SD_D2
-Text GLabel 10050 5150 2    60   Input ~ 0
-SD_WP
 Text GLabel 10050 5250 2    60   Input ~ 0
+SD_D1
+Text GLabel 10050 5350 2    60   Input ~ 0
+SD_D2
+Text GLabel 10050 5450 2    60   Input ~ 0
+SD_WP
+Text GLabel 10050 5550 2    60   Input ~ 0
 SD_CD
 $EndSCHEMATC
