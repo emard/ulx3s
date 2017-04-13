@@ -141,13 +141,13 @@ F 3 "" H 1900 3050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1850 1800 2    60   Input ~ 0
-USB_FTDI_DM
+USB_FTDI_D-
 Text GLabel 1850 1900 2    60   Input ~ 0
-USB_FTDI_DP
+USB_FTDI_D+
 Text GLabel 1850 2750 2    60   Input ~ 0
-USB_FPGA_DM
+USB_FPGA_D-
 Text GLabel 1850 2850 2    60   Input ~ 0
-USB_FPGA_DP
+USB_FPGA_D+
 NoConn ~ 1850 2950
 NoConn ~ 1850 2000
 $Comp
@@ -184,9 +184,9 @@ F 3 "" H 5600 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5000 3100 0    60   Input ~ 0
-USB_FTDI_DM
+USB_FTDI_D-
 Text GLabel 5000 3200 0    60   Input ~ 0
-USB_FTDI_DP
+USB_FTDI_D+
 Text GLabel 6850 5150 2    60   Input ~ 0
 FTDI_nSUSPEND
 Text GLabel 6550 3700 2    60   Input ~ 0
@@ -432,4 +432,8 @@ Text GLabel 8650 2250 0    60   Input ~ 0
 OLED_DC
 Text GLabel 8650 2350 0    60   Input ~ 0
 OLED_CS
+Text GLabel 10150 2450 2    60   Input ~ 0
+USB_FPGA_D-
+Text GLabel 8650 2450 0    60   Input ~ 0
+USB_FPGA_D+
 $EndSCHEMATC

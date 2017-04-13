@@ -181,25 +181,25 @@ F 3 "" H 2250 3800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 1700 2000 2    60   Input ~ 0
-GPDI_ETH_N
+GPDI_ETH-
 Text GLabel 1700 2100 2    60   Input ~ 0
-GPDI_ETH_P
+GPDI_ETH+
 Text GLabel 1700 2200 2    60   Input ~ 0
-GPDI_D2_P
+GPDI_D2+
 Text GLabel 1700 2400 2    60   Input ~ 0
-GPDI_D2_N
+GPDI_D2-
 Text GLabel 1700 2500 2    60   Input ~ 0
-GPDI_D1_P
+GPDI_D1+
 Text GLabel 1700 2700 2    60   Input ~ 0
-GPDI_D1_N
+GPDI_D1-
 Text GLabel 1700 2800 2    60   Input ~ 0
-GPDI_D0_P
+GPDI_D0+
 Text GLabel 1700 3000 2    60   Input ~ 0
-GPDI_D0_N
+GPDI_D0-
 Text GLabel 1700 3100 2    60   Input ~ 0
-GPDI_CLK_P
+GPDI_CLK+
 Text GLabel 1700 3300 2    60   Input ~ 0
-GPDI_CLK_N
+GPDI_CLK-
 Text GLabel 1700 3400 2    60   Input ~ 0
 GPDI_CEC
 Text GLabel 1700 3600 2    60   Input ~ 0
@@ -412,25 +412,25 @@ F 3 "" H 5200 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5500 2200 0    60   Input ~ 0
-GPDI_D0_P
+GPDI_D0+
 Text GLabel 7000 2200 2    60   Input ~ 0
-GPDI_D0_N
+GPDI_D0-
 Text GLabel 7000 2300 2    60   Input ~ 0
-GPDI_D1_N
+GPDI_D1-
 Text GLabel 7000 2400 2    60   Input ~ 0
-GPDI_D2_N
+GPDI_D2-
 Text GLabel 7000 2500 2    60   Input ~ 0
-GPDI_CLK_N
+GPDI_CLK-
 Text GLabel 7000 2600 2    60   Input ~ 0
-GPDI_ETH_N
+GPDI_ETH-
 Text GLabel 5500 2300 0    60   Input ~ 0
-GPDI_D1_P
+GPDI_D1+
 Text GLabel 5500 2400 0    60   Input ~ 0
-GPDI_D2_P
+GPDI_D2+
 Text GLabel 5500 2500 0    60   Input ~ 0
-GPDI_CLK_P
+GPDI_CLK+
 Text GLabel 5500 2600 0    60   Input ~ 0
-GPDI_ETH_P
+GPDI_ETH+
 Text GLabel 5500 2700 0    60   Input ~ 0
 GPDI_SCL
 Text GLabel 7000 2700 2    60   Input ~ 0
