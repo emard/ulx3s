@@ -433,13 +433,13 @@ Text GLabel 5500 2200 0    60   Input ~ 0
 GPDI_CLK+
 Text GLabel 5500 3200 0    60   Input ~ 0
 GPDI_ETH+
-Text GLabel 5500 2800 0    60   Input ~ 0
+Text GLabel 7000 2100 2    60   Input ~ 0
 GPDI_SCL
-Text GLabel 7000 2800 2    60   Input ~ 0
+Text GLabel 7000 2300 2    60   Input ~ 0
 GPDI_SDA
 Text GLabel 5500 2100 0    60   Input ~ 0
 GPDI_CEC
-Text GLabel 7000 2100 2    60   Input ~ 0
+Text GLabel 7000 3400 2    60   Input ~ 0
 LED0
 Text GLabel 7000 3600 2    60   Input ~ 0
 LED1
