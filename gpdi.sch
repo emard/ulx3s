@@ -402,115 +402,121 @@ Text Label 3000 5150 0    60   ~ 0
 VREF2
 $Comp
 L LFE5-BG381 U1
-U 6 1 58E7B99B
-P 6250 2900
-F 0 "U1" H 6250 3850 60  0000 C CNN
-F 1 "LFE5U-25F-6BG381C" H 6250 3750 60  0000 C CNN
-F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 5200 3850 60  0001 C CNN
-F 3 "" H 5200 3850 60  0000 C CNN
-	6    6250 2900
+U 2 1 58E7B99B
+P 6250 2800
+AR Path="/58E7B99B" Ref="U1"  Part="2" 
+AR Path="/58D686D9/58E7B99B" Ref="U1"  Part="2" 
+F 0 "U1" H 6250 3750 60  0000 C CNN
+F 1 "LFE5U-25F-6BG381C" H 6250 3650 60  0000 C CNN
+F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 5200 3750 60  0001 C CNN
+F 3 "" H 5200 3750 60  0000 C CNN
+	2    6250 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 5500 2200 0    60   Input ~ 0
-GPDI_D0+
-Text GLabel 7000 2200 2    60   Input ~ 0
-GPDI_D0-
-Text GLabel 7000 2300 2    60   Input ~ 0
-GPDI_D1-
-Text GLabel 7000 2400 2    60   Input ~ 0
-GPDI_D2-
-Text GLabel 7000 2500 2    60   Input ~ 0
-GPDI_CLK-
-Text GLabel 7000 2600 2    60   Input ~ 0
-GPDI_ETH-
-Text GLabel 5500 2300 0    60   Input ~ 0
-GPDI_D1+
 Text GLabel 5500 2400 0    60   Input ~ 0
-GPDI_D2+
-Text GLabel 5500 2500 0    60   Input ~ 0
-GPDI_CLK+
-Text GLabel 5500 2600 0    60   Input ~ 0
-GPDI_ETH+
-Text GLabel 5500 2700 0    60   Input ~ 0
-GPDI_SCL
-Text GLabel 7000 2700 2    60   Input ~ 0
-GPDI_SDA
-Text GLabel 5500 2800 0    60   Input ~ 0
-GPDI_CEC
-Text GLabel 7000 2800 2    60   Input ~ 0
-LED0
-Text GLabel 7000 2900 2    60   Input ~ 0
-LED1
+GPDI_D0+
+Text GLabel 7000 2400 2    60   Input ~ 0
+GPDI_D0-
+Text GLabel 7000 2600 2    60   Input ~ 0
+GPDI_D1-
 Text GLabel 7000 3000 2    60   Input ~ 0
-LED2
-Text GLabel 7000 3100 2    60   Input ~ 0
-LED3
+GPDI_D2-
+Text GLabel 7000 2200 2    60   Input ~ 0
+GPDI_CLK-
 Text GLabel 7000 3200 2    60   Input ~ 0
-LED4
-Text GLabel 7000 3300 2    60   Input ~ 0
-LED5
+GPDI_ETH-
+Text GLabel 5500 2600 0    60   Input ~ 0
+GPDI_D1+
+Text GLabel 5500 3000 0    60   Input ~ 0
+GPDI_D2+
+Text GLabel 5500 2200 0    60   Input ~ 0
+GPDI_CLK+
+Text GLabel 5500 3200 0    60   Input ~ 0
+GPDI_ETH+
+Text GLabel 7000 2100 2    60   Input ~ 0
+GPDI_SCL
+Text GLabel 7000 2300 2    60   Input ~ 0
+GPDI_SDA
+Text GLabel 5500 2100 0    60   Input ~ 0
+GPDI_CEC
 Text GLabel 7000 3400 2    60   Input ~ 0
+LED0
+Text GLabel 7000 3600 2    60   Input ~ 0
+LED1
+Text GLabel 7000 2500 2    60   Input ~ 0
+LED2
+Text GLabel 7000 2700 2    60   Input ~ 0
+LED3
+Text GLabel 7000 2900 2    60   Input ~ 0
+LED4
+Text GLabel 7000 3100 2    60   Input ~ 0
+LED5
+Text GLabel 7000 3300 2    60   Input ~ 0
 LED6
 Text GLabel 7000 3500 2    60   Input ~ 0
 LED7
-Text GLabel 5500 2900 0    60   Input ~ 0
+Text GLabel 5500 3600 0    60   Input ~ 0
 BTN_U
-Text GLabel 5500 3000 0    60   Input ~ 0
+Text GLabel 5500 2300 0    60   Input ~ 0
 BTN_D
-Text GLabel 5500 3100 0    60   Input ~ 0
+Text GLabel 5500 2500 0    60   Input ~ 0
 BTN_L
-Text GLabel 5500 3200 0    60   Input ~ 0
+Text GLabel 5500 2700 0    60   Input ~ 0
 BTN_R
-Text GLabel 5500 3300 0    60   Input ~ 0
+Text GLabel 5500 2900 0    60   Input ~ 0
 BTN_F1
-Text GLabel 5500 3400 0    60   Input ~ 0
+Text GLabel 5500 3100 0    60   Input ~ 0
 BTN_F2
-Text GLabel 5500 3500 0    60   Input ~ 0
+Text GLabel 5500 3300 0    60   Input ~ 0
 BTN_PWRn
 $Comp
 L Crystal_GND24 Y1
 U 1 1 58EDFF94
-P 4250 3600
-F 0 "Y1" H 4375 3800 50  0000 L CNN
-F 1 "FNETHE025" H 4375 3725 50  0000 L CNN
-F 2 "oscxo:Crystal_SMD_7050_4Pads" H 4250 3600 50  0001 C CNN
-F 3 "" H 4250 3600 50  0000 C CNN
-	1    4250 3600
+P 3300 1950
+F 0 "Y1" H 3425 2150 50  0000 L CNN
+F 1 "FNETHE025" H 3425 2075 50  0000 L CNN
+F 2 "oscxo:Crystal_SMD_7050_4Pads" H 3300 1950 50  0001 C CNN
+F 3 "" H 3300 1950 50  0000 C CNN
+	1    3300 1950
 	1    0    0    1   
 $EndComp
 $Comp
 L +3V3 #PWR074
 U 1 1 58EE0104
-P 4250 3300
-F 0 "#PWR074" H 4250 3150 50  0001 C CNN
-F 1 "+3V3" H 4250 3440 50  0000 C CNN
-F 2 "" H 4250 3300 50  0000 C CNN
-F 3 "" H 4250 3300 50  0000 C CNN
-	1    4250 3300
+P 3300 1650
+F 0 "#PWR074" H 3300 1500 50  0001 C CNN
+F 1 "+3V3" H 3300 1790 50  0000 C CNN
+F 2 "" H 3300 1650 50  0000 C CNN
+F 3 "" H 3300 1650 50  0000 C CNN
+	1    3300 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 3300 4250 3400
+	3300 1650 3300 1750
 Wire Wire Line
-	4250 3350 4000 3350
+	3300 1700 3050 1700
 Wire Wire Line
-	4000 3350 4000 3600
+	3050 1700 3050 1950
 Wire Wire Line
-	4000 3600 4100 3600
-Connection ~ 4250 3350
+	3050 1950 3150 1950
+Connection ~ 3300 1700
 $Comp
 L GND #PWR075
 U 1 1 58EE01EB
-P 4250 3800
-F 0 "#PWR075" H 4250 3550 50  0001 C CNN
-F 1 "GND" H 4250 3650 50  0000 C CNN
-F 2 "" H 4250 3800 50  0000 C CNN
-F 3 "" H 4250 3800 50  0000 C CNN
-	1    4250 3800
+P 3300 2150
+F 0 "#PWR075" H 3300 1900 50  0001 C CNN
+F 1 "GND" H 3300 2000 50  0000 C CNN
+F 2 "" H 3300 2150 50  0000 C CNN
+F 3 "" H 3300 2150 50  0000 C CNN
+	1    3300 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 3600 5500 3600
-Text Label 4450 3600 0    60   ~ 0
+	3450 1950 4100 1950
+Text Label 3500 1950 0    60   ~ 0
+CLK_25MHz
+Wire Wire Line
+	4300 3500 5500 3500
+Text Label 4350 3500 0    60   ~ 0
 CLK_25MHz
 $EndSCHEMATC
