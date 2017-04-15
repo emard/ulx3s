@@ -233,9 +233,9 @@ Text GLabel 10050 2650 2    60   Input ~ 0
 SDRAM_D2
 Text GLabel 8550 2650 0    60   Input ~ 0
 SDRAM_D3
-Text GLabel 8550 3350 0    60   Input ~ 0
+Text GLabel 8550 3650 0    60   Input ~ 0
 SDRAM_D4
-Text GLabel 10050 3550 2    60   Input ~ 0
+Text GLabel 10050 3650 2    60   Input ~ 0
 SDRAM_D5
 Text GLabel 8550 5550 0    60   Input ~ 0
 SDRAM_D6
@@ -295,28 +295,12 @@ Text GLabel 10050 2850 2    60   Input ~ 0
 SDRAM_DQM1
 Text GLabel 10050 4950 2    60   Input ~ 0
 SDRAM_nRAS
-Text GLabel 8550 4650 0    60   Input ~ 0
+Text GLabel 10050 4550 2    60   Input ~ 0
 SDRAM_nCAS
 Text GLabel 10050 4750 2    60   Input ~ 0
 SDRAM_nWE
 Text GLabel 8550 4750 0    60   Input ~ 0
 SDRAM_nCS
-Text GLabel 8550 5450 0    60   Input ~ 0
-SD_CMD
-Text GLabel 8550 5850 0    60   Input ~ 0
-SD_D0
-Text GLabel 8550 5350 0    60   Input ~ 0
-SD_CLK
-Text GLabel 8550 5650 0    60   Input ~ 0
-SD_D3
-Text GLabel 10050 5350 2    60   Input ~ 0
-SD_D1
-Text GLabel 10050 5450 2    60   Input ~ 0
-SD_D2
-Text GLabel 10050 5550 2    60   Input ~ 0
-SD_WP
-Text GLabel 10050 5650 2    60   Input ~ 0
-SD_CD
 $Comp
 L LFE5U-25F-6BG381C U1
 U 4 1 58EBA210
@@ -339,4 +323,36 @@ F 3 "" H 8250 4100 60  0000 C CNN
 	3    9300 3150
 	1    0    0    -1  
 $EndComp
+Text GLabel 8550 4650 0    60   Input ~ 0
+J2_5-
+Text GLabel 8550 5650 0    60   Input ~ 0
+J2_7-
+Text GLabel 10050 5650 2    60   Input ~ 0
+J2_7+
+Text GLabel 10050 4650 2    60   Input ~ 0
+J2_5+
+Text GLabel 10050 5450 2    60   Input ~ 0
+J2_9+
+Text GLabel 8550 5450 0    60   Input ~ 0
+J2_9-
+Text GLabel 8550 3550 0    60   Input ~ 0
+J2_13-
+Text GLabel 8550 3750 0    60   Input ~ 0
+J2_15-
+Text GLabel 8550 3950 0    60   Input ~ 0
+J2_17-
+Text GLabel 10050 3550 2    60   Input ~ 0
+J2_13+
+Text GLabel 10050 3750 2    60   Input ~ 0
+J2_15+
+Text GLabel 10050 3950 2    60   Input ~ 0
+J2_17+
+Text GLabel 8550 3350 0    60   Input ~ 0
+J2_19-
+Text GLabel 10050 3350 2    60   Input ~ 0
+J2_19+
+Text GLabel 8550 5850 0    60   Input ~ 0
+J2_11-
+Text GLabel 10050 5850 2    60   Input ~ 0
+J2_11+
 $EndSCHEMATC

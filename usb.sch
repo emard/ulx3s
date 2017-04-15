@@ -379,11 +379,11 @@ Text GLabel 10150 1650 2    60   Input ~ 0
 FTDI_nCTS
 Text GLabel 10150 1750 2    60   Input ~ 0
 FTDI_nDTR
-Text GLabel 10150 1950 2    60   Input ~ 0
+Text GLabel 10150 2350 2    60   Input ~ 0
 FTDI_nDCD
-Text GLabel 10150 1850 2    60   Input ~ 0
+Text GLabel 10150 1950 2    60   Input ~ 0
 FTDI_nDSR
-Text GLabel 10150 2050 2    60   Input ~ 0
+Text GLabel 10150 2150 2    60   Input ~ 0
 FTDI_nRI
 Text GLabel 8650 1350 0    60   Input ~ 0
 WIFI_TXD
@@ -395,33 +395,17 @@ Text GLabel 8650 1650 0    60   Input ~ 0
 WIFI_GPIO2
 Text GLabel 8650 1750 0    60   Input ~ 0
 WIFI_GPIO15
-Text GLabel 8650 1850 0    60   Input ~ 0
-WIFI_EN
-Text GLabel 8650 2550 0    60   Input ~ 0
-AUDIO_L0
-Text GLabel 8650 2650 0    60   Input ~ 0
-AUDIO_L1
-Text GLabel 8650 2750 0    60   Input ~ 0
-AUDIO_L2
-Text GLabel 8650 2850 0    60   Input ~ 0
-AUDIO_L3
-Text GLabel 10150 2550 2    60   Input ~ 0
-AUDIO_R0
-Text GLabel 10150 2650 2    60   Input ~ 0
-AUDIO_R1
-Text GLabel 10150 2750 2    60   Input ~ 0
-AUDIO_R2
-Text GLabel 10150 2850 2    60   Input ~ 0
-AUDIO_R3
-Text GLabel 8650 2150 0    60   Input ~ 0
-OLED_RES
-Text GLabel 8650 2050 0    60   Input ~ 0
-OLED_MOSI
 Text GLabel 8650 1950 0    60   Input ~ 0
+WIFI_EN
+Text GLabel 8650 2050 0    60   Input ~ 0
+OLED_RES
+Text GLabel 8650 1850 0    60   Input ~ 0
+OLED_MOSI
+Text GLabel 10150 1850 2    60   Input ~ 0
 OLED_CLK
-Text GLabel 8650 2250 0    60   Input ~ 0
+Text GLabel 10150 2050 2    60   Input ~ 0
 OLED_DC
-Text GLabel 8650 2350 0    60   Input ~ 0
+Text GLabel 8650 2150 0    60   Input ~ 0
 OLED_CS
 Text GLabel 10150 2450 2    60   Input ~ 0
 USB_FPGA_D-
@@ -438,4 +422,20 @@ F 3 "" H 8350 3000 60  0000 C CNN
 	5    9400 2050
 	1    0    0    -1  
 $EndComp
+Text GLabel 8650 2550 0    60   Input ~ 0
+SD_D0
+Text GLabel 8650 2650 0    60   Input ~ 0
+SD_D1
+Text GLabel 8650 2750 0    60   Input ~ 0
+SD_D2
+Text GLabel 8650 2850 0    60   Input ~ 0
+SD_D3
+Text GLabel 10150 2550 2    60   Input ~ 0
+SD_CLK
+Text GLabel 10150 2650 2    60   Input ~ 0
+SD_CMD
+Text GLabel 10150 2750 2    60   Input ~ 0
+SD_WP
+Text GLabel 10150 2850 2    60   Input ~ 0
+SD_CD
 $EndSCHEMATC

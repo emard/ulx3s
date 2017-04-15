@@ -536,25 +536,25 @@ Text GLabel 4150 4750 0    60   Input ~ 0
 J1_31-
 Text GLabel 5650 4750 2    60   Input ~ 0
 J1_31+
-Text GLabel 4150 4550 0    60   Input ~ 0
+Text GLabel 4150 4950 0    60   Input ~ 0
 J1_29-
-Text GLabel 5650 4550 2    60   Input ~ 0
+Text GLabel 5650 4950 2    60   Input ~ 0
 J1_29+
-Text GLabel 4200 2700 0    60   Input ~ 0
+Text GLabel 4200 2300 0    60   Input ~ 0
 J1_27-
-Text GLabel 5700 2700 2    60   Input ~ 0
+Text GLabel 5700 2300 2    60   Input ~ 0
 J1_27+
-Text GLabel 4200 2500 0    60   Input ~ 0
+Text GLabel 4150 4150 0    60   Input ~ 0
 J1_25-
-Text GLabel 5700 2500 2    60   Input ~ 0
+Text GLabel 5650 4150 2    60   Input ~ 0
 J1_25+
-Text GLabel 4200 2800 0    60   Input ~ 0
+Text GLabel 4150 4350 0    60   Input ~ 0
 J1_23-
-Text GLabel 5700 2800 2    60   Input ~ 0
+Text GLabel 5650 4350 2    60   Input ~ 0
 J1_23+
-Text GLabel 4200 2200 0    60   Input ~ 0
+Text GLabel 4200 2000 0    60   Input ~ 0
 J1_17-
-Text GLabel 5700 2200 2    60   Input ~ 0
+Text GLabel 5700 2000 2    60   Input ~ 0
 J1_17+
 $Comp
 L LFE5U-25F-6BG381C U1
@@ -578,4 +578,44 @@ F 3 "" H 3850 5700 60  0000 C CNN
 	6    4900 4750
 	1    0    0    -1  
 $EndComp
+Text GLabel 4200 2900 0    60   Input ~ 0
+J1_5-
+Text GLabel 4200 2100 0    60   Input ~ 0
+J1_7-
+Text GLabel 4200 1800 0    60   Input ~ 0
+J1_9-
+Text GLabel 4200 2600 0    60   Input ~ 0
+J1_13-
+Text GLabel 5700 2900 2    60   Input ~ 0
+J1_5+
+Text GLabel 5700 2100 2    60   Input ~ 0
+J1_7+
+Text GLabel 5700 1800 2    60   Input ~ 0
+J1_9+
+Text GLabel 5700 2600 2    60   Input ~ 0
+J1_13+
+Text GLabel 5700 2400 2    60   Input ~ 0
+J1_15+
+Text GLabel 4200 2400 0    60   Input ~ 0
+J1_15-
+Text GLabel 4200 1900 0    60   Input ~ 0
+J1_11-
+Text GLabel 5700 1900 2    60   Input ~ 0
+J1_11+
+Text GLabel 4150 4050 0    60   Input ~ 0
+AUDIO_L0
+Text GLabel 4150 4250 0    60   Input ~ 0
+AUDIO_L1
+Text GLabel 4150 4450 0    60   Input ~ 0
+AUDIO_L2
+Text GLabel 4150 4650 0    60   Input ~ 0
+AUDIO_L3
+Text GLabel 5650 4050 2    60   Input ~ 0
+AUDIO_R0
+Text GLabel 5650 4250 2    60   Input ~ 0
+AUDIO_R1
+Text GLabel 5650 4450 2    60   Input ~ 0
+AUDIO_R2
+Text GLabel 5650 4650 2    60   Input ~ 0
+AUDIO_R3
 $EndSCHEMATC

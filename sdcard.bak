@@ -141,9 +141,9 @@ F 3 "" H 1700 6250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 2300 5850 0    60   Input ~ 0
-SD_2
+SD_D2
 Text GLabel 2300 5950 0    60   Input ~ 0
-SD_3
+SD_D3
 Text GLabel 2300 6050 0    60   Input ~ 0
 SD_CMD
 Text GLabel 2300 6350 0    60   Input ~ 0
