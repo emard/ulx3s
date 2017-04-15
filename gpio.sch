@@ -602,20 +602,36 @@ Text GLabel 4200 1900 0    60   Input ~ 0
 J1_11-
 Text GLabel 5700 1900 2    60   Input ~ 0
 J1_11+
-Text GLabel 4150 4050 0    60   Input ~ 0
-AUDIO_L0
 Text GLabel 4150 4250 0    60   Input ~ 0
+AUDIO_L0
+Text GLabel 4150 4050 0    60   Input ~ 0
 AUDIO_L1
 Text GLabel 4150 4450 0    60   Input ~ 0
 AUDIO_L2
 Text GLabel 4150 4650 0    60   Input ~ 0
 AUDIO_L3
-Text GLabel 5650 4050 2    60   Input ~ 0
+Text GLabel 5650 4650 2    60   Input ~ 0
 AUDIO_R0
-Text GLabel 5650 4250 2    60   Input ~ 0
+Text GLabel 5650 4050 2    60   Input ~ 0
 AUDIO_R1
 Text GLabel 5650 4450 2    60   Input ~ 0
 AUDIO_R2
-Text GLabel 5650 4650 2    60   Input ~ 0
+Text GLabel 5650 4250 2    60   Input ~ 0
 AUDIO_R3
+Text GLabel 4150 4550 0    60   Input ~ 0
+LED0
+Text GLabel 5650 5050 2    60   Input ~ 0
+LED5
+Text GLabel 4150 4850 0    60   Input ~ 0
+LED2
+Text GLabel 5650 4850 2    60   Input ~ 0
+LED3
+Text GLabel 4150 5050 0    60   Input ~ 0
+LED4
+Text GLabel 5650 4550 2    60   Input ~ 0
+LED1
+Text GLabel 4150 5150 0    60   Input ~ 0
+LED6
+Text GLabel 5650 5150 2    60   Input ~ 0
+LED7
 $EndSCHEMATC

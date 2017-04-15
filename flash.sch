@@ -110,16 +110,16 @@ FLASH_MISO
 Text Label 3250 2700 0    60   ~ 0
 FLASH_MOSI
 Wire Wire Line
-	4950 2450 5650 2450
-Text Label 5000 2450 0    60   ~ 0
+	4800 2450 5650 2450
+Text Label 4850 2450 0    60   ~ 0
 FLASH_MISO
 Wire Wire Line
-	7150 2450 7750 2450
-Text Label 7200 2450 0    60   ~ 0
+	7150 2450 8150 2450
+Text Label 7550 2450 0    60   ~ 0
 FLASH_MOSI
 Wire Wire Line
-	5650 2650 4950 2650
-Text Label 5000 2650 0    60   ~ 0
+	5650 2650 4800 2650
+Text Label 4850 2650 0    60   ~ 0
 FLASH_nCS
 $Comp
 L R R27
@@ -200,8 +200,8 @@ F 3 "" H 4350 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 3050 5650 3050
-Text Label 5000 3050 0    60   ~ 0
+	4800 3050 5650 3050
+Text Label 4850 3050 0    60   ~ 0
 FLASH_SCK
 $Comp
 L R R30
@@ -454,4 +454,16 @@ F 3 "" H 5350 3800 60  0000 C CNN
 	7    6400 2850
 	1    0    0    -1  
 $EndComp
+Text GLabel 5650 2150 0    60   Input ~ 0
+BTN_F1
+Text GLabel 7150 2150 2    60   Input ~ 0
+BTN_F2
+Text GLabel 5650 2250 0    60   Input ~ 0
+BTN_U
+Text GLabel 7150 2250 2    60   Input ~ 0
+BTN_D
+Text GLabel 5650 2350 0    60   Input ~ 0
+BTN_L
+Text GLabel 7150 2350 2    60   Input ~ 0
+BTN_R
 $EndSCHEMATC
