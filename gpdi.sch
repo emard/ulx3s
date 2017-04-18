@@ -400,9 +400,9 @@ Text GLabel 1400 5350 0    60   Input ~ 0
 GPDI_SDA
 Text Label 3000 5150 0    60   ~ 0
 VREF2
-Text GLabel 5500 2400 0    60   Input ~ 0
+Text GLabel 5500 2300 0    60   Input ~ 0
 GPDI_D0+
-Text GLabel 7000 2400 2    60   Input ~ 0
+Text GLabel 7000 2300 2    60   Input ~ 0
 GPDI_D0-
 Text GLabel 7000 2600 2    60   Input ~ 0
 GPDI_D1-
@@ -410,7 +410,7 @@ Text GLabel 7000 3000 2    60   Input ~ 0
 GPDI_D2-
 Text GLabel 7000 2200 2    60   Input ~ 0
 GPDI_CLK-
-Text GLabel 7000 3200 2    60   Input ~ 0
+Text GLabel 7000 3300 2    60   Input ~ 0
 GPDI_ETH-
 Text GLabel 5500 2600 0    60   Input ~ 0
 GPDI_D1+
@@ -418,44 +418,16 @@ Text GLabel 5500 3000 0    60   Input ~ 0
 GPDI_D2+
 Text GLabel 5500 2200 0    60   Input ~ 0
 GPDI_CLK+
-Text GLabel 5500 3200 0    60   Input ~ 0
+Text GLabel 5500 3300 0    60   Input ~ 0
 GPDI_ETH+
 Text GLabel 7000 2100 2    60   Input ~ 0
 GPDI_SCL
-Text GLabel 7000 2300 2    60   Input ~ 0
+Text GLabel 7000 3500 2    60   Input ~ 0
 GPDI_SDA
 Text GLabel 5500 2100 0    60   Input ~ 0
 GPDI_CEC
-Text GLabel 8650 3250 2    60   Input ~ 0
-LED0
-Text GLabel 8650 3550 2    60   Input ~ 0
-LED1
-Text GLabel 8650 2500 2    60   Input ~ 0
-LED2
-Text GLabel 8650 2650 2    60   Input ~ 0
-LED3
-Text GLabel 8650 2800 2    60   Input ~ 0
-LED4
-Text GLabel 8650 2950 2    60   Input ~ 0
-LED5
-Text GLabel 8650 3100 2    60   Input ~ 0
-LED6
-Text GLabel 8650 3400 2    60   Input ~ 0
-LED7
 Text GLabel 5500 3600 0    60   Input ~ 0
 BTN_U
-Text GLabel 3550 2800 0    60   Input ~ 0
-BTN_D
-Text GLabel 3550 2950 0    60   Input ~ 0
-BTN_L
-Text GLabel 3550 3100 0    60   Input ~ 0
-BTN_R
-Text GLabel 3550 3250 0    60   Input ~ 0
-BTN_F1
-Text GLabel 3550 3400 0    60   Input ~ 0
-BTN_F2
-Text GLabel 3550 3550 0    60   Input ~ 0
-BTN_PWRn
 $Comp
 L Crystal_GND24 Y1
 U 1 1 58EDFF94
@@ -517,32 +489,32 @@ F 3 "" H 5200 3750 60  0000 C CNN
 	2    6250 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 5500 2700 0    60   Input ~ 0
-J2_25-
-Text GLabel 5500 2900 0    60   Input ~ 0
-J2_27-
-Text GLabel 5500 3400 0    60   Input ~ 0
-J2_29-
-Text GLabel 5500 2500 0    60   Input ~ 0
-J2_31-
-Text GLabel 5500 2800 0    60   Input ~ 0
-J2_33-
-Text GLabel 5500 3300 0    60   Input ~ 0
-J2_35-
-Text GLabel 7000 3300 2    60   Input ~ 0
-J2_35+
-Text GLabel 7000 3400 2    60   Input ~ 0
-J2_29+
-Text GLabel 7000 2900 2    60   Input ~ 0
-J2_27+
-Text GLabel 7000 2800 2    60   Input ~ 0
-J2_33+
 Text GLabel 7000 2700 2    60   Input ~ 0
-J2_25+
+J2_25-
+Text GLabel 7000 2900 2    60   Input ~ 0
+J2_27-
+Text GLabel 7000 2400 2    60   Input ~ 0
+J2_29-
 Text GLabel 7000 2500 2    60   Input ~ 0
+J2_31-
+Text GLabel 7000 2800 2    60   Input ~ 0
+J2_33-
+Text GLabel 7000 3200 2    60   Input ~ 0
+J2_35-
+Text GLabel 5500 3200 0    60   Input ~ 0
+J2_35+
+Text GLabel 5500 2400 0    60   Input ~ 0
+J2_29+
+Text GLabel 5500 2900 0    60   Input ~ 0
+J2_27+
+Text GLabel 5500 2800 0    60   Input ~ 0
+J2_33+
+Text GLabel 5500 2700 0    60   Input ~ 0
+J2_25+
+Text GLabel 5500 2500 0    60   Input ~ 0
 J2_31+
-Text GLabel 5500 3100 0    60   Input ~ 0
-J2_23-
 Text GLabel 7000 3100 2    60   Input ~ 0
+J2_23-
+Text GLabel 5500 3100 0    60   Input ~ 0
 J2_23+
 $EndSCHEMATC
