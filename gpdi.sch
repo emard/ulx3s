@@ -513,8 +513,4 @@ Text GLabel 5500 2700 0    60   Input ~ 0
 J2_25+
 Text GLabel 5500 2800 0    60   Input ~ 0
 J2_31+
-Text GLabel 7000 2900 2    60   Input ~ 0
-J2_15-
-Text GLabel 5500 2900 0    60   Input ~ 0
-J2_15+
 $EndSCHEMATC
