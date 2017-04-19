@@ -337,15 +337,15 @@ Text GLabel 10050 5450 2    60   Input ~ 0
 J2_9-
 Text GLabel 10050 3550 2    60   Input ~ 0
 J2_13-
-Text GLabel 10050 3750 2    60   Input ~ 0
-J2_15-
 Text GLabel 10050 3950 2    60   Input ~ 0
+J2_23-
+Text GLabel 10050 3750 2    60   Input ~ 0
 J2_17-
 Text GLabel 8550 3550 0    60   Input ~ 0
 J2_13+
-Text GLabel 8550 3750 0    60   Input ~ 0
-J2_15+
 Text GLabel 8550 3950 0    60   Input ~ 0
+J2_23+
+Text GLabel 8550 3750 0    60   Input ~ 0
 J2_17+
 Text GLabel 10050 3350 2    60   Input ~ 0
 J2_19-
