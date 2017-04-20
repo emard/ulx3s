@@ -2,3 +2,7 @@ oshpark
 The minimum specs for 4 layer orders are 
 5 mil (0.127 mm) traces with 5 mil (0.127 mm) spacing, 
 and 10 mil (0.254 mm) drills with 4 mil (0.1 mm) annular rings.
+
+seeedstudio
+minimum drill hole: 0.2 mm width
+
