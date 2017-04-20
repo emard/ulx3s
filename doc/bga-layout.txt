@@ -1,0 +1,4 @@
+for proper placing ground and power planes, see
+TN1074 - PCB Layout Recommendations for BGA Packages, page 32
+example for BGA 381 ECP5
+
