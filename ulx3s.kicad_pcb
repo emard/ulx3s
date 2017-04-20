@@ -3540,7 +3540,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer B.Cu) (tedit 58307AEF) (tstamp 58D8ED8C)
-    (at 170.935 69.675 90)
+    (at 139.185 105.87 90)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /58D6BF46/58EB9CB5)
