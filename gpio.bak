@@ -536,17 +536,17 @@ Text GLabel 5650 4750 2    60   Input ~ 0
 J1_31-
 Text GLabel 4150 4750 0    60   Input ~ 0
 J1_31+
-Text GLabel 5650 4350 2    60   Input ~ 0
+Text GLabel 5650 4150 2    60   Input ~ 0
 J1_29-
-Text GLabel 4150 4350 0    60   Input ~ 0
+Text GLabel 4150 4150 0    60   Input ~ 0
 J1_29+
 Text GLabel 5650 4950 2    60   Input ~ 0
 J1_27-
 Text GLabel 4150 4950 0    60   Input ~ 0
 J1_27+
-Text GLabel 5650 4150 2    60   Input ~ 0
+Text GLabel 5650 4350 2    60   Input ~ 0
 J1_25-
-Text GLabel 4150 4150 0    60   Input ~ 0
+Text GLabel 4150 4350 0    60   Input ~ 0
 J1_25+
 Text GLabel 5700 2900 2    60   Input ~ 0
 J1_23-

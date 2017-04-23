@@ -325,15 +325,15 @@ F 3 "" H 8250 4100 60  0000 C CNN
 $EndComp
 Text GLabel 10050 4650 2    60   Input ~ 0
 J2_5-
-Text GLabel 10050 5650 2    60   Input ~ 0
+Text GLabel 10050 5450 2    60   Input ~ 0
 J2_7-
-Text GLabel 8550 5650 0    60   Input ~ 0
+Text GLabel 8550 5450 0    60   Input ~ 0
 J2_7+
 Text GLabel 8550 4650 0    60   Input ~ 0
 J2_5+
-Text GLabel 8550 5450 0    60   Input ~ 0
+Text GLabel 8550 5650 0    60   Input ~ 0
 J2_9+
-Text GLabel 10050 5450 2    60   Input ~ 0
+Text GLabel 10050 5650 2    60   Input ~ 0
 J2_9-
 Text GLabel 10050 3350 2    60   Input ~ 0
 J2_13-
