@@ -377,7 +377,7 @@ Text GLabel 10150 1550 2    60   Input ~ 0
 FTDI_nRTS
 Text GLabel 10150 1650 2    60   Input ~ 0
 FTDI_nCTS
-Text GLabel 10150 1750 2    60   Input ~ 0
+Text GLabel 8650 1850 0    60   Input ~ 0
 FTDI_nDTR
 Text GLabel 10150 2350 2    60   Input ~ 0
 FTDI_nDCD
