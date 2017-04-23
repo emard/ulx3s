@@ -399,9 +399,9 @@ Text GLabel 8650 1950 0    60   Input ~ 0
 WIFI_EN
 Text GLabel 10150 2850 2    60   Input ~ 0
 OLED_RES
-Text GLabel 10150 2750 2    60   Input ~ 0
-OLED_MOSI
 Text GLabel 8650 2750 0    60   Input ~ 0
+OLED_MOSI
+Text GLabel 10150 2750 2    60   Input ~ 0
 OLED_CLK
 Text GLabel 8650 2850 0    60   Input ~ 0
 OLED_DC
