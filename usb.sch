@@ -389,11 +389,11 @@ Text GLabel 8650 1350 0    60   Input ~ 0
 WIFI_TXD
 Text GLabel 8650 1450 0    60   Input ~ 0
 WIFI_RXD
-Text GLabel 8650 1550 0    60   Input ~ 0
+Text GLabel 8650 1750 0    60   Input ~ 0
 WIFI_GPIO0
 Text GLabel 8650 1650 0    60   Input ~ 0
 WIFI_GPIO2
-Text GLabel 8650 1750 0    60   Input ~ 0
+Text GLabel 8650 1550 0    60   Input ~ 0
 WIFI_GPIO15
 Text GLabel 8650 1950 0    60   Input ~ 0
 WIFI_EN
@@ -438,4 +438,6 @@ Text GLabel 10150 2050 2    60   Input ~ 0
 SD_WP
 Text GLabel 10150 2250 2    60   Input ~ 0
 SD_CD
+Text Notes 6550 2600 0    60   ~ 0
+WiFi programming pins:\nTXD RXD RTS DTR
 $EndSCHEMATC
