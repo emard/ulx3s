@@ -584,7 +584,7 @@ Text GLabel 5700 1900 2    60   Input ~ 0
 J1_7-
 Text GLabel 5700 2000 2    60   Input ~ 0
 J1_9-
-Text GLabel 5700 2400 2    60   Input ~ 0
+Text GLabel 5700 2300 2    60   Input ~ 0
 J1_13-
 Text GLabel 4200 1800 0    60   Input ~ 0
 J1_5+
@@ -592,11 +592,11 @@ Text GLabel 4200 1900 0    60   Input ~ 0
 J1_7+
 Text GLabel 4200 2000 0    60   Input ~ 0
 J1_9+
-Text GLabel 4200 2400 0    60   Input ~ 0
-J1_13+
 Text GLabel 4200 2300 0    60   Input ~ 0
+J1_13+
+Text GLabel 4200 2400 0    60   Input ~ 0
 J1_15+
-Text GLabel 5700 2300 2    60   Input ~ 0
+Text GLabel 5700 2400 2    60   Input ~ 0
 J1_15-
 Text GLabel 5700 2100 2    60   Input ~ 0
 J1_11-
