@@ -497,17 +497,17 @@ Text GLabel 7000 2500 2    60   Input ~ 0
 J2_29-
 Text GLabel 7000 2800 2    60   Input ~ 0
 J2_31-
-Text GLabel 7000 3100 2    60   Input ~ 0
-J2_33-
 Text GLabel 7000 3200 2    60   Input ~ 0
+J2_33-
+Text GLabel 7000 3100 2    60   Input ~ 0
 J2_35-
-Text GLabel 5500 3200 0    60   Input ~ 0
+Text GLabel 5500 3100 0    60   Input ~ 0
 J2_35+
 Text GLabel 5500 2500 0    60   Input ~ 0
 J2_29+
 Text GLabel 5500 2400 0    60   Input ~ 0
 J2_27+
-Text GLabel 5500 3100 0    60   Input ~ 0
+Text GLabel 5500 3200 0    60   Input ~ 0
 J2_33+
 Text GLabel 5500 2700 0    60   Input ~ 0
 J2_25+
