@@ -5,7 +5,7 @@ Click "Plot" and click "Generate Drill File"
 another window will open. Click "Drill file".
 ZIP seeedstudio to a file
 
-    zip -r /tmp/seeed.zip seeedstudio
+    zip -r /tmp/ulx3s-pcb.zip seeedstudio
 
 Open [Seeedstudio PCB production](https://www.seeedstudio.com/fusion_pcb.html)
 page, select 4-layer board, 
