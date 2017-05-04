@@ -1,4 +1,4 @@
-update=Pon 10 Tra 2017 12:13:15
+update=Čet 04 Svi 2017 12:00:07
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,13 @@ LibName35=footprints/usbserial/ft2232
 LibName36=footprints/esp32/ESP32
 LibName37=footprints/oled/ssd_13xx
 LibName38=footprints/usbserial/ftdi
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

@@ -230,7 +230,7 @@ $EndComp
 Wire Wire Line
 	2750 2350 2750 2400
 Text Notes 4450 1050 0    60   ~ 0
-SSD1306 compatible OLED 1.3" PCB \n14x14 units\n1 unit = 2.54 mm
+SSD1306 B/W or SSD1331 COLOR \ncompatible OLED 0.96" or 1.3" PCB \n14x14 units\n1 unit = 2.54 mm
 $Comp
 L LED_ALT D0
 U 1 1 58D66570
