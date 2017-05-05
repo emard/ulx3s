@@ -408,13 +408,13 @@ Text GLabel 8650 1850 0    60   Input ~ 0
 SD_D0
 Text GLabel 10150 1750 2    60   Input ~ 0
 SD_D1
-Text GLabel 8650 1550 0    60   Input ~ 0
-SD_D2
 Text GLabel 8650 1350 0    60   Input ~ 0
+SD_D2
+Text GLabel 8650 1750 0    60   Input ~ 0
 SD_D3
 Text GLabel 10150 1850 2    60   Input ~ 0
 SD_CLK
-Text GLabel 8650 1750 0    60   Input ~ 0
+Text GLabel 8650 1550 0    60   Input ~ 0
 SD_CMD
 Text GLabel 10150 2150 2    60   Input ~ 0
 SD_WP
