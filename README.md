@@ -18,10 +18,6 @@ PCB routing is not complete (about 50 routes missing).
 
 # Features
 
-Power: Switching voltage regulators
-
-Low power: RTC clock wakeup, quartz and battery
-
 USB: FTDI FT231XS (1Mbit JTAG and 3Mbit usbserial)
 
 GPIO: All differential, PMOD-friendly
@@ -36,13 +32,17 @@ LEDs: 16 (8 blink-LEDs, 2 USB leds)
 
 Buttons: 6 (4 direction and 2 fire buttons)
 
-Audio: 3.5 mm jack footprint
+Audio: 3.5 mm stereo jack
 
 Video: GPDI connector with 3.3V-5V I2C bidirectional level shifter
 
 Display: placeholder for 0.96-1.3" SPI OLED COLOR or B/W
 
 WiFi+bluetooth: placeholder for ESP-32 (JTAG and serial over WiFi possible)
+
+Power: 3 Switching voltage regulators: 1.2V, 2.5V, 3.3V
+
+Low power sleep: RTC clock wakeup, quartz and battery
 
 
 GPDI is General Purpose Differential Interface,
@@ -53,6 +53,7 @@ with digital monitors/TVs
 
 # Todo
 
-Improve Power supply routing
+Finish routing and especially improve Power
+section (thicker power lines, separately routed feedback)
 
 2.54 mm external JTAG header
