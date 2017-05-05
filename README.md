@@ -8,56 +8,56 @@ it is better explained when drawn in kicad:
 
     kicad ulx3s.pro
 
-Currently this is only partial schematics and partial floorplanning.
-PCB is not routed. Some footprintes are collected and some are incomplete.
-
-An overview if the parts will fit in the space
-how it will look.
-
-From production of this, we are far, far away :)
+Schematics and PCB floorplanning are mostly complete.
+PCB routing is not complete (about 50 routes missing).
 
 # Features
 
-3.5 mm jack footprint
+Power: Switching voltage regulators
 
-Switching voltage regulators
+Low power: RTC clock wakeup, quartz and battery
 
-USB footprints without thru-holes
+USB: FTDI FT231XS (1Mbit JTAG and 3Mbit usbserial)
 
-SPI OLED placeholder (thru hole probably)
+GPIO: All differential, PMOD-friendly
 
-FTDI 2232 usb-jtag chip
+RAM: SDRAM
 
-SPI flash chip
+Flash: SPI flash chip for FPGA config
 
-SDRAM chip
+Storage: Micro-SD slot
 
-LEDs: 8 blinkleds, 1 usb led
+LEDs: 16 (8 blink-LEDs, 2 USB leds)
 
-RTC clock, quartz and battery
+Buttons: 6 (4 direction and 2 fire buttons)
 
-3.3V-5V I2C bidirectional level shifter for GPDI
+Audio: 3.5 mm jack footprint
+
+Video: GPDI connector with 3.3V-5V I2C bidirectional level shifter
+
+Display: placeholder for 0.96-1.3" SPI OLED COLOR or B/W
+
+WiFi+bluetooth: placeholder for ESP-32 (JTAG and serial over WiFi possible)
+
 
 GPDI is General Purpose Differential Interface,
 Electrically LVDS, mostly TMDS tolerant
 female receptacle more-or-less compatible
 with digital monitors/TVs
 
+# Board
+
+Schematics
+
+[schematics](/doc/schematics.pdf)
+
+3D preview
+
+![TOP](/pic/ulx3st.jpg)
+![BOTTOM](/pic/ulx3sb.jpg)
+
 # Todo
 
-Completing FPGA IO bank shcematics blocks
-
-Check SD card slot footprint
-
-Oscillators (25/50/100 MHz)
-
-rearrange PushButtons: 6 (2+4)
-
-             U
-    A B    L D R
-
-IR camera placeholder
-
-OV767 color camera placeholder
+Improve Power supply routing
 
 2.54 mm external JTAG header
