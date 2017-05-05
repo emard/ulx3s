@@ -18,6 +18,8 @@ PCB routing is not complete (about 50 routes missing).
 
 # Features
 
+FPGA: Lattice ECP5 LFE5U-25F-6BG381C
+
 USB: FTDI FT231XS (1Mbit JTAG and 3Mbit usbserial)
 
 GPIO: All differential, PMOD-friendly
