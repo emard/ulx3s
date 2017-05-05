@@ -50,8 +50,6 @@ Electrically LVDS, mostly TMDS tolerant
 female receptacle more-or-less compatible
 with digital monitors/TVs
 
-# Board
-
 
 # Todo
 
