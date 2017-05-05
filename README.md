@@ -47,9 +47,7 @@ with digital monitors/TVs
 
 # Board
 
-Schematics
-
-[schematics](/doc/schematics.pdf)
+[Schematics](/doc/schematics.pdf)
 
 3D preview
 
