@@ -8,8 +8,13 @@ it is better explained when drawn in kicad:
 
     kicad ulx3s.pro
 
-Schematics and PCB floorplanning are mostly complete.
+[Schematics](/doc/schematics.pdf) is mostly complete.
 PCB routing is not complete (about 50 routes missing).
+
+3D preview
+
+![TOP](/pic/ulx3st.jpg)
+![BOTTOM](/pic/ulx3sb.jpg)
 
 # Features
 
@@ -47,12 +52,6 @@ with digital monitors/TVs
 
 # Board
 
-[Schematics](/doc/schematics.pdf)
-
-3D preview
-
-![TOP](/pic/ulx3st.jpg)
-![BOTTOM](/pic/ulx3sb.jpg)
 
 # Todo
 
