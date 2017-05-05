@@ -359,33 +359,25 @@ Wire Wire Line
 	6350 5150 6450 5150
 Wire Wire Line
 	6750 5150 6850 5150
-Text GLabel 10150 1350 2    60   Input ~ 0
+Text GLabel 10150 2650 2    60   Input ~ 0
 FTDI_TXD
-Text GLabel 10150 1450 2    60   Input ~ 0
+Text GLabel 8650 1950 0    60   Input ~ 0
 FTDI_RXD
-Text GLabel 10150 1550 2    60   Input ~ 0
+Text GLabel 10150 2450 2    60   Input ~ 0
 FTDI_nRTS
-Text GLabel 10150 1650 2    60   Input ~ 0
-FTDI_nCTS
-Text GLabel 8650 1850 0    60   Input ~ 0
+Text GLabel 10150 2550 2    60   Input ~ 0
 FTDI_nDTR
-Text GLabel 10150 2350 2    60   Input ~ 0
-FTDI_nDCD
-Text GLabel 10150 1950 2    60   Input ~ 0
-FTDI_nDSR
-Text GLabel 10150 2150 2    60   Input ~ 0
-FTDI_nRI
-Text GLabel 8650 1350 0    60   Input ~ 0
+Text GLabel 8650 2050 0    60   Input ~ 0
 WIFI_TXD
-Text GLabel 8650 1450 0    60   Input ~ 0
+Text GLabel 10150 1550 2    60   Input ~ 0
 WIFI_RXD
-Text GLabel 8650 1750 0    60   Input ~ 0
+Text GLabel 10150 2350 2    60   Input ~ 0
 WIFI_GPIO0
 Text GLabel 8650 1650 0    60   Input ~ 0
 WIFI_GPIO2
 Text GLabel 8650 1550 0    60   Input ~ 0
 WIFI_GPIO15
-Text GLabel 8650 1950 0    60   Input ~ 0
+Text GLabel 8650 1450 0    60   Input ~ 0
 WIFI_EN
 Text GLabel 10150 2850 2    60   Input ~ 0
 OLED_RES
@@ -395,11 +387,11 @@ Text GLabel 10150 2750 2    60   Input ~ 0
 OLED_CLK
 Text GLabel 8650 2850 0    60   Input ~ 0
 OLED_DC
-Text GLabel 8650 2350 0    60   Input ~ 0
+Text GLabel 8650 2650 0    60   Input ~ 0
 OLED_CS
-Text GLabel 10150 2450 2    60   Input ~ 0
+Text GLabel 10150 2050 2    60   Input ~ 0
 USB_FPGA_D-
-Text GLabel 8650 2450 0    60   Input ~ 0
+Text GLabel 10150 1950 2    60   Input ~ 0
 USB_FPGA_D+
 $Comp
 L LFE5U-25F-6BG381C U1
@@ -412,19 +404,19 @@ F 3 "" H 8350 3000 60  0000 C CNN
 	5    9400 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 8650 2550 0    60   Input ~ 0
+Text GLabel 8650 1850 0    60   Input ~ 0
 SD_D0
-Text GLabel 8650 2150 0    60   Input ~ 0
+Text GLabel 10150 1750 2    60   Input ~ 0
 SD_D1
 Text GLabel 8650 2250 0    60   Input ~ 0
 SD_D2
-Text GLabel 8650 2650 0    60   Input ~ 0
+Text GLabel 8650 1350 0    60   Input ~ 0
 SD_D3
-Text GLabel 10150 2550 2    60   Input ~ 0
+Text GLabel 10150 1850 2    60   Input ~ 0
 SD_CLK
-Text GLabel 10150 2650 2    60   Input ~ 0
+Text GLabel 8650 1750 0    60   Input ~ 0
 SD_CMD
-Text GLabel 10150 2050 2    60   Input ~ 0
+Text GLabel 10150 2150 2    60   Input ~ 0
 SD_WP
 Text GLabel 10150 2250 2    60   Input ~ 0
 SD_CD
@@ -433,11 +425,11 @@ WiFi programming pins:\nTXD RXD RTS DTR
 Text Notes 7400 3750 0    60   ~ 0
 CBUS0=TXDEN
 Text Notes 7400 3850 0    60   ~ 0
-CBUS1=RXLED#
+CBUS1=nRXLED
 Text Notes 7400 3950 0    60   ~ 0
-CBUS2=TXLED#
+CBUS2=nTXLED
 Text Notes 7400 4050 0    60   ~ 0
-CBUS3=SLEEP#
+CBUS3=nSLEEP
 Text Notes 7400 3650 0    60   ~ 0
 FTDI default
 Text GLabel 6550 4000 2    60   Input ~ 0
