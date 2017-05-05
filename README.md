@@ -1,7 +1,7 @@
 # ULX3S PCB
 
 This is work-in-progress place for putting
-some wishes of a small (51x94 mm) FPGA board.
+some wishes of a small (94x51 mm) FPGA board.
 
 Instead of describing in written, 
 it is better explained when drawn in kicad:
