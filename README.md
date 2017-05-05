@@ -24,13 +24,13 @@ USB: FTDI FT231XS (1Mbit JTAG and 3Mbit usbserial)
 
 GPIO: All differential, PMOD-friendly
 
-RAM: SDRAM
+RAM: 32MB SDRAM MT48LC16M16
 
-Flash: SPI flash chip for FPGA config
+Flash: 8MB SPI flash S25FL164 for FPGA config
 
 Storage: Micro-SD slot
 
-LEDs: 16 (8 blink-LEDs, 2 USB leds)
+LEDs: 10 (8 blink-LEDs, 2 USB leds)
 
 Buttons: 6 (4 direction and 2 fire buttons)
 
