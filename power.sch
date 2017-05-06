@@ -781,7 +781,7 @@ F 3 "" H 3650 4850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 3350 4850 0    60   Input ~ 0
-FTDI_nSLEEP
+FTDI_nSUSPEND
 $Comp
 L R R8
 U 1 1 58D8111E

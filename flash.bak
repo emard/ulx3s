@@ -458,11 +458,11 @@ Text GLabel 5650 2150 0    60   Input ~ 0
 BTN_F1
 Text GLabel 7150 2150 2    60   Input ~ 0
 BTN_F2
-Text GLabel 5650 2250 0    60   Input ~ 0
+Text GLabel 5650 2350 0    60   Input ~ 0
 BTN_U
 Text GLabel 7150 2250 2    60   Input ~ 0
 BTN_D
-Text GLabel 5650 2350 0    60   Input ~ 0
+Text GLabel 5650 2250 0    60   Input ~ 0
 BTN_L
 Text GLabel 7150 2350 2    60   Input ~ 0
 BTN_R
