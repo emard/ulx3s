@@ -343,7 +343,7 @@ Wire Wire Line
 Text Label 4250 3600 0    60   ~ 0
 FT3V3
 Text GLabel 6350 5150 0    60   Input ~ 0
-FTDI_nDTR
+FTDI_nSLEEP
 $Comp
 L R R10
 U 1 1 58EBA6BD
