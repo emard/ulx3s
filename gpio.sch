@@ -604,15 +604,15 @@ Text GLabel 4200 2100 0    60   Input ~ 0
 J1_11+
 Text GLabel 5650 4250 2    60   Input ~ 0
 AUDIO_L0
-Text GLabel 5650 4450 2    60   Input ~ 0
-AUDIO_L1
 Text GLabel 4150 4450 0    60   Input ~ 0
+AUDIO_L1
+Text GLabel 5650 4450 2    60   Input ~ 0
 AUDIO_L2
-Text GLabel 4150 4650 0    60   Input ~ 0
+Text GLabel 4150 4550 0    60   Input ~ 0
 AUDIO_L3
-Text GLabel 5650 4650 2    60   Input ~ 0
-AUDIO_R0
 Text GLabel 5650 4050 2    60   Input ~ 0
+AUDIO_R0
+Text GLabel 5650 4550 2    60   Input ~ 0
 AUDIO_R1
 Text GLabel 4150 4050 0    60   Input ~ 0
 AUDIO_R2

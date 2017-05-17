@@ -466,4 +466,6 @@ Text GLabel 5650 2250 0    60   Input ~ 0
 BTN_L
 Text GLabel 7150 2350 2    60   Input ~ 0
 BTN_R
+Text Notes 8350 2300 0    60   ~ 0
+pullups to allow entering USER mode\nTN1260: lattice ECP5 sysCONFIG guide p.6, p.8, p.13
 $EndSCHEMATC

@@ -373,7 +373,7 @@ Text GLabel 10150 1550 2    60   Input ~ 0
 WIFI_RXD
 Text GLabel 10150 2350 2    60   Input ~ 0
 WIFI_GPIO0
-Text GLabel 8650 1650 0    60   Input ~ 0
+Text GLabel 8150 1650 0    60   Input ~ 0
 WIFI_GPIO2
 Text GLabel 8650 1450 0    60   Input ~ 0
 WIFI_EN
