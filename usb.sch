@@ -373,7 +373,7 @@ Text GLabel 10150 1550 2    60   Input ~ 0
 WIFI_RXD
 Text GLabel 10150 2350 2    60   Input ~ 0
 WIFI_GPIO0
-Text GLabel 8150 1650 0    60   Input ~ 0
+Text GLabel 8600 2150 0    60   Input ~ 0
 WIFI_GPIO2
 Text GLabel 8650 1450 0    60   Input ~ 0
 WIFI_EN
@@ -387,9 +387,9 @@ Text GLabel 8650 2850 0    60   Input ~ 0
 OLED_DC
 Text GLabel 8650 2650 0    60   Input ~ 0
 OLED_CS
-Text GLabel 10150 2050 2    60   Input ~ 0
+Text GLabel 10200 1650 2    60   Input ~ 0
 USB_FPGA_D-
-Text GLabel 10150 1950 2    60   Input ~ 0
+Text GLabel 8600 1650 0    60   Input ~ 0
 USB_FPGA_D+
 $Comp
 L LFE5U-25F-6BG381C U1

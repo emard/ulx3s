@@ -387,9 +387,9 @@ Text GLabel 8650 2850 0    60   Input ~ 0
 OLED_DC
 Text GLabel 8650 2650 0    60   Input ~ 0
 OLED_CS
-Text GLabel 10150 2050 2    60   Input ~ 0
+Text GLabel 10450 2050 2    60   Input ~ 0
 USB_FPGA_D-
-Text GLabel 10150 1950 2    60   Input ~ 0
+Text GLabel 10450 1950 2    60   Input ~ 0
 USB_FPGA_D+
 $Comp
 L LFE5U-25F-6BG381C U1
