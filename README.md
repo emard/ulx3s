@@ -9,7 +9,8 @@ it is better explained when drawn in kicad:
     kicad ulx3s.pro
 
 [Schematics](/doc/schematics.pdf) is mostly complete.
-PCB routing is not complete (about 50 routes missing).
+PCB routing is complete, but needs improvement
+mainly for the power supply.
 
 3D preview
 
@@ -59,3 +60,9 @@ Finish routing and especially improve Power
 section (thicker power lines, separately routed feedback)
 
 2.54 mm external JTAG header
+
+    [ ] move USB LEDs from bottom to top side
+    [ ] increase thickness of power lines (5V, 3.3V, 2.5V)
+    [ ] compile a f32c bitstream using the schematics
+    [ ] connect more lines from ESP-32 to FPGA
+    [ ] connect FPGA USB D+/D- with 1.5k pullup in USB 1.1 (full speed) mode
