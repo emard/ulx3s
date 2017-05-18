@@ -61,7 +61,7 @@ section (thicker power lines, separately routed feedback)
 
 2.54 mm external JTAG header
 
-    [ ] Resistors for LEDs
+    [x] Resistors for LEDs
     [x] Move USB LEDs from bottom to top side
     [ ] Improve SDRAM routing - use VIAs for closest pins
     [x] Increase thickness of power lines (5V, 3.3V, 2.5V)
