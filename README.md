@@ -61,10 +61,13 @@ section (thicker power lines, separately routed feedback)
 
 2.54 mm external JTAG header
 
-    [ ] resistors for LEDs
-    [ ] move USB LEDs from bottom to top side
-    [ ] increase thickness of power lines (5V, 3.3V, 2.5V)
-    [ ] compile a f32c bitstream using the schematics
-    [ ] connect more lines from ESP-32 to FPGA
-    [ ] connect FPGA USB D+/D- with 1.5k pullup in USB 1.1 (full speed) mode
+    [ ] Resistors for LEDs
+    [ ] Move USB LEDs from bottom to top side
+    [ ] Improve SDRAM routing - use VIAs for closest pins
+    [x] Increase thickness of power lines (5V, 3.3V, 2.5V)
+    [x] Compile a f32c bitstream using the schematics
+    [ ] Compile differential GPDI output
+    [ ] Connect more lines from ESP-32 to FPGA
+    [ ] Connect FPGA USB D+/D- with 1.5k pullup in USB 1.1 (full speed) mode
     [ ] Jumpers to switch 2.5V/3.3V for left IO banks
+    [ ] External JTAG header
