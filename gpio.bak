@@ -638,6 +638,4 @@ Text Notes 950  7550 0    60   ~ 0
 GPIO route only A/B pairs as those are differential bidirectional\ndon't route C/D pairs to GPIO as those can be differential input only 
 Text GLabel 5700 2800 2    60   Input ~ 0
 BTN_PWRn
-Text GLabel 4150 5450 0    60   Input ~ 0
-CLK_25MHz
 $EndSCHEMATC

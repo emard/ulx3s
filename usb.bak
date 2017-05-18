@@ -375,7 +375,7 @@ Text GLabel 10150 2350 2    60   Input ~ 0
 WIFI_GPIO0
 Text GLabel 8600 2150 0    60   Input ~ 0
 WIFI_GPIO2
-Text GLabel 8650 1450 0    60   Input ~ 0
+Text GLabel 10150 1450 2    60   Input ~ 0
 WIFI_EN
 Text GLabel 10150 2850 2    60   Input ~ 0
 OLED_RES
@@ -448,11 +448,11 @@ ujprog pinmap\nTCK = DSR\nTMS = RI\nTDI = CTS\nTDO = DCD\n
 Text GLabel 1950 3850 2    60   Input ~ 0
 USB_FPGA_D+
 $Comp
-L R R?
+L R R40
 U 1 1 591C69FB
 P 1850 3650
-F 0 "R?" V 1930 3650 50  0000 C CNN
-F 1 "15k" V 1850 3650 50  0000 C CNN
+F 0 "R40" V 1930 3650 50  0000 C CNN
+F 1 "1.5k" V 1850 3650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1780 3650 50  0001 C CNN
 F 3 "" H 1850 3650 50  0000 C CNN
 	1    1850 3650
@@ -463,14 +463,16 @@ Wire Wire Line
 Wire Wire Line
 	1850 3850 1950 3850
 $Comp
-L +3V3 #PWR?
+L +3V3 #PWR086
 U 1 1 591C6DA4
 P 1850 3500
-F 0 "#PWR?" H 1850 3350 50  0001 C CNN
+F 0 "#PWR086" H 1850 3350 50  0001 C CNN
 F 1 "+3V3" H 1850 3640 50  0000 C CNN
 F 2 "" H 1850 3500 50  0000 C CNN
 F 3 "" H 1850 3500 50  0000 C CNN
 	1    1850 3500
 	1    0    0    -1  
 $EndComp
+Text Notes 1400 4050 0    60   ~ 0
+D+ pullp for full speed mode USB1.1
 $EndSCHEMATC
