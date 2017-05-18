@@ -475,4 +475,6 @@ F 3 "" H 1850 3500 50  0000 C CNN
 $EndComp
 Text Notes 1400 4050 0    60   ~ 0
 D+ pullp for full speed mode USB1.1
+Text GLabel 8650 1450 0    60   Input ~ 0
+CLK_25MHz
 $EndSCHEMATC
