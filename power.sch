@@ -769,8 +769,6 @@ F 3 "" H 3650 4850 50  0000 C CNN
 	1    3650 4850
 	-1   0    0    1   
 $EndComp
-Text GLabel 3350 4850 0    60   Input ~ 0
-FTDI_nSUSPEND
 $Comp
 L R R8
 U 1 1 58D8111E
@@ -1592,7 +1590,7 @@ Wire Wire Line
 Connection ~ 3250 6000
 Connection ~ 3950 4850
 Wire Wire Line
-	3350 4850 3500 4850
+	2700 4850 3500 4850
 Wire Wire Line
 	3900 3450 3900 3400
 Wire Wire Line
@@ -1647,4 +1645,21 @@ F 3 "" H 2100 3050 50  0000 C CNN
 $EndComp
 Text Notes 1400 2850 0    60   ~ 0
 RTC can also be powered from 2.5V\nbut it is simpler to route 3.3V
+Text GLabel 2350 4850 0    60   Input ~ 0
+FTDI_nSLEEP
+$Comp
+L R R10
+U 1 1 591E4865
+P 2550 4850
+F 0 "R10" V 2630 4850 50  0000 C CNN
+F 1 "220" V 2550 4850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2480 4850 50  0001 C CNN
+F 3 "" H 2550 4850 50  0000 C CNN
+	1    2550 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 4850 2400 4850
+Text Label 2750 4850 0    60   ~ 0
+FTDI_nSUSPEND
 $EndSCHEMATC

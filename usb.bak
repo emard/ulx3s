@@ -187,8 +187,6 @@ Text GLabel 5000 3100 0    60   Input ~ 0
 USB_FTDI_D-
 Text GLabel 5000 3200 0    60   Input ~ 0
 USB_FTDI_D+
-Text GLabel 6850 5150 2    60   Input ~ 0
-FTDI_nSUSPEND
 Text GLabel 6550 3300 2    60   Input ~ 0
 JTAG_TCK
 Text GLabel 6550 3500 2    60   Input ~ 0
@@ -342,23 +340,6 @@ Wire Wire Line
 	4550 3600 4200 3600
 Text Label 4250 3600 0    60   ~ 0
 FT3V3
-Text GLabel 6350 5150 0    60   Input ~ 0
-FTDI_nSLEEP
-$Comp
-L R R10
-U 1 1 58EBA6BD
-P 6600 5150
-F 0 "R10" V 6680 5150 50  0000 C CNN
-F 1 "220" V 6600 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6530 5150 50  0001 C CNN
-F 3 "" H 6600 5150 50  0000 C CNN
-	1    6600 5150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6350 5150 6450 5150
-Wire Wire Line
-	6750 5150 6850 5150
 Text GLabel 10150 2650 2    60   Input ~ 0
 FTDI_TXD
 Text GLabel 8650 1950 0    60   Input ~ 0

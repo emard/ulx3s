@@ -253,9 +253,9 @@ Text GLabel 10050 3050 2    60   Input ~ 0
 SDRAM_D12
 Text GLabel 8550 3050 0    60   Input ~ 0
 SDRAM_D13
-Text GLabel 10050 3150 2    60   Input ~ 0
-SDRAM_D14
 Text GLabel 8550 3150 0    60   Input ~ 0
+SDRAM_D14
+Text GLabel 10050 3150 2    60   Input ~ 0
 SDRAM_D15
 Text GLabel 8550 5050 0    60   Input ~ 0
 SDRAM_A0
