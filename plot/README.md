@@ -10,6 +10,7 @@ ZIP seeedstudio to a file
 Open [Seeedstudio PCB production](https://www.seeedstudio.com/fusion_pcb.html)
 page, select:
 
+    Size: 94x51 mm
     Layer: 4-layer board
     Min Solder Mask: 0.1 mm
     Min Hole size: 0.2 mm

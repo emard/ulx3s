@@ -61,6 +61,7 @@ section (thicker power lines, separately routed feedback)
 
 2.54 mm external JTAG header
 
+    [ ] resistors for LEDs
     [ ] move USB LEDs from bottom to top side
     [ ] increase thickness of power lines (5V, 3.3V, 2.5V)
     [ ] compile a f32c bitstream using the schematics
