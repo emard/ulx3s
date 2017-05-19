@@ -72,3 +72,4 @@ section (thicker power lines, separately routed feedback)
     [ ] Jumpers to switch 2.5V/3.3V for left IO banks
     [x] External JTAG header
     [ ] Move WiFi Disable jumper above the buttons
+    [ ] Sprinkle 100nF capacitors on power lines
