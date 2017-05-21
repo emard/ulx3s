@@ -73,3 +73,4 @@ section (thicker power lines, separately routed feedback)
     [x] External JTAG header
     [ ] Move WiFi Disable jumper above the buttons
     [ ] Sprinkle 100nF capacitors on power lines
+    [ ] Spice simulation of power-up/shutdown network
