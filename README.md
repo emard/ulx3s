@@ -74,5 +74,4 @@ section (thicker power lines, separately routed feedback)
     [ ] Move WiFi Disable jumper above the buttons
     [ ] Sprinkle 100nF capacitors on power lines
     [ ] Spice simulation of power-up/shutdown network
-    [ ] Pin assignments wrong? Check schematic symbol pin names and
-        pin-bank report project/project_project.dir/5_1.pad
+    [ ] Dedicated antenna pin
