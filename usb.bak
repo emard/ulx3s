@@ -140,9 +140,9 @@ F 3 "" H 1900 3050 50  0000 C CNN
 	1    1900 3050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1850 1800 2    60   Input ~ 0
+Text GLabel 3000 1800 2    60   Input ~ 0
 USB_FTDI_D-
-Text GLabel 1850 1900 2    60   Input ~ 0
+Text GLabel 3000 1900 2    60   Input ~ 0
 USB_FTDI_D+
 Text GLabel 1850 2750 2    60   Input ~ 0
 USB_FPGA_D-
@@ -249,7 +249,9 @@ F 3 "" H 5600 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 1700 2550 1700
+	1800 1700 1950 1700
+Wire Wire Line
+	1950 1700 2550 1700
 Wire Wire Line
 	2750 1700 2800 1700
 Wire Wire Line
@@ -261,9 +263,9 @@ Wire Wire Line
 Wire Wire Line
 	1800 3050 1900 3050
 Wire Wire Line
-	1800 1800 1850 1800
+	1800 1800 2150 1800
 Wire Wire Line
-	1800 1900 1850 1900
+	1800 1900 2150 1900
 Wire Wire Line
 	1800 2750 1850 2750
 Wire Wire Line
@@ -273,7 +275,9 @@ Wire Wire Line
 Wire Wire Line
 	1800 2000 1850 2000
 Wire Wire Line
-	5600 4300 5600 4500
+	5600 4300 5600 4400
+Wire Wire Line
+	5600 4400 5600 4500
 Connection ~ 5600 4400
 Wire Wire Line
 	6400 3700 6550 3700
@@ -309,7 +313,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 4400 5800 4300
 Wire Wire Line
-	4800 2800 5000 2800
+	4800 2800 4900 2800
+Wire Wire Line
+	4900 2800 5000 2800
 Wire Wire Line
 	4900 2800 4900 2250
 Wire Wire Line
@@ -319,7 +325,9 @@ Wire Wire Line
 Text GLabel 4850 3400 0    60   Input ~ 0
 nRESET
 Wire Wire Line
-	4850 3400 5000 3400
+	4850 3400 4950 3400
+Wire Wire Line
+	4950 3400 5000 3400
 $Comp
 L R R9
 U 1 1 58EB9CB5
@@ -503,4 +511,34 @@ Wire Wire Line
 	9650 4900 10100 4900
 Wire Wire Line
 	8700 4900 9150 4900
+$Comp
+L R R49
+U 1 1 59274246
+P 2300 1800
+F 0 "R49" V 2250 2000 50  0000 C CNN
+F 1 "27" V 2300 1800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2230 1800 50  0001 C CNN
+F 3 "" H 2300 1800 50  0000 C CNN
+	1    2300 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R50
+U 1 1 592743C8
+P 2300 1900
+F 0 "R50" V 2250 2100 50  0000 C CNN
+F 1 "27" V 2300 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2230 1900 50  0001 C CNN
+F 3 "" H 2300 1900 50  0000 C CNN
+	1    2300 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 1800 3000 1800
+Wire Wire Line
+	2450 1900 3000 1900
+Text Label 1850 1800 0    60   ~ 0
+FTD-
+Text Label 1850 1900 0    60   ~ 0
+FTD+
 $EndSCHEMATC

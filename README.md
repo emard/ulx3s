@@ -75,5 +75,8 @@ section (thicker power lines, separately routed feedback)
     [x] Sprinkle 2.2F capacitors on power lines
     [ ] Spice simulation of power-up/shutdown network
     [ ] Dedicated antenna pin
-    [ ] 27ohm D+/D- to FT231XS
+    [x] 27ohm D+/D- to FT231XS
+    [ ] DIP switch (4 switches)
+    [ ] MAX11123 ADC SPI
+    
 
