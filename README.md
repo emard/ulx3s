@@ -66,7 +66,7 @@ section (thicker power lines, separately routed feedback)
     [ ] Improve SDRAM routing - use VIAs for closest pins
     [x] Increase thickness of power lines (5V, 3.3V, 2.5V)
     [x] Compile a f32c bitstream using the schematics
-    [ ] Compile differential GPDI output
+    [x] Compile differential GPDI output
     [ ] Connect more lines from ESP-32 to FPGA
     [ ] Connect FPGA USB D+/D- with 1.5k pullup in USB 1.1 (full speed) mode
     [ ] Jumpers to switch 2.5V/3.3V for left IO banks
@@ -78,5 +78,4 @@ section (thicker power lines, separately routed feedback)
     [x] 27ohm D+/D- to FT231XS
     [ ] DIP switch (4 switches)
     [ ] MAX11123 ADC SPI
-    
-
+    [ ] I2C for RTC
