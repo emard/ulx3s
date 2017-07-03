@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX11123
+D SPI ADC
+K SPI ADC
+F http://www.nxp.com/documents/data_sheet/MAX11123.pdf
+$ENDCMP
+#
+$CMP MAX11126
+D SPI ADC
+K SPI ADC
+F http://www.nxp.com/documents/data_sheet/MAX11123.pdf
+$ENDCMP
+#
+#End Doc Library

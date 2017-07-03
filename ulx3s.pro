@@ -1,4 +1,4 @@
-update=Sub 06 Svi 2017 12:27:47
+update=Pon 03 Srp 2017 12:51:39
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=footprints/esp8266;footprints/lattice;footprints/micro-hdmi-d;footprints/dcdc_converter;footprints/usbserial;footprints/esp32;footprints/oled
+LibDir=footprints/esp8266;footprints/lattice;footprints/micro-hdmi-d;footprints/dcdc_converter;footprints/usbserial;footprints/esp32;footprints/oled;footprints/adc/max1112x
 [eeschema/libraries]
 LibName1=ulx3s-rescue
 LibName2=power
@@ -67,13 +77,4 @@ LibName35=footprints/usbserial/ft2232
 LibName36=footprints/esp32/ESP32
 LibName37=footprints/oled/ssd_13xx
 LibName38=footprints/usbserial/ftdi
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName39=footprints/adc/max1112x/max1112x
