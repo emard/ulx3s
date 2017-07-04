@@ -663,4 +663,12 @@ Connection ~ 7750 3200
 Wire Wire Line
 	7800 3300 7750 3300
 Connection ~ 7750 3300
+Text GLabel 8500 3100 2    60   Input ~ 0
+SW0
+Text GLabel 8500 3200 2    60   Input ~ 0
+SW1
+Text GLabel 8500 3300 2    60   Input ~ 0
+SW2
+Text GLabel 8500 3400 2    60   Input ~ 0
+SW3
 $EndSCHEMATC

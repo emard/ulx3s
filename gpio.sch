@@ -641,4 +641,12 @@ Text GLabel 5700 2800 2    60   Input ~ 0
 BTN_PWRn
 Text Notes 7050 5750 0    60   ~ 0
 J2_5-J2_23 connected to  BANK2,3 on "ram" sheet\nJ2_25-J2_35 connected to BANK1 on "gpdi" sheet
+Text GLabel 4200 2700 0    60   Input ~ 0
+SW0
+Text GLabel 4200 2500 0    60   Input ~ 0
+SW1
+Text GLabel 5700 2500 2    60   Input ~ 0
+SW2
+Text GLabel 5700 2700 2    60   Input ~ 0
+SW3
 $EndSCHEMATC
