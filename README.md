@@ -77,5 +77,5 @@ section (thicker power lines, separately routed feedback)
     [ ] Dedicated antenna pin
     [x] 27ohm D+/D- to FT231XS
     [ ] DIP switch (4 switches)
-    [ ] MAX11123 ADC SPI
-    [ ] I2C for RTC
+    [x] MAX11123 ADC SPI
+    [x] I2C for RTC
