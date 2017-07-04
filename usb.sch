@@ -534,4 +534,6 @@ Text Label 1850 1800 0    60   ~ 0
 FTD-
 Text Label 1850 1900 0    60   ~ 0
 FTD+
+Text Notes 2150 3150 0    60   ~ 0
+USB_FPGA connected to\nBANK2 on "ram" sheet
 $EndSCHEMATC

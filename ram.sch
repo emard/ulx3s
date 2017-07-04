@@ -397,4 +397,8 @@ Text GLabel 10050 5350 2    60   Input ~ 0
 ADC_CSn
 Text GLabel 10050 5550 2    60   Input ~ 0
 ADC_SCLK
+Text GLabel 8550 3850 0    60   Input ~ 0
+USB_FPGA_D+
+Text GLabel 10050 3850 2    60   Input ~ 0
+USB_FPGA_D-
 $EndSCHEMATC
