@@ -69,6 +69,8 @@ section (thicker power lines, separately routed feedback)
     [x] Compile differential GPDI output
     [ ] Connect more lines from ESP-32 to FPGA
     [x] Connect FPGA USB D+/D- with 1.5k pullup in USB 1.1 (full speed) mode
+    [ ] FPGA USB add 22ohm+3.6Vzener
+    [ ] Symmetrically place USB connectors left-right 
     [ ] Jumpers to switch 2.5V/3.3V for left IO banks
     [x] External JTAG header
     [ ] Move WiFi Disable jumper above the buttons
