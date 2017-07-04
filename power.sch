@@ -593,9 +593,9 @@ F 3 "" H 2100 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2600 3350 2    60   Input ~ 0
-I2C_SCL
+GPDI_SCL
 Text GLabel 2600 3450 2    60   Input ~ 0
-I2C_SDA
+GPDI_SDA
 $Comp
 L Battery_Cell BAT1
 U 1 1 58D72202

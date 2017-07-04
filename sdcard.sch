@@ -159,4 +159,6 @@ Wire Wire Line
 	3150 3300 4050 3300
 Wire Wire Line
 	3550 3500 3550 3650
+Text Notes 3050 4100 0    60   ~ 0
+SDcard connected to\nBANK6 on "usb" sheet
 $EndSCHEMATC

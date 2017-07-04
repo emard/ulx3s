@@ -275,4 +275,6 @@ Connection ~ 2850 5800
 Wire Wire Line
 	2900 5700 2850 5700
 Connection ~ 2850 5700
+Text Notes 3550 2650 0    60   ~ 0
+Audio connected to\nBANK7 on "gpio" sheet
 $EndSCHEMATC

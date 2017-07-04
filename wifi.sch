@@ -215,4 +215,6 @@ F 3 "" H 3850 4600 50  0000 C CNN
 	1    3850 4600
 	1    0    0    -1  
 $EndComp
+Text Notes 7550 6000 0    60   ~ 0
+WiFi and SDcard connected to\nBANK6 on "usb" sheet
 $EndSCHEMATC

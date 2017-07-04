@@ -613,4 +613,8 @@ Text Label 4750 3750 0    60   ~ 0
 ALED6
 Text Label 4750 3950 0    60   ~ 0
 ALED7
+Text Notes 4600 4300 0    60   ~ 0
+LEDs connected to\nBANK7 on "gpio" sheet
+Text Notes 2900 4300 0    60   ~ 0
+Buttons connected to\nBANK8 on "flash" sheet
 $EndSCHEMATC

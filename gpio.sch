@@ -639,4 +639,6 @@ Text Notes 950  7550 0    60   ~ 0
 GPIO route only A/B pairs as those are differential bidirectional\ndon't route C/D pairs to GPIO as those can be differential input only 
 Text GLabel 5700 2800 2    60   Input ~ 0
 BTN_PWRn
+Text Notes 7050 5750 0    60   ~ 0
+J2_5-J2_23 connected to  BANK2,3 on "ram" sheet\nJ2_25-J2_35 connected to BANK1 on "gpdi" sheet
 $EndSCHEMATC
