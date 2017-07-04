@@ -76,6 +76,6 @@ section (thicker power lines, separately routed feedback)
     [ ] Spice simulation of power-up/shutdown network
     [ ] Dedicated antenna pin
     [x] 27ohm D+/D- to FT231XS
-    [ ] DIP switch (4 switches)
+    [x] DIP switch (4 switches)
     [x] MAX11123 ADC SPI
     [x] I2C for RTC
