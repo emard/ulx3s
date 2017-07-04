@@ -393,8 +393,8 @@ Text GLabel 8550 4550 0    60   Input ~ 0
 ADC_MISO
 Text GLabel 8550 5350 0    60   Input ~ 0
 ADC_MOSI
-Text GLabel 10050 5550 2    60   Input ~ 0
-ADC_CSn
 Text GLabel 10050 5350 2    60   Input ~ 0
+ADC_CSn
+Text GLabel 10050 5550 2    60   Input ~ 0
 ADC_SCLK
 $EndSCHEMATC

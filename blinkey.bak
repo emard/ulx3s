@@ -617,4 +617,50 @@ Text Notes 4600 4300 0    60   ~ 0
 LEDs connected to\nBANK7 on "gpio" sheet
 Text Notes 2900 4300 0    60   ~ 0
 Buttons connected to\nBANK8 on "flash" sheet
+$Comp
+L DIL8 SW?
+U 1 1 595B94DC
+P 8150 3250
+F 0 "SW?" H 8150 3500 50  0000 C CNN
+F 1 "DIPSW" V 8150 3250 50  0000 C CNN
+F 2 "" H 8150 3250 50  0000 C CNN
+F 3 "" H 8150 3250 50  0000 C CNN
+	1    8150 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 595B9C2F
+P 7550 3400
+F 0 "R?" V 7630 3400 50  0000 C CNN
+F 1 "220" V 7550 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7480 3400 50  0001 C CNN
+F 3 "" H 7550 3400 50  0000 C CNN
+	1    7550 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 595BA1C1
+P 7400 3400
+F 0 "#PWR?" H 7400 3250 50  0001 C CNN
+F 1 "+3V3" H 7400 3540 50  0000 C CNN
+F 2 "" H 7400 3400 50  0000 C CNN
+F 3 "" H 7400 3400 50  0000 C CNN
+	1    7400 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 3400 7800 3400
+Wire Wire Line
+	7750 3400 7750 3100
+Wire Wire Line
+	7750 3100 7800 3100
+Connection ~ 7750 3400
+Wire Wire Line
+	7800 3200 7750 3200
+Connection ~ 7750 3200
+Wire Wire Line
+	7800 3300 7750 3300
+Connection ~ 7750 3300
 $EndSCHEMATC
