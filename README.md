@@ -62,6 +62,8 @@ section (thicker power lines, separately routed feedback)
 2.54 mm external JTAG header
 
     [ ] Silkscreen Double outline for BGA chip
+    [ ] Do not write silkscreen over the pads
+    [ ] Values on silkscreen
     [x] Resistors for LEDs
     [x] Move USB LEDs from bottom to top side
     [ ] Improve SDRAM routing - use VIAs for closest pins
