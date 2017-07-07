@@ -59,8 +59,6 @@ with digital monitors/TVs
 Finish routing and especially improve Power
 section (thicker power lines, separately routed feedback)
 
-2.54 mm external JTAG header
-
     [ ] Silkscreen Double outline for BGA chip
     [ ] Do not write silkscreen over the pads
     [ ] Values on silkscreen
@@ -77,7 +75,7 @@ section (thicker power lines, separately routed feedback)
     [ ] Jumpers to switch 2.5V/3.3V for left IO banks
     [x] External JTAG header
     [ ] Move WiFi Disable jumper above the buttons
-    [x] Sprinkle 2.2F capacitors on power lines
+    [x] Sprinkle 2.2uF capacitors on power lines
     [ ] Spice simulation of power-up/shutdown network
     [ ] Dedicated antenna pin
     [x] 27ohm D+/D- to FT231XS
