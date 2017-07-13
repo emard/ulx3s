@@ -92,5 +92,5 @@ section (thicker power lines, separately routed feedback)
     [ ] R25 move frem oled screw hole
     [ ] board cut off nothches inisde for space saving
     [ ] DIP switch to the right near RAM
-
+    [ ] move HDMI a bit closer to OLED
 
