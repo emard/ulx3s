@@ -78,7 +78,19 @@ section (thicker power lines, separately routed feedback)
     [x] Sprinkle 2.2uF capacitors on power lines
     [ ] Spice simulation of power-up/shutdown network
     [ ] Dedicated antenna pin
+    [ ] onboard 433 antenna
     [x] 27ohm D+/D- to FT231XS
     [x] DIP switch (4 switches)
     [x] MAX11123 ADC SPI
     [x] I2C for RTC
+    [ ] physically sprinkle VCC blocator capacitors
+    [ ] main usb connector on top side 
+    [ ] space screw to other parts
+    [ ] move battery for space
+    [ ] move 32k to the right
+    [ ] top layer GND fill
+    [ ] R25 move frem oled screw hole
+    [ ] board cut off nothches inisde for space saving
+    [ ] DIP switch to the right near RAM
+
+
