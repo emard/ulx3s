@@ -671,4 +671,6 @@ Text GLabel 8500 3300 2    60   Input ~ 0
 SW2
 Text GLabel 8500 3400 2    60   Input ~ 0
 SW3
+Text Notes 7700 3750 0    60   ~ 0
+DIP switch connected to\nBANK0 on 'gpio' sheet
 $EndSCHEMATC
