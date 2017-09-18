@@ -84,12 +84,12 @@ section (thicker power lines, separately routed feedback)
     [x] MAX11123 ADC SPI
     [x] I2C for RTC
     [ ] physically sprinkle VCC blocator capacitors
-    [ ] main usb connector on top side 
+    [x] main usb connector on top side 
     [ ] space screw to other parts
     [ ] move battery for space
     [ ] move 32k to the right
     [ ] top layer GND fill
-    [ ] R25 move frem oled screw hole
+    [ ] R25 move away from oled screw hole
     [ ] board cut off nothches inisde for space saving
     [x] DIP switch to the right near RAM
     [ ] move HDMI a bit closer to OLED
