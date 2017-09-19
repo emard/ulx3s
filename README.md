@@ -86,7 +86,7 @@ section (thicker power lines, separately routed feedback)
     [ ] physically sprinkle VCC blocator capacitors
     [x] main usb connector on top side 
     [ ] space screw to other parts
-    [ ] move battery for space
+    [x] move battery away from screw hole
     [ ] move 32k to the right
     [ ] top layer GND fill
     [ ] R25 move away from oled screw hole
