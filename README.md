@@ -88,7 +88,7 @@ section (thicker power lines, separately routed feedback)
     [ ] space screw to other parts
     [x] move battery away from screw hole
     [ ] move 32k to the right
-    [ ] top layer GND fill
+    [x] top layer GND fill
     [ ] R25 move away from oled screw hole
     [ ] board cut off nothches inisde for space saving
     [x] DIP switch to the right near RAM
