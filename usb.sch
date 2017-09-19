@@ -613,5 +613,7 @@ Wire Wire Line
 	2300 2900 2300 2750
 Connection ~ 2300 2750
 Text GLabel 8650 2450 0    60   Input ~ 0
-WIFI_15
+WIFI_GPIO15
+Text GLabel 8650 2550 0    60   Input ~ 0
+WIFI_GPIO16
 $EndSCHEMATC

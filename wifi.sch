@@ -251,7 +251,35 @@ J1_27+
 Text GLabel 6500 5850 3    60   Input ~ 0
 J1_27-
 Text GLabel 7200 5850 3    60   Input ~ 0
-WIFI_15
-Text Notes 7300 6450 0    60   ~ 0
-WIFI GPIO15 (HSPI_SS)\nconnected to \nBANK6 at "" page
+WIFI_GPIO15
+Text Notes 7550 6400 0    60   ~ 0
+WIFI GPIO15 (HSPI_SS)\nconnected to \nBANK6 on "usb" sheet
+Text GLabel 7750 5250 2    60   Input ~ 0
+WIFI_GPIO16
+$Comp
+L GND #PWR?
+U 1 1 59C1BF96
+P 7850 4150
+F 0 "#PWR?" H 7850 3900 50  0001 C CNN
+F 1 "GND" H 7850 4000 50  0000 C CNN
+F 2 "" H 7850 4150 50  0001 C CNN
+F 3 "" H 7850 4150 50  0001 C CNN
+	1    7850 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 4150 7850 4150
+$Comp
+L GND #PWR?
+U 1 1 59C1BFCC
+P 7850 4050
+F 0 "#PWR?" H 7850 3800 50  0001 C CNN
+F 1 "GND" H 7850 3900 50  0000 C CNN
+F 2 "" H 7850 4050 50  0001 C CNN
+F 3 "" H 7850 4050 50  0001 C CNN
+	1    7850 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 4050 7850 4050
 $EndSCHEMATC
