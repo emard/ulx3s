@@ -73,7 +73,7 @@ Text GLabel 7750 5450 2    60   Input ~ 0
 WIFI_GPIO0
 Text GLabel 7750 4850 2    60   Input ~ 0
 JTAG_TDI
-Text GLabel 7750 4750 2    60   Input ~ 0
+Text GLabel 7750 5150 2    60   Input ~ 0
 JTAG_TDO
 Text GLabel 7750 4950 2    60   Input ~ 0
 JTAG_TCK
@@ -217,4 +217,11 @@ F 3 "" H 3850 4600 50  0000 C CNN
 $EndComp
 Text Notes 7550 6000 0    60   ~ 0
 WiFi and SDcard connected to\nBANK6 on "usb" sheet
+Text Notes 8700 5500 0    60   ~ 0
+Strapping pins\n(avoid using to avoid\nboot problems)\nGPIO0,2,4,5,12,15
+NoConn ~ 7750 5350
+NoConn ~ 7300 5850
+NoConn ~ 7200 5850
+NoConn ~ 5900 5400
+NoConn ~ 7750 5050
 $EndSCHEMATC

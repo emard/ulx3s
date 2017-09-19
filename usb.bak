@@ -434,26 +434,26 @@ ujprog pinmap\nTCK = DSR\nTMS = RI\nTDI = CTS\nTDO = DCD\n
 $Comp
 L R R40
 U 1 1 591C69FB
-P 2900 2450
-F 0 "R40" V 2980 2450 50  0000 C CNN
-F 1 "1.5k" V 2900 2450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2830 2450 50  0001 C CNN
-F 3 "" H 2900 2450 50  0000 C CNN
-	1    2900 2450
+P 2200 2450
+F 0 "R40" V 2280 2450 50  0000 C CNN
+F 1 "1.5k" V 2200 2450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2130 2450 50  0001 C CNN
+F 3 "" H 2200 2450 50  0000 C CNN
+	1    2200 2450
 	-1   0    0    1   
 $EndComp
 $Comp
 L +3V3 #PWR087
 U 1 1 591C6DA4
-P 2900 2300
-F 0 "#PWR087" H 2900 2150 50  0001 C CNN
-F 1 "+3V3" H 2900 2440 50  0000 C CNN
-F 2 "" H 2900 2300 50  0000 C CNN
-F 3 "" H 2900 2300 50  0000 C CNN
-	1    2900 2300
+P 2200 2300
+F 0 "#PWR087" H 2200 2150 50  0001 C CNN
+F 1 "+3V3" H 2200 2440 50  0000 C CNN
+F 2 "" H 2200 2300 50  0000 C CNN
+F 3 "" H 2200 2300 50  0000 C CNN
+	1    2200 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 3000 2550 0    60   ~ 0
+Text Notes 2300 2550 0    60   ~ 0
 D+ pullp for \nfull speed \nmode USB1.1
 Text GLabel 8650 1450 0    60   Input ~ 0
 CLK_25MHz
@@ -564,9 +564,6 @@ Text Label 1850 2750 0    60   ~ 0
 FPD-
 Text Label 1850 2850 0    60   ~ 0
 FPD+
-Wire Wire Line
-	2900 2600 2900 2850
-Connection ~ 2900 2850
 $Comp
 L D_Zener_Small_ALT D20
 U 1 1 59C133D8
@@ -610,7 +607,7 @@ Wire Wire Line
 	2250 3250 2250 3200
 Connection ~ 2250 3200
 Wire Wire Line
-	2200 2900 2200 2850
+	2200 2600 2200 2900
 Connection ~ 2200 2850
 Wire Wire Line
 	2300 2900 2300 2750
