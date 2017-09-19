@@ -645,8 +645,8 @@ Text GLabel 5700 2500 2    60   Input ~ 0
 SW0
 Text GLabel 5700 2700 2    60   Input ~ 0
 SW1
-Text GLabel 4200 2700 0    60   Input ~ 0
-SW2
 Text GLabel 4200 2500 0    60   Input ~ 0
+SW2
+Text GLabel 4200 2700 0    60   Input ~ 0
 SW3
 $EndSCHEMATC
