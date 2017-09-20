@@ -61,7 +61,12 @@ section (thicker power lines, separately routed feedback)
 
     [ ] Silkscreen Double outline for BGA chip
     [ ] Do not write silkscreen over the pads
+    [ ] Silkscreen BGA names on ESP32 placeholder
+    [ ] Thinner copper, more spacing to SDRAM-FPGA
+    [ ] physically sprinkle VCC blocator capacitors under BGA
     [ ] Values on silkscreen
+    [ ] Dedicated antenna pin
+    [ ] onboard 433 antenna (lower side, remove GND infill)
     [x] Resistors for LEDs
     [x] Move USB LEDs from bottom to top side
     [ ] Improve SDRAM routing - use VIAs for closest pins
@@ -77,13 +82,10 @@ section (thicker power lines, separately routed feedback)
     [ ] Move WiFi Disable jumper above the buttons
     [x] Sprinkle 2.2uF capacitors on power lines
     [ ] Spice simulation of power-up/shutdown network
-    [ ] Dedicated antenna pin
-    [ ] onboard 433 antenna
     [x] 27ohm D+/D- to FT231XS
     [x] DIP switch (4 switches)
     [x] MAX11123 ADC SPI
     [x] I2C for RTC
-    [ ] physically sprinkle VCC blocator capacitors
     [x] main usb connector on top side 
     [ ] space screw to other parts
     [x] move battery away from screw hole
