@@ -616,4 +616,19 @@ Text GLabel 8650 2450 0    60   Input ~ 0
 WIFI_GPIO15
 Text GLabel 8650 2550 0    60   Input ~ 0
 WIFI_GPIO16
+$Comp
+L Antenna AE1
+U 1 1 59C3AE47
+P 10950 1350
+F 0 "AE1" H 10875 1425 50  0000 R CNN
+F 1 "433MHz" H 10875 1350 50  0000 R CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 10950 1350 50  0001 C CNN
+F 3 "" H 10950 1350 50  0001 C CNN
+	1    10950 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10150 1350 10750 1350
+Text Label 10200 1350 0    60   ~ 0
+ANT_433MHz
 $EndSCHEMATC

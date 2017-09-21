@@ -82,6 +82,20 @@ X FB 5 600 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Antenna
+#
+DEF Antenna AE 0 40 N N 1 F N
+F0 "AE" -75 75 50 H V R CNN
+F1 "Antenna" -75 0 50 H V R CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 10 0 100 0 -150 N
+P 3 0 1 10 50 100 0 -100 -50 100 N
+X A 1 0 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Battery_Cell
 #
 DEF Battery_Cell BT 0 0 N N 1 F N
