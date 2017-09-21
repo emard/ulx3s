@@ -3,7 +3,7 @@
   (general
     (links 672)
     (no_connects 0)
-    (area 71.010001 43.48 197.572001 118.732339)
+    (area 93.949999 61.269999 188.230001 112.370001)
     (thickness 1.6)
     (drawings 6)
     (tracks 4048)
@@ -62,7 +62,7 @@
     (mod_text_width 0.15)
     (pad_size 0.5 0.5)
     (pad_drill 0)
-    (pad_to_mask_clearance 0.2)
+    (pad_to_mask_clearance 0.05)
     (aux_axis_origin 82.67 62.69)
     (grid_origin 86.48 79.2)
     (visible_elements 7FFFF7FF)
