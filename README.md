@@ -65,7 +65,7 @@ section (thicker power lines, separately routed feedback)
     [x] Silkscreen JTAG signal names on 6-pin 2.54 mm header
     [x] Silkscreen remove OLED outline
     [x] Solder stop mask must go inbetween all SMD chip pads
-    [ ] External differential clock input
+    [x] External differential clock input at J1_33 +/-
     [ ] Thinner copper, more spacing to SDRAM-FPGA
     [ ] physically sprinkle VCC blocator capacitors under BGA
     [ ] Values on silkscreen
