@@ -60,10 +60,11 @@ Finish routing and especially improve Power
 section (thicker power lines, separately routed feedback)
 
     [x] Silkscreen Double outline for BGA chip
-    [x] Solder stop mask must go inbetween all SMD chip pads
-    [ ] Do not write silkscreen over the pads
-    [ ] Silkscreen BGA names on ESP32 placeholder
+    [ ] Silkscreen do not write over the solder pads
+    [ ] Silkscreen BGA names on ESP32 placeholder and 2.54 mm headers
+    [x] Silkscreen JTAG signal names on 6-pin 2.54 mm header
     [x] Silkscreen remove OLED outline
+    [x] Solder stop mask must go inbetween all SMD chip pads
     [ ] Thinner copper, more spacing to SDRAM-FPGA
     [ ] physically sprinkle VCC blocator capacitors under BGA
     [ ] Values on silkscreen
