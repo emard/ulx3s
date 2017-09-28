@@ -9,8 +9,7 @@ it is better explained when drawn in kicad:
     kicad ulx3s.pro
 
 [Schematics](/doc/schematics.pdf) is mostly complete.
-PCB routing is complete, but needs improvement
-mainly for the power supply.
+PCB routing is mostly complete too.
 
 3D preview
 
@@ -60,8 +59,7 @@ with digital monitors/TVs
 
 # Todo
 
-Finish routing and especially improve Power
-section (thicker power lines, separately routed feedback)
+Make the prototype.
 
     [x] Silkscreen Double outline for BGA chip
     [ ] Silkscreen do not write over the solder pads
