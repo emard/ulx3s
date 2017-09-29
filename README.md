@@ -101,4 +101,9 @@ Make the prototype.
     [ ] board cut off nothches inisde for space saving
     [x] DIP switch to the right near RAM
     [x] Move HDMI a bit closer to OLED
-
+    [ ] 32768Hz oscillator footprint too small
+    [ ] SD card footprint wrong
+    [ ] move USB 0.5-1mm more out
+    [ ] DIP SW PADS too narrow
+    [ ] AUDIO jack footprint unknown
+    [ ] BTN footprint unknown
