@@ -11,25 +11,25 @@ VUSB5V hard_5V 0         PULSE(0V    5V  0.1s  10ms  10ms        9s     10s DC=0
 * internal resistor provides "soft" USB 5V
 Rusb hard_5V USB5V 0.1
 
-*  shutdown pulse every 1 second, start after 0.5s
+*  shutdown pulse every 1 second, start after 0.4s
 *                                       start  rise  fall  duration  period
-VSHUT shutdown_pulse  0  PULSE(0V  3.3V  0.5s  10ms  10ms     100ms      1s DC=0V)
+VSHUT shutdown_pulse  0  PULSE(0V  3.3V  0.4s  10ms  10ms     100ms      1s DC=0V)
 * convergence friendly resistor
 RSHUT shutdown_pulse SHUTDOWN 220
 
 *  power up button pulse every 10 seconds, start after 0.7s
 *                                       start  rise  fall  duration  period
-VPWRBTN pwrbtn_pulse  0  PULSE(0V  3.3V  0.7s  10ms  10ms     100ms     10s DC=0V)
+VPWRBTN pwrbtn_pulse  0  PULSE(0V  3.3V  0.9s  10ms  10ms     100ms     10s DC=0V)
 
 * RTC internal wakeup pulse every 10 seconds, start after 1.7s
 *                                       start  rise  fall  duration  period
-VWAKEUP wake_pulse  0  PULSE(0V  3.3V    1.7s  10ms  10ms     100ms     10s DC=0V)
+VWAKEUP wake_pulse  0  PULSE(0V  3.3V    1.9s  10ms  10ms     100ms     10s DC=0V)
 * convergence friendly internal resistor
 Rwk  wake_pulse wake_base  1k
 
 *  FTDI_nSLEEP signal every 10 seconds, start after 2.3s
 *                                       start  rise  fall  duration  period
-VFTDI FTDI_nSLEEP   0    PULSE(0V  3.3V  2.3s  10ms  10ms      0.5s     10s DC=0V)
+VFTDI FTDI_nSLEEP   0    PULSE(0V  3.3V  2.2s  10ms  10ms      0.5s     10s DC=0V)
 
 * RTC internal NPN transisfor for open collector output
 Qwk  WAKEUPn wake_base 0  BC847
@@ -37,7 +37,7 @@ Qwk  WAKEUPn wake_base 0  BC847
 * hard 3.3V voltage
 Vhard3V3 hard_3V3 0 3.3V
 * internal resistor provides "soft" 3.3V
-Rsmps hard_3V3 PWR3V3 0.01
+Rsmps hard_3V3 PWR3V3 10
 
 * base resistor
 R6 WAKEUPn WKn 1k
@@ -89,9 +89,9 @@ R10 FTDI_nSLEEP FTDI_nSUSPEND 220
 D12 FTDI_nSUSPEND PWREN N4148
 
 
-* The load
-RL P3V3 0   1
-CL P3V3 0   100uF
+* The load (slow)
+RL P3V3 0   100
+CL P3V3 0   1000uF
 
 
 .TRAN 1ms 3s
@@ -107,6 +107,7 @@ CL P3V3 0   100uF
 .MODEL N7002 NMOS (LEVEL=1, VTO=2.5, KP=40, RS=0.033, RD=0.034)
 
 * todo
-* BAT42 schottky diode model doesn't simulate wanted 0.25V drop
-* the BAT42 model seems to have 0.7V drop
-
+* [ ] BAT42 schottky diode model doesn't simulate wanted 0.25V drop
+*     the BAT42 model seems to have 0.7V drop
+* [ ] delay: switch power 3.3V doesn't start immediately
+* [ ] control signals should be derived from P3V3 line
