@@ -1,0 +1,78 @@
+* POWERSECTION -> plot v(wake_pulse),v(wkup),v(wake),w(pwren),v(hold),v(p3v3)
+
+* RTC internal wakeup pulse
+**                                    start  rise  fall  plato  period
+VWAKEUP wake_pulse  0  PULSE(0V  3.3V  40ms  10ms  10ms   50ms     10s DC=0V)
+**                                      start  rise  fall  plato  period
+VSHUT shutdown_pulse  0  PULSE(0V  3.3V 400ms  10ms  10ms  100ms     10s DC=0V)
+
+* convergence friendly resistor
+RSHUT shutdown_pulse shut 220
+
+* convergence friendly internal resistor
+Rwk  wake_pulse wake_base  1k
+
+* RTC internal NPN transisfor for open collector output
+Qwk  WAKEUPn wake_base 0  BC847
+
+* hard 5V voltage
+Vhard5V hard_5V 0 5V
+* internal resistor provides "soft" USB 5V
+Rusb hard_5V USB5V 0.1
+
+* hard 3.3V voltage
+Vhard3V3 hard_3V3 0 3.3V
+* internal resistor provides "soft" 3.3V
+Rsmps hard_3V3 PWR3V3 0.1
+
+* base resistor
+R6 WAKEUPn WKn 1k
+* PNP transistor
+Q1 WKUP WKn USB5V BC857
+* Slow down capacitor, initially discharged
+C13 USB5V WKUP 2.2uF IC=0
+* diode to discharge C13 at shutdown
+D13 0 WKUP N4148
+
+* diode to activate onboard switching regulator
+D10 WKUP WAKE N4148
+* "OR" resistors
+R1 WAKE PWREN 15k
+R4 PWREN HOLD 15k
+* "OR" diode to 3.3V from switching regulator
+D11 P3V3 HOLD N4148
+
+* switching regulator, default off, starts by hysteresis
+SW3V3 PWR3V3 P3V3 PWREN 0 SWITCH OFF
+
+* pull down resistor
+R2 PWREN 0 47k
+
+* small mosfet
+M1 drain SHUT 0 0 N7002
+* drain resistor
+R8 drain PWREN 1k
+* mosfet gate slowdown resistor
+C14 SHUT 0 100nF
+* mosfet gate discharge (default OFF) resistor
+R5 SHUT 0 4.7MEG
+
+* diode to discharge gate at shutdown
+D14 SHUT P3V3 N4148
+
+
+.TRAN 1ms 2s
+.OPTIONS METHOD=GEAR, RELTOL=1E-3, itl1=500, itl4=500
+*.OPTIONS gmin=1e-11 reltol=4e-4 itl1=500 itl4=500
+*.OPTIONS gmin = 1E-12, reltol = 1E-3, itl1 = 500, itl4 = 500 
+
+* .MODEL N4004 D (CJO=10pF TT=0.1ns)
+* .MODEL FINTERNAL D (CJO=10pF TT=0.1ns)
+* .MODEL Z12V D (BV=12V)
+* .MODEL F540 NMOS (LEVEL=1, VTO=3, KP=40, RS=0.033, RD=0.034)
+* .MODEL BD433 NPN (BF=100 TF=0.3ns CJE=10pF CJC=7pF)
+.MODEL SWITCH SW (VT=1V, VH=0.5V, RON=1, ROFF=10MEG)
+.MODEL N4148 D (CJO=0.2pF)
+.MODEL BC847 NPN (BF=150)
+.MODEL BC857 PNP (BF=150)
+.MODEL N7002 NMOS (LEVEL=1, VTO=1.8, KP=40, RS=0.033, RD=0.034)
