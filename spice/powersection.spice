@@ -1,29 +1,43 @@
-* POWERSECTION -> plot v(wake_pulse),v(wkup),v(wake),w(pwren),v(hold),v(p3v3)
+* POWERSECTION -> plot v(pwrbtn_pulse),v(shutdown_pulse),v(wake_pulse),v(p3v3),v(ftdi_nsleep)
 
-* RTC internal wakeup pulse
-**                                    start  rise  fall  plato  period
-VWAKEUP wake_pulse  0  PULSE(0V  3.3V  40ms  10ms  10ms   50ms     10s DC=0V)
-**                                      start  rise  fall  plato  period
-VSHUT shutdown_pulse  0  PULSE(0V  3.3V 400ms  10ms  10ms  100ms     10s DC=0V)
+* Simulation of power network
+* POWER ON: USB plugged in, POWER button, RTC alarm, FTDI_nSLEEP
+* POWER OFF: SHUTDOWN signal
+* FTDI_nSLEEP has priority over SHUTDOWN signal (not yet simulated)
 
+*  Simulate 5V USB plugging in every 10 seconds
+*                                       start  rise  fall  duration  period
+VUSB5V hard_5V 0         PULSE(0V    5V  0.1s  10ms  10ms        9s     10s DC=0V)
+* internal resistor provides "soft" USB 5V
+Rusb hard_5V USB5V 0.1
+
+*  shutdown pulse every 1 second, start after 0.5s
+*                                       start  rise  fall  duration  period
+VSHUT shutdown_pulse  0  PULSE(0V  3.3V  0.5s  10ms  10ms     100ms      1s DC=0V)
 * convergence friendly resistor
-RSHUT shutdown_pulse shut 220
+RSHUT shutdown_pulse SHUTDOWN 220
 
+*  power up button pulse every 10 seconds, start after 0.7s
+*                                       start  rise  fall  duration  period
+VPWRBTN pwrbtn_pulse  0  PULSE(0V  3.3V  0.7s  10ms  10ms     100ms     10s DC=0V)
+
+* RTC internal wakeup pulse every 10 seconds, start after 1.7s
+*                                       start  rise  fall  duration  period
+VWAKEUP wake_pulse  0  PULSE(0V  3.3V    1.7s  10ms  10ms     100ms     10s DC=0V)
 * convergence friendly internal resistor
 Rwk  wake_pulse wake_base  1k
+
+*  FTDI_nSLEEP signal every 10 seconds, start after 2.3s
+*                                       start  rise  fall  duration  period
+VFTDI FTDI_nSLEEP   0    PULSE(0V  3.3V  2.3s  10ms  10ms      0.5s     10s DC=0V)
 
 * RTC internal NPN transisfor for open collector output
 Qwk  WAKEUPn wake_base 0  BC847
 
-* hard 5V voltage
-Vhard5V hard_5V 0 5V
-* internal resistor provides "soft" USB 5V
-Rusb hard_5V USB5V 0.1
-
 * hard 3.3V voltage
 Vhard3V3 hard_3V3 0 3.3V
 * internal resistor provides "soft" 3.3V
-Rsmps hard_3V3 PWR3V3 0.1
+Rsmps hard_3V3 PWR3V3 0.01
 
 * base resistor
 R6 WAKEUPn WKn 1k
@@ -60,19 +74,39 @@ R5 SHUT 0 4.7MEG
 * diode to discharge gate at shutdown
 D14 SHUT P3V3 N4148
 
+* diode for shutdown to only pull down, never up
+D15 SHUTDOWN SHUT BAT42
+* Pull down resistor
+R13 SHUTDOWN 0 15k
 
-.TRAN 1ms 2s
+* power button
+R3 USB5V pwrbtn 4.7k
+D16 WAKEUPn pwrbtn N4148
+SPWR pwrbtn 0  pwrbtn_pulse 0  SWITCH OFF
+
+* ftdi no-sleep network
+R10 FTDI_nSLEEP FTDI_nSUSPEND 220
+D12 FTDI_nSUSPEND PWREN N4148
+
+
+* The load
+RL P3V3 0   1
+CL P3V3 0   100uF
+
+
+.TRAN 1ms 3s
 .OPTIONS METHOD=GEAR, RELTOL=1E-3, itl1=500, itl4=500
 *.OPTIONS gmin=1e-11 reltol=4e-4 itl1=500 itl4=500
 *.OPTIONS gmin = 1E-12, reltol = 1E-3, itl1 = 500, itl4 = 500 
 
-* .MODEL N4004 D (CJO=10pF TT=0.1ns)
-* .MODEL FINTERNAL D (CJO=10pF TT=0.1ns)
-* .MODEL Z12V D (BV=12V)
-* .MODEL F540 NMOS (LEVEL=1, VTO=3, KP=40, RS=0.033, RD=0.034)
-* .MODEL BD433 NPN (BF=100 TF=0.3ns CJE=10pF CJC=7pF)
-.MODEL SWITCH SW (VT=1V, VH=0.5V, RON=1, ROFF=10MEG)
+.MODEL SWITCH SW (VT=1V, VH=0.5V, RON=0.01, ROFF=100MEG)
 .MODEL N4148 D (CJO=0.2pF)
+.MODEL BAT42 D (VJ=0.25)
 .MODEL BC847 NPN (BF=150)
 .MODEL BC857 PNP (BF=150)
 .MODEL N7002 NMOS (LEVEL=1, VTO=1.8, KP=40, RS=0.033, RD=0.034)
+
+* todo
+* BAT42 schottky diode model doesn't simulate wanted 0.25V drop
+* the BAT42 model seems to have 0.7V drop
+
