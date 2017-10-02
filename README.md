@@ -85,6 +85,7 @@ Make the prototype.
     [x] Symmetrically place USB connectors left-right 
     [ ] Jumpers to switch 2.5V/3.3V for left IO banks
     [x] External JTAG header
+    [ ] Move JTAG 2.54 mm left
     [ ] Move WiFi Disable jumper above the buttons
     [x] Sprinkle 2.2uF capacitors on power lines
     [ ] Spice simulation of power-up/shutdown network
@@ -101,7 +102,7 @@ Make the prototype.
     [ ] board cut off nothches inisde for space saving
     [x] DIP switch to the right near RAM
     [x] Move HDMI a bit closer to OLED
-    [ ] 32768Hz oscillator footprint too small
+    [x] 32768Hz oscillator footprint
     [ ] SD card footprint wrong
     [ ] move USB 0.5-1mm more out
     [ ] DIP SW PADS too narrow
