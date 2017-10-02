@@ -104,7 +104,7 @@ Make the prototype.
     [x] 32768Hz oscillator footprint
     [ ] SD card footprint wrong
     [x] move USB 0.5-1mm more out
-    [ ] DIP SW PADS too narrow
+    [x] DIP SW footprint correct
     [x] AUDIO jack footprint fits
     [ ] AUDIO jack pin 4 not connected
     [x] BTN footprint too small
