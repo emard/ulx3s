@@ -105,5 +105,5 @@ Make the prototype.
     [ ] SD card footprint wrong
     [ ] move USB 0.5-1mm more out
     [ ] DIP SW PADS too narrow
-    [ ] AUDIO jack footprint unknown
-    [ ] BTN footprint unknown
+    [x] AUDIO jack footprint fits
+    [ ] BTN footprint too small
