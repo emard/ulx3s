@@ -107,4 +107,4 @@ Make the prototype.
     [ ] DIP SW PADS too narrow
     [x] AUDIO jack footprint fits
     [ ] AUDIO jack pin 4 not connected
-    [ ] BTN footprint too small
+    [x] BTN footprint too small
