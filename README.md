@@ -106,4 +106,5 @@ Make the prototype.
     [ ] move USB 0.5-1mm more out
     [ ] DIP SW PADS too narrow
     [x] AUDIO jack footprint fits
+    [ ] AUDIO jack pin 4 not connected
     [ ] BTN footprint too small
