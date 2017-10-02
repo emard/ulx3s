@@ -96,7 +96,6 @@ Make the prototype.
     [x] main usb connector on top side 
     [ ] space screw to other parts
     [x] move battery away from screw hole
-    [ ] move 32k to the right
     [x] top layer GND fill
     [x] R25 move away from oled screw hole
     [ ] board cut off nothches inisde for space saving
@@ -104,7 +103,7 @@ Make the prototype.
     [x] Move HDMI a bit closer to OLED
     [x] 32768Hz oscillator footprint
     [ ] SD card footprint wrong
-    [ ] move USB 0.5-1mm more out
+    [x] move USB 0.5-1mm more out
     [ ] DIP SW PADS too narrow
     [x] AUDIO jack footprint fits
     [ ] AUDIO jack pin 4 not connected
