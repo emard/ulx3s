@@ -85,7 +85,7 @@ Make the prototype.
     [x] Symmetrically place USB connectors left-right 
     [ ] Jumpers to switch 2.5V/3.3V for left IO banks
     [x] External JTAG header
-    [ ] Move JTAG 2.54 mm left
+    [x] Move JTAG 2 mm left
     [ ] Move WiFi Disable jumper above the buttons
     [x] Sprinkle 2.2uF capacitors on power lines
     [ ] Spice simulation of power-up/shutdown network
