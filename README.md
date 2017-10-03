@@ -108,3 +108,4 @@ Make the prototype.
     [x] AUDIO jack footprint fits
     [ ] AUDIO jack pin 4 not connected
     [x] BTN footprint too small
+    [ ] SMPS switcher jumpers for initial testing
