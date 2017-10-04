@@ -88,7 +88,7 @@ Make the prototype.
     [x] Move JTAG 2 mm left
     [ ] Move WiFi Disable jumper above the buttons
     [x] Sprinkle 2.2uF capacitors on power lines
-    [ ] Spice simulation of power-up/shutdown network
+    [x] Spice simulation of power-up/shutdown network
     [x] 27ohm D+/D- to FT231XS
     [x] DIP switch (4 switches)
     [x] MAX11123 ADC SPI
