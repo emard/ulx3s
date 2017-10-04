@@ -7556,8 +7556,8 @@
       (net 231 /usb/FPD-))
     (pad 2 smd rect (at 1.1 0 90) (size 1.2 0.9) (layers B.Cu B.Paste B.Mask)
       (net 5 +3V3))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
-      (at (xyz 0 0 0))
+    (model Resistors_SMD.3dshapes/R_0603.wrl
+      (at (xyz 0 0 0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
