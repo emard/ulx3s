@@ -69,7 +69,7 @@ Make the prototype.
     [x] Solder stop mask must go inbetween all SMD chip pads
     [x] External differential clock input at J1_33 +/-
     [ ] Thinner copper, more spacing to SDRAM-FPGA
-    [ ] physically sprinkle VCC blocator capacitors under BGA
+    [x] physically sprinkle VCC blocator capacitors under BGA
     [ ] Values on silkscreen
     [ ] Dedicated antenna pin
     [ ] onboard 433 antenna (lower side, remove GND infill)
