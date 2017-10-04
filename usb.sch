@@ -447,13 +447,13 @@ L +3V3 #PWR087
 U 1 1 591C6DA4
 P 2200 2300
 F 0 "#PWR087" H 2200 2150 50  0001 C CNN
-F 1 "+3V3" H 2200 2440 50  0000 C CNN
+F 1 "+3V3" H 2150 2450 50  0000 C CNN
 F 2 "" H 2200 2300 50  0000 C CNN
 F 3 "" H 2200 2300 50  0000 C CNN
 	1    2200 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 2300 2550 0    60   ~ 0
+Text Notes 1450 2550 0    60   ~ 0
 D+ pullp for \nfull speed \nmode USB1.1
 Text GLabel 8650 1450 0    60   Input ~ 0
 CLK_25MHz
@@ -610,7 +610,7 @@ Wire Wire Line
 	2200 2600 2200 2900
 Connection ~ 2200 2850
 Wire Wire Line
-	2300 2900 2300 2750
+	2300 2600 2300 2900
 Connection ~ 2300 2750
 Text GLabel 8650 2450 0    60   Input ~ 0
 WIFI_GPIO15
@@ -633,4 +633,28 @@ Text Label 10200 1350 0    60   ~ 0
 ANT_433MHz
 Text Notes 2550 3850 0    60   ~ 0
 D8,D9: Schottky 2A/30V \nLow drop Vfmax=0.375V
+$Comp
+L R R54
+U 1 1 59D562D0
+P 2300 2450
+F 0 "R54" V 2200 2450 50  0000 C CNN
+F 1 "1.5k" V 2300 2450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2230 2450 50  0001 C CNN
+F 3 "" H 2300 2450 50  0000 C CNN
+	1    2300 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3V3 #PWR091
+U 1 1 59D562D6
+P 2300 2300
+F 0 "#PWR091" H 2300 2150 50  0001 C CNN
+F 1 "+3V3" H 2350 2450 50  0000 C CNN
+F 2 "" H 2300 2300 50  0000 C CNN
+F 3 "" H 2300 2300 50  0000 C CNN
+	1    2300 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 2450 2550 0    60   ~ 0
+D- pullp for \nlow speed \nmode USB1.0 (placeholder)
 $EndSCHEMATC
