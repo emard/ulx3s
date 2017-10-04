@@ -1,3 +1,6 @@
 SD slide-in-slide-out
 Ordered part: 
 ALPS SCHD3A0100
+
+some 3d model found here
+https://github.com/bfrigon/kicad-library
