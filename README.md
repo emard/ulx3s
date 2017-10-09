@@ -32,7 +32,7 @@ Storage: Micro-SD slot
 
 LEDs: 10 (8 blink-LEDs, 2 USB leds)
 
-Buttons: 6 (4 direction and 2 fire buttons)
+Buttons: 7 (4 direction, 2 fire, 1 power button)
 
 Audio: 3.5 mm stereo jack
 
@@ -48,7 +48,7 @@ Power: 3 Switching voltage regulators: 1.2V, 2.5V, 3.3V
 
 Clock: 25 MHz onboard, external differential clock input
 
-Low power sleep: RTC clock wakeup, quartz and battery
+Low power sleep: RTC clock wakeup, power button, 32768 Hz quartz and battery
 
 
 GPDI is General Purpose Differential Interface,
