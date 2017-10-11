@@ -102,11 +102,11 @@ Make the prototype.
     [x] DIP switch to the right near RAM
     [x] Move HDMI a bit closer to OLED
     [x] 32768Hz oscillator footprint
-    [ ] SD card footprint wrong
+    [x] SD card footprint SCHD3A0100
     [x] move USB 0.5-1mm more out
     [x] DIP SW footprint correct
     [x] AUDIO jack footprint fits
     [ ] AUDIO jack pin 4 not connected
     [x] BTN footprint too small
     [ ] SMPS switcher jumpers for initial testing
-    [ ] DONE ČED (fpga programming)
+    [x] FPGA DONE to ESP-32
