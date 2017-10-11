@@ -15,4 +15,5 @@
   (lib (name ESP32-footprints-Lib)(type KiCad)(uri /home/davor/tmp/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Lib.pretty)(options "")(descr ""))
   (lib (name oled)(type KiCad)(uri "$(KIPRJMOD)/footprints/oled/oled.pretty")(options "")(descr ""))
   (lib (name oscxo)(type KiCad)(uri "$(KIPRJMOD)/footprints/crystal/oscxo.pretty")(options "")(descr ""))
+  (lib (name micro-sd-schd3a0100)(type KiCad)(uri "$(KIPRJMOD)/footprints/micro-sd/micro-sd-schd3a0100.pretty")(options "")(descr ""))
 )
