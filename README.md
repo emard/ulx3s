@@ -102,7 +102,8 @@ Make the prototype.
     [x] DIP switch to the right near RAM
     [x] Move HDMI a bit closer to OLED
     [x] 32768Hz oscillator footprint
-    [x] SD card footprint SCHD3A0100, wrong - reversed pins?
+    [x] SD card footprint SCHD3A0100
+    [ ] SD use CD (card detect) contacts
     [x] move USB 0.5-1mm more out
     [x] DIP SW footprint correct
     [x] AUDIO jack footprint fits
