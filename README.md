@@ -109,3 +109,4 @@ Make the prototype.
     [ ] AUDIO jack pin 4 not connected
     [x] BTN footprint too small
     [ ] SMPS switcher jumpers for initial testing
+    [ ] DONE ČED (fpga programming)
