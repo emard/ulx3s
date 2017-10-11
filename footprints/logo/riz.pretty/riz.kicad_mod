@@ -1,0 +1,16 @@
+(module logo:riz (layer F.Cu) (tedit 59DE9852)
+  (descr RIZ)
+  (tags riz)
+  (attr smd)
+  (fp_text reference riz (at 0 -5) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value riz (at 0 3.048) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_arc (start 0 -1.6) (end -2 -2) (angle 174.4006607) (layer F.SilkS) (width 0.3))
+  (fp_arc (start 0 -1.6) (end -1.2 -1.8) (angle 180) (layer F.SilkS) (width 0.3))
+  (fp_text user riz (at 0 0) (layer F.SilkS)
+    (effects (font (size 3 3) (thickness 0.75) italic))
+  )
+)
