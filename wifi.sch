@@ -282,4 +282,21 @@ F 3 "" H 7850 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7750 4050 7850 4050
+Text GLabel 7750 4350 2    60   Input ~ 0
+PROG_DONE
+Text Notes 8700 4400 0    60   ~ 0
+PROG_DONE on\n"flash" sheet
+$Comp
+L GND #PWR?
+U 1 1 59DEDA17
+P 6400 6250
+F 0 "#PWR?" H 6400 6000 50  0001 C CNN
+F 1 "GND" H 6400 6100 50  0000 C CNN
+F 2 "" H 6400 6250 50  0001 C CNN
+F 3 "" H 6400 6250 50  0001 C CNN
+	1    6400 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5850 6400 6250
 $EndSCHEMATC

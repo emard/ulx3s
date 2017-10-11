@@ -282,4 +282,8 @@ F 3 "" H 7850 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7750 4050 7850 4050
+Text GLabel 7750 4350 2    60   Input ~ 0
+PROG_DONE
+Text Notes 8700 4400 0    60   ~ 0
+PROG_DONE on\n"flash" sheet
 $EndSCHEMATC

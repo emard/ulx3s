@@ -469,4 +469,17 @@ Text GLabel 7150 2350 2    60   Input ~ 0
 BTN_R
 Text Notes 8350 2300 0    60   ~ 0
 pullups to allow entering USER mode\nTN1260: lattice ECP5 sysCONFIG guide p.6, p.8, p.13
+$Comp
+L R R55
+U 1 1 59DEB568
+P 4650 3150
+F 0 "R55" V 4730 3150 50  0000 C CNN
+F 1 "15k" V 4650 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4580 3150 50  0001 C CNN
+F 3 "" H 4650 3150 50  0000 C CNN
+	1    4650 3150
+	0    1    1    0   
+$EndComp
+Text GLabel 4500 3150 0    60   Input ~ 0
+PROG_DONE
 $EndSCHEMATC
