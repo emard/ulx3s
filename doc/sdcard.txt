@@ -1,6 +1,9 @@
 SD slide-in-slide-out
-Ordered part: 
+Ordered part (now obsolete)
 ALPS SCHD3A0100
 
-some 3d model found here
-https://github.com/bfrigon/kicad-library
+mouser: cheapest available now
+
+523-114-00841-68
+1140084168
+Amphenol Memory Card Connectors Micro SD 8 Pin PCB Gold
