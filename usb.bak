@@ -657,4 +657,6 @@ F 3 "" H 2300 2300 50  0000 C CNN
 $EndComp
 Text Notes 2450 2550 0    60   ~ 0
 D- pullp for \nlow speed \nmode USB1.0 (placeholder)
+Text GLabel 8650 2350 0    60   Input ~ 0
+FTDI_TXDEN
 $EndSCHEMATC
