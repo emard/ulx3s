@@ -62,7 +62,7 @@ with digital monitors/TVs
 Make the prototype.
 
     [x] Silkscreen Double outline for BGA chip
-    [ ] Silkscreen do not write over the solder pads
+    [x] Silkscreen do not write over the solder pads
     [ ] Silkscreen BGA names on ESP32 placeholder and 2.54 mm headers
     [x] Silkscreen JTAG signal names on 6-pin 2.54 mm header
     [x] Silkscreen remove OLED outline
@@ -71,8 +71,9 @@ Make the prototype.
     [ ] Thinner copper, more spacing to SDRAM-FPGA
     [x] physically sprinkle VCC blocator capacitors under BGA
     [ ] Values on silkscreen
-    [ ] Dedicated antenna pin
-    [ ] onboard 433 antenna (lower side, remove GND infill)
+    [x] Dedicated antenna pin
+    [x] onboard 433 antenna
+    [ ] 433 remove GND and silkscreen test point
     [x] Resistors for LEDs
     [x] Move USB LEDs from bottom to top side
     [ ] Improve SDRAM routing - use VIAs for closest pins
@@ -109,7 +110,6 @@ Make the prototype.
     [x] AUDIO jack footprint fits
     [ ] AUDIO jack pin 4 not connected
     [x] BTN footprint too small
-    [ ] SMPS switcher jumpers for initial testing
+    [x] SMPS jumpers default OFF for prototype testing
     [x] FPGA DONE to ESP-32
-    [ ] Diodes manual soldering
-    [ ] 433 test point
+    [x] Diodes manual soldering
