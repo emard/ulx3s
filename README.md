@@ -111,3 +111,5 @@ Make the prototype.
     [x] BTN footprint too small
     [ ] SMPS switcher jumpers for initial testing
     [x] FPGA DONE to ESP-32
+    [ ] Diodes manual soldering
+    [ ] 433 test point
