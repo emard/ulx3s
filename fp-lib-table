@@ -21,4 +21,5 @@
   (lib (name riz)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/riz.pretty")(options "")(descr ""))
   (lib (name fer)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/fer.pretty")(options "")(descr ""))
   (lib (name hrvatski_proizvod)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/hrvatski_proizvod.pretty")(options "")(descr ""))
+  (lib (name jumper)(type KiCad)(uri "$(KIPRJMOD)/footprints/jumpers/jumper.pretty")(options "")(descr ""))
 )
