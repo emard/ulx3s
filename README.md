@@ -113,3 +113,6 @@ Make the prototype.
     [x] SMPS jumpers default OFF for prototype testing
     [x] FPGA DONE to ESP-32
     [x] Diodes manual soldering
+    [ ] for easier FT231XS rev A,B,C workaround by tying
+        Connect pin 18 CBUS0 (TXDEN) FTDI with unplaced resistor to GND
+        See TN140_FT231X Errata
