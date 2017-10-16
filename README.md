@@ -113,5 +113,8 @@ Make the prototype.
     [x] SMPS jumpers default OFF for prototype testing
     [x] FPGA DONE to ESP-32
     [x] Diodes manual soldering
-    [ ] R56: FT231X rev A,B,C TXDEN to GND
+    [x] R56: FT231X rev A,B,C TXDEN to GND
         workaround from TN140_FT231X Errata
+    [ ] PCB for LFE5UM ready (some GND will change to
+        vcc for Serdes power supply, see LFE5U->LFE5UM
+        migration docs)
