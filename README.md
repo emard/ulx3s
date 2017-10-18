@@ -118,3 +118,5 @@ Make the prototype.
     [ ] PCB for LFE5UM ready (some GND will change to
         vcc for Serdes power supply, see LFE5U->LFE5UM
         migration docs)
+    [ ] Check GND/VCC for 45 and 85 packages,
+        for example pin T11 is NC on 25U, GND on 85U and VCC ond 85UM

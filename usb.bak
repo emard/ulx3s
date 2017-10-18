@@ -659,4 +659,31 @@ Text Notes 2450 2550 0    60   ~ 0
 D- pullp for \nlow speed \nmode USB1.0 (placeholder)
 Text GLabel 8650 2350 0    60   Input ~ 0
 FTDI_TXDEN
+$Comp
+L R R56
+U 1 1 59DFFFBE
+P 6450 4250
+F 0 "R56" V 6530 4250 50  0000 C CNN
+F 1 "0" V 6450 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6380 4250 50  0001 C CNN
+F 3 "" H 6450 4250 50  0000 C CNN
+	1    6450 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 4100 6450 3700
+Connection ~ 6450 3700
+$Comp
+L GND #PWR092
+U 1 1 59E000AB
+P 6450 4400
+F 0 "#PWR092" H 6450 4150 50  0001 C CNN
+F 1 "GND" H 6450 4250 50  0000 C CNN
+F 2 "" H 6450 4400 50  0000 C CNN
+F 3 "" H 6450 4400 50  0000 C CNN
+	1    6450 4400
+	1    0    0    -1  
+$EndComp
+Text Notes 6100 5000 0    60   ~ 0
+Short circuit R56\nfor chip rev A,B,C\nworkaround in \nTN140_FT231X Errata
 $EndSCHEMATC
