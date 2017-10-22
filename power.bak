@@ -954,7 +954,7 @@ $EndComp
 Wire Wire Line
 	450  2450 450  2550
 Wire Wire Line
-	450  2550 11500 2550
+	450  2550 11850 2550
 Wire Wire Line
 	1400 2550 1400 2450
 Wire Wire Line
@@ -1857,4 +1857,13 @@ Connection ~ 1150 2550
 Wire Wire Line
 	2300 2450 2300 2550
 Connection ~ 2300 2550
+Wire Wire Line
+	11850 2550 11850 2450
+Connection ~ 11500 2550
+Wire Wire Line
+	11750 2550 11750 2450
+Connection ~ 11750 2550
+Wire Wire Line
+	11650 2450 11650 2550
+Connection ~ 11650 2550
 $EndSCHEMATC
