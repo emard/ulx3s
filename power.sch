@@ -954,7 +954,7 @@ $EndComp
 Wire Wire Line
 	450  2450 450  2550
 Wire Wire Line
-	450  2550 11500 2550
+	450  2550 11850 2550
 Wire Wire Line
 	1400 2550 1400 2450
 Wire Wire Line
@@ -1589,7 +1589,7 @@ Wire Wire Line
 	7750 1100 7750 1000
 Connection ~ 7750 1000
 $Comp
-L LFE5U-25F-6BG381C U1
+L LFE5U-85F-6BG381C U1
 U 9 1 58F24B03
 P 6300 1750
 AR Path="/58F24B03" Ref="U1"  Part="9" 
@@ -1842,4 +1842,28 @@ Connection ~ 2200 2550
 Wire Wire Line
 	1900 2450 1900 2550
 Connection ~ 1900 2550
+Wire Wire Line
+	850  2450 850  2550
+Connection ~ 850  2550
+Wire Wire Line
+	950  2450 950  2550
+Connection ~ 950  2550
+Wire Wire Line
+	1050 2450 1050 2550
+Connection ~ 1050 2550
+Wire Wire Line
+	1150 2450 1150 2550
+Connection ~ 1150 2550
+Wire Wire Line
+	2300 2450 2300 2550
+Connection ~ 2300 2550
+Wire Wire Line
+	11850 2550 11850 2450
+Connection ~ 11500 2550
+Wire Wire Line
+	11750 2550 11750 2450
+Connection ~ 11750 2550
+Wire Wire Line
+	11650 2450 11650 2550
+Connection ~ 11650 2550
 $EndSCHEMATC
