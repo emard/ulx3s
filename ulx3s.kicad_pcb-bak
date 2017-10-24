@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7+dfsg1-1)
 
   (general
-    (links 706)
+    (links 707)
     (no_connects 0)
     (area 93.949999 61.269999 188.230001 112.370001)
     (thickness 1.6)
@@ -6748,7 +6748,7 @@
     (pad T13 smd circle (at 2 4.4) (size 0.35 0.35) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (solder_mask_margin 0.04))
     (pad T14 smd circle (at 2.8 4.4) (size 0.35 0.35) (layers F.Cu F.Paste F.Mask)
-      (solder_mask_margin 0.04))
+      (net 1 GND) (solder_mask_margin 0.04))
     (pad T15 smd circle (at 3.6 4.4) (size 0.35 0.35) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (solder_mask_margin 0.04))
     (pad T16 smd circle (at 4.4 4.4) (size 0.35 0.35) (layers F.Cu F.Paste F.Mask)
