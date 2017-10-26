@@ -87,7 +87,7 @@ Make the prototype.
     [ ] Jumpers to switch 2.5V/3.3V for left IO banks
     [x] External JTAG header
     [x] Move JTAG 2 mm left
-    [ ] Move WiFi Disable jumper above the buttons
+    [x] Move WiFi Disable jumper closer to the BTN1 (angled header)
     [x] Sprinkle 2.2uF capacitors on power lines
     [x] Spice simulation of power-up/shutdown network
     [x] 27ohm D+/D- to FT231XS
