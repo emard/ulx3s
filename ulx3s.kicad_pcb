@@ -3,7 +3,7 @@
   (general
     (links 707)
     (no_connects 0)
-    (area 93.949999 61.269999 188.230001 112.370001)
+    (area 71.010001 43.48 197.572001 118.732339)
     (thickness 1.6)
     (drawings 28)
     (tracks 4230)
@@ -3047,7 +3047,7 @@
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /56AC389C/58E6B835)
-    (fp_text reference J1 (at 0 -4.6 270) (layer F.SilkS)
+    (fp_text reference J1 (at -0.254 -2.032 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_02X20 (at 0 -2.6 270) (layer F.Fab) hide
