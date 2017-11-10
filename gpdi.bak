@@ -38,6 +38,7 @@ LIBS:ESP32
 LIBS:ssd_13xx
 LIBS:ftdi
 LIBS:max1112x
+LIBS:mt48lc4m16a2tg
 LIBS:ulx3s-cache
 EELAYER 25 0
 EELAYER END
@@ -316,7 +317,7 @@ Text GLabel 7000 3300 2    60   Input ~ 0
 GPDI_D2-
 Text GLabel 7000 2300 2    60   Input ~ 0
 GPDI_CLK-
-Text GLabel 7000 2200 2    60   Input ~ 0
+Text GLabel 7000 2100 2    60   Input ~ 0
 GPDI_ETH-
 Text GLabel 5500 3000 0    60   Input ~ 0
 GPDI_D1+
@@ -324,13 +325,13 @@ Text GLabel 5500 3300 0    60   Input ~ 0
 GPDI_D2+
 Text GLabel 5500 2300 0    60   Input ~ 0
 GPDI_CLK+
-Text GLabel 5500 2200 0    60   Input ~ 0
+Text GLabel 5500 2100 0    60   Input ~ 0
 GPDI_ETH+
 Text GLabel 7000 3500 2    60   Input ~ 0
 GPDI_SCL
-Text GLabel 7000 2100 2    60   Input ~ 0
+Text GLabel 7000 2200 2    60   Input ~ 0
 GPDI_SDA
-Text GLabel 5500 2100 0    60   Input ~ 0
+Text GLabel 5500 2200 0    60   Input ~ 0
 GPDI_CEC
 $Comp
 L Crystal_GND24 Y1

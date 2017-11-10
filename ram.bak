@@ -38,6 +38,7 @@ LIBS:ESP32
 LIBS:ssd_13xx
 LIBS:ftdi
 LIBS:max1112x
+LIBS:mt48lc4m16a2tg
 LIBS:ulx3s-cache
 EELAYER 25 0
 EELAYER END
@@ -53,17 +54,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MT48LC4M16A2TG U9
-U 1 1 58D8506F
-P 5450 3500
-F 0 "U9" H 4850 4700 50  0000 C CNN
-F 1 "MT48LC16M16A2TG" H 5450 3600 50  0000 C CNN
-F 2 "TSOP54:TSOP54" H 5450 3500 50  0000 C CIN
-F 3 "" H 5450 3250 50  0000 C CNN
-	1    5450 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 2200 5450 2100
 Wire Wire Line
@@ -210,13 +200,13 @@ Text GLabel 4650 3450 0    60   Input ~ 0
 SDRAM_A10
 Text GLabel 4650 3550 0    60   Input ~ 0
 SDRAM_A11
-Text GLabel 4650 3700 0    60   Input ~ 0
+Text GLabel 4650 3750 0    60   Input ~ 0
 SDRAM_BA0
-Text GLabel 4650 3800 0    60   Input ~ 0
+Text GLabel 4650 3850 0    60   Input ~ 0
 SDRAM_BA1
-Text GLabel 4650 3950 0    60   Input ~ 0
+Text GLabel 4650 4000 0    60   Input ~ 0
 SDRAM_CLK
-Text GLabel 4650 4050 0    60   Input ~ 0
+Text GLabel 4650 4100 0    60   Input ~ 0
 SDRAM_CKE
 Text GLabel 4650 4200 0    60   Input ~ 0
 SDRAM_nRAS
@@ -226,81 +216,81 @@ Text GLabel 4650 4400 0    60   Input ~ 0
 SDRAM_nWE
 Text GLabel 4650 4550 0    60   Input ~ 0
 SDRAM_nCS
-Text GLabel 10050 5750 2    60   Input ~ 0
+Text GLabel 10050 3250 2    60   Input ~ 0
 SDRAM_D0
 Text GLabel 8550 5750 0    60   Input ~ 0
 SDRAM_D1
-Text GLabel 10050 2650 2    60   Input ~ 0
+Text GLabel 10050 5750 2    60   Input ~ 0
 SDRAM_D2
-Text GLabel 8550 2650 0    60   Input ~ 0
-SDRAM_D3
-Text GLabel 8550 3650 0    60   Input ~ 0
-SDRAM_D4
-Text GLabel 10050 3650 2    60   Input ~ 0
-SDRAM_D5
-Text GLabel 8550 5550 0    60   Input ~ 0
-SDRAM_D6
 Text GLabel 10050 5150 2    60   Input ~ 0
-SDRAM_D7
-Text GLabel 8550 2750 0    60   Input ~ 0
-SDRAM_D8
-Text GLabel 8550 2850 0    60   Input ~ 0
-SDRAM_D9
-Text GLabel 10050 2950 2    60   Input ~ 0
-SDRAM_D10
-Text GLabel 8550 2950 0    60   Input ~ 0
-SDRAM_D11
-Text GLabel 10050 3050 2    60   Input ~ 0
-SDRAM_D12
-Text GLabel 8550 3050 0    60   Input ~ 0
-SDRAM_D13
-Text GLabel 8550 3150 0    60   Input ~ 0
-SDRAM_D14
-Text GLabel 10050 3150 2    60   Input ~ 0
-SDRAM_D15
-Text GLabel 8550 5050 0    60   Input ~ 0
-SDRAM_A0
-Text GLabel 8550 5150 0    60   Input ~ 0
-SDRAM_A1
-Text GLabel 10050 5250 2    60   Input ~ 0
-SDRAM_A2
-Text GLabel 8550 5250 0    60   Input ~ 0
-SDRAM_A3
-Text GLabel 10050 6050 2    60   Input ~ 0
-SDRAM_A4
-Text GLabel 10050 5950 2    60   Input ~ 0
-SDRAM_A5
-Text GLabel 8550 6050 0    60   Input ~ 0
-SDRAM_A6
-Text GLabel 8550 5950 0    60   Input ~ 0
-SDRAM_A7
-Text GLabel 10050 2450 2    60   Input ~ 0
-SDRAM_A8
-Text GLabel 10050 2550 2    60   Input ~ 0
-SDRAM_A9
-Text GLabel 10050 5050 2    60   Input ~ 0
-SDRAM_A10
-Text GLabel 8550 2450 0    60   Input ~ 0
-SDRAM_A11
-Text GLabel 8550 4950 0    60   Input ~ 0
-SDRAM_BA0
-Text GLabel 8550 4850 0    60   Input ~ 0
-SDRAM_BA1
-Text GLabel 10050 2750 2    60   Input ~ 0
-SDRAM_CLK
-Text GLabel 8550 2550 0    60   Input ~ 0
-SDRAM_CKE
-Text GLabel 10050 4850 2    60   Input ~ 0
-SDRAM_DQM0
-Text GLabel 10050 2850 2    60   Input ~ 0
-SDRAM_DQM1
-Text GLabel 10050 4950 2    60   Input ~ 0
-SDRAM_nRAS
-Text GLabel 10050 4550 2    60   Input ~ 0
-SDRAM_nCAS
+SDRAM_D3
+Text GLabel 8550 5550 0    60   Input ~ 0
+SDRAM_D4
 Text GLabel 10050 4750 2    60   Input ~ 0
-SDRAM_nWE
+SDRAM_D5
+Text GLabel 10050 4550 2    60   Input ~ 0
+SDRAM_D6
+Text GLabel 10050 4950 2    60   Input ~ 0
+SDRAM_D7
+Text GLabel 10050 3050 2    60   Input ~ 0
+SDRAM_D8
+Text GLabel 8550 3050 0    60   Input ~ 0
+SDRAM_D9
+Text GLabel 10050 3150 2    60   Input ~ 0
+SDRAM_D10
+Text GLabel 8550 3150 0    60   Input ~ 0
+SDRAM_D11
+Text GLabel 8550 3650 0    60   Input ~ 0
+SDRAM_D12
+Text GLabel 10050 3650 2    60   Input ~ 0
+SDRAM_D13
+Text GLabel 8550 2650 0    60   Input ~ 0
+SDRAM_D14
+Text GLabel 8550 3250 0    60   Input ~ 0
+SDRAM_D15
+Text GLabel 10050 6050 2    60   Input ~ 0
+SDRAM_A0
+Text GLabel 10050 5950 2    60   Input ~ 0
+SDRAM_A1
+Text GLabel 8550 6050 0    60   Input ~ 0
+SDRAM_A2
+Text GLabel 8550 5950 0    60   Input ~ 0
+SDRAM_A3
+Text GLabel 10050 2450 2    60   Input ~ 0
+SDRAM_A4
+Text GLabel 10050 2550 2    60   Input ~ 0
+SDRAM_A5
+Text GLabel 10050 2650 2    60   Input ~ 0
+SDRAM_A6
+Text GLabel 8550 2450 0    60   Input ~ 0
+SDRAM_A7
+Text GLabel 8550 2550 0    60   Input ~ 0
+SDRAM_A8
+Text GLabel 10050 2750 2    60   Input ~ 0
+SDRAM_A9
+Text GLabel 8550 5250 0    60   Input ~ 0
+SDRAM_A10
+Text GLabel 10050 2850 2    60   Input ~ 0
+SDRAM_A11
+Text GLabel 8550 5150 0    60   Input ~ 0
+SDRAM_BA0
+Text GLabel 10050 5250 2    60   Input ~ 0
+SDRAM_BA1
+Text GLabel 10050 2950 2    60   Input ~ 0
+SDRAM_CLK
+Text GLabel 8550 2850 0    60   Input ~ 0
+SDRAM_CKE
 Text GLabel 8550 4750 0    60   Input ~ 0
+SDRAM_DQM0
+Text GLabel 8550 2950 0    60   Input ~ 0
+SDRAM_DQM1
+Text GLabel 10050 5050 2    60   Input ~ 0
+SDRAM_nRAS
+Text GLabel 8550 4850 0    60   Input ~ 0
+SDRAM_nCAS
+Text GLabel 8550 4950 0    60   Input ~ 0
+SDRAM_nWE
+Text GLabel 8550 5050 0    60   Input ~ 0
 SDRAM_nCS
 $Comp
 L LFE5U-85F-6BG381C U1
@@ -401,4 +391,21 @@ Text GLabel 8550 3850 0    60   Input ~ 0
 USB_FPGA_D+
 Text GLabel 10050 3850 2    60   Input ~ 0
 USB_FPGA_D-
+Text GLabel 4650 3650 0    60   Input ~ 0
+SDRAM_A12
+$Comp
+L MT48LC4M16A2TG-RESCUE-ulx3s U9
+U 1 1 5A04F49A
+P 5450 3500
+AR Path="/5A04F49A" Ref="U9"  Part="1" 
+AR Path="/58D6D507/5A04F49A" Ref="U9"  Part="1" 
+F 0 "U9" H 4850 4700 50  0000 C CNN
+F 1 "MT48LC4M16A2TG" H 6100 2300 50  0000 C CNN
+F 2 "TSOPII-54" H 5450 3500 50  0001 C CIN
+F 3 "" H 5450 3250 50  0001 C CNN
+	1    5450 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 8550 2750 0    60   Input ~ 0
+SDRAM_A12
 $EndSCHEMATC

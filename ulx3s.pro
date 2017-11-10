@@ -1,4 +1,4 @@
-update=Pon 09 Lis 2017 15:13:22
+update=Čet 09 Stu 2017 22:16:07
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=footprints/esp8266;footprints/lattice;footprints/micro-hdmi-d;footprints/dcdc_converter;footprints/usbserial;footprints/esp32;footprints/oled;footprints/adc/max1112x
+LibDir=footprints/esp8266;footprints/lattice;footprints/micro-hdmi-d;footprints/dcdc_converter;footprints/usbserial;footprints/esp32;footprints/oled;footprints/adc/max1112x;footprints/sdram
 [eeschema/libraries]
 LibName1=ulx3s-rescue
 LibName2=power
@@ -78,3 +78,4 @@ LibName36=footprints/esp32/ESP32
 LibName37=footprints/oled/ssd_13xx
 LibName38=footprints/usbserial/ftdi
 LibName39=footprints/adc/max1112x/max1112x
+LibName40=footprints/sdram/mt48lc4m16a2tg
