@@ -1902,4 +1902,6 @@ F 3 "" H 6700 7450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6600 6700 6700 6700
+Text Notes 7350 6400 0    60   ~ 0
+L1,L2,L3: >3A <0.08ohm
 $EndSCHEMATC
