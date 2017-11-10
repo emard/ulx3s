@@ -1905,5 +1905,5 @@ Wire Wire Line
 Text Notes 7350 6400 0    60   ~ 0
 L1,L2,L3: >3A <0.08ohm
 Text Notes 2100 6800 0    60   ~ 0
-WARNING\nREQUIRED POWER UP SEQUENCE\nread ECP5 family datasheet p.49\nch.3.5 Power Up Sequence\n
+WARNING\nREQUIRED POWER UP SEQUENCE\nread ECP5 family datasheet p.49\nch.3.5 Power Up Sequence\nNormally it should just work...\n
 $EndSCHEMATC

@@ -274,7 +274,7 @@ Wire Wire Line
 	2900 5700 2850 5700
 Connection ~ 2850 5700
 Text Notes 4900 2650 0    60   ~ 0
-Audio connected to\nBANK7 and BANK0 on "gpio" sheet
+Audio connected to\nBANK7 on "gpio" sheet
 Text GLabel 2900 4500 0    60   Input ~ 0
 J2_5-
 Text GLabel 2900 4600 0    60   Input ~ 0
