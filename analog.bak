@@ -366,7 +366,7 @@ ADC_CSn
 Text GLabel 3700 5350 2    60   Input ~ 0
 ADC_SCLK
 Text Notes 4900 2300 0    60   ~ 0
-JACK pinout for SJ-43516-SMT-TR\nhttp://www.cui.com/product/resource/sj-4351x-smt-series.pdf\npin 1 - sleeve (GND)\npin 2 - tip (left channel)\npin 3 - ring1 (right channel)\npin 4 - ring2 (video)\npin 5 - tip switch\npin 5 - ring1 switch\n\n
+JACK pinout for SJ-43516-SMT-TR\nhttp://www.cui.com/product/resource/sj-4351x-smt-series.pdf\npin 1 - sleeve (GND)\npin 2 - tip (left channel)\npin 3 - ring1 (right channel)\npin 4 - ring2 (video)\npin 5 - tip switch\npin 6 - ring1 switch
 $Comp
 L R R60
 U 1 1 5A05BC31

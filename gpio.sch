@@ -656,10 +656,10 @@ Text GLabel 4200 2700 0    60   Input ~ 0
 SW3
 Text GLabel 4150 5250 0    60   Input ~ 0
 AUDIO_V3
-Text GLabel 5650 4650 2    60   Input ~ 0
+Text GLabel 4150 5450 0    60   Input ~ 0
 AUDIO_V2
-Text GLabel 4150 4650 0    60   Input ~ 0
+Text GLabel 5650 4650 2    60   Input ~ 0
 AUDIO_V1
-Text GLabel 4200 2800 0    60   Input ~ 0
+Text GLabel 4150 4650 0    60   Input ~ 0
 AUDIO_V0
 $EndSCHEMATC
