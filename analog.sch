@@ -206,7 +206,6 @@ AUDIO_R3
 Wire Wire Line
 	3500 3000 3600 3000
 Connection ~ 3500 2550
-NoConn ~ 2950 2050
 NoConn ~ 2950 2250
 NoConn ~ 2950 2450
 Text Label 3050 2350 0    60   ~ 0
@@ -275,7 +274,7 @@ Wire Wire Line
 	2900 5700 2850 5700
 Connection ~ 2850 5700
 Text Notes 4900 2650 0    60   ~ 0
-Audio connected to\nBANK7 on "gpio" sheet
+Audio connected to\nBANK7 and BANK0 on "gpio" sheet
 Text GLabel 2900 4500 0    60   Input ~ 0
 J2_5-
 Text GLabel 2900 4600 0    60   Input ~ 0
@@ -367,5 +366,74 @@ ADC_CSn
 Text GLabel 3700 5350 2    60   Input ~ 0
 ADC_SCLK
 Text Notes 4900 2300 0    60   ~ 0
-JACK pinout for SJ-43516-SMT-TR\nhttp://www.cui.com/product/resource/sj-4351x-smt-series.pdf\npin 1 - sleeve (GND)\npin 2 - tip (left channel)\npin 3 - ring1 (right channel)\npin 4 - ring2 (video)\npin 5 - tip switch\npin 5 - ring1 switch\n\n
+JACK pinout for SJ-43516-SMT-TR\nhttp://www.cui.com/product/resource/sj-4351x-smt-series.pdf\npin 1 - sleeve (GND)\npin 2 - tip (left channel)\npin 3 - ring1 (right channel)\npin 4 - ring2 (video)\npin 5 - tip switch\npin 6 - ring1 switch
+$Comp
+L R R60
+U 1 1 5A05BC31
+P 3750 1700
+F 0 "R60" V 3830 1700 50  0000 C CNN
+F 1 "100" V 3750 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3680 1700 50  0001 C CNN
+F 3 "" H 3750 1700 50  0000 C CNN
+	1    3750 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R59
+U 1 1 5A05BC37
+P 3750 1550
+F 0 "R59" V 3830 1550 50  0000 C CNN
+F 1 "200" V 3750 1550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3680 1550 50  0001 C CNN
+F 3 "" H 3750 1550 50  0000 C CNN
+	1    3750 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R58
+U 1 1 5A05BC3D
+P 3750 1400
+F 0 "R58" V 3830 1400 50  0000 C CNN
+F 1 "400" V 3750 1400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3680 1400 50  0001 C CNN
+F 3 "" H 3750 1400 50  0000 C CNN
+	1    3750 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R57
+U 1 1 5A05BC43
+P 3750 1250
+F 0 "R57" V 3830 1250 50  0000 C CNN
+F 1 "800" V 3750 1250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3680 1250 50  0001 C CNN
+F 3 "" H 3750 1250 50  0000 C CNN
+	1    3750 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 1700 3600 1700
+Wire Wire Line
+	3500 1550 3600 1550
+Wire Wire Line
+	3500 1250 3500 1700
+Connection ~ 3500 1700
+Wire Wire Line
+	3500 1400 3600 1400
+Connection ~ 3500 1550
+Wire Wire Line
+	3500 1250 3600 1250
+Connection ~ 3500 1400
+Text GLabel 3900 1700 2    60   Input ~ 0
+AUDIO_V0
+Text GLabel 3900 1550 2    60   Input ~ 0
+AUDIO_V1
+Text GLabel 3900 1400 2    60   Input ~ 0
+AUDIO_V2
+Text GLabel 3900 1250 2    60   Input ~ 0
+AUDIO_V3
+Text Label 3050 1700 0    60   ~ 0
+AUDIO_V
+Wire Wire Line
+	2950 1700 2950 2050
 $EndSCHEMATC
