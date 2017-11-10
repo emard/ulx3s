@@ -430,8 +430,8 @@ VNC2 programming pins:\nTXD RXD TXDEN
 Text GLabel 4800 2800 0    60   Input ~ 0
 FT3V3
 Connection ~ 4900 2800
-Text Notes 7400 4750 0    60   ~ 0
-ujprog pinmap\nTCK = DSR\nTMS = RI\nTDI = CTS\nTDO = DCD\n
+Text Notes 4350 5900 0    60   ~ 0
+warning:\nULX3S has different pinout\nfor simpler PCB routing and\nbecause FT230X has weak CTS\ndrive capability. (Undocumented,\nFLEAfpga mail from 13-Nov-2015)\nULX2S pinout was:\nTCK = DSR\nTMS = RI\nTDI = CTS\nTDO = DCD\n
 $Comp
 L R R40
 U 1 1 591C69FB

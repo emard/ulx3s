@@ -222,9 +222,9 @@ Text GLabel 8550 5750 0    60   Input ~ 0
 SDRAM_D1
 Text GLabel 10050 5750 2    60   Input ~ 0
 SDRAM_D2
-Text GLabel 10050 5150 2    60   Input ~ 0
-SDRAM_D3
 Text GLabel 8550 5550 0    60   Input ~ 0
+SDRAM_D3
+Text GLabel 10050 5150 2    60   Input ~ 0
 SDRAM_D4
 Text GLabel 10050 4750 2    60   Input ~ 0
 SDRAM_D5
