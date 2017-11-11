@@ -73,10 +73,10 @@ Make the prototype.
     [ ] Values on silkscreen
     [x] Dedicated antenna pin
     [x] onboard 433 antenna
-    [ ] 433 remove GND and silkscreen test point
+    [x] 433 remove GND and silkscreen test point
     [x] Resistors for LEDs
     [x] Move USB LEDs from bottom to top side
-    [ ] Improve SDRAM routing - use VIAs for closest pins
+    [x] Improve SDRAM routing - use VIAs for closest pins
     [x] Increase thickness of power lines (5V, 3.3V, 2.5V)
     [x] Compile a f32c bitstream using the schematics
     [x] Compile differential GPDI output
@@ -108,16 +108,15 @@ Make the prototype.
     [x] move USB 0.5-1mm more out
     [x] DIP SW footprint correct
     [x] AUDIO jack footprint fits
-    [ ] AUDIO jack pin 4 not connected
+    [x] AUDIO jack pin 4 (ring2) connected to 4-bit DAC
     [x] BTN footprint too small
     [x] SMPS jumpers default OFF for prototype testing
     [x] FPGA DONE to ESP-32
     [x] Diodes manual soldering
     [x] R56: FT231X rev A,B,C TXDEN to GND
         workaround from TN140_FT231X Errata
-    [ ] PCB for LFE5UM ready (some GND will change to
+    [x] PCB for LFE5UM ready (some GND will change to
         VCC for Serdes power supply, see LFE5U->LFE5UM
         migration docs)
     [x] Check GND/VCC for 45 and 85 packages,
         for example pin T11 is NC on 25U, GND on 85U and VCC ond 85UM
-    [ ] VIAs to pass solder on the pad under ESP32
