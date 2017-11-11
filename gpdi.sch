@@ -331,41 +331,8 @@ Text GLabel 7000 3500 2    60   Input ~ 0
 GPDI_SCL
 Text GLabel 7000 2200 2    60   Input ~ 0
 GPDI_SDA
-Text GLabel 5500 2200 0    60   Input ~ 0
+Text GLabel 4000 2200 0    60   Input ~ 0
 GPDI_CEC
-$Comp
-L Crystal_GND24 Y1
-U 1 1 58EDFF94
-P 3300 1950
-F 0 "Y1" H 3425 2150 50  0000 L CNN
-F 1 "FNETHE025" H 3425 2075 50  0000 L CNN
-F 2 "oscxo:Crystal_SMD_7050_4Pads" H 3300 1950 50  0001 C CNN
-F 3 "" H 3300 1950 50  0000 C CNN
-	1    3300 1950
-	1    0    0    1   
-$EndComp
-$Comp
-L +3V3 #PWR079
-U 1 1 58EE0104
-P 3300 1650
-F 0 "#PWR079" H 3300 1500 50  0001 C CNN
-F 1 "+3V3" H 3300 1790 50  0000 C CNN
-F 2 "" H 3300 1650 50  0000 C CNN
-F 3 "" H 3300 1650 50  0000 C CNN
-	1    3300 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR080
-U 1 1 58EE01EB
-P 3300 2150
-F 0 "#PWR080" H 3300 1900 50  0001 C CNN
-F 1 "GND" H 3300 2000 50  0000 C CNN
-F 2 "" H 3300 2150 50  0000 C CNN
-F 3 "" H 3300 2150 50  0000 C CNN
-	1    3300 2150
-	1    0    0    -1  
-$EndComp
 Text GLabel 7000 2700 2    60   Input ~ 0
 J2_25-
 Text GLabel 7000 2400 2    60   Input ~ 0
@@ -390,8 +357,6 @@ Text GLabel 5500 2700 0    60   Input ~ 0
 J2_25+
 Text GLabel 5500 2800 0    60   Input ~ 0
 J2_31+
-Text GLabel 3600 1950 2    60   Input ~ 0
-CLK_25MHz
 Wire Wire Line
 	1450 2000 1700 2000
 Wire Wire Line
@@ -482,17 +447,6 @@ Connection ~ 3600 5250
 Connection ~ 3800 5350
 Connection ~ 1700 5250
 Connection ~ 1550 5350
-Wire Wire Line
-	3300 1650 3300 1750
-Wire Wire Line
-	3300 1700 3050 1700
-Wire Wire Line
-	3050 1700 3050 1950
-Wire Wire Line
-	3050 1950 3150 1950
-Connection ~ 3300 1700
-Wire Wire Line
-	3450 1950 3600 1950
 Connection ~ 3400 5150
 Wire Wire Line
 	3400 4550 3800 4550
@@ -507,4 +461,21 @@ F 3 "" H 5200 3750 60  0000 C CNN
 	2    6250 2800
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R61
+U 1 1 5A0777ED
+P 4250 2200
+F 0 "R61" V 4330 2200 50  0000 C CNN
+F 1 "470" V 4250 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4180 2200 50  0001 C CNN
+F 3 "" H 4250 2200 50  0000 C CNN
+	1    4250 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 2200 5500 2200
+Wire Wire Line
+	4100 2200 4000 2200
+Text Label 4450 2200 0    60   ~ 0
+FPGA_CEC
 $EndSCHEMATC
