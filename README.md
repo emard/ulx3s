@@ -34,7 +34,7 @@ LEDs: 10 (8 blink-LEDs, 2 USB leds)
 
 Buttons: 7 (4 direction, 2 fire, 1 power button)
 
-Audio: 3.5 mm stereo jack
+Audio: 3.5 mm jack with 4 contacts (analog stereo + digital audio or composite video)
 
 Video: GPDI connector with 3.3V-5V I2C bidirectional level shifter
 
