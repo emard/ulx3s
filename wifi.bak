@@ -59,13 +59,13 @@ SD_D0
 Text GLabel 7100 5850 3    60   Input ~ 0
 SD_D1
 Text GLabel 6700 5850 3    60   Input ~ 0
-SD_3
+SD_D3
 Text GLabel 6800 5850 3    60   Input ~ 0
 SD_CMD
 Text GLabel 6900 5850 3    60   Input ~ 0
 SD_CLK
 Text GLabel 6600 5850 3    60   Input ~ 0
-SD_2
+SD_D2
 Text GLabel 7750 4550 2    60   Input ~ 0
 WIFI_RXD
 Text GLabel 7750 4450 2    60   Input ~ 0
