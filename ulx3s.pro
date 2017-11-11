@@ -1,4 +1,4 @@
-update=Sub 11 Stu 2017 17:48:34
+update=Sub 11 Stu 2017 18:25:28
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=footprints/esp8266;footprints/lattice;footprints/micro-hdmi-d;footprints/dcdc_converter;footprints/usbserial;footprints/esp32;footprints/oled;footprints/adc/max1112x;footprints/sdram
@@ -79,3 +69,13 @@ LibName37=footprints/oled/ssd_13xx
 LibName38=footprints/usbserial/ftdi
 LibName39=footprints/adc/max1112x/max1112x
 LibName40=footprints/sdram/mt48lc4m16a2tg
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
