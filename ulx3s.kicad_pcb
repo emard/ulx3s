@@ -3,7 +3,7 @@
   (general
     (links 716)
     (no_connects 0)
-    (area 93.949999 61.269999 188.230001 112.370001)
+    (area 71.010001 43.48 197.572001 118.732339)
     (thickness 1.6)
     (drawings 28)
     (tracks 4293)
@@ -8850,7 +8850,7 @@
   (segment (start 139.272517 84.611349) (end 138.48 83.818832) (width 0.3) (layer In1.Cu) (net 5))
   (segment (start 142.622839 77.036875) (end 143.363954 77.77799) (width 0.3) (layer In1.Cu) (net 5))
   (segment (start 141.862176 77.036875) (end 142.622839 77.036875) (width 0.3) (layer In1.Cu) (net 5))
-  (segment (start 138.48 83.818832) (end 138.48 80.419051) (width 0.3) (layer In1.Cu) (net 5))
+  (segment (start 138.48 83.818832) (end 138.48 80.419051) (width 0.5) (layer In1.Cu) (net 5))
   (segment (start 179.937421 76.869468) (end 180.13742 77.069467) (width 0.3) (layer In1.Cu) (net 5))
   (segment (start 153.555884 70.326554) (end 173.394507 70.326554) (width 0.3) (layer In1.Cu) (net 5))
   (segment (start 173.394507 70.326554) (end 179.937421 76.869468) (width 0.3) (layer In1.Cu) (net 5))
