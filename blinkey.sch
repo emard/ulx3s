@@ -676,4 +676,47 @@ Text Notes 7700 3750 0    60   ~ 0
 DIP switch connected to\nBANK0 on 'gpio' sheet
 Text Notes 8000 4550 0    60   ~ 0
 To fix issues with FT231XS rev A,B,C\nShort-circuit D18 LED, but then\nboard cannot keep awake by USB.\nchip rev D works properly\nSee TN140_FT231X Errata\n
+Text GLabel 5650 5850 2    60   Input ~ 0
+WIFI_GPIO2
+$Comp
+L LED_ALT D22
+U 1 1 5A07AFD2
+P 5500 5850
+F 0 "D22" H 5500 5950 50  0000 C CNN
+F 1 "BLUE" H 5500 5750 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 5500 5850 50  0001 C CNN
+F 3 "" H 5500 5850 50  0000 C CNN
+	1    5500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R62
+U 1 1 5A07AFD8
+P 4550 5850
+F 0 "R62" V 4630 5850 50  0000 C CNN
+F 1 "330" V 4550 5850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4480 5850 50  0001 C CNN
+F 3 "" H 4550 5850 50  0000 C CNN
+	1    4550 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 5850 5350 5850
+Text Label 4750 5850 0    60   ~ 0
+LED_WIFI
+Wire Wire Line
+	4400 5850 4250 5850
+Wire Wire Line
+	4250 5850 4250 6200
+$Comp
+L GND #PWR068
+U 1 1 5A07AFE2
+P 4250 6200
+F 0 "#PWR068" H 4250 5950 50  0001 C CNN
+F 1 "GND" H 4250 6050 50  0000 C CNN
+F 2 "" H 4250 6200 50  0000 C CNN
+F 3 "" H 4250 6200 50  0000 C CNN
+	1    4250 6200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
