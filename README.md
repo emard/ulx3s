@@ -20,9 +20,9 @@ PCB routing is mostly complete too.
 
 FPGA: Lattice ECP5 LFE5U-25F-6BG381C
 
-USB: FTDI FT231XS (1Mbit JTAG and 3Mbit usbserial)
+USB: FTDI FT231XS (1Mbit JTAG and 3Mbit USB-serial)
 
-GPIO: All differential, PMOD-friendly
+GPIO: 56 pins (28 differential pairs), PMOD-friendly
 
 RAM: 32MB SDRAM MT48LC16M16
 
@@ -30,7 +30,7 @@ Flash: 8MB SPI flash S25FL164 for FPGA config
 
 Storage: Micro-SD slot
 
-LEDs: 10 (8 blink-LEDs, 2 USB leds)
+LEDs: 11 (8 blink-LEDs, 2 USB LEDs, 1 WiFi LED)
 
 Buttons: 7 (4 direction, 2 fire, 1 power button)
 
@@ -40,7 +40,7 @@ Video: GPDI connector with 3.3V-5V I2C bidirectional level shifter
 
 Display: placeholder for 0.96-1.3" SPI OLED COLOR or B/W
 
-WiFi+bluetooth: placeholder for ESP-32 (JTAG and serial over WiFi possible)
+WiFi+bluetooth: placeholder for ESP-32 (JTAG and serial over WiFi)
 
 ADC: 8 channels, 12 bit, 1 MSa/s MAX11123
 
