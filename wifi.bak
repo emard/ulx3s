@@ -72,9 +72,9 @@ Text GLabel 7750 4450 2    60   Input ~ 0
 WIFI_TXD
 Text GLabel 7750 5450 2    60   Input ~ 0
 WIFI_GPIO0
-Text GLabel 7750 4850 2    60   Input ~ 0
+Text GLabel 7750 4250 2    60   Input ~ 0
 JTAG_TDI
-Text GLabel 7750 5150 2    60   Input ~ 0
+Text GLabel 7750 4850 2    60   Input ~ 0
 JTAG_TDO
 Text GLabel 7750 4950 2    60   Input ~ 0
 JTAG_TCK

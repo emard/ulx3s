@@ -151,7 +151,7 @@ L CONN_02X20 J1
 U 1 1 58E6B835
 P 1850 4450
 F 0 "J1" H 1850 5500 50  0000 C CNN
-F 1 "CONN_02X20" V 1850 4450 50  0000 C CNN
+F 1 "CONN_02X20" H 1850 3400 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x20" H 1850 3500 50  0001 C CNN
 F 3 "" H 1850 3500 50  0000 C CNN
 	1    1850 4450
@@ -660,4 +660,32 @@ F 3 "" H 3900 3450 60  0000 C CNN
 	1    4950 2500
 	1    0    0    -1  
 $EndComp
+Text Notes 1850 3750 0    60   ~ 0
+0
+Text Notes 1850 3850 0    60   ~ 0
+1
+Text Notes 1850 3950 0    60   ~ 0
+2
+Text Notes 1850 4050 0    60   ~ 0
+3
+Text Notes 1800 4950 0    60   ~ 0
+10
+Text Notes 1850 4150 0    60   ~ 0
+4
+Text Notes 1850 4250 0    60   ~ 0
+5
+Text Notes 1850 4350 0    60   ~ 0
+6
+Text Notes 1850 4650 0    60   ~ 0
+7
+Text Notes 1850 4750 0    60   ~ 0
+8
+Text Notes 1850 4850 0    60   ~ 0
+9
+Text Notes 1800 5050 0    60   ~ 0
+11
+Text Notes 1800 5150 0    60   ~ 0
+12
+Text Notes 1800 5250 0    60   ~ 0
+13
 $EndSCHEMATC

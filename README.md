@@ -18,7 +18,7 @@ PCB routing is mostly complete too.
 
 # Features
 
-FPGA: Lattice ECP5 LFE5U-25F-6BG381C
+FPGA: Lattice ECP5 LFE5U-45F-6BG381C
 
 USB: FTDI FT231XS (1Mbit JTAG and 3Mbit USB-serial)
 
