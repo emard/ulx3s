@@ -226,8 +226,8 @@ Text Notes 2950 6700 0    60   ~ 0
 ESP32 ADC capable pins\nGPIO36,39,34,35,32,33,25,26,27,\nGPIO14,12,13,15 - shared with HSPI/JTAG\nConnected to "gpio" sheet
 Text Notes 3850 7350 0    60   ~ 0
 ESP32 HSPI pins\nGPIO12: MISO\nGPIO13: MOSI\nGPIO14: SCK\nGPIO15: SS
-Text Notes 4750 7450 0    60   ~ 0
-ESP32 JTAG slave interface\nEN: TRST_N\nGPIO15: TDO\nGPIO12: TDI\nGPIO13: TCK\nGPIO14: TMS
+Text Notes 4750 7650 0    60   ~ 0
+ESP32 JTAG slave interface\nEN: TRST_N\nGPIO15: TDO\nGPIO12: TDI\nGPIO13: TCK\nGPIO14: TMS\nFLASH over JTAG planned\nin february 2017
 Text Notes 2950 7350 0    60   ~ 0
 ESP32 VSPI pins\nGPIO5: SS\nGPIO18: SCK\nGPIO19: MISO\nGPIO23: MOSI
 Text GLabel 5900 4600 0    60   Input ~ 0
