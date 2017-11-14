@@ -573,8 +573,9 @@ F 0 "U7" H 1700 3700 50  0000 L CNN
 F 1 "PCF8523" H 2100 3700 50  0000 L CNN
 F 2 "Power_Integrations:SO-8" H 2000 3350 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf" H 2000 3350 50  0001 C CNN
-F 4 "PCF8523" H 2000 3350 60  0001 C CNN "MFG_PN"
-F 5 "www.mouser.com" H 2000 3350 60  0001 C CNN "Distributor1_URL"
+F 4 "https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf" H 2000 3350 60  0001 C CNN "MFG_TR_DS"
+F 5 "PCF8523" H 2000 3350 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 2000 3350 60  0001 C CNN "Distributor1_URL"
 	1    2000 3350
 	1    0    0    -1  
 $EndComp
