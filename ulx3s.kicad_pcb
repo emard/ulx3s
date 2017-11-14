@@ -3,7 +3,7 @@
   (general
     (links 722)
     (no_connects 0)
-    (area 93.949999 61.269999 188.230001 112.370001)
+    (area 71.010001 43.48 197.572001 118.732339)
     (thickness 1.6)
     (drawings 361)
     (tracks 4280)
@@ -976,6 +976,11 @@
       (net 1 GND))
     (pad 39 smd rect (at -0.352566 1.817338 180) (size 6 6) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
+    (model ./footprints/esp32/ESP32.3dshapes/KiCAD-ESP-WROOM-32.wrl
+      (at (xyz 0 0.17 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (module Diodes_SMD:D_SMA_Handsoldering (layer B.Cu) (tedit 59D564F6) (tstamp 59D3C50D)
@@ -6674,7 +6679,7 @@
     (fp_text reference SD1 (at 0 6 180) (layer F.SilkS)
       (effects (font (size 0.59944 0.59944) (thickness 0.12446)))
     )
-    (fp_text value Micro_SD_Card (at 0 4.73 180) (layer F.SilkS)
+    (fp_text value SCHD3A0100 (at 0 4.73 180) (layer F.SilkS)
       (effects (font (size 0.59944 0.59944) (thickness 0.12446)))
     )
     (fp_line (start -6.15 -7.95) (end -6.15 -5.8) (layer F.SilkS) (width 0.15))
