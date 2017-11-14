@@ -1631,6 +1631,7 @@
     (descr "TSOPII-54: Plastic Thin Small Outline Package; 54 leads; body width 10.16mm; (see 128m-as4c4m32s-tsopii.pdf and http://www.infineon.com/cms/packages/SMD_-_Surface_Mounted_Devices/P-PG-TSOPII/P-TSOPII-54-1.html)")
     (tags "TSOPII 0.8")
     (path /58D6D507/5A04F49A)
+    (attr smd)
     (fp_text reference U9 (at 7.076 -10.274 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
