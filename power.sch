@@ -158,7 +158,7 @@ L R RB1
 U 1 1 58D5A1E5
 P 9650 3200
 F 0 "RB1" V 9730 3200 50  0000 C CNN
-F 1 "15k" V 9650 3200 50  0000 C CNN
+F 1 "18k" V 9650 3200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9580 3200 50  0001 C CNN
 F 3 "" H 9650 3200 50  0000 C CNN
 	1    9650 3200
@@ -351,28 +351,6 @@ F 3 "" H 10900 5150 50  0000 C CNN
 	1    10900 5150
 	1    0    0    -1  
 $EndComp
-$Comp
-L +1V2 #PWR040
-U 1 1 58D63C77
-P 10900 2750
-F 0 "#PWR040" H 10900 2600 50  0001 C CNN
-F 1 "+1V2" H 10900 2890 50  0000 C CNN
-F 2 "" H 10900 2750 50  0000 C CNN
-F 3 "" H 10900 2750 50  0000 C CNN
-	1    10900 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L +1V2 #PWR041
-U 1 1 58D63D96
-P 2150 650
-F 0 "#PWR041" H 2150 500 50  0001 C CNN
-F 1 "+1V2" H 2150 790 50  0000 C CNN
-F 2 "" H 2150 650 50  0000 C CNN
-F 3 "" H 2150 650 50  0000 C CNN
-	1    2150 650 
-	1    0    0    -1  
-$EndComp
 Text Notes 6300 2700 0    60   ~ 0
 AP3429/A voltage setting: is 0.6V at FB pin\nVout = (RA/RB+1)*0.6V\n
 $Comp
@@ -530,7 +508,7 @@ F 3 "" H 10900 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 8750 2650 0    60   ~ 0
-(15k/15k+1)*0.6V = 1.2V\n
+(15k/18k+1)*0.6V = 1.1V\n
 Text Label 8850 3200 0    60   ~ 0
 FB1
 Text Notes 8750 3850 0    60   ~ 0
@@ -1736,7 +1714,7 @@ L2
 Text Label 8750 5350 0    60   ~ 0
 L3
 Text Label 9500 2800 0    60   ~ 0
-P1V2
+P1V1
 Text Label 9500 4000 0    60   ~ 0
 P2V5
 Text Label 9500 5200 0    60   ~ 0
@@ -1878,8 +1856,8 @@ Wire Wire Line
 	6600 6700 6700 6700
 Text Notes 7350 6400 0    60   ~ 0
 L1,L2,L3: >3A <0.08ohm
-Text Notes 2100 6800 0    60   ~ 0
-WARNING\nREQUIRED POWER UP SEQUENCE\nread ECP5 family datasheet p.49\nch.3.5 Power Up Sequence\nNormally it should just work...\n
+Text Notes 1050 6900 0    60   ~ 0
+WARNING\nECP5 family datasheet\np.48: Power Supply Ramp rates\nfor all supplies 0.01-10V/ms\nPower Up Sequence\nNormally it should just work...\n
 $Comp
 L LFE5U-45F-6BG381C-RESCUE-ulx3s U1
 U 8 1 5A076CD7
@@ -1904,6 +1882,28 @@ F 1 "LFE5U-45F-6BG381C" H 6250 2350 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 5200 2450 60  0001 C CNN
 F 3 "" H 5200 2450 60  0000 C CNN
 	9    6250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V1 #PWR?
+U 1 1 5A0B33B0
+P 2150 650
+F 0 "#PWR?" H 2150 500 50  0001 C CNN
+F 1 "+1V1" H 2150 790 50  0000 C CNN
+F 2 "" H 2150 650 50  0001 C CNN
+F 3 "" H 2150 650 50  0001 C CNN
+	1    2150 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1V1 #PWR?
+U 1 1 5A0B387F
+P 10900 2750
+F 0 "#PWR?" H 10900 2600 50  0001 C CNN
+F 1 "+1V1" H 10900 2890 50  0000 C CNN
+F 2 "" H 10900 2750 50  0001 C CNN
+F 3 "" H 10900 2750 50  0001 C CNN
+	1    10900 2750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
