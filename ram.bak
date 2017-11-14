@@ -380,7 +380,8 @@ AR Path="/58D6D507/5A04F49A" Ref="U9"  Part="1"
 F 0 "U9" H 4850 4700 50  0000 C CNN
 F 1 "MT48LC4M16A2TG" H 6100 2300 50  0000 C CNN
 F 2 "TSOP54:TSOP54" H 5450 3500 50  0001 C CIN
-F 3 "" H 5450 3250 50  0001 C CNN
+F 3 "https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf" H 5450 3250 50  0001 C CNN
+F 4 "www.mouser.com" H 5450 3500 60  0001 C CNN "Distributor1_URL"
 	1    5450 3500
 	1    0    0    -1  
 $EndComp
@@ -393,7 +394,8 @@ P 9300 3150
 F 0 "U1" H 9300 4100 60  0000 C CNN
 F 1 "LFE5U-45F-6BG381C" H 9300 4000 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 8250 4100 60  0001 C CNN
-F 3 "" H 8250 4100 60  0000 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 8250 4100 60  0001 C CNN
+F 4 "www.mouser.com" H 9300 3150 60  0001 C CNN "Distributor1_URL"
 	3    9300 3150
 	1    0    0    -1  
 $EndComp
@@ -404,7 +406,8 @@ P 9300 5250
 F 0 "U1" H 9300 6200 60  0000 C CNN
 F 1 "LFE5U-45F-6BG381C" H 9300 6100 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 8250 6200 60  0001 C CNN
-F 3 "" H 8250 6200 60  0000 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 8250 6200 60  0001 C CNN
+F 4 "www.mouser.com" H 9300 5250 60  0001 C CNN "Distributor1_URL"
 	4    9300 5250
 	1    0    0    -1  
 $EndComp

@@ -72,7 +72,9 @@ P 8100 3100
 F 0 "U3" H 8100 3250 60  0000 C CNN
 F 1 "AP3429A" H 8100 3150 60  0000 C CNN
 F 2 "TSOT-25:TSOT-25" H 8100 3100 60  0001 C CNN
-F 3 "" H 8100 3100 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP3429.pdf" H 8100 3100 60  0001 C CNN
+F 4 "www.diodes.com" H 8100 3100 60  0001 C CNN "MFG_URL"
+F 5 "www.mouser.com" H 8100 3100 60  0001 C CNN "Distributor1_URL"
 	1    8100 3100
 	1    0    0    -1  
 $EndComp
@@ -127,7 +129,11 @@ P 8950 2800
 F 0 "L1" V 8900 2800 50  0000 C CNN
 F 1 "2.2uH" V 9025 2800 50  0000 C CNN
 F 2 "Resistors_SMD:R_1210_HandSoldering" H 8950 2800 50  0001 C CNN
-F 3 "" H 8950 2800 50  0000 C CNN
+F 3 "http://psearch.en.murata.com/inductor/product/DFE322512F-2R2M%23.pdf" H 8950 2800 50  0001 C CNN
+F 4 "www.murata.com" H 8950 2800 60  0001 C CNN "MFG_URL"
+F 5 "DFE322512F-2R2M=P2" H 8950 2800 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 8950 2800 60  0001 C CNN "Distributor1_URL"
+F 7 "81-DFE322512F-2R2MP2" H 8950 2800 60  0001 C CNN "Distributor1_PN"
 	1    8950 2800
 	0    -1   -1   0   
 $EndComp
@@ -215,7 +221,9 @@ P 8100 5500
 F 0 "U4" H 8100 5650 60  0000 C CNN
 F 1 "AP3429A" H 8100 5550 60  0000 C CNN
 F 2 "TSOT-25:TSOT-25" H 8100 5500 60  0001 C CNN
-F 3 "" H 8100 5500 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP3429.pdf" H 8100 5500 60  0001 C CNN
+F 4 "www.diodes.com" H 8100 5500 60  0001 C CNN "MFG_URL"
+F 5 "www.mouser.com" H 8100 5500 60  0001 C CNN "Distributor1_URL"
 	1    8100 5500
 	1    0    0    -1  
 $EndComp
@@ -270,7 +278,10 @@ P 8950 5200
 F 0 "L2" V 8900 5200 50  0000 C CNN
 F 1 "2.2uH" V 9025 5200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1210_HandSoldering" H 8950 5200 50  0001 C CNN
-F 3 "" H 8950 5200 50  0000 C CNN
+F 3 "http://psearch.en.murata.com/inductor/product/DFE322512F-2R2M%23.pdf" H 8950 5200 50  0001 C CNN
+F 4 "www.murata.com" H 8950 5200 60  0001 C CNN "MFG_URL"
+F 5 "DFE322512F-2R2M=P2" H 8950 5200 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 8950 5200 60  0001 C CNN "Distributor1_URL"
 	1    8950 5200
 	0    -1   -1   0   
 $EndComp
@@ -360,7 +371,9 @@ P 8100 4300
 F 0 "U5" H 8100 4450 60  0000 C CNN
 F 1 "AP3429A" H 8100 4350 60  0000 C CNN
 F 2 "TSOT-25:TSOT-25" H 8100 4300 60  0001 C CNN
-F 3 "" H 8100 4300 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP3429.pdf" H 8100 4300 60  0001 C CNN
+F 4 "www.diodes.com" H 8100 4300 60  0001 C CNN "MFG_URL"
+F 5 "www.mouser.com" H 8100 4300 60  0001 C CNN "Distributor1_URL"
 	1    8100 4300
 	1    0    0    -1  
 $EndComp
@@ -415,7 +428,10 @@ P 8950 4000
 F 0 "L3" V 8900 4000 50  0000 C CNN
 F 1 "2.2uH" V 9025 4000 50  0000 C CNN
 F 2 "Resistors_SMD:R_1210_HandSoldering" H 8950 4000 50  0001 C CNN
-F 3 "" H 8950 4000 50  0000 C CNN
+F 3 "http://psearch.en.murata.com/inductor/product/DFE322512F-2R2M%23.pdf" H 8950 4000 50  0001 C CNN
+F 4 "www.murata.com" H 8950 4000 60  0001 C CNN "MFG_URL"
+F 5 "DFE322512F-2R2M=P2" H 8950 4000 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 8950 4000 60  0001 C CNN "Distributor1_URL"
 	1    8950 4000
 	0    -1   -1   0   
 $EndComp
@@ -556,7 +572,9 @@ P 2000 3350
 F 0 "U7" H 1700 3700 50  0000 L CNN
 F 1 "PCF8523" H 2100 3700 50  0000 L CNN
 F 2 "Power_Integrations:SO-8" H 2000 3350 50  0001 C CNN
-F 3 "" H 2000 3350 50  0000 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf" H 2000 3350 50  0001 C CNN
+F 4 "PCF8523" H 2000 3350 60  0001 C CNN "MFG_PN"
+F 5 "www.mouser.com" H 2000 3350 60  0001 C CNN "Distributor1_URL"
 	1    2000 3350
 	1    0    0    -1  
 $EndComp
@@ -582,7 +600,11 @@ P 2700 3800
 F 0 "BAT1" H 2400 3900 50  0000 L CNN
 F 1 "CR1225" H 2300 3800 50  0000 L CNN
 F 2 "Keystone_3000_1x12mm-CoinCell:Keystone_3000_1x12mm-CoinCell" V 2700 3860 50  0001 C CNN
-F 3 "" V 2700 3860 50  0000 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=777" H 2700 3860 50  0001 C CNN
+F 4 "www.keyelco.com" H 2700 3800 60  0001 C CNN "MFG_URL"
+F 5 "3000" H 2700 3800 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 2700 3800 60  0001 C CNN "Distributor1_URL"
+F 7 "534-3000" H 2700 3800 60  0001 C CNN "Distributor1_PN"
 	1    2700 3800
 	1    0    0    -1  
 $EndComp
@@ -767,7 +789,10 @@ P 950 3350
 F 0 "Y2" V 800 3150 50  0000 L CNN
 F 1 "32768Hz" V 1100 2950 50  0000 L CNN
 F 2 "abs25:Crystal_SMD_ABS25" H 950 3350 50  0001 C CNN
-F 3 "" H 950 3350 50  0000 C CNN
+F 3 "http://www.iqdfrequencyproducts.com/products/pn/LFXTAL003000Reel.pdf" H 950 3350 50  0001 C CNN
+F 4 "www.iqdfrequencyproducts.com" H 950 3350 60  0001 C CNN "MFG_URL"
+F 5 "LFXTAL003000Reel" H 950 3350 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 950 3350 60  0001 C CNN "Distributor1_URL"
 	1    950  3350
 	0    1    1    0   
 $EndComp
@@ -784,7 +809,8 @@ P 4050 5300
 F 0 "Q2" H 3900 5400 50  0000 L CNN
 F 1 "2N7002" H 3800 5500 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4250 5400 50  0001 C CNN
-F 3 "" H 4050 5300 50  0000 C CNN
+F 3 "https://assets.nexperia.com/documents/data_sheet/2N7002.pdf" H 4050 5300 50  0001 C CNN
+F 4 "www.mouser.com" H 4050 5300 60  0001 C CNN "Distributor1_URL"
 	1    4050 5300
 	1    0    0    -1  
 $EndComp
@@ -795,7 +821,8 @@ P 4000 3450
 F 0 "Q1" H 3850 3350 50  0000 L CNN
 F 1 "BC857" H 3800 3650 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4200 3550 50  0001 C CNN
-F 3 "" H 4000 3450 50  0000 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf" H 4000 3450 50  0001 C CNN
+F 4 "www.mouser.com" H 4000 3450 60  0001 C CNN "Distributor1_URL"
 	1    4000 3450
 	1    0    0    1   
 $EndComp
@@ -924,7 +951,8 @@ P 2200 4300
 F 0 "BTN0" H 2200 4400 50  0000 C CNN
 F 1 "POWER" H 2200 4200 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 2200 3100 50  0001 C CNN
-F 3 "" H 2200 3100 50  0000 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 2200 3100 50  0001 C CNN
+F 4 "www.mouser.com" H 2200 4300 60  0001 C CNN "Distributor1_URL"
 	1    2200 4300
 	-1   0    0    1   
 $EndComp
@@ -1867,7 +1895,8 @@ AR Path="/58D51CAD/5A076CD7" Ref="U1"  Part="8"
 F 0 "U1" H 5750 7350 60  0000 C CNN
 F 1 "LFE5U-45F-6BG381C" H 5750 7250 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 4700 7350 60  0001 C CNN
-F 3 "" H 4700 7350 60  0000 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/EH/TN1261.pdf?document_id=50463" H 4700 7350 60  0001 C CNN
+F 4 "www.mouser.com" H 5750 6400 60  0001 C CNN "Distributor1_URL"
 	8    5750 6400
 	1    0    0    -1  
 $EndComp
@@ -1880,7 +1909,11 @@ AR Path="/58D51CAD/5A077765" Ref="U1"  Part="9"
 F 0 "U1" H 6250 2450 60  0000 C CNN
 F 1 "LFE5U-45F-6BG381C" H 6250 2350 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 5200 2450 60  0001 C CNN
-F 3 "" H 5200 2450 60  0000 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 5200 2450 60  0001 C CNN
+F 4 "www.latticesemi.com" H 6250 1500 60  0001 C CNN "MFG_URL"
+F 5 "LFE5U-45F-6BG381C" H 6250 1500 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 6250 1500 60  0001 C CNN "Distributor1_URL"
+F 7 "842-LFE5U45F6BG381C" H 6250 1500 60  0001 C CNN "Distributor1_PN"
 	9    6250 1500
 	1    0    0    -1  
 $EndComp

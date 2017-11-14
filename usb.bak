@@ -107,7 +107,10 @@ AR Path="/58D6BF46/58D6C840" Ref="US1"  Part="1"
 F 0 "US1" H 1825 1775 50  0000 C CNN
 F 1 "USB_FTDI" H 1500 2100 50  0000 C CNN
 F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" V 1450 1800 50  0001 C CNN
-F 3 "" V 1450 1800 50  0000 C CNN
+F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 1450 1800 50  0001 C CNN
+F 4 "www.fciconnect.com" H 1500 1900 60  0001 C CNN "MFG_URL"
+F 5 "10118192-0001LF" H 1500 1900 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 1500 1900 60  0001 C CNN "Distributor1_URL"
 	1    1500 1900
 	0    -1   1    0   
 $EndComp
@@ -120,7 +123,10 @@ AR Path="/58D6BF46/58D6C841" Ref="US2"  Part="1"
 F 0 "US2" H 1825 2725 50  0000 C CNN
 F 1 "USB_FPGA" H 1500 3050 50  0000 C CNN
 F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" V 1450 2750 50  0001 C CNN
-F 3 "" V 1450 2750 50  0000 C CNN
+F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 1450 2750 50  0001 C CNN
+F 4 "www.fciconnect.com" H 1500 2850 60  0001 C CNN "MFG_URL"
+F 5 "10118192-0001LF" H 1500 2850 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 1500 2850 60  0001 C CNN "Distributor1_URL"
 	1    1500 2850
 	0    -1   1    0   
 $EndComp
@@ -664,7 +670,8 @@ P 9400 2050
 F 0 "U1" H 9400 3000 60  0000 C CNN
 F 1 "LFE5U-45F-6BG381C" H 9400 2900 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 8350 3000 60  0001 C CNN
-F 3 "" H 8350 3000 60  0000 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 8350 3000 60  0001 C CNN
+F 4 "www.mouser.com" H 9400 2050 60  0001 C CNN "Distributor1_URL"
 	5    9400 2050
 	1    0    0    -1  
 $EndComp
@@ -675,7 +682,8 @@ P 8600 3950
 F 0 "U1" H 8550 4350 60  0000 C CNN
 F 1 "LFE5U-45F-6BG381C" H 8550 4250 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 7550 4900 60  0001 C CNN
-F 3 "" H 7550 4900 60  0000 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 7550 4900 60  0001 C CNN
+F 4 "www.mouser.com" H 8600 3950 60  0001 C CNN "Distributor1_URL"
 	10   8600 3950
 	-1   0    0    -1  
 $EndComp
@@ -686,7 +694,10 @@ P 5450 1450
 F 0 "Y1" H 5575 1650 50  0000 L CNN
 F 1 "FNETHE025" H 5575 1575 50  0000 L CNN
 F 2 "oscxo:Crystal_SMD_7050_4Pads" H 5450 1450 50  0001 C CNN
-F 3 "" H 5450 1450 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/FNETHE025.pdf" H 5450 1450 50  0001 C CNN
+F 4 "www.diodes.com" H 5450 1450 60  0001 C CNN "MFG_URL"
+F 5 "FNETHE025" H 5450 1450 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 5450 1450 60  0001 C CNN "Distributor1_URL"
 	1    5450 1450
 	1    0    0    1   
 $EndComp

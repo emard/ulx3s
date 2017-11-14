@@ -61,7 +61,9 @@ P 2800 2700
 F 0 "U10" H 2500 2950 50  0000 L CNN
 F 1 "S25FL164K0XMFI011" H 2850 2950 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2450 2650 50  0001 C CNN
-F 3 "" H 2450 2650 50  0000 C CNN
+F 3 "http://www.cypress.com/file/196886/download" H 2450 2650 50  0001 C CNN
+F 4 "S25FL164K0XMFI011" H 2800 2700 60  0001 C CNN "MFG_PN"
+F 5 "www.mouser.com" H 2800 2700 60  0001 C CNN "Distributor1_URL"
 	1    2800 2700
 	1    0    0    -1  
 $EndComp
@@ -479,7 +481,8 @@ P 6400 2850
 F 0 "U1" H 6400 3800 60  0000 C CNN
 F 1 "LFE5U-45F-6BG381C" H 6400 3700 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 5350 3800 60  0001 C CNN
-F 3 "" H 5350 3800 60  0000 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/EH/TN1260.pdf" H 5350 3800 60  0001 C CNN
+F 4 "www.mouser.com" H 6400 2850 60  0001 C CNN "Distributor1_URL"
 	7    6400 2850
 	1    0    0    -1  
 $EndComp

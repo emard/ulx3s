@@ -61,7 +61,11 @@ P 1250 2850
 F 0 "GPDI1" H 1250 3900 50  0000 C CNN
 F 1 "GPDI-D" V 1350 2850 50  0000 C CNN
 F 2 "hdmi-swm-19:hdmi-swm-19" H 1250 2850 60  0001 C CNN
-F 3 "" H 1250 2850 60  0000 C CNN
+F 3 "http://portal.fciconnect.com/Comergent/fci/drawing/10029449.pdf" H 1250 2850 60  0001 C CNN
+F 4 "www.amphenol-icc.com" H 1250 2850 60  0001 C CNN "MFG_URL"
+F 5 "10029449-111RLF" H 1250 2850 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 1250 2850 60  0001 C CNN "Distributor1_URL"
+F 7 "649-10029449-111RLF" H 1250 2850 60  0001 C CNN "Distributor1_PN"
 	1    1250 2850
 	-1   0    0    -1  
 $EndComp
@@ -175,7 +179,10 @@ P 2600 5200
 F 0 "U11" H 2600 5450 50  0000 C CNN
 F 1 "PCA9306DCTR" H 2600 4950 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2600 5200 50  0001 C CNN
-F 3 "" H 2600 5200 50  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/pca9306.pdf" H 2600 5200 50  0001 C CNN
+F 4 "www.ti.com" H 2600 5200 60  0001 C CNN "MFG_URL"
+F 5 "PCA9306DCTR" H 2600 5200 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 2600 5200 60  0001 C CNN "Distributor1_URL"
 	1    2600 5200
 	1    0    0    -1  
 $EndComp
@@ -457,7 +464,8 @@ P 6250 2800
 F 0 "U1" H 6250 3750 60  0000 C CNN
 F 1 "LFE5U-45F-6BG381C" H 6250 3650 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 5200 3750 60  0001 C CNN
-F 3 "" H 5200 3750 60  0000 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 5200 3750 60  0001 C CNN
+F 4 "www.mouser.com" H 6250 2800 60  0001 C CNN "Distributor1_URL"
 	2    6250 2800
 	1    0    0    -1  
 $EndComp

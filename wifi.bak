@@ -87,7 +87,10 @@ P 6850 4800
 F 0 "U2" H 6150 6050 60  0000 C CNN
 F 1 "ESP-32S" H 7350 6050 60  0000 C CNN
 F 2 "ESP32-footprints-Lib:ESP-32S" H 7200 6150 60  0001 C CNN
-F 3 "" H 6400 5250 60  0001 C CNN
+F 3 "http://espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 6400 5250 60  0001 C CNN
+F 4 "espressif.com" H 6850 4800 60  0001 C CNN "MFG_URL"
+F 5 "ESP-WROOM-32" H 6850 4800 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 6850 4800 60  0001 C CNN "Distributor1_URL"
 	1    6850 4800
 	1    0    0    -1  
 $EndComp

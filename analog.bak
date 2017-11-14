@@ -61,7 +61,10 @@ P 2550 2350
 F 0 "AUDIO1" H 2550 2750 50  0000 C CNN
 F 1 "JACK_TRS_6PINS" H 2500 2050 50  0000 C CNN
 F 2 "audio-jack:CUI_SJ-43516-SMT" H 2650 2200 50  0001 C CNN
-F 3 "" H 2650 2200 50  0000 C CNN
+F 3 "http://www.cui.com/product/resource/sj-4351x-smt-series.pdf" H 2650 2200 50  0001 C CNN
+F 4 "www.cui.com" H 2550 2350 60  0001 C CNN "MFG_URL"
+F 5 "SJ-43516-SMT-TR" H 2550 2350 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 2550 2350 60  0001 C CNN "Distributor1_URL"
 	1    2550 2350
 	1    0    0    -1  
 $EndComp
@@ -259,7 +262,8 @@ P 3300 4900
 F 0 "U8" H 3250 5800 50  0000 L CNN
 F 1 "MAX11123" H 3100 5700 50  0000 L CNN
 F 2 "Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm" H 3300 4950 50  0001 C CNN
-F 3 "" H 3300 4950 50  0000 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf" H 3300 4950 50  0001 C CNN
+F 4 "www.mouser.com" H 3300 4900 60  0001 C CNN "Distributor1_URL"
 	1    3300 4900
 	1    0    0    -1  
 $EndComp
