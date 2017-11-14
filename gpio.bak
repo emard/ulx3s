@@ -140,7 +140,7 @@ L CONN_02X20 J2
 U 1 1 58E6B7F6
 P 8400 4400
 F 0 "J2" H 8400 5450 50  0000 C CNN
-F 1 "CONN_02X20" V 8400 4400 50  0000 C CNN
+F 1 "CONN_02X20" H 8400 3350 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x20" H 8400 3450 50  0001 C CNN
 F 3 "" H 8400 3450 50  0000 C CNN
 	1    8400 4400
@@ -688,4 +688,32 @@ Text Notes 1800 5150 0    60   ~ 0
 12
 Text Notes 1800 5250 0    60   ~ 0
 13
+Text Notes 8350 3700 0    60   ~ 0
+14
+Text Notes 8350 3800 0    60   ~ 0
+15
+Text Notes 8350 3900 0    60   ~ 0
+16
+Text Notes 8350 4000 0    60   ~ 0
+17
+Text Notes 8350 4100 0    60   ~ 0
+18
+Text Notes 8350 4200 0    60   ~ 0
+19
+Text Notes 8350 4300 0    60   ~ 0
+20
+Text Notes 8350 4600 0    60   ~ 0
+21
+Text Notes 8350 4700 0    60   ~ 0
+22
+Text Notes 8350 4800 0    60   ~ 0
+23
+Text Notes 8350 4900 0    60   ~ 0
+24
+Text Notes 8350 5000 0    60   ~ 0
+25
+Text Notes 8350 5100 0    60   ~ 0
+26
+Text Notes 8350 5200 0    60   ~ 0
+27
 $EndSCHEMATC
