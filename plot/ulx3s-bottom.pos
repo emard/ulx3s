@@ -1,4 +1,4 @@
-### Module positions - created on Tue Nov 14 23:59:01 2017 ###
+### Module positions - created on Wed Nov 15 16:27:40 2017 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -107,8 +107,8 @@ U3        AP3429A            TSOT-25                           3.0750    -1.1500
 U4        AP3429A            TSOT-25                           2.9750    -0.6238    0.0000  bottom
 U5        AP3429A            TSOT-25                           0.8250    -0.8750  180.0000  bottom
 U6        FT231XS            SSOP-20_4.4x6.5mm_Pitch0.65mm     1.9750    -1.7500  180.0000  bottom
-U7        PCF8523            SO-8                              3.8250    -1.2250  180.0000  bottom
-U10       S25FL164K0XMFI011  SOIC-8_3.9x4.9mm_Pitch1.27mm      1.4000    -0.9500  270.0000  bottom
-U11       PCA9306DCTR        SOIC-8_3.9x4.9mm_Pitch1.27mm      2.4413    -0.1224    0.0000  bottom
+U7        PCF8523            SOT96-1                           3.8250    -1.2250   90.0000  bottom
+U10       S25FL164K0XMFI011  SOA008-150mil                     1.4000    -0.9500  270.0000  bottom
+U11       PCA9306DCTR        SM8                               2.4413    -0.1225   90.0000  bottom
 Y2        32768Hz            Crystal_SMD_ABS25                 3.7300    -1.4800  180.0000  bottom
 ## End
