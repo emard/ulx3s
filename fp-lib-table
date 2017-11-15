@@ -24,4 +24,5 @@
   (lib (name jumper)(type KiCad)(uri "$(KIPRJMOD)/footprints/jumpers/jumper.pretty")(options "")(descr ""))
   (lib (name SOT96-1)(type KiCad)(uri "$(KIPRJMOD)/footprints/rtc/SOT96-1.pretty")(options "")(descr ""))
   (lib (name SM8)(type KiCad)(uri "$(KIPRJMOD)/footprints/i2c/SM8.pretty")(options "")(descr ""))
+  (lib (name SOA008-150mil)(type KiCad)(uri "$(KIPRJMOD)/footprints/flash/SOA008-150mil.pretty")(options "")(descr ""))
 )
