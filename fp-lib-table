@@ -22,4 +22,5 @@
   (lib (name fer)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/fer.pretty")(options "")(descr ""))
   (lib (name hrvatski_proizvod)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/hrvatski_proizvod.pretty")(options "")(descr ""))
   (lib (name jumper)(type KiCad)(uri "$(KIPRJMOD)/footprints/jumpers/jumper.pretty")(options "")(descr ""))
+  (lib (name SOT96-1)(type KiCad)(uri "$(KIPRJMOD)/footprints/rtc/SOT96-1.pretty")(options "")(descr ""))
 )
