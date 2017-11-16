@@ -272,16 +272,17 @@ F 3 "" H 7450 5800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L2
+L L L3
 U 1 1 58D62964
 P 8950 5200
-F 0 "L2" V 8900 5200 50  0000 C CNN
+F 0 "L3" V 8900 5200 50  0000 C CNN
 F 1 "2.2uH" V 9025 5200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1210_HandSoldering" H 8950 5200 50  0001 C CNN
-F 3 "http://psearch.en.murata.com/inductor/product/DFE322512F-2R2M%23.pdf" H 8950 5200 50  0001 C CNN
-F 4 "www.murata.com" H 8950 5200 60  0001 C CNN "MFG_URL"
-F 5 "DFE322512F-2R2M=P2" H 8950 5200 60  0001 C CNN "MFG_PN"
+F 3 "http://www.bourns.com/docs/Product-Datasheets/srp2512a.pdf" H 8950 5200 50  0001 C CNN
+F 4 "www.bourns.com" H 8950 5200 60  0001 C CNN "MFG_URL"
+F 5 "SRP2512A-2R2M" H 8950 5200 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 8950 5200 60  0001 C CNN "Distributor1_URL"
+F 7 "652-SRP2512A-2R2M" H 8950 5200 60  0001 C CNN "Distributor1_PN"
 	1    8950 5200
 	0    -1   -1   0   
 $EndComp
@@ -422,16 +423,17 @@ F 3 "" H 7450 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L3
+L L L2
 U 1 1 58D67BD8
 P 8950 4000
-F 0 "L3" V 8900 4000 50  0000 C CNN
+F 0 "L2" V 8900 4000 50  0000 C CNN
 F 1 "2.2uH" V 9025 4000 50  0000 C CNN
 F 2 "Resistors_SMD:R_1210_HandSoldering" H 8950 4000 50  0001 C CNN
-F 3 "http://psearch.en.murata.com/inductor/product/DFE322512F-2R2M%23.pdf" H 8950 4000 50  0001 C CNN
+F 3 "http://psearch.en.murata.com/inductor/product/DFE252012PD-2R2M%23.pdf" H 8950 4000 50  0001 C CNN
 F 4 "www.murata.com" H 8950 4000 60  0001 C CNN "MFG_URL"
-F 5 "DFE322512F-2R2M=P2" H 8950 4000 60  0001 C CNN "MFG_PN"
+F 5 "DFE252012P-2R2M=P2" H 8950 4000 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 8950 4000 60  0001 C CNN "Distributor1_URL"
+F 7 "652-SRP2512A-2R2M" H 8950 4000 60  0001 C CNN "Distributor1_PN"
 	1    8950 4000
 	0    -1   -1   0   
 $EndComp
@@ -1883,8 +1885,8 @@ F 3 "" H 6700 7450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6600 6700 6700 6700
-Text Notes 7350 6400 0    60   ~ 0
-L1,L2,L3: >3A <0.08ohm
+Text Notes 8350 6250 0    60   ~ 0
+L1,L2,L3: Isat>3A Rdc<100mohm L=2.5-5.8mm W<3mm\nMurata DFE322512F-2R2M=P2, DFE252012P-2R2M=P2\nBourns SRP2512A-2R2M
 Text Notes 1050 6900 0    60   ~ 0
 WARNING\nECP5 family datasheet\np.48: Power Supply Ramp rates\nfor all supplies 0.01-10V/ms\nPower Up Sequence\nNormally it should just work...\n
 $Comp

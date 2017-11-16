@@ -232,7 +232,10 @@ P 5700 3400
 F 0 "U6" H 5150 4200 50  0000 L CNN
 F 1 "FT231XS" H 6000 4200 50  0000 L CNN
 F 2 "Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm" H 5700 3400 50  0001 C CNN
-F 3 "" H 5700 3400 50  0001 C CNN
+F 3 "www.ftdichip.com/Documents/DataSheets/ICs/DS_FT231X.pdf" H 5700 3400 50  0001 C CNN
+F 4 "www.ftdichip.com" H 5700 3400 60  0001 C CNN "MFG_URL"
+F 5 "FT231XS" H 5700 3400 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 5700 3400 60  0001 C CNN "Distributor1_URL"
 	1    5700 3400
 	1    0    0    -1  
 $EndComp
