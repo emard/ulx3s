@@ -1,4 +1,4 @@
-### Module positions - created on Wed Nov 15 16:27:40 2017 ###
+### Module positions - created on Fri Nov 17 22:58:55 2017 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -43,8 +43,8 @@ D21       3.6V               D_SOD-323_HandSoldering           3.5050    -0.1237
 D51       STPS2L30AF         D_SMA_Handsoldering               2.8750    -0.1500   90.0000  bottom
 D52       STPS2L30AF         D_SMA_Handsoldering               3.0500    -0.1500  270.0000  bottom
 L1        2.2uH              R_1210_HandSoldering              3.0000    -1.0000  180.0000  bottom
-L2        2.2uH              R_1210_HandSoldering              2.9000    -0.4750  180.0000  bottom
-L3        2.2uH              R_1210_HandSoldering              0.9000    -1.0250    0.0000  bottom
+L2        2.2uH              R_1210_HandSoldering              0.8750    -1.0250    0.0000  bottom
+L3        2.2uH              R_1210_HandSoldering              2.9000    -0.4750  180.0000  bottom
 Q1        BC857              SOT-23_Handsoldering              3.6750    -0.8500   90.0000  bottom
 Q2        2N7002             SOT-23_Handsoldering              3.4750    -0.5250  180.0000  bottom
 R1        15k                R_0603_HandSoldering              3.4500    -0.7750    0.0000  bottom
@@ -103,9 +103,9 @@ RB1       18k                R_0603_HandSoldering              2.9750    -1.1500
 RB2       4.7k               R_0603_HandSoldering              0.9250    -0.8750   90.0000  bottom
 RB3       3.3k               R_0603_HandSoldering              2.8750    -0.6250  270.0000  bottom
 U2        ESP-32S            ESP-32S                           1.3639    -1.5285    0.0000  bottom
-U3        AP3429A            TSOT-25                           3.0750    -1.1500    0.0000  bottom
-U4        AP3429A            TSOT-25                           2.9750    -0.6238    0.0000  bottom
-U5        AP3429A            TSOT-25                           0.8250    -0.8750  180.0000  bottom
+U3        DIO6015            TSOT-25                           3.0750    -1.1500    0.0000  bottom
+U4        LX7172             TSOT-25                           0.8250    -0.8750  180.0000  bottom
+U5        TLV62569DBV        TSOT-25                           2.9750    -0.6300    0.0000  bottom
 U6        FT231XS            SSOP-20_4.4x6.5mm_Pitch0.65mm     1.9750    -1.7500  180.0000  bottom
 U7        PCF8523            SOT96-1                           3.8250    -1.2250   90.0000  bottom
 U10       S25FL164K0XMFI011  SOA008-150mil                     1.4000    -0.9500  270.0000  bottom
