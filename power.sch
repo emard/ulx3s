@@ -70,13 +70,13 @@ L AP3429A U3
 U 1 1 58D58840
 P 8100 3100
 F 0 "U3" H 8100 3250 60  0000 C CNN
-F 1 "AP3429A" H 8100 3150 60  0000 C CNN
+F 1 "DIO6015" H 8100 3150 60  0000 C CNN
 F 2 "TSOT-25:TSOT-25" H 8100 3100 60  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP3429.pdf" H 8100 3100 60  0001 C CNN
-F 4 "www.diodes.com" H 8100 3100 60  0001 C CNN "MFG_URL"
-F 5 "AP3429AKTTR-G1" H 8100 3100 60  0001 C CNN "MFG_PN"
+F 3 "http://www.dioo.com/attachments/files/20161031180022_361.pdf" H 8100 3100 60  0001 C CNN
+F 4 "www.dioo.com" H 8100 3100 60  0001 C CNN "MFG_URL"
+F 5 "DIO6015CST5" H 8100 3100 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 8100 3100 60  0001 C CNN "Distributor1_URL"
-F 7 "621-AP3429AKTTR-G1" H 8100 3100 60  0001 C CNN "Distributor1_PN"
+F 7 "453-DIO6015CST5" H 8100 3100 60  0001 C CNN "Distributor1_PN"
 	1    8100 3100
 	1    0    0    -1  
 $EndComp
@@ -219,14 +219,16 @@ $EndComp
 $Comp
 L AP3429A U4
 U 1 1 58D62946
-P 8100 5500
-F 0 "U4" H 8100 5650 60  0000 C CNN
-F 1 "AP3429A" H 8100 5550 60  0000 C CNN
-F 2 "TSOT-25:TSOT-25" H 8100 5500 60  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP3429.pdf" H 8100 5500 60  0001 C CNN
-F 4 "www.diodes.com" H 8100 5500 60  0001 C CNN "MFG_URL"
-F 5 "www.mouser.com" H 8100 5500 60  0001 C CNN "Distributor1_URL"
-	1    8100 5500
+P 8100 4300
+F 0 "U4" H 8100 4450 60  0000 C CNN
+F 1 "LX7172" H 8100 4350 60  0000 C CNN
+F 2 "TSOT-25:TSOT-25" H 8100 4300 60  0001 C CNN
+F 3 "https://www.microsemi.com/document-portal/doc_view/132307-lx7172-lx7172a-datasheet" H 8100 4300 60  0001 C CNN
+F 4 "www.microsemi.com" H 8100 4300 60  0001 C CNN "MFG_URL"
+F 5 "LX7172ISE" H 8100 4300 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 8100 4300 60  0001 C CNN "Distributor1_URL"
+F 7 "494-LX7172ISE" H 8100 4300 60  0001 C CNN "Distributor1_PN"
+	1    8100 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -370,16 +372,16 @@ AP3429/A voltage setting: is 0.6V at FB pin\nVout = (RA/RB+1)*0.6V\n
 $Comp
 L AP3429A U5
 U 1 1 58D67BBA
-P 8100 4300
-F 0 "U5" H 8100 4450 60  0000 C CNN
-F 1 "TLV62569DBV" H 8100 4350 60  0000 C CNN
-F 2 "TSOT-25:TSOT-25" H 8100 4300 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv62569.pdf" H 8100 4300 60  0001 C CNN
-F 4 "www.ti.com" H 8100 4300 60  0001 C CNN "MFG_URL"
-F 5 "TLV62569DBV" H 8100 4300 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 8100 4300 60  0001 C CNN "Distributor1_URL"
-F 7 "595-TLV62569DBVR" H 8100 4300 60  0001 C CNN "Distributor1_PN"
-	1    8100 4300
+P 8100 5500
+F 0 "U5" H 8100 5650 60  0000 C CNN
+F 1 "TLV62569DBV" H 8100 5550 60  0000 C CNN
+F 2 "TSOT-25:TSOT-25" H 8100 5500 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv62569.pdf" H 8100 5500 60  0001 C CNN
+F 4 "www.ti.com" H 8100 5500 60  0001 C CNN "MFG_URL"
+F 5 "TLV62569DBV" H 8100 5500 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 8100 5500 60  0001 C CNN "Distributor1_URL"
+F 7 "595-TLV62569DBVR" H 8100 5500 60  0001 C CNN "Distributor1_PN"
+	1    8100 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1946,6 +1948,6 @@ F 3 "" H 10900 2750 50  0001 C CNN
 	1    10900 2750
 	1    0    0    -1  
 $EndComp
-Text Notes 5250 5250 0    60   ~ 0
-Switching regulators 2A SOT23-5\nDiodes AP3429/A (2A)\nTexas instruments TLV62569DBV (2A)\nMicrosemi LX7172A (1.2A)\nDioo microcircuits DIO6015B (1.5A)\nsimilar but not pin compatible:\nExar SP6669AEK-L/TRR3
+Text Notes 5100 5300 0    60   ~ 0
+Switching regulators 2A SOT23-5\nTexas instruments TLV62569DBV (2A)\nMicrosemi LX7172 (1.2A)\nDioo microcircuits DIO6015 (1.5A)\nDiodes AP3429/A (2A) - will it meet spec?
 $EndSCHEMATC
