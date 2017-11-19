@@ -368,7 +368,7 @@ F 3 "" H 10900 5150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6300 2700 0    60   ~ 0
-AP3429/A voltage setting: is 0.6V at FB pin\nVout = (RA/RB+1)*0.6V\n
+voltage setting: 0.6V at FB pin\nVout = (RA/RB+1)*0.6V\n
 $Comp
 L AP3429A U5
 U 1 1 58D67BBA
