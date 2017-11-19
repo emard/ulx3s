@@ -1,4 +1,4 @@
-### Module positions - created on Fri Nov 17 22:58:55 2017 ###
+### Module positions - created on Sun Nov 19 11:12:10 2017 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -36,8 +36,8 @@ R48       330                R_0603_HandSoldering                   0.7000    -0
 R62       330                R_0603_HandSoldering                   1.7000    -1.8500  270.0000  top
 SW1       DIPSW              SW_DIP_x4_W8.61mm_Slide_LowProfile     3.0500    -0.4500  270.0000  top
 U1        LFE5U-45F-6BG381C  BGA-381_pitch0.8mm_dia0.4mm            2.1972    -0.9886    0.0000  top
+U2        MT48LC4M16A2TG     TSOP54                                 3.2450    -0.9886   90.0000  top
 U8        MAX11123           QFN-28-1EP_5x5mm_Pitch0.5mm            3.7250    -1.4750  180.0000  top
-U9        MT48LC4M16A2TG     TSOP54                                 3.2445    -0.9886   90.0000  top
 US1       USB_FTDI           USB-MICRO-B-FCI-10118192-0001LF        1.1500    -0.0250  180.0000  top
 US2       USB_FPGA           USB-MICRO-B-FCI-10118192-0001LF        3.4500    -0.0250  180.0000  top
 Y1        FNETHE025          Crystal_SMD_7050_4Pads                 0.8840    -0.3500  180.0000  top

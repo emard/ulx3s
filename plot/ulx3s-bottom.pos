@@ -1,4 +1,4 @@
-### Module positions - created on Fri Nov 17 22:58:55 2017 ###
+### Module positions - created on Sun Nov 19 11:12:10 2017 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -102,7 +102,6 @@ RA3       15k                R_0603_HandSoldering              2.7500    -0.7250
 RB1       18k                R_0603_HandSoldering              2.9750    -1.1500  270.0000  bottom
 RB2       4.7k               R_0603_HandSoldering              0.9250    -0.8750   90.0000  bottom
 RB3       3.3k               R_0603_HandSoldering              2.8750    -0.6250  270.0000  bottom
-U2        ESP-32S            ESP-32S                           1.3639    -1.5285    0.0000  bottom
 U3        DIO6015            TSOT-25                           3.0750    -1.1500    0.0000  bottom
 U4        LX7172             TSOT-25                           0.8250    -0.8750  180.0000  bottom
 U5        TLV62569DBV        TSOT-25                           2.9750    -0.6300    0.0000  bottom
