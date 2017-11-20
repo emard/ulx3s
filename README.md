@@ -4,7 +4,8 @@ This is work-in-progress place for putting
 some wishes of a small (94x51 mm) FPGA board.
 
 ULX3S = University digital logic Learning eXtensible
-board release 3 with SDRAM, Successor of ULX2S.
+board release 3 with SDRAM, Successor of
+[ULX2S](http://github.com/emard/ulx2s).
 
     kicad ulx3s.pro
 
