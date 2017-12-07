@@ -100,12 +100,13 @@ Make the prototype.
     [x] move battery away from screw hole
     [x] top layer GND fill
     [x] R25 move away from oled screw hole
-    [ ] board cut off nothches inisde for space saving
+    [ ] board cut off notches inisde for space saving
     [x] DIP switch to the right near RAM
     [x] Move HDMI a bit closer to OLED
     [x] 32768Hz oscillator footprint
     [x] SD card footprint SCHD3A0100
-    [ ] SD use CD (card detect) contacts
+    [ ] SD connect GND (thin pins)
+    [ ] center the SD footprint for T&R
     [x] move USB 0.5-1mm more out
     [x] DIP SW footprint correct
     [x] AUDIO jack footprint fits
@@ -121,3 +122,4 @@ Make the prototype.
         migration docs)
     [x] Check GND/VCC for 45 and 85 packages,
         for example pin T11 is NC on 25U, GND on 85U and VCC ond 85UM
+    
