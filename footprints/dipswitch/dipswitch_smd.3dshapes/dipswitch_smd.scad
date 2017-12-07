@@ -80,6 +80,6 @@ module dipsw_smd()
    }
 }
 
-//scale(0,254) // proper scale for KiCAD WRL file
+//scale(1/2.54) // required scale for KiCAD VRML file dipswitch_smd.wrl
 //  rotate([0,0,90])
     dipsw_smd();
