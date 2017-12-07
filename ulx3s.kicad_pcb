@@ -7761,6 +7761,11 @@
       (net 1 GND))
     (pad 9 smd rect (at -3.5 6.875 180) (size 1.45 2) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
+    (model ./footprints/micro-sd/micro-sd-schd3a0100.3dshapes/SCHD3A0100.wrl
+      (at (xyz 0.017 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (module SOT96-1:SOT96-1 (layer B.Cu) (tedit 5A0C2F78) (tstamp 5A0BABF2)
