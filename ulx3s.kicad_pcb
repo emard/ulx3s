@@ -4922,9 +4922,9 @@
     (pad 2 smd rect (at 2.8 -1.4 180) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask))
     (pad 1 smd rect (at -2.8 -1.4 180) (size 1.8 1.4) (layers B.Cu B.Paste B.Mask)
       (net 29 /power/OSCI_32k))
-    (model Crystals.3dshapes/Crystal_SMD_SeikoEpson_MC306-4pin_8.0x3.2mm_HandSoldering.wrl
+    (model ./footprints/crystal/abs25.3dshapes/abs25.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
   )

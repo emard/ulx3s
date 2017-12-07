@@ -5011,7 +5011,7 @@
     (pad 8 smd rect (at 4.305 -3.81 90) (size 2.44 1.12) (layers F.Cu F.Mask)
       (net 221 SW1))
     (model ./footprints/dipswitch/dipswitch_smd.3dshapes/dipswitch_smd.wrl
-      (at (xyz 0 0 0.09))
+      (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 90))
     )
