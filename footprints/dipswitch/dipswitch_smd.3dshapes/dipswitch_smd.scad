@@ -68,10 +68,11 @@ module dipsw_smd()
       {
         color(color_body)
           cube(body,center=true);
-        // holes for switches
+        // holes for switches - imports to freecad but exports wrong to VRML of Kicad
+        if(1)
         for(i = [0:n_switches-1])
         {
-          translate([(i-n_switches/2+0.5)*pitch,0,body[2]/2-swhole[2]/2+0.02])
+          translate([(i-n_switches/2+0.5)*pitch,0,body[2]/2-swhole[2]/2+0.01])
             color(color_body)
               cube(swhole,center=true);
         }
