@@ -327,21 +327,7 @@ $EndComp
 Wire Wire Line
 	4400 2550 4250 2550
 Wire Wire Line
-	4250 2550 4250 2750
-Wire Wire Line
-	4250 2750 4250 2950
-Wire Wire Line
-	4250 2950 4250 3150
-Wire Wire Line
-	4250 3150 4250 3350
-Wire Wire Line
-	4250 3350 4250 3550
-Wire Wire Line
-	4250 3550 4250 3750
-Wire Wire Line
-	4250 3750 4250 3950
-Wire Wire Line
-	4250 3950 4250 4100
+	4250 2550 4250 4100
 Wire Wire Line
 	4250 3950 4400 3950
 Wire Wire Line
@@ -512,9 +498,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 2750 2750 2750
 Wire Wire Line
-	2750 2750 2750 2950
-Wire Wire Line
-	2750 2950 2750 3150
+	2750 2750 2750 3150
 $Comp
 L +3V3 #PWR066
 U 1 1 591B548D
@@ -542,13 +526,7 @@ BTNPUR
 Wire Wire Line
 	2750 4150 2050 4150
 Wire Wire Line
-	2750 3350 2750 3550
-Wire Wire Line
-	2750 3550 2750 3750
-Wire Wire Line
-	2750 3750 2750 3950
-Wire Wire Line
-	2750 3950 2750 4150
+	2750 3350 2750 4150
 Connection ~ 2750 2950
 Connection ~ 2750 3950
 $Comp
@@ -697,15 +675,9 @@ F 3 "" H 7100 3400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7400 3400 7750 3400
+	7400 3400 7800 3400
 Wire Wire Line
-	7750 3400 7800 3400
-Wire Wire Line
-	7750 3100 7750 3200
-Wire Wire Line
-	7750 3200 7750 3300
-Wire Wire Line
-	7750 3300 7750 3400
+	7750 3100 7750 3400
 Wire Wire Line
 	7750 3100 7800 3100
 Connection ~ 7750 3400
