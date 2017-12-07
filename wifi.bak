@@ -85,7 +85,7 @@ L ESP-32S U9
 U 1 1 58E5662B
 P 6850 4800
 F 0 "U9" H 6150 6050 60  0000 C CNN
-F 1 "ESP-32S" H 7350 6050 60  0000 C CNN
+F 1 "ESP-WROOM-32" H 7150 6050 60  0000 C CNN
 F 2 "ESP32:ESP32-WROOM" H 7200 6150 60  0001 C CNN
 F 3 "http://espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 6400 5250 60  0001 C CNN
 F 4 "espressif.com" H 6850 4800 60  0001 C CNN "MFG_URL"

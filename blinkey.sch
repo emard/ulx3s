@@ -650,34 +650,34 @@ F 5 "219-4MST" H 8150 3250 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 8150 3250 60  0001 C CNN "Distributor1_URL"
 F 7 "774-2194MST " H 8150 3250 60  0001 C CNN "Distributor1_PN"
 	1    8150 3250
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R51
 U 1 1 595B9C2F
-P 7550 3400
-F 0 "R51" V 7630 3400 50  0000 C CNN
-F 1 "150" V 7550 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7480 3400 50  0001 C CNN
-F 3 "" H 7550 3400 50  0000 C CNN
-	1    7550 3400
+P 7250 3400
+F 0 "R51" V 7330 3400 50  0000 C CNN
+F 1 "150" V 7250 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7180 3400 50  0001 C CNN
+F 3 "" H 7250 3400 50  0000 C CNN
+	1    7250 3400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L +3V3 #PWR067
 U 1 1 595BA1C1
-P 7400 3400
-F 0 "#PWR067" H 7400 3250 50  0001 C CNN
-F 1 "+3V3" H 7400 3540 50  0000 C CNN
-F 2 "" H 7400 3400 50  0000 C CNN
-F 3 "" H 7400 3400 50  0000 C CNN
-	1    7400 3400
+P 7100 3400
+F 0 "#PWR067" H 7100 3250 50  0001 C CNN
+F 1 "+3V3" H 7100 3540 50  0000 C CNN
+F 2 "" H 7100 3400 50  0000 C CNN
+F 3 "" H 7100 3400 50  0000 C CNN
+	1    7100 3400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7700 3400 7800 3400
+	7400 3400 7800 3400
 Wire Wire Line
-	7750 3400 7750 3100
+	7750 3100 7750 3400
 Wire Wire Line
 	7750 3100 7800 3100
 Connection ~ 7750 3400
@@ -688,13 +688,13 @@ Wire Wire Line
 	7800 3300 7750 3300
 Connection ~ 7750 3300
 Text GLabel 8500 3100 2    60   Input ~ 0
-SW0
-Text GLabel 8500 3200 2    60   Input ~ 0
 SW1
-Text GLabel 8500 3300 2    60   Input ~ 0
+Text GLabel 8500 3200 2    60   Input ~ 0
 SW2
-Text GLabel 8500 3400 2    60   Input ~ 0
+Text GLabel 8500 3300 2    60   Input ~ 0
 SW3
+Text GLabel 8500 3400 2    60   Input ~ 0
+SW4
 Text Notes 7700 3750 0    60   ~ 0
 DIP switch connected to\nBANK0 on 'gpio' sheet
 Text Notes 8000 4550 0    60   ~ 0
@@ -746,4 +746,6 @@ F 3 "" H 4250 6200 50  0000 C CNN
 	1    4250 6200
 	1    0    0    -1  
 $EndComp
+Text Label 7450 3400 0    60   ~ 0
+SWPU
 $EndSCHEMATC
