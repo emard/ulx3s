@@ -8191,15 +8191,10 @@
       (net 50 SDRAM_D15))
     (pad 54 smd oval (at 5.88 -10.504 90) (size 1.1 0.56) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Housings_SSOP.3dshapes/TSOPII-54_10.16x22.22mm_Pitch0.8mm.wrl
+    (model ./footprints/sdram/TSOP54.3dshapes/TSOP54.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model Housings_SSOP.3dshapes/VSO-56_11.1x21.5mm_Pitch0.75mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.77 1.03486 1))
-      (rotate (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 90))
     )
   )
 
