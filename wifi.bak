@@ -39,6 +39,7 @@ LIBS:ssd_13xx
 LIBS:ftdi
 LIBS:max1112x
 LIBS:mt48lc4m16a2tg
+LIBS:micro_sd_card_cd
 LIBS:ulx3s-cache
 EELAYER 25 0
 EELAYER END
