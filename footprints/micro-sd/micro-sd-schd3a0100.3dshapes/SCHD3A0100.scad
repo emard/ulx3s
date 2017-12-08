@@ -23,7 +23,7 @@ pin_th = 0.1; // Thickness
 pin_W = 0.4;  // Pin width
 pin_L = 7.3;  // Total Length
 pin_H = 0.3+pin_th/2; // Pin height (from bottom to top)
-pin_l = 0.4;  // Length of the bottom part
+pin_l = 0.9;  // Length of the bottom part
 pin_a = 115;  // Bending angle
 
 pin_pitch = 1.1;
@@ -105,7 +105,7 @@ module SCHD3A100()
       color(color_pin)
         cube(dim_pin_small,center=true);
 
-    translate([3.2-(pin_count-1)*pin_pitch,-1.9,0])
+    translate([3.2-(pin_count-1)*pin_pitch,-2.2,0])
       pins_array(pin_count, pin_pitch);
 }
 
