@@ -122,4 +122,4 @@ Make the prototype.
         migration docs)
     [x] Check GND/VCC for 45 and 85 packages,
         for example pin T11 is NC on 25U, GND on 85U and VCC ond 85UM
-    
+    [x] Reconnect WIFI_OFF so that jumper has priority
