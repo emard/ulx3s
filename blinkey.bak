@@ -122,7 +122,7 @@ P 3100 3150
 F 0 "BTN2" H 3100 3250 50  0000 C CNN
 F 1 "FIRE2" H 2600 3150 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 1950 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 1950 50  0000 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 1950 50  0001 C CNN
 F 4 "www.mouser.com" H 3100 3150 60  0001 C CNN "Distributor1_URL"
 	1    3100 3150
 	1    0    0    -1  

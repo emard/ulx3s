@@ -121,8 +121,6 @@ Wire Wire Line
 	5500 4100 5900 4100
 Wire Wire Line
 	5350 4200 5900 4200
-Text GLabel 5900 4300 0    60   Input ~ 0
-WIFI_EN
 $Comp
 L +3V3 #PWR098
 U 1 1 58ED6C57
@@ -306,7 +304,11 @@ Wire Wire Line
 Wire Wire Line
 	4600 5000 4600 5100
 Text Label 4600 5050 0    60   ~ 0
-WIFIOFF
+WIFIEN
 Text GLabel 7300 5850 3    60   Input ~ 0
 WIFI_GPIO2
+Wire Wire Line
+	5900 4300 5500 4300
+Text Label 5550 4300 0    60   ~ 0
+WIFIEN
 $EndSCHEMATC
