@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7+dfsg1-1)
 
   (general
-    (links 0)
+    (links 724)
     (no_connects 0)
     (area 93.949999 61.269999 188.230001 112.370001)
     (thickness 1.6)
@@ -4851,7 +4851,7 @@
     (tags "DIP Switch Slide 8.61mm 338mil SMD LowProfile")
     (path /58D6547C/595B94DC)
     (attr smd)
-    (fp_text reference SW1 (at 0.127 7.874 180) (layer F.SilkS)
+    (fp_text reference SW1 (at -2.413 -8.636 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DIPSW (at 0 6.98 90) (layer F.Fab)
