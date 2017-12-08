@@ -105,8 +105,8 @@ Make the prototype.
     [x] Move HDMI a bit closer to OLED
     [x] 32768Hz oscillator footprint
     [x] SD card footprint SCHD3A0100
-    [ ] SD connect GND (thin pins)
-    [ ] center the SD footprint for T&R
+    [x] center the SD footprint for T&R
+    [x] SD connect GND (thin pins)
     [x] move USB 0.5-1mm more out
     [x] DIP SW footprint correct
     [x] AUDIO jack footprint fits
