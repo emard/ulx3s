@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Micro_SD_Card_CD
+D Micro SD Card Socket with CD
+K connector SD microsd CD
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
+#End Doc Library

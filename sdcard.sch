@@ -39,6 +39,7 @@ LIBS:ssd_13xx
 LIBS:ftdi
 LIBS:max1112x
 LIBS:mt48lc4m16a2tg
+LIBS:micro_sd_card_cd
 LIBS:ulx3s-cache
 EELAYER 25 0
 EELAYER END
@@ -99,7 +100,7 @@ Text GLabel 4050 3600 0    60   Input ~ 0
 SD_D0
 Text GLabel 4050 3700 0    60   Input ~ 0
 SD_D1
-Text Notes 4150 4450 0    60   ~ 0
+Text Notes 4150 4600 0    60   ~ 0
 minimum pins for compatible mode\nSD_CLK, SD_CMD, SD_D0, SD_D3
 $Comp
 L R R38
@@ -140,7 +141,7 @@ F 3 "" H 3150 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro_SD_Card SD1
+L Micro_SD_Card_CD SD1
 U 1 1 590C84AE
 P 4950 3300
 F 0 "SD1" H 4300 3900 50  0000 C CNN
@@ -168,4 +169,26 @@ Wire Wire Line
 	3550 3500 3550 3650
 Text Notes 3050 4100 0    60   ~ 0
 SDcard connected to\nBANK6 on "usb" sheet
+$Comp
+L GND #PWR?
+U 1 1 5A2A690D
+P 4900 4150
+F 0 "#PWR?" H 4900 3900 50  0001 C CNN
+F 1 "GND" H 4900 4000 50  0000 C CNN
+F 2 "" H 4900 4150 50  0000 C CNN
+F 3 "" H 4900 4150 50  0000 C CNN
+	1    4900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A2A6924
+P 5000 4150
+F 0 "#PWR?" H 5000 3900 50  0001 C CNN
+F 1 "GND" H 5000 4000 50  0000 C CNN
+F 2 "" H 5000 4150 50  0000 C CNN
+F 3 "" H 5000 4150 50  0000 C CNN
+	1    5000 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
