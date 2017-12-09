@@ -393,8 +393,6 @@ Text GLabel 5400 3750 2    60   Input ~ 0
 LED6
 Text GLabel 5400 3950 2    60   Input ~ 0
 LED7
-Text Notes 4250 2400 0    60   ~ 0
-LEDs to 2.5V bank\ndirect wiring, no resistors
 Text Notes 5400 1700 0    60   ~ 0
 to global onboard reset?
 Text Label 2100 2750 0    60   ~ 0

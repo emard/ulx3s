@@ -100,7 +100,7 @@ Text GLabel 4050 3600 0    60   Input ~ 0
 SD_D0
 Text GLabel 4050 3700 0    60   Input ~ 0
 SD_D1
-Text Notes 4150 4600 0    60   ~ 0
+Text Notes 4200 4750 0    60   ~ 0
 minimum pins for compatible mode\nSD_CLK, SD_CMD, SD_D0, SD_D3
 $Comp
 L R R38
@@ -172,23 +172,19 @@ SDcard connected to\nBANK6 on "usb" sheet
 $Comp
 L GND #PWR?
 U 1 1 5A2A690D
-P 4900 4150
-F 0 "#PWR?" H 4900 3900 50  0001 C CNN
-F 1 "GND" H 4900 4000 50  0000 C CNN
-F 2 "" H 4900 4150 50  0000 C CNN
-F 3 "" H 4900 4150 50  0000 C CNN
-	1    4900 4150
+P 4900 4250
+F 0 "#PWR?" H 4900 4000 50  0001 C CNN
+F 1 "GND" H 4900 4100 50  0000 C CNN
+F 2 "" H 4900 4250 50  0000 C CNN
+F 3 "" H 4900 4250 50  0000 C CNN
+	1    4900 4250
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A2A6924
-P 5000 4150
-F 0 "#PWR?" H 5000 3900 50  0001 C CNN
-F 1 "GND" H 5000 4000 50  0000 C CNN
-F 2 "" H 5000 4150 50  0000 C CNN
-F 3 "" H 5000 4150 50  0000 C CNN
-	1    5000 4150
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	4900 4150 4900 4250
+Wire Wire Line
+	4900 4200 5000 4200
+Wire Wire Line
+	5000 4200 5000 4150
+Connection ~ 4900 4200
 $EndSCHEMATC
