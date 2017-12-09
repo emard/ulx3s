@@ -12,7 +12,7 @@ color_writing="white";
 
 module abs25()
 {
-  translate([0,0,above])
+  translate([0,0,dim[2]/2+above])
   difference()
   {
     color(color_body)
@@ -30,7 +30,7 @@ module abs25()
   // add pins
   for(i=[-1:2:1])
     for(j=[-1:2:1])
-      translate([i*pin_pos[0]/2,j*pin_pos[1]/2,-dim_pin[2]/2])
+      translate([i*pin_pos[0]/2,j*pin_pos[1]/2,dim[2]/2-dim_pin[2]/2])
         color(color_pin)
           cube(dim_pin,center=true);
 }
