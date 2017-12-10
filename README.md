@@ -123,4 +123,5 @@ Make the prototype.
     [x] Check GND/VCC for 45 and 85 packages,
         for example pin T11 is NC on 25U, GND on 85U and VCC ond 85UM
     [x] Reconnect WIFI_OFF so that jumper has priority
+    [x] 25MHz oscillator: needs clearance from LEDs, move under USB1
     [ ] connect SPI Flash Quad Mode (QSPI)
