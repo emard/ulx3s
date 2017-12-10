@@ -27,7 +27,7 @@ GPIO: 56 pins (28 differential pairs), PMOD-friendly
 
 RAM: 32MB SDRAM MT48LC16M16
 
-Flash: 8MB SPI flash S25FL164 for FPGA config
+Flash: 4MB SPI Flash IS25LP032D for FPGA config
 
 Storage: Micro-SD slot
 
@@ -45,7 +45,7 @@ WiFi+bluetooth: placeholder for ESP-32 (JTAG and serial over WiFi)
 
 ADC: 8 channels, 12 bit, 1 MSa/s MAX11123
 
-Power: 3 Switching voltage regulators: 1.2V, 2.5V, 3.3V
+Power: 3 Switching voltage regulators: 1.1V, 2.5V, 3.3V
 
 Clock: 25 MHz onboard, external differential clock input
 
@@ -123,3 +123,4 @@ Make the prototype.
     [x] Check GND/VCC for 45 and 85 packages,
         for example pin T11 is NC on 25U, GND on 85U and VCC ond 85UM
     [x] Reconnect WIFI_OFF so that jumper has priority
+    [ ] connect SPI Flash Quad Mode (QSPI)
