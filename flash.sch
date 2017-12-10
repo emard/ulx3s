@@ -489,4 +489,6 @@ F 4 "www.mouser.com" H 6400 2850 60  0001 C CNN "Distributor1_URL"
 	7    6400 2850
 	1    0    0    -1  
 $EndComp
+Text Notes 1500 3500 0    60   ~ 0
+For programming Flash thru JTAG see\nLattice FPGA-TN-02050
 $EndSCHEMATC
