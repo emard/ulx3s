@@ -1951,4 +1951,6 @@ F 3 "" H 10900 2750 50  0001 C CNN
 $EndComp
 Text Notes 5100 5300 0    60   ~ 0
 Switching regulators 2A SOT23-5\nTexas instruments TLV62569DBV (2A)\nMicrosemi LX7172 (1.2A)\nDioo microcircuits DIO6015 (1.5A)\nDiodes AP3429/A (2A) - will it meet spec?
+Text Notes 1000 5400 0    60   ~ 0
+SHUTDOWN connected to\nBANK2 on "ram" sheet
 $EndSCHEMATC

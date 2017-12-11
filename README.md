@@ -126,3 +126,6 @@ Make the prototype.
     [x] 25MHz oscillator: needs clearance from LEDs, move under USB1
     [ ] connect SPI Flash Quad Mode (QSPI)
     [x] connect SHUTDOWN to FPGA
+    [ ] ESP-32: GPIO12 at boot selects internal flash voltage,
+        it is connected to J1_27+ and wrong pullup/pulldown at boot
+        will prevent ESP32 from booting

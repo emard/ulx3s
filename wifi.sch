@@ -225,7 +225,7 @@ Strapping pins\n(avoid using to avoid\nboot problems)\nGPIO0,2,4,5,12,15
 NoConn ~ 7750 5350
 NoConn ~ 7750 5050
 Text Notes 2950 6700 0    60   ~ 0
-ESP32 ADC capable pins\nGPIO36,39,34,35,32,33,25,26,27,\nGPIO14,12,13,15 - shared with HSPI/JTAG\nConnected to "gpio" sheet
+ESP32 ADC capable pins\nGPIO36,39,34,35,32,33,25,26,27,\nGPIO14,12,13,15 - shared with HSPI/JTAG\nConnected to BANK7 on "gpio" sheet
 Text Notes 3850 7350 0    60   ~ 0
 ESP32 HSPI pins\nGPIO12: MISO\nGPIO13: MOSI\nGPIO14: SCK\nGPIO15: SS
 Text Notes 4750 7650 0    60   ~ 0
@@ -308,4 +308,6 @@ Wire Wire Line
 Text Label 5550 4300 0    60   ~ 0
 WIFIEN
 Connection ~ 4750 4300
+Text Notes 1800 5450 0    60   ~ 0
+GPIO12 probably should be held low at reset or disconnected\nother option is to burn flash voltage efuse for 3.3V operation\nfor GPIO2 and GPIO12 bootstrapping considerations, read\nhttps://github.com/espressif/esp-idf/tree/master/examples/storage/sd_card
 $EndSCHEMATC
