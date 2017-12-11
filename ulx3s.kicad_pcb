@@ -4509,9 +4509,9 @@
       (net 96 OLED_DC))
     (pad 7 thru_hole oval (at 7.62 0 180) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask)
       (net 97 OLED_CS))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x07.wrl
+    (model ./footprints/oled/oled.3dshapes/oled.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 180))
     )
   )
