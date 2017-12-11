@@ -125,3 +125,4 @@ Make the prototype.
     [x] Reconnect WIFI_OFF so that jumper has priority
     [x] 25MHz oscillator: needs clearance from LEDs, move under USB1
     [ ] connect SPI Flash Quad Mode (QSPI)
+    [ ] connect SHUTDOWN to FPGA
