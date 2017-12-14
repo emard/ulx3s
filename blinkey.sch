@@ -747,4 +747,6 @@ F 3 "" H 4250 6200 50  0000 C CNN
 $EndComp
 Text Label 7450 3400 0    60   ~ 0
 SWPU
+Text Notes 6350 5400 0    60   ~ 0
+TXLED blinks when FPGA sends data to FTDI
 $EndSCHEMATC

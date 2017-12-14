@@ -309,5 +309,5 @@ Text Label 5550 4300 0    60   ~ 0
 WIFIEN
 Connection ~ 4750 4300
 Text Notes 1800 5450 0    60   ~ 0
-GPIO12 probably should be held low at reset or disconnected\nother option is to burn flash voltage efuse to 3.3V\nfor GPIO2 and GPIO12 bootstrapping considerations, read\nhttps://github.com/espressif/esp-idf/tree/master/examples/storage/sd_card
+GPIO12 probably should be held low at reset or disconnected\nother option is to burn flash voltage efuse for 3.3V operation\nfor GPIO2 and GPIO12 bootstrapping considerations, read\nhttps://github.com/espressif/esp-idf/tree/master/examples/storage/sd_card
 $EndSCHEMATC
