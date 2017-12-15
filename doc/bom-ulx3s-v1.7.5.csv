@@ -1,0 +1,58 @@
+"FOOTPRINT";"QUANTITY";"REF";"VALUE";;
+"Buttons_Switches_SMD:SW_DIP_x4_W8.61mm_Slide_LowProfile";1;"SW1";"DIPSW";;"219-4MST"
+"Buttons_Switches_SMD:SW_SPST_PTS645";7;"BTN0-6";"PushButton SMD";;"PTS645SL50SMTR92 LFS"
+"Capacitors_SMD:C_0603_HandSoldering";1;"C14";"100nF";;
+"Capacitors_SMD:C_0603_HandSoldering";4;"C2 C6 C10 C18";"470pF";;
+"Capacitors_SMD:C_0805_HandSoldering";11;"C1 C3 C4 C5 C7 C8 C9 C11 C12 C15 C21";"22uF";;
+"Capacitors_SMD:C_0805_HandSoldering";8;"C13 C16 C17 C19 C20 C22 C23 C24";"2.2uF";;
+"Diodes_SMD:D_SMA_Handsoldering";4;"D51 D52 D8 D9";"STPS2L30AF";;
+"Diodes_SMD:D_SOD-323_Handsoldering";7;"D10 D11 D12 D13 D14 D16 D17";"1N4148";;
+"Diodes_SMD:D_SOD-323_Handsoldering";2;"D20 D21";"3.6V";;"BZT52C3V6S"
+"Diodes_SMD:D_SOD-323_Handsoldering";1;"D15";"BAT54W";;
+"ESP32-footprints-Lib:ESP-32S";1;"U9";"ESP-WROOM-32";;"DNI"
+"Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm";1;"U8";"MAX11123";;"MAX11123ATI+"
+"Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm";1;"U10";"IS25LP032D-JNLE-TR SOIC-8 150mil";;"ISSI mouser 870-IS25LP032DJNLETR"
+"Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm";1;"U11";"PCA9306D SOIC-8 150mil";;"NXP mouser 771-PCA9306D-T"
+"Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm";1;"U6";"FT231XS";;
+"Keystone_3000_1x12mm-CoinCell:Keystone_3000_1x12mm-CoinCell";1;"BAT1";"CR1225";;"Battery holder Keystone Keystone 3000"
+"LEDs:LED_0805";9;"D0 D1 D2 D3 D4 D5 D6 D7 D19";"LED RED";;"LTST-C170KRKT RED"
+"LEDs:LED_0805";1;"D18";"LED GREEN";;"LTST-C170KGKT GREEN"
+"LEDs:LED_0805";1;"D22";"LED BLUE";;"LTST-C170TBKT Blue"
+"Power_Integrations:SO-8";1;"U7";"PCF8523 150mil";;"PCF8523T/1"
+"Resistors_SMD:R_0603_HandSoldering";1;"R38";0.47;;
+"Resistors_SMD:R_0603_HandSoldering";4;"R49 R50 R52 R53";27;;
+"Resistors_SMD:R_0603_HandSoldering";3;"R17 R21 R60";150;;
+"Resistors_SMD:R_0603_HandSoldering";3;"R16 R20 R59";330;;
+"Resistors_SMD:R_0603_HandSoldering";4;"R10 R39 R7 R51";150;;
+"Resistors_SMD:R_0603_HandSoldering";11;"R36 R37 R41 R42 R43 R44 R45 R46 R47 R48 R62";330;;
+"Resistors_SMD:R_0603_HandSoldering";3;"R15 R19 R58";680;;
+"Resistors_SMD:R_0603_HandSoldering";4;"R35 R25 R26 R61";470;;
+"Resistors_SMD:R_0603_HandSoldering";3;"R14 R18 R57";"1.2k";;
+"Resistors_SMD:R_0603_HandSoldering";3;"R6 R8 R29";"1k";;
+"Resistors_SMD:R_0603_HandSoldering";1;"R40";"1.5k";;
+"Resistors_SMD:R_0603_HandSoldering";2;"R22 R23";"2.2k";;
+"Resistors_SMD:R_0603_HandSoldering";1;"RB3";"3.3k";"RA, RB 2%";
+"Resistors_SMD:R_0603_HandSoldering";3;"R3 R30 RB2";"4.7k";"RA, RB 2%";
+"Resistors_SMD:R_0603_HandSoldering";7;"R11 R12 R27 R28 R31 R32 R33";"10k";;
+"Resistors_SMD:R_0603_HandSoldering";9;"R1 R13 R4 R34 R9 RA1 RA2 RA3 R55";"15k";"RA, RB 2%";
+"Resistors_SMD:R_0603_HandSoldering";1;"RB1";"18k";"RA, RB 2%";
+"Resistors_SMD:R_0603_HandSoldering";0;"R54";"1.5k";;"No not install"
+"Resistors_SMD:R_0603_HandSoldering";0;"R56";0;;"No not install"
+"Resistors_SMD:R_0603_HandSoldering";1;"R2";"47k";;
+"Resistors_SMD:R_0603_HandSoldering";1;"R24";"100k";;
+"Resistors_SMD:R_0603_HandSoldering";1;"R5";"4.7M";;
+"Inductors_SMD:L_1210_HandSoldering";3;"L1 L2 L3";"2.2uH,3A,80mOhm";;"DFE252012P-2R2M=P2 Isat > 3A Rdc < 80mOhm"
+"Socket_Strips:Socket_Strip_Angled_2x20";2;"J1 J2";"CONN_02X20";;"No not install"
+"Socket_Strips:Socket_Strip_Straight_2x01";1;"J3";"WIFI_OFF";;"No not install"
+"Socket_Strips:Socket_Strip_Straight_2x03";1;"J4";"CONN_02X03";;"No not install"
+"TO_SOT_Packages_SMD:SOT-23_Handsoldering";1;"Q1";"BC857";;
+"TO_SOT_Packages_SMD:SOT-23_Handsoldering";1;"Q2";"2N7002";;
+"TSOP54:TSOP54";1;"U2";"MT48LC16M16A2TG";;"MT48LC16M16A2TG-7E"
+"TSOT-25:TSOT-25";3;"U3 U4 U5";"TLV62569DBV";;"Texas instruments TLV62569DBV (2A)"
+"abs25:Crystal_SMD_ABS25";1;"Y2";"32768Hz";;"LFXTAL003000Reel"
+"audio-jack:CUI_SJ-43516-SMT";1;"AUDIO1";"JACK_TRS_6PINS";;"SJ-43516-SMT-TR"
+"hdmi-swm-19:hdmi-swm-19";1;"GPDI1";"HDMI connector";;"10029449-111RLF"
+"lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm";1;"U1";"LFE5U-45F-6BG381C ";;""
+"micro-sd:MicroSD_TF02D";1;"SD1";"Micro_SD_Card_Slot";;"SCHD3A0100"
+"oscxo:Crystal_SMD_7050_4Pads";1;"Y1";"FNETHE025-25MHz oscillator";;"FNETHE025"
+"usb_otg:USB-MICRO-B-FCI-10118192-0001LF";2;"US1 US2";"USB_micro_b_socket";;"10118192-0001LF"
