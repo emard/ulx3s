@@ -1,0 +1,16 @@
+[ ] Shutdown in enumerated state
+[ ] Shutdown in non-enumerated state
+[ ] i2c hdmi
+[ ] i2c RTC
+[ ] RTC wakeup
+[ ] USB wakeup
+[ ] power button wakeup
+[ ] config flash
+[ ] sdram memory test
+[ ] ADC
+[ ] OLED
+[ ] SDCARD behaviour with wifi
+[ ] GPIO normal mode
+[ ] GPIO differential mode
+[ ] AUDIO jack
+[ ] USB2 with soft-usb core
