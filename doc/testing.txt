@@ -1,7 +1,8 @@
+[ ] i2c hdmi
+[ ] i2c RTC (first disable CLKOUT - it will enable INT1 wakeup)
+    by default RTC does CLKOUT and constantly wakes up the board
 [ ] Shutdown in enumerated state
 [ ] Shutdown in non-enumerated state
-[ ] i2c hdmi
-[ ] i2c RTC
 [ ] RTC wakeup
 [ ] USB wakeup
 [ ] power button wakeup
