@@ -2518,7 +2518,7 @@
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /56AC389C/58E6B7F6)
-    (fp_text reference J2 (at 40.64 -5.715 180) (layer F.SilkS)
+    (fp_text reference J2 (at 40.64 -6.35 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (fp_text value CONN_02X20 (at 0 -2.6 90) (layer F.Fab) hide
@@ -8172,7 +8172,7 @@
   )
 
   (module emard:emard12mm (layer B.Cu) (tedit 5A2A95B1) (tstamp 5A307953)
-    (at 146.1 87.62 90)
+    (at 145.3 87.62 90)
     (descr EMARD)
     (tags emard)
     (fp_text reference REF** (at 0 -3.2 90) (layer B.SilkS) hide
@@ -8379,7 +8379,7 @@
   (gr_line (start 94.354 95.71) (end 94.1 95.71) (layer B.SilkS) (width 0.2))
   (gr_line (start 187.826 98.25) (end 188.08 98.25) (layer B.SilkS) (width 0.2))
   (gr_line (start 187.826 83.01) (end 188.08 83.01) (layer B.SilkS) (width 0.2))
-  (gr_text -+ (at 178.428 83.01) (layer F.SilkS)
+  (gr_text -+ (at 177.92 72.85) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 95.37 107.14) (end 95.37 106.886) (layer B.SilkS) (width 0.2))
@@ -8774,7 +8774,7 @@
   (gr_line (start 95.37 104.346) (end 95.37 104.854) (layer F.SilkS) (width 0.2))
   (gr_line (start 96.386 105.87) (end 96.64 105.87) (layer F.SilkS) (width 0.2))
   (gr_line (start 94.1 105.87) (end 94.354 105.87) (layer F.SilkS) (width 0.2))
-  (gr_text +- (at 102.482 83.01) (layer F.SilkS)
+  (gr_text +- (at 102.99 72.85) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text 12 (at 100.45 103.33) (layer F.SilkS)
