@@ -10,7 +10,12 @@ board release 3 with SDRAM, Successor of
     kicad ulx3s.pro
 
 [Schematics](/doc/schematics.pdf) is mostly complete.
-PCB routing is mostly complete too.
+PCB routing is mostly complete too. PCB produced when at version 1.7
+and big things work like USB-JTAG, SDRAM, SDCARD, HDMI.
+PCB v1.7 has small issues like SHUTDOWN not connected,
+WIFI won't work if its pins to SDCARD are connected, WIFI disable
+jumper won't work if wifi enable is held high by FPGA.
+FLASH, AUDIO, RTC, I2C, OLED are currently untested.
 
 3D preview
 
@@ -21,7 +26,7 @@ PCB routing is mostly complete too.
 
 FPGA: Lattice ECP5 LFE5U-45F-6BG381C
 
-USB: FTDI FT231XS (1Mbit JTAG and 3Mbit USB-serial)
+USB: FTDI FT231XS (300kbit JTAG and 3Mbit USB-serial)
 
 GPIO: 56 pins (28 differential pairs), PMOD-friendly
 
@@ -39,7 +44,7 @@ Audio: 3.5 mm jack with 4 contacts (analog stereo + digital audio or composite v
 
 Video: GPDI connector with 3.3V-5V I2C bidirectional level shifter
 
-Display: placeholder for 0.96-1.3" SPI OLED COLOR or B/W
+Display: placeholder for 0.96" SPI COLOR OLED
 
 WiFi+bluetooth: placeholder for ESP-32 (JTAG and serial over WiFi)
 
@@ -129,3 +134,6 @@ Make the prototype.
     [ ] ESP-32: GPIO12 at boot selects internal flash voltage,
         it is connected to J1_27+ and wrong pullup/pulldown at boot
         will prevent ESP32 from booting
+    [ ] ESP-32: won't boot when SD connected. Don't solder it at PCB v1.7
+        it should be routed differently in newer release
+
