@@ -1949,8 +1949,8 @@ F 3 "" H 10900 2750 50  0001 C CNN
 	1    10900 2750
 	1    0    0    -1  
 $EndComp
-Text Notes 5000 5300 0    60   ~ 0
-Switching regulators 2A SOT23-5\nTexas instruments TLV62569DBV (2A) (best)\nDioo microcircuits DIO6015B (1.5A) (acceptable)\nMicrosemi LX7172 (1.2A) (unacceptable)\nDiodes AP3429/A (2A) - (will damage board)\n
+Text Notes 4800 5300 0    60   ~ 0
+Switching regulators 2A SOT23-5\nTexas instruments TLV62569DBV (2A) (best)\nDioo microcircuits DIO6015B (1.5A) (osc. acceptable)\nMicrosemi LX7172 (1.2A) (osc. unacceptable)\nDiodes AP3429/A (2A) - (will damage board)\n
 Text Notes 1000 5400 0    60   ~ 0
 SHUTDOWN connected to\nBANK2 on "ram" sheet
 $EndSCHEMATC
