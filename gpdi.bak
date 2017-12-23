@@ -488,4 +488,6 @@ Wire Wire Line
 	4100 2200 4000 2200
 Text Label 4450 2200 0    60   ~ 0
 FPGA_CEC
+Text Notes 800  5650 0    60   ~ 0
+i2c shared with RTC\non "power" sheet
 $EndSCHEMATC

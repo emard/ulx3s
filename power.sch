@@ -1895,7 +1895,7 @@ Wire Wire Line
 Text Notes 8350 6250 0    60   ~ 0
 L1,L2,L3: Isat>3A Rdc<100mohm L=2.5-5.8mm W<3mm\nMurata DFE322512F-2R2M=P2, DFE252012P-2R2M=P2\nBourns SRP2512A-2R2M
 Text Notes 1050 6900 0    60   ~ 0
-WARNING\nECP5 family datasheet\np.48: Power Supply Ramp rates\nfor all supplies 0.01-10V/ms\nPower Up Sequence\nNormally it should just work...\n
+WARNING\nECP5 family datasheet\np.48: Power Supply Ramp rates\nfor all supplies 0.01-10V/ms\n
 $Comp
 L LFE5U-45F-6BG381C-RESCUE-ulx3s U1
 U 8 1 5A076CD7
