@@ -11,11 +11,11 @@ board release 3 with SDRAM, Successor of
 
 [Schematics](/doc/schematics.pdf) is mostly complete.
 PCB routing is mostly complete too. PCB produced when at version 1.7
-and big things work like USB-JTAG, SDRAM, SDCARD, HDMI.
+and big things work like USB-JTAG, SDRAM, SDCARD, HDMI, FLASH.
 PCB v1.7 has small issues like SHUTDOWN not connected,
 WIFI won't work if its pins to SDCARD are connected, WIFI disable
 jumper won't work if wifi enable is held high by FPGA.
-FLASH, AUDIO, RTC, I2C, OLED are currently untested.
+AUDIO, RTC, I2C, OLED are currently untested.
 
 3D preview
 
