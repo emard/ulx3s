@@ -748,7 +748,7 @@ F 3 "" H 3450 5550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2800 5950 0    60   ~ 0
-R6,C14 to hold 0.5s shutdown
+R5,C14 to hold 0.5s shutdown
 Text Label 4350 3800 0    60   ~ 0
 WKUP
 Text Label 4350 4200 0    60   ~ 0
