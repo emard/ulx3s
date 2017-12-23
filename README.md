@@ -136,4 +136,5 @@ Make the prototype.
         will prevent ESP32 from booting
     [ ] ESP-32: won't boot when SD connected. Don't solder it at PCB v1.7
         it should be routed differently in newer release
-
+    [x] I2C resistors increased 470->2.2k
+    [ ] GPDI series C=100nF to each differential line.
