@@ -6,9 +6,9 @@
 "Capacitors_SMD:C_0805_HandSoldering";11;"C1 C3 C4 C5 C7 C8 C9 C11 C12 C15 C21";"22uF";;
 "Capacitors_SMD:C_0805_HandSoldering";8;"C13 C16 C17 C19 C20 C22 C23 C24";"2.2uF";;
 "Diodes_SMD:D_SMA_Handsoldering";4;"D51 D52 D8 D9";"STPS2L30AF";;
-"Diodes_SMD:D_SOD-323_Handsoldering";7;"D10 D11 D12 D13 D14 D16 D17";"1N4148";;
+"Diodes_SMD:D_SOD-323_Handsoldering";7;"D10 D11 D13 D14 D16 D17 D23";"1N4148";;
 "Diodes_SMD:D_SOD-323_Handsoldering";2;"D20 D21";"3.6V";;"BZT52C3V6S"
-"Diodes_SMD:D_SOD-323_Handsoldering";1;"D15";"BAT54W";;
+"Diodes_SMD:D_SOD-323_Handsoldering";2;"D12 D15";"BAT54W";;
 "ESP32-footprints-Lib:ESP-32S";1;"U9";"ESP-WROOM-32";;"DNI"
 "Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm";1;"U8";"MAX11123";;"MAX11123ATI+"
 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm";1;"U10";"IS25LP032D-JNLE-TR SOIC-8 150mil";;"ISSI mouser 870-IS25LP032DJNLETR"
@@ -22,25 +22,25 @@
 "Resistors_SMD:R_0603_HandSoldering";1;"R38";0.47;;
 "Resistors_SMD:R_0603_HandSoldering";4;"R49 R50 R52 R53";27;;
 "Resistors_SMD:R_0603_HandSoldering";3;"R17 R21 R60";150;;
-"Resistors_SMD:R_0603_HandSoldering";3;"R16 R20 R59";330;;
 "Resistors_SMD:R_0603_HandSoldering";4;"R10 R39 R7 R51";150;;
-"Resistors_SMD:R_0603_HandSoldering";11;"R36 R37 R41 R42 R43 R44 R45 R46 R47 R48 R62";330;;
+"Resistors_SMD:R_0603_HandSoldering";3;"R16 R20 R59";330;;
+"Resistors_SMD:R_0603_HandSoldering";11;"R36 R37 R41 R42 R43 R44 R45 R46 R47 R48 R62";470;;
+"Resistors_SMD:R_0603_HandSoldering";2;"R35 R61";470;;
 "Resistors_SMD:R_0603_HandSoldering";3;"R15 R19 R58";680;;
-"Resistors_SMD:R_0603_HandSoldering";4;"R35 R25 R26 R61";470;;
-"Resistors_SMD:R_0603_HandSoldering";3;"R14 R18 R57";"1.2k";;
 "Resistors_SMD:R_0603_HandSoldering";3;"R6 R8 R29";"1k";;
+"Resistors_SMD:R_0603_HandSoldering";3;"R14 R18 R57";"1.2k";;
 "Resistors_SMD:R_0603_HandSoldering";1;"R40";"1.5k";;
-"Resistors_SMD:R_0603_HandSoldering";2;"R22 R23";"2.2k";;
+"Resistors_SMD:R_0603_HandSoldering";4;"R22 R23 R25 R26";"2.2k";;
 "Resistors_SMD:R_0603_HandSoldering";1;"RB3";"3.3k";"RA, RB 2%";
 "Resistors_SMD:R_0603_HandSoldering";3;"R3 R30 RB2";"4.7k";"RA, RB 2%";
 "Resistors_SMD:R_0603_HandSoldering";7;"R11 R12 R27 R28 R31 R32 R33";"10k";;
 "Resistors_SMD:R_0603_HandSoldering";9;"R1 R13 R4 R34 R9 RA1 RA2 RA3 R55";"15k";"RA, RB 2%";
 "Resistors_SMD:R_0603_HandSoldering";1;"RB1";"18k";"RA, RB 2%";
-"Resistors_SMD:R_0603_HandSoldering";0;"R54";"1.5k";;"No not install"
-"Resistors_SMD:R_0603_HandSoldering";0;"R56";0;;"No not install"
 "Resistors_SMD:R_0603_HandSoldering";1;"R2";"47k";;
 "Resistors_SMD:R_0603_HandSoldering";1;"R24";"100k";;
 "Resistors_SMD:R_0603_HandSoldering";1;"R5";"4.7M";;
+"Resistors_SMD:R_0603_HandSoldering";0;"R54";"1.5k";;"No not install"
+"Resistors_SMD:R_0603_HandSoldering";0;"R56";0;;"No not install"
 "Inductors_SMD:L_1210_HandSoldering";3;"L1 L2 L3";"2.2uH,3A,80mOhm";;"DFE252012P-2R2M=P2 Isat > 3A Rdc < 80mOhm"
 "Socket_Strips:Socket_Strip_Angled_2x20";2;"J1 J2";"CONN_02X20";;"No not install"
 "Socket_Strips:Socket_Strip_Straight_2x01";1;"J3";"WIFI_OFF";;"No not install"
