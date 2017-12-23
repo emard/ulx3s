@@ -311,14 +311,6 @@ Wire Wire Line
 	5600 4400 5800 4400
 Wire Wire Line
 	5800 4400 5800 4300
-Wire Wire Line
-	4800 2800 5000 2800
-Wire Wire Line
-	4900 2800 4900 2250
-Wire Wire Line
-	4900 2250 5800 2250
-Wire Wire Line
-	5800 2250 5800 2500
 Text GLabel 4850 3400 0    60   Input ~ 0
 nRESET
 Wire Wire Line
@@ -340,9 +332,7 @@ Wire Wire Line
 	4950 3600 4950 3400
 Connection ~ 4950 3400
 Wire Wire Line
-	4550 3600 4200 3600
-Text Label 4250 3600 0    60   ~ 0
-FT3V3
+	4550 3600 4450 3600
 Text GLabel 10150 2650 2    60   Input ~ 0
 FTDI_TXD
 Text GLabel 8650 1950 0    60   Input ~ 0
@@ -407,9 +397,6 @@ Text GLabel 6550 3900 2    60   Input ~ 0
 FTDI_nTXLED
 Text Notes 6550 2600 0    60   ~ 0
 VNC2 programming pins:\nTXD RXD TXDEN
-Text GLabel 4800 2800 0    60   Input ~ 0
-FT3V3
-Connection ~ 4900 2800
 Text Notes 4350 5900 0    60   ~ 0
 warning:\nULX3S has different pinout\nfor simpler PCB routing and\nbecause FT230X has weak CTS\ndrive capability. (Undocumented,\nFLEAfpga mail from 13-Nov-2015)\nULX2S pinout was:\nTCK = DSR\nTMS = RI\nTDI = CTS\nTDO = DCD\n
 $Comp
@@ -738,4 +725,10 @@ F 3 "" H 5450 1150 50  0001 C CNN
 	1    5450 1150
 	1    0    0    -1  
 $EndComp
+Text GLabel 4450 3600 0    60   Input ~ 0
+FT2V5
+Text GLabel 5800 2500 1    60   Input ~ 0
+FT2V5
+Text GLabel 5000 2800 0    60   Input ~ 0
+FT2V5
 $EndSCHEMATC

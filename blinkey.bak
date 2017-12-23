@@ -491,7 +491,7 @@ Wire Wire Line
 Text Label 4750 5350 0    60   ~ 0
 LED_TXLED
 Text GLabel 4300 5350 0    60   Input ~ 0
-FT3V3
+FT2V5
 Wire Wire Line
 	4300 5350 4400 5350
 Wire Wire Line
