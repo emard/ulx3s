@@ -14,12 +14,13 @@ PCB routing is mostly complete too. PCB produced when at version 1.7
 and big things work like USB-JTAG, SDRAM, SDCARD, HDMI, FLASH, RTC, I2C
 but there are issues:
 PCB v1.7 has small issues like SHUTDOWN not connected.
-When SHUTDOWN is released, usually board wakes up again,
-cause of that is unknown, could be RTC waking it up.
-WIFI won't work if its pins to SDCARD are connected, WIFI disable
-jumper won't work if wifi enable is held high by FPGA.
+When SHUTDOWN is connnected to 3.3V and released, usually board wakes up again,
+cause of that is probably FT231X generating 2.5V from internal regulator
+and raising up 3.3V line over FPGA protection diodes.
+WiFi won't work if its pins to SDCARD are connected, WiFi disable
+jumper won't work if WiFi enable is held high by FPGA.
 For some monitors I2C works and for some it doesn't.
-Maybe 470 resistors should be increased to 1.2k.
+Try to increase i2c pullup resistors 470->1.2k.
 AUDIO, OLED are currently untested.
 
 3D preview
@@ -143,3 +144,5 @@ Make the prototype.
         it should be routed differently in newer release
     [x] I2C resistors increased 470->2.2k
     [ ] GPDI series C=100nF to each differential line.
+    [ ] more reliable shutdown
+
