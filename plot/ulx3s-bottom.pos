@@ -1,4 +1,4 @@
-### Module positions - created on Fri Dec 22 20:15:24 2017 ###
+### Module positions - created on Mon Dec 25 00:55:54 2017 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -31,8 +31,8 @@ C24       2.2uF               C_0805_HandSoldering              2.2100     1.470
 D8        STPS2L30AF          D_SMA_Handsoldering               0.7150     1.6700    0.0000  bottom
 D9        STPS2L30AF          D_SMA_Handsoldering               2.7800     1.5200  180.0000  bottom
 D10       1N4148              D_SOD-323_HandSoldering           3.0000     1.1000    0.0000  bottom
-D11       1N4148              D_SOD-323_HandSoldering           3.3500     1.2750   90.0000  bottom
-D12       1N4148              D_SOD-323_HandSoldering           2.9500     1.2750   90.0000  bottom
+D11       RED                 LED_0805                          3.3500     1.2750   90.0000  bottom
+D12       BAT54W              D_SOD-323_HandSoldering           2.9500     1.2750   90.0000  bottom
 D13       1N4148              D_SOD-323_HandSoldering           3.0000     1.0400  180.0000  bottom
 D14       1N4148              D_SOD-323_HandSoldering           3.3500     1.4250   90.0000  bottom
 D15       BAT54W              D_SOD-323_HandSoldering           3.2750     1.4250  270.0000  bottom
@@ -50,7 +50,7 @@ Q2        2N7002              SOT-23_Handsoldering              3.0250     1.425
 R1        15k                 R_0603_HandSoldering              3.0000     1.1750    0.0000  bottom
 R2        47k                 R_0603_HandSoldering              3.1000     1.2750   90.0000  bottom
 R3        4.7k                R_0603_HandSoldering              2.6750     1.6500   90.0000  bottom
-R4        15k                 R_0603_HandSoldering              3.2250     1.2500  180.0000  bottom
+R4        4.7k                R_0603_HandSoldering              3.2250     1.2500  180.0000  bottom
 R5        4.7M                R_0603_HandSoldering              3.1500     1.4250  270.0000  bottom
 R6        1k                  R_0603_HandSoldering              3.3250     1.0750  270.0000  bottom
 R7        150                 R_0603_HandSoldering              0.7750     1.1000  270.0000  bottom
@@ -71,8 +71,8 @@ R21       150                 R_0603_HandSoldering              1.6400     1.530
 R22       2.2k                R_0603_HandSoldering              1.8000     1.8500   90.0000  bottom
 R23       2.2k                R_0603_HandSoldering              1.6250     1.7633   90.0000  bottom
 R24       100k                R_0603_HandSoldering              2.2250     1.7500   90.0000  bottom
-R25       470                 R_0603_HandSoldering              2.1683     1.5750  180.0000  bottom
-R26       470                 R_0603_HandSoldering              2.1724     1.6386  180.0000  bottom
+R25       4.7k                R_0603_HandSoldering              2.1683     1.5750  180.0000  bottom
+R26       4.7k                R_0603_HandSoldering              2.1724     1.6386  180.0000  bottom
 R27       10k                 R_0603_HandSoldering              1.3750     0.6317   90.0000  bottom
 R28       10k                 R_0603_HandSoldering              0.9250     1.2500  270.0000  bottom
 R29       1k                  R_0603_HandSoldering              1.1094     0.9772  270.0000  bottom
