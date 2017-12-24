@@ -6,7 +6,7 @@
 "Capacitors_SMD:C_0805_HandSoldering";11;"C1 C3 C4 C5 C7 C8 C9 C11 C12 C15 C21";"22uF";;
 "Capacitors_SMD:C_0805_HandSoldering";8;"C13 C16 C17 C19 C20 C22 C23 C24";"2.2uF";;
 "Diodes_SMD:D_SMA_Handsoldering";4;"D51 D52 D8 D9";"STPS2L30AF";;
-"Diodes_SMD:D_SOD-323_Handsoldering";7;"D10 D11 D13 D14 D16 D17 D23";"1N4148";;
+"Diodes_SMD:D_SOD-323_Handsoldering";6;"D10 D13 D14 D16 D17 D23";"1N4148";;
 "Diodes_SMD:D_SOD-323_Handsoldering";2;"D20 D21";"3.6V";;"BZT52C3V6S"
 "Diodes_SMD:D_SOD-323_Handsoldering";2;"D12 D15";"BAT54W";;
 "ESP32-footprints-Lib:ESP-32S";1;"U9";"ESP-WROOM-32";;"DNI"
@@ -15,7 +15,7 @@
 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm";1;"U11";"PCA9306D SOIC-8 150mil";;"NXP mouser 771-PCA9306D-T"
 "Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm";1;"U6";"FT231XS";;
 "Keystone_3000_1x12mm-CoinCell:Keystone_3000_1x12mm-CoinCell";1;"BAT1";"CR1225";;"Battery holder Keystone Keystone 3000"
-"LEDs:LED_0805";9;"D0 D1 D2 D3 D4 D5 D6 D7 D19";"LED RED";;"LTST-C170KRKT RED"
+"LEDs:LED_0805";10;"D0 D1 D2 D3 D4 D5 D6 D7 D11 D19";"LED RED";;"LTST-C170KRKT RED"
 "LEDs:LED_0805";1;"D18";"LED GREEN";;"LTST-C170KGKT GREEN"
 "LEDs:LED_0805";1;"D22";"LED BLUE";;"LTST-C170TBKT Blue"
 "Power_Integrations:SO-8";1;"U7";"PCF8523 150mil";;"PCF8523T/1"
@@ -30,11 +30,11 @@
 "Resistors_SMD:R_0603_HandSoldering";3;"R6 R8 R29";"1k";;
 "Resistors_SMD:R_0603_HandSoldering";3;"R14 R18 R57";"1.2k";;
 "Resistors_SMD:R_0603_HandSoldering";1;"R40";"1.5k";;
-"Resistors_SMD:R_0603_HandSoldering";4;"R22 R23 R25 R26";"2.2k";;
+"Resistors_SMD:R_0603_HandSoldering";2;"R22 R23";"2.2k";;
 "Resistors_SMD:R_0603_HandSoldering";1;"RB3";"3.3k";"RA, RB 2%";
-"Resistors_SMD:R_0603_HandSoldering";3;"R3 R30 RB2";"4.7k";"RA, RB 2%";
+"Resistors_SMD:R_0603_HandSoldering";6;"R3 R4 R25 R26 R30 RB2";"4.7k";"RA, RB 2%";
 "Resistors_SMD:R_0603_HandSoldering";7;"R11 R12 R27 R28 R31 R32 R33";"10k";;
-"Resistors_SMD:R_0603_HandSoldering";9;"R1 R13 R4 R34 R9 RA1 RA2 RA3 R55";"15k";"RA, RB 2%";
+"Resistors_SMD:R_0603_HandSoldering";8;"R1 R9 R13 R34 R55 RA1 RA2 RA3";"15k";"RA, RB 2%";
 "Resistors_SMD:R_0603_HandSoldering";1;"RB1";"18k";"RA, RB 2%";
 "Resistors_SMD:R_0603_HandSoldering";1;"R2";"47k";;
 "Resistors_SMD:R_0603_HandSoldering";1;"R24";"100k";;
