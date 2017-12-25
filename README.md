@@ -15,7 +15,7 @@ and big things work like USB-JTAG,
 SDRAM, SDCARD, HDMI, FLASH, RTC, I2C, OLED
 but there are issues, luckily most can be fixed by
 [Upgrading PCB v1.7](/doc/pcb-v1.7-upgrade.md).
-ADC, AUDIO and 433.92MHz antenna are currently untested.
+ADC, AUDIO, USB2 and 433.92MHz antenna are currently untested.
 
 3D preview
 

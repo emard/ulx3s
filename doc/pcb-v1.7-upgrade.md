@@ -32,6 +32,9 @@ can be connected, but no other SD signal pins.
 Either cut the traces or carefully solder without 
 touching those pads.
 
+Cut WIFIEN trace and connect it to the junction of
+R35 and J3, jumper should work then.
+
 # What is fixed
 
 Shutdown:
@@ -70,3 +73,8 @@ as SD card pins, but those pins are shared with internal SPI FLASH.
 So ESP32 won't boot if anything is connected there.
 SD card could be connected on other pins, probably shared with OLED.
 It has not yet been tested, so no patch recommendation yet.
+
+WiFi-OFF jumper J3 doesn't have priority over FPGA enable.
+If ESP32 needs to be disabled (for example, it keeps driving JTAG)
+and FPGA runs bitstream which holds WiFi enabled, then J3 jumper will not
+disable WiFi chip because WIFIEN is connected to wrong pin of R35.
