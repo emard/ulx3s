@@ -10,8 +10,9 @@ board release 3 with SDRAM, Successor of
     kicad ulx3s.pro
 
 [Schematics](/doc/schematics.pdf) is mostly complete.
-PCB routing is mostly complete too. PCB produced when at version 1.7
-and big things work like USB-JTAG, SDRAM, SDCARD, HDMI, FLASH, RTC, I2C
+[PCB v1.7 is produced](/pic/ulx3st-real.jpg)
+and big things work like USB-JTAG, 
+SDRAM, SDCARD, HDMI, FLASH, RTC, I2C
 but there are issues, luckily most can be fixed by
 [Upgrading PCB v1.7](/doc/pcb-v1.7-upgrade.md).
 AUDIO, OLED and 433.92MHz antenna are currently untested.
