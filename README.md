@@ -13,7 +13,7 @@ board release 3 with SDRAM, Successor of
 PCB routing is mostly complete too. PCB produced when at version 1.7
 and big things work like USB-JTAG, SDRAM, SDCARD, HDMI, FLASH, RTC, I2C
 but there are issues, luckily most of them are can be fixed by
-[Upgrading PCB v1.7](/doc/pcb-v1.7-upgrade.md)
+[Upgrading PCB v1.7](/doc/pcb-v1.7-upgrade.md).
 AUDIO, OLED and 433.92MHz antenna are currently untested.
 
 3D preview
