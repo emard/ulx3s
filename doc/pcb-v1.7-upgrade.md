@@ -20,7 +20,7 @@ connected J2 "25-" pin to R13-D15 junction.
 
 Mount:
 
-    SDCARD:  SCHD3A0100
+    SDCARD:      SCHD3A0100
     U11 I2C:     PCA9306D SOIC-8 150-mil
     U10 FLASH:   IS25LP032D-JNLE-TR SOIC-8 150mil
     U9 WIFI:     ESP32, but not all pins! read below:
@@ -66,7 +66,7 @@ useless. Correct pull up resistors are 4.7k and they should work properly.
 WIFI:
 
 On PCB v1.7 SD card is connected to those ESP32 pins which are widely advertised
-as SD card pins, but those pins are shared with internal SPI FLASH of ESP32
-chip it won't boot if anything is connected there.
-SD card should be connected on some other pins, probably HSPI.
-It has not yet been verified will it work, so no patch recommendation yet.
+as SD card pins, but those pins are shared with internal SPI FLASH.
+So ESP32 won't boot if anything is connected there.
+SD card could be connected on other pins, probably shared with OLED.
+It has not yet been tested, so no patch recommendation yet.
