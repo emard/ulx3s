@@ -10,7 +10,7 @@
 "Diodes_SMD:D_SOD-323_Handsoldering";2;"D20 D21";"3.6V";;"BZT52C3V6S"
 "Diodes_SMD:D_SOD-323_Handsoldering";2;"D12 D15";"BAT54W";;
 "ESP32-footprints-Lib:ESP-32S";1;"U9";"ESP-WROOM-32";;"DNI"
-"Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm";1;"U8";"MAX11123";;"MAX11123ATI+"
+"Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm";1;"U8";"MAX11125";;"MAX11125ATI+"
 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm";1;"U10";"IS25LP032D-JNLE-TR SOIC-8 150mil";;"ISSI mouser 870-IS25LP032DJNLETR"
 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm";1;"U11";"PCA9306D SOIC-8 150mil";;"NXP mouser 771-PCA9306D-T"
 "Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm";1;"U6";"FT231XS";;
