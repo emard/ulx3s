@@ -4,6 +4,14 @@ This is the first board produced, most important
 parts work which is mirracle in itself, and there
 are some mistakes, luckily most of them can be fixed.
 
+Mount:
+
+    U3, U4, U5:  TLV62569DBV
+    SDCARD:      SCHD3A0100
+    U11 I2C:     PCA9306D SOIC-8 150-mil
+    U10 FLASH:   IS25LP032D-JNLE-TR SOIC-8 150mil
+    U9 WIFI:     ESP32, but not all pins! read below:
+
 FIX: Replace this parts:
 
     D11=LED (High efficiency RED recommended)
@@ -18,12 +26,6 @@ under the GPDI connector.
 Optionally, as alternative software shutdown, 
 connected J2 "25-" pin to R13-D15 junction.
 
-Mount:
-
-    SDCARD:      SCHD3A0100
-    U11 I2C:     PCA9306D SOIC-8 150-mil
-    U10 FLASH:   IS25LP032D-JNLE-TR SOIC-8 150mil
-    U9 WIFI:     ESP32, but not all pins! read below:
 
 Don't connect ESP32 pins leading to SD card,
 in the top 10-pin row, connect only 2 pins on left side and 2 pins on right

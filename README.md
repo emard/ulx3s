@@ -139,4 +139,6 @@ Make the prototype.
     [x] I2C resistors increased 470->2.2k
     [ ] GPDI series C=100nF to each differential line.
     [ ] more reliable shutdown
+    [ ] check SDRAM raster 0.8 or 0.808 ?
+
 
