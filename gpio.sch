@@ -583,21 +583,21 @@ Text GLabel 5700 2100 2    60   Input ~ 0
 J1_11-
 Text GLabel 4200 2100 0    60   Input ~ 0
 J1_11+
-Text GLabel 5650 4250 2    60   Input ~ 0
-AUDIO_L0
-Text GLabel 4150 4450 0    60   Input ~ 0
-AUDIO_L1
-Text GLabel 5650 4450 2    60   Input ~ 0
-AUDIO_L2
 Text GLabel 4150 4550 0    60   Input ~ 0
+AUDIO_L0
+Text GLabel 5650 4450 2    60   Input ~ 0
+AUDIO_L1
+Text GLabel 4150 4450 0    60   Input ~ 0
+AUDIO_L2
+Text GLabel 5650 4250 2    60   Input ~ 0
 AUDIO_L3
-Text GLabel 5650 4050 2    60   Input ~ 0
-AUDIO_R0
-Text GLabel 5650 4550 2    60   Input ~ 0
-AUDIO_R1
-Text GLabel 4150 4050 0    60   Input ~ 0
-AUDIO_R2
 Text GLabel 4150 4250 0    60   Input ~ 0
+AUDIO_R0
+Text GLabel 4150 4050 0    60   Input ~ 0
+AUDIO_R1
+Text GLabel 5650 4550 2    60   Input ~ 0
+AUDIO_R2
+Text GLabel 5650 4050 2    60   Input ~ 0
 AUDIO_R3
 Text GLabel 4150 4850 0    60   Input ~ 0
 LED0
@@ -629,13 +629,13 @@ Text GLabel 5700 2700 2    60   Input ~ 0
 SW3
 Text GLabel 4200 2700 0    60   Input ~ 0
 SW4
-Text GLabel 4150 5250 0    60   Input ~ 0
-AUDIO_V3
-Text GLabel 4150 5450 0    60   Input ~ 0
-AUDIO_V2
-Text GLabel 5650 4650 2    60   Input ~ 0
-AUDIO_V1
 Text GLabel 4150 4650 0    60   Input ~ 0
+AUDIO_V3
+Text GLabel 5650 4650 2    60   Input ~ 0
+AUDIO_V2
+Text GLabel 4150 5450 0    60   Input ~ 0
+AUDIO_V1
+Text GLabel 4150 5250 0    60   Input ~ 0
 AUDIO_V0
 $Comp
 L LFE5U-45F-6BG381C-RESCUE-ulx3s U1

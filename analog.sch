@@ -137,13 +137,13 @@ Connection ~ 3500 2200
 Wire Wire Line
 	3500 1900 3600 1900
 Connection ~ 3500 2050
-Text GLabel 3900 2350 2    60   Input ~ 0
-AUDIO_L0
-Text GLabel 3900 2200 2    60   Input ~ 0
-AUDIO_L1
-Text GLabel 3900 2050 2    60   Input ~ 0
-AUDIO_L2
 Text GLabel 3900 1900 2    60   Input ~ 0
+AUDIO_L0
+Text GLabel 3900 2050 2    60   Input ~ 0
+AUDIO_L1
+Text GLabel 3900 2200 2    60   Input ~ 0
+AUDIO_L2
+Text GLabel 3900 2350 2    60   Input ~ 0
 AUDIO_L3
 $Comp
 L R R21
@@ -199,13 +199,13 @@ Connection ~ 3500 2850
 Wire Wire Line
 	2950 2550 3600 2550
 Connection ~ 3500 2700
-Text GLabel 3900 3000 2    60   Input ~ 0
-AUDIO_R0
-Text GLabel 3900 2850 2    60   Input ~ 0
-AUDIO_R1
-Text GLabel 3900 2700 2    60   Input ~ 0
-AUDIO_R2
 Text GLabel 3900 2550 2    60   Input ~ 0
+AUDIO_R0
+Text GLabel 3900 2700 2    60   Input ~ 0
+AUDIO_R1
+Text GLabel 3900 2850 2    60   Input ~ 0
+AUDIO_R2
+Text GLabel 3900 3000 2    60   Input ~ 0
 AUDIO_R3
 Wire Wire Line
 	3500 3000 3600 3000
@@ -429,13 +429,13 @@ Connection ~ 3500 1550
 Wire Wire Line
 	3500 1250 3600 1250
 Connection ~ 3500 1400
-Text GLabel 3900 1700 2    60   Input ~ 0
-AUDIO_V0
-Text GLabel 3900 1550 2    60   Input ~ 0
-AUDIO_V1
-Text GLabel 3900 1400 2    60   Input ~ 0
-AUDIO_V2
 Text GLabel 3900 1250 2    60   Input ~ 0
+AUDIO_V0
+Text GLabel 3900 1400 2    60   Input ~ 0
+AUDIO_V1
+Text GLabel 3900 1550 2    60   Input ~ 0
+AUDIO_V2
+Text GLabel 3900 1700 2    60   Input ~ 0
 AUDIO_V3
 Text Label 3050 1700 0    60   ~ 0
 AUDIO_V
