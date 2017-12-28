@@ -419,14 +419,17 @@ difference()
         cube([21,10,3],center=true);
       // cut off for HDMI
       translate([52,60,8])
-        cube([22,10,6],center=true);        
+        cube([22,10,6],center=true);
+      // cut off for AUDIO
+      translate([31,60,8])
+        rotate([90,0,0])
+          cylinder(d=11,h=10,$fn=32,center=true);
 }
 if (PCBFeet==1)  // Feet
   translate([PCBPosX,PCBPosY,0])
     difference()
     {
       Feet();
-
     }
 }
 
