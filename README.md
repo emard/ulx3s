@@ -12,10 +12,10 @@ board release 3 with SDRAM, Successor of
 [Schematics](/doc/schematics.pdf) is mostly complete.
 [PCB v1.7 is produced](/pic/ulx3st-real.jpg)
 and big things work like USB-JTAG, 
-SDRAM, SDCARD, HDMI, FLASH, RTC, I2C, OLED, AUDIO
+SDRAM, SDCARD, HDMI, FLASH, RTC, I2C, OLED, AUDIO, ADC
 but there are issues, luckily most can be fixed by
 [Upgrading PCB v1.7](/doc/pcb-v1.7-upgrade.md).
-ADC, USB2 and 433.92MHz antenna are currently untested.
+USB2 and 433.92MHz antenna are currently untested.
 
 3D preview
 
