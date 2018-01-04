@@ -67,7 +67,7 @@ with digital monitors/TVs
 
 # Todo
 
-Make the prototype.
+Test the prototype.
 
     [x] Silkscreen Double outline for BGA chip
     [x] Silkscreen do not write over the solder pads
