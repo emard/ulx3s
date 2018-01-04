@@ -37,10 +37,10 @@
                      TCK TDI
                      TDO TMS
     
-    GPIO   40-pin 2.54 mm double-row connectors J1 and J2 with
-           for GPIO at 3.3V logical level as 56 bidirectional 
-           single-ended pins, 28 bidirectional differential pairs
-           or mixed single-ended and differential.
+    GPIO   40-pin 2.54 mm double-row connectors J1 and J2 for GPIO 
+           at 3.3V logical level with 56 bidirectional 
+           single-ended pins or 28 bidirectional differential pairs
+           or combined, some single-ended and some differential.
            J1 pins marked 9-13 are shared with WiFi (PCB v1.7)
            J2 pins marked 14-17 are shared with ADC.
            Pin-compatible with 4 PMOD connectors (GND and 3.3V power
