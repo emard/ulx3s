@@ -1,14 +1,3 @@
-/*
-Open freecad, select Workbench OpenSCAD
-import file, save as freecad file.fcstd, close,
-open freecad file.fcstd, select all (object becomes green),
-export to VRML 2.0 (wrl file)
-PCB->right click->3D shape
-navigate to file.wrl, edit filename ./footprints/bla/bla.3dshapes/file.wrl
-use XYZ 0.3937 scale and rotate Z=90
-https://www.freecadweb.org/wiki/Import_OpenSCAD_code
-*/
-
 // Case dimensions
 case_x=22.42;        // Case X dimension
 case_y=10.16;        // Case Y dimension
@@ -25,7 +14,7 @@ side1_pins = 27;
 side2_pins = 0;
 side3_pins = 27;
 side4_pins = 0;
-pin_distance =0.8;    // Pin step
+pin_distance =0.808;    // Pin step
 color_pin=[1,1,1]; // white
 
 // Pin parameters
