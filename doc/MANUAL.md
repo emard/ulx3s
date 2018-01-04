@@ -188,11 +188,11 @@ Connect to ESP-32 WiFi (it will either connect to your
 local WiFi or become access point with
 default ssid=websvf password=12345678).
 
-In web browser open upload page "http://192.168.4.1"
-(If it connected as a client, IP address will vary depending
-on your local network and you need to find it using WiFi access
-point web interface, ARP, NMAP, or by sniffing it).
-On the ESP-32 page you should see something like:
+In web browser open upload page "http://192.168.4.1".
+If ESP-32 connected as a client, IP address will vary depending
+on local network. Discover it by using WiFi access
+point web interface, ARP, NMAP, or by sniffing it.
+On the ESP-32 page something like this will appear:
 
       Select SVF File or use minimal or svfupload.py
       [File] File not selected
