@@ -22,6 +22,8 @@ USB2 and 433.92MHz antenna are currently untested.
 ![TOP](/pic/ulx3st.jpg)
 ![BOTTOM](/pic/ulx3sb.jpg)
 
+[Manual](/doc/MANUAL.md).
+
 # Features
 
 FPGA: Lattice ECP5 LFE5U-45F-6BG381C
@@ -74,7 +76,6 @@ Make the prototype.
     [x] Silkscreen remove OLED outline
     [x] Solder stop mask must go inbetween all SMD chip pads
     [x] External differential clock input at J1_33 +/-
-    [ ] Thinner copper, more spacing to SDRAM-FPGA
     [x] physically sprinkle VCC blocator capacitors under BGA
     [ ] Values on silkscreen
     [x] Dedicated antenna pin
@@ -101,7 +102,7 @@ Make the prototype.
     [x] MAX11123 ADC SPI
     [x] I2C for RTC
     [x] main usb connector on top side 
-    [ ] space screw to other parts
+    [x] space screw to other parts
     [x] move battery away from screw hole
     [x] top layer GND fill
     [x] R25 move away from oled screw hole
@@ -129,7 +130,6 @@ Make the prototype.
         for example pin T11 is NC on 25U, GND on 85U and VCC ond 85UM
     [x] Reconnect WIFI_OFF so that jumper has priority
     [x] 25MHz oscillator: needs clearance from LEDs, move under USB1
-    [ ] connect SPI Flash Quad Mode (QSPI)
     [x] connect SHUTDOWN to FPGA
     [ ] ESP-32: GPIO12 at boot selects internal flash voltage,
         it is connected to J1_27+ and wrong pullup/pulldown at boot
@@ -138,7 +138,7 @@ Make the prototype.
         it should be routed differently in newer release
     [x] I2C resistors increased 470->2.2k
     [ ] GPDI series C=100nF to each differential line.
-    [ ] more reliable shutdown
-    [ ] check SDRAM raster 0.8 or 0.808 ?
-
-
+    [x] reliable shutdown (D11=RED LED, R4=4.7k)
+    [x] SDRAM raster back to 0.8 mm
+    [ ] connect SPI Flash Quad Mode (QSPI)
+    [ ] allow powering the board without powering FTDI chip
