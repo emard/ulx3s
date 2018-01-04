@@ -38,9 +38,9 @@
                      TDO TMS
     
     GPIO   40-pin 2.54 mm double-row connectors J1 and J2 with
-           total 56 GPIO pins at 3.3V logical level.
-           Pins can be used as 56 bidirectional single-ended 
-           or 28 bidirectional differential pairs.
+           for GPIO at 3.3V logical level as 56 bidirectional 
+           single-ended pins, 28 bidirectional differential pairs
+           or mixed single-ended and differential.
            J1 pins marked 9-13 are shared with WiFi (PCB v1.7)
            J2 pins marked 14-17 are shared with ADC.
            Pin-compatible with 4 PMOD connectors (GND and 3.3V power
