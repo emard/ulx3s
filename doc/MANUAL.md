@@ -119,19 +119,22 @@ Re-plug the USB and it will appear as new name which can be autodetected
 with USB-serial JTAG tool.
 
 Use Emard's fork of Xark's [FleaFPGA-JTAG](https://github.com/emard/FleaFPGA-JTAG) tool.
-This tool accepts VME format bitstreams which write bitstream to the FPGA SRAM
-or onboard SPI FLASH chip. When generating FLASH bitstream, follow the Lattice
-TN02050 document: "Programming External SPI Flash through JTAG for
-ECP5/ECP5-5G" section: "6. Programming the SPI Flash with bitstream file using Diamond
-Programmer" and select FLASH chip type as:
+This tool accepts VME files for uploading to the FPGA SRAM or onboard 
+SPI FLASH chip. SRAM VME file is simple to make, but when generating 
+FLASH VME file, follow the Lattice 
+TN02050 document: 
+"Programming External SPI Flash through JTAG for ECP5/ECP5-5G"
+section:
+"6. Programming the SPI Flash with bitstream file using Diamond Programmer"
+and select FLASH chip type:
 
     Family: SPI Serial Flash
     Vendor: Micron
     Device: SPI-M25F32
     Package. 8-pin VDFPN8
 
-When it creates VME file, pass it to FleaFPGA-JTAG argument and wait 5-10
-minutes, it's not particulary fast but it works.
+When it creates VME file, pass it to FleaFPGA-JTAG argument and wait
+5-10 minutes, it's not particulary fast.
 
     FleaFPGA-JTAG bitstream-flash.vme
 
