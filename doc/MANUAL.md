@@ -156,10 +156,10 @@ memory to buffer entire bitstream.
 
     ddtcmd -oft -svfsingle -revd -maxdata 8 -if ulx3s_flash.xcf -of bitstream.svf
 
-To start using ESP-32 first you need to compile and upload "passthru" bitstream,
-which can be found in [f32c project](https://github.com/f32c/f32c/tree/master/rtl/proj/lattice/ulx3s/passthru_45f)
-Using FleaFPGA-JTAG or external JTAG programmer to upload it.
-"Passthru" butstream uses FPGA to route lines from USB-serial to ESP-32.
+To start using ESP-32 first you need to compile "passthru" bitstream,
+[f32c project](https://github.com/f32c/f32c/tree/master/rtl/proj/lattice/ulx3s/passthru_45f)
+and upload it using FleaFPGA-JTAG or external JTAG programmer.
+"Passthru" bitstream configures FPGA to route lines from USB-serial to ESP-32.
 
 Then you need to install Arduino and its ESP-32 support, and
 install Emard's library [LibXSVF-ESP](https://github.com/emard/LibXSVF-ESP),
