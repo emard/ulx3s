@@ -156,8 +156,8 @@ memory to buffer entire bitstream.
 
     ddtcmd -oft -svfsingle -revd -maxdata 8 -if ulx3s_flash.xcf -of bitstream.svf
 
-To start using ESP-32 first you need to compile "passthru" bitstream,
-[f32c project](https://github.com/f32c/f32c/tree/master/rtl/proj/lattice/ulx3s/passthru_45f)
+To start using ESP-32 first you need to compile
+[ULX3S passthru from f32c project](https://github.com/f32c/f32c/tree/master/rtl/proj/lattice/ulx3s/passthru_45f)
 and upload it using FleaFPGA-JTAG or external JTAG programmer.
 "Passthru" bitstream configures FPGA to route lines from USB-serial to ESP-32.
 
