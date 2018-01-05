@@ -142,3 +142,4 @@ Test the prototype.
     [x] SDRAM raster back to 0.8 mm
     [ ] connect SPI Flash Quad Mode (QSPI)
     [ ] allow powering the board without powering FTDI chip
+    [ ] micro USB extended pads for Handsoldering
