@@ -143,3 +143,5 @@ Test the prototype.
     [ ] connect SPI Flash Quad Mode (QSPI)
     [ ] allow powering the board without powering FTDI chip
     [ ] micro USB extended pads for Handsoldering
+    [ ] Make BOM outputtable from PCB->Files->Fabrication Outputs->BOM file
+
