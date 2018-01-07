@@ -10,6 +10,8 @@
            for experimenting with user-defined USB cores.
            Board provides power to US2.
            Board can't be powered from US2.
+           If you want to power board from US2, reverse diode
+           D9 near US2 connector.
 
     GPDI   Plug for cable to digital monitor or TV,
            4 TMDS+- video

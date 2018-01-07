@@ -141,5 +141,7 @@ Test the prototype.
     [x] reliable shutdown (D11=RED LED, R4=4.7k)
     [x] SDRAM raster back to 0.8 mm
     [ ] connect SPI Flash Quad Mode (QSPI)
-    [ ] allow powering the board without powering FTDI chip
+    [x] allow powering the board without powering FTDI chip
+    [ ] reverse D9 at US2 to draw power from usb instead of provide it
     [ ] micro USB extended pads for Handsoldering
+    [ ] schem gpio pins rename to gp/gn for easier readability
