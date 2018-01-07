@@ -145,3 +145,4 @@ Test the prototype.
     [ ] reverse D9 at US2 to draw power from usb instead of provide it
     [ ] micro USB extended pads for Handsoldering
     [ ] schem gpio pins rename to gp/gn for easier readability
+    [ ] Make BOM outputtable from PCB->Files->Fabrication Outputs->BOM file
