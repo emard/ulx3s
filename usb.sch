@@ -240,17 +240,6 @@ F 6 "www.mouser.com" H 5700 3400 60  0001 C CNN "Distributor1_URL"
 	1    5700 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR087
-U 1 1 58EB8213
-P 5600 2500
-F 0 "#PWR087" H 5600 2350 50  0001 C CNN
-F 1 "+5V" H 5600 2640 50  0000 C CNN
-F 2 "" H 5600 2500 50  0000 C CNN
-F 3 "" H 5600 2500 50  0000 C CNN
-	1    5600 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 1700 2200 1700
 Wire Wire Line
@@ -731,4 +720,6 @@ Text GLabel 5800 2500 1    60   Input ~ 0
 FT2V5
 Text GLabel 5000 2800 0    60   Input ~ 0
 FT2V5
+Text GLabel 5600 2500 1    60   Input ~ 0
+USB5V
 $EndSCHEMATC
