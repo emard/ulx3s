@@ -50,7 +50,7 @@ Display: placeholder for 0.96" SPI COLOR OLED
 
 WiFi+bluetooth: placeholder for ESP-32 (JTAG and serial over WiFi)
 
-ADC: 8 channels, 12 bit, 1 MSa/s MAX11123
+ADC: 8 channels, 8 bit, 1 MSa/s MAX11123
 
 Power: 3 Switching voltage regulators: 1.1V, 2.5V, 3.3V
 
