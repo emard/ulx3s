@@ -1884,7 +1884,7 @@ L1,L2,L3: Isat>3A Rdc<100mohm L=2.5-5.8mm W<3mm\nMurata DFE322512F-2R2M=P2, DFE2
 Text Notes 1050 6900 0    60   ~ 0
 WARNING\nECP5 family datasheet\np.48: Power Supply Ramp rates\nfor all supplies 0.01-10V/ms\n
 $Comp
-L LFE5U-45F-6BG381C-RESCUE-ulx3s U1
+L LFE5U-45F-6BG381C U1
 U 8 1 5A076CD7
 P 5750 6400
 AR Path="/5A076CD7" Ref="U1"  Part="8" 
@@ -1898,7 +1898,7 @@ F 4 "www.mouser.com" H 5750 6400 60  0001 C CNN "Distributor1_URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LFE5U-45F-6BG381C-RESCUE-ulx3s U1
+L LFE5U-45F-6BG381C U1
 U 9 1 5A077765
 P 6250 1500
 AR Path="/5A077765" Ref="U1"  Part="9" 
