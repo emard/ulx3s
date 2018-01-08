@@ -1,4 +1,4 @@
-### Module positions - created on Sun Jan  7 12:00:21 2018 ###
+### Module positions - created on Mon Jan  8 20:14:53 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -23,17 +23,17 @@ D18       GREEN              LED_0805                               1.3500     0
 D19       RED                LED_0805                               1.4500     0.2500   90.0000  top
 D22       BLUE               LED_0805                               1.2500     0.2500   90.0000  top
 GPDI1     GPDI-D             hdmi-swm-19                            2.0031     1.7823   90.0000  top
-R36       470                R_0603_HandSoldering                   1.3500     0.1000  270.0000  top
-R37       470                R_0603_HandSoldering                   1.4500     0.1000   90.0000  top
-R41       470                R_0603_HandSoldering                   0.9500     1.2500   90.0000  top
-R42       470                R_0603_HandSoldering                   0.8500     1.2500   90.0000  top
-R43       470                R_0603_HandSoldering                   0.7500     1.2500   90.0000  top
-R44       470                R_0603_HandSoldering                   0.6500     1.2500   90.0000  top
-R45       470                R_0603_HandSoldering                   0.5500     1.2500   90.0000  top
-R46       470                R_0603_HandSoldering                   0.4500     1.2500   90.0000  top
-R47       470                R_0603_HandSoldering                   0.3500     1.2500   90.0000  top
-R48       470                R_0603_HandSoldering                   0.2500     1.2500   90.0000  top
-R62       470                R_0603_HandSoldering                   1.2500     0.1000  270.0000  top
+R36       1k                 R_0603_HandSoldering                   1.3500     0.1000  270.0000  top
+R37       1k                 R_0603_HandSoldering                   1.4500     0.1000   90.0000  top
+R41       1k                 R_0603_HandSoldering                   0.9500     1.2500   90.0000  top
+R42       1k                 R_0603_HandSoldering                   0.8500     1.2500   90.0000  top
+R43       1k                 R_0603_HandSoldering                   0.7500     1.2500   90.0000  top
+R44       1k                 R_0603_HandSoldering                   0.6500     1.2500   90.0000  top
+R45       1k                 R_0603_HandSoldering                   0.5500     1.2500   90.0000  top
+R46       1k                 R_0603_HandSoldering                   0.4500     1.2500   90.0000  top
+R47       1k                 R_0603_HandSoldering                   0.3500     1.2500   90.0000  top
+R48       1k                 R_0603_HandSoldering                   0.2500     1.2500   90.0000  top
+R62       1k                 R_0603_HandSoldering                   1.2500     0.1000  270.0000  top
 SW1       DIPSW              SW_DIP_x4_W8.61mm_Slide_LowProfile     2.6000     1.5000   90.0000  top
 U1        LFE5U-45F-6BG381C  BGA-381_pitch0.8mm_dia0.4mm            1.7472     0.9614    0.0000  top
 U8        MAX11125           QFN-28-1EP_5x5mm_Pitch0.5mm            3.2750     0.4750  180.0000  top

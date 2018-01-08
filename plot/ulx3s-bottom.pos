@@ -1,4 +1,4 @@
-### Module positions - created on Sun Jan  7 12:00:21 2018 ###
+### Module positions - created on Mon Jan  8 20:14:53 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -58,7 +58,7 @@ R8        1k                  R_0603_HandSoldering              3.0250     1.275
 R9        15k                 R_0603_HandSoldering              1.3500     0.1000  270.0000  bottom
 R10       150                 R_0603_HandSoldering              2.1800     0.3400  180.0000  bottom
 R11       10k                 R_0603_HandSoldering              1.0000     1.2500  270.0000  bottom
-R12       10k                 R_0603_HandSoldering              0.8024     0.9378   90.0000  bottom
+R12       10k                 R_0603_HandSoldering              0.8000     0.9400   90.0000  bottom
 R13       15k                 R_0603_HandSoldering              3.2250     1.3250  180.0000  bottom
 R14       1.2k                R_0603_HandSoldering              1.2400     1.0400  180.0000  bottom
 R15       680                 R_0603_HandSoldering              1.2400     1.1100  180.0000  bottom
@@ -75,7 +75,7 @@ R25       4.7k                R_0603_HandSoldering              2.1683     1.575
 R26       4.7k                R_0603_HandSoldering              2.1724     1.6386  180.0000  bottom
 R27       10k                 R_0603_HandSoldering              1.3750     0.6317   90.0000  bottom
 R28       10k                 R_0603_HandSoldering              0.9250     1.2500  270.0000  bottom
-R29       1k                  R_0603_HandSoldering              1.1094     0.9772  270.0000  bottom
+R29       1k                  R_0603_HandSoldering              0.7400     0.9400   90.0000  bottom
 R30       4.7k                R_0603_HandSoldering              0.8500     1.2500  270.0000  bottom
 R31       10k                 R_0603_HandSoldering              1.9500     0.5500  180.0000  bottom
 R32       10k                 R_0603_HandSoldering              1.5250     0.5750   90.0000  bottom
