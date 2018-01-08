@@ -1,17 +1,17 @@
-[ ] i2c hdmi
-[ ] i2c RTC (first disable CLKOUT - it will enable INT1 wakeup)
+[x] i2c hdmi
+[x] i2c RTC (first disable CLKOUT - it will enable INT1 wakeup)
     by default RTC does CLKOUT and constantly wakes up the board
-[ ] Shutdown in enumerated state
-[ ] Shutdown in non-enumerated state
-[ ] RTC wakeup
-[ ] USB wakeup
-[ ] power button wakeup
-[ ] config flash
-[ ] sdram memory test
-[ ] ADC
-[ ] OLED
-[ ] SDCARD behaviour with wifi
+[x] Shutdown in enumerated state
+[x] Shutdown in non-enumerated state
+[x] RTC wakeup
+[x] USB wakeup
+[x] power button wakeup
+[x] config flash
+[x] sdram memory test
+[x] ADC
+[x] OLED
+[x] SDCARD behaviour with wifi
 [ ] GPIO normal mode
 [ ] GPIO differential mode
-[ ] AUDIO jack
+[x] AUDIO jack
 [ ] USB2 with soft-usb core
