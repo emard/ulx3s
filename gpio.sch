@@ -416,173 +416,173 @@ F 3 "" H 9500 5350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 1600 3700 0    60   Input ~ 0
-J1_5-
+GN0
 Text GLabel 2100 3700 2    60   Input ~ 0
-J1_5+
+GP0
 Text GLabel 1600 3800 0    60   Input ~ 0
-J1_7-
+GN1
 Text GLabel 2100 3800 2    60   Input ~ 0
-J1_7+
+GP1
 Text GLabel 1600 3900 0    60   Input ~ 0
-J1_9-
+GN2
 Text GLabel 2100 3900 2    60   Input ~ 0
-J1_9+
+GP2
 Text GLabel 2100 4000 2    60   Input ~ 0
-J1_11+
+GP3
 Text GLabel 1600 4000 0    60   Input ~ 0
-J1_11-
+GN3
 Text GLabel 1600 4100 0    60   Input ~ 0
-J1_13-
+GN4
 Text GLabel 2100 4100 2    60   Input ~ 0
-J1_13+
+GP4
 Text GLabel 2100 4200 2    60   Input ~ 0
-J1_15+
+GP5
 Text GLabel 1600 4200 0    60   Input ~ 0
-J1_15-
+GN5
 Text GLabel 1600 4300 0    60   Input ~ 0
-J1_17-
+GN6
 Text GLabel 2100 4300 2    60   Input ~ 0
-J1_17+
+GP6
 Text GLabel 1600 4600 0    60   Input ~ 0
-J1_23-
+GN7
 Text GLabel 2100 4600 2    60   Input ~ 0
-J1_23+
+GP7
 Text GLabel 1600 4700 0    60   Input ~ 0
-J1_25-
+GN8
 Text GLabel 2100 4700 2    60   Input ~ 0
-J1_25+
+GP8
 Text GLabel 1600 4800 0    60   Input ~ 0
-J1_27-
+GN9
 Text GLabel 2100 4800 2    60   Input ~ 0
-J1_27+
+GP9
 Text GLabel 1600 4900 0    60   Input ~ 0
-J1_29-
+GN10
 Text GLabel 2100 4900 2    60   Input ~ 0
-J1_29+
+GP10
 Text GLabel 1600 5000 0    60   Input ~ 0
-J1_31-
+GN11
 Text GLabel 2100 5000 2    60   Input ~ 0
-J1_31+
+GP11
 Text GLabel 1600 5100 0    60   Input ~ 0
-J1_33-
+GN12
 Text GLabel 2100 5100 2    60   Input ~ 0
-J1_33+
+GP12
 Text GLabel 1600 5200 0    60   Input ~ 0
-J1_35-
+GN13
 Text GLabel 2100 5200 2    60   Input ~ 0
-J1_35+
+GP13
 Text GLabel 8650 3650 2    60   Input ~ 0
-J2_5+
+GP14
 Text GLabel 8650 3750 2    60   Input ~ 0
-J2_7+
+GP15
 Text GLabel 8650 3850 2    60   Input ~ 0
-J2_9+
+GP16
 Text GLabel 8650 3950 2    60   Input ~ 0
-J2_11+
+GP17
 Text GLabel 8650 4050 2    60   Input ~ 0
-J2_13+
+GP18
 Text GLabel 8650 4150 2    60   Input ~ 0
-J2_15+
+GP19
 Text GLabel 8650 4250 2    60   Input ~ 0
-J2_17+
+GP20
 Text GLabel 8150 3650 0    60   Input ~ 0
-J2_5-
+GN14
 Text GLabel 8150 3750 0    60   Input ~ 0
-J2_7-
+GN15
 Text GLabel 8150 3850 0    60   Input ~ 0
-J2_9-
+GN16
 Text GLabel 8150 3950 0    60   Input ~ 0
-J2_11-
+GN17
 Text GLabel 8150 4050 0    60   Input ~ 0
-J2_13-
+GN18
 Text GLabel 8150 4150 0    60   Input ~ 0
-J2_15-
+GN19
 Text GLabel 8150 4250 0    60   Input ~ 0
-J2_17-
+GN20
 Text GLabel 8150 4550 0    60   Input ~ 0
-J2_23-
+GN21
 Text GLabel 8150 4650 0    60   Input ~ 0
-J2_25-
+GN22
 Text GLabel 8150 4750 0    60   Input ~ 0
-J2_27-
+GN23
 Text GLabel 8150 4850 0    60   Input ~ 0
-J2_29-
+GN24
 Text GLabel 8150 4950 0    60   Input ~ 0
-J2_31-
+GN25
 Text GLabel 8150 5050 0    60   Input ~ 0
-J2_33-
+GN26
 Text GLabel 8150 5150 0    60   Input ~ 0
-J2_35-
+GN27
 Text GLabel 8650 4550 2    60   Input ~ 0
-J2_23+
+GP21
 Text GLabel 8650 4650 2    60   Input ~ 0
-J2_25+
+GP22
 Text GLabel 8650 4750 2    60   Input ~ 0
-J2_27+
+GP23
 Text GLabel 8650 4850 2    60   Input ~ 0
-J2_29+
+GP24
 Text GLabel 8650 4950 2    60   Input ~ 0
-J2_31+
+GP25
 Text GLabel 8650 5050 2    60   Input ~ 0
-J2_33+
+GP26
 Text GLabel 8650 5150 2    60   Input ~ 0
-J2_35+
+GP27
 Text GLabel 5650 5350 2    60   Input ~ 0
-J1_35-
+GN13
 Text GLabel 4150 5350 0    60   Input ~ 0
-J1_35+
+GP13
 Text GLabel 4150 5550 0    60   Input ~ 0
-J1_33+
+GP12
 Text GLabel 5650 5550 2    60   Input ~ 0
-J1_33-
+GN12
 Text GLabel 5650 4750 2    60   Input ~ 0
-J1_31-
+GN11
 Text GLabel 4150 4750 0    60   Input ~ 0
-J1_31+
-Text GLabel 5650 4350 2    60   Input ~ 0
-J1_29-
-Text GLabel 4150 4350 0    60   Input ~ 0
-J1_29+
+GP11
 Text GLabel 5650 4950 2    60   Input ~ 0
-J1_27-
+GN9
 Text GLabel 4150 4950 0    60   Input ~ 0
-J1_27+
+GP9
+Text GLabel 5650 4350 2    60   Input ~ 0
+GN10
+Text GLabel 4150 4350 0    60   Input ~ 0
+GP10
 Text GLabel 5650 4150 2    60   Input ~ 0
-J1_25-
+GN8
 Text GLabel 4150 4150 0    60   Input ~ 0
-J1_25+
+GP8
 Text GLabel 5700 2900 2    60   Input ~ 0
-J1_23-
+GN7
 Text GLabel 4200 2900 0    60   Input ~ 0
-J1_23+
+GP7
 Text GLabel 5700 2600 2    60   Input ~ 0
-J1_17-
+GN6
 Text GLabel 4200 2600 0    60   Input ~ 0
-J1_17+
+GP6
 Text GLabel 5700 1800 2    60   Input ~ 0
-J1_5-
+GN0
 Text GLabel 5700 1900 2    60   Input ~ 0
-J1_7-
+GN1
 Text GLabel 5700 2000 2    60   Input ~ 0
-J1_9-
+GN2
 Text GLabel 5700 2300 2    60   Input ~ 0
-J1_13-
+GN4
 Text GLabel 4200 1800 0    60   Input ~ 0
-J1_5+
+GP0
 Text GLabel 4200 1900 0    60   Input ~ 0
-J1_7+
+GP1
 Text GLabel 4200 2000 0    60   Input ~ 0
-J1_9+
+GP2
 Text GLabel 4200 2300 0    60   Input ~ 0
-J1_13+
+GP4
 Text GLabel 4200 2400 0    60   Input ~ 0
-J1_15+
+GP5
 Text GLabel 5700 2400 2    60   Input ~ 0
-J1_15-
+GN5
 Text GLabel 5700 2100 2    60   Input ~ 0
-J1_11-
+GN3
 Text GLabel 4200 2100 0    60   Input ~ 0
-J1_11+
+GP3
 Text GLabel 4150 4550 0    60   Input ~ 0
 AUDIO_L0
 Text GLabel 5650 4450 2    60   Input ~ 0
@@ -620,7 +620,7 @@ GPIO route only A/B pairs as those are differential bidirectional\ndon't route C
 Text GLabel 5700 2800 2    60   Input ~ 0
 BTN_PWRn
 Text Notes 7050 5750 0    60   ~ 0
-J2_5-J2_23 connected to  BANK2,3 on "ram" sheet\nJ2_25-J2_35 connected to BANK1 on "gpdi" sheet
+GP,GN 14-21 connected to  BANK2,3 on "ram" sheet\nJ2_25-J2_35 connected to BANK1 on "gpdi" sheet
 Text GLabel 4200 2500 0    60   Input ~ 0
 SW1
 Text GLabel 5700 2500 2    60   Input ~ 0

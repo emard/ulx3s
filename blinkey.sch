@@ -393,8 +393,6 @@ Text GLabel 5400 3750 2    60   Input ~ 0
 LED6
 Text GLabel 5400 3950 2    60   Input ~ 0
 LED7
-Text Notes 5400 1700 0    60   ~ 0
-to global onboard reset?
 Text Label 2100 2750 0    60   ~ 0
 BTNPUL
 $Comp
@@ -749,4 +747,6 @@ Text Label 7450 3400 0    60   ~ 0
 SWPU
 Text Notes 6350 5400 0    60   ~ 0
 TXLED blinks when FPGA sends data to FTDI
+Text Notes 4850 2150 0    60   ~ 0
+OLED connected to\nBANK6 on "usb" sheet
 $EndSCHEMATC

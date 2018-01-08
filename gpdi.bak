@@ -343,29 +343,29 @@ GPDI_SDA
 Text GLabel 4000 2200 0    60   Input ~ 0
 GPDI_CEC
 Text GLabel 7000 2700 2    60   Input ~ 0
-J2_25-
+GN22
 Text GLabel 7000 2400 2    60   Input ~ 0
-J2_27-
+GN23
 Text GLabel 7000 2500 2    60   Input ~ 0
-J2_29-
+GN24
 Text GLabel 7000 2800 2    60   Input ~ 0
-J2_31-
+GN25
 Text GLabel 7000 3200 2    60   Input ~ 0
-J2_33-
+GN26
 Text GLabel 7000 3100 2    60   Input ~ 0
-J2_35-
+GN27
 Text GLabel 5500 3100 0    60   Input ~ 0
-J2_35+
+GP27
 Text GLabel 5500 2500 0    60   Input ~ 0
-J2_29+
+GP24
 Text GLabel 5500 2400 0    60   Input ~ 0
-J2_27+
+GP23
 Text GLabel 5500 3200 0    60   Input ~ 0
-J2_33+
+GP26
 Text GLabel 5500 2700 0    60   Input ~ 0
-J2_25+
+GP22
 Text GLabel 5500 2800 0    60   Input ~ 0
-J2_31+
+GP25
 Wire Wire Line
 	1450 2000 1700 2000
 Wire Wire Line
