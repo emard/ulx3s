@@ -417,4 +417,8 @@ F 4 "www.mouser.com" H 9300 5250 60  0001 C CNN "Distributor1_URL"
 $EndComp
 Text GLabel 8550 3450 0    60   Input ~ 0
 SHUTDOWN
+Text GLabel 10050 4850 2    60   Input ~ 0
+BTN_U
+Text GLabel 10050 3450 2    60   Input ~ 0
+BTN_R
 $EndSCHEMATC

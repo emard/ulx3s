@@ -470,7 +470,7 @@ GP12
 Text GLabel 1600 5200 0    60   Input ~ 0
 GN13
 Text GLabel 2100 5200 2    60   Input ~ 0
-GN13
+GP13
 Text GLabel 8650 3650 2    60   Input ~ 0
 GP14
 Text GLabel 8650 3750 2    60   Input ~ 0
