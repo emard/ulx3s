@@ -421,9 +421,15 @@ difference()
       translate([52,60,8])
         cube([22,10,6],center=true);
       // cut off for AUDIO
-      translate([31,60,8])
+      translate([31.5,60,10])
         rotate([90,0,0])
-          cylinder(d=11,h=10,$fn=32,center=true);
+          cylinder(d=13,h=10,$fn=32,center=true);
+      // cut off for USB1
+      translate([19.0,60,8])
+        cube([12,10,6],center=true);
+      // cut off for USB2
+      translate([77.30,60,8])
+        cube([12,10,6],center=true);
 }
 if (PCBFeet==1)  // Feet
   translate([PCBPosX,PCBPosY,0])
