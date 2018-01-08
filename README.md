@@ -140,9 +140,10 @@ Test the prototype.
     [ ] GPDI series C=100nF to each differential line.
     [x] reliable shutdown (D11=RED LED, R4=4.7k)
     [x] SDRAM raster back to 0.8 mm
-    [ ] connect SPI Flash Quad Mode (QSPI)
+    [x] connect SPI Flash Quad Mode (QSPI)
     [x] allow powering the board without powering FTDI chip
     [ ] reverse D9 at US2 to draw power from usb instead of provide it
     [ ] micro USB extended pads for Handsoldering
     [x] schematics gpio J..+- pins renamed to gp/gn for easier readability
     [ ] Make BOM outputtable from PCB->Files->Fabrication Outputs->BOM file
+    [ ] route 16-channel ADC
