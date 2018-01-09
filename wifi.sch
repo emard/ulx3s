@@ -92,6 +92,7 @@ F 3 "http://espressif.com/sites/default/files/documentation/esp32_datasheet_en.p
 F 4 "espressif.com" H 6850 4800 60  0001 C CNN "MFG_URL"
 F 5 "ESP-WROOM-32" H 6850 4800 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 6850 4800 60  0001 C CNN "Distributor1_URL"
+F 7 "Do not install" H 6850 4800 60  0001 C CNN "Note"
 	1    6850 4800
 	1    0    0    -1  
 $EndComp
@@ -169,6 +170,7 @@ F 0 "J3" H 4750 4700 50  0000 C CNN
 F 1 "WIFI_OFF" H 4750 4500 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x01" H 4750 3400 50  0001 C CNN
 F 3 "" H 4750 3400 50  0000 C CNN
+F 4 "Do not install" H 4750 4600 60  0001 C CNN "Note"
 	1    4750 4600
 	0    1    1    0   
 $EndComp
@@ -186,7 +188,7 @@ F 3 "" H 4750 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C21
+L C C21
 U 1 1 5924A09B
 P 3850 4450
 F 0 "C21" H 3875 4550 50  0000 L CNN

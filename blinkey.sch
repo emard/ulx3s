@@ -115,66 +115,6 @@ F 6 "www.mouser.com" H 3100 2950 60  0001 C CNN "Distributor1_URL"
 	1    3100 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_02X01 BTN2
-U 1 1 58D66057
-P 3100 3150
-F 0 "BTN2" H 3100 3250 50  0000 C CNN
-F 1 "FIRE2" H 2600 3150 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 1950 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 1950 50  0001 C CNN
-F 4 "www.mouser.com" H 3100 3150 60  0001 C CNN "Distributor1_URL"
-	1    3100 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X01 BTN4
-U 1 1 58D66058
-P 3100 3550
-F 0 "BTN4" H 3100 3650 50  0000 C CNN
-F 1 "DOWN" H 2600 3550 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2350 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2350 50  0001 C CNN
-F 4 "www.mouser.com" H 3100 3550 60  0001 C CNN "Distributor1_URL"
-	1    3100 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X01 BTN3
-U 1 1 58D66059
-P 3100 3350
-F 0 "BTN3" H 3100 3450 50  0000 C CNN
-F 1 "UP" H 2600 3350 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2150 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2150 50  0001 C CNN
-F 4 "www.mouser.com" H 3100 3350 60  0001 C CNN "Distributor1_URL"
-	1    3100 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X01 BTN5
-U 1 1 58D6605A
-P 3100 3750
-F 0 "BTN5" H 3100 3850 50  0000 C CNN
-F 1 "LEFT" H 2600 3750 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2550 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2550 50  0001 C CNN
-F 4 "www.mouser.com" H 3100 3750 60  0001 C CNN "Distributor1_URL"
-	1    3100 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X01 BTN6
-U 1 1 58D6605B
-P 3100 3950
-F 0 "BTN6" H 3100 4050 50  0000 C CNN
-F 1 "RIGHT" H 2600 3950 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2750 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2750 50  0001 C CNN
-F 4 "www.mouser.com" H 3100 3950 60  0001 C CNN "Distributor1_URL"
-	1    3100 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 2950 2750 2950
 Wire Wire Line
@@ -318,6 +258,7 @@ F 3 "https://drive.google.com/file/d/0B5lkVYnewKTGRlpxcEdWaXNvWnM/view" H 4750 1
 F 4 "www.displaymodule.com" H 4750 1550 60  0001 C CNN "MFG_URL"
 F 5 "DM-OLEDC095-626" H 4750 1550 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 4750 1550 60  0001 C CNN "Distributor1_URL"
+F 7 "Do not install" H 4750 1550 60  0001 C CNN "Note"
 	1    4750 1550
 	0    1    1    0   
 $EndComp
@@ -779,6 +720,76 @@ F 5 "LTST-C170KFKT" H 4550 2750 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 4550 2750 60  0001 C CNN "Distributor1_URL"
 F 7 "859-LTST-C170KFKT" H 4550 2750 60  0001 C CNN "Distributor1_PN"
 	1    4550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X01 BTN2
+U 1 1 5A556C72
+P 3100 3150
+F 0 "BTN2" H 3100 3250 50  0000 C CNN
+F 1 "FIRE2" H 2600 3150 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 1950 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 1950 50  0001 C CNN
+F 4 "www.ckswitches.com" H 3100 3150 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 3100 3150 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3100 3150 60  0001 C CNN "Distributor1_URL"
+	1    3100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X01 BTN3
+U 1 1 5A556E0A
+P 3100 3350
+F 0 "BTN3" H 3100 3450 50  0000 C CNN
+F 1 "UP" H 2600 3350 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2150 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2150 50  0001 C CNN
+F 4 "www.ckswitches.com" H 3100 3350 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 3100 3350 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3100 3350 60  0001 C CNN "Distributor1_URL"
+	1    3100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X01 BTN4
+U 1 1 5A556FAC
+P 3100 3550
+F 0 "BTN4" H 3100 3650 50  0000 C CNN
+F 1 "DOWN" H 2600 3550 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2350 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2350 50  0001 C CNN
+F 4 "www.ckswitches.com" H 3100 3550 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 3100 3550 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3100 3550 60  0001 C CNN "Distributor1_URL"
+	1    3100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X01 BTN5
+U 1 1 5A557167
+P 3100 3750
+F 0 "BTN5" H 3100 3850 50  0000 C CNN
+F 1 "LEFT" H 2600 3750 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2550 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2550 50  0001 C CNN
+F 4 "www.ckswitches.com" H 3100 3750 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 3100 3750 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3100 3750 60  0001 C CNN "Distributor1_URL"
+	1    3100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X01 BTN6
+U 1 1 5A557341
+P 3100 3950
+F 0 "BTN6" H 3100 4050 50  0000 C CNN
+F 1 "RIGHT" H 2600 3950 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2750 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2750 50  0001 C CNN
+F 4 "www.ckswitches.com" H 3100 3950 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 3100 3950 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3100 3950 60  0001 C CNN "Distributor1_URL"
+	1    3100 3950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
