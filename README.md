@@ -148,4 +148,4 @@ Test the prototype.
     [x] schematics gpio J..+- pins renamed to gp/gn for easier readability
     [ ] Make BOM outputtable from PCB->Files->Fabrication Outputs->BOM file
     [ ] route 16-channel ADC
-
+    [ ] move 8 LEDs a bit down and right
