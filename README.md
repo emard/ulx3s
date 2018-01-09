@@ -143,8 +143,8 @@ Test the prototype.
     [x] connect SPI Flash Quad Mode (QSPI)
     [x] allow powering the board without powering FTDI chip
     [ ] reverse D9 at US2 to draw power from usb instead of provide it
-    [ ] micro USB extended pads for Handsoldering
-    [ ] move 25MHz oscillator away from USB connector for handsoldering
+    [x] micro USB extended pads for Handsoldering (already were extended)
+    [x] move 25MHz oscillator away from USB connector for handsoldering
     [x] schematics gpio J..+- pins renamed to gp/gn for easier readability
     [ ] Make BOM outputtable from PCB->Files->Fabrication Outputs->BOM file
     [ ] route 16-channel ADC
