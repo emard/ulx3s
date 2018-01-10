@@ -55,17 +55,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 7000 5900 3    60   Input ~ 0
+Text GLabel 7300 5850 3    60   Input ~ 0
 SD_D0
-Text GLabel 7100 5900 3    60   Input ~ 0
+Text GLabel 7750 5350 2    60   Input ~ 0
 SD_D1
-Text GLabel 6700 5900 3    60   Input ~ 0
+Text GLabel 6500 5850 3    60   Input ~ 0
 SD_D3
-Text GLabel 6800 5900 3    60   Input ~ 0
+Text GLabel 7200 5850 3    60   Input ~ 0
 SD_CMD
-Text GLabel 6900 5900 3    60   Input ~ 0
+Text GLabel 5900 5300 0    60   Input ~ 0
 SD_CLK
-Text GLabel 6600 5900 3    60   Input ~ 0
+Text GLabel 5900 5400 0    60   Input ~ 0
 SD_D2
 Text GLabel 7750 4550 2    60   Input ~ 0
 WIFI_RXD
@@ -224,7 +224,6 @@ Text Notes 7550 6000 0    60   ~ 0
 WiFi and SDcard connected to\nBANK6 on "usb" sheet
 Text Notes 8700 5500 0    60   ~ 0
 Strapping pins\n(avoid using to avoid\nboot problems)\nGPIO0,2,4,5,12,15
-NoConn ~ 7750 5350
 NoConn ~ 7750 5050
 Text Notes 2950 6700 0    60   ~ 0
 ESP32 ADC capable pins\nGPIO36,39,34,35,32,33,25,26,27,\nGPIO14,12,13,15 - shared with HSPI/JTAG\nConnected to BANK7 on "gpio" sheet
@@ -248,14 +247,12 @@ Text GLabel 5900 5100 0    60   Input ~ 0
 GN11
 Text GLabel 5900 5200 0    60   Input ~ 0
 GP10
-Text GLabel 5900 5300 0    60   Input ~ 0
+Text GLabel 5450 5300 0    60   Input ~ 0
 GN10
-Text GLabel 5900 5400 0    60   Input ~ 0
+Text GLabel 5450 5400 0    60   Input ~ 0
 GP9
-Text GLabel 6500 5850 3    60   Input ~ 0
+Text GLabel 6500 6250 3    60   Input ~ 0
 GN9
-Text GLabel 7200 5850 3    60   Input ~ 0
-WIFI_GPIO15
 Text GLabel 7750 5250 2    60   Input ~ 0
 WIFI_GPIO16
 $Comp
@@ -303,15 +300,17 @@ Wire Wire Line
 	6400 5850 6400 6250
 Wire Wire Line
 	4750 4250 4750 4350
-Text GLabel 7300 5850 3    60   Input ~ 0
-WIFI_GPIO2
+Text GLabel 7750 5150 2    60   Input ~ 0
+WIFI_LED
 Wire Wire Line
 	4750 4300 5900 4300
 Text Label 5550 4300 0    60   ~ 0
 WIFIEN
 Connection ~ 4750 4300
-Text Notes 1800 5450 0    60   ~ 0
+Text Notes 2050 5850 0    60   ~ 0
 GPIO12 probably should be held low at reset or disconnected\nother option is to burn flash voltage efuse for 3.3V operation\nfor GPIO2 and GPIO12 bootstrapping considerations, read\nhttps://github.com/espressif/esp-idf/tree/master/examples/storage/sd_card
-Text Notes 1800 5800 0    60   ~ 0
+Text Notes 2050 6200 0    60   ~ 0
 GPIO25,26 are DAC channels that can directly replay\naudio material over i2s bus
+Text Notes 2050 5350 0    60   ~ 0
+SD card connected according to\nArduino->Examples->ESP32->SD_MMC_Test\nhttps://github.com/espressif/esp-idf/blob/\nmaster/examples/storage/sd_card/README.md\n
 $EndSCHEMATC

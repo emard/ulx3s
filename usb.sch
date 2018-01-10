@@ -572,8 +572,6 @@ Connection ~ 2200 2850
 Wire Wire Line
 	2300 2600 2300 2900
 Connection ~ 2300 2750
-Text GLabel 8650 2450 0    60   Input ~ 0
-WIFI_GPIO15
 Text GLabel 8650 2550 0    60   Input ~ 0
 WIFI_GPIO16
 $Comp
@@ -732,4 +730,6 @@ Text GLabel 5000 2800 0    60   Input ~ 0
 FT2V5
 Text GLabel 5600 2500 1    60   Input ~ 0
 USB5V
+Text Notes 7800 2500 0    60   ~ 0
+WIFI_GPIO15 v1.7
 $EndSCHEMATC
