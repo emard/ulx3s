@@ -134,11 +134,12 @@ Test the prototype.
     [ ] ESP-32: GPIO12 at boot selects internal flash voltage,
         it is connected to J1_27+ and wrong pullup/pulldown at boot
         will prevent ESP32 from booting
-    [ ] ESP-32: won't boot when SD connected. Don't solder it at PCB v1.7
+    [x] ESP-32: won't boot when SD connected. Don't solder it at PCB v1.7
         it should be routed differently in newer release
         Here is a possible SD card connection
         Arduino->Examples->ESP32->SD_MMC_Test
         https://github.com/espressif/esp-idf/blob/master/examples/storage/sd_card/README.md
+        move blue LED from GPIO2 to GPIO17
     [x] I2C resistors increased 470->2.2k
     [ ] GPDI series C=100nF to each differential line.
     [x] reliable shutdown (D11=RED LED, R4=4.7k)
