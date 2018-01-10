@@ -143,8 +143,8 @@ When it creates VME file, pass it to FleaFPGA-JTAG argument and wait
 
 # Programming over JTAG header
 
-External JTAG like FT2232 can be connected to JTAG header and it will
-program SRAM and FLASH at maximum speed possible.
+Any openocd compatible JTAG like FT2232 can be connected to JTAG header
+and it will program SRAM and FLASH at maximum speed possible.
 Even Diamond programmer can use any FT2232 module as a native programmer,
 with a little help - it will work after first bitstream is programmed
 over FT2232 with openocd.
@@ -157,7 +157,7 @@ Openocd accepts SVF files, everything applies the same as for VME files
 
 ESP-32 provides standalone JTAG SVF player over web HTTP and TCP interface for
 programming and flashing in convenient and OS independent way. Web interface
-requires no client software installed except web browser. It is much faster than
+requires no client software installed but web browser. It is much faster than
 FT231X but still not as fast as FT2232. It accepts SVF files but you need to limit
 SVF command size to max 8 kilobits "-maxdata 8", effectively it will split
 upload into many shorter SVF commands because ESP-32 doesn't have enough
