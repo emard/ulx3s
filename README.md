@@ -140,6 +140,7 @@ Test the prototype.
         Arduino->Examples->ESP32->SD_MMC_Test
         https://github.com/espressif/esp-idf/blob/master/examples/storage/sd_card/README.md
         move blue LED from GPIO2 to GPIO17
+    [ ] SD card pullup pulldowns (do we need them if FPGA can pullup/pulldown)
     [x] I2C resistors increased 470->2.2k
     [ ] GPDI series C=100nF to each differential line.
     [x] reliable shutdown (D11=RED LED, R4=4.7k)
