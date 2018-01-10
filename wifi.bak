@@ -55,7 +55,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 7300 5900 3    60   Input ~ 0
+Text GLabel 7300 5850 3    60   Input ~ 0
 SD_D0
 Text GLabel 7750 5350 2    60   Input ~ 0
 SD_D1
