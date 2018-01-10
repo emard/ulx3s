@@ -56,8 +56,8 @@
            shared with ESP-32
 
     ESP32  Placeholder to solder ESP-32 WROOM module.
-           ESP-32 can provide web interface for uploading bitstream
-           into FPGA and its config FLASH.
+           ESP-32 can provide standalone web interface for uploading
+           bitstream into FPGA and its config FLASH. 
            Warning on PCB v1.7 ESP-32 must be isolated from all SD
            card pins otherwise ESP-32 won't boot no matter if
            SD card is inserted or not.
@@ -110,7 +110,7 @@ Switching regulators use ferrite core coils L1,L2,L3 which can saturate
 at magnetic fields above 0.3T. Never approach neodymium magnets
 near powered board.
 
-# Programming
+# Programming over USB
 
 Use ftx_prog to change product/manufacturer name of FT231X chip:
 
@@ -141,6 +141,8 @@ When it creates VME file, pass it to FleaFPGA-JTAG argument and wait
 
     FleaFPGA-JTAG bitstream-flash.vme
 
+# Programming over JTAG header
+
 External JTAG like FT2232 can be connected to JTAG header and it will
 program SRAM and FLASH at maximum speed possible.
 Even Diamond programmer can use any FT2232 module as a native programmer,
@@ -151,11 +153,15 @@ Openocd accepts SVF files, everything applies the same as for VME files
 
     ddtcmd -oft -svfsingle -revd -if ulx3s_flash.xcf -of bitstream.svf
 
-Programming and flashing from ESP-32 web interface is convenient
-(device independent) and much faster than FT231X but still not as fast
-as FT2232. It also accepts SVF files, only you need to limit SVF command
-size to max 8 kilobits "-maxdata 8" because ESP-32 doesn't have enough
-memory to buffer entire bitstream.
+# Programming over WiFi
+
+ESP-32 provides standalone JTAG SVF player over web HTTP and TCP interface for
+programming and flashing in convenient and OS independent way. Web interface
+requires no client software installed except web browser. It is much faster than
+FT231X but still not as fast as FT2232. It accepts SVF files but you need to limit
+SVF command size to max 8 kilobits "-maxdata 8", effectively it will split
+upload into many shorter SVF commands because ESP-32 doesn't have enough
+memory to buffer entire bitstream delivered in a long single SVF command.
 
     ddtcmd -oft -svfsingle -revd -maxdata 8 -if ulx3s_flash.xcf -of bitstream.svf
 
