@@ -247,12 +247,6 @@ Text GLabel 5900 5100 0    60   Input ~ 0
 GN11
 Text GLabel 5900 5200 0    60   Input ~ 0
 GP10
-Text GLabel 5450 5300 0    60   Input ~ 0
-GN10
-Text GLabel 5450 5400 0    60   Input ~ 0
-GP9
-Text GLabel 6500 6250 3    60   Input ~ 0
-GN9
 Text GLabel 7750 5250 2    60   Input ~ 0
 WIFI_GPIO16
 $Comp
@@ -313,4 +307,14 @@ Text Notes 2050 6200 0    60   ~ 0
 GPIO25,26 are DAC channels that can directly replay\naudio material over i2s bus
 Text Notes 2050 5350 0    60   ~ 0
 SD card connected according to\nArduino->Examples->ESP32->SD_MMC_Test\nhttps://github.com/espressif/esp-idf/blob/\nmaster/examples/storage/sd_card/README.md\n
+Text Notes 5000 5350 0    60   ~ 0
+GN10 v1.7
+Text Notes 5000 5450 0    60   ~ 0
+GP9 v1.7
+Text Notes 6550 6650 1    60   ~ 0
+GN9 v1.7
+Text Notes 7250 7100 1    60   ~ 0
+WIFI_GPIO15 v1.7
+Text Notes 7350 6950 1    60   ~ 0
+WIFI_LED v1.7
 $EndSCHEMATC
