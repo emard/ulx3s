@@ -222,7 +222,7 @@ F 3 "" H 3650 3250 50  0000 C CNN
 $EndComp
 Text Notes 7350 4650 0    60   ~ 0
 WiFi and SDcard connected to\nBANK6 on "usb" sheet
-Text Notes 8500 4200 0    60   ~ 0
+Text Notes 8750 4200 0    60   ~ 0
 Strapping pins\n(avoid using to avoid\nboot problems)\nGPIO0,2,4,5,12,15
 Text Notes 2750 5350 0    60   ~ 0
 ESP32 ADC capable pins\nGPIO36,39,34,35,32,33,25,26,27,\nGPIO14,12,13,15 - shared with HSPI/JTAG\nConnected to BANK7 on "gpio" sheet
@@ -321,5 +321,7 @@ WIFI_GPIO5
 Text Notes 8150 3750 0    60   ~ 0
 WIFI_GPIO15 v1.7
 Text Notes 8150 3850 0    60   ~ 0
+NC v1.7
+Text Notes 8150 4050 0    60   ~ 0
 NC v1.7
 $EndSCHEMATC

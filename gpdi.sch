@@ -469,7 +469,8 @@ F 0 "U1" H 6250 3750 60  0000 C CNN
 F 1 "LFE5U-45F-6BG381C" H 6250 3650 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 5200 3750 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 5200 3750 60  0001 C CNN
-F 4 "www.mouser.com" H 6250 2800 60  0001 C CNN "Distributor1_URL"
+F 4 "LFE5U-45F-6BG381C" H 6250 2800 60  0001 C CNN "MFG_PN"
+F 5 "www.mouser.com" H 6250 2800 60  0001 C CNN "Distributor1_URL"
 	2    6250 2800
 	1    0    0    -1  
 $EndComp

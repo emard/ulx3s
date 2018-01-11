@@ -483,7 +483,8 @@ F 0 "U1" H 6400 3800 60  0000 C CNN
 F 1 "LFE5U-45F-6BG381C" H 6400 3700 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 5350 3800 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/EH/TN1260.pdf" H 5350 3800 60  0001 C CNN
-F 4 "www.mouser.com" H 6400 2850 60  0001 C CNN "Distributor1_URL"
+F 4 "LFE5U-45F-6BG381C" H 6400 2850 60  0001 C CNN "MFG_PN"
+F 5 "www.mouser.com" H 6400 2850 60  0001 C CNN "Distributor1_URL"
 	7    6400 2850
 	1    0    0    -1  
 $EndComp

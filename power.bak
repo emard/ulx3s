@@ -948,7 +948,7 @@ L CONN_02X01 BTN0
 U 1 1 58E83FE0
 P 2200 4300
 F 0 "BTN0" H 2200 4400 50  0000 C CNN
-F 1 "POWER" H 2200 4200 50  0000 C CNN
+F 1 "PTS645" H 2200 4200 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 2200 3100 50  0001 C CNN
 F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 2200 3100 50  0001 C CNN
 F 4 "www.ckswitches.com" H 2200 4300 60  0001 C CNN "MFG_URL"
@@ -1898,7 +1898,8 @@ F 0 "U1" H 5750 7350 60  0000 C CNN
 F 1 "LFE5U-45F-6BG381C" H 5750 7250 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 4700 7350 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/EH/TN1261.pdf?document_id=50463" H 4700 7350 60  0001 C CNN
-F 4 "www.mouser.com" H 5750 6400 60  0001 C CNN "Distributor1_URL"
+F 4 "LFE5U-45F-6BG381C" H 5750 6400 60  0001 C CNN "MFG_PN"
+F 5 "www.mouser.com" H 5750 6400 60  0001 C CNN "Distributor1_URL"
 	8    5750 6400
 	1    0    0    -1  
 $EndComp
