@@ -366,7 +366,7 @@ Text GLabel 10150 2150 2    60   Input ~ 0
 SD_WP
 Text GLabel 10150 2250 2    60   Input ~ 0
 SD_CD
-Text Notes 6550 2300 0    60   ~ 0
+Text Notes 7200 3150 0    60   ~ 0
 WiFi programming pins:\nTXD RXD RTS DTR
 Text Notes 7400 3750 0    60   ~ 0
 CBUS0=TXDEN
@@ -386,7 +386,7 @@ Text GLabel 6550 3800 2    60   Input ~ 0
 FTDI_nRXLED
 Text GLabel 6550 3900 2    60   Input ~ 0
 FTDI_nTXLED
-Text Notes 6550 2600 0    60   ~ 0
+Text Notes 7200 3450 0    60   ~ 0
 VNC2 programming pins:\nTXD RXD TXDEN
 Text Notes 4350 5900 0    60   ~ 0
 warning:\nULX3S has different pinout\nfor simpler PCB routing and\nbecause FT230X has weak CTS\ndrive capability. (Undocumented,\nFLEAfpga mail from 13-Nov-2015)\nULX2S pinout was:\nTCK = DSR\nTMS = RI\nTDI = CTS\nTDO = DCD\n
@@ -730,6 +730,8 @@ Text GLabel 5000 2800 0    60   Input ~ 0
 FT2V5
 Text GLabel 5600 2500 1    60   Input ~ 0
 USB5V
-Text Notes 7800 2500 0    60   ~ 0
+Text Notes 7150 2500 0    60   ~ 0
 WIFI_GPIO15 v1.7
+Text GLabel 8650 2450 0    60   Input ~ 0
+WIFI_GPIO5
 $EndSCHEMATC
