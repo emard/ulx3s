@@ -294,7 +294,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2900 4550 3000
 Text GLabel 7550 3800 2    60   Input ~ 0
-WIFI_LED
+WIFI_GPIO17
 Wire Wire Line
 	4550 2950 5700 2950
 Text Label 5350 2950 0    60   ~ 0
@@ -319,7 +319,7 @@ WIFI_LED v1.7
 Text GLabel 7550 3700 2    60   Input ~ 0
 WIFI_GPIO5
 Text Notes 8150 3750 0    60   ~ 0
-WIFI_GPIO15 v1.7
+NC v1.7, LED v1.8
 Text Notes 8150 3850 0    60   ~ 0
 NC v1.7
 Text Notes 8150 4050 0    60   ~ 0

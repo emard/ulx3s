@@ -264,8 +264,10 @@ F 0 "U8" H 3250 5800 50  0000 L CNN
 F 1 "MAX11125" H 3100 5700 50  0000 L CNN
 F 2 "Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm" H 3300 4950 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf" H 3300 4950 50  0001 C CNN
-F 4 "MAX11125" H 3300 4900 60  0001 C CNN "MFG_PN"
-F 5 "www.mouser.com" H 3300 4900 60  0001 C CNN "Distributor1_URL"
+F 4 "www.maximintegrated.com" H 3300 4900 60  0001 C CNN "MFG_URL"
+F 5 "MAX11125ATI+" H 3300 4900 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3300 4900 60  0001 C CNN "Distributor1_URL"
+F 7 "700-MAX11125ATI+" H 3300 4900 60  0001 C CNN "Distributor1_PN"
 	1    3300 4900
 	1    0    0    -1  
 $EndComp

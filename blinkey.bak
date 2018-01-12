@@ -550,7 +550,7 @@ DIP switch connected to\nBANK0 on 'gpio' sheet
 Text Notes 8000 4550 0    60   ~ 0
 To fix issues with FT231XS rev A,B,C\nShort-circuit D18 LED, but then\nboard cannot keep awake by USB.\nchip rev D works properly\nSee TN140_FT231X Errata\n
 Text GLabel 5650 5850 2    60   Input ~ 0
-WIFI_LED
+WIFI_GPIO5
 $Comp
 L LED_ALT D22
 U 1 1 5A07AFD2

@@ -584,7 +584,7 @@ F 3 "http://www.keyelco.com/product-pdf.cfm?p=777" H 2700 3860 50  0001 C CNN
 F 4 "www.keyelco.com" H 2700 3800 60  0001 C CNN "MFG_URL"
 F 5 "3000" H 2700 3800 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 2700 3800 60  0001 C CNN "Distributor1_URL"
-F 7 "534-3000" H 2700 3800 60  0001 C CNN "Distributor1_PN"
+F 7 "534-3000TR" H 2700 3800 60  0001 C CNN "Distributor1_PN"
 	1    2700 3800
 	1    0    0    -1  
 $EndComp
