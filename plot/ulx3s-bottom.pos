@@ -1,4 +1,4 @@
-### Module positions - created on Thu Jan 11 13:34:19 2018 ###
+### Module positions - created on Fri Jan 12 15:50:36 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -87,7 +87,7 @@ R39       150                 R_0603_HandSoldering              2.7250     0.625
 R40       1.5k                R_0603_HandSoldering              2.8800     1.8700   90.0000  bottom
 R49       27                  R_0603_HandSoldering              0.7550     1.5250   90.0000  bottom
 R50       27                  R_0603_HandSoldering              0.6800     1.5250   90.0000  bottom
-R51       150                 R_0603_HandSoldering              2.3600     1.6100   90.0000  bottom
+R51       150                 R_0603_HandSoldering              2.4500     1.5500  180.0000  bottom
 R52       27                  R_0603_HandSoldering              3.1000     1.6250   90.0000  bottom
 R53       27                  R_0603_HandSoldering              3.0400     1.6250   90.0000  bottom
 R55       15k                 R_0603_HandSoldering              1.6000     0.5750  270.0000  bottom
@@ -102,8 +102,8 @@ RA3       15k                 R_0603_HandSoldering              2.3000     1.225
 RB1       18k                 R_0603_HandSoldering              2.5250     0.8000  270.0000  bottom
 RB2       4.7k                R_0603_HandSoldering              0.4750     1.0750   90.0000  bottom
 RB3       3.3k                R_0603_HandSoldering              2.4250     1.3250  270.0000  bottom
-U3        DIO6015             TSOT-25                           2.6250     0.8000    0.0000  bottom
-U4        LX7172              TSOT-25                           0.3750     1.0750  180.0000  bottom
+U3        TLV62569DBV         TSOT-25                           2.6250     0.8000    0.0000  bottom
+U4        TLV62569DBV         TSOT-25                           0.3750     1.0750  180.0000  bottom
 U5        TLV62569DBV         TSOT-25                           2.5250     1.3200    0.0000  bottom
 U6        FT231XS             SSOP-20_4.4x6.5mm_Pitch0.65mm     1.5250     0.2000  180.0000  bottom
 U7        PCF8523             SOT96-1                           3.3750     0.7250   90.0000  bottom
