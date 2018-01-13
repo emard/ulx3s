@@ -734,8 +734,8 @@ Text GLabel 5600 2500 1    60   Input ~ 0
 USB5V
 Text Notes 7150 2500 0    60   ~ 0
 WIFI_GPIO15 v1.7
-Text GLabel 8650 2450 0    60   Input ~ 0
-WIFI_GPIO5
 Text GLabel 8650 2150 0    60   Input ~ 0
+WIFI_GPIO5
+Text GLabel 8650 2450 0    60   Input ~ 0
 WIFI_GPIO17
 $EndSCHEMATC
