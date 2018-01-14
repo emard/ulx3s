@@ -112,8 +112,10 @@ near powered board.
 
 # Programming over USB
 
-Use ftx_prog to change product/manufacturer name of FT231X chip:
+Use ftx_prog to allow max USB power consumption of 500mA
+and change product/manufacturer name of FT231X chip:
 
+    ftx_prog --max-bus-power 500
     ftx_prog --manufacturer "FER-RADIONA-EMARD"
     ftx_prog --product "ULX3S FPGA 45K v1.7"
 
