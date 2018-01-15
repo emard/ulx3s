@@ -154,3 +154,4 @@ Test the prototype.
     [ ] Make BOM outputtable from PCB->Files->Fabrication Outputs->BOM file
     [ ] route 16-channel ADC
     [x] move 8 LEDs a bit down and right
+    [x] let SD_CLK go to FPGA clock capable pin: swap SD_CLK and SD_D2 pins 
