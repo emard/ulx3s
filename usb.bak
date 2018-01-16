@@ -354,11 +354,11 @@ Text GLabel 8650 1850 0    60   Input ~ 0
 SD_D0
 Text GLabel 10150 1750 2    60   Input ~ 0
 SD_D1
-Text GLabel 8650 1350 0    60   Input ~ 0
+Text GLabel 10150 1850 2    60   Input ~ 0
 SD_D2
 Text GLabel 8650 1750 0    60   Input ~ 0
 SD_D3
-Text GLabel 10150 1850 2    60   Input ~ 0
+Text GLabel 8650 1350 0    60   Input ~ 0
 SD_CLK
 Text GLabel 8650 1550 0    60   Input ~ 0
 SD_CMD
@@ -738,4 +738,8 @@ Text GLabel 8650 2150 0    60   Input ~ 0
 WIFI_GPIO5
 Text GLabel 8650 2450 0    60   Input ~ 0
 WIFI_GPIO17
+Text Notes 7500 1400 0    60   ~ 0
+SD_D2 v1.7
+Text Notes 10600 1900 0    60   ~ 0
+SD_CLK v1.7
 $EndSCHEMATC

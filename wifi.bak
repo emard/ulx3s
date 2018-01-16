@@ -147,7 +147,9 @@ $EndComp
 Text GLabel 4700 2550 2    60   Input ~ 0
 WIFI_EN
 Wire Wire Line
-	4550 2500 4550 2600
+	4550 2500 4550 2550
+Wire Wire Line
+	4550 2550 4550 2600
 Wire Wire Line
 	4550 2550 4700 2550
 Connection ~ 4550 2550
@@ -220,9 +222,9 @@ F 3 "" H 3650 3250 50  0000 C CNN
 	1    3650 3250
 	1    0    0    -1  
 $EndComp
-Text Notes 7350 4650 0    60   ~ 0
+Text Notes 5900 2050 0    60   ~ 0
 WiFi and SDcard connected to\nBANK6 on "usb" sheet
-Text Notes 8750 4200 0    60   ~ 0
+Text Notes 9250 4650 0    60   ~ 0
 Strapping pins\n(avoid using to avoid\nboot problems)\nGPIO0,2,4,5,12,15
 Text Notes 2750 5350 0    60   ~ 0
 ESP32 ADC capable pins\nGPIO36,39,34,35,32,33,25,26,27,\nGPIO14,12,13,15 - shared with HSPI/JTAG\nConnected to BANK7 on "gpio" sheet
@@ -292,7 +294,9 @@ $EndComp
 Wire Wire Line
 	6200 4500 6200 4900
 Wire Wire Line
-	4550 2900 4550 3000
+	4550 2900 4550 2950
+Wire Wire Line
+	4550 2950 4550 3000
 Text GLabel 7550 3800 2    60   Input ~ 0
 WIFI_GPIO17
 Wire Wire Line
@@ -300,28 +304,92 @@ Wire Wire Line
 Text Label 5350 2950 0    60   ~ 0
 WIFIEN
 Connection ~ 4550 2950
-Text Notes 1850 4500 0    60   ~ 0
+Text Notes 1350 4500 0    60   ~ 0
 GPIO12 probably should be held low at reset or disconnected\nother option is to burn flash voltage efuse for 3.3V operation\nfor GPIO2 and GPIO12 bootstrapping considerations, read\nhttps://github.com/espressif/esp-idf/tree/master/examples/storage/sd_card
-Text Notes 1850 4850 0    60   ~ 0
+Text Notes 1350 4800 0    60   ~ 0
 GPIO25,26 are DAC channels that can directly replay\naudio material over i2s bus
-Text Notes 1850 4000 0    60   ~ 0
+Text Notes 1350 4000 0    60   ~ 0
 SD card connected according to\nArduino->Examples->ESP32->SD_MMC_Test\nhttps://github.com/espressif/esp-idf/blob/\nmaster/examples/storage/sd_card/README.md\n
-Text Notes 4800 4000 0    60   ~ 0
+Text Notes 4500 4000 0    60   ~ 0
 GN10 v1.7
-Text Notes 4800 4100 0    60   ~ 0
+Text Notes 4550 4100 0    60   ~ 0
 GP9 v1.7
-Text Notes 6350 5300 1    60   ~ 0
+Text Notes 6350 5750 1    60   ~ 0
 GN9 v1.7
-Text Notes 7050 5750 1    60   ~ 0
+Text Notes 7050 6350 1    60   ~ 0
 WIFI_GPIO15 v1.7
-Text Notes 7150 5600 1    60   ~ 0
+Text Notes 7150 6200 1    60   ~ 0
 WIFI_LED v1.7
 Text GLabel 7550 3700 2    60   Input ~ 0
 WIFI_GPIO5
-Text Notes 8150 3750 0    60   ~ 0
+Text Notes 8550 3750 0    60   ~ 0
 NC v1.7, LED v1.8
-Text Notes 8150 3850 0    60   ~ 0
+Text Notes 8550 3850 0    60   ~ 0
 NC v1.7
-Text Notes 8150 4050 0    60   ~ 0
+Text Notes 8550 4050 0    60   ~ 0
 NC v1.7
+Wire Wire Line
+	7100 5200 7100 5300
+Wire Wire Line
+	7100 5300 8350 5300
+Wire Wire Line
+	8350 5300 8350 3700
+Wire Wire Line
+	8350 3700 8200 3700
+Text Label 7350 5300 0    60   ~ 0
+LED
+Wire Wire Line
+	6800 4550 6800 5050
+Wire Wire Line
+	6800 5050 7100 5050
+Wire Wire Line
+	7100 5050 7100 4900
+Wire Wire Line
+	6600 4550 6600 5150
+Wire Wire Line
+	6600 5150 7000 5150
+Wire Wire Line
+	7000 5150 7000 4950
+Wire Wire Line
+	6900 4550 6900 5500
+Wire Wire Line
+	6900 5500 8250 5500
+Wire Wire Line
+	8250 5500 8250 4000
+Wire Wire Line
+	8250 4000 7950 4000
+Wire Wire Line
+	6700 4550 6700 5300
+Wire Wire Line
+	6700 5300 5000 5300
+Wire Wire Line
+	5000 5300 5000 3950
+Wire Wire Line
+	5000 3950 5250 3950
+Wire Wire Line
+	6400 4550 6400 5200
+Wire Wire Line
+	6400 5200 5100 5200
+Wire Wire Line
+	5100 5200 5100 4050
+Wire Wire Line
+	5100 4050 5250 4050
+Wire Wire Line
+	6300 4900 6300 5100
+Wire Wire Line
+	6300 5100 6500 5100
+Wire Wire Line
+	6500 5100 6500 4550
+Wire Wire Line
+	7000 5200 7000 5400
+Wire Wire Line
+	7000 5400 8500 5400
+Wire Wire Line
+	8500 5400 8500 3800
+Wire Wire Line
+	8500 3800 8200 3800
+Text Label 7350 5400 0    60   ~ 0
+WIFI_GPIO17
+Text Notes 7350 5700 0    60   ~ 0
+LED and WIFI_GPIO17 to solder pads of\nPCB
 $EndSCHEMATC

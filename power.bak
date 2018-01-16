@@ -1959,4 +1959,6 @@ F 7 "595-TLV62569DBVR" H 8100 3100 60  0001 C CNN "Distributor1_PN"
 	1    8100 3100
 	1    0    0    -1  
 $EndComp
+Text Notes 7950 900  0    60   ~ 0
+Decoupling capacitors: see Lattice\nPower Decoupling and Bypass Filtering for Programmable Devices
 $EndSCHEMATC
