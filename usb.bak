@@ -38,8 +38,9 @@ LIBS:ESP32
 LIBS:ssd_13xx
 LIBS:ftdi
 LIBS:max1112x
-LIBS:mt48lc4m16a2tg
 LIBS:micro_sd_card_cd
+LIBS:mt48lc16m16a2tg
+LIBS:usb_otg
 LIBS:ulx3s-cache
 EELAYER 25 0
 EELAYER END
@@ -102,7 +103,7 @@ F 3 "" H 3200 2650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L USB_OTG-RESCUE-ulx3s US1
+L USB_OTG1 US1
 U 1 1 58D6C840
 P 1500 1900
 AR Path="/58D6C840" Ref="US1"  Part="1" 
@@ -118,7 +119,7 @@ F 6 "www.mouser.com" H 1500 1900 60  0001 C CNN "Distributor1_URL"
 	0    -1   1    0   
 $EndComp
 $Comp
-L USB_OTG-RESCUE-ulx3s US2
+L USB_OTG1 US2
 U 1 1 58D6C841
 P 1500 2850
 AR Path="/58D6C841" Ref="US2"  Part="1" 
