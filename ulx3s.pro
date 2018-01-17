@@ -1,4 +1,4 @@
-update=Sri 17 Sij 2018 13:24:50
+update=Sri 17 Sij 2018 13:37:48
 version=1
 last_client=kicad
 [pcbnew]
@@ -78,6 +78,5 @@ LibName36=footprints/esp32/ESP32
 LibName37=footprints/oled/ssd_13xx
 LibName38=footprints/usbserial/ftdi
 LibName39=footprints/adc/max1112x/max1112x
-LibName40=footprints/sdram/mt48lc4m16a2tg
-LibName41=footprints/micro-sd/micro_sd_card_cd
-LibName42=footprints/sdram/mt48lc16m16a2tg
+LibName40=footprints/micro-sd/micro_sd_card_cd
+LibName41=footprints/sdram/mt48lc16m16a2tg
