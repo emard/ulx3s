@@ -67,6 +67,7 @@ F 3 "http://www.cui.com/product/resource/sj-4351x-smt-series.pdf" H 2650 2200 50
 F 4 "www.cui.com" H 2550 2350 60  0001 C CNN "MFG_URL"
 F 5 "SJ-43516-SMT-TR" H 2550 2350 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 2550 2350 60  0001 C CNN "Distributor1_URL"
+F 7 "490-SJ-43516-SMT-TR " H 2550 2350 60  0001 C CNN "Distributor1_PN"
 	1    2550 2350
 	1    0    0    -1  
 $EndComp
