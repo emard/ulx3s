@@ -1,4 +1,4 @@
-### Module positions - created on Fri Jan 12 15:50:36 2018 ###
+### Module positions - created on Wed Jan 17 15:58:30 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -20,14 +20,25 @@ C13       2.2uF               C_0805_HandSoldering              3.1150     1.080
 C14       100nF               C_0603_HandSoldering              3.2000     1.4250  270.0000  bottom
 C15       22uF                C_0805_HandSoldering              0.4400     0.5200   90.0000  bottom
 C16       2.2uF               C_0805_HandSoldering              2.8900     0.9900   90.0000  bottom
-C17       2.2uF               C_0805_HandSoldering              1.7500     0.8100  270.0000  bottom
+C17       2.2uF               C_0805_HandSoldering              1.7480     0.8110  270.0000  bottom
 C18       470pF               C_0603_HandSoldering              2.2240     1.9000   90.0000  bottom
-C19       2.2uF               C_0805_HandSoldering              1.7500     1.2100   90.0000  bottom
-C20       2.2uF               C_0805_HandSoldering              1.7500     1.0100  270.0000  bottom
+C19       2.2uF               C_0805_HandSoldering              1.7480     1.2126   90.0000  bottom
+C20       2.2uF               C_0805_HandSoldering              1.7480     1.0079  270.0000  bottom
 C21       22uF                C_0805_HandSoldering              0.3000     0.5300  270.0000  bottom
 C22       2.2uF               C_0805_HandSoldering              2.4100     0.5400    0.0000  bottom
 C23       2.2uF               C_0805_HandSoldering              0.4900     0.8200  180.0000  bottom
 C24       2.2uF               C_0805_HandSoldering              2.2100     1.4700  180.0000  bottom
+C25       22nF                C_0603                            1.8425     1.0236  270.0000  bottom
+C26       22nF                C_0603                            1.6535     1.0236  270.0000  bottom
+C27       22nF                C_0603                            1.6850     0.8268  270.0000  bottom
+C28       22nF                C_0603                            1.8110     0.8268  270.0000  bottom
+C29       22nF                C_0603                            1.8898     0.8268  270.0000  bottom
+C30       22nF                C_0603                            1.6063     0.8346  270.0000  bottom
+C31       22nF                C_0603                            1.6535     0.9370    0.0000  bottom
+C32       22nF                C_0603                            1.8425     0.9370  180.0000  bottom
+C33       22nF                C_0603_HandSoldering              2.7638     1.1811    0.0000  bottom
+C34       22nF                C_0603_HandSoldering              2.4961     1.1811  180.0000  bottom
+C35       22nF                C_0603_HandSoldering              3.1890     0.6457  270.0000  bottom
 D8        STPS2L30AF          D_SMA_Handsoldering               0.7150     1.6700    0.0000  bottom
 D9        STPS2L30AF          D_SMA_Handsoldering               2.7800     1.5200  180.0000  bottom
 D10       1N4148              D_SOD-323_HandSoldering           3.0000     1.1000    0.0000  bottom
