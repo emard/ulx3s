@@ -40,6 +40,7 @@ LIBS:ftdi
 LIBS:max1112x
 LIBS:mt48lc4m16a2tg
 LIBS:micro_sd_card_cd
+LIBS:mt48lc16m16a2tg
 LIBS:ulx3s-cache
 EELAYER 25 0
 EELAYER END
