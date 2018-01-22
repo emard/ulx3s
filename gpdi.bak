@@ -343,13 +343,13 @@ Text GLabel 7000 2200 2    60   Input ~ 0
 GPDI_SDA
 Text GLabel 4000 2200 0    60   Input ~ 0
 GPDI_CEC
-Text GLabel 7000 2700 2    60   Input ~ 0
+Text GLabel 7000 2800 2    60   Input ~ 0
 GN22
 Text GLabel 7000 2400 2    60   Input ~ 0
 GN23
 Text GLabel 7000 2500 2    60   Input ~ 0
 GN24
-Text GLabel 7000 2800 2    60   Input ~ 0
+Text GLabel 7000 2900 2    60   Input ~ 0
 GN25
 Text GLabel 7000 3200 2    60   Input ~ 0
 GN26
@@ -363,9 +363,9 @@ Text GLabel 5500 2400 0    60   Input ~ 0
 GP23
 Text GLabel 5500 3200 0    60   Input ~ 0
 GP26
-Text GLabel 5500 2700 0    60   Input ~ 0
-GP22
 Text GLabel 5500 2800 0    60   Input ~ 0
+GP22
+Text GLabel 5500 2900 0    60   Input ~ 0
 GP25
 Wire Wire Line
 	1450 2000 1700 2000
@@ -494,4 +494,12 @@ Text Label 4450 2200 0    60   ~ 0
 FPGA_CEC
 Text Notes 800  5650 0    60   ~ 0
 i2c shared with RTC\non "power" sheet
+Text Notes 4450 2750 0    60   ~ 0
+GP22 v1.7
+Text Notes 7700 2750 0    60   ~ 0
+GN22 v1.7
+Text Notes 4450 2850 0    60   ~ 0
+GP25 v1.7
+Text Notes 7700 2850 0    60   ~ 0
+GN25 v1.7
 $EndSCHEMATC
