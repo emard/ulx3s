@@ -135,12 +135,10 @@ Test the prototype.
         it is connected to J1_27+ and wrong pullup/pulldown at boot
         will prevent ESP32 from booting
     [x] ESP-32: won't boot when SD connected. Don't solder it at PCB v1.7
-        it should be routed differently in newer release
-        Here is a possible SD card connection
+        It is routed differently in newer release
         Arduino->Examples->ESP32->SD_MMC_Test
         https://github.com/espressif/esp-idf/blob/master/examples/storage/sd_card/README.md
-        move blue LED from GPIO2 to GPIO17
-    [ ] SD card pullup pulldowns (do we need them if FPGA can pullup/pulldown)
+        moved blue LED from GPIO2 to GPIO5
     [x] I2C resistors increased 470->2.2k
     [ ] GPDI series C=100nF to each differential line.
     [x] reliable shutdown (D11=RED LED, R4=4.7k)
@@ -156,3 +154,4 @@ Test the prototype.
     [x] move 8 LEDs a bit down and right
     [x] let SD_CLK go to FPGA clock capable pin: swap SD_CLK and SD_D2 pins 
     [x] additional 2 differential lines for US2
+    [ ] clear silkscreen mess with Cx under FPGA
