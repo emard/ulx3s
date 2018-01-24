@@ -154,4 +154,5 @@ Test the prototype.
     [x] move 8 LEDs a bit down and right
     [x] let SD_CLK go to FPGA clock capable pin: swap SD_CLK and SD_D2 pins 
     [x] additional 2 differential lines for US2
+    [ ] additional US2 pins for pullup 1.5k and pulldown 15k
     [ ] clear silkscreen mess with Cx under FPGA
