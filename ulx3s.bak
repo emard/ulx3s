@@ -49,7 +49,7 @@ encoding utf-8
 Sheet 1 11
 Title "ULX3S"
 Date ""
-Rev "1.7.9"
+Rev "1.7.10"
 Comp "FER+RIZ+RADIONA"
 Comment1 "Root sheet"
 Comment2 ""

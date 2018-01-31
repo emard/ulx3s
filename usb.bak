@@ -750,4 +750,40 @@ Text Notes 7500 1400 0    60   ~ 0
 SD_D2 v1.7
 Text Notes 10600 1900 0    60   ~ 0
 SD_CLK v1.7
+Text GLabel 1700 4250 0    60   Input ~ 0
+USB_FPGA_PULL_D+
+Text GLabel 1700 4400 0    60   Input ~ 0
+USB_FPGA_PULL_D-
+$Comp
+L R R63
+U 1 1 5A71E38F
+P 1850 4250
+F 0 "R63" V 1930 4250 50  0000 C CNN
+F 1 "15k" V 1850 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1780 4250 50  0001 C CNN
+F 3 "" H 1850 4250 50  0000 C CNN
+	1    1850 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R64
+U 1 1 5A71E566
+P 1850 4400
+F 0 "R64" V 1930 4400 50  0000 C CNN
+F 1 "15k" V 1850 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1780 4400 50  0001 C CNN
+F 3 "" H 1850 4400 50  0000 C CNN
+	1    1850 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 4250 2350 4250
+Wire Wire Line
+	2000 4400 2350 4400
+Text Label 2050 4400 0    60   ~ 0
+FPD-
+Text Label 2050 4250 0    60   ~ 0
+FPD+
+Text Notes 750  4100 0    60   ~ 0
+USB pull lines connected to\nBANK0 on "gpio" sheet
 $EndSCHEMATC

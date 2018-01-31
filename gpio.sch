@@ -734,4 +734,12 @@ Text Notes 8350 5100 0    60   ~ 0
 26
 Text Notes 8350 5200 0    60   ~ 0
 27
+Text GLabel 4200 2200 0    60   Input ~ 0
+USB_FPGA_PULL_D+
+Text GLabel 5700 2200 2    60   Input ~ 0
+USB_FPGA_PULL_D-
+Text Notes 2800 2250 0    60   ~ 0
+NC v1.7
+Text Notes 6750 2250 0    60   ~ 0
+NC v1.7
 $EndSCHEMATC
