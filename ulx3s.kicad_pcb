@@ -3,7 +3,7 @@
   (general
     (links 757)
     (no_connects 0)
-    (area 93.949999 61.269999 188.230001 112.370001)
+    (area 71.010001 43.48 212.44 128.320001)
     (thickness 1.6)
     (drawings 473)
     (tracks 4728)
@@ -9509,7 +9509,7 @@
   (gr_text RTC (at 174.7 92.82) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "ULX3S v1.7.10" (at 138.55 75.898) (layer F.SilkS)
+  (gr_text "ULX3S v1.7.11" (at 138.55 75.898) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text FPGA (at 125.342 96.218) (layer F.SilkS)
