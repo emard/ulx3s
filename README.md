@@ -156,5 +156,6 @@ Test the prototype.
     [x] additional 2 differential lines for US2
     [x] additional US2 pins for pullup 1.5k
     [x] additional US2 pins for pull up-down 15k
-    [ ] unified US2 pullup/down: resistor-diode nework for pullup 1.5k and pulldown 15k
-    [ ] clear silkscreen mess with Cx under FPGA
+    [x] unified US2 pullup/down: resistor-diode nework for pullup 1.5k and pulldown 15k
+    [x] clear silkscreen mess with Cx under FPGA
+    [ ] Connect switching power supply jumpers
