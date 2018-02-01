@@ -159,3 +159,6 @@ Test the prototype.
     [x] unified US2 pullup/down: resistor-diode nework for pullup 1.5k and pulldown 15k
     [x] clear silkscreen mess with Cx under FPGA
     [ ] Connect switching power supply jumpers
+    [ ] every 1-2 seconds there are clicks at analog audio output
+    [ ] check voltage
+    [ ] check for output conflicts
