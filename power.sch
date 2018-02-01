@@ -112,21 +112,6 @@ F 3 "" H 7450 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L1
-U 1 1 58D59D36
-P 8950 2800
-F 0 "L1" V 8900 2800 50  0000 C CNN
-F 1 "2.2uH" V 9025 2800 50  0000 C CNN
-F 2 "Resistors_SMD:R_1210_HandSoldering" H 8950 2800 50  0001 C CNN
-F 3 "http://psearch.en.murata.com/inductor/product/DFE322512F-2R2M%23.pdf" H 8950 2800 50  0001 C CNN
-F 4 "www.murata.com" H 8950 2800 60  0001 C CNN "MFG_URL"
-F 5 "DFE322512F-2R2M=P2" H 8950 2800 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 8950 2800 60  0001 C CNN "Distributor1_URL"
-F 7 "81-DFE322512F-2R2MP2" H 8950 2800 60  0001 C CNN "Distributor1_PN"
-	1    8950 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
 L C C2
 U 1 1 58D5A146
 P 9150 3000
@@ -246,21 +231,6 @@ F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7488 5650 50  0001 C CNN
 F 3 "" H 7450 5800 50  0000 C CNN
 	1    7450 5800
 	1    0    0    -1  
-$EndComp
-$Comp
-L L L3
-U 1 1 58D62964
-P 8950 5200
-F 0 "L3" V 8900 5200 50  0000 C CNN
-F 1 "2.2uH" V 9025 5200 50  0000 C CNN
-F 2 "Resistors_SMD:R_1210_HandSoldering" H 8950 5200 50  0001 C CNN
-F 3 "http://www.bourns.com/docs/Product-Datasheets/srp2512a.pdf" H 8950 5200 50  0001 C CNN
-F 4 "www.bourns.com" H 8950 5200 60  0001 C CNN "MFG_URL"
-F 5 "SRP2512A-2R2M" H 8950 5200 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 8950 5200 60  0001 C CNN "Distributor1_URL"
-F 7 "652-SRP2512A-2R2M" H 8950 5200 60  0001 C CNN "Distributor1_PN"
-	1    8950 5200
-	0    -1   -1   0   
 $EndComp
 $Comp
 L C C6
@@ -1681,7 +1651,7 @@ L Jumper_NC_Small JP1
 U 1 1 59DFB08A
 P 10750 2800
 F 0 "JP1" H 10750 2880 50  0000 C CNN
-F 1 "1.2" H 10800 2750 50  0000 C CNN
+F 1 "1.1" H 10800 2750 50  0000 C CNN
 F 2 "jumper:SOLDER-JUMPER_1-WAY" H 10750 2800 50  0001 C CNN
 F 3 "" H 10750 2800 50  0001 C CNN
 F 4 "Do not install" H 10750 2800 60  0001 C CNN "Note"
@@ -2230,5 +2200,35 @@ F 2 "" H 5300 4300 50  0000 C CNN
 F 3 "" H 5300 4300 50  0000 C CNN
 	1    5300 4300
 	1    0    0    -1  
+$EndComp
+$Comp
+L L L1
+U 1 1 5A73C9EB
+P 8950 2800
+F 0 "L1" V 8900 2800 50  0000 C CNN
+F 1 "2.2uH" V 9025 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_1210_HandSoldering" H 8950 2800 50  0001 C CNN
+F 3 "http://psearch.en.murata.com/inductor/product/DFE252012PD-2R2M%23.pdf" H 8950 2800 50  0001 C CNN
+F 4 "www.murata.com" H 8950 2800 60  0001 C CNN "MFG_URL"
+F 5 "DFE252012P-2R2M=P2" H 8950 2800 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 8950 2800 60  0001 C CNN "Distributor1_URL"
+F 7 "652-SRP2512A-2R2M" H 8950 2800 60  0001 C CNN "Distributor1_PN"
+	1    8950 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L L3
+U 1 1 5A73CDB3
+P 8950 5200
+F 0 "L3" V 8900 5200 50  0000 C CNN
+F 1 "2.2uH" V 9025 5200 50  0000 C CNN
+F 2 "Resistors_SMD:R_1210_HandSoldering" H 8950 5200 50  0001 C CNN
+F 3 "http://psearch.en.murata.com/inductor/product/DFE252012PD-2R2M%23.pdf" H 8950 5200 50  0001 C CNN
+F 4 "www.murata.com" H 8950 5200 60  0001 C CNN "MFG_URL"
+F 5 "DFE252012P-2R2M=P2" H 8950 5200 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 8950 5200 60  0001 C CNN "Distributor1_URL"
+F 7 "652-SRP2512A-2R2M" H 8950 5200 60  0001 C CNN "Distributor1_PN"
+	1    8950 5200
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
