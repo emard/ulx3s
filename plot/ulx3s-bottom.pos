@@ -1,4 +1,4 @@
-### Module positions - created on Wed Jan 24 14:10:29 2018 ###
+### Module positions - created on Fri Feb  2 20:30:36 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -51,6 +51,10 @@ D16       1N4148              D_SOD-323_HandSoldering           2.9250     1.625
 D17       1N4148              D_SOD-323_HandSoldering           2.7750     1.6500  270.0000  bottom
 D20       3.6V                D_SOD-323_HandSoldering           2.9600     1.8300   90.0000  bottom
 D21       3.6V                D_SOD-323_HandSoldering           3.0550     1.8263   90.0000  bottom
+D23       BAT54W              D_SOD-323_HandSoldering           2.7500     1.7700    0.0000  bottom
+D24       BAT54W              D_SOD-323_HandSoldering           2.7500     1.8450  180.0000  bottom
+D25       BAT54W              D_SOD-323_HandSoldering           3.2050     1.6750   90.0000  bottom
+D26       BAT54W              D_SOD-323_HandSoldering           3.2800     1.6200  270.0000  bottom
 D51       STPS2L30AF          D_SMA_Handsoldering               2.4250     1.8000   90.0000  bottom
 D52       STPS2L30AF          D_SMA_Handsoldering               2.6000     1.8000  270.0000  bottom
 L1        2.2uH               R_1210_HandSoldering              2.5500     0.9500  180.0000  bottom
@@ -95,24 +99,30 @@ R34       15k                 R_0603_HandSoldering              0.3500     0.325
 R35       470                 R_0603_HandSoldering              0.3500     0.4000  180.0000  bottom
 R38       0.47                R_0603_HandSoldering              0.3700     0.5300   90.0000  bottom
 R39       150                 R_0603_HandSoldering              2.7250     0.6250  180.0000  bottom
-R40       1.5k                R_0603_HandSoldering              2.8800     1.8700   90.0000  bottom
+R40       1.5k                R_0603                            2.8900     1.8300    0.0000  bottom
 R49       27                  R_0603_HandSoldering              0.7550     1.5250   90.0000  bottom
 R50       27                  R_0603_HandSoldering              0.6800     1.5250   90.0000  bottom
 R51       150                 R_0603_HandSoldering              2.4500     1.5500  180.0000  bottom
 R52       27                  R_0603_HandSoldering              3.1000     1.6250   90.0000  bottom
 R53       27                  R_0603_HandSoldering              3.0400     1.6250   90.0000  bottom
+R54       1.5k                R_0603                            3.1300     1.8300    0.0000  bottom
 R55       15k                 R_0603_HandSoldering              1.6000     0.5750  270.0000  bottom
 R57       1.2k                R_0603_HandSoldering              0.9300     1.5300   90.0000  bottom
 R58       680                 R_0603_HandSoldering              0.9900     1.5300   90.0000  bottom
 R59       330                 R_0603_HandSoldering              1.0500     1.5300   90.0000  bottom
 R60       150                 R_0603_HandSoldering              1.1100     1.5300   90.0000  bottom
 R61       470                 R_0603_HandSoldering              1.9953     1.6661  180.0000  bottom
+R63       15k                 R_0603                            2.8900     1.7750    0.0000  bottom
+R64       15k                 R_0603                            3.1299     1.7756  180.0000  bottom
 RA1       15k                 R_0603_HandSoldering              2.3921     0.6528    0.0000  bottom
 RA2       15k                 R_0603_HandSoldering              0.6000     1.1750  180.0000  bottom
 RA3       15k                 R_0603_HandSoldering              2.3000     1.2250    0.0000  bottom
 RB1       18k                 R_0603_HandSoldering              2.5250     0.8000  270.0000  bottom
 RB2       4.7k                R_0603_HandSoldering              0.4750     1.0750   90.0000  bottom
 RB3       3.3k                R_0603_HandSoldering              2.4250     1.3250  270.0000  bottom
+RP1       0                   R_0603_HandSoldering              2.2950     0.5850  270.0000  bottom
+RP2       0                   R_0603_HandSoldering              0.6300     0.9300    0.0000  bottom
+RP3       0                   R_0603_HandSoldering              2.1800     1.3350  270.0000  bottom
 U3        TLV62569DBV         TSOT-25                           2.6250     0.8000    0.0000  bottom
 U4        TLV62569DBV         TSOT-25                           0.3750     1.0750  180.0000  bottom
 U5        TLV62569DBV         TSOT-25                           2.5250     1.3200    0.0000  bottom
