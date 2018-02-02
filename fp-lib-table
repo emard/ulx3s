@@ -26,5 +26,4 @@
   (lib (name SM8)(type KiCad)(uri "$(KIPRJMOD)/footprints/i2c/SM8.pretty")(options "")(descr ""))
   (lib (name SOA008-150mil)(type KiCad)(uri "$(KIPRJMOD)/footprints/flash/SOA008-150mil.pretty")(options "")(descr ""))
   (lib (name hrvatski_proizvod_veci)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/hrvatski_proizvod_veci.pretty")(options "")(descr ""))
-  (lib (name jumper_connected)(type KiCad)(uri "$(KIPRJMOD)/footprints/jumpers/jumper_connected.pretty")(options "")(descr ""))
 )
