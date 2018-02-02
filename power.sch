@@ -752,8 +752,9 @@ F 0 "Q2" H 3900 5400 50  0000 L CNN
 F 1 "2N7002" H 3800 5500 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4250 5400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data_sheet/2N7002.pdf" H 4050 5300 50  0001 C CNN
-F 4 "www.mouser.com" H 4050 5300 60  0001 C CNN "Distributor1_URL"
-F 5 "512-2N7002 " H 4050 5300 60  0001 C CNN "Distributor1_PN"
+F 4 "2N7002" H 4050 5300 60  0001 C CNN "MFG_PN"
+F 5 "www.mouser.com" H 4050 5300 60  0001 C CNN "Distributor1_URL"
+F 6 "512-2N7002 " H 4050 5300 60  0001 C CNN "Distributor1_PN"
 	1    4050 5300
 	1    0    0    -1  
 $EndComp
@@ -765,8 +766,9 @@ F 0 "Q1" H 3850 3350 50  0000 L CNN
 F 1 "BC857" H 3800 3650 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4200 3550 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf" H 4000 3450 50  0001 C CNN
-F 4 "www.mouser.com" H 4000 3450 60  0001 C CNN "Distributor1_URL"
-F 5 "771-BC857B-T/R" H 4000 3450 60  0001 C CNN "Distributor1_PN"
+F 4 "BC857" H 4000 3450 60  0001 C CNN "MFG_PN"
+F 5 "www.mouser.com" H 4000 3450 60  0001 C CNN "Distributor1_URL"
+F 6 "771-BC857B-T/R" H 4000 3450 60  0001 C CNN "Distributor1_PN"
 	1    4000 3450
 	1    0    0    1   
 $EndComp
@@ -1647,38 +1649,38 @@ Wire Wire Line
 	10900 4400 10900 4350
 Connection ~ 10550 4400
 $Comp
-L Jumper_NC_Small JP1
+L Jumper_NC_Small RP1
 U 1 1 59DFB08A
 P 10750 2800
-F 0 "JP1" H 10750 2880 50  0000 C CNN
-F 1 "1.1" H 10800 2750 50  0000 C CNN
-F 2 "jumper:SOLDER-JUMPER_1-WAY" H 10750 2800 50  0001 C CNN
+F 0 "RP1" H 10750 2880 50  0000 C CNN
+F 1 "0" H 10750 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 10750 2800 50  0001 C CNN
 F 3 "" H 10750 2800 50  0001 C CNN
-F 4 "Do not install" H 10750 2800 60  0001 C CNN "Note"
+F 4 "www.mouser.com" H 10750 2800 60  0001 C CNN "Distributor1_URL"
 	1    10750 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP2
+L Jumper_NC_Small RP2
 U 1 1 59DFB617
 P 10750 4000
-F 0 "JP2" H 10750 4080 50  0000 C CNN
-F 1 "2.5" H 10800 3950 50  0000 C CNN
-F 2 "jumper:SOLDER-JUMPER_1-WAY" H 10750 4000 50  0001 C CNN
+F 0 "RP2" H 10750 4080 50  0000 C CNN
+F 1 "0" H 10750 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 10750 4000 50  0001 C CNN
 F 3 "" H 10750 4000 50  0001 C CNN
-F 4 "Do not install" H 10750 4000 60  0001 C CNN "Note"
+F 4 "www.mouser.com" H 10750 4000 60  0001 C CNN "Distributor1_URL"
 	1    10750 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP3
+L Jumper_NC_Small RP3
 U 1 1 59DFBF34
 P 10750 5200
-F 0 "JP3" H 10750 5280 50  0000 C CNN
-F 1 "3.3" H 10800 5150 50  0000 C CNN
-F 2 "jumper:SOLDER-JUMPER_1-WAY" H 10750 5200 50  0001 C CNN
+F 0 "RP3" H 10750 5280 50  0000 C CNN
+F 1 "0" H 10750 5150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 10750 5200 50  0001 C CNN
 F 3 "" H 10750 5200 50  0001 C CNN
-F 4 "Do not install" H 10750 5200 60  0001 C CNN "Note"
+F 4 "www.mouser.com" H 10750 5200 60  0001 C CNN "Distributor1_URL"
 	1    10750 5200
 	1    0    0    -1  
 $EndComp
