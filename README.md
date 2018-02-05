@@ -163,3 +163,4 @@ Test the prototype.
     [ ] every 1-2 seconds there are clicks at analog audio output
     [ ] check voltage
     [ ] check for output conflicts
+    [ ] power decoupling capacitors for ESP32 and OLED
