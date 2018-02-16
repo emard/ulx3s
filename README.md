@@ -29,8 +29,12 @@ onboard FM/PSK antenna 88-433.92 MHz and 56 GPIO pins which
 are all routed as differential pairs and have pinout that
 is PMOD compatible.
 
-ULX3S should carry all digital logic projects for our research
-and education in next 5 years.
+ULX3S is sufficiently equipped to emulate 
+[Amiga](http://github.com/emard/Minimg_ECS) retro computer and
+run its games, but can do much more.
+
+ULX3S should carry all digital logic on our research, education and makerspace
+projects in next 5 years.
 
 Schematics and PCB are done in open source KiCAD PCB editor:
 
