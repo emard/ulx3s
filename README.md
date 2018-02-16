@@ -25,7 +25,7 @@ makerspace projects in next 5 years.
 
 ULX3S can do things no other board can.
 
-ULX3S is standalone gadget with onboard display, buttons,
+ULX3S is standalone embedable gadget with onboard display, buttons,
 storage, WiFi and compatible connectors.
 
 ULX3S can self-reflash with a bitstream sent
