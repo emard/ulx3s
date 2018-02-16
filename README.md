@@ -47,7 +47,7 @@ projects in next 5 years.
 
     kicad ulx3s.pro
 
-[PCB v1.7 is produced](/pic/ulx3st-real.jpg)
+[PCB v1.7](/pic/ulx3st-real.jpg) is produced.
 Important board features are tested and work like
 USB-JTAG, SDRAM, SDCARD, HDMI, FLASH, RTC, I2C, OLED, AUDIO, ADC, 433.92MHz
 US2 can be used to plug USB-PS/2 combo keyboard but US2 feature as USB 
