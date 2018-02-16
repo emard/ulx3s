@@ -20,6 +20,9 @@ good for our development on
 [f32c](http://github.com/f32c/f32c) SOC,
 it should be also good to other projects.
 
+ULX3S will carry all digital logic on our our research, education and 
+makerspace projects in next 5 years.
+
 ULX3S can do things no other board can.
 
 ULX3S can self-reflash with a bitstream sent
@@ -39,9 +42,6 @@ is PMOD compatible.
 ULX3S is sufficiently equipped to emulate 
 [Amiga](https://github.com/emard/Minimig_ECS) retro computer and
 run its games, but can do much more.
-
-ULX3S should carry all digital logic on our research, education and makerspace
-projects in next 5 years.
 
 [Schematics](/doc/schematics.pdf) and PCB are done in open source KiCAD PCB editor:
 
