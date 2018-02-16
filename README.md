@@ -35,7 +35,7 @@ battery backed RTC.
 ULX3S has rich range of chips and connectivity
 required for many other open source projects:
 SDRAM, USB, PS/2, SDCARD, HDMI, FLASH, RTC, I2C, OLED, AUDIO, ADC,
-onboard FM/PSK antenna 88-433.92 MHz and 56 GPIO pins which
+onboard FM/ASK antenna 88-433.92 MHz and 56 GPIO pins which
 are all routed as differential pairs and have pinout that
 is PMOD compatible.
 
