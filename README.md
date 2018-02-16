@@ -20,7 +20,7 @@ good for our development on
 [f32c](http://github.com/f32c/f32c) SOC,
 it should be also good to other projects.
 
-ULX3S will carry all digital logic on our our research, education and 
+ULX3S will carry all digital logic on our research, education and 
 makerspace projects in next 5 years.
 
 ULX3S is standalone embeddable gadget with onboard display, buttons,
