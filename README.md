@@ -1,34 +1,36 @@
 # ULX3S PCB
 
-This is a small (94x51 mm) standalone FPGA board 
-for research and general purpose, with a full 
-featured selection of chips which I all wanted on 
-a low-cost PCB, but haven't found on the market.
+ULX3S = University digital Logic Learning Xtensible
+board release 3 with SDRAM, Successor of
+[ULX2S](http://github.com/emard/ulx2s).
 
+This is a small (94x51 mm) standalone FPGA board 
+for education, research and general purpose, with a full 
+featured selection of chips which I all wanted on
+a low-cost PCB, but haven't found on the market.
 It's open source and open hardware because if it is
 good for my development on
 [F32C](http://github.com/f32c/f32c) SOC,
 it should be also good to other projects.
 
-ULX3S = University digital logic Learning eXtensible
-board release 3 with SDRAM, Successor of
-[ULX2S](http://github.com/emard/ulx2s).
+ULX3S can do things no other board can.
 
-It can do things no other board can.
-
-It can self-reflash with a bitstream sent
+ULX3S can self-reflash with a bitstream sent
 remotely from web interface over WiFi or from SD
 card browsed by onboard OLED display and buttons.
 
-It can completely power down and wakeup from
+ULX3S can completely power down and wakeup from
 battery backed RTC.
 
-Normally it has rich range of chips and connectivity
+ULX3S has rich range of chips and connectivity
 required for many other open source projects:
 SDRAM, USB, PS/2, SDCARD, HDMI, FLASH, RTC, I2C, OLED, AUDIO, ADC,
 onboard FM/PSK antenna 88-433.92 MHz and 56 GPIO pins which
 are all routed as differential pairs and have pinout that
 is PMOD compatible.
+
+ULX3S should carry all digital logic projects for our research
+and education in next 5 years.
 
 Schematics and PCB are done in open source KiCAD PCB editor:
 
