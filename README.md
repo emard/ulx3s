@@ -30,7 +30,7 @@ are all routed as differential pairs and have pinout that
 is PMOD compatible.
 
 ULX3S is sufficiently equipped to emulate 
-[Amiga](http://github.com/emard/Minimg_ECS) retro computer and
+[Amiga](https://github.com/emard/Minimig_ECS) retro computer and
 run its games, but can do much more.
 
 ULX3S should carry all digital logic on our research, education and makerspace
