@@ -4,6 +4,13 @@ ULX3S = University digital Logic Learning Xtensible
 board release 3 with SDRAM, Successor of
 [ULX2S](http://github.com/emard/ulx2s).
 
+3D preview
+
+![TOP](/pic/ulx3st.jpg)
+![BOTTOM](/pic/ulx3sb.jpg)
+
+[Manual](/doc/MANUAL.md).
+
 This is a small (94x51 mm) standalone FPGA board 
 for education, research and general purpose, with a full 
 featured selection of chips which I all wanted on
@@ -50,12 +57,6 @@ host/device is not tested.
 There are known issues, luckily most can be fixed by
 [Upgrading PCB v1.7](/doc/pcb-v1.7-upgrade.md).
 
-3D preview
-
-![TOP](/pic/ulx3st.jpg)
-![BOTTOM](/pic/ulx3sb.jpg)
-
-[Manual](/doc/MANUAL.md).
 
 # Features
 
