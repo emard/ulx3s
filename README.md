@@ -23,10 +23,10 @@ it should be also good to other projects.
 ULX3S will carry all digital logic on our our research, education and 
 makerspace projects in next 5 years.
 
-ULX3S can do things no other board can.
-
 ULX3S is standalone embeddable gadget with onboard display, buttons,
 storage, WiFi and compatible connectors.
+
+ULX3S can do things no other board can.
 
 ULX3S can self-reflash with a bitstream sent
 remotely from web interface over WiFi or from SD
