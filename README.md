@@ -43,11 +43,9 @@ run its games, but can do much more.
 ULX3S should carry all digital logic on our research, education and makerspace
 projects in next 5 years.
 
-Schematics and PCB are done in open source KiCAD PCB editor:
+[Schematics](/doc/schematics.pdf) and PCB are done in open source KiCAD PCB editor:
 
     kicad ulx3s.pro
-
-[Schematics](/doc/schematics.pdf) and is pretty close to final.
 
 [PCB v1.7 is produced](/pic/ulx3st-real.jpg)
 Important board features are tested and work like
