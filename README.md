@@ -106,7 +106,6 @@ Test the prototype.
 
     [x] Silkscreen Double outline for BGA chip
     [x] Silkscreen do not write over the solder pads
-    [ ] Silkscreen BGA names on ESP32 placeholder and 2.54 mm headers
     [x] Silkscreen JTAG signal names on 6-pin 2.54 mm header
     [x] Silkscreen remove OLED outline
     [x] Solder stop mask must go inbetween all SMD chip pads
@@ -141,7 +140,6 @@ Test the prototype.
     [x] move battery away from screw hole
     [x] top layer GND fill
     [x] R25 move away from oled screw hole
-    [ ] board cut off notches inisde for space saving
     [x] DIP switch to the right near RAM
     [x] Move HDMI a bit closer to OLED
     [x] 32768Hz oscillator footprint
@@ -175,7 +173,7 @@ Test the prototype.
         https://github.com/espressif/esp-idf/blob/master/examples/storage/sd_card/README.md
         moved blue LED from GPIO2 to GPIO5
     [x] I2C resistors increased 470->2.2k
-    [ ] GPDI series C=100nF to each differential line.
+    [x] GPDI AC-coupling 100nF to each differential line.
     [x] reliable shutdown (D11=RED LED, R4=4.7k)
     [x] SDRAM raster back to 0.8 mm
     [x] connect SPI Flash Quad Mode (QSPI)
@@ -193,9 +191,6 @@ Test the prototype.
     [x] additional US2 pins for pull up-down 15k
     [x] unified US2 pullup/down: resistor-diode nework for pullup 1.5k and pulldown 15k
     [x] clear silkscreen mess with Cx under FPGA
-    [ ] Connect switching power supply jumpers
+    [x] power decoupling capacitors for ESP32 and OLED
+    [x] Connect switching power supply jumpers
     [ ] every 1-2 seconds there are clicks at analog audio output
-    [ ] check voltage
-    [ ] check for output conflicts
-    [ ] power decoupling capacitors for ESP32 and OLED
-    [x] AC-coupling 100nF capacitors for GPDI
