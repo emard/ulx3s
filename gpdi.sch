@@ -148,9 +148,9 @@ F 3 "" H 2300 3700 50  0000 C CNN
 	1    2300 3700
 	0    1    1    0   
 $EndComp
-Text GLabel 1700 3800 2    60   Input ~ 0
+Text GLabel 2800 3800 2    60   Input ~ 0
 GPDI_ETH-
-Text GLabel 1700 3300 2    60   Input ~ 0
+Text GLabel 2800 3300 2    60   Input ~ 0
 GPDI_ETH+
 Text GLabel 1700 2000 2    60   Input ~ 0
 GPDI_D2+
@@ -396,13 +396,13 @@ Wire Wire Line
 Wire Wire Line
 	1450 3200 1700 3200
 Wire Wire Line
-	1450 3300 1700 3300
+	1450 3300 2500 3300
 Wire Wire Line
 	1450 3400 1700 3400
 Wire Wire Line
 	1450 3600 1500 3600
 Wire Wire Line
-	1450 3800 1700 3800
+	1450 3800 2500 3800
 Wire Wire Line
 	1450 3700 2300 3700
 Wire Wire Line
@@ -506,4 +506,26 @@ Text GLabel 5500 2700 0    60   Input ~ 0
 USB_FPGA_D+
 Text GLabel 7000 2700 2    60   Input ~ 0
 USB_FPGA_D-
+$Comp
+L C C36
+U 1 1 5A878883
+P 2650 3300
+F 0 "C36" H 2675 3400 50  0000 L CNN
+F 1 "100nF" H 2675 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2688 3150 50  0001 C CNN
+F 3 "" H 2650 3300 50  0000 C CNN
+	1    2650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L C C37
+U 1 1 5A878B40
+P 2650 3800
+F 0 "C37" H 2675 3900 50  0000 L CNN
+F 1 "100nF" H 2675 3700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2688 3650 50  0001 C CNN
+F 3 "" H 2650 3800 50  0000 C CNN
+	1    2650 3800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
