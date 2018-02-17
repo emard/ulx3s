@@ -542,9 +542,9 @@ F 3 "" H 2000 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2500 3150 2    60   Input ~ 0
-GPDI_SCL
+FPDI_SCL
 Text GLabel 2500 3250 2    60   Input ~ 0
-GPDI_SDA
+FPDI_SDA
 $Comp
 L Battery_Cell BAT1
 U 1 1 58D72202
