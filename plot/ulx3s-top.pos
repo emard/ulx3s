@@ -1,4 +1,4 @@
-### Module positions - created on Fri Feb  2 20:30:35 2018 ###
+### Module positions - created on Sat Feb 17 10:48:50 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -11,6 +11,16 @@ BTN3      PTS645             SW_SPST_PTS645                         2.6000     0
 BTN4      PTS645             SW_SPST_PTS645                         2.6000     0.1500  180.0000  top
 BTN5      PTS645             SW_SPST_PTS645                         2.1500     0.1500  180.0000  top
 BTN6      PTS645             SW_SPST_PTS645                         3.0500     0.1500  180.0000  top
+C36       100nF              C_0603                                 2.2150     1.4350   90.0000  top
+C37       100nF              C_0603                                 2.2700     1.4350   90.0000  top
+C38       100nF              C_0603                                 1.8150     1.4350   90.0000  top
+C39       100nF              C_0603                                 1.9250     1.4350   90.0000  top
+C40       100nF              C_0603                                 2.0350     1.4350   90.0000  top
+C41       100nF              C_0603                                 2.1600     1.4350   90.0000  top
+C42       100nF              C_0603                                 1.7600     1.4350   90.0000  top
+C43       100nF              C_0603                                 1.8700     1.4350   90.0000  top
+C44       100nF              C_0603                                 1.9800     1.4350   90.0000  top
+C45       100nF              C_0603                                 2.1050     1.4355   90.0000  top
 D0        RED                LED_0805                               1.0500     1.2750  270.0000  top
 D1        ORANGE             LED_0805                               0.9500     1.2750  270.0000  top
 D2        GREEN              LED_0805                               0.8500     1.2750  270.0000  top
