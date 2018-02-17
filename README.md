@@ -198,3 +198,5 @@ Test the prototype.
     [ ] check voltage
     [ ] check for output conflicts
     [ ] power decoupling capacitors for ESP32 and OLED
+    [ ] AC-coupling 100nF capacitors for GPDI
+        HPD line (HEAC-) may return 5V to FPGA!
