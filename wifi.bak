@@ -245,8 +245,6 @@ Text GLabel 5700 3650 0    60   Input ~ 0
 GP11
 Text GLabel 5700 3750 0    60   Input ~ 0
 GN11
-Text GLabel 5700 3850 0    60   Input ~ 0
-GP10
 Text GLabel 7550 3900 2    60   Input ~ 0
 WIFI_GPIO16
 $Comp
@@ -389,4 +387,6 @@ Text Label 7350 5400 0    60   ~ 0
 WIFI_GPIO17
 Text Notes 7350 5700 0    60   ~ 0
 LED and WIFI_GPIO17 to solder pads of\nPCB
+Text Notes 4500 3900 0    60   ~ 0
+GP10 v1.7
 $EndSCHEMATC
