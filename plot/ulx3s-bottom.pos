@@ -1,4 +1,4 @@
-### Module positions - created on Fri Feb 23 10:13:56 2018 ###
+### Module positions - created on Fri Feb 23 19:30:59 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -48,14 +48,14 @@ D12       BAT54W              D_SOD-323_HandSoldering           2.9500     1.275
 D13       1N4148              D_SOD-323_HandSoldering           3.0000     1.0400  180.0000  bottom
 D14       1N4148              D_SOD-323_HandSoldering           3.3500     1.4250   90.0000  bottom
 D15       BAT54W              D_SOD-323_HandSoldering           3.2750     1.4250  270.0000  bottom
-D16       1N4148              D_SOD-323_HandSoldering           2.9250     1.6250    0.0000  bottom
+D16       1N4148              D_SOD-323_HandSoldering           3.1550     1.5450    0.0000  bottom
 D17       1N4148              D_SOD-323_HandSoldering           2.7750     1.6500  270.0000  bottom
-D20       3.6V                D_SOD-323_HandSoldering           2.9600     1.8300   90.0000  bottom
-D21       3.6V                D_SOD-323_HandSoldering           3.0550     1.8263   90.0000  bottom
+D20       3.6V                D_SOD-323_HandSoldering           2.8900     1.7150  180.0000  bottom
+D21       3.6V                D_SOD-323_HandSoldering           3.1350     1.7150    0.0000  bottom
 D23       BAT54W              D_SOD-323_HandSoldering           2.7500     1.7700    0.0000  bottom
 D24       BAT54W              D_SOD-323_HandSoldering           2.7500     1.8450  180.0000  bottom
-D25       BAT54W              D_SOD-323_HandSoldering           3.2050     1.6750   90.0000  bottom
-D26       BAT54W              D_SOD-323_HandSoldering           3.2800     1.6200  270.0000  bottom
+D25       BAT54W              D_SOD-323_HandSoldering           3.2800     1.6200   90.0000  bottom
+D26       BAT54W              D_SOD-323_HandSoldering           3.3600     1.6200  270.0000  bottom
 D51       STPS2L30AF          D_SMA_Handsoldering               2.4250     1.8000   90.0000  bottom
 D52       STPS2L30AF          D_SMA_Handsoldering               2.6000     1.8000  270.0000  bottom
 L1        2.2uH               R_1210_HandSoldering              2.5500     0.9500  180.0000  bottom
@@ -104,8 +104,8 @@ R40       1.5k                R_0603                            2.8900     1.830
 R49       27                  R_0603_HandSoldering              0.7550     1.5250   90.0000  bottom
 R50       27                  R_0603_HandSoldering              0.6800     1.5250   90.0000  bottom
 R51       150                 R_0603_HandSoldering              2.4500     1.5500  180.0000  bottom
-R52       27                  R_0603_HandSoldering              3.1000     1.6250   90.0000  bottom
-R53       27                  R_0603_HandSoldering              3.0400     1.6250   90.0000  bottom
+R52       27                  R_0603_HandSoldering              3.0400     1.7817   90.0000  bottom
+R53       27                  R_0603_HandSoldering              2.9850     1.7817   90.0000  bottom
 R54       1.5k                R_0603                            3.1300     1.8300    0.0000  bottom
 R55       15k                 R_0603_HandSoldering              1.6000     0.5750  270.0000  bottom
 R57       1.2k                R_0603_HandSoldering              0.9300     1.5300   90.0000  bottom
