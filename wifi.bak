@@ -389,4 +389,7 @@ Text Notes 7350 5700 0    60   ~ 0
 LED and WIFI_GPIO17 to solder pads of\nPCB
 Text Notes 4500 3900 0    60   ~ 0
 GP10 v1.7
+NoConn ~ 5700 3850
+NoConn ~ 5700 3150
+NoConn ~ 5700 3050
 $EndSCHEMATC

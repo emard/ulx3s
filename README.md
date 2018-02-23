@@ -194,3 +194,4 @@ Test the prototype.
     [x] power decoupling capacitors for ESP32 and OLED
     [x] Connect switching power supply jumpers
     [ ] every 1-2 seconds there are clicks at analog audio output
+    [x] 3.6V zener diodes must be on FPGA side
