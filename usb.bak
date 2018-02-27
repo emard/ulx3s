@@ -754,10 +754,6 @@ Wire Wire Line
 	2400 4650 2750 4650
 Wire Wire Line
 	2400 5250 2750 5250
-Text Label 2450 5250 0    60   ~ 0
-FPD-
-Text Label 2450 4650 0    60   ~ 0
-FPD+
 Text Notes 650  4450 0    60   ~ 0
 USB pull lines connected to\nBANK0 on "gpio" sheet
 $Comp
@@ -832,4 +828,8 @@ Wire Wire Line
 	2600 2850 2600 2900
 Wire Wire Line
 	2700 2750 2700 2900
+Text GLabel 2750 4650 2    60   Input ~ 0
+USB_FPGA_D+
+Text GLabel 2750 5250 2    60   Input ~ 0
+USB_FPGA_D-
 $EndSCHEMATC
