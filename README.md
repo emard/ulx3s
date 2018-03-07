@@ -195,3 +195,5 @@ Test the prototype.
     [x] Connect switching power supply jumpers
     [ ] every 1-2 seconds there are clicks at analog audio output
     [x] 3.6V zener diodes must be on FPGA side
+    [ ] power output header: GND 1.1V 2.5V 3.3V 5V output
+    [ ] can esp32 second tx/rx port make serial communication with FPGA
