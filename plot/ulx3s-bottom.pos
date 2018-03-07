@@ -1,4 +1,4 @@
-### Module positions - created on Tue Feb 27 12:53:54 2018 ###
+### Module positions - created on Wed Mar  7 12:13:29 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -24,7 +24,7 @@ C17       2.2uF               C_0805_HandSoldering              1.7480     0.811
 C18       470pF               C_0603_HandSoldering              2.2240     1.9000   90.0000  bottom
 C19       2.2uF               C_0805_HandSoldering              1.7480     1.2126   90.0000  bottom
 C20       2.2uF               C_0805_HandSoldering              1.7480     1.0079  270.0000  bottom
-C21       22uF                C_0805_HandSoldering              0.3000     0.5300  270.0000  bottom
+C21       22uF                C_0805_HandSoldering              0.2950     0.5200  270.0000  bottom
 C22       2.2uF               C_0805_HandSoldering              2.4100     0.5400    0.0000  bottom
 C23       2.2uF               C_0805_HandSoldering              0.4900     0.8200  180.0000  bottom
 C24       2.2uF               C_0805_HandSoldering              2.2100     1.4700  180.0000  bottom
