@@ -125,7 +125,6 @@ Test the prototype.
     [x] Connect FPGA USB D+/D- with 1.5k pullup in USB 1.1 (full speed) mode
     [x] FPGA USB add 27 ohm + 3.6 V zener
     [x] Symmetrically place USB connectors left-right 
-    [ ] Jumpers to switch 2.5V/3.3V for left IO banks
     [x] External JTAG header
     [x] Move JTAG 2 mm left
     [x] Move WiFi Disable jumper closer to the BTN1 (angled header)
@@ -182,7 +181,6 @@ Test the prototype.
     [x] micro USB extended pads for Handsoldering (already were extended)
     [x] move 25MHz oscillator away from USB connector for handsoldering
     [x] schematics gpio J..+- pins renamed to gp/gn for easier readability
-    [ ] Make BOM outputtable from PCB->Files->Fabrication Outputs->BOM file
     [ ] route 16-channel ADC
     [x] move 8 LEDs a bit down and right
     [x] let SD_CLK go to FPGA clock capable pin: swap SD_CLK and SD_D2 pins 
@@ -196,4 +194,11 @@ Test the prototype.
     [ ] every 1-2 seconds there are clicks at analog audio output
     [x] 3.6V zener diodes must be on FPGA side
     [ ] power output header: GND 1.1V 2.5V 3.3V 5V output
-    [ ] can esp32 second tx/rx port make serial communication with FPGA
+    [x] can esp32 second tx/rx port make serial communication with FPGA
+    [ ] Jumpers to switch 2.5V/3.3V for left IO banks
+        isolate each PMOD group to each bank
+        move audio L0,R2 from gpio bank1 to usb bank6
+        move GP7,GP8 from gpio bank0 to gpio bank1
+        move usb pullup from gpio bank0 to usb bank6
+        then bank0 or bank1 voltage can be selected 2.5/3.3V  
+        add jumper headers for voltage selection, route to PMOD and VCCio0/1
