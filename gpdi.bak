@@ -329,7 +329,7 @@ Text GLabel 2850 2400 0    60   Input ~ 0
 FPDI_CLK+
 Text GLabel 2850 2200 0    60   Input ~ 0
 FPDI_ETH+
-Text GLabel 4350 3600 2    60   Input ~ 0
+Text GLabel 4350 3500 2    60   Input ~ 0
 FPDI_SCL
 Text GLabel 4350 2300 2    60   Input ~ 0
 FPDI_SDA
@@ -648,4 +648,10 @@ Text Label 8400 2100 2    60   ~ 0
 GPDI_D2+
 Text Label 8400 2300 2    60   ~ 0
 GPDI_D2-
+Text Notes 5400 3650 0    60   ~ 0
+FPDI SCL v1.7
+Text GLabel 2850 3600 0    60   Input ~ 0
+USB_FPGA_PULL_D+
+Text GLabel 4350 3600 2    60   Input ~ 0
+USB_FPGA_PULL_D-
 $EndSCHEMATC
