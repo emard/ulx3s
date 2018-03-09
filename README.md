@@ -199,6 +199,6 @@ Test the prototype.
         isolate each PMOD group to each bank
         move audio L0,R2 from gpio bank1 to usb bank6
         move GP7,GP8 from gpio bank0 to gpio bank1
-        move usb pullup from gpio bank0 to usb bank6
+        move usb pull from gpio bank0 to gpdi bank1 (D12 E12 B12 C12) or usb bank6
         then bank0 or bank1 voltage can be selected 2.5/3.3V  
         add jumper headers for voltage selection, route to PMOD and VCCio0/1
