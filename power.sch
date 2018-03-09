@@ -180,12 +180,12 @@ $EndComp
 $Comp
 L +3V3 #PWR034
 U 1 1 58D5CFDD
-P 4750 650
-F 0 "#PWR034" H 4750 500 50  0001 C CNN
-F 1 "+3V3" H 4750 790 50  0000 C CNN
-F 2 "" H 4750 650 50  0000 C CNN
-F 3 "" H 4750 650 50  0000 C CNN
-	1    4750 650 
+P 5350 650
+F 0 "#PWR034" H 5350 500 50  0001 C CNN
+F 1 "+3V3" H 5350 790 50  0000 C CNN
+F 2 "" H 5350 650 50  0000 C CNN
+F 3 "" H 5350 650 50  0000 C CNN
+	1    5350 650 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1179,14 +1179,12 @@ Wire Wire Line
 	7500 750  7500 850 
 Connection ~ 2550 750 
 Wire Wire Line
-	7400 750  7400 850 
+	7400 650  7400 850 
 Connection ~ 7400 750 
 Wire Wire Line
 	7300 750  7300 850 
-Connection ~ 7300 750 
 Wire Wire Line
 	7100 750  7100 850 
-Connection ~ 7100 750 
 Wire Wire Line
 	7000 650  7000 850 
 Connection ~ 7000 750 
@@ -1204,7 +1202,7 @@ Wire Wire Line
 	5450 750  5450 850 
 Connection ~ 5450 750 
 Wire Wire Line
-	5350 750  5350 850 
+	5350 650  5350 850 
 Connection ~ 5350 750 
 Wire Wire Line
 	5250 750  5250 850 
@@ -1214,7 +1212,6 @@ Wire Wire Line
 Connection ~ 5050 750 
 Wire Wire Line
 	4950 750  4950 850 
-Connection ~ 4950 750 
 Wire Wire Line
 	4750 650  4750 850 
 Connection ~ 4750 750 
@@ -1406,8 +1403,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 750  4450 750 
 Wire Wire Line
-	4650 750  5850 750 
-Wire Wire Line
 	4650 750  4650 850 
 Wire Wire Line
 	2000 3750 2000 3850
@@ -1492,12 +1487,9 @@ Wire Wire Line
 Wire Wire Line
 	3750 5300 3750 5400
 Wire Wire Line
-	6900 750  7800 750 
-Wire Wire Line
 	7800 750  7800 850 
-Connection ~ 7500 750 
 Wire Wire Line
-	7700 850  7700 750 
+	7700 650  7700 850 
 Connection ~ 7700 750 
 $Comp
 L +3V3 #PWR054
@@ -2232,5 +2224,48 @@ F 6 "www.mouser.com" H 8950 5200 60  0001 C CNN "Distributor1_URL"
 F 7 "652-SRP2512A-2R2M" H 8950 5200 60  0001 C CNN "Distributor1_PN"
 	1    8950 5200
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 750  5850 750 
+Wire Wire Line
+	4650 750  4750 750 
+$Comp
+L +3V3 #PWR?
+U 1 1 5AA288BE
+P 4750 650
+F 0 "#PWR?" H 4750 500 50  0001 C CNN
+F 1 "+3V3" H 4750 790 50  0000 C CNN
+F 2 "" H 4750 650 50  0001 C CNN
+F 3 "" H 4750 650 50  0001 C CNN
+	1    4750 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5AA28D56
+P 7700 650
+F 0 "#PWR?" H 7700 500 50  0001 C CNN
+F 1 "+3V3" H 7700 790 50  0000 C CNN
+F 2 "" H 7700 650 50  0001 C CNN
+F 3 "" H 7700 650 50  0001 C CNN
+	1    7700 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 750  7100 750 
+Wire Wire Line
+	7300 750  7500 750 
+Wire Wire Line
+	7700 750  7800 750 
+$Comp
+L +3V3 #PWR?
+U 1 1 5AA296F2
+P 7400 650
+F 0 "#PWR?" H 7400 500 50  0001 C CNN
+F 1 "+3V3" H 7400 790 50  0000 C CNN
+F 2 "" H 7400 650 50  0001 C CNN
+F 3 "" H 7400 650 50  0001 C CNN
+	1    7400 650 
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
