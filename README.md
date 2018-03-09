@@ -195,12 +195,13 @@ Test the prototype.
     [x] 3.6V zener diodes must be on FPGA side
     [ ] power output header: GND 1.1V 2.5V 3.3V 5V output
     [x] can esp32 second tx/rx port make serial communication with FPGA
-    [ ] Jumpers to switch 2.5V/3.3V for left IO banks
-        isolate each PMOD group to each bank
-        move audio L0,R2 from gpio bank7 to usb bank6
-        move GP7,GP8 from gpio bank0 to gpio bank7
-        move usb pull from gpio bank0 to gpdi bank1 (D12 E12 B12 C12) or usb bank6
-        then bank0 or bank7 voltage can be selected 2.5/3.3V  
-        add jumper headers for voltage selection, route to PMOD and VCCio0/7
-        make also selectable J1 all voltage 2.5V/3.3V
-        update bank decoupling capacitors
+    [x] Jumper to switch 2.5V/3.3V for left IO banks
+    [x] move usb pull from gpio bank0 to gpdi bank1
+    [ ] isolate each PMOD group to each io bank
+    [ ] move audio L0,R2 from gpio bank7 to usb bank6
+    [ ] move GP7,GP8 from gpio bank0 to gpio bank7
+    [ ] route selected voltage to VCCio0/7
+    [ ] route selected voltage to J1 PMOD instead of 3.3V fixed
+    [ ] bank0 decoupling capacitors
+    [ ] bank1 decoupling capacitors
+    [ ] bank6 decoupling capacitors
