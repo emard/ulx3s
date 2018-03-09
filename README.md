@@ -202,4 +202,5 @@ Test the prototype.
         move usb pull from gpio bank0 to gpdi bank1 (D12 E12 B12 C12) or usb bank6
         then bank0 or bank7 voltage can be selected 2.5/3.3V  
         add jumper headers for voltage selection, route to PMOD and VCCio0/7
+        make also selectable J1 all voltage 2.5V/3.3V
         update bank decoupling capacitors
