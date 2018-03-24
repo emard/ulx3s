@@ -201,3 +201,5 @@ Test the prototype.
     [x] route selected voltage to VCCio0/7
     [x] route selected voltage to J1 PMOD instead of 3.3V fixed
     [ ] more bank0,1,7 decoupling capacitors
+    [ ] Move Jumper 2.5V/3.3V deeper inside PCB (angled header)
+    [ ] Selected 2.5/3.3V to J1 header (instead fixed 3.3V)
