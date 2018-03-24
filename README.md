@@ -193,15 +193,11 @@ Test the prototype.
     [x] Connect switching power supply jumpers
     [ ] every 1-2 seconds there are clicks at analog audio output
     [x] 3.6V zener diodes must be on FPGA side
-    [ ] power output header: GND 1.1V 2.5V 3.3V 5V output
     [x] can esp32 second tx/rx port make serial communication with FPGA
     [x] Jumper to switch 2.5V/3.3V for left IO banks
     [x] move usb pull from gpio bank0 to gpdi bank1
-    [ ] isolate each PMOD group to each io bank
-    [ ] move audio L0,R2 from gpio bank7 to usb bank6
+    [x] isolate each PMOD group to each io bank
     [ ] move GP7,GP8 from gpio bank0 to gpio bank7
-    [ ] route selected voltage to VCCio0/7
-    [ ] route selected voltage to J1 PMOD instead of 3.3V fixed
-    [ ] bank0 decoupling capacitors
-    [ ] bank1 decoupling capacitors
-    [ ] bank6 decoupling capacitors
+    [x] route selected voltage to VCCio0/7
+    [x] route selected voltage to J1 PMOD instead of 3.3V fixed
+    [ ] more bank0,1,7 decoupling capacitors
