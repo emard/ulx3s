@@ -3,7 +3,6 @@
   (lib (name SMD_Packages)(type KiCad)(uri "$(KISYSMOD)/SMD_Packages.pretty")(options "")(descr ""))
   (lib (name lfe5bg381)(type KiCad)(uri "$(KIPRJMOD)/footprints/lattice/lfe5bg381.pretty")(options "")(descr ""))
   (lib (name ESP8266)(type KiCad)(uri "$(KIPRJMOD)/footprints/esp8266/ESP8266.pretty")(options "")(descr ""))
-  (lib (name micro-hdmi-d)(type KiCad)(uri "$(KIPRJMOD)/footprints/micro-hdmi-d/micro-hdmi-d.pretty")(options "")(descr ""))
   (lib (name micro-sd)(type KiCad)(uri "$(KIPRJMOD)/footprints/micro-sd/micro-sd.pretty")(options "")(descr ""))
   (lib (name usb_otg)(type KiCad)(uri "$(KIPRJMOD)/footprints/usb_otg/usb_otg.pretty")(options "")(descr ""))
   (lib (name TSOT-25)(type KiCad)(uri "$(KIPRJMOD)/footprints/dcdc_converter/TSOT-25.pretty")(options "")(descr ""))
