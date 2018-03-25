@@ -2245,7 +2245,7 @@ U 1 1 5AA2A24D
 P 1450 1550
 F 0 "J5" H 1450 1750 50  0000 C CNN
 F 1 "VJ1" H 1450 1350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1450 1550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 1450 1550 50  0001 C CNN
 F 3 "" H 1450 1550 50  0001 C CNN
 F 4 "www.mouser.com" H 1450 1550 60  0001 C CNN "Distributor1_URL"
 F 5 "Do not install" H 1450 1550 60  0001 C CNN "Note"
