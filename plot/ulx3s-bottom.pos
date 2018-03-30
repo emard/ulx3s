@@ -1,4 +1,4 @@
-### Module positions - created on Thu Mar 29 14:14:39 2018 ###
+### Module positions - created on Thu Mar 29 19:56:08 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -101,7 +101,7 @@ R30       4.7k                R_0603_HandSoldering              0.8500     1.250
 R31       10k                 R_0603_HandSoldering              1.9500     0.5500  180.0000  bottom
 R32       10k                 R_0603_HandSoldering              1.5250     0.5750   90.0000  bottom
 R33       10k                 R_0603_HandSoldering              1.4500     0.5750   90.0000  bottom
-R34       15k                 R_0603_HandSoldering              0.3500     0.3250    0.0000  bottom
+R34       15k                 R_0603_HandSoldering              0.3500     0.3315    0.0000  bottom
 R35       470                 R_0603_HandSoldering              0.3500     0.4000  180.0000  bottom
 R38       0.47                R_0603_HandSoldering              0.3700     0.5300   90.0000  bottom
 R39       150                 R_0603_HandSoldering              2.7250     0.6250  180.0000  bottom
