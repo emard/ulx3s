@@ -5,7 +5,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 4,,CONN_02X01,BTN0 BTN1 BTN2 BTN3 BTN4 BTN5 BTN6,PTS645,SW_SPST_PTS645,7,http://www.ckswitches.com/media/1471/pts645.pdf,,www.ckswitches.com,,PTS645SL50SMTR92 LFS,www.mouser.com,,,
 5,Unpolarized capacitor,C,C14 C36 C37 C38 C39 C40 C41 C42 C43 C44 C45,100nF,C_0603,11,,,,,,,,,
 6,Unpolarized capacitor,C,C13 C16 C17 C19 C20 C22 C23 C24 C46 C47,2.2uF,C_0805_HandSoldering,10,,,,,,,,,
-7,Unpolarized capacitor,C,C25 C26 C27 C28 C29 C30 C31 C32 C33 C34 C35 C48 C49 C50 C51 C52,22nF,C_0603,16,,,,,,,,,
+7,Unpolarized capacitor,C,C25 C26 C27 C28 C29 C30 C31 C32 C33 C34 C35 C48 C49 C50 C51 C52 C53,22nF,C_0603,17,,,,,,,,,
 8,Unpolarized capacitor,C,C1 C3 C4 C5 C7 C8 C9 C11 C12 C15 C21,22uF,C_0805_HandSoldering,11,,,,,,,,,
 9,Unpolarized capacitor,C,C2 C6 C10 C18,470pF,C_0603_HandSoldering,4,,,,,,,,,
 10,Diode,D,D10 D13 D14 D16 D17,1N4148,D_SOD-323_HandSoldering,5,,,,,,,,,
@@ -28,7 +28,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 27,Resistor,R,R56,0,R_0603_HandSoldering,1,,Do not install,,,,,,,
 28,Resistor,R,R38,0.47,R_0603_HandSoldering,1,,,,,,,,,
 29,Resistor,R,R14 R18 R57,1.2k,R_0603_HandSoldering,3,,,,,,,,,
-30,Resistor,R,R40 R54,1.5k,R_0603,2,,Do not install,,,,,,,
+30,Resistor,R,R40 R54,1.5k,R_0603,2,,,,,,,,,
 31,Resistor,R,R24,100k,R_0603_HandSoldering,1,,,,,,,,,
 32,Resistor,R,R11 R12 R27 R28 R31 R32 R33,10k,R_0603_HandSoldering,7,,,,,,,,,
 33,Resistor,R,R7 R10 R17 R21 R39 R51 R60,150,R_0603_HandSoldering,7,,,,,,,,,
@@ -67,12 +67,12 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 
 
 Component Groups:,62
-Component Count:,193
-Fitted Components:,193
+Component Count:,194
+Fitted Components:,194
 Number of PCBs:,1
-Total components:,193
-Schematic Version:,1.7.16
+Total components:,194
+Schematic Version:,1.8
 Schematic Date:,
-BoM Date:,"ponedjeljak, 02. travnja 2018. 15:49:35 CEST"
+BoM Date:,"ponedjeljak, 02. travnja 2018. 17:30:16 CEST"
 Schematic Source:,/home/davor/src/circuits/fpga/ulx3s/ulx3s.sch
 KiCad Version:,Eeschema 4.0.7+dfsg1-1
