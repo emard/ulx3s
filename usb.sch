@@ -591,7 +591,6 @@ F 0 "R54" V 2150 5450 50  0000 C CNN
 F 1 "1.5k" V 2250 5450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2180 5450 50  0001 C CNN
 F 3 "" H 2250 5450 50  0000 C CNN
-F 4 "Do not install" H 2250 5450 60  0001 C CNN "Note"
 	1    2250 5450
 	0    1    1    0   
 $EndComp
