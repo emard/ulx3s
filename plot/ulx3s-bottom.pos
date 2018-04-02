@@ -1,4 +1,4 @@
-### Module positions - created on Mon Apr  2 15:36:42 2018 ###
+### Module positions - created on Mon Apr  2 17:17:44 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7+dfsg1-1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -46,6 +46,7 @@ C49       22nF                C_0603                            0.3256     0.819
 C50       22nF                C_0603                            3.3856     1.0043   90.0000  bottom
 C51       22nF                C_0603                            3.3661     0.3293  180.0000  bottom
 C52       22nF                C_0603                            2.5756     0.6193  180.0000  bottom
+C53       22nF                C_0603                            1.5701     1.0244  180.0000  bottom
 D8        STPS2L30AF          D_SMA_Handsoldering               0.7150     1.6700    0.0000  bottom
 D9        STPS2L30AF          D_SMA_Handsoldering               2.7800     1.5200  180.0000  bottom
 D10       1N4148              D_SOD-323_HandSoldering           3.0000     1.1000    0.0000  bottom
