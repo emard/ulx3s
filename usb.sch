@@ -407,8 +407,8 @@ F 3 "" H 2250 4850 50  0000 C CNN
 	1    2250 4850
 	0    -1   -1   0   
 $EndComp
-Text Notes 1450 2550 0    60   ~ 0
-D+ pullp for \nfull speed \nmode USB1.1
+Text Notes 2750 5000 0    60   ~ 0
+D+ 1.5k pullp for \nfull speed device\nmode USB1.1
 Text GLabel 8650 1450 0    60   Input ~ 0
 CLK_25MHz
 $Comp
@@ -594,8 +594,8 @@ F 3 "" H 2250 5450 50  0000 C CNN
 	1    2250 5450
 	0    1    1    0   
 $EndComp
-Text Notes 2450 2550 0    60   ~ 0
-D- pullp for \nlow speed \nmode USB1.0 (placeholder)
+Text Notes 2750 5600 0    60   ~ 0
+D- 1.5k pullp for \nlow speed device\nmode USB1.0
 Text GLabel 8650 2350 0    60   Input ~ 0
 FTDI_TXDEN
 $Comp
@@ -831,4 +831,6 @@ Text GLabel 2750 4650 2    60   Input ~ 0
 USB_FPGA_D+
 Text GLabel 2750 5250 2    60   Input ~ 0
 USB_FPGA_D-
+Text Notes 2750 4550 0    60   ~ 0
+D+,D- 15k pulldown \nfor host mode
 $EndSCHEMATC
