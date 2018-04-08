@@ -9,7 +9,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 8,Unpolarized capacitor,C,C1 C3 C4 C5 C7 C8 C9 C11 C12 C15 C21,22uF,C_0805_HandSoldering,11,,,,,,,,,
 9,Unpolarized capacitor,C,C2 C6 C10 C18,470pF,C_0603_HandSoldering,4,,,,,,,,,
 10,Diode,D,D10 D13 D14 D16 D17,1N4148,D_SOD-323_HandSoldering,5,,,,,,,,,
-11,"Zener Diode, small symbol, alternativ symbol",D_Zener_Small_ALT,D20 D21,3.6V,D_SOD-323_HandSoldering,2,https://en.wikipedia.org/wiki/Zener_diode,,,,,,,,
+11,"Zener Diode, small symbol, alternativ symbol",D_Zener_Small_ALT,D20 D21,3.6V,D_SOD-323_HandSoldering,2,http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf,,http://www.taiwansemi.com/en,821-BZT52C3V6S,BZT52C3V6S,www.mouser.com,,,
 12,Schottky diode,D_Schottky,D12 D15 D23 D24 D25 D26,BAT54W,D_SOD-323_HandSoldering,6,,,,,,,,,
 13,"LED generic, alternativ symbol",LED_ALT,D3 D7 D22,BLUE,LED_0805,3,http://www.mouser.com/ds/2/239/Lite-On-LTST-C170TBKT-1175372.pdf,,www.liteon.com,859-LTST-C170TBKT,LTST-C170TBKT,www.mouser.com,,,
 14,"LED generic, alternativ symbol",LED_ALT,D2 D6 D18,GREEN,LED_0805,3,http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf,,www.lite-on.com,859-LTST-C170KGKT,LTST-C170KGKT,www.mouser.com,,,
@@ -73,6 +73,6 @@ Number of PCBs:,1
 Total components:,194
 Schematic Version:,1.8
 Schematic Date:,
-BoM Date:,"ponedjeljak, 02. travnja 2018. 17:30:16 CEST"
+BoM Date:,"nedjelja, 08. travnja 2018. 21:22:50 CEST"
 Schematic Source:,/home/davor/src/circuits/fpga/ulx3s/ulx3s.sch
 KiCad Version:,Eeschema 4.0.7+dfsg1-1
