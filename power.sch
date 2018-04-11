@@ -1,48 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ulx3s-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ESP8266
-LIBS:lfe5bg381
-LIBS:micro-hdmi-d
-LIBS:ap3429a
-LIBS:ft2232
-LIBS:ESP32
-LIBS:ssd_13xx
-LIBS:ftdi
-LIBS:max1112x
-LIBS:micro_sd_card_cd
-LIBS:mt48lc16m16a2tg
-LIBS:usb_otg
+EESchema Schematic File Version 4
 LIBS:ulx3s-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -57,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR45
+L power:GND #PWR45
 U 1 1 58D54769
 P 4950 2700
 F 0 "#PWR45" H 4950 2450 50  0001 C CNN
@@ -68,7 +26,7 @@ F 3 "" H 4950 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR72
+L power:GND #PWR72
 U 1 1 58D58A0B
 P 8050 3900
 F 0 "#PWR72" H 8050 3650 50  0001 C CNN
@@ -79,7 +37,7 @@ F 3 "" H 8050 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR65
+L power:+5V #PWR65
 U 1 1 58D58F93
 P 7400 3250
 F 0 "#PWR65" H 7400 3100 50  0001 C CNN
@@ -90,7 +48,7 @@ F 3 "" H 7400 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR66
+L power:GND #PWR66
 U 1 1 58D5989A
 P 7400 3900
 F 0 "#PWR66" H 7400 3650 50  0001 C CNN
@@ -101,9 +59,11 @@ F 3 "" H 7400 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L ulx3s-rescue:C C1
 U 1 1 58D598B7
 P 7400 3700
+AR Path="/58D598B7" Ref="C1"  Part="1" 
+AR Path="/58D51CAD/58D598B7" Ref="C1"  Part="1" 
 F 0 "C1" H 7425 3800 50  0000 L CNN
 F 1 "22uF" H 7425 3600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7438 3550 50  0001 C CNN
@@ -112,9 +72,11 @@ F 3 "" H 7400 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L ulx3s-rescue:C C2
 U 1 1 58D5A146
 P 9100 3300
+AR Path="/58D5A146" Ref="C2"  Part="1" 
+AR Path="/58D51CAD/58D5A146" Ref="C2"  Part="1" 
 F 0 "C2" H 9125 3400 50  0000 L CNN
 F 1 "470pF" H 9125 3200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9138 3150 50  0001 C CNN
@@ -123,9 +85,11 @@ F 3 "" H 9100 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R RA1
+L ulx3s-rescue:R RA1
 U 1 1 58D5A193
 P 9400 3300
+AR Path="/58D5A193" Ref="RA1"  Part="1" 
+AR Path="/58D51CAD/58D5A193" Ref="RA1"  Part="1" 
 F 0 "RA1" V 9480 3300 50  0000 C CNN
 F 1 "15k" V 9400 3300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9330 3300 50  0001 C CNN
@@ -134,9 +98,11 @@ F 3 "" H 9400 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R RB1
+L ulx3s-rescue:R RB1
 U 1 1 58D5A1E5
 P 9600 3500
+AR Path="/58D5A1E5" Ref="RB1"  Part="1" 
+AR Path="/58D51CAD/58D5A1E5" Ref="RB1"  Part="1" 
 F 0 "RB1" V 9680 3500 50  0000 C CNN
 F 1 "18k" V 9600 3500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9530 3500 50  0001 C CNN
@@ -145,7 +111,7 @@ F 3 "" H 9600 3500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR75
+L power:GND #PWR75
 U 1 1 58D5AE5E
 P 9800 3600
 F 0 "#PWR75" H 9800 3350 50  0001 C CNN
@@ -156,9 +122,11 @@ F 3 "" H 9800 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L ulx3s-rescue:C C3
 U 1 1 58D5AE64
 P 9800 3300
+AR Path="/58D5AE64" Ref="C3"  Part="1" 
+AR Path="/58D51CAD/58D5AE64" Ref="C3"  Part="1" 
 F 0 "C3" H 9825 3400 50  0000 L CNN
 F 1 "22uF" H 9825 3200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9838 3150 50  0001 C CNN
@@ -167,9 +135,11 @@ F 3 "" H 9800 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L ulx3s-rescue:C C4
 U 1 1 58D5AEB3
 P 10150 3300
+AR Path="/58D5AEB3" Ref="C4"  Part="1" 
+AR Path="/58D51CAD/58D5AEB3" Ref="C4"  Part="1" 
 F 0 "C4" H 10175 3400 50  0000 L CNN
 F 1 "22uF" H 10175 3200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10188 3150 50  0001 C CNN
@@ -178,7 +148,7 @@ F 3 "" H 10150 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR48
+L power:+3V3 #PWR48
 U 1 1 58D5CFDD
 P 5300 950
 F 0 "#PWR48" H 5300 800 50  0001 C CNN
@@ -189,7 +159,7 @@ F 3 "" H 5300 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR74
+L power:GND #PWR74
 U 1 1 58D6294C
 P 8050 6300
 F 0 "#PWR74" H 8050 6050 50  0001 C CNN
@@ -200,7 +170,7 @@ F 3 "" H 8050 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR69
+L power:+5V #PWR69
 U 1 1 58D62952
 P 7400 5650
 F 0 "#PWR69" H 7400 5500 50  0001 C CNN
@@ -211,7 +181,7 @@ F 3 "" H 7400 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR70
+L power:GND #PWR70
 U 1 1 58D62958
 P 7400 6300
 F 0 "#PWR70" H 7400 6050 50  0001 C CNN
@@ -222,9 +192,11 @@ F 3 "" H 7400 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L ulx3s-rescue:C C5
 U 1 1 58D6295E
 P 7400 6100
+AR Path="/58D6295E" Ref="C5"  Part="1" 
+AR Path="/58D51CAD/58D6295E" Ref="C5"  Part="1" 
 F 0 "C5" H 7425 6200 50  0000 L CNN
 F 1 "22uF" H 7425 6000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7438 5950 50  0001 C CNN
@@ -233,9 +205,11 @@ F 3 "" H 7400 6100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L ulx3s-rescue:C C6
 U 1 1 58D6296A
 P 9100 5700
+AR Path="/58D6296A" Ref="C6"  Part="1" 
+AR Path="/58D51CAD/58D6296A" Ref="C6"  Part="1" 
 F 0 "C6" H 9125 5800 50  0000 L CNN
 F 1 "470pF" H 9125 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9138 5550 50  0001 C CNN
@@ -244,9 +218,11 @@ F 3 "" H 9100 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R RA3
+L ulx3s-rescue:R RA3
 U 1 1 58D62970
 P 9400 5700
+AR Path="/58D62970" Ref="RA3"  Part="1" 
+AR Path="/58D51CAD/58D62970" Ref="RA3"  Part="1" 
 F 0 "RA3" V 9480 5700 50  0000 C CNN
 F 1 "15k" V 9400 5700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9330 5700 50  0001 C CNN
@@ -255,9 +231,11 @@ F 3 "" H 9400 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R RB3
+L ulx3s-rescue:R RB3
 U 1 1 58D62976
 P 9600 5900
+AR Path="/58D62976" Ref="RB3"  Part="1" 
+AR Path="/58D51CAD/58D62976" Ref="RB3"  Part="1" 
 F 0 "RB3" V 9680 5900 50  0000 C CNN
 F 1 "3.3k" V 9600 5900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9530 5900 50  0001 C CNN
@@ -266,7 +244,7 @@ F 3 "" H 9600 5900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR77
+L power:GND #PWR77
 U 1 1 58D62982
 P 9800 6000
 F 0 "#PWR77" H 9800 5750 50  0001 C CNN
@@ -277,9 +255,11 @@ F 3 "" H 9800 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L ulx3s-rescue:C C7
 U 1 1 58D62988
 P 9800 5700
+AR Path="/58D62988" Ref="C7"  Part="1" 
+AR Path="/58D51CAD/58D62988" Ref="C7"  Part="1" 
 F 0 "C7" H 9825 5800 50  0000 L CNN
 F 1 "22uF" H 9825 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9838 5550 50  0001 C CNN
@@ -288,9 +268,11 @@ F 3 "" H 9800 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L ulx3s-rescue:C C8
 U 1 1 58D6298E
 P 10150 5700
+AR Path="/58D6298E" Ref="C8"  Part="1" 
+AR Path="/58D51CAD/58D6298E" Ref="C8"  Part="1" 
 F 0 "C8" H 10175 5800 50  0000 L CNN
 F 1 "22uF" H 10175 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10188 5550 50  0001 C CNN
@@ -299,7 +281,7 @@ F 3 "" H 10150 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR80
+L power:+3V3 #PWR80
 U 1 1 58D62CE2
 P 10850 5450
 F 0 "#PWR80" H 10850 5300 50  0001 C CNN
@@ -312,7 +294,7 @@ $EndComp
 Text Notes 6250 3000 0    60   ~ 0
 voltage setting: 0.6V at FB pin\nVout = (RA/RB+1)*0.6V\n
 $Comp
-L AP3429A U5
+L ap3429a:AP3429A U5
 U 1 1 58D67BBA
 P 8050 5800
 F 0 "U5" H 8050 5950 60  0000 C CNN
@@ -327,7 +309,7 @@ F 7 "595-TLV62569DBVR" H 8050 5800 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR73
+L power:GND #PWR73
 U 1 1 58D67BC0
 P 8050 5100
 F 0 "#PWR73" H 8050 4850 50  0001 C CNN
@@ -338,7 +320,7 @@ F 3 "" H 8050 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR67
+L power:+5V #PWR67
 U 1 1 58D67BC6
 P 7400 4450
 F 0 "#PWR67" H 7400 4300 50  0001 C CNN
@@ -349,7 +331,7 @@ F 3 "" H 7400 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR68
+L power:GND #PWR68
 U 1 1 58D67BCC
 P 7400 5100
 F 0 "#PWR68" H 7400 4850 50  0001 C CNN
@@ -360,9 +342,11 @@ F 3 "" H 7400 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L ulx3s-rescue:C C9
 U 1 1 58D67BD2
 P 7400 4900
+AR Path="/58D67BD2" Ref="C9"  Part="1" 
+AR Path="/58D51CAD/58D67BD2" Ref="C9"  Part="1" 
 F 0 "C9" H 7425 5000 50  0000 L CNN
 F 1 "22uF" H 7425 4800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7438 4750 50  0001 C CNN
@@ -371,7 +355,7 @@ F 3 "" H 7400 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L2
+L ulx3s-rescue:L L2
 U 1 1 58D67BD8
 P 8900 4300
 F 0 "L2" V 8850 4300 50  0000 C CNN
@@ -386,9 +370,11 @@ F 7 "652-SRP2512A-2R2M" H 8900 4300 60  0001 C CNN "Distributor1_PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C10
+L ulx3s-rescue:C C10
 U 1 1 58D67BDE
 P 9100 4500
+AR Path="/58D67BDE" Ref="C10"  Part="1" 
+AR Path="/58D51CAD/58D67BDE" Ref="C10"  Part="1" 
 F 0 "C10" H 9125 4600 50  0000 L CNN
 F 1 "470pF" H 9125 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9138 4350 50  0001 C CNN
@@ -397,9 +383,11 @@ F 3 "" H 9100 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R RA2
+L ulx3s-rescue:R RA2
 U 1 1 58D67BE4
 P 9400 4500
+AR Path="/58D67BE4" Ref="RA2"  Part="1" 
+AR Path="/58D51CAD/58D67BE4" Ref="RA2"  Part="1" 
 F 0 "RA2" V 9480 4500 50  0000 C CNN
 F 1 "15k" V 9400 4500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9330 4500 50  0001 C CNN
@@ -408,9 +396,11 @@ F 3 "" H 9400 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R RB2
+L ulx3s-rescue:R RB2
 U 1 1 58D67BEA
 P 9600 4700
+AR Path="/58D67BEA" Ref="RB2"  Part="1" 
+AR Path="/58D51CAD/58D67BEA" Ref="RB2"  Part="1" 
 F 0 "RB2" V 9680 4700 50  0000 C CNN
 F 1 "4.7k" V 9600 4700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9530 4700 50  0001 C CNN
@@ -419,7 +409,7 @@ F 3 "" H 9600 4700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR76
+L power:GND #PWR76
 U 1 1 58D67BF0
 P 9800 4800
 F 0 "#PWR76" H 9800 4550 50  0001 C CNN
@@ -430,9 +420,11 @@ F 3 "" H 9800 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L ulx3s-rescue:C C11
 U 1 1 58D67BF6
 P 9800 4500
+AR Path="/58D67BF6" Ref="C11"  Part="1" 
+AR Path="/58D51CAD/58D67BF6" Ref="C11"  Part="1" 
 F 0 "C11" H 9825 4600 50  0000 L CNN
 F 1 "22uF" H 9825 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9838 4350 50  0001 C CNN
@@ -441,9 +433,11 @@ F 3 "" H 9800 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L ulx3s-rescue:C C12
 U 1 1 58D67BFC
 P 10150 4500
+AR Path="/58D67BFC" Ref="C12"  Part="1" 
+AR Path="/58D51CAD/58D67BFC" Ref="C12"  Part="1" 
 F 0 "C12" H 10175 4600 50  0000 L CNN
 F 1 "22uF" H 10175 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10188 4350 50  0001 C CNN
@@ -452,9 +446,11 @@ F 3 "" H 10150 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L ulx3s-rescue:R R1
 U 1 1 58D67C1D
 P 4300 4700
+AR Path="/58D67C1D" Ref="R1"  Part="1" 
+AR Path="/58D51CAD/58D67C1D" Ref="R1"  Part="1" 
 F 0 "R1" V 4380 4700 50  0000 C CNN
 F 1 "15k" V 4300 4700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4230 4700 50  0001 C CNN
@@ -463,7 +459,7 @@ F 3 "" H 4300 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +2V5 #PWR79
+L power:+2V5 #PWR79
 U 1 1 58D681D4
 P 10850 4250
 F 0 "#PWR79" H 10850 4100 50  0001 C CNN
@@ -494,7 +490,7 @@ FB3
 Text Label 8800 4700 0    60   ~ 0
 FB2
 $Comp
-L +2V5 #PWR40
+L power:+2V5 #PWR40
 U 1 1 58D68750
 P 4200 950
 F 0 "#PWR40" H 4200 800 50  0001 C CNN
@@ -505,7 +501,7 @@ F 3 "" H 4200 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR64
+L power:+3V3 #PWR64
 U 1 1 58D69259
 P 6950 950
 F 0 "#PWR64" H 6950 800 50  0001 C CNN
@@ -516,9 +512,11 @@ F 3 "" H 6950 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCF8563 U7
+L ulx3s-rescue:PCF8563 U7
 U 1 1 58D70684
 P 1950 3650
+AR Path="/58D70684" Ref="U7"  Part="1" 
+AR Path="/58D51CAD/58D70684" Ref="U7"  Part="1" 
 F 0 "U7" H 1650 4000 50  0000 L CNN
 F 1 "PCF8523" H 2050 4000 50  0000 L CNN
 F 2 "SOT96-1:SOT96-1" H 1950 3650 50  0001 C CNN
@@ -531,7 +529,7 @@ F 7 "https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf" H 1950 3650 60  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR28
+L power:GND #PWR28
 U 1 1 58D7085C
 P 1950 4150
 F 0 "#PWR28" H 1950 3900 50  0001 C CNN
@@ -546,9 +544,11 @@ FPDI_SCL
 Text GLabel 2450 3550 2    60   Input ~ 0
 FPDI_SDA
 $Comp
-L Battery_Cell BAT1
+L ulx3s-rescue:Battery_Cell BAT1
 U 1 1 58D72202
 P 2650 4100
+AR Path="/58D72202" Ref="BAT1"  Part="1" 
+AR Path="/58D51CAD/58D72202" Ref="BAT1"  Part="1" 
 F 0 "BAT1" H 2350 4200 50  0000 L CNN
 F 1 "CR1225" H 2250 4100 50  0000 L CNN
 F 2 "Keystone_3000_2.5x12.5mm-CoinCell:Keystone_3000_1x12mm-CoinCell" V 2650 4160 50  0001 C CNN
@@ -561,7 +561,7 @@ F 7 "534-3000TR" H 2650 4100 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR26
+L power:GND #PWR26
 U 1 1 58D72406
 P 1900 4600
 F 0 "#PWR26" H 1900 4350 50  0001 C CNN
@@ -576,7 +576,7 @@ VBAT
 Text Notes 6250 3350 0    60   ~ 0
 PWREN\nabove +1.5V turns ON\nbelow +0.4V turns OFF
 $Comp
-L D D10
+L ulx3s-rescue:D D10
 U 1 1 58D79CB5
 P 4300 4250
 F 0 "D10" H 4300 4350 50  0000 C CNN
@@ -587,9 +587,11 @@ F 3 "" H 4300 4250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C13
+L ulx3s-rescue:C C13
 U 1 1 58D7A3F0
 P 4300 3750
+AR Path="/58D7A3F0" Ref="C13"  Part="1" 
+AR Path="/58D51CAD/58D7A3F0" Ref="C13"  Part="1" 
 F 0 "C13" H 4325 3850 50  0000 L CNN
 F 1 "2.2uF" H 4325 3650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4338 3600 50  0001 C CNN
@@ -598,9 +600,11 @@ F 3 "" H 4300 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L ulx3s-rescue:R R2
 U 1 1 58D7BDD9
 P 4300 5600
+AR Path="/58D7BDD9" Ref="R2"  Part="1" 
+AR Path="/58D51CAD/58D7BDD9" Ref="R2"  Part="1" 
 F 0 "R2" V 4380 5600 50  0000 C CNN
 F 1 "47k" V 4300 5600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4230 5600 50  0001 C CNN
@@ -609,7 +613,7 @@ F 3 "" H 4300 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR42
+L power:GND #PWR42
 U 1 1 58D7C223
 P 4300 6200
 F 0 "#PWR42" H 4300 5950 50  0001 C CNN
@@ -620,9 +624,11 @@ F 3 "" H 4300 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L ulx3s-rescue:R R4
 U 1 1 58D7CBD5
 P 4850 4700
+AR Path="/58D7CBD5" Ref="R4"  Part="1" 
+AR Path="/58D51CAD/58D7CBD5" Ref="R4"  Part="1" 
 F 0 "R4" V 4930 4700 50  0000 C CNN
 F 1 "4.7k" V 4850 4700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4780 4700 50  0001 C CNN
@@ -631,9 +637,11 @@ F 3 "" H 4850 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_ALT D11
+L ulx3s-rescue:LED_ALT D11
 U 1 1 58D7CBDC
 P 4850 4200
+AR Path="/58D7CBDC" Ref="D11"  Part="1" 
+AR Path="/58D51CAD/58D7CBDC" Ref="D11"  Part="1" 
 F 0 "D11" H 4850 4300 50  0000 C CNN
 F 1 "RED" H 4850 4100 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 4850 4200 50  0001 C CNN
@@ -646,9 +654,11 @@ WAKEUPn\nopen drain \nactive low
 Text Label 2400 3750 0    60   ~ 0
 WAKEUPn
 $Comp
-L C C14
+L ulx3s-rescue:C C14
 U 1 1 58D84952
 P 3700 5850
+AR Path="/58D84952" Ref="C14"  Part="1" 
+AR Path="/58D51CAD/58D84952" Ref="C14"  Part="1" 
 F 0 "C14" H 3725 5950 50  0000 L CNN
 F 1 "100nF" H 3725 5750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3738 5700 50  0001 C CNN
@@ -657,7 +667,7 @@ F 3 "" H 3700 5850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky D15
+L ulx3s-rescue:D_Schottky D15
 U 1 1 58D84D8A
 P 3100 5600
 F 0 "D15" H 3100 5700 50  0000 C CNN
@@ -668,9 +678,11 @@ F 3 "" H 3100 5600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R5
+L ulx3s-rescue:R R5
 U 1 1 58D85B68
 P 3400 5850
+AR Path="/58D85B68" Ref="R5"  Part="1" 
+AR Path="/58D51CAD/58D85B68" Ref="R5"  Part="1" 
 F 0 "R5" V 3480 5850 50  0000 C CNN
 F 1 "4.7M" V 3400 5850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3330 5850 50  0001 C CNN
@@ -689,9 +701,11 @@ HOLD
 Text Label 3450 5600 0    60   ~ 0
 SHUT
 $Comp
-L R R6
+L ulx3s-rescue:R R6
 U 1 1 58D7B291
 P 3400 3750
+AR Path="/58D7B291" Ref="R6"  Part="1" 
+AR Path="/58D51CAD/58D7B291" Ref="R6"  Part="1" 
 F 0 "R6" V 3480 3750 50  0000 C CNN
 F 1 "1k" V 3400 3750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3330 3750 50  0001 C CNN
@@ -702,7 +716,7 @@ $EndComp
 Text Label 3550 3750 0    60   ~ 0
 WKn
 $Comp
-L D_Schottky D12
+L ulx3s-rescue:D_Schottky D12
 U 1 1 58D7BC4A
 P 3800 4950
 F 0 "D12" H 3800 5050 50  0000 C CNN
@@ -713,9 +727,11 @@ F 3 "" H 3800 4950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R8
+L ulx3s-rescue:R R8
 U 1 1 58D8111E
 P 4100 5200
+AR Path="/58D8111E" Ref="R8"  Part="1" 
+AR Path="/58D51CAD/58D8111E" Ref="R8"  Part="1" 
 F 0 "R8" V 4180 5200 50  0000 C CNN
 F 1 "1k" V 4100 5200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4030 5200 50  0001 C CNN
@@ -724,7 +740,7 @@ F 3 "" H 4100 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_GND23 Y2
+L ulx3s-rescue:Crystal_GND23 Y2
 U 1 1 58D85AAB
 P 900 3650
 F 0 "Y2" V 750 3450 50  0000 L CNN
@@ -745,9 +761,11 @@ OSCI_32k
 Text Label 1050 3850 0    60   ~ 0
 OSCO_32k
 $Comp
-L Q_NMOS_GSD Q2
+L ulx3s-rescue:Q_NMOS_GSD Q2
 U 1 1 58D883BD
 P 4000 5600
+AR Path="/58D883BD" Ref="Q2"  Part="1" 
+AR Path="/58D51CAD/58D883BD" Ref="Q2"  Part="1" 
 F 0 "Q2" H 3850 5700 50  0000 L CNN
 F 1 "2N7002" H 3750 5800 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4200 5700 50  0001 C CNN
@@ -759,9 +777,11 @@ F 6 "512-2N7002 " H 4000 5600 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_PNP_BEC Q1
+L ulx3s-rescue:Q_PNP_BEC Q1
 U 1 1 58D89315
 P 3950 3750
+AR Path="/58D89315" Ref="Q1"  Part="1" 
+AR Path="/58D51CAD/58D89315" Ref="Q1"  Part="1" 
 F 0 "Q1" H 3800 3650 50  0000 L CNN
 F 1 "BC857" H 3750 3950 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4150 3850 50  0001 C CNN
@@ -773,9 +793,11 @@ F 6 "771-BC857B-T/R" H 3950 3750 60  0001 C CNN "Distributor1_PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L R R13
+L ulx3s-rescue:R R13
 U 1 1 58DA1F4D
 P 2850 5850
+AR Path="/58DA1F4D" Ref="R13"  Part="1" 
+AR Path="/58D51CAD/58DA1F4D" Ref="R13"  Part="1" 
 F 0 "R13" V 2930 5850 50  0000 C CNN
 F 1 "15k" V 2850 5850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2780 5850 50  0001 C CNN
@@ -784,7 +806,7 @@ F 3 "" H 2850 5850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D13
+L ulx3s-rescue:D D13
 U 1 1 58DA2DA9
 P 4050 4250
 F 0 "D13" H 4050 4350 50  0000 C CNN
@@ -795,7 +817,7 @@ F 3 "" H 4050 4250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR39
+L power:GND #PWR39
 U 1 1 58DA2E46
 P 4050 4400
 F 0 "#PWR39" H 4050 4150 50  0001 C CNN
@@ -806,7 +828,7 @@ F 3 "" H 4050 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR41
+L power:+5V #PWR41
 U 1 1 58D67C25
 P 4300 3400
 F 0 "#PWR41" H 4300 3250 50  0001 C CNN
@@ -819,7 +841,7 @@ $EndComp
 Text Notes 3450 4750 0    60   ~ 0
 D13 discharges\nC13 at shutdown
 $Comp
-L D D14
+L ulx3s-rescue:D D14
 U 1 1 58DA55D7
 P 3400 5400
 F 0 "D14" H 3400 5500 50  0000 C CNN
@@ -830,7 +852,7 @@ F 3 "" H 3400 5400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR33
+L power:+3V3 #PWR33
 U 1 1 58DA569C
 P 3400 5250
 F 0 "#PWR33" H 3400 5100 50  0001 C CNN
@@ -845,9 +867,11 @@ D14 discharges\nC14 at shutdown
 Text GLabel 2700 5600 0    60   Input ~ 0
 SHUTDOWN
 $Comp
-L R R3
+L ulx3s-rescue:R R3
 U 1 1 58E810CC
 P 3150 4400
+AR Path="/58E810CC" Ref="R3"  Part="1" 
+AR Path="/58D51CAD/58E810CC" Ref="R3"  Part="1" 
 F 0 "R3" V 3250 4400 50  0000 C CNN
 F 1 "4.7k" V 3150 4400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3080 4400 50  0001 C CNN
@@ -856,7 +880,7 @@ F 3 "" H 3150 4400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D16
+L ulx3s-rescue:D D16
 U 1 1 58E813AE
 P 2900 3950
 F 0 "D16" H 2900 4050 50  0000 C CNN
@@ -867,7 +891,7 @@ F 3 "" H 2900 3950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR32
+L power:+5V #PWR32
 U 1 1 58E82A7E
 P 3300 4400
 F 0 "#PWR32" H 3300 4250 50  0001 C CNN
@@ -878,7 +902,7 @@ F 3 "" H 3300 4400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D17
+L ulx3s-rescue:D D17
 U 1 1 58E82B1D
 P 3150 4150
 F 0 "D17" H 3150 4050 50  0000 C CNN
@@ -891,7 +915,7 @@ $EndComp
 Text GLabel 3300 4150 2    60   Input ~ 0
 BTN_PWRn
 $Comp
-L CONN_02X01 BTN0
+L micro-hdmi-d:CONN_02X01 BTN0
 U 1 1 58E83FE0
 P 2150 4600
 F 0 "BTN0" H 2150 4700 50  0000 C CNN
@@ -905,13 +929,13 @@ F 6 "www.mouser.com" H 2150 4600 60  0001 C CNN "Distributor1_URL"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2350 2600 10750 2600
+	2350 2600 2450 2600
 Wire Wire Line
 	2000 1050 2000 1150
 Wire Wire Line
 	2500 1050 2500 1150
 Wire Wire Line
-	2100 950  2100 1150
+	2100 950  2100 1050
 Connection ~ 2100 1050
 Wire Wire Line
 	2200 1050 2200 1150
@@ -1000,7 +1024,7 @@ Wire Wire Line
 	4850 2500 4850 2600
 Connection ~ 4850 2600
 Wire Wire Line
-	4950 2500 4950 2700
+	4950 2500 4950 2600
 Connection ~ 4950 2600
 Wire Wire Line
 	5050 2500 5050 2600
@@ -1179,14 +1203,14 @@ Wire Wire Line
 	7450 1050 7450 1150
 Connection ~ 2500 1050
 Wire Wire Line
-	7350 950  7350 1150
+	7350 950  7350 1050
 Connection ~ 7350 1050
 Wire Wire Line
 	7250 1050 7250 1150
 Wire Wire Line
 	7050 1050 7050 1150
 Wire Wire Line
-	6950 950  6950 1150
+	6950 950  6950 1050
 Connection ~ 6950 1050
 Wire Wire Line
 	6850 1050 6850 1150
@@ -1202,7 +1226,7 @@ Wire Wire Line
 	5400 1050 5400 1150
 Connection ~ 5400 1050
 Wire Wire Line
-	5300 950  5300 1150
+	5300 950  5300 1050
 Connection ~ 5300 1050
 Wire Wire Line
 	5200 1050 5200 1150
@@ -1213,7 +1237,7 @@ Connection ~ 5000 1050
 Wire Wire Line
 	4900 1050 4900 1150
 Wire Wire Line
-	4700 950  4700 1150
+	4700 950  4700 1050
 Connection ~ 4700 1050
 Wire Wire Line
 	4400 1050 4400 1150
@@ -1221,7 +1245,7 @@ Wire Wire Line
 	4300 1050 4300 1150
 Connection ~ 4300 1050
 Wire Wire Line
-	4200 950  4200 1150
+	4200 950  4200 1050
 Connection ~ 4200 1050
 Wire Wire Line
 	4100 1150 4100 1050
@@ -1269,7 +1293,7 @@ Connection ~ 2600 1050
 Wire Wire Line
 	8050 3800 8050 3900
 Wire Wire Line
-	7400 3250 7400 3550
+	7400 3250 7400 3300
 Wire Wire Line
 	7400 3850 7400 3900
 Wire Wire Line
@@ -1285,13 +1309,13 @@ Wire Wire Line
 Wire Wire Line
 	9400 3500 9400 3450
 Wire Wire Line
-	8650 3500 9450 3500
+	8650 3500 9100 3500
 Wire Wire Line
-	9800 3450 9800 3600
+	9800 3450 9800 3500
 Wire Wire Line
 	10150 3500 10150 3450
 Wire Wire Line
-	9750 3500 10850 3500
+	9750 3500 9800 3500
 Connection ~ 9800 3500
 Wire Wire Line
 	9800 3100 9800 3150
@@ -1302,7 +1326,7 @@ Wire Wire Line
 	8700 3100 8750 3100
 Connection ~ 10150 3100
 Wire Wire Line
-	2000 1050 3900 1050
+	2000 1050 2100 1050
 Connection ~ 7400 3300
 Wire Wire Line
 	7400 3300 7450 3300
@@ -1311,7 +1335,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 6200 8050 6300
 Wire Wire Line
-	7400 5650 7400 5950
+	7400 5650 7400 5700
 Wire Wire Line
 	7400 6250 7400 6300
 Wire Wire Line
@@ -1327,13 +1351,13 @@ Wire Wire Line
 Wire Wire Line
 	9400 5900 9400 5850
 Wire Wire Line
-	8650 5900 9450 5900
+	8650 5900 9100 5900
 Wire Wire Line
-	9800 5850 9800 6000
+	9800 5850 9800 5900
 Wire Wire Line
 	10150 5900 10150 5850
 Wire Wire Line
-	9750 5900 10850 5900
+	9750 5900 9800 5900
 Connection ~ 9800 5900
 Wire Wire Line
 	9800 5500 9800 5550
@@ -1355,7 +1379,7 @@ Connection ~ 9400 3100
 Wire Wire Line
 	8050 5000 8050 5100
 Wire Wire Line
-	7400 4450 7400 4750
+	7400 4450 7400 4500
 Wire Wire Line
 	7400 5050 7400 5100
 Wire Wire Line
@@ -1371,13 +1395,13 @@ Wire Wire Line
 Wire Wire Line
 	9400 4700 9400 4650
 Wire Wire Line
-	8650 4700 9450 4700
+	8650 4700 9100 4700
 Wire Wire Line
-	9800 4650 9800 4800
+	9800 4650 9800 4700
 Wire Wire Line
 	10150 4700 10150 4650
 Wire Wire Line
-	9750 4700 10850 4700
+	9750 4700 9800 4700
 Connection ~ 9800 4700
 Wire Wire Line
 	9800 4300 9800 4350
@@ -1397,11 +1421,11 @@ Wire Wire Line
 Wire Wire Line
 	4300 4550 4300 4400
 Wire Wire Line
-	4300 4850 4300 5450
+	4300 4850 4300 4950
 Wire Wire Line
-	3950 4950 4850 4950
+	3950 4950 4100 4950
 Wire Wire Line
-	4100 1050 4400 1050
+	4100 1050 4200 1050
 Wire Wire Line
 	4600 1050 4600 1150
 Wire Wire Line
@@ -1427,18 +1451,18 @@ Wire Wire Line
 Wire Wire Line
 	1950 3250 1950 3150
 Wire Wire Line
-	4300 3900 4300 4100
+	4300 3900 4300 4000
 Wire Wire Line
-	4300 3400 4300 3600
+	4300 3400 4300 3500
 Connection ~ 4300 4000
 Connection ~ 4300 3500
 Connection ~ 4300 4950
 Wire Wire Line
-	4300 5750 4300 6200
+	4300 5750 4300 6100
 Wire Wire Line
 	4850 4550 4850 4350
 Wire Wire Line
-	2350 3750 3250 3750
+	2350 3750 2900 3750
 Wire Wire Line
 	3700 6100 3700 6000
 Wire Wire Line
@@ -1448,15 +1472,15 @@ Wire Wire Line
 Wire Wire Line
 	4100 6100 4100 5800
 Wire Wire Line
-	3250 5600 3800 5600
+	3250 5600 3400 5600
 Wire Wire Line
-	2700 5600 2950 5600
+	2700 5600 2850 5600
 Connection ~ 3700 5600
 Connection ~ 3400 5600
 Wire Wire Line
 	3400 6000 3400 6100
 Wire Wire Line
-	2850 6100 4300 6100
+	2850 6100 3400 6100
 Connection ~ 3700 6100
 Connection ~ 4300 6100
 Connection ~ 4100 6100
@@ -1476,23 +1500,23 @@ Wire Wire Line
 Wire Wire Line
 	4050 3500 4300 3500
 Wire Wire Line
-	4050 3950 4050 4100
+	4050 3950 4050 4000
 Wire Wire Line
 	4300 4000 4050 4000
 Connection ~ 4050 4000
 Wire Wire Line
 	2850 5600 2850 5700
 Wire Wire Line
-	3400 5550 3400 5700
+	3400 5550 3400 5600
 Wire Wire Line
 	3700 5600 3700 5700
 Wire Wire Line
 	7750 1050 7750 1150
 Wire Wire Line
-	7650 950  7650 1150
+	7650 950  7650 1050
 Connection ~ 7650 1050
 $Comp
-L +3V3 #PWR27
+L power:+3V3 #PWR27
 U 1 1 591C4E6A
 P 1950 3150
 F 0 "#PWR27" H 1950 3000 50  0001 C CNN
@@ -1507,9 +1531,11 @@ RTC can also be powered from 2.5V\nbut it is easier to route 3.3V
 Text GLabel 2500 4950 0    60   Input ~ 0
 FTDI_nSLEEP
 $Comp
-L R R10
+L ulx3s-rescue:R R10
 U 1 1 591E4865
 P 2700 4950
+AR Path="/591E4865" Ref="R10"  Part="1" 
+AR Path="/58D51CAD/591E4865" Ref="R10"  Part="1" 
 F 0 "R10" V 2780 4950 50  0000 C CNN
 F 1 "150" V 2700 4950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2630 4950 50  0001 C CNN
@@ -1522,9 +1548,11 @@ Wire Wire Line
 Text Label 2900 4950 0    60   ~ 0
 FTDI_nSUSPEND
 $Comp
-L C C17
+L ulx3s-rescue:C C17
 U 1 1 592462C1
 P 10850 3300
+AR Path="/592462C1" Ref="C17"  Part="1" 
+AR Path="/58D51CAD/592462C1" Ref="C17"  Part="1" 
 F 0 "C17" H 10875 3400 50  0000 L CNN
 F 1 "2.2uF" H 10875 3200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10888 3150 50  0001 C CNN
@@ -1533,9 +1561,11 @@ F 3 "" H 10850 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C19
+L ulx3s-rescue:C C19
 U 1 1 59246A2A
 P 10850 4500
+AR Path="/59246A2A" Ref="C19"  Part="1" 
+AR Path="/58D51CAD/59246A2A" Ref="C19"  Part="1" 
 F 0 "C19" H 10875 4600 50  0000 L CNN
 F 1 "2.2uF" H 10875 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10888 4350 50  0001 C CNN
@@ -1544,9 +1574,11 @@ F 3 "" H 10850 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C20
+L ulx3s-rescue:C C20
 U 1 1 59246E14
 P 10850 5700
+AR Path="/59246E14" Ref="C20"  Part="1" 
+AR Path="/58D51CAD/59246E14" Ref="C20"  Part="1" 
 F 0 "C20" H 10875 5800 50  0000 L CNN
 F 1 "2.2uF" H 10875 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10888 5550 50  0001 C CNN
@@ -1573,7 +1605,7 @@ Wire Wire Line
 	2900 3750 2900 3800
 Connection ~ 2900 3750
 $Comp
-L GND #PWR30
+L power:GND #PWR30
 U 1 1 59D5B51B
 P 2650 4250
 F 0 "#PWR30" H 2650 4000 50  0001 C CNN
@@ -1586,13 +1618,15 @@ $EndComp
 Wire Wire Line
 	2900 4600 2400 4600
 Wire Wire Line
-	2900 4100 2900 4600
+	2900 4100 2900 4150
 Text Label 2450 4600 0    60   ~ 0
 PWRBTn
 $Comp
-L C C22
+L ulx3s-rescue:C C22
 U 1 1 59D56B84
 P 10500 3300
+AR Path="/59D56B84" Ref="C22"  Part="1" 
+AR Path="/58D51CAD/59D56B84" Ref="C22"  Part="1" 
 F 0 "C22" H 10525 3400 50  0000 L CNN
 F 1 "2.2uF" H 10525 3200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10538 3150 50  0001 C CNN
@@ -1601,9 +1635,11 @@ F 3 "" H 10500 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C23
+L ulx3s-rescue:C C23
 U 1 1 59D56D50
 P 10500 4500
+AR Path="/59D56D50" Ref="C23"  Part="1" 
+AR Path="/58D51CAD/59D56D50" Ref="C23"  Part="1" 
 F 0 "C23" H 10525 4600 50  0000 L CNN
 F 1 "2.2uF" H 10525 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10538 4350 50  0001 C CNN
@@ -1612,9 +1648,11 @@ F 3 "" H 10500 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C24
+L ulx3s-rescue:C C24
 U 1 1 59D56EAA
 P 10500 5700
+AR Path="/59D56EAA" Ref="C24"  Part="1" 
+AR Path="/58D51CAD/59D56EAA" Ref="C24"  Part="1" 
 F 0 "C24" H 10525 5800 50  0000 L CNN
 F 1 "2.2uF" H 10525 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10538 5550 50  0001 C CNN
@@ -1623,25 +1661,25 @@ F 3 "" H 10500 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10850 3050 10850 3150
+	10850 3050 10850 3100
 Connection ~ 10500 3100
 Wire Wire Line
 	10850 3500 10850 3450
 Connection ~ 10500 3500
 Wire Wire Line
-	10850 5450 10850 5550
+	10850 5450 10850 5500
 Connection ~ 10500 5500
 Wire Wire Line
 	10850 5900 10850 5850
 Connection ~ 10500 5900
 Wire Wire Line
-	10850 4250 10850 4350
+	10850 4250 10850 4300
 Connection ~ 10500 4300
 Wire Wire Line
 	10850 4700 10850 4650
 Connection ~ 10500 4700
 $Comp
-L Jumper_NC_Small RP1
+L ulx3s-rescue:Jumper_NC_Small RP1
 U 1 1 59DFB08A
 P 10700 3100
 F 0 "RP1" H 10700 3180 50  0000 C CNN
@@ -1653,7 +1691,7 @@ F 4 "www.mouser.com" H 10700 3100 60  0001 C CNN "Distributor1_URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small RP2
+L ulx3s-rescue:Jumper_NC_Small RP2
 U 1 1 59DFB617
 P 10700 4300
 F 0 "RP2" H 10700 4380 50  0000 C CNN
@@ -1665,7 +1703,7 @@ F 4 "www.mouser.com" H 10700 4300 60  0001 C CNN "Distributor1_URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small RP3
+L ulx3s-rescue:Jumper_NC_Small RP3
 U 1 1 59DFBF34
 P 10700 5500
 F 0 "RP3" H 10700 5580 50  0000 C CNN
@@ -1691,15 +1729,15 @@ P3V3
 Wire Wire Line
 	10150 3100 10150 3150
 Wire Wire Line
-	9050 5500 10600 5500
+	9050 5500 9100 5500
 Wire Wire Line
 	10150 5500 10150 5550
 Wire Wire Line
-	9050 4300 10600 4300
+	9050 4300 9100 4300
 Wire Wire Line
 	10150 4300 10150 4350
 Wire Wire Line
-	9050 3100 10600 3100
+	9050 3100 9100 3100
 Wire Wire Line
 	10500 3100 10500 3150
 Wire Wire Line
@@ -1718,11 +1756,11 @@ Connection ~ 10850 5500
 Wire Wire Line
 	4850 5500 4750 5500
 Wire Wire Line
-	4750 5500 4750 7450
+	4750 5500 4750 5700
 Wire Wire Line
 	6550 5500 6650 5500
 Wire Wire Line
-	6650 5500 6650 7450
+	6650 5500 6650 5700
 Wire Wire Line
 	4850 5700 4750 5700
 Connection ~ 4750 5700
@@ -1800,7 +1838,7 @@ Wire Wire Line
 	6550 7350 6650 7350
 Connection ~ 6650 7350
 $Comp
-L GND #PWR43
+L power:GND #PWR43
 U 1 1 59EF897E
 P 4750 7450
 F 0 "#PWR43" H 4750 7200 50  0001 C CNN
@@ -1811,7 +1849,7 @@ F 3 "" H 4750 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR63
+L power:GND #PWR63
 U 1 1 59EF8A0A
 P 6650 7450
 F 0 "#PWR63" H 6650 7200 50  0001 C CNN
@@ -1828,7 +1866,7 @@ L1,L2,L3: Isat>3A Rdc<100mohm L=2.5-5.8mm W<3mm\nMurata DFE322512F-2R2M=P2, DFE2
 Text Notes 950  6200 0    60   ~ 0
 WARNING\nECP5 family datasheet\np.48: Power Supply Ramp rates\nfor all supplies 0.01-10V/ms\n
 $Comp
-L LFE5U-45F-6BG381C U1
+L lfe5bg381:LFE5U-45F-6BG381C U1
 U 8 1 5A076CD7
 P 5700 6400
 AR Path="/5A076CD7" Ref="U1"  Part="8" 
@@ -1844,7 +1882,7 @@ F 6 "842-LFE5U45F6BG381C" H 5700 6400 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LFE5U-45F-6BG381C U1
+L lfe5bg381:LFE5U-45F-6BG381C U1
 U 9 1 5A077765
 P 6200 1800
 AR Path="/5A077765" Ref="U1"  Part="9" 
@@ -1861,7 +1899,7 @@ F 7 "842-LFE5U45F6BG381C" H 6200 1800 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V1 #PWR29
+L power:+1V1 #PWR29
 U 1 1 5A0B33B0
 P 2100 950
 F 0 "#PWR29" H 2100 800 50  0001 C CNN
@@ -1872,7 +1910,7 @@ F 3 "" H 2100 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V1 #PWR78
+L power:+1V1 #PWR78
 U 1 1 5A0B387F
 P 10850 3050
 F 0 "#PWR78" H 10850 2900 50  0001 C CNN
@@ -1889,7 +1927,7 @@ SHUTDOWN connected to\nBANK2 on "ram" sheet
 Text Notes 2750 6350 0    60   ~ 0
 Works without R5
 $Comp
-L +3V3 #PWR44
+L power:+3V3 #PWR44
 U 1 1 5A404030
 P 4850 4050
 F 0 "#PWR44" H 4850 3900 50  0001 C CNN
@@ -1900,7 +1938,7 @@ F 3 "" H 4850 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AP3429A U4
+L ap3429a:AP3429A U4
 U 1 1 5A57BC36
 P 8050 4600
 F 0 "U4" H 8050 4750 60  0000 C CNN
@@ -1915,7 +1953,7 @@ F 7 "595-TLV62569DBVR" H 8050 4600 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AP3429A U3
+L ap3429a:AP3429A U3
 U 1 1 5A57BFD7
 P 8050 3400
 F 0 "U3" H 8050 3550 60  0000 C CNN
@@ -1932,9 +1970,11 @@ $EndComp
 Text Notes 7900 1200 0    60   ~ 0
 Decoupling capacitors: see Lattice\nPower Decoupling and Bypass Filtering for Programmable Devices
 $Comp
-L C C25
+L ulx3s-rescue:C C25
 U 1 1 5A5F6DD9
 P 5500 4750
+AR Path="/5A5F6DD9" Ref="C25"  Part="1" 
+AR Path="/58D51CAD/5A5F6DD9" Ref="C25"  Part="1" 
 F 0 "C25" H 5525 4850 50  0000 L CNN
 F 1 "22nF" H 5525 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5538 4600 50  0001 C CNN
@@ -1943,7 +1983,7 @@ F 3 "" H 5500 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR54
+L power:GND #PWR54
 U 1 1 5A5F72AC
 P 5500 4900
 F 0 "#PWR54" H 5500 4650 50  0001 C CNN
@@ -1954,7 +1994,7 @@ F 3 "" H 5500 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR53
+L power:+3V3 #PWR53
 U 1 1 5A5F7519
 P 5500 4600
 F 0 "#PWR53" H 5500 4450 50  0001 C CNN
@@ -1965,9 +2005,11 @@ F 3 "" H 5500 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C27
+L ulx3s-rescue:C C27
 U 1 1 5A5FA778
 P 5450 3250
+AR Path="/5A5FA778" Ref="C27"  Part="1" 
+AR Path="/58D51CAD/5A5FA778" Ref="C27"  Part="1" 
 F 0 "C27" H 5475 3350 50  0000 L CNN
 F 1 "22nF" H 5475 3150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5488 3100 50  0001 C CNN
@@ -1976,7 +2018,7 @@ F 3 "" H 5450 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR50
+L power:GND #PWR50
 U 1 1 5A5FA77E
 P 5450 3400
 F 0 "#PWR50" H 5450 3150 50  0001 C CNN
@@ -1987,9 +2029,11 @@ F 3 "" H 5450 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C28
+L ulx3s-rescue:C C28
 U 1 1 5A5FA78A
 P 5750 3250
+AR Path="/5A5FA78A" Ref="C28"  Part="1" 
+AR Path="/58D51CAD/5A5FA78A" Ref="C28"  Part="1" 
 F 0 "C28" H 5775 3350 50  0000 L CNN
 F 1 "22nF" H 5775 3150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5788 3100 50  0001 C CNN
@@ -1998,7 +2042,7 @@ F 3 "" H 5750 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR56
+L power:GND #PWR56
 U 1 1 5A5FA790
 P 5750 3400
 F 0 "#PWR56" H 5750 3150 50  0001 C CNN
@@ -2009,7 +2053,7 @@ F 3 "" H 5750 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V1 #PWR49
+L power:+1V1 #PWR49
 U 1 1 5A5FAAE2
 P 5450 3100
 F 0 "#PWR49" H 5450 2950 50  0001 C CNN
@@ -2020,7 +2064,7 @@ F 3 "" H 5450 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V1 #PWR55
+L power:+1V1 #PWR55
 U 1 1 5A5FAE2D
 P 5750 3100
 F 0 "#PWR55" H 5750 2950 50  0001 C CNN
@@ -2031,9 +2075,11 @@ F 3 "" H 5750 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C29
+L ulx3s-rescue:C C29
 U 1 1 5A5FC3F6
 P 5450 4000
+AR Path="/5A5FC3F6" Ref="C29"  Part="1" 
+AR Path="/58D51CAD/5A5FC3F6" Ref="C29"  Part="1" 
 F 0 "C29" H 5475 4100 50  0000 L CNN
 F 1 "22nF" H 5475 3900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5488 3850 50  0001 C CNN
@@ -2042,7 +2088,7 @@ F 3 "" H 5450 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR52
+L power:GND #PWR52
 U 1 1 5A5FC3FC
 P 5450 4150
 F 0 "#PWR52" H 5450 3900 50  0001 C CNN
@@ -2053,9 +2099,11 @@ F 3 "" H 5450 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C30
+L ulx3s-rescue:C C30
 U 1 1 5A5FC402
 P 5750 4000
+AR Path="/5A5FC402" Ref="C30"  Part="1" 
+AR Path="/58D51CAD/5A5FC402" Ref="C30"  Part="1" 
 F 0 "C30" H 5775 4100 50  0000 L CNN
 F 1 "22nF" H 5775 3900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5788 3850 50  0001 C CNN
@@ -2064,7 +2112,7 @@ F 3 "" H 5750 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR58
+L power:GND #PWR58
 U 1 1 5A5FC408
 P 5750 4150
 F 0 "#PWR58" H 5750 3900 50  0001 C CNN
@@ -2075,7 +2123,7 @@ F 3 "" H 5750 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +2V5 #PWR51
+L power:+2V5 #PWR51
 U 1 1 5A5FCA42
 P 5450 3850
 F 0 "#PWR51" H 5450 3700 50  0001 C CNN
@@ -2086,7 +2134,7 @@ F 3 "" H 5450 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +2V5 #PWR57
+L power:+2V5 #PWR57
 U 1 1 5A5FCEF1
 P 5750 3850
 F 0 "#PWR57" H 5750 3700 50  0001 C CNN
@@ -2097,7 +2145,7 @@ F 3 "" H 5750 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR61
+L power:GND #PWR61
 U 1 1 5A5F9204
 P 6050 4900
 F 0 "#PWR61" H 6050 4650 50  0001 C CNN
@@ -2108,9 +2156,11 @@ F 3 "" H 6050 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C26
+L ulx3s-rescue:C C26
 U 1 1 5A5F91FE
 P 6050 4750
+AR Path="/5A5F91FE" Ref="C26"  Part="1" 
+AR Path="/58D51CAD/5A5F91FE" Ref="C26"  Part="1" 
 F 0 "C26" H 6075 4850 50  0000 L CNN
 F 1 "22nF" H 6075 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6088 4600 50  0001 C CNN
@@ -2119,7 +2169,7 @@ F 3 "" H 6050 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR59
+L power:+3V3 #PWR59
 U 1 1 5A5FEE9A
 P 5750 4600
 F 0 "#PWR59" H 5750 4450 50  0001 C CNN
@@ -2130,7 +2180,7 @@ F 3 "" H 5750 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR60
+L power:GND #PWR60
 U 1 1 5A5FEEA0
 P 5750 4900
 F 0 "#PWR60" H 5750 4650 50  0001 C CNN
@@ -2141,9 +2191,11 @@ F 3 "" H 5750 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C31
+L ulx3s-rescue:C C31
 U 1 1 5A5FEEA6
 P 5750 4750
+AR Path="/5A5FEEA6" Ref="C31"  Part="1" 
+AR Path="/58D51CAD/5A5FEEA6" Ref="C31"  Part="1" 
 F 0 "C31" H 5775 4850 50  0000 L CNN
 F 1 "22nF" H 5775 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5788 4600 50  0001 C CNN
@@ -2152,9 +2204,11 @@ F 3 "" H 5750 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C32
+L ulx3s-rescue:C C32
 U 1 1 5A6007F1
 P 5250 4750
+AR Path="/5A6007F1" Ref="C32"  Part="1" 
+AR Path="/58D51CAD/5A6007F1" Ref="C32"  Part="1" 
 F 0 "C32" H 5275 4850 50  0000 L CNN
 F 1 "22nF" H 5275 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5288 4600 50  0001 C CNN
@@ -2163,7 +2217,7 @@ F 3 "" H 5250 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR47
+L power:GND #PWR47
 U 1 1 5A6007F7
 P 5250 4900
 F 0 "#PWR47" H 5250 4650 50  0001 C CNN
@@ -2174,7 +2228,7 @@ F 3 "" H 5250 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR46
+L power:+3V3 #PWR46
 U 1 1 5A6007FD
 P 5250 4600
 F 0 "#PWR46" H 5250 4450 50  0001 C CNN
@@ -2185,7 +2239,7 @@ F 3 "" H 5250 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L1
+L ulx3s-rescue:L L1
 U 1 1 5A73C9EB
 P 8900 3100
 F 0 "L1" V 8850 3100 50  0000 C CNN
@@ -2200,7 +2254,7 @@ F 7 "652-SRP2512A-2R2M" H 8900 3100 60  0001 C CNN "Distributor1_PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L L L3
+L ulx3s-rescue:L L3
 U 1 1 5A73CDB3
 P 8900 5500
 F 0 "L3" V 8850 5500 50  0000 C CNN
@@ -2215,11 +2269,11 @@ F 7 "652-SRP2512A-2R2M" H 8900 5500 60  0001 C CNN "Distributor1_PN"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4900 1050 5800 1050
+	4900 1050 5000 1050
 Wire Wire Line
 	4600 1050 4700 1050
 $Comp
-L +3V3 #PWR71
+L power:+3V3 #PWR71
 U 1 1 5AA28D56
 P 7650 950
 F 0 "#PWR71" H 7650 800 50  0001 C CNN
@@ -2230,9 +2284,9 @@ F 3 "" H 7650 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 1050 7050 1050
+	6850 1050 6950 1050
 Wire Wire Line
-	7250 1050 7450 1050
+	7250 1050 7350 1050
 Wire Wire Line
 	7650 1050 7750 1050
 Text GLabel 4700 950  1    60   Input ~ 0
@@ -2240,9 +2294,11 @@ Text GLabel 4700 950  1    60   Input ~ 0
 Text GLabel 7350 950  1    60   Input ~ 0
 2V5_3V3
 $Comp
-L Conn_01x03 J5
+L ulx3s-rescue:Conn_01x03 J5
 U 1 1 5AA2A24D
 P 1400 1850
+AR Path="/5AA2A24D" Ref="J5"  Part="1" 
+AR Path="/58D51CAD/5AA2A24D" Ref="J5"  Part="1" 
 F 0 "J5" H 1400 2050 50  0000 C CNN
 F 1 "VJ1" H 1400 1650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 1400 1850 50  0001 C CNN
@@ -2255,7 +2311,7 @@ $EndComp
 Text GLabel 1200 1850 0    60   Input ~ 0
 2V5_3V3
 $Comp
-L +2V5 #PWR23
+L power:+2V5 #PWR23
 U 1 1 5AA2ABFC
 P 750 1750
 F 0 "#PWR23" H 750 1600 50  0001 C CNN
@@ -2266,7 +2322,7 @@ F 3 "" H 750 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3V3 #PWR24
+L power:+3V3 #PWR24
 U 1 1 5AA2AD24
 P 750 1950
 F 0 "#PWR24" H 750 1800 50  0001 C CNN
@@ -2283,9 +2339,11 @@ Wire Wire Line
 Text GLabel 6050 4600 1    60   Input ~ 0
 2V5_3V3
 $Comp
-L C C47
+L ulx3s-rescue:C C47
 U 1 1 5AB6B7B8
 P 950 2650
+AR Path="/5AB6B7B8" Ref="C47"  Part="1" 
+AR Path="/58D51CAD/5AB6B7B8" Ref="C47"  Part="1" 
 F 0 "C47" H 975 2750 50  0000 L CNN
 F 1 "2.2uF" H 975 2550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 988 2500 50  0001 C CNN
@@ -2296,7 +2354,7 @@ $EndComp
 Text GLabel 950  2500 1    60   Input ~ 0
 2V5_3V3
 $Comp
-L GND #PWR25
+L power:GND #PWR25
 U 1 1 5AB6BA00
 P 950 2800
 F 0 "#PWR25" H 950 2550 50  0001 C CNN
@@ -2307,9 +2365,11 @@ F 3 "" H 950 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C50
+L ulx3s-rescue:C C50
 U 1 1 5ABCEAC4
 P 3750 7100
+AR Path="/5ABCEAC4" Ref="C50"  Part="1" 
+AR Path="/58D51CAD/5ABCEAC4" Ref="C50"  Part="1" 
 F 0 "C50" H 3775 7200 50  0000 L CNN
 F 1 "22nF" H 3775 7000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3788 6950 50  0001 C CNN
@@ -2318,7 +2378,7 @@ F 3 "" H 3750 7100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR36
+L power:GND #PWR36
 U 1 1 5ABCEACA
 P 3750 7250
 F 0 "#PWR36" H 3750 7000 50  0001 C CNN
@@ -2329,7 +2389,7 @@ F 3 "" H 3750 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR35
+L power:+3V3 #PWR35
 U 1 1 5ABCEAD0
 P 3750 6950
 F 0 "#PWR35" H 3750 6800 50  0001 C CNN
@@ -2340,7 +2400,7 @@ F 3 "" H 3750 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR31
+L power:GND #PWR31
 U 1 1 5ABCEAD6
 P 3250 7250
 F 0 "#PWR31" H 3250 7000 50  0001 C CNN
@@ -2351,9 +2411,11 @@ F 3 "" H 3250 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C48
+L ulx3s-rescue:C C48
 U 1 1 5ABCEADC
 P 3250 7100
+AR Path="/5ABCEADC" Ref="C48"  Part="1" 
+AR Path="/58D51CAD/5ABCEADC" Ref="C48"  Part="1" 
 F 0 "C48" H 3275 7200 50  0000 L CNN
 F 1 "22nF" H 3275 7000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3288 6950 50  0001 C CNN
@@ -2362,7 +2424,7 @@ F 3 "" H 3250 7100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR37
+L power:+3V3 #PWR37
 U 1 1 5ABCEAE2
 P 4000 6950
 F 0 "#PWR37" H 4000 6800 50  0001 C CNN
@@ -2373,7 +2435,7 @@ F 3 "" H 4000 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR38
+L power:GND #PWR38
 U 1 1 5ABCEAE8
 P 4000 7250
 F 0 "#PWR38" H 4000 7000 50  0001 C CNN
@@ -2384,9 +2446,11 @@ F 3 "" H 4000 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C51
+L ulx3s-rescue:C C51
 U 1 1 5ABCEAEE
 P 4000 7100
+AR Path="/5ABCEAEE" Ref="C51"  Part="1" 
+AR Path="/58D51CAD/5ABCEAEE" Ref="C51"  Part="1" 
 F 0 "C51" H 4025 7200 50  0000 L CNN
 F 1 "22nF" H 4025 7000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4038 6950 50  0001 C CNN
@@ -2397,7 +2461,7 @@ $EndComp
 Text GLabel 3250 6950 1    60   Input ~ 0
 2V5_3V3
 $Comp
-L GND #PWR34
+L power:GND #PWR34
 U 1 1 5ABCECEB
 P 3500 7250
 F 0 "#PWR34" H 3500 7000 50  0001 C CNN
@@ -2408,9 +2472,11 @@ F 3 "" H 3500 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C49
+L ulx3s-rescue:C C49
 U 1 1 5ABCECF1
 P 3500 7100
+AR Path="/5ABCECF1" Ref="C49"  Part="1" 
+AR Path="/58D51CAD/5ABCECF1" Ref="C49"  Part="1" 
 F 0 "C49" H 3525 7200 50  0000 L CNN
 F 1 "22nF" H 3525 7000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3538 6950 50  0001 C CNN
@@ -2423,7 +2489,7 @@ Text GLabel 3500 6950 1    60   Input ~ 0
 Text Notes 2850 7550 0    60   ~ 0
 Capacitors near J1,2 connector
 $Comp
-L GND #PWR62
+L power:GND #PWR62
 U 1 1 5AC310ED
 P 6300 4900
 F 0 "#PWR62" H 6300 4650 50  0001 C CNN
@@ -2434,9 +2500,11 @@ F 3 "" H 6300 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C53
+L ulx3s-rescue:C C53
 U 1 1 5AC310F3
 P 6300 4750
+AR Path="/5AC310F3" Ref="C53"  Part="1" 
+AR Path="/58D51CAD/5AC310F3" Ref="C53"  Part="1" 
 F 0 "C53" H 6325 4850 50  0000 L CNN
 F 1 "22nF" H 6325 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6338 4600 50  0001 C CNN
@@ -2446,4 +2514,406 @@ F 3 "" H 6300 4750 50  0000 C CNN
 $EndComp
 Text GLabel 6300 4600 1    60   Input ~ 0
 2V5_3V3
+Wire Wire Line
+	2100 1050 2100 1150
+Wire Wire Line
+	2100 1050 2200 1050
+Wire Wire Line
+	2200 1050 2300 1050
+Wire Wire Line
+	2300 1050 2400 1050
+Wire Wire Line
+	2400 1050 2500 1050
+Wire Wire Line
+	2450 2600 2550 2600
+Wire Wire Line
+	2550 2600 2650 2600
+Wire Wire Line
+	2650 2600 2750 2600
+Wire Wire Line
+	2750 2600 2850 2600
+Wire Wire Line
+	2850 2600 2950 2600
+Wire Wire Line
+	2950 2600 3050 2600
+Wire Wire Line
+	3050 2600 3150 2600
+Wire Wire Line
+	3150 2600 3250 2600
+Wire Wire Line
+	3250 2600 3350 2600
+Wire Wire Line
+	3350 2600 3450 2600
+Wire Wire Line
+	3450 2600 3550 2600
+Wire Wire Line
+	3550 2600 3650 2600
+Wire Wire Line
+	3650 2600 3750 2600
+Wire Wire Line
+	3750 2600 3850 2600
+Wire Wire Line
+	3850 2600 3950 2600
+Wire Wire Line
+	3950 2600 4050 2600
+Wire Wire Line
+	4050 2600 4150 2600
+Wire Wire Line
+	4150 2600 4250 2600
+Wire Wire Line
+	4250 2600 4350 2600
+Wire Wire Line
+	4350 2600 4450 2600
+Wire Wire Line
+	4450 2600 4550 2600
+Wire Wire Line
+	4550 2600 4650 2600
+Wire Wire Line
+	4650 2600 4750 2600
+Wire Wire Line
+	4750 2600 4850 2600
+Wire Wire Line
+	4850 2600 4950 2600
+Wire Wire Line
+	4950 2600 4950 2700
+Wire Wire Line
+	4950 2600 5050 2600
+Wire Wire Line
+	5050 2600 5150 2600
+Wire Wire Line
+	5150 2600 5250 2600
+Wire Wire Line
+	5250 2600 5350 2600
+Wire Wire Line
+	5350 2600 5450 2600
+Wire Wire Line
+	5450 2600 5550 2600
+Wire Wire Line
+	5550 2600 5650 2600
+Wire Wire Line
+	5650 2600 5750 2600
+Wire Wire Line
+	5750 2600 5850 2600
+Wire Wire Line
+	5850 2600 5950 2600
+Wire Wire Line
+	5950 2600 6050 2600
+Wire Wire Line
+	6050 2600 6150 2600
+Wire Wire Line
+	6150 2600 6250 2600
+Wire Wire Line
+	6250 2600 6350 2600
+Wire Wire Line
+	6350 2600 6450 2600
+Wire Wire Line
+	6450 2600 6550 2600
+Wire Wire Line
+	6550 2600 6650 2600
+Wire Wire Line
+	6650 2600 6750 2600
+Wire Wire Line
+	6750 2600 6850 2600
+Wire Wire Line
+	6850 2600 6950 2600
+Wire Wire Line
+	6950 2600 7050 2600
+Wire Wire Line
+	7050 2600 7150 2600
+Wire Wire Line
+	7150 2600 7250 2600
+Wire Wire Line
+	7250 2600 7350 2600
+Wire Wire Line
+	7350 2600 7450 2600
+Wire Wire Line
+	7450 2600 7550 2600
+Wire Wire Line
+	7550 2600 7650 2600
+Wire Wire Line
+	7650 2600 7750 2600
+Wire Wire Line
+	7750 2600 7850 2600
+Wire Wire Line
+	7850 2600 7950 2600
+Wire Wire Line
+	7950 2600 8050 2600
+Wire Wire Line
+	8050 2600 8150 2600
+Wire Wire Line
+	8150 2600 8250 2600
+Wire Wire Line
+	8250 2600 8350 2600
+Wire Wire Line
+	8350 2600 8450 2600
+Wire Wire Line
+	8450 2600 8550 2600
+Wire Wire Line
+	8550 2600 8650 2600
+Wire Wire Line
+	8650 2600 8750 2600
+Wire Wire Line
+	8750 2600 8850 2600
+Wire Wire Line
+	8850 2600 8950 2600
+Wire Wire Line
+	8950 2600 9050 2600
+Wire Wire Line
+	9050 2600 9150 2600
+Wire Wire Line
+	9150 2600 9250 2600
+Wire Wire Line
+	9250 2600 9350 2600
+Wire Wire Line
+	9350 2600 9450 2600
+Wire Wire Line
+	9450 2600 9550 2600
+Wire Wire Line
+	9550 2600 9650 2600
+Wire Wire Line
+	9650 2600 9750 2600
+Wire Wire Line
+	9750 2600 9850 2600
+Wire Wire Line
+	9850 2600 9950 2600
+Wire Wire Line
+	9950 2600 10050 2600
+Wire Wire Line
+	10050 2600 10150 2600
+Wire Wire Line
+	10150 2600 10250 2600
+Wire Wire Line
+	10250 2600 10350 2600
+Wire Wire Line
+	10350 2600 10450 2600
+Wire Wire Line
+	10450 2600 10550 2600
+Wire Wire Line
+	10550 2600 10650 2600
+Wire Wire Line
+	10650 2600 10750 2600
+Wire Wire Line
+	2500 1050 2600 1050
+Wire Wire Line
+	7350 1050 7350 1150
+Wire Wire Line
+	7350 1050 7450 1050
+Wire Wire Line
+	6950 1050 6950 1150
+Wire Wire Line
+	6950 1050 7050 1050
+Wire Wire Line
+	5700 1050 5800 1050
+Wire Wire Line
+	5600 1050 5700 1050
+Wire Wire Line
+	5400 1050 5600 1050
+Wire Wire Line
+	5300 1050 5300 1150
+Wire Wire Line
+	5300 1050 5400 1050
+Wire Wire Line
+	5200 1050 5300 1050
+Wire Wire Line
+	5000 1050 5200 1050
+Wire Wire Line
+	4700 1050 4700 1150
+Wire Wire Line
+	4300 1050 4400 1050
+Wire Wire Line
+	4200 1050 4200 1150
+Wire Wire Line
+	4200 1050 4300 1050
+Wire Wire Line
+	3800 1050 3900 1050
+Wire Wire Line
+	3700 1050 3800 1050
+Wire Wire Line
+	3600 1050 3700 1050
+Wire Wire Line
+	3500 1050 3600 1050
+Wire Wire Line
+	3400 1050 3500 1050
+Wire Wire Line
+	3300 1050 3400 1050
+Wire Wire Line
+	3200 1050 3300 1050
+Wire Wire Line
+	3100 1050 3200 1050
+Wire Wire Line
+	3000 1050 3100 1050
+Wire Wire Line
+	2900 1050 3000 1050
+Wire Wire Line
+	2800 1050 2900 1050
+Wire Wire Line
+	2700 1050 2800 1050
+Wire Wire Line
+	2600 1050 2700 1050
+Wire Wire Line
+	9800 3500 9800 3600
+Wire Wire Line
+	9800 3500 10150 3500
+Wire Wire Line
+	9400 3500 9450 3500
+Wire Wire Line
+	9100 3500 9400 3500
+Wire Wire Line
+	9100 3100 9400 3100
+Wire Wire Line
+	10150 3100 10500 3100
+Wire Wire Line
+	7400 3300 7400 3550
+Wire Wire Line
+	9800 5900 9800 6000
+Wire Wire Line
+	9800 5900 10150 5900
+Wire Wire Line
+	9800 5500 10150 5500
+Wire Wire Line
+	9400 5900 9450 5900
+Wire Wire Line
+	9100 5900 9400 5900
+Wire Wire Line
+	9400 5500 9800 5500
+Wire Wire Line
+	9100 5500 9400 5500
+Wire Wire Line
+	10150 5500 10500 5500
+Wire Wire Line
+	7400 5700 7400 5950
+Wire Wire Line
+	9800 3100 10150 3100
+Wire Wire Line
+	9400 3100 9800 3100
+Wire Wire Line
+	9800 4700 9800 4800
+Wire Wire Line
+	9800 4700 10150 4700
+Wire Wire Line
+	9800 4300 10150 4300
+Wire Wire Line
+	9400 4700 9450 4700
+Wire Wire Line
+	9100 4700 9400 4700
+Wire Wire Line
+	9400 4300 9800 4300
+Wire Wire Line
+	9100 4300 9400 4300
+Wire Wire Line
+	10150 4300 10500 4300
+Wire Wire Line
+	7400 4500 7400 4750
+Wire Wire Line
+	4300 4000 4300 4100
+Wire Wire Line
+	4300 3500 4300 3600
+Wire Wire Line
+	4300 4950 4300 5450
+Wire Wire Line
+	4300 4950 4850 4950
+Wire Wire Line
+	3700 5600 3800 5600
+Wire Wire Line
+	3400 5600 3700 5600
+Wire Wire Line
+	3400 5600 3400 5700
+Wire Wire Line
+	3700 6100 4100 6100
+Wire Wire Line
+	4300 6100 4300 6200
+Wire Wire Line
+	4100 6100 4300 6100
+Wire Wire Line
+	2850 5600 2950 5600
+Wire Wire Line
+	3400 6100 3700 6100
+Wire Wire Line
+	4100 4950 4300 4950
+Wire Wire Line
+	4050 4000 4050 4100
+Wire Wire Line
+	7650 1050 7650 1150
+Wire Wire Line
+	10150 3500 10500 3500
+Wire Wire Line
+	10150 4700 10500 4700
+Wire Wire Line
+	10150 5900 10500 5900
+Wire Wire Line
+	2900 4150 2900 4400
+Wire Wire Line
+	2900 4400 2900 4600
+Wire Wire Line
+	2900 3750 3250 3750
+Wire Wire Line
+	10500 3100 10600 3100
+Wire Wire Line
+	10500 3500 10850 3500
+Wire Wire Line
+	10500 5500 10600 5500
+Wire Wire Line
+	10500 5900 10850 5900
+Wire Wire Line
+	10500 4300 10600 4300
+Wire Wire Line
+	10500 4700 10850 4700
+Wire Wire Line
+	10850 3100 10850 3150
+Wire Wire Line
+	10850 4300 10850 4350
+Wire Wire Line
+	10850 5500 10850 5550
+Wire Wire Line
+	4750 5700 4750 5900
+Wire Wire Line
+	4750 5900 4750 6050
+Wire Wire Line
+	6650 5700 6650 5900
+Wire Wire Line
+	6650 5900 6650 6050
+Wire Wire Line
+	4750 6050 4750 6150
+Wire Wire Line
+	4750 6150 4750 6250
+Wire Wire Line
+	4750 6250 4750 6350
+Wire Wire Line
+	4750 6350 4750 6500
+Wire Wire Line
+	4750 6500 4750 6600
+Wire Wire Line
+	4750 6600 4750 6700
+Wire Wire Line
+	4750 6700 4750 6800
+Wire Wire Line
+	4750 6800 4750 6950
+Wire Wire Line
+	6650 6800 6650 6950
+Wire Wire Line
+	6650 6700 6650 6800
+Wire Wire Line
+	6650 6600 6650 6700
+Wire Wire Line
+	6650 6500 6650 6600
+Wire Wire Line
+	6650 6350 6650 6500
+Wire Wire Line
+	6650 6250 6650 6350
+Wire Wire Line
+	6650 6150 6650 6250
+Wire Wire Line
+	6650 6050 6650 6150
+Wire Wire Line
+	4750 6950 4750 7150
+Wire Wire Line
+	4750 7150 4750 7350
+Wire Wire Line
+	4750 7350 4750 7450
+Wire Wire Line
+	6650 6950 6650 7150
+Wire Wire Line
+	6650 7150 6650 7350
+Wire Wire Line
+	6650 7350 6650 7450
 $EndSCHEMATC

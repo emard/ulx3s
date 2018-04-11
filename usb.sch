@@ -1,48 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ulx3s-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ESP8266
-LIBS:lfe5bg381
-LIBS:micro-hdmi-d
-LIBS:ap3429a
-LIBS:ft2232
-LIBS:ESP32
-LIBS:ssd_13xx
-LIBS:ftdi
-LIBS:max1112x
-LIBS:micro_sd_card_cd
-LIBS:mt48lc16m16a2tg
-LIBS:usb_otg
+EESchema Schematic File Version 4
 LIBS:ulx3s-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -57,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L D_Schottky_Small D8
+L ulx3s-rescue:D_Schottky_Small D8
 U 1 1 58D6C83A
 P 2300 1700
 F 0 "D8" H 2350 1650 50  0000 L CNN
@@ -71,7 +29,7 @@ F 6 "511-STPS2L30AF " H 2300 1700 60  0001 C CNN "Distributor1_PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR107
+L power:+5V #PWR107
 U 1 1 58D6C83B
 P 3050 1700
 F 0 "#PWR107" H 3050 1550 50  0001 C CNN
@@ -82,7 +40,7 @@ F 3 "" H 3050 1700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Schottky_Small D9
+L ulx3s-rescue:D_Schottky_Small D9
 U 1 1 58D6C83C
 P 2600 2650
 F 0 "D9" H 2450 2700 50  0000 L CNN
@@ -96,7 +54,7 @@ F 6 "511-STPS2L30AF " H 2600 2650 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR108
+L power:+5V #PWR108
 U 1 1 58D6C83D
 P 3200 2650
 F 0 "#PWR108" H 3200 2500 50  0001 C CNN
@@ -107,7 +65,7 @@ F 3 "" H 3200 2650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L USB_OTG1 US1
+L usb_otg:USB_OTG1 US1
 U 1 1 58D6C840
 P 1500 1900
 AR Path="/58D6C840" Ref="US1"  Part="1" 
@@ -123,7 +81,7 @@ F 6 "www.mouser.com" H 1500 1900 60  0001 C CNN "Distributor1_URL"
 	0    -1   1    0   
 $EndComp
 $Comp
-L USB_OTG1 US2
+L usb_otg:USB_OTG1 US2
 U 1 1 58D6C841
 P 1500 2850
 AR Path="/58D6C841" Ref="US2"  Part="1" 
@@ -139,7 +97,7 @@ F 6 "www.mouser.com" H 1500 2850 60  0001 C CNN "Distributor1_URL"
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR104
+L power:GND #PWR104
 U 1 1 58D6C842
 P 1850 2100
 F 0 "#PWR104" H 1850 1850 50  0001 C CNN
@@ -150,7 +108,7 @@ F 3 "" H 1850 2100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR105
+L power:GND #PWR105
 U 1 1 58D6C843
 P 1850 3050
 F 0 "#PWR105" H 1850 2800 50  0001 C CNN
@@ -171,7 +129,7 @@ USB_FPGA_D+
 NoConn ~ 1850 2950
 NoConn ~ 1850 2000
 $Comp
-L GND #PWR102
+L power:GND #PWR102
 U 1 1 58D82518
 P 1400 2300
 F 0 "#PWR102" H 1400 2050 50  0001 C CNN
@@ -182,7 +140,7 @@ F 3 "" H 1400 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR103
+L power:GND #PWR103
 U 1 1 58D8254A
 P 1400 3250
 F 0 "#PWR103" H 1400 3000 50  0001 C CNN
@@ -193,7 +151,7 @@ F 3 "" H 1400 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR111
+L power:GND #PWR111
 U 1 1 58D8877C
 P 5600 4500
 F 0 "#PWR111" H 5600 4250 50  0001 C CNN
@@ -234,7 +192,7 @@ JTAG_TMS
 Text GLabel 2150 1500 2    60   Input ~ 0
 USB5V
 $Comp
-L FT231XS U6
+L ftdi:FT231XS U6
 U 1 1 58EB61C6
 P 5700 3400
 F 0 "U6" H 5150 4200 50  0000 L CNN
@@ -249,7 +207,7 @@ F 7 "895-FT231XS-R" H 5700 3400 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 1700 2200 1700
+	1800 1700 1950 1700
 Wire Wire Line
 	2400 1700 3050 1700
 Wire Wire Line
@@ -273,10 +231,10 @@ Wire Wire Line
 Wire Wire Line
 	1800 2000 1850 2000
 Wire Wire Line
-	5600 4300 5600 4500
+	5600 4300 5600 4400
 Connection ~ 5600 4400
 Wire Wire Line
-	6400 3700 6550 3700
+	6400 3700 6450 3700
 Wire Wire Line
 	6400 3800 6550 3800
 Wire Wire Line
@@ -311,11 +269,13 @@ Wire Wire Line
 Text GLabel 4850 3400 0    60   Input ~ 0
 nRESET
 Wire Wire Line
-	4850 3400 5000 3400
+	4850 3400 4950 3400
 $Comp
-L R R9
+L ulx3s-rescue:R R9
 U 1 1 58EB9CB5
 P 4700 3600
+AR Path="/58EB9CB5" Ref="R9"  Part="1" 
+AR Path="/58D6BF46/58EB9CB5" Ref="R9"  Part="1" 
 F 0 "R9" V 4780 3600 50  0000 C CNN
 F 1 "15k" V 4700 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4630 3600 50  0001 C CNN
@@ -397,9 +357,11 @@ VNC2 programming pins:\nTXD RXD TXDEN
 Text Notes 4350 5900 0    60   ~ 0
 warning:\nULX3S has different pinout\nfor simpler PCB routing and\nbecause FT230X has weak CTS\ndrive capability. (Undocumented,\nFLEAfpga mail from 13-Nov-2015)\nULX2S pinout was:\nTCK = DSR\nTMS = RI\nTDI = CTS\nTDO = DCD\n
 $Comp
-L R R40
+L ulx3s-rescue:R R40
 U 1 1 591C69FB
 P 2250 4850
+AR Path="/591C69FB" Ref="R40"  Part="1" 
+AR Path="/58D6BF46/591C69FB" Ref="R40"  Part="1" 
 F 0 "R40" V 2330 4850 50  0000 C CNN
 F 1 "1.5k" V 2250 4850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2180 4850 50  0001 C CNN
@@ -412,7 +374,7 @@ D+ 1.5k pullp for \nfull speed device\nmode USB1.1
 Text GLabel 8650 1450 0    60   Input ~ 0
 CLK_25MHz
 $Comp
-L CONN_02X03 J4
+L micro-hdmi-d:CONN_02X03 J4
 U 1 1 591E0E6A
 P 9400 5000
 F 0 "J4" H 9400 5200 50  0000 C CNN
@@ -432,7 +394,7 @@ JTAG_TCK
 Text GLabel 9150 5100 0    60   Input ~ 0
 JTAG_TMS
 $Comp
-L GND #PWR113
+L power:GND #PWR113
 U 1 1 591E1000
 P 8700 4900
 F 0 "#PWR113" H 8700 4650 50  0001 C CNN
@@ -443,7 +405,7 @@ F 3 "" H 8700 4900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR114
+L power:+3V3 #PWR114
 U 1 1 591E1028
 P 10100 4900
 F 0 "#PWR114" H 10100 4750 50  0001 C CNN
@@ -458,9 +420,11 @@ Wire Wire Line
 Wire Wire Line
 	8700 4900 9150 4900
 $Comp
-L R R49
+L ulx3s-rescue:R R49
 U 1 1 59274246
 P 2300 1800
+AR Path="/59274246" Ref="R49"  Part="1" 
+AR Path="/58D6BF46/59274246" Ref="R49"  Part="1" 
 F 0 "R49" V 2250 2000 50  0000 C CNN
 F 1 "27" V 2300 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2230 1800 50  0001 C CNN
@@ -469,9 +433,11 @@ F 3 "" H 2300 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R50
+L ulx3s-rescue:R R50
 U 1 1 592743C8
 P 2300 1900
+AR Path="/592743C8" Ref="R50"  Part="1" 
+AR Path="/58D6BF46/592743C8" Ref="R50"  Part="1" 
 F 0 "R50" V 2250 2100 50  0000 C CNN
 F 1 "27" V 2300 1900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2230 1900 50  0001 C CNN
@@ -490,9 +456,11 @@ FTD+
 Text Notes 2850 3250 0    60   ~ 0
 USB_FPGA connected to\nBANK1 on "gpdi" sheet and\nBANK2 on "ram" sheet
 $Comp
-L R R52
+L ulx3s-rescue:R R52
 U 1 1 59C0F7B0
 P 2250 2750
+AR Path="/59C0F7B0" Ref="R52"  Part="1" 
+AR Path="/58D6BF46/59C0F7B0" Ref="R52"  Part="1" 
 F 0 "R52" V 2200 2950 50  0000 C CNN
 F 1 "27" V 2250 2750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2180 2750 50  0001 C CNN
@@ -501,9 +469,11 @@ F 3 "" H 2250 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R53
+L ulx3s-rescue:R R53
 U 1 1 59C0F7B6
 P 2250 2850
+AR Path="/59C0F7B6" Ref="R53"  Part="1" 
+AR Path="/58D6BF46/59C0F7B6" Ref="R53"  Part="1" 
 F 0 "R53" V 2200 3050 50  0000 C CNN
 F 1 "27" V 2250 2850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2180 2850 50  0001 C CNN
@@ -512,15 +482,15 @@ F 3 "" H 2250 2850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2400 2750 3150 2750
+	2400 2750 2700 2750
 Wire Wire Line
-	2400 2850 3150 2850
+	2400 2850 2600 2850
 Text Label 1850 2750 0    60   ~ 0
 FPD-
 Text Label 1850 2850 0    60   ~ 0
 FPD+
 $Comp
-L D_Zener_Small_ALT D20
+L ulx3s-rescue:D_Zener_Small_ALT D20
 U 1 1 59C133D8
 P 2600 3000
 F 0 "D20" H 2800 2900 50  0000 C CNN
@@ -535,7 +505,7 @@ F 7 "821-BZT52C3V6S" H 2600 3000 60  0001 C CNN "Distributor1_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Zener_Small_ALT D21
+L ulx3s-rescue:D_Zener_Small_ALT D21
 U 1 1 59C134C9
 P 2700 3000
 F 0 "D21" H 2900 3100 50  0000 C CNN
@@ -552,11 +522,11 @@ $EndComp
 Wire Wire Line
 	2600 3100 2600 3200
 Wire Wire Line
-	2600 3200 2700 3200
+	2600 3200 2650 3200
 Wire Wire Line
 	2700 3200 2700 3100
 $Comp
-L GND #PWR106
+L power:GND #PWR106
 U 1 1 59C1372A
 P 2650 3250
 F 0 "#PWR106" H 2650 3000 50  0001 C CNN
@@ -574,9 +544,11 @@ Connection ~ 2700 2750
 Text GLabel 8650 2550 0    60   Input ~ 0
 WIFI_GPIO16
 $Comp
-L Antenna AE1
+L ulx3s-rescue:Antenna AE1
 U 1 1 59C3AE47
 P 10950 1350
+AR Path="/59C3AE47" Ref="AE1"  Part="1" 
+AR Path="/58D6BF46/59C3AE47" Ref="AE1"  Part="1" 
 F 0 "AE1" H 10875 1425 50  0000 R CNN
 F 1 "433MHz" H 10875 1350 50  0000 R CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10950 1350 50  0001 C CNN
@@ -592,9 +564,11 @@ ANT_433MHz
 Text Notes 650  4100 0    60   ~ 0
 D8,D9: Schottky 2A/30V \nLow drop Vfmax=0.375V
 $Comp
-L R R54
+L ulx3s-rescue:R R54
 U 1 1 59D562D0
 P 2250 5450
+AR Path="/59D562D0" Ref="R54"  Part="1" 
+AR Path="/58D6BF46/59D562D0" Ref="R54"  Part="1" 
 F 0 "R54" V 2150 5450 50  0000 C CNN
 F 1 "1.5k" V 2250 5450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2180 5450 50  0001 C CNN
@@ -607,9 +581,11 @@ D- 1.5k pullp for \nlow speed device\nmode USB1.0
 Text GLabel 8650 2350 0    60   Input ~ 0
 FTDI_TXDEN
 $Comp
-L R R56
+L ulx3s-rescue:R R56
 U 1 1 59DFFFBE
 P 6450 4250
+AR Path="/59DFFFBE" Ref="R56"  Part="1" 
+AR Path="/58D6BF46/59DFFFBE" Ref="R56"  Part="1" 
 F 0 "R56" V 6530 4250 50  0000 C CNN
 F 1 "0" V 6450 4250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6380 4250 50  0001 C CNN
@@ -622,7 +598,7 @@ Wire Wire Line
 	6450 4100 6450 3700
 Connection ~ 6450 3700
 $Comp
-L GND #PWR112
+L power:GND #PWR112
 U 1 1 59E000AB
 P 6450 4400
 F 0 "#PWR112" H 6450 4150 50  0001 C CNN
@@ -635,7 +611,7 @@ $EndComp
 Text Notes 6100 5000 0    60   ~ 0
 Short circuit R56\nfor chip rev A,B,C\nworkaround in \nTN140_FT231X Errata
 $Comp
-L LFE5U-45F-6BG381C U1
+L lfe5bg381:LFE5U-45F-6BG381C U1
 U 5 1 5A079A7A
 P 9400 2050
 AR Path="/5A079A7A" Ref="U1"  Part="5" 
@@ -650,7 +626,7 @@ F 5 "www.mouser.com" H 9400 2050 60  0001 C CNN "Distributor1_URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LFE5U-45F-6BG381C U1
+L lfe5bg381:LFE5U-45F-6BG381C U1
 U 10 1 5A07A05D
 P 8600 3950
 AR Path="/5A07A05D" Ref="U1"  Part="10" 
@@ -666,7 +642,7 @@ F 6 "842-LFE5U45F6BG381C" H 8600 3950 60  0001 C CNN "Distributor1_PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Crystal_GND24 Y1
+L ulx3s-rescue:Crystal_GND24 Y1
 U 1 1 5A079883
 P 5450 1450
 F 0 "Y1" H 5575 1650 50  0000 L CNN
@@ -681,7 +657,7 @@ F 7 "729-FNETHE025" H 5450 1450 60  0001 C CNN "Distributor1_PN"
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5450 1150 5450 1250
+	5450 1150 5450 1200
 Wire Wire Line
 	5300 1450 5200 1450
 Wire Wire Line
@@ -690,7 +666,7 @@ Wire Wire Line
 	5200 1200 5450 1200
 Connection ~ 5450 1200
 $Comp
-L GND #PWR110
+L power:GND #PWR110
 U 1 1 5A07A1D3
 P 5450 1650
 F 0 "#PWR110" H 5450 1400 50  0001 C CNN
@@ -703,7 +679,7 @@ $EndComp
 Text GLabel 5600 1450 2    60   Input ~ 0
 CLK_25MHz
 $Comp
-L +3V3 #PWR109
+L power:+3V3 #PWR109
 U 1 1 5A07A3D1
 P 5450 1150
 F 0 "#PWR109" H 5450 1000 50  0001 C CNN
@@ -736,9 +712,11 @@ USB_FPGA_PULL_D+
 Text GLabel 1600 5250 0    60   Input ~ 0
 USB_FPGA_PULL_D-
 $Comp
-L R R63
+L ulx3s-rescue:R R63
 U 1 1 5A71E38F
 P 2250 4650
+AR Path="/5A71E38F" Ref="R63"  Part="1" 
+AR Path="/58D6BF46/5A71E38F" Ref="R63"  Part="1" 
 F 0 "R63" V 2330 4650 50  0000 C CNN
 F 1 "15k" V 2250 4650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2180 4650 50  0001 C CNN
@@ -747,9 +725,11 @@ F 3 "" H 2250 4650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R64
+L ulx3s-rescue:R R64
 U 1 1 5A71E566
 P 2250 5250
+AR Path="/5A71E566" Ref="R64"  Part="1" 
+AR Path="/58D6BF46/5A71E566" Ref="R64"  Part="1" 
 F 0 "R64" V 2330 5250 50  0000 C CNN
 F 1 "15k" V 2250 5250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2180 5250 50  0001 C CNN
@@ -758,13 +738,13 @@ F 3 "" H 2250 5250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2400 4650 2750 4650
+	2400 4650 2550 4650
 Wire Wire Line
-	2400 5250 2750 5250
+	2400 5250 2550 5250
 Text Notes 650  4450 0    60   ~ 0
 USB pull lines connected to\nBANK0 on "gpio" sheet
 $Comp
-L D_Schottky D23
+L ulx3s-rescue:D_Schottky D23
 U 1 1 5A720D44
 P 1950 4650
 F 0 "D23" H 1650 4750 50  0000 C CNN
@@ -775,7 +755,7 @@ F 3 "" V 1950 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky D24
+L ulx3s-rescue:D_Schottky D24
 U 1 1 5A7212CC
 P 1950 4850
 F 0 "D24" H 2250 4950 50  0000 C CNN
@@ -786,7 +766,7 @@ F 3 "" V 1950 4850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D_Schottky D25
+L ulx3s-rescue:D_Schottky D25
 U 1 1 5A72158A
 P 1950 5250
 F 0 "D25" H 1650 5350 50  0000 C CNN
@@ -797,7 +777,7 @@ F 3 "" V 1950 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky D26
+L ulx3s-rescue:D_Schottky D26
 U 1 1 5A7218C4
 P 1950 5450
 F 0 "D26" H 2250 5550 50  0000 C CNN
@@ -818,14 +798,14 @@ Wire Wire Line
 	2550 5450 2550 5250
 Connection ~ 2550 5250
 Wire Wire Line
-	1600 4650 1800 4650
+	1600 4650 1700 4650
 Wire Wire Line
 	1700 4650 1700 4850
 Wire Wire Line
 	1700 4850 1800 4850
 Connection ~ 1700 4650
 Wire Wire Line
-	1600 5250 1800 5250
+	1600 5250 1700 5250
 Wire Wire Line
 	1700 5250 1700 5450
 Wire Wire Line
@@ -841,4 +821,28 @@ Text GLabel 2750 5250 2    60   Input ~ 0
 USB_FPGA_D-
 Text Notes 2750 4550 0    60   ~ 0
 D+,D- 15k pulldown \nfor host mode
+Wire Wire Line
+	5600 4400 5600 4500
+Wire Wire Line
+	1950 1700 2200 1700
+Wire Wire Line
+	4950 3400 5000 3400
+Wire Wire Line
+	2650 3200 2700 3200
+Wire Wire Line
+	2600 2850 3150 2850
+Wire Wire Line
+	2700 2750 3150 2750
+Wire Wire Line
+	6450 3700 6550 3700
+Wire Wire Line
+	5450 1200 5450 1250
+Wire Wire Line
+	2550 4650 2750 4650
+Wire Wire Line
+	2550 5250 2750 5250
+Wire Wire Line
+	1700 4650 1800 4650
+Wire Wire Line
+	1700 5250 1800 5250
 $EndSCHEMATC

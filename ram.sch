@@ -1,48 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ulx3s-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ESP8266
-LIBS:lfe5bg381
-LIBS:micro-hdmi-d
-LIBS:ap3429a
-LIBS:ft2232
-LIBS:ESP32
-LIBS:ssd_13xx
-LIBS:ftdi
-LIBS:max1112x
-LIBS:micro_sd_card_cd
-LIBS:mt48lc16m16a2tg
-LIBS:usb_otg
+EESchema Schematic File Version 4
 LIBS:ulx3s-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -78,7 +36,7 @@ Wire Wire Line
 	5250 2000 5250 2200
 Connection ~ 5250 2100
 $Comp
-L +3V3 #PWR124
+L power:+3V3 #PWR124
 U 1 1 58D928FF
 P 5250 2000
 F 0 "#PWR124" H 5250 1850 50  0001 C CNN
@@ -89,7 +47,7 @@ F 3 "" H 5250 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR128
+L power:+3V3 #PWR128
 U 1 1 58D92915
 P 5550 2000
 F 0 "#PWR128" H 5550 1850 50  0001 C CNN
@@ -121,7 +79,7 @@ Wire Wire Line
 	5650 4800 5650 4900
 Connection ~ 5650 4900
 $Comp
-L GND #PWR125
+L power:GND #PWR125
 U 1 1 58D929C8
 P 5250 5000
 F 0 "#PWR125" H 5250 4750 50  0001 C CNN
@@ -132,7 +90,7 @@ F 3 "" H 5250 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR129
+L power:GND #PWR129
 U 1 1 58D929DE
 P 5550 5000
 F 0 "#PWR129" H 5550 4750 50  0001 C CNN
@@ -327,7 +285,7 @@ GN17
 Text GLabel 8550 5850 0    60   Input ~ 0
 GP17
 $Comp
-L C C16
+L ulx3s-rescue:C C16
 U 1 1 59131F17
 P 5350 5900
 F 0 "C16" H 5375 6000 50  0000 L CNN
@@ -338,7 +296,7 @@ F 3 "" H 5350 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR127
+L power:GND #PWR127
 U 1 1 59131FCA
 P 5350 6050
 F 0 "#PWR127" H 5350 5800 50  0001 C CNN
@@ -349,7 +307,7 @@ F 3 "" H 5350 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR126
+L power:+3V3 #PWR126
 U 1 1 59132092
 P 5350 5750
 F 0 "#PWR126" H 5350 5600 50  0001 C CNN
@@ -374,7 +332,7 @@ USB_FPGA_D-
 Text GLabel 4650 3650 0    60   Input ~ 0
 SDRAM_A12
 $Comp
-L MT48LC16M16A2TG U9
+L mt48lc16m16a2tg:MT48LC16M16A2TG U9
 U 1 1 5A04F49A
 P 5450 3500
 AR Path="/5A04F49A" Ref="U9"  Part="1" 
@@ -393,7 +351,7 @@ $EndComp
 Text GLabel 8550 2750 0    60   Input ~ 0
 SDRAM_A12
 $Comp
-L LFE5U-45F-6BG381C U1
+L lfe5bg381:LFE5U-45F-6BG381C U1
 U 3 1 5A07B063
 P 9300 3150
 AR Path="/5A07B063" Ref="U1"  Part="3" 
@@ -409,7 +367,7 @@ F 6 "842-LFE5U45F6BG381C" H 9300 3150 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LFE5U-45F-6BG381C U1
+L lfe5bg381:LFE5U-45F-6BG381C U1
 U 4 1 5A07B0B9
 P 9300 5250
 AR Path="/5A07B0B9" Ref="U1"  Part="4" 
@@ -431,7 +389,7 @@ BTN_U
 Text GLabel 10050 3450 2    60   Input ~ 0
 BTN_R
 $Comp
-L C C33
+L ulx3s-rescue:C C33
 U 1 1 5A5FD142
 P 5900 5900
 F 0 "C33" H 5925 6000 50  0000 L CNN
@@ -442,7 +400,7 @@ F 3 "" H 5900 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR131
+L power:GND #PWR131
 U 1 1 5A5FD148
 P 5900 6050
 F 0 "#PWR131" H 5900 5800 50  0001 C CNN
@@ -453,7 +411,7 @@ F 3 "" H 5900 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR130
+L power:+3V3 #PWR130
 U 1 1 5A5FD14E
 P 5900 5750
 F 0 "#PWR130" H 5900 5600 50  0001 C CNN
@@ -464,7 +422,7 @@ F 3 "" H 5900 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C34
+L ulx3s-rescue:C C34
 U 1 1 5A5FD1C1
 P 6200 5900
 F 0 "C34" H 6225 6000 50  0000 L CNN
@@ -475,7 +433,7 @@ F 3 "" H 6200 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR133
+L power:GND #PWR133
 U 1 1 5A5FD1C7
 P 6200 6050
 F 0 "#PWR133" H 6200 5800 50  0001 C CNN
@@ -486,7 +444,7 @@ F 3 "" H 6200 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR132
+L power:+3V3 #PWR132
 U 1 1 5A5FD1CD
 P 6200 5750
 F 0 "#PWR132" H 6200 5600 50  0001 C CNN
@@ -497,7 +455,7 @@ F 3 "" H 6200 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C35
+L ulx3s-rescue:C C35
 U 1 1 5A5FD26F
 P 6500 5900
 F 0 "C35" H 6525 6000 50  0000 L CNN
@@ -508,7 +466,7 @@ F 3 "" H 6500 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR135
+L power:GND #PWR135
 U 1 1 5A5FD275
 P 6500 6050
 F 0 "#PWR135" H 6500 5800 50  0001 C CNN
@@ -519,7 +477,7 @@ F 3 "" H 6500 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR134
+L power:+3V3 #PWR134
 U 1 1 5A5FD27B
 P 6500 5750
 F 0 "#PWR134" H 6500 5600 50  0001 C CNN
@@ -530,7 +488,7 @@ F 3 "" H 6500 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C52
+L ulx3s-rescue:C C52
 U 1 1 5AC202C5
 P 6800 5900
 F 0 "C52" H 6825 6000 50  0000 L CNN
@@ -541,7 +499,7 @@ F 3 "" H 6800 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR137
+L power:GND #PWR137
 U 1 1 5AC202CB
 P 6800 6050
 F 0 "#PWR137" H 6800 5800 50  0001 C CNN
@@ -552,7 +510,7 @@ F 3 "" H 6800 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR136
+L power:+3V3 #PWR136
 U 1 1 5AC202D1
 P 6800 5750
 F 0 "#PWR136" H 6800 5600 50  0001 C CNN

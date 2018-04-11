@@ -1,48 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ulx3s-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ESP8266
-LIBS:lfe5bg381
-LIBS:micro-hdmi-d
-LIBS:ap3429a
-LIBS:ft2232
-LIBS:ESP32
-LIBS:ssd_13xx
-LIBS:ftdi
-LIBS:max1112x
-LIBS:micro_sd_card_cd
-LIBS:mt48lc16m16a2tg
-LIBS:usb_otg
+EESchema Schematic File Version 4
 LIBS:ulx3s-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -83,7 +41,7 @@ JTAG_TCK
 Text GLabel 7550 3300 2    60   Input ~ 0
 JTAG_TMS
 $Comp
-L ESP-32S U9
+L ESP32:ESP-32S U9
 U 1 1 58E5662B
 P 6650 3450
 F 0 "U9" H 5950 4700 60  0000 C CNN
@@ -98,7 +56,7 @@ F 7 "Do not install" H 6650 3450 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR120
+L power:GND #PWR120
 U 1 1 58E56E8D
 P 5300 2750
 F 0 "#PWR120" H 5300 2500 50  0001 C CNN
@@ -109,7 +67,7 @@ F 3 "" H 5300 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR119
+L power:+3V3 #PWR119
 U 1 1 58E56EA3
 P 5150 2850
 F 0 "#PWR119" H 5150 2700 50  0001 C CNN
@@ -124,7 +82,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 2850 5700 2850
 $Comp
-L +3V3 #PWR117
+L power:+3V3 #PWR117
 U 1 1 58ED6C57
 P 4550 2200
 F 0 "#PWR117" H 4550 2050 50  0001 C CNN
@@ -135,7 +93,7 @@ F 3 "" H 4550 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R34
+L ulx3s-rescue:R R34
 U 1 1 58ED6C6D
 P 4550 2350
 F 0 "R34" V 4630 2350 50  0000 C CNN
@@ -153,7 +111,7 @@ Wire Wire Line
 	4550 2550 4700 2550
 Connection ~ 4550 2550
 $Comp
-L GND #PWR118
+L power:GND #PWR118
 U 1 1 58EE2982
 P 4550 3500
 F 0 "#PWR118" H 4550 3250 50  0001 C CNN
@@ -164,7 +122,7 @@ F 3 "" H 4550 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X01 J3
+L micro-hdmi-d:CONN_02X01 J3
 U 1 1 58EE29FF
 P 4550 3250
 F 0 "J3" H 4550 3350 50  0000 C CNN
@@ -178,7 +136,7 @@ $EndComp
 Text Notes 8500 3300 0    60   ~ 0
 Programming pins:\nTXD RXD EN GPIO0
 $Comp
-L R R35
+L ulx3s-rescue:R R35
 U 1 1 58FD4C5D
 P 4550 2750
 F 0 "R35" V 4630 2750 50  0000 C CNN
@@ -189,7 +147,7 @@ F 3 "" H 4550 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C21
+L ulx3s-rescue:C C21
 U 1 1 5924A09B
 P 3650 3100
 F 0 "C21" H 3675 3200 50  0000 L CNN
@@ -200,7 +158,7 @@ F 3 "" H 3650 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR115
+L power:+3V3 #PWR115
 U 1 1 5924A1EA
 P 3650 2950
 F 0 "#PWR115" H 3650 2800 50  0001 C CNN
@@ -211,7 +169,7 @@ F 3 "" H 3650 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR116
+L power:GND #PWR116
 U 1 1 5924A206
 P 3650 3250
 F 0 "#PWR116" H 3650 3000 50  0001 C CNN
@@ -248,7 +206,7 @@ GN11
 Text GLabel 7550 3900 2    60   Input ~ 0
 WIFI_GPIO16
 $Comp
-L GND #PWR123
+L power:GND #PWR123
 U 1 1 59C1BF96
 P 7650 2800
 F 0 "#PWR123" H 7650 2550 50  0001 C CNN
@@ -261,7 +219,7 @@ $EndComp
 Wire Wire Line
 	7550 2800 7650 2800
 $Comp
-L GND #PWR122
+L power:GND #PWR122
 U 1 1 59C1BFCC
 P 7650 2700
 F 0 "#PWR122" H 7650 2450 50  0001 C CNN
@@ -278,7 +236,7 @@ PROG_DONE
 Text Notes 8500 3050 0    60   ~ 0
 PROG_DONE on\n"flash" sheet
 $Comp
-L GND #PWR121
+L power:GND #PWR121
 U 1 1 59DEDA17
 P 6200 4900
 F 0 "#PWR121" H 6200 4650 50  0001 C CNN

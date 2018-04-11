@@ -1,48 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ulx3s-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ESP8266
-LIBS:lfe5bg381
-LIBS:micro-hdmi-d
-LIBS:ap3429a
-LIBS:ft2232
-LIBS:ESP32
-LIBS:ssd_13xx
-LIBS:ftdi
-LIBS:max1112x
-LIBS:micro_sd_card_cd
-LIBS:mt48lc16m16a2tg
-LIBS:usb_otg
+EESchema Schematic File Version 4
 LIBS:ulx3s-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -57,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MB85RS16 U10
+L ulx3s-rescue:MB85RS16 U10
 U 1 1 58D913F5
 P 3650 4350
 F 0 "U10" H 3350 4600 50  0000 L CNN
@@ -72,7 +30,7 @@ F 7 "870-IS25LP032DJNLETR" H 3650 4350 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR155
+L power:+3V3 #PWR155
 U 1 1 58D9149E
 P 3650 4050
 F 0 "#PWR155" H 3650 3900 50  0001 C CNN
@@ -83,7 +41,7 @@ F 3 "" H 3650 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR156
+L power:GND #PWR156
 U 1 1 58D914B4
 P 3650 4650
 F 0 "#PWR156" H 3650 4400 50  0001 C CNN
@@ -130,7 +88,7 @@ Wire Wire Line
 Text Label 5550 4300 0    60   ~ 0
 FLASH_nCS
 $Comp
-L R R27
+L ulx3s-rescue:R R27
 U 1 1 58EC0EFE
 P 3450 2350
 F 0 "R27" V 3530 2350 50  0000 C CNN
@@ -145,7 +103,7 @@ Wire Wire Line
 Text Label 3450 3150 1    60   ~ 0
 FLASH_MOSI
 $Comp
-L +3V3 #PWR153
+L power:+3V3 #PWR153
 U 1 1 58EC0F61
 P 3450 2200
 F 0 "#PWR153" H 3450 2050 50  0001 C CNN
@@ -156,7 +114,7 @@ F 3 "" H 3450 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L ulx3s-rescue:R R28
 U 1 1 58EC0F8E
 P 3650 2350
 F 0 "R28" V 3730 2350 50  0000 C CNN
@@ -171,7 +129,7 @@ Wire Wire Line
 Text Label 3650 3150 1    60   ~ 0
 FLASH_MISO
 $Comp
-L +3V3 #PWR154
+L power:+3V3 #PWR154
 U 1 1 58EC0F96
 P 3650 2200
 F 0 "#PWR154" H 3650 2050 50  0001 C CNN
@@ -182,7 +140,7 @@ F 3 "" H 3650 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R29
+L ulx3s-rescue:R R29
 U 1 1 58EC15E1
 P 3850 2350
 F 0 "R29" V 3930 2350 50  0000 C CNN
@@ -197,7 +155,7 @@ Wire Wire Line
 Text Label 3850 3150 1    60   ~ 0
 FLASH_SCK
 $Comp
-L +3V3 #PWR157
+L power:+3V3 #PWR157
 U 1 1 58EC15E9
 P 3850 2200
 F 0 "#PWR157" H 3850 2050 50  0001 C CNN
@@ -212,7 +170,7 @@ Wire Wire Line
 Text Label 5550 4700 0    60   ~ 0
 FLASH_SCK
 $Comp
-L R R30
+L ulx3s-rescue:R R30
 U 1 1 58EC1C84
 P 4050 2350
 F 0 "R30" V 4130 2350 50  0000 C CNN
@@ -227,7 +185,7 @@ Wire Wire Line
 Text Label 4050 3150 1    60   ~ 0
 FLASH_nCS
 $Comp
-L +3V3 #PWR158
+L power:+3V3 #PWR158
 U 1 1 58EC1C8C
 P 4050 2200
 F 0 "#PWR158" H 4050 2050 50  0001 C CNN
@@ -240,7 +198,7 @@ $EndComp
 Text Notes 2600 1950 0    60   ~ 0
 pullups for Master SPI (MSPI) required by\nTN1260: lattice ECP5 sysCONFIG guide p.6
 $Comp
-L R R11
+L ulx3s-rescue:R R11
 U 1 1 58EC4E77
 P 3050 2350
 F 0 "R11" V 3130 2350 50  0000 C CNN
@@ -255,7 +213,7 @@ Wire Wire Line
 Text Label 3050 3150 1    60   ~ 0
 FLASH_nWP
 $Comp
-L +3V3 #PWR151
+L power:+3V3 #PWR151
 U 1 1 58EC4E7F
 P 3050 2200
 F 0 "#PWR151" H 3050 2050 50  0001 C CNN
@@ -266,7 +224,7 @@ F 3 "" H 3050 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L ulx3s-rescue:R R12
 U 1 1 58EC4E85
 P 3250 2350
 F 0 "R12" V 3330 2350 50  0000 C CNN
@@ -281,7 +239,7 @@ Wire Wire Line
 Text Label 3250 3150 1    60   ~ 0
 FLASH_nHOLD
 $Comp
-L +3V3 #PWR152
+L power:+3V3 #PWR152
 U 1 1 58EC4E8D
 P 3250 2200
 F 0 "#PWR152" H 3250 2050 50  0001 C CNN
@@ -292,7 +250,7 @@ F 3 "" H 3250 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR162
+L power:+3V3 #PWR162
 U 1 1 58EC58A7
 P 6300 5000
 F 0 "#PWR162" H 6300 4850 50  0001 C CNN
@@ -303,7 +261,7 @@ F 3 "" H 6300 5000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR166
+L power:GND #PWR166
 U 1 1 58EC58CB
 P 6500 5100
 F 0 "#PWR166" H 6500 4850 50  0001 C CNN
@@ -314,7 +272,7 @@ F 3 "" H 6500 5100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR165
+L power:GND #PWR165
 U 1 1 58EC58EF
 P 6500 4900
 F 0 "#PWR165" H 6500 4650 50  0001 C CNN
@@ -337,7 +295,7 @@ FPGA_PROGRAMN
 Text Label 5550 4800 0    60   ~ 0
 FPGA_DONE
 $Comp
-L R R31
+L ulx3s-rescue:R R31
 U 1 1 58EC68DC
 P 5200 2350
 F 0 "R31" V 5280 2350 50  0000 C CNN
@@ -352,7 +310,7 @@ Wire Wire Line
 Text Label 5200 3300 1    60   ~ 0
 FPGA_PROGRAMN
 $Comp
-L +3V3 #PWR159
+L power:+3V3 #PWR159
 U 1 1 58EC68E4
 P 5200 2200
 F 0 "#PWR159" H 5200 2050 50  0001 C CNN
@@ -363,7 +321,7 @@ F 3 "" H 5200 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R32
+L ulx3s-rescue:R R32
 U 1 1 58EC68EA
 P 5400 2350
 F 0 "R32" V 5480 2350 50  0000 C CNN
@@ -378,7 +336,7 @@ Wire Wire Line
 Text Label 5400 3300 1    60   ~ 0
 FPGA_DONE
 $Comp
-L +3V3 #PWR160
+L power:+3V3 #PWR160
 U 1 1 58EC68F2
 P 5400 2200
 F 0 "#PWR160" H 5400 2050 50  0001 C CNN
@@ -393,7 +351,7 @@ Wire Wire Line
 Text Label 5550 4400 0    60   ~ 0
 FPGA_INITN
 $Comp
-L R R33
+L ulx3s-rescue:R R33
 U 1 1 58EC72FD
 P 5600 2350
 F 0 "R33" V 5680 2350 50  0000 C CNN
@@ -408,7 +366,7 @@ Wire Wire Line
 Text Label 5600 3300 1    60   ~ 0
 FPGA_INITN
 $Comp
-L +3V3 #PWR161
+L power:+3V3 #PWR161
 U 1 1 58EC7305
 P 5600 2200
 F 0 "#PWR161" H 5600 2050 50  0001 C CNN
@@ -419,7 +377,7 @@ F 3 "" H 5600 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR164
+L power:+3V3 #PWR164
 U 1 1 58EC879F
 P 6500 4600
 F 0 "#PWR164" H 6500 4450 50  0001 C CNN
@@ -430,7 +388,7 @@ F 3 "" H 6500 4600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3V3 #PWR163
+L power:+3V3 #PWR163
 U 1 1 58EC8800
 P 6500 4200
 F 0 "#PWR163" H 6500 4050 50  0001 C CNN
@@ -441,7 +399,7 @@ F 3 "" H 6500 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3V3 #PWR167
+L power:+3V3 #PWR167
 U 1 1 58EC882A
 P 8000 4200
 F 0 "#PWR167" H 8000 4050 50  0001 C CNN
@@ -462,7 +420,7 @@ BTN_L
 Text Notes 4700 1950 0    60   ~ 0
 pullups to allow entering USER mode\nTN1260: lattice ECP5 sysCONFIG guide p.6, p.8, p.13
 $Comp
-L R R55
+L ulx3s-rescue:R R55
 U 1 1 59DEB568
 P 5350 4800
 F 0 "R55" V 5430 4800 50  0000 C CNN
@@ -475,7 +433,7 @@ $EndComp
 Text GLabel 5200 4800 0    60   Input ~ 0
 PROG_DONE
 $Comp
-L LFE5U-45F-6BG381C U1
+L lfe5bg381:LFE5U-45F-6BG381C U1
 U 7 1 5A07BEF6
 P 7250 4500
 AR Path="/5A07BEF6" Ref="U1"  Part="7" 
