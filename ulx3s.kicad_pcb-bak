@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 483)
-    (tracks 4757)
+    (tracks 4755)
     (zones 0)
     (modules 203)
     (nets 267)
@@ -64,7 +64,7 @@
     (grid_origin 93.48 113)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x310fc_80000007)
+      (layerselection 0x310fc_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -5607,7 +5607,7 @@
       (net 1 GND) (solder_mask_margin 0.04))
     (pad Y19 smd circle (at 6.8 7.6) (size 0.35 0.35) (layers F.Cu F.Paste F.Mask)
       (net 1 GND) (solder_mask_margin 0.04))
-    (model Housings_BGA.3dshapes/BGA-256_16x16_17.0x17.0mm_Pitch1.0mm.wrl
+    (model ${KISYS3DMOD}/Package_BGA.3dshapes/BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6584,6 +6584,11 @@
     (pad 2 smd rect (at 1.1 0 270) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13362,13 +13367,11 @@
   (via (at 169.919 64.849) (size 0.4) (drill 0.2) (layers F.Cu B.Cu) (net 154))
   (segment (start 170.3 66) (end 170.3 65.025) (width 0.3) (layer F.Cu) (net 154))
   (segment (start 170.3 65.025) (end 170.173 64.898) (width 0.3) (layer F.Cu) (net 154))
-  (segment (start 170.3 66.635) (end 170.3 68.151) (width 0.19) (layer F.Cu) (net 154))
   (segment (start 171.316 64.849) (end 171.316 65.865) (width 0.3) (layer B.Cu) (net 155))
   (segment (start 171.126 64.849) (end 171.316 64.849) (width 0.3) (layer F.Cu) (net 155))
   (via (at 171.316 64.849) (size 0.4) (drill 0.2) (layers F.Cu B.Cu) (net 155))
   (segment (start 170.95 66) (end 170.95 65.025) (width 0.3) (layer F.Cu) (net 155))
   (segment (start 170.95 65.025) (end 171.126 64.849) (width 0.3) (layer F.Cu) (net 155))
-  (segment (start 170.95 66.635) (end 170.95 68.125562) (width 0.19) (layer F.Cu) (net 155))
   (segment (start 126.448356 89.39833) (end 125.452905 90.393781) (width 0.19) (layer F.Cu) (net 156))
   (segment (start 125.310332 92.697639) (end 125.110333 92.897638) (width 0.19) (layer F.Cu) (net 156))
   (segment (start 125.452905 90.393781) (end 125.452905 92.555066) (width 0.19) (layer F.Cu) (net 156))
