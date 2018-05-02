@@ -1,48 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ulx3s-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ESP8266
-LIBS:lfe5bg381
-LIBS:micro-hdmi-d
-LIBS:ap3429a
-LIBS:ft2232
-LIBS:ESP32
-LIBS:ssd_13xx
-LIBS:ftdi
-LIBS:max1112x
-LIBS:micro_sd_card_cd
-LIBS:mt48lc16m16a2tg
-LIBS:usb_otg
+EESchema Schematic File Version 4
 LIBS:ulx3s-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -71,10 +29,10 @@ Wire Wire Line
 Wire Wire Line
 	4750 1850 4850 1850
 $Comp
-L GND #PWR86
+L power:GND #PWR086
 U 1 1 58D66047
 P 4850 1250
-F 0 "#PWR86" H 4850 1000 50  0001 C CNN
+F 0 "#PWR086" H 4850 1000 50  0001 C CNN
 F 1 "GND" H 4850 1100 50  0000 C CNN
 F 2 "" H 4850 1250 60  0000 C CNN
 F 3 "" H 4850 1250 60  0000 C CNN
@@ -82,10 +40,10 @@ F 3 "" H 4850 1250 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3V3 #PWR87
+L power:+3V3 #PWR087
 U 1 1 58D66055
 P 5350 1350
-F 0 "#PWR87" H 5350 1200 50  0001 C CNN
+F 0 "#PWR087" H 5350 1200 50  0001 C CNN
 F 1 "+3V3" H 5350 1490 50  0000 C CNN
 F 2 "" H 5350 1350 50  0000 C CNN
 F 3 "" H 5350 1350 50  0000 C CNN
@@ -103,7 +61,7 @@ OLED_DC
 Text GLabel 4850 1850 2    60   Input ~ 0
 OLED_CS
 $Comp
-L CONN_02X01 BTN1
+L micro-hdmi-d:CONN_02X01 BTN1
 U 1 1 58D66056
 P 3100 2950
 F 0 "BTN1" H 3100 3050 50  0000 C CNN
@@ -131,10 +89,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 3150 2850 3150
 $Comp
-L +3V3 #PWR81
+L power:+3V3 #PWR081
 U 1 1 58D6605C
 P 1750 2750
-F 0 "#PWR81" H 1750 2600 50  0001 C CNN
+F 0 "#PWR081" H 1750 2600 50  0001 C CNN
 F 1 "+3V3" H 1750 2890 50  0000 C CNN
 F 2 "" H 1750 2750 50  0000 C CNN
 F 3 "" H 1750 2750 50  0000 C CNN
@@ -166,7 +124,7 @@ BTN_L
 Text GLabel 3450 3950 2    60   Input ~ 0
 BTN_R
 $Comp
-L R R7
+L ulx3s-rescue:R R7
 U 1 1 58D6605D
 P 1900 2750
 F 0 "R7" V 1980 2750 50  0000 C CNN
@@ -203,10 +161,10 @@ Wire Wire Line
 	4400 2750 4250 2750
 Connection ~ 4250 2750
 $Comp
-L GND #PWR83
+L power:GND #PWR083
 U 1 1 58D681C3
 P 4250 4100
-F 0 "#PWR83" H 4250 3850 50  0001 C CNN
+F 0 "#PWR083" H 4250 3850 50  0001 C CNN
 F 1 "GND" H 4250 3950 50  0000 C CNN
 F 2 "" H 4250 4100 50  0000 C CNN
 F 3 "" H 4250 4100 50  0000 C CNN
@@ -249,7 +207,7 @@ LED7
 Text Label 2100 2750 0    60   ~ 0
 BTNPUL
 $Comp
-L SSD_13xx OLED1
+L ssd_13xx:SSD_13xx OLED1
 U 1 1 58E6D4AC
 P 4750 1550
 F 0 "OLED1" H 4750 1150 50  0000 C CNN
@@ -266,7 +224,7 @@ $EndComp
 Text GLabel 5650 4600 2    60   Input ~ 0
 FTDI_nSLEEP
 $Comp
-L LED_ALT D18
+L ulx3s-rescue:LED_ALT D18
 U 1 1 590B4E85
 P 5500 4600
 F 0 "D18" H 5500 4700 50  0000 C CNN
@@ -281,7 +239,7 @@ F 7 "859-LTST-C170KGKT " H 5500 4600 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R36
+L ulx3s-rescue:R R36
 U 1 1 590B507C
 P 4550 4600
 F 0 "R36" V 4630 4600 50  0000 C CNN
@@ -300,10 +258,10 @@ Wire Wire Line
 Wire Wire Line
 	4250 4600 4250 4950
 $Comp
-L GND #PWR84
+L power:GND #PWR084
 U 1 1 590B5B6D
 P 4250 4950
-F 0 "#PWR84" H 4250 4700 50  0001 C CNN
+F 0 "#PWR084" H 4250 4700 50  0001 C CNN
 F 1 "GND" H 4250 4800 50  0000 C CNN
 F 2 "" H 4250 4950 50  0000 C CNN
 F 3 "" H 4250 4950 50  0000 C CNN
@@ -313,7 +271,7 @@ $EndComp
 Text GLabel 5650 5350 2    60   Input ~ 0
 FTDI_nTXLED
 $Comp
-L LED_ALT D19
+L ulx3s-rescue:LED_ALT D19
 U 1 1 590B86F4
 P 4550 5350
 F 0 "D19" H 4550 5450 50  0000 C CNN
@@ -328,7 +286,7 @@ F 7 "859-LTST-C170KRKT" H 4550 5350 60  0001 C CNN "Distributor1_PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R37
+L ulx3s-rescue:R R37
 U 1 1 590B86FA
 P 5500 5350
 F 0 "R37" V 5580 5350 50  0000 C CNN
@@ -351,10 +309,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 2750 2750 3150
 $Comp
-L +3V3 #PWR82
+L power:+3V3 #PWR082
 U 1 1 591B548D
 P 1750 4150
-F 0 "#PWR82" H 1750 4000 50  0001 C CNN
+F 0 "#PWR082" H 1750 4000 50  0001 C CNN
 F 1 "+3V3" H 1750 4290 50  0000 C CNN
 F 2 "" H 1750 4150 50  0000 C CNN
 F 3 "" H 1750 4150 50  0000 C CNN
@@ -362,7 +320,7 @@ F 3 "" H 1750 4150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R39
+L ulx3s-rescue:R R39
 U 1 1 591B5493
 P 1900 4150
 F 0 "R39" V 1980 4150 50  0000 C CNN
@@ -381,7 +339,7 @@ Wire Wire Line
 Connection ~ 2750 2950
 Connection ~ 2750 3950
 $Comp
-L R R41
+L ulx3s-rescue:R R41
 U 1 1 591E1845
 P 5250 2550
 F 0 "R41" V 5330 2550 50  0000 C CNN
@@ -392,7 +350,7 @@ F 3 "" H 5250 2550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R42
+L ulx3s-rescue:R R42
 U 1 1 591E199B
 P 5250 2750
 F 0 "R42" V 5330 2750 50  0000 C CNN
@@ -403,7 +361,7 @@ F 3 "" H 5250 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R43
+L ulx3s-rescue:R R43
 U 1 1 591E1A9D
 P 5250 2950
 F 0 "R43" V 5330 2950 50  0000 C CNN
@@ -414,7 +372,7 @@ F 3 "" H 5250 2950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R44
+L ulx3s-rescue:R R44
 U 1 1 591E1AA3
 P 5250 3150
 F 0 "R44" V 5330 3150 50  0000 C CNN
@@ -425,7 +383,7 @@ F 3 "" H 5250 3150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R45
+L ulx3s-rescue:R R45
 U 1 1 591E1BA5
 P 5250 3350
 F 0 "R45" V 5330 3350 50  0000 C CNN
@@ -436,7 +394,7 @@ F 3 "" H 5250 3350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R46
+L ulx3s-rescue:R R46
 U 1 1 591E1BAB
 P 5250 3550
 F 0 "R46" V 5330 3550 50  0000 C CNN
@@ -447,7 +405,7 @@ F 3 "" H 5250 3550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R47
+L ulx3s-rescue:R R47
 U 1 1 591E1BB1
 P 5250 3750
 F 0 "R47" V 5330 3750 50  0000 C CNN
@@ -458,7 +416,7 @@ F 3 "" H 5250 3750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R48
+L ulx3s-rescue:R R48
 U 1 1 591E1BB7
 P 5250 3950
 F 0 "R48" V 5330 3950 50  0000 C CNN
@@ -489,7 +447,7 @@ LEDs connected to\nBANK7 on "gpio" sheet
 Text Notes 2100 4400 0    60   ~ 0
 BTN_R,U to BANK2,3 on "ram" sheet\nBTN_F1,F2,D,L to BANK8 on "flash" sheet
 $Comp
-L DIL8 SW1
+L micro-hdmi-d:DIL8 SW1
 U 1 1 595B94DC
 P 8150 3250
 F 0 "SW1" H 8150 3500 50  0000 C CNN
@@ -504,7 +462,7 @@ F 7 "774-2194MST " H 8150 3250 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R51
+L ulx3s-rescue:R R51
 U 1 1 595B9C2F
 P 7250 3400
 F 0 "R51" V 7330 3400 50  0000 C CNN
@@ -515,10 +473,10 @@ F 3 "" H 7250 3400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3V3 #PWR90
+L power:+3V3 #PWR090
 U 1 1 595BA1C1
 P 7100 3400
-F 0 "#PWR90" H 7100 3250 50  0001 C CNN
+F 0 "#PWR090" H 7100 3250 50  0001 C CNN
 F 1 "+3V3" H 7100 3540 50  0000 C CNN
 F 2 "" H 7100 3400 50  0000 C CNN
 F 3 "" H 7100 3400 50  0000 C CNN
@@ -553,7 +511,7 @@ To fix issues with FT231XS rev A,B,C\nShort-circuit D18 LED, but then\nboard can
 Text GLabel 5650 5850 2    60   Input ~ 0
 WIFI_GPIO5
 $Comp
-L LED_ALT D22
+L ulx3s-rescue:LED_ALT D22
 U 1 1 5A07AFD2
 P 5500 5850
 F 0 "D22" H 5500 5950 50  0000 C CNN
@@ -568,7 +526,7 @@ F 7 "859-LTST-C170TBKT" H 5500 5850 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R62
+L ulx3s-rescue:R R62
 U 1 1 5A07AFD8
 P 4550 5850
 F 0 "R62" V 4630 5850 50  0000 C CNN
@@ -587,10 +545,10 @@ Wire Wire Line
 Wire Wire Line
 	4250 5850 4250 6200
 $Comp
-L GND #PWR85
+L power:GND #PWR085
 U 1 1 5A07AFE2
 P 4250 6200
-F 0 "#PWR85" H 4250 5950 50  0001 C CNN
+F 0 "#PWR085" H 4250 5950 50  0001 C CNN
 F 1 "GND" H 4250 6050 50  0000 C CNN
 F 2 "" H 4250 6200 50  0000 C CNN
 F 3 "" H 4250 6200 50  0000 C CNN
@@ -604,7 +562,7 @@ TXLED blinks when FPGA sends data to FTDI
 Text Notes 4850 2150 0    60   ~ 0
 OLED connected to\nBANK6 on "usb" sheet
 $Comp
-L LED_ALT D7
+L ulx3s-rescue:LED_ALT D7
 U 1 1 5A54C340
 P 4550 3950
 F 0 "D7" H 4550 4050 50  0000 C CNN
@@ -619,7 +577,7 @@ F 7 "859-LTST-C170TBKT" H 4550 3950 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_ALT D6
+L ulx3s-rescue:LED_ALT D6
 U 1 1 5A54CAEF
 P 4550 3750
 F 0 "D6" H 4550 3850 50  0000 C CNN
@@ -634,7 +592,7 @@ F 7 "859-LTST-C170KGKT " H 4550 3750 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_ALT D4
+L ulx3s-rescue:LED_ALT D4
 U 1 1 5A54CF8A
 P 4550 3350
 F 0 "D4" H 4550 3450 50  0000 C CNN
@@ -649,7 +607,7 @@ F 7 "859-LTST-C170KRKT" H 4550 3350 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_ALT D5
+L ulx3s-rescue:LED_ALT D5
 U 1 1 5A54D428
 P 4550 3550
 F 0 "D5" H 4550 3650 50  0000 C CNN
@@ -664,7 +622,7 @@ F 7 "859-LTST-C170KFKT" H 4550 3550 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_ALT D3
+L ulx3s-rescue:LED_ALT D3
 U 1 1 5A54DCE5
 P 4550 3150
 F 0 "D3" H 4550 3250 50  0000 C CNN
@@ -679,7 +637,7 @@ F 7 "859-LTST-C170TBKT" H 4550 3150 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_ALT D2
+L ulx3s-rescue:LED_ALT D2
 U 1 1 5A54DCEF
 P 4550 2950
 F 0 "D2" H 4550 3050 50  0000 C CNN
@@ -694,7 +652,7 @@ F 7 "859-LTST-C170KGKT " H 4550 2950 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_ALT D0
+L ulx3s-rescue:LED_ALT D0
 U 1 1 5A54DCF9
 P 4550 2550
 F 0 "D0" H 4550 2650 50  0000 C CNN
@@ -709,7 +667,7 @@ F 7 "859-LTST-C170KRKT" H 4550 2550 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_ALT D1
+L ulx3s-rescue:LED_ALT D1
 U 1 1 5A54DD03
 P 4550 2750
 F 0 "D1" H 4550 2850 50  0000 C CNN
@@ -724,7 +682,7 @@ F 7 "859-LTST-C170KFKT" H 4550 2750 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X01 BTN2
+L micro-hdmi-d:CONN_02X01 BTN2
 U 1 1 5A556C72
 P 3100 3150
 F 0 "BTN2" H 3100 3250 50  0000 C CNN
@@ -738,7 +696,7 @@ F 6 "www.mouser.com" H 3100 3150 60  0001 C CNN "Distributor1_URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X01 BTN3
+L micro-hdmi-d:CONN_02X01 BTN3
 U 1 1 5A556E0A
 P 3100 3350
 F 0 "BTN3" H 3100 3450 50  0000 C CNN
@@ -752,7 +710,7 @@ F 6 "www.mouser.com" H 3100 3350 60  0001 C CNN "Distributor1_URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X01 BTN4
+L micro-hdmi-d:CONN_02X01 BTN4
 U 1 1 5A556FAC
 P 3100 3550
 F 0 "BTN4" H 3100 3650 50  0000 C CNN
@@ -766,7 +724,7 @@ F 6 "www.mouser.com" H 3100 3550 60  0001 C CNN "Distributor1_URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X01 BTN5
+L micro-hdmi-d:CONN_02X01 BTN5
 U 1 1 5A557167
 P 3100 3750
 F 0 "BTN5" H 3100 3850 50  0000 C CNN
@@ -780,7 +738,7 @@ F 6 "www.mouser.com" H 3100 3750 60  0001 C CNN "Distributor1_URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X01 BTN6
+L micro-hdmi-d:CONN_02X01 BTN6
 U 1 1 5A557341
 P 3100 3950
 F 0 "BTN6" H 3100 4050 50  0000 C CNN
@@ -808,7 +766,7 @@ LEFT
 Text Notes 2100 4000 0    60   ~ 0
 RIGHT
 $Comp
-L C C46
+L ulx3s-rescue:C C46
 U 1 1 5A881E8B
 P 6650 1350
 F 0 "C46" H 6675 1450 50  0000 L CNN
@@ -819,10 +777,10 @@ F 3 "" H 6650 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR88
+L power:+3V3 #PWR088
 U 1 1 5A881F6A
 P 6650 1200
-F 0 "#PWR88" H 6650 1050 50  0001 C CNN
+F 0 "#PWR088" H 6650 1050 50  0001 C CNN
 F 1 "+3V3" H 6650 1340 50  0000 C CNN
 F 2 "" H 6650 1200 50  0000 C CNN
 F 3 "" H 6650 1200 50  0000 C CNN
@@ -830,10 +788,10 @@ F 3 "" H 6650 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR89
+L power:GND #PWR089
 U 1 1 5A882046
 P 6650 1500
-F 0 "#PWR89" H 6650 1250 50  0001 C CNN
+F 0 "#PWR089" H 6650 1250 50  0001 C CNN
 F 1 "GND" H 6650 1350 50  0000 C CNN
 F 2 "" H 6650 1500 60  0000 C CNN
 F 3 "" H 6650 1500 60  0000 C CNN
