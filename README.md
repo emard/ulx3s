@@ -200,3 +200,5 @@ Test the prototype.
     [x] more bank0,1,7 decoupling capacitors
     [x] Move Jumper 2.5V/3.3V deeper inside PCB (angled header)
     [x] Selected 2.5/3.3V to J1 header (instead fixed 3.3V)
+    [x] RTC battery capacitor
+    [x] battery + pad clearance
