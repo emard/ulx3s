@@ -61,7 +61,7 @@ There are known issues, luckily most can be fixed by
 
 # Features
 
-FPGA: Lattice ECP5 LFE5U-45F-6BG381C
+FPGA: Lattice ECP5 LFE5U-85F-6BG381C
 
 USB: FTDI FT231XS (300kbit JTAG and 3Mbit USB-serial)
 
@@ -69,7 +69,7 @@ GPIO: 56 pins (28 differential pairs), PMOD-friendly
 
 RAM: 32MB SDRAM MT48LC16M16
 
-Flash: 4MB SPI Flash IS25LP032D for FPGA config
+Flash: 4MB Quad-SPI Flash IS25LP032D for FPGA config
 
 Storage: Micro-SD slot
 
@@ -85,7 +85,7 @@ Display: placeholder for 0.96" SPI COLOR OLED
 
 WiFi+bluetooth: placeholder for ESP-32 (Standalone JTAG web interface over WiFi)
 
-ADC: 8 channels, 8 bit, 1 MSa/s MAX11123
+ADC: 8 channels, 12 bit, 1 MSa/s MAX11125
 
 Power: 3 Switching voltage regulators: 1.1V, 2.5V, 3.3V
 
