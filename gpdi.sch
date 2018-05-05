@@ -21,11 +21,11 @@ P 8950 2950
 F 0 "GPDI1" H 8950 4000 50  0000 C CNN
 F 1 "GPDI-D" V 9050 2950 50  0000 C CNN
 F 2 "hdmi-swm-19:hdmi-swm-19" H 8950 2950 60  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent/fci/drawing/10029449.pdf" H 8950 2950 60  0001 C CNN
-F 4 "www.amphenol-icc.com" H 8950 2950 60  0001 C CNN "MFG_URL"
-F 5 "10029449-111RLF" H 8950 2950 60  0001 C CNN "MFG_PN"
+F 3 "https://katalog.we-online.com/em/datasheet/685119134923.pdf" H 8950 2950 60  0001 C CNN
+F 4 "www.we-online.com" H 8950 2950 60  0001 C CNN "MFG_URL"
+F 5 "685119134923" H 8950 2950 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 8950 2950 60  0001 C CNN "Distributor1_URL"
-F 7 "649-10029449-111RLF" H 8950 2950 60  0001 C CNN "Distributor1_PN"
+F 7 "710-685119134923" H 8950 2950 60  0001 C CNN "Distributor1_PN"
 	1    8950 2950
 	1    0    0    -1  
 $EndComp
@@ -358,30 +358,28 @@ Wire Wire Line
 Wire Wire Line
 	8750 2000 8700 2000
 Wire Wire Line
-	4950 5350 4950 5350
-Wire Wire Line
 	4700 5450 4950 5450
 Wire Wire Line
-	4100 5550 4950 5550
+	4100 5550 4400 5550
 Wire Wire Line
-	4100 5650 4950 5650
+	4100 5650 4250 5650
 Wire Wire Line
 	5650 5350 6100 5350
 Wire Wire Line
 	6100 5450 5650 5450
 Wire Wire Line
-	5650 5550 6700 5550
+	5650 5550 6300 5550
 Wire Wire Line
-	5650 5650 6700 5650
+	5650 5650 6500 5650
 Wire Wire Line
-	6100 5250 6100 5750
+	6100 5250 6100 5350
 Connection ~ 6100 5350
 Wire Wire Line
 	6100 4950 6100 4850
 Wire Wire Line
 	6500 4850 6500 4950
 Wire Wire Line
-	6300 4700 6300 4950
+	6300 4700 6300 4850
 Connection ~ 6300 4850
 Wire Wire Line
 	6300 5550 6300 5250
@@ -390,7 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 6050 6100 6100
 Wire Wire Line
-	4700 5000 4700 5450
+	4700 5000 4700 5050
 Wire Wire Line
 	4400 5550 4400 5450
 Wire Wire Line
@@ -398,7 +396,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 5150 4250 5050
 Wire Wire Line
-	4250 5050 4700 5050
+	4250 5050 4400 5050
 Connection ~ 4700 5050
 Wire Wire Line
 	4400 5050 4400 5150
@@ -409,7 +407,7 @@ Connection ~ 4400 5550
 Connection ~ 4250 5650
 Connection ~ 6100 5450
 Wire Wire Line
-	6100 4850 6500 4850
+	6100 4850 6300 4850
 $Comp
 L lfe5bg381:LFE5U-45F-6BG381C U1
 U 2 1 5A07A906
@@ -612,4 +610,26 @@ Text GLabel 2850 3600 0    60   Input ~ 0
 USB_FPGA_PULL_D+
 Text GLabel 4350 3600 2    60   Input ~ 0
 USB_FPGA_PULL_D-
+Wire Wire Line
+	6100 5350 6100 5450
+Wire Wire Line
+	6300 4850 6300 4950
+Wire Wire Line
+	6300 4850 6500 4850
+Wire Wire Line
+	4700 5050 4700 5450
+Wire Wire Line
+	4400 5050 4700 5050
+Wire Wire Line
+	6300 5550 6700 5550
+Wire Wire Line
+	6500 5650 6700 5650
+Wire Wire Line
+	4400 5550 4950 5550
+Wire Wire Line
+	4250 5650 4950 5650
+Wire Wire Line
+	6100 5450 6100 5750
+Text Notes 7400 4650 0    60   ~ 0
+TODO:\nRedesign PCB to accept FCI 10029449-111RLF\nwww.amphenol-icc.com\nmouser PN: 649-10029449-111RLF\nhttp://portal.fciconnect.com/Comergent/fci/drawing/10029449.pdf\n
 $EndSCHEMATC
