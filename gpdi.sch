@@ -24,8 +24,12 @@ F 2 "hdmi-swm-19:hdmi-swm-19" H 8950 2950 60  0001 C CNN
 F 3 "https://katalog.we-online.com/em/datasheet/685119134923.pdf" H 8950 2950 60  0001 C CNN
 F 4 "www.we-online.com" H 8950 2950 60  0001 C CNN "MFG_URL"
 F 5 "685119134923" H 8950 2950 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 8950 2950 60  0001 C CNN "Distributor1_URL"
-F 7 "710-685119134923" H 8950 2950 60  0001 C CNN "Distributor1_PN"
+F 6 "www.molex.com" H 8950 2950 50  0001 C CNN "MFG2_URL"
+F 7 "47151-1001" H 8950 2950 50  0001 C CNN "MFG2_PN"
+F 8 "www.mouser.com" H 8950 2950 60  0001 C CNN "Distributor1_URL"
+F 9 "710-685119134923" H 8950 2950 60  0001 C CNN "Distributor1_PN"
+F 10 "www.mouser.com" H 8950 2950 50  0001 C CNN "Distributor2_URL"
+F 11 "538-47151-1001" H 8950 2950 50  0001 C CNN "Distributor2_PN:"
 	1    8950 2950
 	1    0    0    -1  
 $EndComp
