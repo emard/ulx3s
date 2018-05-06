@@ -2945,4 +2945,65 @@ F 3 "" H 2400 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 4200 2400 4250
+$Comp
+L ulx3s-rescue:Jumper_NC_Small RP4
+U 1 1 5AF31FAC
+P 1300 1000
+F 0 "RP4" H 1300 1080 50  0000 C CNN
+F 1 "0" H 1300 950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1300 1000 50  0001 C CNN
+F 3 "" H 1300 1000 50  0001 C CNN
+F 4 "www.mouser.com" H 1300 1000 60  0001 C CNN "Distributor1_URL"
+F 5 "Do not install" H 1300 1000 50  0001 C CNN "Note"
+	1    1300 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L ulx3s-rescue:Jumper_NC_Small RP5
+U 1 1 5AF3694A
+P 1300 1300
+F 0 "RP5" H 1300 1380 50  0000 C CNN
+F 1 "0" H 1300 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1300 1300 50  0001 C CNN
+F 3 "" H 1300 1300 50  0001 C CNN
+F 4 "www.mouser.com" H 1300 1300 60  0001 C CNN "Distributor1_URL"
+F 5 "Do not install" H 1300 1300 50  0001 C CNN "Note"
+	1    1300 1300
+	0    1    1    0   
+$EndComp
+Text GLabel 1200 1150 0    60   Input ~ 0
+2V5_3V3
+$Comp
+L power:+2V5 #PWR0169
+U 1 1 5AF3DD8E
+P 850 900
+F 0 "#PWR0169" H 850 750 50  0001 C CNN
+F 1 "+2V5" H 850 1040 50  0000 C CNN
+F 2 "" H 850 900 50  0001 C CNN
+F 3 "" H 850 900 50  0001 C CNN
+	1    850  900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0170
+U 1 1 5AF3DD94
+P 850 1400
+F 0 "#PWR0170" H 850 1250 50  0001 C CNN
+F 1 "+3V3" H 850 1540 50  0000 C CNN
+F 2 "" H 850 1400 50  0001 C CNN
+F 3 "" H 850 1400 50  0001 C CNN
+	1    850  1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	850  900  1300 900 
+Wire Wire Line
+	850  1400 1300 1400
+Wire Wire Line
+	1200 1150 1300 1150
+Wire Wire Line
+	1300 1150 1300 1100
+Wire Wire Line
+	1300 1150 1300 1200
+Connection ~ 1300 1150
 $EndSCHEMATC
