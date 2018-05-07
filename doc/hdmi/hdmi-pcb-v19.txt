@@ -1,7 +1,7 @@
 HDMI connector for PCB v1.8.1 and higher
 
 Mouser no: 649-10029449-111RLF
-0.75 €
+0.6 €
 http://portal.fciconnect.com/Comergent/fci/drawing/10029449.pdf
 
 Mouser No:
