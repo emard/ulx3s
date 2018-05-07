@@ -1,0 +1,16 @@
+HDMI connector for PCB v1.7 and PCB v1.8 
+(not for v1.8.1 and higher)
+
+Mouser No: 538-47151-1001
+Mfr. No: 47151-1001
+Mfr.: Molex
+1.75 €
+Datasheet: 47151-1001 Datasheet
+https://www.molex.com/pdm_docs/sd/471511001_sd.pdf
+
+Mouser No: 710-685119134923
+Mfr. No: 685119134923
+Mfr.: Wurth Electronics
+2,15 €
+https://hr.mouser.com/datasheet/2/445/685119134923-538098.pdf
+https://katalog.we-online.com/em/datasheet/685119134923.pdf

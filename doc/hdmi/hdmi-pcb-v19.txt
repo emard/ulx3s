@@ -1,0 +1,52 @@
+HDMI connector for PCB v1.8.1 and higher
+
+Mouser no: 649-10029449-111RLF
+0.75 €
+http://portal.fciconnect.com/Comergent/fci/drawing/10029449.pdf
+
+Mouser No:
+649-10029449-001RLF
+Mfr. No:
+10029449-001RLF
+Mfr.:
+Amphenol FCI
+Customer No:
+0,968 €
+https://hr.mouser.com/datasheet/2/18/10029449-1222306.pdf
+pin spacing seems not ok
+
+
+Mouser No:
+649-10029449-001RLF
+Mfr. No:
+10029449-001RLF
+Mfr.:
+Amphenol FCI
+ 0,968 €
+https://hr.mouser.com/datasheet/2/18/10029449-1222306.pdf
+pins not ok
+
+
+Mouser No:
+571-5-1903015-1
+Mfr. No:
+5-1903015-1
+Mfr.:
+TE Connectivity / AMP
+Customer No:
+https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf
+0.75 €
+
+
+Mouser No:
+571-5-1903015-5
+Mfr. No:
+5-1903015-5
+Mfr.:
+TE Connectivity
+Customer No:
+Description:
+HDMI, Displayport & DVI Connectors HDMI REC SMT SHORT TYPE EMBOSS PACKAGE
+0.75 €
+https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-1245898.pdf
+
