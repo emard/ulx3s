@@ -294,21 +294,6 @@ $EndComp
 Text Notes 6250 3000 0    60   ~ 0
 voltage setting: 0.6V at FB pin\nVout = (RA/RB+1)*0.6V\n
 $Comp
-L ap3429a:AP3429A U5
-U 1 1 58D67BBA
-P 8050 5800
-F 0 "U5" H 8050 5950 60  0000 C CNN
-F 1 "TLV62569DBV" H 8050 5850 60  0000 C CNN
-F 2 "TSOT-25:TSOT-25" H 8050 5800 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv62569.pdf" H 8050 5800 60  0001 C CNN
-F 4 "www.ti.com" H 8050 5800 60  0001 C CNN "MFG_URL"
-F 5 "TLV62569DBV" H 8050 5800 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 8050 5800 60  0001 C CNN "Distributor1_URL"
-F 7 "595-TLV62569DBVR" H 8050 5800 60  0001 C CNN "Distributor1_PN"
-	1    8050 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR073
 U 1 1 58D67BC0
 P 8050 5100
@@ -1937,36 +1922,6 @@ F 3 "" H 4850 4050 50  0000 C CNN
 	1    4850 4050
 	1    0    0    -1  
 $EndComp
-$Comp
-L ap3429a:AP3429A U4
-U 1 1 5A57BC36
-P 8050 4600
-F 0 "U4" H 8050 4750 60  0000 C CNN
-F 1 "TLV62569DBV" H 8050 4650 60  0000 C CNN
-F 2 "TSOT-25:TSOT-25" H 8050 4600 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv62569.pdf" H 8050 4600 60  0001 C CNN
-F 4 "www.ti.com" H 8050 4600 60  0001 C CNN "MFG_URL"
-F 5 "TLV62569DBV" H 8050 4600 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 8050 4600 60  0001 C CNN "Distributor1_URL"
-F 7 "595-TLV62569DBVR" H 8050 4600 60  0001 C CNN "Distributor1_PN"
-	1    8050 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L ap3429a:AP3429A U3
-U 1 1 5A57BFD7
-P 8050 3400
-F 0 "U3" H 8050 3550 60  0000 C CNN
-F 1 "TLV62569DBV" H 8050 3450 60  0000 C CNN
-F 2 "TSOT-25:TSOT-25" H 8050 3400 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv62569.pdf" H 8050 3400 60  0001 C CNN
-F 4 "www.ti.com" H 8050 3400 60  0001 C CNN "MFG_URL"
-F 5 "TLV62569DBV" H 8050 3400 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 8050 3400 60  0001 C CNN "Distributor1_URL"
-F 7 "595-TLV62569DBVR" H 8050 3400 60  0001 C CNN "Distributor1_PN"
-	1    8050 3400
-	1    0    0    -1  
-$EndComp
 Text Notes 7900 1200 0    60   ~ 0
 Decoupling capacitors: see Lattice\nPower Decoupling and Bypass Filtering for Programmable Devices
 $Comp
@@ -3006,4 +2961,49 @@ Wire Wire Line
 Wire Wire Line
 	1300 1150 1300 1200
 Connection ~ 1300 1150
+$Comp
+L dcdc:DCDC U3
+U 1 1 5AF563F3
+P 8050 3400
+F 0 "U3" H 8050 3787 60  0000 C CNN
+F 1 "TLV62569DBVR" H 8050 3681 60  0000 C CNN
+F 2 "TSOT-25:TSOT-25" H 8050 3400 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv62569.pdf" H 8050 3400 60  0001 C CNN
+F 4 "www.ti.com" H 8050 3400 50  0001 C CNN "MFG_URL"
+F 5 "TLV62569DBVR" H 8050 3400 50  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 8050 3400 50  0001 C CNN "Distributor1_URL"
+F 7 "595-TLV62569DBVR" H 8050 3400 50  0001 C CNN "Distributor1_PN"
+	1    8050 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L dcdc:DCDC U4
+U 1 1 5AFCB5C1
+P 8050 4600
+F 0 "U4" H 8050 4987 60  0000 C CNN
+F 1 "TLV62569DBVR" H 8050 4881 60  0000 C CNN
+F 2 "TSOT-25:TSOT-25" H 8050 4600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv62569.pdf" H 8050 4600 60  0001 C CNN
+F 4 "www.ti.com" H 8050 4600 50  0001 C CNN "MFG_URL"
+F 5 "TLV62569DBVR" H 8050 4600 50  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 8050 4600 50  0001 C CNN "Distributor1_URL"
+F 7 "595-TLV62569DBVR" H 8050 4600 50  0001 C CNN "Distributor1_PN"
+	1    8050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L dcdc:DCDC U5
+U 1 1 5AFCC283
+P 8050 5800
+F 0 "U5" H 8050 6187 60  0000 C CNN
+F 1 "TLV62569DBVR" H 8050 6081 60  0000 C CNN
+F 2 "TSOT-25:TSOT-25" H 8050 5800 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv62569.pdf" H 8050 5800 60  0001 C CNN
+F 4 "www.ti.com" H 8050 5800 50  0001 C CNN "MFG_URL"
+F 5 "TLV62569DBVR" H 8050 5800 50  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 8050 5800 50  0001 C CNN "Distributor1_URL"
+F 7 "595-TLV62569DBVR" H 8050 5800 50  0001 C CNN "Distributor1_PN"
+	1    8050 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
