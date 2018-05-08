@@ -652,17 +652,6 @@ F 3 "" H 3700 5850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:D_Schottky D15
-U 1 1 58D84D8A
-P 3100 5600
-F 0 "D15" H 3100 5700 50  0000 C CNN
-F 1 "BAT54W" H 3100 5500 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 3100 5600 50  0001 C CNN
-F 3 "" H 3100 5600 50  0000 C CNN
-	1    3100 5600
-	-1   0    0    1   
-$EndComp
-$Comp
 L ulx3s-rescue:R R5
 U 1 1 58D85B68
 P 3400 5850
@@ -707,7 +696,11 @@ P 3800 4950
 F 0 "D12" H 3800 5050 50  0000 C CNN
 F 1 "BAT54W" H 3800 4850 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 3800 4950 50  0001 C CNN
-F 3 "" H 3800 4950 50  0000 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" H 3800 4950 50  0001 C CNN
+F 4 "www.diodes.com" H 3800 4950 50  0001 C CNN "MFG_URL"
+F 5 "BAT54WSQ-7-F " H 3800 4950 50  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3800 4950 50  0001 C CNN "Distributor1_URL"
+F 7 "621-BAT54WSQ-7-F " H 3800 4950 50  0001 C CNN "Distributor1_PN"
 	1    3800 4950
 	-1   0    0    1   
 $EndComp
@@ -3005,5 +2998,20 @@ F 6 "www.mouser.com" H 8050 5800 50  0001 C CNN "Distributor1_URL"
 F 7 "595-TLV62569DBVR" H 8050 5800 50  0001 C CNN "Distributor1_PN"
 	1    8050 5800
 	1    0    0    -1  
+$EndComp
+$Comp
+L ulx3s-rescue:D_Schottky D15
+U 1 1 5AF673FF
+P 3100 5600
+F 0 "D15" H 3100 5700 50  0000 C CNN
+F 1 "BAT54W" H 3100 5500 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 3100 5600 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" H 3100 5600 50  0001 C CNN
+F 4 "www.diodes.com" H 3100 5600 50  0001 C CNN "MFG_URL"
+F 5 "BAT54WSQ-7-F " H 3100 5600 50  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3100 5600 50  0001 C CNN "Distributor1_URL"
+F 7 "621-BAT54WSQ-7-F " H 3100 5600 50  0001 C CNN "Distributor1_PN"
+	1    3100 5600
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

@@ -750,42 +750,13 @@ P 1950 4650
 F 0 "D23" H 1650 4750 50  0000 C CNN
 F 1 "BAT54W" H 1900 4750 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323_HandSoldering" V 1950 4650 50  0001 C CNN
-F 3 "" V 1950 4650 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 1950 4650 50  0001 C CNN
+F 4 "www.diodes.com" H 1950 4650 50  0001 C CNN "MFG_URL"
+F 5 "BAT54WSQ-7-F" H 1950 4650 50  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 1950 4650 50  0001 C CNN "Distributor1_URL"
+F 7 "621-BAT54WSQ-7-F" H 1950 4650 50  0001 C CNN "Distributor1_PN"
 	1    1950 4650
 	1    0    0    -1  
-$EndComp
-$Comp
-L ulx3s-rescue:D_Schottky D24
-U 1 1 5A7212CC
-P 1950 4850
-F 0 "D24" H 2250 4950 50  0000 C CNN
-F 1 "BAT54W" H 1950 4950 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" V 1950 4850 50  0001 C CNN
-F 3 "" V 1950 4850 50  0001 C CNN
-	1    1950 4850
-	-1   0    0    1   
-$EndComp
-$Comp
-L ulx3s-rescue:D_Schottky D25
-U 1 1 5A72158A
-P 1950 5250
-F 0 "D25" H 1650 5350 50  0000 C CNN
-F 1 "BAT54W" H 1950 4950 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" V 1950 5250 50  0001 C CNN
-F 3 "" V 1950 5250 50  0001 C CNN
-	1    1950 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L ulx3s-rescue:D_Schottky D26
-U 1 1 5A7218C4
-P 1950 5450
-F 0 "D26" H 2250 5550 50  0000 C CNN
-F 1 "BAT54W" H 1950 5150 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" V 1950 5450 50  0001 C CNN
-F 3 "" V 1950 5450 50  0001 C CNN
-	1    1950 5450
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2400 4850 2550 4850
@@ -845,4 +816,49 @@ Wire Wire Line
 	1700 4650 1800 4650
 Wire Wire Line
 	1700 5250 1800 5250
+$Comp
+L ulx3s-rescue:D_Schottky D25
+U 1 1 5AF760EE
+P 1950 5250
+F 0 "D25" H 1650 5350 50  0000 C CNN
+F 1 "BAT54W" H 1900 5350 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" V 1950 5250 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 1950 5250 50  0001 C CNN
+F 4 "www.diodes.com" H 1950 5250 50  0001 C CNN "MFG_URL"
+F 5 "BAT54WSQ-7-F" H 1950 5250 50  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 1950 5250 50  0001 C CNN "Distributor1_URL"
+F 7 "621-BAT54WSQ-7-F" H 1950 5250 50  0001 C CNN "Distributor1_PN"
+	1    1950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ulx3s-rescue:D_Schottky D24
+U 1 1 5AF79ABE
+P 1950 4850
+F 0 "D24" H 2250 4950 50  0000 C CNN
+F 1 "BAT54W" H 1900 4950 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" V 1950 4850 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 1950 4850 50  0001 C CNN
+F 4 "www.diodes.com" H 1950 4850 50  0001 C CNN "MFG_URL"
+F 5 "BAT54WSQ-7-F" H 1950 4850 50  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 1950 4850 50  0001 C CNN "Distributor1_URL"
+F 7 "621-BAT54WSQ-7-F" H 1950 4850 50  0001 C CNN "Distributor1_PN"
+	1    1950 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L ulx3s-rescue:D_Schottky D26
+U 1 1 5AF7B2B2
+P 1950 5450
+F 0 "D26" H 2250 5550 50  0000 C CNN
+F 1 "BAT54W" H 1900 5550 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" V 1950 5450 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 1950 5450 50  0001 C CNN
+F 4 "www.diodes.com" H 1950 5450 50  0001 C CNN "MFG_URL"
+F 5 "BAT54WSQ-7-F" H 1950 5450 50  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 1950 5450 50  0001 C CNN "Distributor1_URL"
+F 7 "621-BAT54WSQ-7-F" H 1950 5450 50  0001 C CNN "Distributor1_PN"
+	1    1950 5450
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
