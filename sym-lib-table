@@ -12,4 +12,5 @@
   (lib (name usb_otg)(type Legacy)(uri ${KIPRJMOD}/footprints/usb_otg/usb_otg.lib)(options "")(descr ""))
   (lib (name dcdc)(type Legacy)(uri ${KIPRJMOD}/footprints/dcdc_converter/dcdc.lib)(options "")(descr ""))
   (lib (name hdmi-d)(type Legacy)(uri ${KIPRJMOD}/footprints/hdmi-d/hdmi-d.lib)(options "")(descr ""))
+  (lib (name micro-hdmi-d)(type Legacy)(uri ${KIPRJMOD}/footprints/micro-hdmi-d/micro-hdmi-d.lib)(options "")(descr ""))
 )
