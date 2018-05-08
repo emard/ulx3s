@@ -1174,7 +1174,7 @@
 
   (module TSOT-25:TSOT-25 (layer B.Cu) (tedit 59CD7E8F) (tstamp 58D5976E)
     (at 160.775 91.9)
-    (path /58D51CAD/5A57BFD7)
+    (path /58D51CAD/5AF563F3)
     (attr smd)
     (fp_text reference U3 (at 2.301 -2.776) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
@@ -1239,7 +1239,7 @@
 
   (module TSOT-25:TSOT-25 (layer B.Cu) (tedit 59CD7E82) (tstamp 58D599CD)
     (at 103.625 84.915 180)
-    (path /58D51CAD/5A57BC36)
+    (path /58D51CAD/5AFCB5C1)
     (attr smd)
     (fp_text reference U4 (at 0 2.697 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
@@ -1304,7 +1304,7 @@
 
   (module TSOT-25:TSOT-25 (layer B.Cu) (tedit 59CD7D98) (tstamp 58D66E99)
     (at 158.235 78.692)
-    (path /58D51CAD/58D67BBA)
+    (path /58D51CAD/5AFCC283)
     (attr smd)
     (fp_text reference U5 (at 0.523 2.558) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
