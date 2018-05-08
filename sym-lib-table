@@ -12,4 +12,5 @@
   (lib (name mt48lc16m16a2tg)(type Legacy)(uri ${KIPRJMOD}/footprints/sdram/mt48lc16m16a2tg.lib)(options "")(descr ""))
   (lib (name usb_otg)(type Legacy)(uri ${KIPRJMOD}/footprints/usb_otg/usb_otg.lib)(options "")(descr ""))
   (lib (name dcdc)(type Legacy)(uri ${KIPRJMOD}/footprints/dcdc_converter/dcdc.lib)(options "")(descr ""))
+  (lib (name hdmi-d)(type Legacy)(uri ${KIPRJMOD}/footprints/hdmi-d/hdmi-d.lib)(options "")(descr ""))
 )
