@@ -536,7 +536,7 @@ AR Path="/58D72202" Ref="BAT1"  Part="1"
 AR Path="/58D51CAD/58D72202" Ref="BAT1"  Part="1" 
 F 0 "BAT1" H 2450 4250 50  0000 L CNN
 F 1 "CR1225" V 2550 3850 50  0000 L CNN
-F 2 "Keystone_3000_2.5x12.5mm-CoinCell:Keystone_3000_1x12mm-CoinCell" V 2650 4160 50  0001 C CNN
+F 2 "Keystone_3000_1x12mm-CoinCell:Keystone_3000_1x12mm-CoinCell" V 2650 4160 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=777" H 2650 4160 50  0001 C CNN
 F 4 "www.keyelco.com" H 2650 4100 60  0001 C CNN "MFG_URL"
 F 5 "3000" H 2650 4100 60  0001 C CNN "MFG_PN"
@@ -548,12 +548,12 @@ $EndComp
 $Comp
 L power:GND #PWR026
 U 1 1 58D72406
-P 1900 4600
-F 0 "#PWR026" H 1900 4350 50  0001 C CNN
-F 1 "GND" H 1900 4450 50  0000 C CNN
-F 2 "" H 1900 4600 50  0000 C CNN
-F 3 "" H 1900 4600 50  0000 C CNN
-	1    1900 4600
+P 2000 4600
+F 0 "#PWR026" H 2000 4350 50  0001 C CNN
+F 1 "GND" H 2000 4450 50  0000 C CNN
+F 2 "" H 2000 4600 50  0000 C CNN
+F 3 "" H 2000 4600 50  0000 C CNN
+	1    2000 4600
 	0    1    1    0   
 $EndComp
 Text Label 2400 3850 0    60   ~ 0
@@ -893,18 +893,18 @@ $EndComp
 Text GLabel 3300 4150 2    60   Input ~ 0
 BTN_PWRn
 $Comp
-L micro-hdmi-d:CONN_02X01 BTN0
+L Switch:SW_Push BTN0
 U 1 1 58E83FE0
-P 2150 4600
-F 0 "BTN0" H 2150 4700 50  0000 C CNN
-F 1 "PTS645" H 2150 4500 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 2150 3400 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 2150 3400 50  0001 C CNN
-F 4 "www.ckswitches.com" H 2150 4600 60  0001 C CNN "MFG_URL"
-F 5 "PTS645SL50SMTR92 LFS" H 2150 4600 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 2150 4600 60  0001 C CNN "Distributor1_URL"
-	1    2150 4600
-	-1   0    0    1   
+P 2200 4600
+F 0 "BTN0" H 2200 4550 50  0000 C CNN
+F 1 "PTS645" H 2350 4700 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 2200 3400 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 2200 3400 50  0001 C CNN
+F 4 "www.ckswitches.com" H 2200 4600 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 2200 4600 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 2200 4600 60  0001 C CNN "Distributor1_URL"
+	1    2200 4600
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2350 2600 2450 2600
@@ -2242,14 +2242,14 @@ Text GLabel 4700 950  1    60   Input ~ 0
 Text GLabel 7350 950  1    60   Input ~ 0
 2V5_3V3
 $Comp
-L ulx3s-rescue:Conn_01x03 J5
+L Connector_Generic:Conn_01x03 J5
 U 1 1 5AA2A24D
 P 1400 1850
 AR Path="/5AA2A24D" Ref="J5"  Part="1" 
 AR Path="/58D51CAD/5AA2A24D" Ref="J5"  Part="1" 
 F 0 "J5" H 1400 2050 50  0000 C CNN
 F 1 "VJ1" H 1400 1650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 1400 1850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1400 1850 50  0001 C CNN
 F 3 "" H 1400 1850 50  0001 C CNN
 F 4 "www.mouser.com" H 1400 1850 60  0001 C CNN "Distributor1_URL"
 F 5 "Do not install" H 1400 1850 60  0001 C CNN "Note"

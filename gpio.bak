@@ -102,27 +102,27 @@ F 3 "" H 7650 3450 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L micro-hdmi-d:CONN_02X20 J2
+L Connector_Generic:Conn_02x20_Odd_Even J2
 U 1 1 58E6B7F6
-P 8400 4400
-F 0 "J2" H 8400 5450 50  0000 C CNN
-F 1 "CONN_02X20" H 8400 3350 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x20" H 8400 3450 50  0001 C CNN
-F 3 "" H 8400 3450 50  0000 C CNN
-F 4 "Do not install" H 8400 4400 60  0001 C CNN "Note"
-	1    8400 4400
+P 8350 4350
+F 0 "J2" H 8350 5400 50  0000 C CNN
+F 1 "CONN_02X20" H 8350 3300 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x20" H 8350 3400 50  0001 C CNN
+F 3 "" H 8350 3400 50  0000 C CNN
+F 4 "Do not install" H 8350 4350 60  0001 C CNN "Note"
+	1    8350 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L micro-hdmi-d:CONN_02X20 J1
+L Connector_Generic:Conn_02x20_Odd_Even J1
 U 1 1 58E6B835
-P 1850 4450
-F 0 "J1" H 1850 5500 50  0000 C CNN
-F 1 "CONN_02X20" H 1850 3400 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x20" H 1850 3500 50  0001 C CNN
-F 3 "" H 1850 3500 50  0000 C CNN
-F 4 "Do not install" H 1850 4450 60  0001 C CNN "Note"
-	1    1850 4450
+P 1800 4400
+F 0 "J1" H 1800 5450 50  0000 C CNN
+F 1 "CONN_02X20" H 1800 3350 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x20" H 1800 3450 50  0001 C CNN
+F 3 "" H 1800 3450 50  0000 C CNN
+F 4 "Do not install" H 1800 4400 60  0001 C CNN "Note"
+	1    1800 4400
 	1    0    0    -1  
 $EndComp
 $Comp

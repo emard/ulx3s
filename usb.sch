@@ -374,15 +374,15 @@ D+ 1.5k pullp for \nfull speed device\nmode USB1.1
 Text GLabel 8650 1450 0    60   Input ~ 0
 CLK_25MHz
 $Comp
-L micro-hdmi-d:CONN_02X03 J4
+L Connector_Generic:Conn_02x03_Odd_Even J4
 U 1 1 591E0E6A
-P 9400 5000
-F 0 "J4" H 9400 5200 50  0000 C CNN
-F 1 "CONN_02X03" H 9400 4800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x03" H 9400 3800 50  0001 C CNN
-F 3 "" H 9400 3800 50  0000 C CNN
-F 4 "Do not install" H 9400 5000 60  0001 C CNN "Note"
-	1    9400 5000
+P 9350 5000
+F 0 "J4" H 9350 5200 50  0000 C CNN
+F 1 "CONN_02X03" H 9350 4800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x03" H 9350 3800 50  0001 C CNN
+F 3 "" H 9350 3800 50  0000 C CNN
+F 4 "Do not install" H 9350 5000 60  0001 C CNN "Note"
+	1    9350 5000
 	1    0    0    -1  
 $EndComp
 Text GLabel 9150 5000 0    60   Input ~ 0
@@ -544,7 +544,7 @@ Connection ~ 2700 2750
 Text GLabel 8650 2550 0    60   Input ~ 0
 WIFI_GPIO16
 $Comp
-L ulx3s-rescue:Antenna AE1
+L Device:Antenna AE1
 U 1 1 59C3AE47
 P 10950 1350
 AR Path="/59C3AE47" Ref="AE1"  Part="1" 

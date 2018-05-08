@@ -61,17 +61,17 @@ OLED_DC
 Text GLabel 4850 1850 2    60   Input ~ 0
 OLED_CS
 $Comp
-L micro-hdmi-d:CONN_02X01 BTN1
+L Switch:SW_Push BTN1
 U 1 1 58D66056
-P 3100 2950
-F 0 "BTN1" H 3100 3050 50  0000 C CNN
+P 3050 2950
+F 0 "BTN1" H 2950 3050 50  0000 C CNN
 F 1 "PTS645" H 2550 2950 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 1750 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 1750 50  0001 C CNN
-F 4 "www.ckswitches.com" H 3100 2950 60  0001 C CNN "MFG_URL"
-F 5 "PTS645SL50SMTR92 LFS" H 3100 2950 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 3100 2950 60  0001 C CNN "Distributor1_URL"
-	1    3100 2950
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3050 1750 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 1750 50  0001 C CNN
+F 4 "www.ckswitches.com" H 3050 2950 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 3050 2950 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3050 2950 60  0001 C CNN "Distributor1_URL"
+	1    3050 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -100,28 +100,28 @@ F 3 "" H 1750 2750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3350 2950 3450 2950
+	3250 2950 3350 2950
 Wire Wire Line
-	3350 3150 3450 3150
+	3250 3150 3350 3150
 Wire Wire Line
-	3350 3350 3450 3350
+	3250 3350 3350 3350
 Wire Wire Line
-	3350 3550 3450 3550
+	3250 3550 3350 3550
 Wire Wire Line
-	3350 3750 3450 3750
+	3250 3750 3350 3750
 Wire Wire Line
-	3350 3950 3450 3950
-Text GLabel 3450 2950 2    60   Input ~ 0
+	3250 3950 3350 3950
+Text GLabel 3350 2950 2    60   Input ~ 0
 BTN_F1
-Text GLabel 3450 3150 2    60   Input ~ 0
+Text GLabel 3350 3150 2    60   Input ~ 0
 BTN_F2
-Text GLabel 3450 3350 2    60   Input ~ 0
+Text GLabel 3350 3350 2    60   Input ~ 0
 BTN_U
-Text GLabel 3450 3550 2    60   Input ~ 0
+Text GLabel 3350 3550 2    60   Input ~ 0
 BTN_D
-Text GLabel 3450 3750 2    60   Input ~ 0
+Text GLabel 3350 3750 2    60   Input ~ 0
 BTN_L
-Text GLabel 3450 3950 2    60   Input ~ 0
+Text GLabel 3350 3950 2    60   Input ~ 0
 BTN_R
 $Comp
 L ulx3s-rescue:R R7
@@ -447,18 +447,18 @@ LEDs connected to\nBANK7 on "gpio" sheet
 Text Notes 2100 4400 0    60   ~ 0
 BTN_R,U to BANK2,3 on "ram" sheet\nBTN_F1,F2,D,L to BANK8 on "flash" sheet
 $Comp
-L micro-hdmi-d:DIL8 SW1
+L Connector_Generic:Conn_02x04_Counter_Clockwise SW1
 U 1 1 595B94DC
-P 8150 3250
-F 0 "SW1" H 8150 3500 50  0000 C CNN
-F 1 "DIPSW" V 8150 3250 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_DIP_x4_W8.61mm_Slide_LowProfile" H 8150 3250 50  0001 C CNN
-F 3 "https://www.ctscorp.com/wp-content/uploads/219.pdf" H 8150 3250 50  0001 C CNN
-F 4 "www.jameco.com" H 8150 3250 60  0001 C CNN "MFG_URL"
-F 5 "219-4MST" H 8150 3250 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 8150 3250 60  0001 C CNN "Distributor1_URL"
-F 7 "774-2194MST " H 8150 3250 60  0001 C CNN "Distributor1_PN"
-	1    8150 3250
+P 8000 3200
+F 0 "SW1" H 8000 3450 50  0000 C CNN
+F 1 "DIPSW" V 8050 3150 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_DIP_x4_W8.61mm_Slide_LowProfile" H 8000 3200 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/219.pdf" H 8000 3200 50  0001 C CNN
+F 4 "www.jameco.com" H 8000 3200 60  0001 C CNN "MFG_URL"
+F 5 "219-4MST" H 8000 3200 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 8000 3200 60  0001 C CNN "Distributor1_URL"
+F 7 "774-2194MST " H 8000 3200 60  0001 C CNN "Distributor1_PN"
+	1    8000 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -496,13 +496,13 @@ Connection ~ 7750 3200
 Wire Wire Line
 	7800 3300 7750 3300
 Connection ~ 7750 3300
-Text GLabel 8500 3100 2    60   Input ~ 0
+Text GLabel 8300 3100 2    60   Input ~ 0
 SW1
-Text GLabel 8500 3200 2    60   Input ~ 0
+Text GLabel 8300 3200 2    60   Input ~ 0
 SW2
-Text GLabel 8500 3300 2    60   Input ~ 0
+Text GLabel 8300 3300 2    60   Input ~ 0
 SW3
-Text GLabel 8500 3400 2    60   Input ~ 0
+Text GLabel 8300 3400 2    60   Input ~ 0
 SW4
 Text Notes 7700 3750 0    60   ~ 0
 DIP switch connected to\nBANK0 on 'gpio' sheet
@@ -682,73 +682,73 @@ F 7 "859-LTST-C170KFKT" H 4550 2750 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L micro-hdmi-d:CONN_02X01 BTN2
+L Switch:SW_Push BTN2
 U 1 1 5A556C72
-P 3100 3150
-F 0 "BTN2" H 3100 3250 50  0000 C CNN
+P 3050 3150
+F 0 "BTN2" H 2950 3250 50  0000 C CNN
 F 1 "PTS645" H 2550 3150 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 1950 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 1950 50  0001 C CNN
-F 4 "www.ckswitches.com" H 3100 3150 60  0001 C CNN "MFG_URL"
-F 5 "PTS645SL50SMTR92 LFS" H 3100 3150 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 3100 3150 60  0001 C CNN "Distributor1_URL"
-	1    3100 3150
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3050 1950 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 1950 50  0001 C CNN
+F 4 "www.ckswitches.com" H 3050 3150 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 3050 3150 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3050 3150 60  0001 C CNN "Distributor1_URL"
+	1    3050 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L micro-hdmi-d:CONN_02X01 BTN3
+L Switch:SW_Push BTN3
 U 1 1 5A556E0A
-P 3100 3350
-F 0 "BTN3" H 3100 3450 50  0000 C CNN
+P 3050 3350
+F 0 "BTN3" H 2950 3450 50  0000 C CNN
 F 1 "PTS645" H 2550 3350 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2150 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2150 50  0001 C CNN
-F 4 "www.ckswitches.com" H 3100 3350 60  0001 C CNN "MFG_URL"
-F 5 "PTS645SL50SMTR92 LFS" H 3100 3350 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 3100 3350 60  0001 C CNN "Distributor1_URL"
-	1    3100 3350
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3050 2150 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 2150 50  0001 C CNN
+F 4 "www.ckswitches.com" H 3050 3350 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 3050 3350 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3050 3350 60  0001 C CNN "Distributor1_URL"
+	1    3050 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L micro-hdmi-d:CONN_02X01 BTN4
+L Switch:SW_Push BTN4
 U 1 1 5A556FAC
-P 3100 3550
-F 0 "BTN4" H 3100 3650 50  0000 C CNN
+P 3050 3550
+F 0 "BTN4" H 2950 3650 50  0000 C CNN
 F 1 "PTS645" H 2550 3550 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2350 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2350 50  0001 C CNN
-F 4 "www.ckswitches.com" H 3100 3550 60  0001 C CNN "MFG_URL"
-F 5 "PTS645SL50SMTR92 LFS" H 3100 3550 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 3100 3550 60  0001 C CNN "Distributor1_URL"
-	1    3100 3550
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3050 2350 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 2350 50  0001 C CNN
+F 4 "www.ckswitches.com" H 3050 3550 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 3050 3550 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3050 3550 60  0001 C CNN "Distributor1_URL"
+	1    3050 3550
 	1    0    0    -1  
 $EndComp
 $Comp
-L micro-hdmi-d:CONN_02X01 BTN5
+L Switch:SW_Push BTN5
 U 1 1 5A557167
-P 3100 3750
-F 0 "BTN5" H 3100 3850 50  0000 C CNN
+P 3050 3750
+F 0 "BTN5" H 2950 3850 50  0000 C CNN
 F 1 "PTS645" H 2550 3750 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2550 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2550 50  0001 C CNN
-F 4 "www.ckswitches.com" H 3100 3750 60  0001 C CNN "MFG_URL"
-F 5 "PTS645SL50SMTR92 LFS" H 3100 3750 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 3100 3750 60  0001 C CNN "Distributor1_URL"
-	1    3100 3750
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3050 2550 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 2550 50  0001 C CNN
+F 4 "www.ckswitches.com" H 3050 3750 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 3050 3750 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3050 3750 60  0001 C CNN "Distributor1_URL"
+	1    3050 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L micro-hdmi-d:CONN_02X01 BTN6
+L Switch:SW_Push BTN6
 U 1 1 5A557341
-P 3100 3950
-F 0 "BTN6" H 3100 4050 50  0000 C CNN
+P 3050 3950
+F 0 "BTN6" H 2950 4050 50  0000 C CNN
 F 1 "PTS645" H 2550 3950 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3100 2750 50  0001 C CNN
-F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3100 2750 50  0001 C CNN
-F 4 "www.ckswitches.com" H 3100 3950 60  0001 C CNN "MFG_URL"
-F 5 "PTS645SL50SMTR92 LFS" H 3100 3950 60  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 3100 3950 60  0001 C CNN "Distributor1_URL"
-	1    3100 3950
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 3050 2750 50  0001 C CNN
+F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 2750 50  0001 C CNN
+F 4 "www.ckswitches.com" H 3050 3950 60  0001 C CNN "MFG_URL"
+F 5 "PTS645SL50SMTR92 LFS" H 3050 3950 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 3050 3950 60  0001 C CNN "Distributor1_URL"
+	1    3050 3950
 	1    0    0    -1  
 $EndComp
 Text Notes 6400 5900 0    60   ~ 0
