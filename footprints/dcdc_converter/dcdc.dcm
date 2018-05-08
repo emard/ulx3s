@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DCDC
+D DC-DC Converter
+K DC converter swtiching step down
+$ENDCMP
+#
+#End Doc Library
