@@ -345,7 +345,7 @@ U 1 1 58D67BD8
 P 8900 4300
 F 0 "L2" V 8850 4300 50  0000 C CNN
 F 1 "2.2uH" V 8975 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_1210_HandSoldering" H 8900 4300 50  0001 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-24xx_HandSoldering" H 8900 4300 50  0001 C CNN
 F 3 "http://psearch.en.murata.com/inductor/product/DFE252012PD-2R2M%23.pdf" H 8900 4300 50  0001 C CNN
 F 4 "www.murata.com" H 8900 4300 60  0001 C CNN "MFG_URL"
 F 5 "DFE252012P-2R2M=P2" H 8900 4300 60  0001 C CNN "MFG_PN"
@@ -2192,7 +2192,7 @@ U 1 1 5A73C9EB
 P 8900 3100
 F 0 "L1" V 8850 3100 50  0000 C CNN
 F 1 "2.2uH" V 8975 3100 50  0000 C CNN
-F 2 "Resistors_SMD:R_1210_HandSoldering" H 8900 3100 50  0001 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-24xx_HandSoldering" H 8900 3100 50  0001 C CNN
 F 3 "http://psearch.en.murata.com/inductor/product/DFE252012PD-2R2M%23.pdf" H 8900 3100 50  0001 C CNN
 F 4 "www.murata.com" H 8900 3100 60  0001 C CNN "MFG_URL"
 F 5 "DFE252012P-2R2M=P2" H 8900 3100 60  0001 C CNN "MFG_PN"
@@ -2207,7 +2207,7 @@ U 1 1 5A73CDB3
 P 8900 5500
 F 0 "L3" V 8850 5500 50  0000 C CNN
 F 1 "2.2uH" V 8975 5500 50  0000 C CNN
-F 2 "Resistors_SMD:R_1210_HandSoldering" H 8900 5500 50  0001 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-24xx_HandSoldering" H 8900 5500 50  0001 C CNN
 F 3 "http://psearch.en.murata.com/inductor/product/DFE252012PD-2R2M%23.pdf" H 8900 5500 50  0001 C CNN
 F 4 "www.murata.com" H 8900 5500 60  0001 C CNN "MFG_URL"
 F 5 "DFE252012P-2R2M=P2" H 8900 5500 60  0001 C CNN "MFG_PN"

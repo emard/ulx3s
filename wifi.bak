@@ -127,7 +127,7 @@ U 1 1 58EE29FF
 P 4550 3200
 F 0 "J3" H 4550 3300 50  0000 C CNN
 F 1 "WIFI_OFF" H 4550 3100 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x01" H 4550 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 4550 2000 50  0001 C CNN
 F 3 "" H 4550 2000 50  0000 C CNN
 F 4 "Do not install" H 4550 3200 60  0001 C CNN "Note"
 	1    4550 3200
