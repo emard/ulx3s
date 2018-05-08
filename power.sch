@@ -1851,35 +1851,35 @@ L1,L2,L3: Isat>3A Rdc<100mohm L=2.5-5.8mm W<3mm\nMurata DFE322512F-2R2M=P2, DFE2
 Text Notes 950  6200 0    60   ~ 0
 WARNING\nECP5 family datasheet\np.48: Power Supply Ramp rates\nfor all supplies 0.01-10V/ms\n
 $Comp
-L lfe5bg381:LFE5U-45F-6BG381C U1
+L lfe5bg381:LFE5U-85F-6BG381C U1
 U 8 1 5A076CD7
 P 5700 6400
 AR Path="/5A076CD7" Ref="U1"  Part="8" 
 AR Path="/58D51CAD/5A076CD7" Ref="U1"  Part="8" 
 F 0 "U1" H 5700 7350 60  0000 C CNN
-F 1 "LFE5U-45F-6BG381C" H 5700 7250 60  0000 C CNN
+F 1 "LFE5U-85F-6BG381C" H 5700 7250 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 4650 7350 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/EH/TN1261.pdf?document_id=50463" H 4650 7350 60  0001 C CNN
-F 4 "LFE5U-45F-6BG381C" H 5700 6400 60  0001 C CNN "MFG_PN"
+F 4 "LFE5U-85F-6BG381C" H 5700 6400 60  0001 C CNN "MFG_PN"
 F 5 "www.mouser.com" H 5700 6400 60  0001 C CNN "Distributor1_URL"
-F 6 "842-LFE5U45F6BG381C" H 5700 6400 60  0001 C CNN "Distributor1_PN"
+F 6 "842-LFE5U85F6BG381C" H 5700 6400 60  0001 C CNN "Distributor1_PN"
 	8    5700 6400
 	1    0    0    -1  
 $EndComp
 $Comp
-L lfe5bg381:LFE5U-45F-6BG381C U1
+L lfe5bg381:LFE5U-85F-6BG381C U1
 U 9 1 5A077765
 P 6200 1800
 AR Path="/5A077765" Ref="U1"  Part="9" 
 AR Path="/58D51CAD/5A077765" Ref="U1"  Part="9" 
 F 0 "U1" H 6200 2750 60  0000 C CNN
-F 1 "LFE5U-45F-6BG381C" H 6200 2650 60  0000 C CNN
+F 1 "LFE5U-85F-6BG381C" H 6200 2650 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 5150 2750 60  0001 C CNN
-F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 5150 2750 60  0001 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/EH/TN1261.pdf?document_id=50463" H 5150 2750 60  0001 C CNN
 F 4 "www.latticesemi.com" H 6200 1800 60  0001 C CNN "MFG_URL"
-F 5 "LFE5U-45F-6BG381C" H 6200 1800 60  0001 C CNN "MFG_PN"
+F 5 "LFE5U-85F-6BG381C" H 6200 1800 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 6200 1800 60  0001 C CNN "Distributor1_URL"
-F 7 "842-LFE5U45F6BG381C" H 6200 1800 60  0001 C CNN "Distributor1_PN"
+F 7 "842-LFE5U85F6BG381C" H 6200 1800 60  0001 C CNN "Distributor1_PN"
 	9    6200 1800
 	1    0    0    -1  
 $EndComp

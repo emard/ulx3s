@@ -106,7 +106,7 @@ $EndComp
 Text GLabel 4700 2550 2    60   Input ~ 0
 WIFI_EN
 Wire Wire Line
-	4550 2500 4550 2600
+	4550 2500 4550 2550
 Wire Wire Line
 	4550 2550 4700 2550
 Connection ~ 4550 2550
@@ -249,7 +249,7 @@ $EndComp
 Wire Wire Line
 	6200 4500 6200 4900
 Wire Wire Line
-	4550 2900 4550 3000
+	4550 2900 4550 2950
 Text GLabel 7550 3800 2    60   Input ~ 0
 WIFI_GPIO17
 Wire Wire Line
@@ -350,4 +350,8 @@ GP10 v1.7
 NoConn ~ 5700 3850
 NoConn ~ 5700 3150
 NoConn ~ 5700 3050
+Wire Wire Line
+	4550 2550 4550 2600
+Wire Wire Line
+	4550 2950 4550 3000
 $EndSCHEMATC

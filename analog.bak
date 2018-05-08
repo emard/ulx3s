@@ -85,11 +85,11 @@ F 3 "" H 3750 1900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2950 2350 3600 2350
+	2950 2350 3500 2350
 Wire Wire Line
 	3500 2200 3600 2200
 Wire Wire Line
-	3500 1900 3500 2350
+	3500 1900 3500 2050
 Connection ~ 3500 2350
 Wire Wire Line
 	3500 2050 3600 2050
@@ -152,12 +152,12 @@ $EndComp
 Wire Wire Line
 	3500 2850 3600 2850
 Wire Wire Line
-	3500 2550 3500 3000
+	3500 2550 3500 2700
 Wire Wire Line
 	3500 2700 3600 2700
 Connection ~ 3500 2850
 Wire Wire Line
-	2950 2550 3600 2550
+	2950 2550 3500 2550
 Connection ~ 3500 2700
 Text GLabel 3900 2550 2    60   Input ~ 0
 AUDIO_R0
@@ -190,7 +190,7 @@ $EndComp
 Wire Wire Line
 	3700 4500 3800 4500
 Wire Wire Line
-	3800 4500 3800 5000
+	3800 4500 3800 4600
 Wire Wire Line
 	3800 5000 3700 5000
 Wire Wire Line
@@ -200,7 +200,7 @@ Wire Wire Line
 	3700 4900 3800 4900
 Connection ~ 3800 4900
 Wire Wire Line
-	3700 4800 3950 4800
+	3700 4800 3800 4800
 Connection ~ 3800 4800
 Wire Wire Line
 	3700 4700 3800 4700
@@ -232,11 +232,11 @@ F 7 "700-MAX11125ATI+" H 3300 4900 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 5800 2900 5800
+	2800 5800 2850 5800
 Wire Wire Line
 	2900 5600 2850 5600
 Wire Wire Line
-	2850 5600 2850 5800
+	2850 5600 2850 5700
 Connection ~ 2850 5800
 Wire Wire Line
 	2900 5700 2850 5700
@@ -271,7 +271,7 @@ F 3 "" H 2800 4250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2800 4250 2900 4250
+	2800 4250 2850 4250
 Wire Wire Line
 	2850 4250 2850 4350
 Wire Wire Line
@@ -380,11 +380,11 @@ F 3 "" H 3750 1250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2950 1700 3600 1700
+	2950 1700 3500 1700
 Wire Wire Line
 	3500 1550 3600 1550
 Wire Wire Line
-	3500 1250 3500 1700
+	3500 1250 3500 1400
 Connection ~ 3500 1700
 Wire Wire Line
 	3500 1400 3600 1400
@@ -404,4 +404,38 @@ Text Label 3050 1700 0    60   ~ 0
 AUDIO_V
 Wire Wire Line
 	2950 1700 2950 2050
+Wire Wire Line
+	3500 2350 3600 2350
+Wire Wire Line
+	3500 2200 3500 2350
+Wire Wire Line
+	3500 2050 3500 2200
+Wire Wire Line
+	3500 2850 3500 3000
+Wire Wire Line
+	3500 2700 3500 2850
+Wire Wire Line
+	3500 2550 3600 2550
+Wire Wire Line
+	3800 4600 3800 4700
+Wire Wire Line
+	3800 4900 3800 5000
+Wire Wire Line
+	3800 4800 3950 4800
+Wire Wire Line
+	3800 4800 3800 4900
+Wire Wire Line
+	3800 4700 3800 4800
+Wire Wire Line
+	2850 5800 2900 5800
+Wire Wire Line
+	2850 5700 2850 5800
+Wire Wire Line
+	2850 4250 2900 4250
+Wire Wire Line
+	3500 1700 3600 1700
+Wire Wire Line
+	3500 1550 3500 1700
+Wire Wire Line
+	3500 1400 3500 1550
 $EndSCHEMATC
