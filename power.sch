@@ -536,7 +536,7 @@ AR Path="/58D72202" Ref="BAT1"  Part="1"
 AR Path="/58D51CAD/58D72202" Ref="BAT1"  Part="1" 
 F 0 "BAT1" H 2450 4250 50  0000 L CNN
 F 1 "CR1225" V 2550 3850 50  0000 L CNN
-F 2 "Keystone_3000_2.5x12.5mm-CoinCell:Keystone_3000_1x12mm-CoinCell" V 2650 4160 50  0001 C CNN
+F 2 "Keystone_3000_1x12mm-CoinCell:Keystone_3000_1x12mm-CoinCell" V 2650 4160 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=777" H 2650 4160 50  0001 C CNN
 F 4 "www.keyelco.com" H 2650 4100 60  0001 C CNN "MFG_URL"
 F 5 "3000" H 2650 4100 60  0001 C CNN "MFG_PN"

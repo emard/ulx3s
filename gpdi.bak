@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L micro-hdmi-d:MICRO-HDMI-D GPDI1
+L hdmi-d:HDMI-D GPDI1
 U 1 1 58D69067
 P 8950 2950
 F 0 "GPDI1" H 8950 4000 50  0000 C CNN
