@@ -3,7 +3,6 @@
   (lib (name ESP8266)(type Legacy)(uri ${KIPRJMOD}/footprints/esp8266/ESP8266.lib)(options "")(descr ""))
   (lib (name lfe5bg381)(type Legacy)(uri ${KIPRJMOD}/footprints/lattice/lfe5bg381.lib)(options "")(descr ""))
   (lib (name micro-hdmi-d)(type Legacy)(uri ${KIPRJMOD}/footprints/micro-hdmi-d/micro-hdmi-d.lib)(options "")(descr ""))
-  (lib (name ap3429a)(type Legacy)(uri ${KIPRJMOD}/footprints/dcdc_converter/ap3429a.lib)(options "")(descr "")(disabled))
   (lib (name ft2232)(type Legacy)(uri ${KIPRJMOD}/footprints/usbserial/ft2232.lib)(options "")(descr ""))
   (lib (name ESP32)(type Legacy)(uri ${KIPRJMOD}/footprints/esp32/ESP32.lib)(options "")(descr ""))
   (lib (name ssd_13xx)(type Legacy)(uri ${KIPRJMOD}/footprints/oled/ssd_13xx.lib)(options "")(descr ""))
