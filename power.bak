@@ -438,7 +438,7 @@ AR Path="/58D67C1D" Ref="R1"  Part="1"
 AR Path="/58D51CAD/58D67C1D" Ref="R1"  Part="1" 
 F 0 "R1" V 4380 4700 50  0000 C CNN
 F 1 "15k" V 4300 4700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4230 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 4230 4700 50  0001 C CNN
 F 3 "" H 4300 4700 50  0000 C CNN
 	1    4300 4700
 	1    0    0    -1  
