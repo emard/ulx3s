@@ -6349,9 +6349,9 @@
       (net 1 GND))
     (pad 0 thru_hole circle (at 7.85 4.9 180) (size 2 2) (drill 1.3) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/fci-10029449.step
-      (offset (xyz 0 -0.1999999969963014 3.299999950438973))
-      (scale (xyz 1 1 1))
+    (model ${KIPRJMOD}/footprints/hdmi-d/hdmi-d.3dshapes/hdmi-d.wrl
+      (offset (xyz 0 -10 3.3))
+      (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
     )
   )
