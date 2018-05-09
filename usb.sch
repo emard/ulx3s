@@ -551,7 +551,7 @@ AR Path="/59C3AE47" Ref="AE1"  Part="1"
 AR Path="/58D6BF46/59C3AE47" Ref="AE1"  Part="1" 
 F 0 "AE1" H 10875 1425 50  0000 R CNN
 F 1 "433MHz" H 10875 1350 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10950 1350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10950 1350 50  0001 C CNN
 F 3 "" H 10950 1350 50  0001 C CNN
 F 4 "Do not install" H 10950 1350 60  0001 C CNN "Note"
 	1    10950 1350
