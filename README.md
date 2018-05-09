@@ -203,4 +203,4 @@ Test the prototype.
     [x] Selected 2.5/3.3V to J1 header (instead fixed 3.3V)
     [x] RTC battery capacitor
     [x] battery + pad clearance
-    [ ] PCB doesn't fit HDMI 649-10029449-111RLF, maybe fits 710-685119134923
+    [x] PCB v1.8.1 redesigned to fit HDMI 649-10029449-111RLF (the cheapest)
