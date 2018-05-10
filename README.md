@@ -46,7 +46,7 @@ ULX3S is sufficiently equipped to emulate
 [Amiga](https://github.com/emard/Minimig_ECS) retro computer and
 run its games, but can do much more.
 
-[Schematics](/doc/schematics.pdf) and PCB are done in open source KiCAD PCB editor:
+[Schematics](/doc/schematics.pdf) and PCB are done in open source KiCAD 5 PCB editor:
 
     kicad ulx3s.pro
 
