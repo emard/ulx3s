@@ -51,7 +51,6 @@ F 3 "http://espressif.com/sites/default/files/documentation/esp32_datasheet_en.p
 F 4 "espressif.com" H 6650 3450 60  0001 C CNN "MFG_URL"
 F 5 "ESP-WROOM-32" H 6650 3450 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 6650 3450 60  0001 C CNN "Distributor1_URL"
-F 7 "Do not install" H 6650 3450 60  0001 C CNN "Note"
 	1    6650 3450
 	1    0    0    -1  
 $EndComp
