@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 483)
+    (drawings 484)
     (tracks 4809)
     (zones 0)
     (modules 206)
@@ -10037,6 +10037,7 @@
     )
   )
 
+  (gr_circle (center 134.628 104.237) (end 134.755 104.237) (layer B.SilkS) (width 0.2))
   (gr_text 3.3V (at 133.739 64.359 270) (layer F.SilkS) (tstamp 5AB79336)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
