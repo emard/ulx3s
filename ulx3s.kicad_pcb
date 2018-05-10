@@ -5795,11 +5795,6 @@
       (net 128 /blinkey/LED_TXLED))
     (pad 2 smd rect (at 0.955 0 90) (size 0.97 1.5) (layers F.Cu F.Paste F.Mask)
       (net 178 FT2V5))
-    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model ${KIPRJMOD}/footprints/led/LED_0805.3dshapes/LED_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
