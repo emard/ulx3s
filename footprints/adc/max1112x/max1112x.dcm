@@ -1,6 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP MAX11123
+$CMP MAX1112x
 D SPI ADC
 K SPI ADC
 F http://www.nxp.com/documents/data_sheet/MAX11123.pdf
