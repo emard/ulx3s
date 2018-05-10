@@ -64,7 +64,7 @@
     (grid_origin 93.48 113)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x310ff_ffffffff)
+      (layerselection 0x310fc_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
