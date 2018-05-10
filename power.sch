@@ -2249,7 +2249,7 @@ AR Path="/5AA2A24D" Ref="J5"  Part="1"
 AR Path="/58D51CAD/5AA2A24D" Ref="J5"  Part="1" 
 F 0 "J5" H 1400 2050 50  0000 C CNN
 F 1 "VJ1" H 1400 1650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1400 1850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1400 1850 50  0001 C CNN
 F 3 "" H 1400 1850 50  0001 C CNN
 F 4 "www.mouser.com" H 1400 1850 60  0001 C CNN "Distributor1_URL"
 F 5 "Do not install" H 1400 1850 60  0001 C CNN "Note"

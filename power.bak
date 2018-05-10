@@ -1661,7 +1661,7 @@ L ulx3s-rescue:Jumper_NC_Small RP1
 U 1 1 59DFB08A
 P 10700 3100
 F 0 "RP1" H 10700 3180 50  0000 C CNN
-F 1 "0R" H 10700 3050 50  0000 C CNN
+F 1 "0" H 10700 3050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 10700 3100 50  0001 C CNN
 F 3 "" H 10700 3100 50  0001 C CNN
 F 4 "www.mouser.com" H 10700 3100 60  0001 C CNN "Distributor1_URL"
@@ -1673,7 +1673,7 @@ L ulx3s-rescue:Jumper_NC_Small RP2
 U 1 1 59DFB617
 P 10700 4300
 F 0 "RP2" H 10700 4380 50  0000 C CNN
-F 1 "0R" H 10700 4250 50  0000 C CNN
+F 1 "0" H 10700 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 10700 4300 50  0001 C CNN
 F 3 "" H 10700 4300 50  0001 C CNN
 F 4 "www.mouser.com" H 10700 4300 60  0001 C CNN "Distributor1_URL"
@@ -1685,7 +1685,7 @@ L ulx3s-rescue:Jumper_NC_Small RP3
 U 1 1 59DFBF34
 P 10700 5500
 F 0 "RP3" H 10700 5580 50  0000 C CNN
-F 1 "0R" H 10700 5450 50  0000 C CNN
+F 1 "0" H 10700 5450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 10700 5500 50  0001 C CNN
 F 3 "" H 10700 5500 50  0001 C CNN
 F 4 "www.mouser.com" H 10700 5500 60  0001 C CNN "Distributor1_URL"
@@ -2249,7 +2249,7 @@ AR Path="/5AA2A24D" Ref="J5"  Part="1"
 AR Path="/58D51CAD/5AA2A24D" Ref="J5"  Part="1" 
 F 0 "J5" H 1400 2050 50  0000 C CNN
 F 1 "VJ1" H 1400 1650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1400 1850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1400 1850 50  0001 C CNN
 F 3 "" H 1400 1850 50  0001 C CNN
 F 4 "www.mouser.com" H 1400 1850 60  0001 C CNN "Distributor1_URL"
 F 5 "Do not install" H 1400 1850 60  0001 C CNN "Note"
@@ -2894,23 +2894,23 @@ $EndComp
 Wire Wire Line
 	2400 4200 2400 4250
 $Comp
-L ulx3s-rescue:Jumper_NC_Small RV2
+L Jumper:Jumper_2_Open RV2
 U 1 1 5AF31FAC
-P 1300 1000
-F 0 "RV2" H 1300 1080 50  0000 C CNN
-F 1 "0" H 1300 950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 1300 1000 50  0001 C CNN
-F 3 "" H 1300 1000 50  0001 C CNN
-F 4 "www.mouser.com" H 1300 1000 60  0001 C CNN "Distributor1_URL"
-F 5 "Do not install" H 1300 1000 50  0001 C CNN "Note"
-	1    1300 1000
+P 1300 800
+F 0 "RV2" H 1300 950 50  0000 C CNN
+F 1 "0" H 1300 750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 1300 800 50  0001 C CNN
+F 3 "" H 1300 800 50  0001 C CNN
+F 4 "www.mouser.com" H 1300 800 60  0001 C CNN "Distributor1_URL"
+F 5 "Do not install" H 1300 800 50  0001 C CNN "Note"
+	1    1300 800 
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:Jumper_NC_Small RV3
+L Jumper:Jumper_2_Open RV3
 U 1 1 5AF3694A
 P 1300 1300
-F 0 "RV3" H 1300 1380 50  0000 C CNN
+F 0 "RV3" H 1300 1450 50  0000 C CNN
 F 1 "0" H 1300 1250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 1300 1300 50  0001 C CNN
 F 3 "" H 1300 1300 50  0001 C CNN
@@ -2919,41 +2919,41 @@ F 5 "Do not install" H 1300 1300 50  0001 C CNN "Note"
 	1    1300 1300
 	0    1    1    0   
 $EndComp
-Text GLabel 1200 1150 0    60   Input ~ 0
+Text GLabel 1200 1050 0    60   Input ~ 0
 2V5_3V3
 $Comp
 L power:+2V5 #PWR0169
 U 1 1 5AF3DD8E
-P 850 900
-F 0 "#PWR0169" H 850 750 50  0001 C CNN
-F 1 "+2V5" H 850 1040 50  0000 C CNN
-F 2 "" H 850 900 50  0001 C CNN
-F 3 "" H 850 900 50  0001 C CNN
-	1    850  900 
+P 850 600
+F 0 "#PWR0169" H 850 450 50  0001 C CNN
+F 1 "+2V5" H 850 740 50  0000 C CNN
+F 2 "" H 850 600 50  0001 C CNN
+F 3 "" H 850 600 50  0001 C CNN
+	1    850  600 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR0170
 U 1 1 5AF3DD94
-P 850 1400
-F 0 "#PWR0170" H 850 1250 50  0001 C CNN
-F 1 "+3V3" H 850 1540 50  0000 C CNN
-F 2 "" H 850 1400 50  0001 C CNN
-F 3 "" H 850 1400 50  0001 C CNN
-	1    850  1400
+P 850 1500
+F 0 "#PWR0170" H 850 1350 50  0001 C CNN
+F 1 "+3V3" H 850 1640 50  0000 C CNN
+F 2 "" H 850 1500 50  0001 C CNN
+F 3 "" H 850 1500 50  0001 C CNN
+	1    850  1500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	850  900  1300 900 
+	850  600  1300 600 
 Wire Wire Line
-	850  1400 1300 1400
+	850  1500 1300 1500
 Wire Wire Line
-	1200 1150 1300 1150
+	1200 1050 1300 1050
 Wire Wire Line
-	1300 1150 1300 1100
+	1300 1050 1300 1000
 Wire Wire Line
-	1300 1150 1300 1200
-Connection ~ 1300 1150
+	1300 1050 1300 1100
+Connection ~ 1300 1050
 $Comp
 L dcdc:DCDC U3
 U 1 1 5AF563F3
