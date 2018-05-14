@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ulx3s-rescue:MB85RS16 U10
+L Memory_NVRAM:MB85RS16 U10
 U 1 1 58D913F5
 P 3650 4350
 F 0 "U10" H 3350 4600 50  0000 L CNN
@@ -88,7 +88,7 @@ Wire Wire Line
 Text Label 5550 4300 0    60   ~ 0
 FLASH_nCS
 $Comp
-L ulx3s-rescue:R R27
+L Device:R R27
 U 1 1 58EC0EFE
 P 3450 2350
 F 0 "R27" V 3530 2350 50  0000 C CNN
@@ -115,7 +115,7 @@ F 3 "" H 3450 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R28
+L Device:R R28
 U 1 1 58EC0F8E
 P 3650 2350
 F 0 "R28" V 3730 2350 50  0000 C CNN
@@ -142,7 +142,7 @@ F 3 "" H 3650 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R29
+L Device:R R29
 U 1 1 58EC15E1
 P 3850 2350
 F 0 "R29" V 3930 2350 50  0000 C CNN
@@ -173,7 +173,7 @@ Wire Wire Line
 Text Label 5550 4700 0    60   ~ 0
 FLASH_SCK
 $Comp
-L ulx3s-rescue:R R30
+L Device:R R30
 U 1 1 58EC1C84
 P 4050 2350
 F 0 "R30" V 4130 2350 50  0000 C CNN
@@ -201,7 +201,7 @@ $EndComp
 Text Notes 2600 1950 0    60   ~ 0
 pullups for Master SPI (MSPI) required by\nTN1260: lattice ECP5 sysCONFIG guide p.6
 $Comp
-L ulx3s-rescue:R R11
+L Device:R R11
 U 1 1 58EC4E77
 P 3050 2350
 F 0 "R11" V 3130 2350 50  0000 C CNN
@@ -228,7 +228,7 @@ F 3 "" H 3050 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R12
+L Device:R R12
 U 1 1 58EC4E85
 P 3250 2350
 F 0 "R12" V 3330 2350 50  0000 C CNN
@@ -300,7 +300,7 @@ FPGA_PROGRAMN
 Text Label 5550 4800 0    60   ~ 0
 FPGA_DONE
 $Comp
-L ulx3s-rescue:R R31
+L Device:R R31
 U 1 1 58EC68DC
 P 5200 2350
 F 0 "R31" V 5280 2350 50  0000 C CNN
@@ -327,7 +327,7 @@ F 3 "" H 5200 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R32
+L Device:R R32
 U 1 1 58EC68EA
 P 5400 2350
 F 0 "R32" V 5480 2350 50  0000 C CNN
@@ -358,7 +358,7 @@ Wire Wire Line
 Text Label 5550 4400 0    60   ~ 0
 FPGA_INITN
 $Comp
-L ulx3s-rescue:R R33
+L Device:R R33
 U 1 1 58EC72FD
 P 5600 2350
 F 0 "R33" V 5680 2350 50  0000 C CNN
@@ -428,7 +428,7 @@ BTN_L
 Text Notes 4700 1950 0    60   ~ 0
 pullups to allow entering USER mode\nTN1260: lattice ECP5 sysCONFIG guide p.6, p.8, p.13
 $Comp
-L ulx3s-rescue:R R55
+L Device:R R55
 U 1 1 59DEB568
 P 5350 4800
 F 0 "R55" V 5430 4800 50  0000 C CNN

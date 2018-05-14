@@ -151,7 +151,7 @@ F 7 "771-PCA9306D-T" H 5350 5450 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R24
+L Device:R R24
 U 1 1 58D92136
 P 6100 5100
 F 0 "R24" V 6180 5100 50  0000 C CNN
@@ -163,7 +163,7 @@ F 4 "AC0603FR-10100KL" V 6100 5100 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R25
+L Device:R R25
 U 1 1 58D921DD
 P 6300 5100
 F 0 "R25" V 6380 5100 50  0000 C CNN
@@ -175,7 +175,7 @@ F 4 "AC0603FR-104K7L" V 6300 5100 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R26
+L Device:R R26
 U 1 1 58D92237
 P 6500 5100
 F 0 "R26" V 6580 5100 50  0000 C CNN
@@ -198,7 +198,7 @@ F 3 "" H 6300 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C18
+L Device:C C18
 U 1 1 58D92807
 P 6100 5900
 F 0 "C18" H 6125 6000 50  0000 L CNN
@@ -243,7 +243,7 @@ F 3 "" H 5150 5350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R23
+L Device:R R23
 U 1 1 58D92CF9
 P 4600 5300
 F 0 "R23" V 4680 5300 50  0000 C CNN
@@ -255,7 +255,7 @@ F 4 "RC0603FR-072K2L" V 4600 5300 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R22
+L Device:R R22
 U 1 1 58D92D93
 P 4450 5300
 F 0 "R22" V 4530 5300 50  0000 C CNN
@@ -433,7 +433,7 @@ F 5 "www.mouser.com" H 3600 2900 60  0001 C CNN "Distributor1_URL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R61
+L Device:R R61
 U 1 1 5A0777ED
 P 1600 2300
 F 0 "R61" V 1680 2300 50  0000 C CNN
@@ -465,7 +465,7 @@ USB_FPGA_D+
 Text GLabel 4350 2800 2    60   Input ~ 0
 USB_FPGA_D-
 $Comp
-L ulx3s-rescue:C C36
+L Device:C C36
 U 1 1 5A878883
 P 7250 3400
 F 0 "C36" V 7300 3500 50  0000 L CNN
@@ -477,7 +477,7 @@ F 4 "CC0603KRX7R8BB104" V 7250 3400 50  0001 C CNN "MFG_PN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:C C37
+L Device:C C37
 U 1 1 5A878B40
 P 7550 3900
 F 0 "C37" V 7600 3950 50  0000 L CNN
@@ -489,7 +489,7 @@ F 4 "CC0603KRX7R8BB104" V 7550 3900 50  0001 C CNN "MFG_PN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:C C45
+L Device:C C45
 U 1 1 5A87EC41
 P 7250 3000
 F 0 "C45" V 7300 3050 50  0000 L CNN
@@ -501,7 +501,7 @@ F 4 "CC0603KRX7R8BB104" V 7250 3000 50  0001 C CNN "MFG_PN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:C C41
+L Device:C C41
 U 1 1 5A87EC93
 P 7550 3200
 F 0 "C41" V 7600 3250 50  0000 L CNN
@@ -513,7 +513,7 @@ F 4 "CC0603KRX7R8BB104" V 7550 3200 50  0001 C CNN "MFG_PN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:C C40
+L Device:C C40
 U 1 1 5A87EEE5
 P 7550 2900
 F 0 "C40" V 7600 2950 50  0000 L CNN
@@ -525,7 +525,7 @@ F 4 "CC0603KRX7R8BB104" V 7550 2900 50  0001 C CNN "MFG_PN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:C C44
+L Device:C C44
 U 1 1 5A87EF45
 P 7250 2700
 F 0 "C44" V 7300 2750 50  0000 L CNN
@@ -543,7 +543,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 3200 6950 3200
 $Comp
-L ulx3s-rescue:C C39
+L Device:C C39
 U 1 1 5A87F247
 P 7550 2600
 F 0 "C39" V 7600 2650 50  0000 L CNN
@@ -555,7 +555,7 @@ F 4 "CC0603KRX7R8BB104" V 7550 2600 50  0001 C CNN "MFG_PN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:C C43
+L Device:C C43
 U 1 1 5A87F2A7
 P 7250 2400
 F 0 "C43" V 7300 2450 50  0000 L CNN
@@ -571,7 +571,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 2600 6950 2600
 $Comp
-L ulx3s-rescue:C C42
+L Device:C C42
 U 1 1 5A87F538
 P 7250 2100
 F 0 "C42" V 7300 2150 50  0000 L CNN
@@ -583,7 +583,7 @@ F 4 "CC0603KRX7R8BB104" V 7250 2100 50  0001 C CNN "MFG_PN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:C C38
+L Device:C C38
 U 1 1 5A87F5AA
 P 7550 2300
 F 0 "C38" V 7600 2350 50  0000 L CNN

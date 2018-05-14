@@ -37,7 +37,7 @@ F 3 "" H 9000 3550 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:D_Schottky_Small D51
+L Device:D_Schottky_Small D51
 U 1 1 56AC483B
 P 7450 5350
 F 0 "D51" H 7400 5430 50  0000 L CNN
@@ -53,7 +53,7 @@ $EndComp
 Text Label 7900 5350 0    60   ~ 0
 IN5V
 $Comp
-L ulx3s-rescue:D_Schottky_Small D52
+L Device:D_Schottky_Small D52
 U 1 1 56AC4846
 P 9400 5350
 F 0 "D52" H 9350 5430 50  0000 L CNN

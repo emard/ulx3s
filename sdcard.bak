@@ -62,7 +62,7 @@ SD_D1
 Text Notes 4200 4750 0    60   ~ 0
 minimum pins for compatible mode\nSD_CLK, SD_CMD, SD_D0, SD_D3
 $Comp
-L ulx3s-rescue:R R38
+L Device:R R38
 U 1 1 590C5D62
 P 3150 3100
 F 0 "R38" V 3230 3100 50  0000 C CNN
@@ -90,7 +90,7 @@ Connection ~ 3150 3300
 Text Label 3250 3300 0    60   ~ 0
 SD3V3
 $Comp
-L ulx3s-rescue:C C15
+L Device:C C15
 U 1 1 590C7447
 P 3150 3500
 F 0 "C15" H 3175 3600 50  0000 L CNN

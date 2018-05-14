@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ulx3s-rescue:D_Schottky_Small D8
+L Device:D_Schottky_Small D8
 U 1 1 58D6C83A
 P 2300 1700
 F 0 "D8" H 2350 1650 50  0000 L CNN
@@ -40,7 +40,7 @@ F 3 "" H 3050 1700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:D_Schottky_Small D9
+L Device:D_Schottky_Small D9
 U 1 1 58D6C83C
 P 2600 2650
 F 0 "D9" H 2450 2700 50  0000 L CNN
@@ -271,7 +271,7 @@ nRESET
 Wire Wire Line
 	4850 3400 4950 3400
 $Comp
-L ulx3s-rescue:R R9
+L Device:R R9
 U 1 1 58EB9CB5
 P 4700 3600
 AR Path="/58EB9CB5" Ref="R9"  Part="1" 
@@ -358,7 +358,7 @@ VNC2 programming pins:\nTXD RXD TXDEN
 Text Notes 4350 5900 0    60   ~ 0
 warning:\nULX3S has different pinout\nfor simpler PCB routing and\nbecause FT230X has weak CTS\ndrive capability. (Undocumented,\nFLEAfpga mail from 13-Nov-2015)\nULX2S pinout was:\nTCK = DSR\nTMS = RI\nTDI = CTS\nTDO = DCD\n
 $Comp
-L ulx3s-rescue:R R40
+L Device:R R40
 U 1 1 591C69FB
 P 2250 4850
 AR Path="/591C69FB" Ref="R40"  Part="1" 
@@ -422,7 +422,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 4900 9150 4900
 $Comp
-L ulx3s-rescue:R R49
+L Device:R R49
 U 1 1 59274246
 P 2300 1800
 AR Path="/59274246" Ref="R49"  Part="1" 
@@ -436,7 +436,7 @@ F 4 "AC0603JR-0727RL" V 2300 1800 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R50
+L Device:R R50
 U 1 1 592743C8
 P 2300 1900
 AR Path="/592743C8" Ref="R50"  Part="1" 
@@ -460,7 +460,7 @@ FTD+
 Text Notes 2850 3250 0    60   ~ 0
 USB_FPGA connected to\nBANK1 on "gpdi" sheet and\nBANK2 on "ram" sheet
 $Comp
-L ulx3s-rescue:R R52
+L Device:R R52
 U 1 1 59C0F7B0
 P 2250 2750
 AR Path="/59C0F7B0" Ref="R52"  Part="1" 
@@ -474,7 +474,7 @@ F 4 "AC0603JR-0727RL" V 2250 2750 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R53
+L Device:R R53
 U 1 1 59C0F7B6
 P 2250 2850
 AR Path="/59C0F7B6" Ref="R53"  Part="1" 
@@ -496,7 +496,7 @@ FPD-
 Text Label 1850 2850 0    60   ~ 0
 FPD+
 $Comp
-L ulx3s-rescue:D_Zener_Small_ALT D20
+L Device:D_Zener_Small_ALT D20
 U 1 1 59C133D8
 P 2600 3000
 F 0 "D20" H 2800 2900 50  0000 C CNN
@@ -511,7 +511,7 @@ F 7 "821-BZT52C3V6S" H 2600 3000 60  0001 C CNN "Distributor1_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:D_Zener_Small_ALT D21
+L Device:D_Zener_Small_ALT D21
 U 1 1 59C134C9
 P 2700 3000
 F 0 "D21" H 2900 3100 50  0000 C CNN
@@ -570,7 +570,7 @@ ANT_433MHz
 Text Notes 650  4100 0    60   ~ 0
 D8,D9: Schottky 2A/30V \nLow drop Vfmax=0.375V
 $Comp
-L ulx3s-rescue:R R54
+L Device:R R54
 U 1 1 59D562D0
 P 2250 5450
 AR Path="/59D562D0" Ref="R54"  Part="1" 
@@ -588,7 +588,7 @@ D- 1.5k pullp for \nlow speed device\nmode USB1.0
 Text GLabel 8650 2350 0    60   Input ~ 0
 FTDI_TXDEN
 $Comp
-L ulx3s-rescue:R R56
+L Device:R R56
 U 1 1 59DFFFBE
 P 6450 4250
 AR Path="/59DFFFBE" Ref="R56"  Part="1" 
@@ -649,7 +649,7 @@ F 6 "842-LFE5U85F6BG381C" H 8600 3950 60  0001 C CNN "Distributor1_PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:Crystal_GND24 Y1
+L Device:Crystal_GND24 Y1
 U 1 1 5A079883
 P 5450 1450
 F 0 "Y1" H 5575 1650 50  0000 L CNN
@@ -719,7 +719,7 @@ USB_FPGA_PULL_D+
 Text GLabel 1600 5250 0    60   Input ~ 0
 USB_FPGA_PULL_D-
 $Comp
-L ulx3s-rescue:R R63
+L Device:R R63
 U 1 1 5A71E38F
 P 2250 4650
 AR Path="/5A71E38F" Ref="R63"  Part="1" 
@@ -733,7 +733,7 @@ F 4 "AC0603FR-1015KL" V 2250 4650 50  0001 C CNN "MFG_PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R64
+L Device:R R64
 U 1 1 5A71E566
 P 2250 5250
 AR Path="/5A71E566" Ref="R64"  Part="1" 
@@ -753,7 +753,7 @@ Wire Wire Line
 Text Notes 650  4450 0    60   ~ 0
 USB pull lines connected to\nBANK0 on "gpio" sheet
 $Comp
-L ulx3s-rescue:D_Schottky D23
+L Device:D_Schottky D23
 U 1 1 5A720D44
 P 1950 4650
 F 0 "D23" H 1650 4750 50  0000 C CNN
@@ -826,7 +826,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 5250 1800 5250
 $Comp
-L ulx3s-rescue:D_Schottky D25
+L Device:D_Schottky D25
 U 1 1 5AF760EE
 P 1950 5250
 F 0 "D25" H 1650 5350 50  0000 C CNN
@@ -841,7 +841,7 @@ F 7 "621-BAT54WSQ-7-F" H 1950 5250 50  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:D_Schottky D24
+L Device:D_Schottky D24
 U 1 1 5AF79ABE
 P 1950 4850
 F 0 "D24" H 2250 4950 50  0000 C CNN
@@ -856,7 +856,7 @@ F 7 "621-BAT54WSQ-7-F" H 1950 4850 50  0001 C CNN "Distributor1_PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L ulx3s-rescue:D_Schottky D26
+L Device:D_Schottky D26
 U 1 1 5AF7B2B2
 P 1950 5450
 F 0 "D26" H 2250 5550 50  0000 C CNN

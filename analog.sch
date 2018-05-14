@@ -41,7 +41,7 @@ F 3 "" H 2950 2150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R17
+L Device:R R17
 U 1 1 58D90455
 P 3750 2350
 F 0 "R17" V 3830 2350 50  0000 C CNN
@@ -53,7 +53,7 @@ F 4 "AC0603FR-07150RL" V 3750 2350 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R16
+L Device:R R16
 U 1 1 58D904AE
 P 3750 2200
 F 0 "R16" V 3830 2200 50  0000 C CNN
@@ -65,7 +65,7 @@ F 4 "RC0603JR-07330RP" V 3750 2200 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R15
+L Device:R R15
 U 1 1 58D904D5
 P 3750 2050
 F 0 "R15" V 3830 2050 50  0000 C CNN
@@ -77,7 +77,7 @@ F 4 "RC0603FR-10680RL" V 3750 2050 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R14
+L Device:R R14
 U 1 1 58D90500
 P 3750 1900
 F 0 "R14" V 3830 1900 50  0000 C CNN
@@ -110,7 +110,7 @@ AUDIO_L2
 Text GLabel 3900 2350 2    60   Input ~ 0
 AUDIO_L3
 $Comp
-L ulx3s-rescue:R R21
+L Device:R R21
 U 1 1 58D907CA
 P 3750 3000
 F 0 "R21" V 3830 3000 50  0000 C CNN
@@ -122,7 +122,7 @@ F 4 "AC0603FR-07150RL" V 3750 3000 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R20
+L Device:R R20
 U 1 1 58D907D0
 P 3750 2850
 F 0 "R20" V 3830 2850 50  0000 C CNN
@@ -134,7 +134,7 @@ F 4 "RC0603JR-07330RP" V 3750 2850 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R19
+L Device:R R19
 U 1 1 58D907D6
 P 3750 2700
 F 0 "R19" V 3830 2700 50  0000 C CNN
@@ -146,7 +146,7 @@ F 4 "RC0603FR-10680RL" V 3750 2700 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R18
+L Device:R R18
 U 1 1 58D907DC
 P 3750 2550
 F 0 "R18" V 3830 2550 50  0000 C CNN
@@ -344,7 +344,7 @@ ADC_SCLK
 Text Notes 4900 2300 0    60   ~ 0
 JACK pinout for SJ-43516-SMT-TR\nhttp://www.cui.com/product/resource/sj-4351x-smt-series.pdf\npin 1 - sleeve (GND)\npin 2 - tip (left channel)\npin 3 - ring1 (right channel)\npin 4 - ring2 (video)\npin 5 - tip switch\npin 6 - ring1 switch
 $Comp
-L ulx3s-rescue:R R60
+L Device:R R60
 U 1 1 5A05BC31
 P 3750 1700
 F 0 "R60" V 3830 1700 50  0000 C CNN
@@ -356,7 +356,7 @@ F 4 "AC0603FR-07150RL" V 3750 1700 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R59
+L Device:R R59
 U 1 1 5A05BC37
 P 3750 1550
 F 0 "R59" V 3830 1550 50  0000 C CNN
@@ -368,7 +368,7 @@ F 4 "RC0603JR-07330RP" V 3750 1550 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R58
+L Device:R R58
 U 1 1 5A05BC3D
 P 3750 1400
 F 0 "R58" V 3830 1400 50  0000 C CNN
@@ -380,7 +380,7 @@ F 4 "RC0603FR-10680RL" V 3750 1400 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R57
+L Device:R R57
 U 1 1 5A05BC43
 P 3750 1250
 F 0 "R57" V 3830 1250 50  0000 C CNN

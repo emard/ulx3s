@@ -124,7 +124,7 @@ BTN_L
 Text GLabel 3350 3950 2    60   Input ~ 0
 BTN_R
 $Comp
-L ulx3s-rescue:R R7
+L Device:R R7
 U 1 1 58D6605D
 P 1900 2750
 F 0 "R7" V 1980 2750 50  0000 C CNN
@@ -225,7 +225,7 @@ $EndComp
 Text GLabel 5650 4600 2    60   Input ~ 0
 FTDI_nSLEEP
 $Comp
-L ulx3s-rescue:LED_ALT D18
+L Device:LED_ALT D18
 U 1 1 590B4E85
 P 5500 4600
 F 0 "D18" H 5500 4700 50  0000 C CNN
@@ -240,7 +240,7 @@ F 7 "859-LTST-C170KGKT " H 5500 4600 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R36
+L Device:R R36
 U 1 1 590B507C
 P 4550 4600
 F 0 "R36" V 4630 4600 50  0000 C CNN
@@ -273,7 +273,7 @@ $EndComp
 Text GLabel 5650 5350 2    60   Input ~ 0
 FTDI_nTXLED
 $Comp
-L ulx3s-rescue:LED_ALT D19
+L Device:LED_ALT D19
 U 1 1 590B86F4
 P 4550 5350
 F 0 "D19" H 4550 5450 50  0000 C CNN
@@ -288,7 +288,7 @@ F 7 "859-LTST-C170KRKT" H 4550 5350 60  0001 C CNN "Distributor1_PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L ulx3s-rescue:R R37
+L Device:R R37
 U 1 1 590B86FA
 P 5500 5350
 F 0 "R37" V 5580 5350 50  0000 C CNN
@@ -323,7 +323,7 @@ F 3 "" H 1750 4150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R39
+L Device:R R39
 U 1 1 591B5493
 P 1900 4150
 F 0 "R39" V 1980 4150 50  0000 C CNN
@@ -343,7 +343,7 @@ Wire Wire Line
 Connection ~ 2750 2950
 Connection ~ 2750 3950
 $Comp
-L ulx3s-rescue:R R41
+L Device:R R41
 U 1 1 591E1845
 P 5250 2550
 F 0 "R41" V 5330 2550 50  0000 C CNN
@@ -355,7 +355,7 @@ F 4 "RC0603FR-071KL" V 5250 2550 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R42
+L Device:R R42
 U 1 1 591E199B
 P 5250 2750
 F 0 "R42" V 5330 2750 50  0000 C CNN
@@ -367,7 +367,7 @@ F 4 "RC0603FR-071KL" V 5250 2750 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R43
+L Device:R R43
 U 1 1 591E1A9D
 P 5250 2950
 F 0 "R43" V 5330 2950 50  0000 C CNN
@@ -379,7 +379,7 @@ F 4 "RC0603FR-071KL" V 5250 2950 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R44
+L Device:R R44
 U 1 1 591E1AA3
 P 5250 3150
 F 0 "R44" V 5330 3150 50  0000 C CNN
@@ -391,7 +391,7 @@ F 4 "RC0603FR-071KL" V 5250 3150 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R45
+L Device:R R45
 U 1 1 591E1BA5
 P 5250 3350
 F 0 "R45" V 5330 3350 50  0000 C CNN
@@ -403,7 +403,7 @@ F 4 "RC0603FR-071KL" V 5250 3350 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R46
+L Device:R R46
 U 1 1 591E1BAB
 P 5250 3550
 F 0 "R46" V 5330 3550 50  0000 C CNN
@@ -415,7 +415,7 @@ F 4 "RC0603FR-071KL" V 5250 3550 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R47
+L Device:R R47
 U 1 1 591E1BB1
 P 5250 3750
 F 0 "R47" V 5330 3750 50  0000 C CNN
@@ -427,7 +427,7 @@ F 4 "RC0603FR-071KL" V 5250 3750 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:R R48
+L Device:R R48
 U 1 1 591E1BB7
 P 5250 3950
 F 0 "R48" V 5330 3950 50  0000 C CNN
@@ -474,7 +474,7 @@ F 7 "774-2194MST " H 8000 3200 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R51
+L Device:R R51
 U 1 1 595B9C2F
 P 7250 3400
 F 0 "R51" V 7330 3400 50  0000 C CNN
@@ -524,7 +524,7 @@ To fix issues with FT231XS rev A,B,C\nShort-circuit D18 LED, but then\nboard can
 Text GLabel 5650 5850 2    60   Input ~ 0
 WIFI_GPIO5
 $Comp
-L ulx3s-rescue:LED_ALT D22
+L Device:LED_ALT D22
 U 1 1 5A07AFD2
 P 5500 5850
 F 0 "D22" H 5500 5950 50  0000 C CNN
@@ -539,7 +539,7 @@ F 7 "859-LTST-C170TBKT" H 5500 5850 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R62
+L Device:R R62
 U 1 1 5A07AFD8
 P 4550 5850
 F 0 "R62" V 4630 5850 50  0000 C CNN
@@ -576,7 +576,7 @@ TXLED blinks when FPGA sends data to FTDI
 Text Notes 4850 2150 0    60   ~ 0
 OLED connected to\nBANK6 on "usb" sheet
 $Comp
-L ulx3s-rescue:LED_ALT D7
+L Device:LED_ALT D7
 U 1 1 5A54C340
 P 4550 3950
 F 0 "D7" H 4550 4050 50  0000 C CNN
@@ -591,7 +591,7 @@ F 7 "859-LTST-C170TBKT" H 4550 3950 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:LED_ALT D6
+L Device:LED_ALT D6
 U 1 1 5A54CAEF
 P 4550 3750
 F 0 "D6" H 4550 3850 50  0000 C CNN
@@ -606,7 +606,7 @@ F 7 "859-LTST-C170KGKT " H 4550 3750 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:LED_ALT D4
+L Device:LED_ALT D4
 U 1 1 5A54CF8A
 P 4550 3350
 F 0 "D4" H 4550 3450 50  0000 C CNN
@@ -621,7 +621,7 @@ F 7 "859-LTST-C170KRKT" H 4550 3350 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:LED_ALT D5
+L Device:LED_ALT D5
 U 1 1 5A54D428
 P 4550 3550
 F 0 "D5" H 4550 3650 50  0000 C CNN
@@ -636,7 +636,7 @@ F 7 "859-LTST-C170KFKT" H 4550 3550 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:LED_ALT D3
+L Device:LED_ALT D3
 U 1 1 5A54DCE5
 P 4550 3150
 F 0 "D3" H 4550 3250 50  0000 C CNN
@@ -651,7 +651,7 @@ F 7 "859-LTST-C170TBKT" H 4550 3150 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:LED_ALT D2
+L Device:LED_ALT D2
 U 1 1 5A54DCEF
 P 4550 2950
 F 0 "D2" H 4550 3050 50  0000 C CNN
@@ -666,7 +666,7 @@ F 7 "859-LTST-C170KGKT " H 4550 2950 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:LED_ALT D0
+L Device:LED_ALT D0
 U 1 1 5A54DCF9
 P 4550 2550
 F 0 "D0" H 4550 2650 50  0000 C CNN
@@ -681,7 +681,7 @@ F 7 "859-LTST-C170KRKT" H 4550 2550 60  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:LED_ALT D1
+L Device:LED_ALT D1
 U 1 1 5A54DD03
 P 4550 2750
 F 0 "D1" H 4550 2850 50  0000 C CNN
@@ -780,7 +780,7 @@ LEFT
 Text Notes 2100 4000 0    60   ~ 0
 RIGHT
 $Comp
-L ulx3s-rescue:C C46
+L Device:C C46
 U 1 1 5A881E8B
 P 6650 1350
 F 0 "C46" H 6675 1450 50  0000 L CNN

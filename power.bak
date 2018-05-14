@@ -59,7 +59,7 @@ F 3 "" H 7400 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C1
+L Device:C C1
 U 1 1 58D598B7
 P 7400 3700
 AR Path="/58D598B7" Ref="C1"  Part="1" 
@@ -73,7 +73,7 @@ F 4 "CC0805ZKY5V5BB226 " H 7400 3700 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C2
+L Device:C C2
 U 1 1 58D5A146
 P 9100 3300
 AR Path="/58D5A146" Ref="C2"  Part="1" 
@@ -87,7 +87,7 @@ F 4 "CS0603KRX7R9BB471" H 9100 3300 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R RA1
+L Device:R RA1
 U 1 1 58D5A193
 P 9400 3300
 AR Path="/58D5A193" Ref="RA1"  Part="1" 
@@ -101,7 +101,7 @@ F 4 "AC0603FR-1015KL" V 9400 3300 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R RB1
+L Device:R RB1
 U 1 1 58D5A1E5
 P 9600 3500
 AR Path="/58D5A1E5" Ref="RB1"  Part="1" 
@@ -126,7 +126,7 @@ F 3 "" H 9800 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C3
+L Device:C C3
 U 1 1 58D5AE64
 P 9800 3300
 AR Path="/58D5AE64" Ref="C3"  Part="1" 
@@ -140,7 +140,7 @@ F 4 "CC0805ZKY5V5BB226 " H 9800 3300 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C4
+L Device:C C4
 U 1 1 58D5AEB3
 P 10150 3300
 AR Path="/58D5AEB3" Ref="C4"  Part="1" 
@@ -198,7 +198,7 @@ F 3 "" H 7400 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C5
+L Device:C C5
 U 1 1 58D6295E
 P 7400 6100
 AR Path="/58D6295E" Ref="C5"  Part="1" 
@@ -212,7 +212,7 @@ F 4 "CC0805ZKY5V5BB226 " H 7400 6100 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C6
+L Device:C C6
 U 1 1 58D6296A
 P 9100 5700
 AR Path="/58D6296A" Ref="C6"  Part="1" 
@@ -226,7 +226,7 @@ F 4 "CS0603KRX7R9BB471" H 9100 5700 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R RA3
+L Device:R RA3
 U 1 1 58D62970
 P 9400 5700
 AR Path="/58D62970" Ref="RA3"  Part="1" 
@@ -240,7 +240,7 @@ F 4 "AC0603FR-1015KL" V 9400 5700 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R RB3
+L Device:R RB3
 U 1 1 58D62976
 P 9600 5900
 AR Path="/58D62976" Ref="RB3"  Part="1" 
@@ -265,7 +265,7 @@ F 3 "" H 9800 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C7
+L Device:C C7
 U 1 1 58D62988
 P 9800 5700
 AR Path="/58D62988" Ref="C7"  Part="1" 
@@ -279,7 +279,7 @@ F 4 "CC0805ZKY5V5BB226 " H 9800 5700 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C8
+L Device:C C8
 U 1 1 58D6298E
 P 10150 5700
 AR Path="/58D6298E" Ref="C8"  Part="1" 
@@ -339,7 +339,7 @@ F 3 "" H 7400 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C9
+L Device:C C9
 U 1 1 58D67BD2
 P 7400 4900
 AR Path="/58D67BD2" Ref="C9"  Part="1" 
@@ -353,7 +353,7 @@ F 4 "CC0805ZKY5V5BB226 " H 7400 4900 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:L L2
+L Device:L L2
 U 1 1 58D67BD8
 P 8900 4300
 F 0 "L2" V 8850 4300 50  0000 C CNN
@@ -368,7 +368,7 @@ F 7 "652-SRP2512A-2R2M" H 8900 4300 60  0001 C CNN "Distributor1_PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ulx3s-rescue:C C10
+L Device:C C10
 U 1 1 58D67BDE
 P 9100 4500
 AR Path="/58D67BDE" Ref="C10"  Part="1" 
@@ -382,7 +382,7 @@ F 4 "CS0603KRX7R9BB471" H 9100 4500 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R RA2
+L Device:R RA2
 U 1 1 58D67BE4
 P 9400 4500
 AR Path="/58D67BE4" Ref="RA2"  Part="1" 
@@ -396,7 +396,7 @@ F 4 "AC0603FR-1015KL" V 9400 4500 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R RB2
+L Device:R RB2
 U 1 1 58D67BEA
 P 9600 4700
 AR Path="/58D67BEA" Ref="RB2"  Part="1" 
@@ -421,7 +421,7 @@ F 3 "" H 9800 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C11
+L Device:C C11
 U 1 1 58D67BF6
 P 9800 4500
 AR Path="/58D67BF6" Ref="C11"  Part="1" 
@@ -435,7 +435,7 @@ F 4 "CC0805ZKY5V5BB226 " H 9800 4500 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C12
+L Device:C C12
 U 1 1 58D67BFC
 P 10150 4500
 AR Path="/58D67BFC" Ref="C12"  Part="1" 
@@ -449,7 +449,7 @@ F 4 "CC0805ZKY5V5BB226 " H 10150 4500 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R1
+L Device:R R1
 U 1 1 58D67C1D
 P 4300 4700
 AR Path="/58D67C1D" Ref="R1"  Part="1" 
@@ -548,7 +548,7 @@ FPDI_SCL
 Text GLabel 2450 3550 2    60   Input ~ 0
 FPDI_SDA
 $Comp
-L ulx3s-rescue:Battery_Cell BAT1
+L Device:Battery_Cell BAT1
 U 1 1 58D72202
 P 2650 4100
 AR Path="/58D72202" Ref="BAT1"  Part="1" 
@@ -580,7 +580,7 @@ VBAT
 Text Notes 6250 3350 0    60   ~ 0
 PWREN\nabove +1.5V turns ON\nbelow +0.4V turns OFF
 $Comp
-L ulx3s-rescue:D D10
+L Device:D D10
 U 1 1 58D79CB5
 P 4300 4250
 F 0 "D10" H 4300 4350 50  0000 C CNN
@@ -591,7 +591,7 @@ F 3 "" H 4300 4250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ulx3s-rescue:C C13
+L Device:C C13
 U 1 1 58D7A3F0
 P 4300 3750
 AR Path="/58D7A3F0" Ref="C13"  Part="1" 
@@ -605,7 +605,7 @@ F 4 "CC0805MRX5R6BB225" H 4300 3750 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R2
+L Device:R R2
 U 1 1 58D7BDD9
 P 4300 5600
 AR Path="/58D7BDD9" Ref="R2"  Part="1" 
@@ -630,7 +630,7 @@ F 3 "" H 4300 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R4
+L Device:R R4
 U 1 1 58D7CBD5
 P 4850 4700
 AR Path="/58D7CBD5" Ref="R4"  Part="1" 
@@ -644,7 +644,7 @@ F 4 "AC0603FR-104K7L" V 4850 4700 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:LED_ALT D11
+L Device:LED_ALT D11
 U 1 1 58D7CBDC
 P 4850 4200
 AR Path="/58D7CBDC" Ref="D11"  Part="1" 
@@ -661,7 +661,7 @@ WAKEUPn\nopen drain \nactive low
 Text Label 2400 3750 0    60   ~ 0
 WAKEUPn
 $Comp
-L ulx3s-rescue:C C14
+L Device:C C14
 U 1 1 58D84952
 P 3700 5850
 AR Path="/58D84952" Ref="C14"  Part="1" 
@@ -675,7 +675,7 @@ F 4 "CC0603KRX7R8BB104" H 3700 5850 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R5
+L Device:R R5
 U 1 1 58D85B68
 P 3400 5850
 AR Path="/58D85B68" Ref="R5"  Part="1" 
@@ -699,7 +699,7 @@ HOLD
 Text Label 3450 5600 0    60   ~ 0
 SHUT
 $Comp
-L ulx3s-rescue:R R6
+L Device:R R6
 U 1 1 58D7B291
 P 3400 3750
 AR Path="/58D7B291" Ref="R6"  Part="1" 
@@ -715,7 +715,7 @@ $EndComp
 Text Label 3550 3750 0    60   ~ 0
 WKn
 $Comp
-L ulx3s-rescue:D_Schottky D12
+L Device:D_Schottky D12
 U 1 1 58D7BC4A
 P 3800 4950
 F 0 "D12" H 3800 5050 50  0000 C CNN
@@ -730,7 +730,7 @@ F 7 "621-BAT54WSQ-7-F " H 3800 4950 50  0001 C CNN "Distributor1_PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L ulx3s-rescue:R R8
+L Device:R R8
 U 1 1 58D8111E
 P 4100 5200
 AR Path="/58D8111E" Ref="R8"  Part="1" 
@@ -744,7 +744,7 @@ F 4 "RC0603FR-071KL" V 4100 5200 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:Crystal_GND23 Y2
+L Device:Crystal_GND23 Y2
 U 1 1 58D85AAB
 P 900 3650
 F 0 "Y2" V 750 3450 50  0000 L CNN
@@ -765,7 +765,7 @@ OSCI_32k
 Text Label 1050 3850 0    60   ~ 0
 OSCO_32k
 $Comp
-L ulx3s-rescue:Q_NMOS_GSD Q2
+L Device:Q_NMOS_GSD Q2
 U 1 1 58D883BD
 P 4000 5600
 AR Path="/58D883BD" Ref="Q2"  Part="1" 
@@ -774,14 +774,15 @@ F 0 "Q2" H 3850 5700 50  0000 L CNN
 F 1 "2N7002" H 3750 5800 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4200 5700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data_sheet/2N7002.pdf" H 4000 5600 50  0001 C CNN
-F 4 "2N7002P,215" H 4000 5600 60  0001 C CNN "MFG_PN"
-F 5 "www.mouser.com" H 4000 5600 60  0001 C CNN "Distributor1_URL"
-F 6 "771-2N7002P-215" H 4000 5600 60  0001 C CNN "Distributor1_PN"
+F 4 "www.nexperia.com" H 4000 5600 50  0001 C CNN "MFG_URL"
+F 5 "2N7002P,215" H 4000 5600 60  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 4000 5600 60  0001 C CNN "Distributor1_URL"
+F 7 "771-2N7002P-215" H 4000 5600 60  0001 C CNN "Distributor1_PN"
 	1    4000 5600
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:Q_PNP_BEC Q1
+L Device:Q_PNP_BEC Q1
 U 1 1 58D89315
 P 3950 3750
 AR Path="/58D89315" Ref="Q1"  Part="1" 
@@ -797,7 +798,7 @@ F 6 "771-BC857B-T/R" H 3950 3750 60  0001 C CNN "Distributor1_PN"
 	1    0    0    1   
 $EndComp
 $Comp
-L ulx3s-rescue:R R13
+L Device:R R13
 U 1 1 58DA1F4D
 P 2850 5850
 AR Path="/58DA1F4D" Ref="R13"  Part="1" 
@@ -811,7 +812,7 @@ F 4 "AC0603FR-1015KL" V 2850 5850 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:D D13
+L Device:D D13
 U 1 1 58DA2DA9
 P 4050 4250
 F 0 "D13" H 4050 4350 50  0000 C CNN
@@ -846,7 +847,7 @@ $EndComp
 Text Notes 3450 4750 0    60   ~ 0
 D13 discharges\nC13 at shutdown
 $Comp
-L ulx3s-rescue:D D14
+L Device:D D14
 U 1 1 58DA55D7
 P 3400 5400
 F 0 "D14" H 3400 5500 50  0000 C CNN
@@ -872,7 +873,7 @@ D14 discharges\nC14 at shutdown
 Text GLabel 2700 5600 0    60   Input ~ 0
 SHUTDOWN
 $Comp
-L ulx3s-rescue:R R3
+L Device:R R3
 U 1 1 58E810CC
 P 3150 4400
 AR Path="/58E810CC" Ref="R3"  Part="1" 
@@ -886,7 +887,7 @@ F 4 "AC0603FR-104K7L" V 3150 4400 50  0001 C CNN "MFG_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:D D16
+L Device:D D16
 U 1 1 58E813AE
 P 2900 3950
 F 0 "D16" H 2900 4050 50  0000 C CNN
@@ -908,7 +909,7 @@ F 3 "" H 3300 4400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ulx3s-rescue:D D17
+L Device:D D17
 U 1 1 58E82B1D
 P 3150 4150
 F 0 "D17" H 3150 4050 50  0000 C CNN
@@ -1537,7 +1538,7 @@ RTC can also be powered from 2.5V\nbut it is easier to route 3.3V
 Text GLabel 2500 4950 0    60   Input ~ 0
 FTDI_nSLEEP
 $Comp
-L ulx3s-rescue:R R10
+L Device:R R10
 U 1 1 591E4865
 P 2700 4950
 AR Path="/591E4865" Ref="R10"  Part="1" 
@@ -1555,7 +1556,7 @@ Wire Wire Line
 Text Label 2900 4950 0    60   ~ 0
 FTDI_nSUSPEND
 $Comp
-L ulx3s-rescue:C C17
+L Device:C C17
 U 1 1 592462C1
 P 10850 3300
 AR Path="/592462C1" Ref="C17"  Part="1" 
@@ -1569,7 +1570,7 @@ F 4 "CC0805MRX5R6BB225" H 10850 3300 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C19
+L Device:C C19
 U 1 1 59246A2A
 P 10850 4500
 AR Path="/59246A2A" Ref="C19"  Part="1" 
@@ -1583,7 +1584,7 @@ F 4 "CC0805MRX5R6BB225" H 10850 4500 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C20
+L Device:C C20
 U 1 1 59246E14
 P 10850 5700
 AR Path="/59246E14" Ref="C20"  Part="1" 
@@ -1632,7 +1633,7 @@ Wire Wire Line
 Text Label 2450 4600 0    60   ~ 0
 PWRBTn
 $Comp
-L ulx3s-rescue:C C22
+L Device:C C22
 U 1 1 59D56B84
 P 10500 3300
 AR Path="/59D56B84" Ref="C22"  Part="1" 
@@ -1646,7 +1647,7 @@ F 4 "CC0805MRX5R6BB225" H 10500 3300 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C23
+L Device:C C23
 U 1 1 59D56D50
 P 10500 4500
 AR Path="/59D56D50" Ref="C23"  Part="1" 
@@ -1660,7 +1661,7 @@ F 4 "CC0805MRX5R6BB225" H 10500 4500 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C24
+L Device:C C24
 U 1 1 59D56EAA
 P 10500 5700
 AR Path="/59D56EAA" Ref="C24"  Part="1" 
@@ -1692,7 +1693,7 @@ Wire Wire Line
 	10850 4700 10850 4650
 Connection ~ 10500 4700
 $Comp
-L ulx3s-rescue:Jumper_NC_Small RP1
+L Device:Jumper_NC_Small RP1
 U 1 1 59DFB08A
 P 10700 3100
 F 0 "RP1" H 10700 3180 50  0000 C CNN
@@ -1705,7 +1706,7 @@ F 5 "RC0603JR-070RL" H 10700 3100 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:Jumper_NC_Small RP2
+L Device:Jumper_NC_Small RP2
 U 1 1 59DFB617
 P 10700 4300
 F 0 "RP2" H 10700 4380 50  0000 C CNN
@@ -1718,7 +1719,7 @@ F 5 "RC0603JR-070RL" H 10700 4300 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:Jumper_NC_Small RP3
+L Device:Jumper_NC_Small RP3
 U 1 1 59DFBF34
 P 10700 5500
 F 0 "RP3" H 10700 5580 50  0000 C CNN
@@ -1956,7 +1957,7 @@ $EndComp
 Text Notes 7900 1200 0    60   ~ 0
 Decoupling capacitors: see Lattice\nPower Decoupling and Bypass Filtering for Programmable Devices
 $Comp
-L ulx3s-rescue:C C25
+L Device:C C25
 U 1 1 5A5F6DD9
 P 5500 4750
 AR Path="/5A5F6DD9" Ref="C25"  Part="1" 
@@ -1992,7 +1993,7 @@ F 3 "" H 5500 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C27
+L Device:C C27
 U 1 1 5A5FA778
 P 5450 3250
 AR Path="/5A5FA778" Ref="C27"  Part="1" 
@@ -2017,7 +2018,7 @@ F 3 "" H 5450 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C28
+L Device:C C28
 U 1 1 5A5FA78A
 P 5750 3250
 AR Path="/5A5FA78A" Ref="C28"  Part="1" 
@@ -2064,7 +2065,7 @@ F 3 "" H 5750 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C29
+L Device:C C29
 U 1 1 5A5FC3F6
 P 5450 4000
 AR Path="/5A5FC3F6" Ref="C29"  Part="1" 
@@ -2089,7 +2090,7 @@ F 3 "" H 5450 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C30
+L Device:C C30
 U 1 1 5A5FC402
 P 5750 4000
 AR Path="/5A5FC402" Ref="C30"  Part="1" 
@@ -2147,7 +2148,7 @@ F 3 "" H 6050 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C26
+L Device:C C26
 U 1 1 5A5F91FE
 P 6050 4750
 AR Path="/5A5F91FE" Ref="C26"  Part="1" 
@@ -2183,7 +2184,7 @@ F 3 "" H 5750 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C31
+L Device:C C31
 U 1 1 5A5FEEA6
 P 5750 4750
 AR Path="/5A5FEEA6" Ref="C31"  Part="1" 
@@ -2197,7 +2198,7 @@ F 4 "CX0603MRX7R8BB223" H 5750 4750 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C32
+L Device:C C32
 U 1 1 5A6007F1
 P 5250 4750
 AR Path="/5A6007F1" Ref="C32"  Part="1" 
@@ -2233,7 +2234,7 @@ F 3 "" H 5250 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:L L1
+L Device:L L1
 U 1 1 5A73C9EB
 P 8900 3100
 F 0 "L1" V 8850 3100 50  0000 C CNN
@@ -2248,7 +2249,7 @@ F 7 "652-SRP2512A-2R2M" H 8900 3100 60  0001 C CNN "Distributor1_PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ulx3s-rescue:L L3
+L Device:L L3
 U 1 1 5A73CDB3
 P 8900 5500
 F 0 "L3" V 8850 5500 50  0000 C CNN
@@ -2333,7 +2334,7 @@ Wire Wire Line
 Text GLabel 6050 4600 1    60   Input ~ 0
 2V5_3V3
 $Comp
-L ulx3s-rescue:C C47
+L Device:C C47
 U 1 1 5AB6B7B8
 P 950 2650
 AR Path="/5AB6B7B8" Ref="C47"  Part="1" 
@@ -2360,7 +2361,7 @@ F 3 "" H 950 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C50
+L Device:C C50
 U 1 1 5ABCEAC4
 P 3750 7100
 AR Path="/5ABCEAC4" Ref="C50"  Part="1" 
@@ -2407,7 +2408,7 @@ F 3 "" H 3250 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C48
+L Device:C C48
 U 1 1 5ABCEADC
 P 3250 7100
 AR Path="/5ABCEADC" Ref="C48"  Part="1" 
@@ -2443,7 +2444,7 @@ F 3 "" H 4000 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C51
+L Device:C C51
 U 1 1 5ABCEAEE
 P 4000 7100
 AR Path="/5ABCEAEE" Ref="C51"  Part="1" 
@@ -2470,7 +2471,7 @@ F 3 "" H 3500 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C49
+L Device:C C49
 U 1 1 5ABCECF1
 P 3500 7100
 AR Path="/5ABCECF1" Ref="C49"  Part="1" 
@@ -2499,7 +2500,7 @@ F 3 "" H 6300 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C53
+L Device:C C53
 U 1 1 5AC310F3
 P 6300 4750
 AR Path="/5AC310F3" Ref="C53"  Part="1" 
@@ -2917,7 +2918,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 7350 6650 7450
 $Comp
-L ulx3s-rescue:C C54
+L Device:C C54
 U 1 1 5AEDFB32
 P 2400 4050
 F 0 "C54" H 2150 4050 50  0000 L CNN
@@ -3055,7 +3056,7 @@ F 7 "595-TLV62569DBVR" H 8050 5800 50  0001 C CNN "Distributor1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:D_Schottky D15
+L Device:D_Schottky D15
 U 1 1 5AF673FF
 P 3100 5600
 F 0 "D15" H 3100 5700 50  0000 C CNN

@@ -92,7 +92,7 @@ F 3 "" H 4550 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:R R34
+L Device:R R34
 U 1 1 58ED6C6D
 P 4550 2350
 F 0 "R34" V 4630 2350 50  0000 C CNN
@@ -136,7 +136,7 @@ $EndComp
 Text Notes 8500 3300 0    60   ~ 0
 Programming pins:\nTXD RXD EN GPIO0
 $Comp
-L ulx3s-rescue:R R35
+L Device:R R35
 U 1 1 58FD4C5D
 P 4550 2750
 F 0 "R35" V 4630 2750 50  0000 C CNN
@@ -148,7 +148,7 @@ F 4 "RC0603FR-07470RL" V 4550 2750 50  0001 C CNN "MFG_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C21
+L Device:C C21
 U 1 1 5924A09B
 P 3650 3100
 F 0 "C21" H 3675 3200 50  0000 L CNN

@@ -285,7 +285,7 @@ GN17
 Text GLabel 8550 5850 0    60   Input ~ 0
 GP17
 $Comp
-L ulx3s-rescue:C C16
+L Device:C C16
 U 1 1 59131F17
 P 5350 5900
 F 0 "C16" H 5375 6000 50  0000 L CNN
@@ -389,7 +389,7 @@ BTN_U
 Text GLabel 10050 3450 2    60   Input ~ 0
 BTN_R
 $Comp
-L ulx3s-rescue:C C33
+L Device:C C33
 U 1 1 5A5FD142
 P 5900 5900
 F 0 "C33" H 5925 6000 50  0000 L CNN
@@ -423,7 +423,7 @@ F 3 "" H 5900 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C34
+L Device:C C34
 U 1 1 5A5FD1C1
 P 6200 5900
 F 0 "C34" H 6225 6000 50  0000 L CNN
@@ -457,7 +457,7 @@ F 3 "" H 6200 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C35
+L Device:C C35
 U 1 1 5A5FD26F
 P 6500 5900
 F 0 "C35" H 6525 6000 50  0000 L CNN
@@ -491,7 +491,7 @@ F 3 "" H 6500 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:C C52
+L Device:C C52
 U 1 1 5AC202C5
 P 6800 5900
 F 0 "C52" H 6825 6000 50  0000 L CNN
