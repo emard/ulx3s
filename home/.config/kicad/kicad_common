@@ -1,0 +1,12 @@
+WorkingDir=/home/davor/src/circuits/fpga/ulx3s
+ShowEnvVarWarningDialog=1
+UseIconsInMenus=1
+kicad_fplib_url=https://github.com/KiCad
+kicad_3Dlib_url=https://github.com/KiCad/kicad-packages3d
+kicad_3Dlib_last_download_dir=/usr/share/kicad/modules/packages3d/
+[EnvironmentVariables]
+KICAD_PTEMPLATES=/usr/share/kicad/template
+KICAD_SYMBOL_DIR=/usr/share/kicad/library
+KIGITHUB=https://github.com/KiCad
+KISYS3DMOD=/usr/share/kicad/modules/packages3d/
+KISYSMOD=/usr/share/kicad/modules

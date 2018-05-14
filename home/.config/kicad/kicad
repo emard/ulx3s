@@ -1,0 +1,17 @@
+KicadFramePos_x=0
+KicadFramePos_y=64
+KicadFrameSize_x=1366
+KicadFrameSize_y=741
+KicadFrameMaximized=1
+KicadFramePerspective=layout2|name=m_mainToolBar;caption=;state=139632;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=230;besth=36;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=m_LeftWin;caption=;state=508;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=409;besth=-1;minw=150;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=3f2c98005af9f34a0002a37800000003;caption=;state=2097404;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=525;minh=70;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=m_MessagesBox;caption=;state=256;dir=5;layer=2;row=0;pos=0;prop=100000;bestw=101;besth=45;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,10,0)=36|dock_size(4,1,0)=409|dock_size(1,0,0)=70|dock_size(5,2,0)=103|
+KicadFrameMostRecentlyUsedPath=/home/davor
+LeftWinWidth=409
+file1=/home/davor/src/circuits/fpga/ulx3s/ulx3s.pro
+file2=/home/davor/src/circuits/cssth1/th1.pro
+file3=
+file4=
+file5=
+file6=
+file7=
+file8=
+file9=
