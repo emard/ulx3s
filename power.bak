@@ -774,9 +774,9 @@ F 0 "Q2" H 3850 5700 50  0000 L CNN
 F 1 "2N7002" H 3750 5800 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4200 5700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data_sheet/2N7002.pdf" H 4000 5600 50  0001 C CNN
-F 4 "2N7002" H 4000 5600 60  0001 C CNN "MFG_PN"
+F 4 "2N7002P,215" H 4000 5600 60  0001 C CNN "MFG_PN"
 F 5 "www.mouser.com" H 4000 5600 60  0001 C CNN "Distributor1_URL"
-F 6 "512-2N7002 " H 4000 5600 60  0001 C CNN "Distributor1_PN"
+F 6 "771-2N7002P-215" H 4000 5600 60  0001 C CNN "Distributor1_PN"
 	1    4000 5600
 	1    0    0    -1  
 $EndComp
