@@ -69,6 +69,7 @@ F 0 "R38" V 3230 3100 50  0000 C CNN
 F 1 "0.47" V 3150 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 3080 3100 50  0001 C CNN
 F 3 "" H 3150 3100 50  0000 C CNN
+F 4 "73L2R47J" V 3150 3100 50  0001 C CNN "MFG_PN"
 	1    3150 3100
 	-1   0    0    1   
 $EndComp
@@ -84,7 +85,7 @@ F 3 "" H 3150 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 3250 3150 3350
+	3150 3250 3150 3300
 Connection ~ 3150 3300
 Text Label 3250 3300 0    60   ~ 0
 SD3V3
@@ -140,10 +141,14 @@ F 3 "" H 4900 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 4150 4900 4250
+	4900 4150 4900 4200
 Wire Wire Line
 	4900 4200 5000 4200
 Wire Wire Line
 	5000 4200 5000 4150
 Connection ~ 4900 4200
+Wire Wire Line
+	3150 3300 3150 3350
+Wire Wire Line
+	4900 4200 4900 4250
 $EndSCHEMATC
