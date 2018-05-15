@@ -1,4 +1,4 @@
-### Module positions - created on Tue May 15 09:22:56 2018 ###
+### Module positions - created on Tue May 15 23:44:24 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2-dev-unknown+dfsg1+20180318-2
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -76,22 +76,22 @@ R2        47k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    78.
 R3        4.7k                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    67.9450    41.9100   90.0000  bottom
 R4        4.7k                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    81.9150    31.7500  180.0000  bottom
 R5        4.7M                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    80.0100    36.1950  270.0000  bottom
-R6        1k                  R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    84.4550    27.3050  270.0000  bottom
-R7        150                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    19.6850    27.9400  270.0000  bottom
-R8        1k                  R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    76.8350    32.3850   90.0000  bottom
+R6        1k                  R_0603_1608Metric                              84.4550    27.3050  270.0000  bottom
+R7        150                 R_0603_1608Metric                              19.6850    27.9400  270.0000  bottom
+R8        1k                  R_0603_1608Metric                              76.8350    32.3850   90.0000  bottom
 R9        15k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    34.2900     2.5400  270.0000  bottom
-R10       150                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    58.0390     9.1440  180.0000  bottom
+R10       150                 R_0603_1608Metric                              58.0390     9.1440  180.0000  bottom
 R11       10k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    25.4000    31.7500  270.0000  bottom
 R12       10k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    20.3200    23.8760   90.0000  bottom
 R13       15k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    81.9150    33.6550  180.0000  bottom
-R14       1.2k                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    31.4960    26.4160  180.0000  bottom
-R15       680                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    31.4960    28.1940  180.0000  bottom
-R16       330                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    31.4960    29.9720  180.0000  bottom
-R17       150                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    31.4960    31.7500  180.0000  bottom
-R18       1.2k                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    36.3220    37.4470   90.0000  bottom
-R19       680                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    38.1000    37.4470   90.0000  bottom
-R20       330                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    39.8930    37.4470   90.0000  bottom
-R21       150                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    41.6710    37.4470   90.0000  bottom
+R14       1.2k                R_0603_1608Metric                              31.4960    27.1600  180.0000  bottom
+R15       680                 R_0603_1608Metric                              31.4960    28.6840  180.0000  bottom
+R16       330                 R_0603_1608Metric                              31.4960    30.2080  180.0000  bottom
+R17       150                 R_0603_1608Metric                              31.4960    31.7500  180.0000  bottom
+R18       1.2k                R_0603_1608Metric                              36.3220    37.4470   90.0000  bottom
+R19       680                 R_0603_1608Metric                              37.8610    37.4470   90.0000  bottom
+R20       330                 R_0603_1608Metric                              39.3850    37.4470   90.0000  bottom
+R21       150                 R_0603_1608Metric                              40.9090    37.4470   90.0000  bottom
 R22       2.2k                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    45.9255    46.9900   90.0000  bottom
 R23       2.2k                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    45.9255    42.9080  270.0000  bottom
 R24       100k                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    56.5150    45.4480   90.0000  bottom
@@ -99,15 +99,15 @@ R25       4.7k                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    55.
 R26       4.7k                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    55.3870    42.5270  180.0000  bottom
 R27       10k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    34.9250    16.0450   90.0000  bottom
 R28       10k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    23.4950    31.7500  270.0000  bottom
-R29       1k                  R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    18.7960    23.8760   90.0000  bottom
+R29       1k                  R_0603_1608Metric                              18.7960    23.8760   90.0000  bottom
 R30       4.7k                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    21.5900    31.7500  270.0000  bottom
 R31       10k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    49.5300    13.9700  180.0000  bottom
 R32       10k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    38.7350    14.6050   90.0000  bottom
 R33       10k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    36.8300    14.6050   90.0000  bottom
 R34       15k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder     8.8900     8.6200    0.0000  bottom
-R35       470                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder     8.8900    10.1600  180.0000  bottom
+R35       470                 R_0603_1608Metric                               8.8900    10.1600  180.0000  bottom
 R38       0.47                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder     9.3980    13.4620   90.0000  bottom
-R39       150                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    69.2150    15.8750  180.0000  bottom
+R39       150                 R_0603_1608Metric                              69.2150    15.8750  180.0000  bottom
 R40       1.5k                R_0603_1608Metric                              73.4060    46.4820    0.0000  bottom
 R49       27                  R_0603_1608Metric                              19.1770    38.7350   90.0000  bottom
 R50       27                  R_0603_1608Metric                              17.2720    38.7350   90.0000  bottom
@@ -115,7 +115,7 @@ R51       150                 R_0603_1608Metric                              62.
 R52       27                  R_0603_1608Metric                              77.2160    45.2550   90.0000  bottom
 R53       27                  R_0603_1608Metric                              75.8190    45.2550   90.0000  bottom
 R54       1.5k                R_0603_1608Metric                              79.5020    46.4820    0.0000  bottom
-R55       15k                 R_0603_1608Metric                              40.6400    14.6050  270.0000  bottom
+R55       15k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    40.6400    14.6050  270.0000  bottom
 R56       0                   R_0603_1608Metric                              34.2900     6.7740   90.0000  bottom
 R57       1.2k                R_0603_1608Metric                              23.6220    38.8620   90.0000  bottom
 R58       680                 R_0603_1608Metric                              25.1460    38.8620   90.0000  bottom
