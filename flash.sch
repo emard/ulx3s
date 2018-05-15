@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Memory_NVRAM:MB85RS16 U10
+L Memory_EEPROM:25LCxxx U10
 U 1 1 58D913F5
 P 3650 4350
 F 0 "U10" H 3350 4600 50  0000 L CNN
