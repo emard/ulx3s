@@ -732,10 +732,13 @@ F 0 "D12" H 3800 5050 50  0000 C CNN
 F 1 "BAT54W" H 3800 4850 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3800 4950 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" H 3800 4950 50  0001 C CNN
-F 4 "www.diodes.com" H 3800 4950 50  0001 C CNN "MFG_URL"
-F 5 "BAT54WSQ-7-F " H 3800 4950 50  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 3800 4950 50  0001 C CNN "Distributor1_URL"
-F 7 "621-BAT54WSQ-7-F " H 3800 4950 50  0001 C CNN "Distributor1_PN"
+F 4 "www.onsemi.com" H 3800 4950 50  0001 C CNN "MFG_URL"
+F 5 "NSR0530HT1G " H 3800 4950 50  0001 C CNN "MFG_PN"
+F 6 "www.diodes.com" H 3800 4950 50  0001 C CNN "MFG1_URL"
+F 7 "BAT54WSQ-7-F " H 3800 4950 50  0001 C CNN "MFG1_PN"
+F 8 "www.mouser.com" H 3800 4950 50  0001 C CNN "Distributor1_URL"
+F 9 "863-NSR0530HT1G " H 3800 4950 50  0001 C CNN "Distributor1_PN"
+F 10 "621-BAT54WSQ-7-F " H 3800 4950 50  0001 C CNN "Distributor1_PN2"
 	1    3800 4950
 	-1   0    0    1   
 $EndComp
@@ -3085,10 +3088,13 @@ F 0 "D15" H 3100 5700 50  0000 C CNN
 F 1 "BAT54W" H 3100 5500 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3100 5600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" H 3100 5600 50  0001 C CNN
-F 4 "www.diodes.com" H 3100 5600 50  0001 C CNN "MFG_URL"
-F 5 "BAT54WSQ-7-F " H 3100 5600 50  0001 C CNN "MFG_PN"
-F 6 "www.mouser.com" H 3100 5600 50  0001 C CNN "Distributor1_URL"
-F 7 "621-BAT54WSQ-7-F " H 3100 5600 50  0001 C CNN "Distributor1_PN"
+F 4 "www.onsemi.com" H 3100 5600 50  0001 C CNN "MFG_URL"
+F 5 "NSR0530HT1G " H 3100 5600 50  0001 C CNN "MFG_PN"
+F 6 "www.diodes.com" H 3100 5600 50  0001 C CNN "MFG2_URL"
+F 7 "BAT54WSQ-7-F " H 3100 5600 50  0001 C CNN "MFG2_PN"
+F 8 "www.mouser.com" H 3100 5600 50  0001 C CNN "Distributor1_URL"
+F 9 "863-NSR0530HT1G " H 3100 5600 50  0001 C CNN "Distributor1_PN"
+F 10 "621-BAT54WSQ-7-F " H 3100 5600 50  0001 C CNN "Distributor1_PN2"
 	1    3100 5600
 	-1   0    0    1   
 $EndComp
