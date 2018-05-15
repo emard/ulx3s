@@ -516,7 +516,7 @@ F 3 "" H 6950 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ulx3s-rescue:PCF8563 U7
+L Timer_RTC:PCF8563T U7
 U 1 1 58D70684
 P 1950 3650
 AR Path="/58D70684" Ref="U7"  Part="1" 
@@ -558,7 +558,7 @@ F 1 "CR1225" V 2550 3850 50  0000 L CNN
 F 2 "Keystone_3000_1x12mm-CoinCell:Keystone_3000_1x12mm-CoinCell" V 2650 4160 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=777" H 2650 4160 50  0001 C CNN
 F 4 "www.keyelco.com" H 2650 4100 60  0001 C CNN "MFG_URL"
-F 5 "3000" H 2650 4100 60  0001 C CNN "MFG_PN"
+F 5 "3000TR" H 2650 4100 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 2650 4100 60  0001 C CNN "Distributor1_URL"
 F 7 "534-3000TR" H 2650 4100 60  0001 C CNN "Distributor1_PN"
 	1    2650 4100
@@ -893,7 +893,11 @@ P 2900 3950
 F 0 "D16" H 2900 4050 50  0000 C CNN
 F 1 "1N4148" H 2900 3850 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2900 3950 50  0001 C CNN
-F 3 "" H 2900 3950 50  0000 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/1N/1N4148WS.pdf" H 2900 3950 50  0001 C CNN
+F 4 "www.fairchildsemi.com" H 2900 3950 50  0001 C CNN "MFG_URL"
+F 5 "1N4148WS " H 2900 3950 50  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 2900 3950 50  0001 C CNN "Distributor1_URL"
+F 7 "512-1N4148WS" H 2900 3950 50  0001 C CNN "Distributor1_PN"
 	1    2900 3950
 	0    -1   -1   0   
 $EndComp
@@ -2925,7 +2929,8 @@ F 0 "C54" H 2150 4050 50  0000 L CNN
 F 1 "22uF" H 2200 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2438 3900 50  0001 C CNN
 F 3 "" H 2400 4050 50  0000 C CNN
-F 4 "CC0805ZKY5V5BB226 " H 2400 4050 50  0001 C CNN "MFG_PN"
+F 4 "www.yageo.com" H 2400 4050 50  0001 C CNN "MFG_URL"
+F 5 "CC0805ZKY5V5BB226 " H 2400 4050 50  0001 C CNN "MFG_PN"
 	1    2400 4050
 	1    0    0    -1  
 $EndComp
