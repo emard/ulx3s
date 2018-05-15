@@ -1,4 +1,4 @@
-### Module positions - created on Thu May 10 13:21:13 2018 ###
+### Module positions - created on Tue May 15 09:22:56 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2-dev-unknown+dfsg1+20180318-2
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -108,7 +108,7 @@ R34       15k                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder     8.
 R35       470                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder     8.8900    10.1600  180.0000  bottom
 R38       0.47                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder     9.3980    13.4620   90.0000  bottom
 R39       150                 R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    69.2150    15.8750  180.0000  bottom
-R40       1.5k                R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    73.4060    46.4820    0.0000  bottom
+R40       1.5k                R_0603_1608Metric                              73.4060    46.4820    0.0000  bottom
 R49       27                  R_0603_1608Metric                              19.1770    38.7350   90.0000  bottom
 R50       27                  R_0603_1608Metric                              17.2720    38.7350   90.0000  bottom
 R51       150                 R_0603_1608Metric                              62.2300    39.3700  180.0000  bottom
