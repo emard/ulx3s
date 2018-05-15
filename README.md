@@ -204,3 +204,5 @@ Test the prototype.
     [x] RTC battery capacitor
     [x] battery + pad clearance
     [x] PCB v1.8.1 redesigned to fit HDMI 649-10029449-111RLF (the cheapest)
+    [ ] user cheaper diodes 583-MM4148-T in SOD-80C package
+
