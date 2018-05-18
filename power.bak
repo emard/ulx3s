@@ -738,7 +738,7 @@ F 6 "www.diodes.com" H 3800 4950 50  0001 C CNN "MFG1_URL"
 F 7 "BAT54WSQ-7-F " H 3800 4950 50  0001 C CNN "MFG1_PN"
 F 8 "www.mouser.com" H 3800 4950 50  0001 C CNN "Distributor1_URL"
 F 9 "863-NSR0530HT1G " H 3800 4950 50  0001 C CNN "Distributor1_PN"
-F 10 "621-BAT54WSQ-7-F " H 3800 4950 50  0001 C CNN "Distributor1_PN1"
+F 10 "621-BAT54WSQ-7-F " H 3800 4950 50  0001 C CNN "Distributor1_PN2"
 	1    3800 4950
 	-1   0    0    1   
 $EndComp
