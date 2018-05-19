@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 480)
+    (drawings 483)
     (tracks 4830)
     (zones 0)
     (modules 206)
@@ -10037,6 +10037,15 @@
     )
   )
 
+  (gr_text 20 (at 182.126 90.648) (layer B.SilkS) (tstamp 5B0066BE)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
+  (gr_text 19 (at 182.126 93.188) (layer B.SilkS) (tstamp 5B0066BC)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
+  (gr_text 18 (at 182.126 95.728) (layer B.SilkS) (tstamp 5B0066BA)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
   (gr_line (start 104.148 100.808) (end 103.513 100.3) (layer B.SilkS) (width 0.2))
   (gr_line (start 169.426 71.471) (end 165.997 71.471) (layer B.SilkS) (width 0.2))
   (gr_text FLASH (at 124.468 87.092) (layer B.SilkS) (tstamp 5AFEEC89)
