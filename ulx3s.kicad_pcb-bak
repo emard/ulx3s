@@ -7794,7 +7794,7 @@
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /58D6BF46/59DFFFBE)
-    (attr smd)
+    (attr virtual)
     (fp_text reference R56 (at 5.273 0.015 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
