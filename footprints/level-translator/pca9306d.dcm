@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9306D
+D 2-Bit Bidirectional Voltage-Level Translator in SOIC-8 Package
+K Level-Shifter CMOS-TTL-Translation
+F https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
+$ENDCMP
+#
+#End Doc Library
