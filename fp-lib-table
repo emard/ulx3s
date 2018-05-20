@@ -26,4 +26,5 @@
   (lib (name SOA008-150mil)(type KiCad)(uri "$(KIPRJMOD)/footprints/flash/SOA008-150mil.pretty")(options "")(descr ""))
   (lib (name hrvatski_proizvod_veci)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/hrvatski_proizvod_veci.pretty")(options "")(descr ""))
   (lib (name conn-fci)(type KiCad)(uri "$(KIPRJMOD)/footprints/hdmi-d/conn-fci.pretty")(options "")(descr ""))
+  (lib (name L_1008_1210)(type KiCad)(uri "$(KIPRJMOD)/footprints/inductor/L_1008_1210.pretty")(options "")(descr ""))
 )

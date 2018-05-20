@@ -893,4 +893,6 @@ F 10 "621-BAT54WSQ-7-F" H 1950 5450 50  0001 C CNN "Distributor1_PN1"
 	1    1950 5450
 	-1   0    0    1   
 $EndComp
+Text Label 1850 2650 0    60   ~ 0
+US2VBUS
 $EndSCHEMATC
