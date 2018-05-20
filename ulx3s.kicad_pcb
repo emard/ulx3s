@@ -6278,6 +6278,7 @@
   (module conn-fci:CONN-10029449-111RLF (layer F.Cu) (tedit 587FBB74) (tstamp 5AFABAC2)
     (at 145.296 69.312 180)
     (path /58D686D9/58D69067)
+    (attr smd)
     (fp_text reference GPDI1 (at 0 -3.1115 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
