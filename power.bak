@@ -3103,4 +3103,6 @@ F 10 "621-BAT54WSQ-7-F " H 3100 5600 50  0001 C CNN "Distributor1_PN2"
 	1    3100 5600
 	-1   0    0    1   
 $EndComp
+Text Label 4100 5400 0    60   ~ 0
+SHD
 $EndSCHEMATC
