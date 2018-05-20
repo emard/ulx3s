@@ -20,7 +20,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 19,"Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x20_Odd_Even,J1 J2,CONN_02X20,Socket_Strip_Angled_2x20,2,,,,,,,,,,,,,,,Do not install,
 20,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J5,VJ1,PinHeader_1x03_P2.54mm_Vertical,1,,,,,www.mouser.com,,,,,,,,,,Do not install,
 21,"Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x01,J3,WIFI_OFF,PinHeader_1x02_P2.54mm_Vertical,1,,,,,,,,,,,,,,,Do not install,
-22,Inductor,L,L1 L2 L3,2.2uH,L_Taiyo-Yuden_NR-24xx_HandSoldering,3,http://psearch.en.murata.com/inductor/product/DFE252012PD-2R2M%23.pdf,www.murata.com,652-SRP2512A-2R2M,DFE252012P-2R2M=P2,www.mouser.com,,,,,,,,,,,
+22,Inductor,L,L1 L2 L3,2.2uH,L_1008_1210,3,http://psearch.en.murata.com/inductor/product/DFE252012PD-2R2M%23.pdf,www.murata.com,652-SRP2512A-2R2M,DFE252012P-2R2M=P2,www.mouser.com,,,,,,,,,,,
 23,"Connector, single row, 01x07",SSD_13xx,OLED1,SSD_1331,oled_13xx,1,https://drive.google.com/file/d/0B5lkVYnewKTGRlpxcEdWaXNvWnM/view,www.displaymodule.com,,DM-OLEDC095-626,www.mouser.com,,,,,,,,,,Do not install,
 24,Transistor N-MOSFETwith substrate diode (general),Q_NMOS_GSD,Q2,2N7002,SOT-23_Handsoldering,1,https://assets.nexperia.com/documents/data_sheet/2N7002.pdf,www.nexperia.com,771-2N7002P-215,"2N7002P,215",www.mouser.com,,,,,,,,,,,
 25,Transistor PNP (general),Q_PNP_BEC,Q1,BC857,SOT-23_Handsoldering,1,https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf,,771-BC857B-T/R,BC857,www.mouser.com,,,,,,,,,,,
@@ -69,8 +69,8 @@ Component Count:,196
 Fitted Components:,196
 Number of PCBs:,1
 Total components:,196
-Schematic Version:,1.8.3
+Schematic Version:,1.8.4
 Schematic Date:,
-BoM Date:,"nedjelja, 20. svibnja 2018. 10:51:55 CEST"
+BoM Date:,"nedjelja, 20. svibnja 2018. 21:39:32 CEST"
 Schematic Source:,/home/davor/src/circuits/fpga/ulx3s/ulx3s.sch
 KiCad Version:,Eeschema 5.0.0-rc2-dev-unknown+dfsg1+20180318-2
