@@ -11,10 +11,10 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (1 In1.Cu signal hide)
+    (0 F.Cu signal)
+    (1 In1.Cu signal)
     (2 In2.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -10028,7 +10028,7 @@
   (gr_text +- (at 104.26 100.79) (layer F.SilkS) (tstamp 5A8F5288)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text v1.8.3 (at 171.062 69.548) (layer F.SilkS)
+  (gr_text v1.8.4 (at 171.062 69.548) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 135.39 80.869) (end 137.422 82.393) (layer B.SilkS) (width 0.2))
