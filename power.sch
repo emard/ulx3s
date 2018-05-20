@@ -1723,7 +1723,8 @@ F 1 "0" H 10700 3050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 10700 3100 50  0001 C CNN
 F 3 "" H 10700 3100 50  0001 C CNN
 F 4 "www.mouser.com" H 10700 3100 60  0001 C CNN "Distributor1_URL"
-F 5 "RC0603JR-070RL" H 10700 3100 50  0001 C CNN "MFG_PN"
+F 5 "www.yageo.com" H 10700 3100 50  0001 C CNN "MFG_URL"
+F 6 "RC0603JR-070RL" H 10700 3100 50  0001 C CNN "MFG_PN"
 	1    10700 3100
 	1    0    0    -1  
 $EndComp
@@ -1736,7 +1737,8 @@ F 1 "0" H 10700 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 10700 4300 50  0001 C CNN
 F 3 "" H 10700 4300 50  0001 C CNN
 F 4 "www.mouser.com" H 10700 4300 60  0001 C CNN "Distributor1_URL"
-F 5 "RC0603JR-070RL" H 10700 4300 50  0001 C CNN "MFG_PN"
+F 5 "www.yageo.com" H 10700 4300 50  0001 C CNN "MFG_URL"
+F 6 "RC0603JR-070RL" H 10700 4300 50  0001 C CNN "MFG_PN"
 	1    10700 4300
 	1    0    0    -1  
 $EndComp
@@ -1749,7 +1751,8 @@ F 1 "0" H 10700 5450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 10700 5500 50  0001 C CNN
 F 3 "" H 10700 5500 50  0001 C CNN
 F 4 "www.mouser.com" H 10700 5500 60  0001 C CNN "Distributor1_URL"
-F 5 "RC0603JR-070RL" H 10700 5500 50  0001 C CNN "MFG_PN"
+F 5 "www.yageo.com" H 10700 5500 50  0001 C CNN "MFG_URL"
+F 6 "RC0603JR-070RL" H 10700 5500 50  0001 C CNN "MFG_PN"
 	1    10700 5500
 	1    0    0    -1  
 $EndComp
@@ -2981,8 +2984,9 @@ F 1 "0" H 1300 750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 1300 800 50  0001 C CNN
 F 3 "" H 1300 800 50  0001 C CNN
 F 4 "www.mouser.com" H 1300 800 60  0001 C CNN "Distributor1_URL"
-F 5 "Do not install" H 1300 800 50  0001 C CNN "Note"
+F 5 "www.yageo.com" H 1300 800 50  0001 C CNN "MFG_URL"
 F 6 "RC0603JR-070RL" H 1300 800 50  0001 C CNN "MFG_PN"
+F 7 "Do not install" H 1300 800 50  0001 C CNN "Note"
 	1    1300 800 
 	0    1    1    0   
 $EndComp
@@ -2995,8 +2999,9 @@ F 1 "0" H 1300 1250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 1300 1300 50  0001 C CNN
 F 3 "" H 1300 1300 50  0001 C CNN
 F 4 "www.mouser.com" H 1300 1300 60  0001 C CNN "Distributor1_URL"
-F 5 "Do not install" H 1300 1300 50  0001 C CNN "Note"
+F 5 "www.yageo.com" H 1300 1300 50  0001 C CNN "MFG_URL"
 F 6 "RC0603JR-070RL" H 1300 1300 50  0001 C CNN "MFG_PN"
+F 7 "Do not install" H 1300 1300 50  0001 C CNN "Note"
 	1    1300 1300
 	0    1    1    0   
 $EndComp
