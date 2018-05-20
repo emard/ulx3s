@@ -7842,11 +7842,6 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.875 0 90) (size 0.67 1) (layers B.Cu B.Paste B.Mask)
       (net 165 FTDI_TXDEN))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer B.Cu) (tedit 59FE48B8) (tstamp 5B147293)
@@ -8166,11 +8161,6 @@
       (net 13 +2V5))
     (pad 2 smd rect (at 0.9625 0) (size 0.845 1) (layers F.Cu F.Paste F.Mask)
       (net 266 2V5_3V3))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder (layer F.Cu) (tedit 59FE48B8) (tstamp 5AF421F4)
@@ -8202,11 +8192,6 @@
       (net 5 +3V3))
     (pad 1 smd rect (at -0.9625 0) (size 0.845 1) (layers F.Cu F.Paste F.Mask)
       (net 266 2V5_3V3))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5B0AEE07)
