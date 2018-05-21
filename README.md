@@ -206,5 +206,5 @@ Test the prototype.
     [x] PCB v1.8.1 redesigned to fit HDMI 649-10029449-111RLF (the cheapest)
     [ ] use cheaper diodes 583-MM4148-T in SOD-80C package
     [x] fix copper layer after using non-handsoldering resistor footprints
-    [ ] SW1 must be pulled up at 2.5/3.3V line not fixed 3.3V
+    [x] DIP switch must be pulled up at 2.5/3.3V or 2.5V line, not 3.3V
 
