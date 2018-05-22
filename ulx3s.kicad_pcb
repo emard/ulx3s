@@ -10030,7 +10030,7 @@
   (gr_text +- (at 104.26 100.79) (layer F.SilkS) (tstamp 5A8F5288)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text v1.8.4 (at 171.062 69.548) (layer F.SilkS)
+  (gr_text v1.8.5 (at 171.062 69.548) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 135.39 80.869) (end 137.422 82.393) (layer B.SilkS) (width 0.2))
