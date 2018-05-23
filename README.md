@@ -207,4 +207,5 @@ Test the prototype.
     [ ] use cheaper diodes 583-MM4148-T in SOD-80C package
     [x] fix copper layer after using non-handsoldering resistor footprints
     [x] DIP switch must be pulled up at 2.5/3.3V or 2.5V line, not 3.3V
+    [x] RTC time loss at power down fixed with 1k+22uF - see page 54 of datasheet
 
