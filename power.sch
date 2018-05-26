@@ -531,10 +531,11 @@ F 0 "U7" H 1650 4000 50  0000 L CNN
 F 1 "PCF8523" H 2050 4000 50  0000 L CNN
 F 2 "SOT96-1:SOT96-1" H 1950 3650 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf" H 1950 3650 50  0001 C CNN
-F 4 " PCF8523T/1,118 " H 1950 3650 60  0001 C CNN "MFG_PN"
-F 5 "www.mouser.com" H 1950 3650 60  0001 C CNN "Distributor1_URL"
-F 6 "771-PCF8523T/1118" H 1950 3650 60  0001 C CNN "Distributor1_PN"
-F 7 "https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf" H 1950 3650 60  0001 C CNN "MFG_TR_DS"
+F 4 "www.nxp.com" H 1950 3650 50  0001 C CNN "MFG_URL"
+F 5 " PCF8523T/1,118 " H 1950 3650 60  0001 C CNN "MFG_PN"
+F 6 "https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf" H 1950 3650 60  0001 C CNN "MFG_TR_DS"
+F 7 "www.mouser.com" H 1950 3650 60  0001 C CNN "Distributor1_URL"
+F 8 "771-PCF8523T/1118" H 1950 3650 60  0001 C CNN "Distributor1_PN"
 	1    1950 3650
 	1    0    0    -1  
 $EndComp

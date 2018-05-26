@@ -612,6 +612,10 @@ F 0 "U11" H 5300 5100 50  0000 C CNN
 F 1 "PCA9306D" H 5800 5100 50  0000 C CNN
 F 2 "SM8:SM8" H 6500 4950 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf" H 5550 5520 50  0001 C CNN
+F 4 "www.nxp.com" H 5550 5550 50  0001 C CNN "MFG_URL"
+F 5 "PCA9306D" H 5550 5550 50  0001 C CNN "MFG_PN"
+F 6 "www.mouser.com" H 5550 5550 50  0001 C CNN "Distributor1_URL"
+F 7 "771-PCA9306D-T" H 5550 5550 50  0001 C CNN "Distributor1_PN"
 	1    5550 5550
 	1    0    0    -1  
 $EndComp

@@ -77,6 +77,7 @@ F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 1450 1800 50  0
 F 4 "www.fciconnect.com" H 1500 1900 60  0001 C CNN "MFG_URL"
 F 5 "10118192-0001LF" H 1500 1900 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 1500 1900 60  0001 C CNN "Distributor1_URL"
+F 7 "649-10118192-0001LF " H 1500 1900 50  0001 C CNN "Distributor1_PN"
 	1    1500 1900
 	0    -1   1    0   
 $EndComp
@@ -93,6 +94,7 @@ F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 1450 2750 50  0
 F 4 "www.fciconnect.com" H 1500 2850 60  0001 C CNN "MFG_URL"
 F 5 "10118192-0001LF" H 1500 2850 60  0001 C CNN "MFG_PN"
 F 6 "www.mouser.com" H 1500 2850 60  0001 C CNN "Distributor1_URL"
+F 7 "649-10118192-0001LF " H 1500 2850 50  0001 C CNN "Distributor1_PN"
 	1    1500 2850
 	0    -1   1    0   
 $EndComp
