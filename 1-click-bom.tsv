@@ -2,12 +2,12 @@ References	Qty	Datasheet2	Distributor1_PN1	Distributor1_PN2	Distributor2_PN	Dist
 AE1	1																	Do not install
 AUDIO1	1													www.cui.com	SJ-43516-SMT-TR	490-SJ-43516-SMT-TR 	www.mouser.com	
 BAT1	1													www.keyelco.com	3000TR	534-3000TR	www.mouser.com	
-BTN0, BTN1, BTN2, BTN3, BTN4, BTN5, BTN6	7													www.ckswitches.com	PTS645SL50SMTR92 LFS		www.mouser.com	
-C1, C3, C4, C5, C7, C8, C9, C11, C12, C15, C21, C54, C55	13													www.yageo.com	CC0805ZKY5V5BB226 			
-C2, C6, C10, C18	4													www.yageo.com	CS0603KRX7R9BB471			
-C13, C16, C17, C19, C20, C22, C23, C24, C46, C47	10													www.yageo.com	CC0805MRX5R6BB225			
-C14, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45	11													www.yageo.com	CC0603KRX7R8BB104			
-C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C48, C49, C50, C51, C52, C53	17													www.yageo.com	CX0603MRX7R8BB223			
+BTN0, BTN1, BTN2, BTN3, BTN4, BTN5, BTN6	7													www.ckswitches.com	PTS645SL50SMTR92 LFS	611-PTS645SL50SMTR92	www.mouser.com	
+C1, C3, C4, C5, C7, C8, C9, C11, C12, C15, C21, C54, C55	13													www.yageo.com	CC0805ZKY5V5BB226 	603-CC805ZKY5V5BB226		
+C2, C6, C10, C18	4													www.yageo.com	CS0603KRX7R9BB471	603-CS0603KRX79BB471		
+C13, C16, C17, C19, C20, C22, C23, C24, C46, C47	10													www.yageo.com	CC0805MRX5R6BB225	603-CC805MRX5R6BB225		
+C14, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45	11													www.yageo.com	CC0603KRX7R8BB104	603-CC603KRX7R8BB104		
+C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C48, C49, C50, C51, C52, C53	17													www.yageo.com	CX0603MRX7R8BB223	603-CX603MRX7R8BB223		
 D0, D4, D11, D19	4													www.liteon.com	LTST-C170KRKT	859-LTST-C170KRKT	www.mouser.com	
 D1, D5	2													www.liteon.com	LTST-C170KFKT	859-LTST-C170KFKT	www.mouser.com	
 D2, D6, D18	3													www.lite-on.com	LTST-C170KGKT	859-LTST-C170KGKT 	www.mouser.com	
@@ -26,26 +26,26 @@ L1, L2, L3	3													www.murata.com	DFE252012P-2R2M=P2	652-SRP2512A-2R2M	www
 OLED1	1													www.displaymodule.com	DM-OLEDC095-626		www.mouser.com	Do not install
 Q1	1														BC857	771-BC857B-T/R	www.mouser.com	
 Q2	1													www.nexperia.com	2N7002P,215	771-2N7002P-215	www.mouser.com	
-R1, R9, R13, R34, R55, R63, R64, RA1, RA2, RA3	10													www.yageo.com	AC0603FR-1015KL			
-R2	1													www.yageo.com	AC0603FR-0747KL			
-R3, R4, R25, R26, R30, RB2	6													www.yageo.com	AC0603FR-104K7L			
-R5	1													www.bourns.com	CR0603-JW-475ELF			
-R6, R8, R29, R36, R37, R41, R42, R43, R44, R45, R46, R47, R48, R62, R65	15													www.yageo.com	RC0603FR-071KL			
-R7, R10, R17, R21, R39, R51, R60	7													www.yageo.com	AC0603FR-07150RL			
-R11, R12, R27, R28, R31, R32, R33	7													www.yageo.com	AC0603FR-0710KL			
-R14, R18, R57	3													www.yageo.com	RC0603FR-101K2L			
-R15, R19, R58	3													www.yageo.com	RC0603FR-10680RL			
-R16, R20, R59	3													www.yageo.com	RC0603JR-07330RP			
-R22, R23	2													www.yageo.com	RC0603FR-072K2L			
-R24	1													www.yageo.com	AC0603FR-10100KL			
-R35, R61	2													www.yageo.com	RC0603FR-07470RL			
-R38	1													www.ctscorp.com	73L2R47J			
-R40, R54	2													www.yageo.com	RC0603FR-071K5L			
-R49, R50, R52, R53	4													www.yageo.com	AC0603JR-0727RL			
+R1, R9, R13, R34, R55, R63, R64, RA1, RA2, RA3	10													www.yageo.com	AC0603FR-1015KL	603-AC0603FR-1015KL		
+R2	1													www.yageo.com	AC0603FR-0747KL	603-AC0603FR-0747KL		
+R3, R4, R25, R26, R30, RB2	6													www.yageo.com	AC0603FR-104K7L	603-AC0603FR-104K7L		
+R5	1													www.bourns.com	CR0603-JW-475ELF	652-CR0603JW-475ELF		
+R6, R8, R29, R36, R37, R41, R42, R43, R44, R45, R46, R47, R48, R62, R65	15													www.yageo.com	RC0603FR-071KL	603-RC0603FR-071KL		
+R7, R10, R17, R21, R39, R51, R60	7													www.yageo.com	AC0603FR-07150RL	603-AC0603FR-07150RL		
+R11, R12, R27, R28, R31, R32, R33	7													www.yageo.com	AC0603FR-0710KL	603-AC0603FR-0710KL		
+R14, R18, R57	3													www.yageo.com	RC0603FR-101K2L	603-RC0603FR-101K2L		
+R15, R19, R58	3													www.yageo.com	RC0603FR-10680RL	603-RC0603FR-10680RL		
+R16, R20, R59	3													www.yageo.com	RC0603JR-07330RP	603-RC0603JR-07330RP		
+R22, R23	2													www.yageo.com	RC0603FR-072K2L	603-RC0603FR-072K2L		
+R24	1													www.yageo.com	AC0603FR-10100KL	603-AC0603FR-10100KL		
+R35, R61	2													www.yageo.com	RC0603FR-07470RL	603-RC0603FR-07470RL		
+R38	1													www.ctscorp.com	73L2R47J	774-73L2R47J		
+R40, R54	2													www.yageo.com	RC0603FR-071K5L	603-RC0603FR-131K5L		
+R49, R50, R52, R53	4													www.yageo.com	AC0603JR-0727RL	603-AC0603JR-0727RL		
 R56	1						RC0603JR-070RL							www.yageo.com				Do not install
-RB1	1													www.yageo.com	RC0603FR-1018KL			
-RB3	1													www.yageo.com	RT0603FRE073K3L			
-RP1, RP2, RP3	3													www.yageo.com	RC0603JR-070RL		www.mouser.com	
+RB1	1													www.yageo.com	RC0603FR-1018KL	603-RC0603FR-1018KL		
+RB3	1													www.yageo.com	RT0603FRE073K3L	603-RT0603FRE073K3L		
+RP1, RP2, RP3	3													www.yageo.com	RC0603JR-070RL	603-RC0603JR-070RL	www.mouser.com	
 RV2, RV3	2						RC0603JR-070RL					RC0603JR-070RL		www.yageo.com			www.mouser.com	Do not install
 SD1	1				688-SCHD3A0100	www.mouser.com								www.alps.com	SCHD3A0100	SCHD3A0100	www.on-stars.com	
 SW1	1													www.jameco.com	219-4MST	774-2194MST 	www.mouser.com	
