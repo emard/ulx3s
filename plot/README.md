@@ -15,6 +15,7 @@ page, select:
     Min Solder Mask: 0.1 mm
     Min Hole size: 0.2 mm
     Min Tracking/Spacing: 5/5 mils
+    Quality: IPC Class 3
 
 click "Add your gerber file" and upload this zip file then
 click on "Gerber Viewer" to see what will be produced.
