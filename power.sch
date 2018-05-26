@@ -2985,7 +2985,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 1300 800 50  00
 F 3 "" H 1300 800 50  0001 C CNN
 F 4 "www.mouser.com" H 1300 800 60  0001 C CNN "Mouser_URL"
 F 5 "www.yageo.com" H 1300 800 50  0001 C CNN "MFG_URL"
-F 6 "RC0603JR-070RL" H 1300 800 50  0001 C CNN "MPN"
+F 6 "RC0603JR-070RL" H 1300 800 50  0001 C CNN "MFG_PN"
 F 7 "Do not install" H 1300 800 50  0001 C CNN "Note"
 	1    1300 800 
 	0    1    1    0   
@@ -3000,7 +3000,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 1300 1300 50  0
 F 3 "" H 1300 1300 50  0001 C CNN
 F 4 "www.mouser.com" H 1300 1300 60  0001 C CNN "Mouser_URL"
 F 5 "www.yageo.com" H 1300 1300 50  0001 C CNN "MFG_URL"
-F 6 "RC0603JR-070RL" H 1300 1300 50  0001 C CNN "MPN"
+F 6 "RC0603JR-070RL" H 1300 1300 50  0001 C CNN "MFG_PN"
 F 7 "Do not install" H 1300 1300 50  0001 C CNN "Note"
 	1    1300 1300
 	0    1    1    0   
