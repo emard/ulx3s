@@ -16,8 +16,7 @@ for education, research and general purpose, with a full
 featured selection of chips which I all wanted on
 a low-cost PCB, but haven't found on the market.
 It's open source and open hardware because if it is
-good for our development on
-[f32c](http://github.com/f32c/f32c) SOC,
+good for our development of [f32c](http://github.com/f32c/f32c) SOC,
 it should be also good to other projects.
 
 ULX3S will carry all digital logic on our research, education and 
