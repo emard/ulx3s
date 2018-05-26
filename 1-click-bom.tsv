@@ -1,63 +1,63 @@
-References	Qty	Datasheet2	Distributor1_PN1	Distributor1_PN2	Distributor2_PN	Distributor2_URL	MFG1_PN	MFG1_URL	MFG2_PN	MFG2_URL	MFG_PN	MFG_TR_DS	MFG_URL	MPN	Mouser	Mouser_URL	Note
-AE1	1																Do not install
-AUDIO1	1												www.cui.com	SJ-43516-SMT-TR	490-SJ-43516-SMT-TR 	www.mouser.com	
-BAT1	1												www.keyelco.com	3000TR	534-3000TR	www.mouser.com	
-BTN0, BTN1, BTN2, BTN3, BTN4, BTN5, BTN6	7												www.ckswitches.com	PTS645SL50SMTR92 LFS		www.mouser.com	
-C1, C3, C4, C5, C7, C8, C9, C11, C12, C15, C21, C54, C55	13												www.yageo.com	CC0805ZKY5V5BB226 			
-C2, C6, C10, C18	4												www.yageo.com	CS0603KRX7R9BB471			
-C13, C16, C17, C19, C20, C22, C23, C24, C46, C47	10												www.yageo.com	CC0805MRX5R6BB225			
-C14, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45	11												www.yageo.com	CC0603KRX7R8BB104			
-C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C48, C49, C50, C51, C52, C53	17												www.yageo.com	CX0603MRX7R8BB223			
-D0, D4, D11, D19	4												www.liteon.com	LTST-C170KRKT	859-LTST-C170KRKT	www.mouser.com	
-D1, D5	2												www.liteon.com	LTST-C170KFKT	859-LTST-C170KFKT	www.mouser.com	
-D2, D6, D18	3												www.lite-on.com	LTST-C170KGKT	859-LTST-C170KGKT 	www.mouser.com	
-D3, D7, D22	3												www.liteon.com	LTST-C170TBKT	859-LTST-C170TBKT	www.mouser.com	
-D8, D9, D51, D52	4													STPS2L30AF	511-STPS2L30AF 	www.mouser.com	
-D10, D13, D14, D16, D17	5												www.fairchildsemi.com	1N4148WS	512-1N4148WS	www.mouser.com	
-D12, D15, D23, D24, D25, D26	6		621-BAT54WSQ-7-F	621-BAT54WSQ-7-F 			BAT54WSQ-7-F 	www.diodes.com	BAT54WSQ-7-F 	www.diodes.com			www.onsemi.com	NSR0530HT1G 	863-NSR0530HT1G 	www.mouser.com	
-D20, D21	2												http://www.taiwansemi.com/en	BZT52C3V6S	821-BZT52C3V6S	www.mouser.com	
-GPDI1	1	https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf			571-5-1903015-5	www.mouser.com							www.amphenol-icc.com	10029449-111RLF	649-10029449-111RLF	www.mouser.com	
-H1, H2, H3, H4	4																
-J1, J2	2																Do not install
-J3	1																Do not install
-J4	1																Do not install
-J5	1															www.mouser.com	Do not install
-L1, L2, L3	3												www.murata.com	DFE252012P-2R2M=P2	652-SRP2512A-2R2M	www.mouser.com	
-OLED1	1												www.displaymodule.com	DM-OLEDC095-626		www.mouser.com	Do not install
-Q1	1													BC857	771-BC857B-T/R	www.mouser.com	
-Q2	1												www.nexperia.com	2N7002P,215	771-2N7002P-215	www.mouser.com	
-R1, R9, R13, R34, R55, R63, R64, RA1, RA2, RA3	10												www.yageo.com	AC0603FR-1015KL			
-R2	1												www.yageo.com	AC0603FR-0747KL			
-R3, R4, R25, R26, R30, RB2	6												www.yageo.com	AC0603FR-104K7L			
-R5	1												www.bourns.com	CR0603-JW-475ELF			
-R6, R8, R29, R36, R37, R41, R42, R43, R44, R45, R46, R47, R48, R62, R65	15												www.yageo.com	RC0603FR-071KL			
-R7, R10, R17, R21, R39, R51, R60	7												www.yageo.com	AC0603FR-07150RL			
-R11, R12, R27, R28, R31, R32, R33	7												www.yageo.com	AC0603FR-0710KL			
-R14, R18, R57	3												www.yageo.com	RC0603FR-101K2L			
-R15, R19, R58	3												www.yageo.com	RC0603FR-10680RL			
-R16, R20, R59	3												www.yageo.com	RC0603JR-07330RP			
-R22, R23	2												www.yageo.com	RC0603FR-072K2L			
-R24	1												www.yageo.com	AC0603FR-10100KL			
-R35, R61	2												www.yageo.com	RC0603FR-07470RL			
-R38	1												www.ctscorp.com	73L2R47J			
-R40, R54	2												www.yageo.com	RC0603FR-071K5L			
-R49, R50, R52, R53	4												www.yageo.com	AC0603JR-0727RL			
-R56	1										RC0603JR-070RL		www.yageo.com				Do not install
-RB1	1												www.yageo.com	RC0603FR-1018KL			
-RB3	1												www.yageo.com	RT0603FRE073K3L			
-RP1, RP2, RP3	3												www.yageo.com	RC0603JR-070RL		www.mouser.com	
-RV2, RV3	2										RC0603JR-070RL		www.yageo.com			www.mouser.com	Do not install
-SD1	1				688-SCHD3A0100	www.mouser.com							www.alps.com	SCHD3A0100	SCHD3A0100	www.on-stars.com	
-SW1	1												www.jameco.com	219-4MST	774-2194MST 	www.mouser.com	
-U1	1												www.latticesemi.com	LFE5U-85F-6BG381C	842-LFE5U85F6BG381C	www.mouser.com	
-U2	1												www.micron.com	MT48LC16M16A2TG-6A	913-4816M16A2TG6AGTR	www.mouser.com	
-U3, U4, U5	3												www.ti.com	TLV62569DBVR	595-TLV62569DBVR	www.mouser.com	
-U6	1												www.ftdichip.com	FT231XS	895-FT231XS-R	www.mouser.com	
-U7	1											https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf	www.nxp.com	 PCF8523T/1,118 	771-PCF8523T/1118	www.mouser.com	
-U8	1												www.maximintegrated.com	MAX11125ATI+	700-MAX11125ATI+	www.mouser.com	
-U9	1												espressif.com	ESP-WROOM-32	356-ESP-WROOM-32 	www.mouser.com	
-U10	1												www.issi.com	IS25LP032D-JNLE-TR	870-IS25LP032DJNLETR	www.mouser.com	
-U11	1												www.nxp.com	PCA9306D	771-PCA9306D-T	www.mouser.com	
-US1, US2	2												www.fciconnect.com	10118192-0001LF	649-10118192-0001LF 	www.mouser.com	
-Y1	1												www.diodes.com	FNETHE025	729-FNETHE025	www.mouser.com	
-Y2	1												www.iqdfrequencyproducts.com	LFXTAL003000Reel	815-ABS25-32.768KHZT	www.mouser.com	
+References	Qty	Datasheet2	Distributor1_PN1	Distributor1_PN2	Distributor2_PN	Distributor2_URL	EMPTY_PN	MFG1_PN	MFG1_URL	MFG2_PN	MFG2_URL	MFG_PN	MFG_TR_DS	MFG_URL	MPN	Mouser	Mouser_URL	Note
+AE1	1																	Do not install
+AUDIO1	1													www.cui.com	SJ-43516-SMT-TR	490-SJ-43516-SMT-TR 	www.mouser.com	
+BAT1	1													www.keyelco.com	3000TR	534-3000TR	www.mouser.com	
+BTN0, BTN1, BTN2, BTN3, BTN4, BTN5, BTN6	7													www.ckswitches.com	PTS645SL50SMTR92 LFS		www.mouser.com	
+C1, C3, C4, C5, C7, C8, C9, C11, C12, C15, C21, C54, C55	13													www.yageo.com	CC0805ZKY5V5BB226 			
+C2, C6, C10, C18	4													www.yageo.com	CS0603KRX7R9BB471			
+C13, C16, C17, C19, C20, C22, C23, C24, C46, C47	10													www.yageo.com	CC0805MRX5R6BB225			
+C14, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45	11													www.yageo.com	CC0603KRX7R8BB104			
+C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C48, C49, C50, C51, C52, C53	17													www.yageo.com	CX0603MRX7R8BB223			
+D0, D4, D11, D19	4													www.liteon.com	LTST-C170KRKT	859-LTST-C170KRKT	www.mouser.com	
+D1, D5	2													www.liteon.com	LTST-C170KFKT	859-LTST-C170KFKT	www.mouser.com	
+D2, D6, D18	3													www.lite-on.com	LTST-C170KGKT	859-LTST-C170KGKT 	www.mouser.com	
+D3, D7, D22	3													www.liteon.com	LTST-C170TBKT	859-LTST-C170TBKT	www.mouser.com	
+D8, D9, D51, D52	4														STPS2L30AF	511-STPS2L30AF 	www.mouser.com	
+D10, D13, D14, D16, D17	5													www.fairchildsemi.com	1N4148WS	512-1N4148WS	www.mouser.com	
+D12, D15, D23, D24, D25, D26	6		621-BAT54WSQ-7-F	621-BAT54WSQ-7-F 				BAT54WSQ-7-F 	www.diodes.com	BAT54WSQ-7-F 	www.diodes.com			www.onsemi.com	NSR0530HT1G 	863-NSR0530HT1G 	www.mouser.com	
+D20, D21	2													http://www.taiwansemi.com/en	BZT52C3V6S	821-BZT52C3V6S	www.mouser.com	
+GPDI1	1	https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf			571-5-1903015-5	www.mouser.com								www.amphenol-icc.com	10029449-111RLF	649-10029449-111RLF	www.mouser.com	
+H1, H2, H3, H4	4																	
+J1, J2	2																	Do not install
+J3	1																	Do not install
+J4	1																	Do not install
+J5	1																www.mouser.com	Do not install
+L1, L2, L3	3													www.murata.com	DFE252012P-2R2M=P2	652-SRP2512A-2R2M	www.mouser.com	
+OLED1	1													www.displaymodule.com	DM-OLEDC095-626		www.mouser.com	Do not install
+Q1	1														BC857	771-BC857B-T/R	www.mouser.com	
+Q2	1													www.nexperia.com	2N7002P,215	771-2N7002P-215	www.mouser.com	
+R1, R9, R13, R34, R55, R63, R64, RA1, RA2, RA3	10													www.yageo.com	AC0603FR-1015KL			
+R2	1													www.yageo.com	AC0603FR-0747KL			
+R3, R4, R25, R26, R30, RB2	6													www.yageo.com	AC0603FR-104K7L			
+R5	1													www.bourns.com	CR0603-JW-475ELF			
+R6, R8, R29, R36, R37, R41, R42, R43, R44, R45, R46, R47, R48, R62, R65	15													www.yageo.com	RC0603FR-071KL			
+R7, R10, R17, R21, R39, R51, R60	7													www.yageo.com	AC0603FR-07150RL			
+R11, R12, R27, R28, R31, R32, R33	7													www.yageo.com	AC0603FR-0710KL			
+R14, R18, R57	3													www.yageo.com	RC0603FR-101K2L			
+R15, R19, R58	3													www.yageo.com	RC0603FR-10680RL			
+R16, R20, R59	3													www.yageo.com	RC0603JR-07330RP			
+R22, R23	2													www.yageo.com	RC0603FR-072K2L			
+R24	1													www.yageo.com	AC0603FR-10100KL			
+R35, R61	2													www.yageo.com	RC0603FR-07470RL			
+R38	1													www.ctscorp.com	73L2R47J			
+R40, R54	2													www.yageo.com	RC0603FR-071K5L			
+R49, R50, R52, R53	4													www.yageo.com	AC0603JR-0727RL			
+R56	1						RC0603JR-070RL							www.yageo.com				Do not install
+RB1	1													www.yageo.com	RC0603FR-1018KL			
+RB3	1													www.yageo.com	RT0603FRE073K3L			
+RP1, RP2, RP3	3													www.yageo.com	RC0603JR-070RL		www.mouser.com	
+RV2, RV3	2						RC0603JR-070RL					RC0603JR-070RL		www.yageo.com			www.mouser.com	Do not install
+SD1	1				688-SCHD3A0100	www.mouser.com								www.alps.com	SCHD3A0100	SCHD3A0100	www.on-stars.com	
+SW1	1													www.jameco.com	219-4MST	774-2194MST 	www.mouser.com	
+U1	1													www.latticesemi.com	LFE5U-85F-6BG381C	842-LFE5U85F6BG381C	www.mouser.com	
+U2	1													www.micron.com	MT48LC16M16A2TG-6A	913-4816M16A2TG6AGTR	www.mouser.com	
+U3, U4, U5	3													www.ti.com	TLV62569DBVR	595-TLV62569DBVR	www.mouser.com	
+U6	1													www.ftdichip.com	FT231XS	895-FT231XS-R	www.mouser.com	
+U7	1												https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf	www.nxp.com	 PCF8523T/1,118 	771-PCF8523T/1118	www.mouser.com	
+U8	1													www.maximintegrated.com	MAX11125ATI+	700-MAX11125ATI+	www.mouser.com	
+U9	1													espressif.com	ESP-WROOM-32	356-ESP-WROOM-32 	www.mouser.com	
+U10	1													www.issi.com	IS25LP032D-JNLE-TR	870-IS25LP032DJNLETR	www.mouser.com	
+U11	1													www.nxp.com	PCA9306D	771-PCA9306D-T	www.mouser.com	
+US1, US2	2													www.fciconnect.com	10118192-0001LF	649-10118192-0001LF 	www.mouser.com	
+Y1	1													www.diodes.com	FNETHE025	729-FNETHE025	www.mouser.com	
+Y2	1													www.iqdfrequencyproducts.com	LFXTAL003000Reel	815-ABS25-32.768KHZT	www.mouser.com	
