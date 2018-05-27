@@ -13,7 +13,7 @@ D1, D5	2														www.liteon.com	LTST-C170KFKT	859-LTST-C170KFKT		www.mouser
 D2, D6, D18	3														www.lite-on.com	LTST-C170KGKT	859-LTST-C170KGKT 		www.mouser.com	
 D3, D7, D22	3														www.liteon.com	LTST-C170TBKT	859-LTST-C170TBKT		www.mouser.com	
 D8, D9, D51, D52	4															STPS2L30AF	511-STPS2L30AF 		www.mouser.com	
-D10, D13, D14, D16, D17	5														www.fairchildsemi.com	1N4148WS	512-1N4148WS		www.mouser.com	
+D10, D13, D14, D16, D17	5		1N4148WSFSCT-ND												www.fairchildsemi.com	1N4148WS	512-1N4148WS		www.mouser.com	
 D12, D15, D23, D24, D25, D26	6		NSR0530HT1GOSCT-ND	621-BAT54WSQ-7-F	621-BAT54WSQ-7-F 				BAT54WSQ-7-F 	www.diodes.com	BAT54WSQ-7-F 	www.diodes.com			www.onsemi.com	NSR0530HT1G 	863-NSR0530HT1G 	621-BAT54WSQ-7-F 	www.mouser.com	
 D20, D21	2														http://www.taiwansemi.com/en	BZT52C3V6S	821-BZT52C3V6S		www.mouser.com	
 GPDI1	1	https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf				571-5-1903015-5	www.mouser.com								www.amphenol-icc.com	10029449-111RLF	649-10029449-111RLF		www.mouser.com	
