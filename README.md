@@ -137,7 +137,7 @@ before shipping.
 
 # Todo
 
-Test the prototype.
+Here is checklist what was done or should be done in the next PCB release.
 
     [x] Silkscreen Double outline for BGA chip
     [x] Silkscreen do not write over the solder pads
