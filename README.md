@@ -131,8 +131,9 @@ PCBA production are recommended:
        If anything looks suspicious, ask also for X-ray imaging.
     6. Pay for the assembly and shipping.
 
-Ask manufacturer do they have qualified person able to follow instructions 
-for [ULX3S self-test](https://github.com/emard/ulx3s-bin).
+Nobody wants quality issues, so it is good to ask if manufacturer has qualified personnel
+able to follow instructions for [ULX3S self-test](https://github.com/emard/ulx3s-bin)
+before shipping.
 
 # Todo
 
