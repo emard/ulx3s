@@ -50,8 +50,8 @@ RV2, RV3	2							RC0603JR-070RL					RC0603JR-070RL		www.yageo.com				www.mouser.
 SD1	1					688-SCHD3A0100	www.mouser.com								www.alps.com	SCHD3A0100	SCHD3A0100		www.on-stars.com	
 SW1	1														www.jameco.com	219-4MST	774-2194MST 		www.mouser.com	
 U1	1		220-2071-ND												www.latticesemi.com	LFE5U-85F-6BG381C	842-LFE5U85F6BG381C		www.mouser.com	
-U2	1														www.micron.com	MT48LC16M16A2TG-6A	913-4816M16A2TG6AGTR		www.mouser.com	
-U3, U4, U5	3														www.ti.com	TLV62569DBVR	595-TLV62569DBVR		www.mouser.com	
+U2	1		1450-1352-1-ND												www.micron.com	MT48LC16M16A2TG-6A	913-4816M16A2TG6AGTR		www.mouser.com	
+U3, U4, U5	3		296-47360-1-ND												www.ti.com	TLV62569DBVR	595-TLV62569DBVR		www.mouser.com	
 U6	1														www.ftdichip.com	FT231XS	895-FT231XS-R		www.mouser.com	
 U7	1													https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf	www.nxp.com	 PCF8523T/1,118 	771-PCF8523T/1118		www.mouser.com	
 U8	1														www.maximintegrated.com	MAX11125ATI+	700-MAX11125ATI+		www.mouser.com	
