@@ -24,12 +24,13 @@ F 2 "conn-fci:CONN-10029449-111RLF" H 8950 2950 60  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent/fci/drawing/10029449.pdf" H 8950 2950 60  0001 C CNN
 F 4 "www.amphenol-icc.com" H 8950 2950 60  0001 C CNN "MFG1_URL"
 F 5 "10029449-111RLF" H 8950 2950 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 8950 2950 60  0001 C CNN "Mouser_URL"
-F 7 "649-10029449-111RLF" H 8950 2950 60  0001 C CNN "Mouser"
-F 8 "www.mouser.com" H 8950 2950 50  0001 C CNN "Distributor2_URL"
-F 9 "571-5-1903015-5" H 8950 2950 50  0001 C CNN "Distributor2_PN"
-F 10 "https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf" H 8950 2950 50  0001 C CNN "Datasheet2"
-F 11 "609-4614-1-ND" H 8950 2950 50  0001 C CNN "Digikey"
+F 6 "www.te.com" H 8950 2950 50  0001 C CNN "MFG2_URL"
+F 7 "5-1903015-5" H 8950 2950 50  0001 C CNN "MPN2"
+F 8 "www.mouser.com" H 8950 2950 60  0001 C CNN "Mouser_URL"
+F 9 "649-10029449-111RLF" H 8950 2950 60  0001 C CNN "Mouser"
+F 10 "571-5-1903015-5" H 8950 2950 50  0001 C CNN "Mouser2"
+F 11 "https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf" H 8950 2950 50  0001 C CNN "Datasheet2"
+F 12 "609-4614-1-ND" H 8950 2950 50  0001 C CNN "Digikey"
 	1    8950 2950
 	1    0    0    -1  
 $EndComp
