@@ -109,7 +109,7 @@ F 0 "J2" H 8350 5400 50  0000 C CNN
 F 1 "CONN_02X20" H 8350 3300 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x20" H 8350 3400 50  0001 C CNN
 F 3 "" H 8350 3400 50  0000 C CNN
-F 4 "Do not install" H 8350 4350 60  0001 C CNN "Note"
+F 4 "Leave empty" H 8350 4350 60  0001 C CNN "Note"
 	1    8350 4350
 	1    0    0    -1  
 $EndComp
@@ -121,7 +121,7 @@ F 0 "J1" H 1800 5450 50  0000 C CNN
 F 1 "CONN_02X20" H 1800 3350 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x20" H 1800 3450 50  0001 C CNN
 F 3 "" H 1800 3450 50  0000 C CNN
-F 4 "Do not install" H 1800 4400 60  0001 C CNN "Note"
+F 4 "Leave empty" H 1800 4400 60  0001 C CNN "Note"
 	1    1800 4400
 	1    0    0    -1  
 $EndComp

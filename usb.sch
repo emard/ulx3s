@@ -392,7 +392,7 @@ F 0 "J4" H 9350 5200 50  0000 C CNN
 F 1 "CONN_02X03" H 9350 4800 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x03" H 9350 3800 50  0001 C CNN
 F 3 "" H 9350 3800 50  0000 C CNN
-F 4 "Do not install" H 9350 5000 60  0001 C CNN "Note"
+F 4 "Leave empty" H 9350 5000 60  0001 C CNN "Note"
 	1    9350 5000
 	1    0    0    -1  
 $EndComp
@@ -574,7 +574,7 @@ F 0 "AE1" H 10875 1425 50  0000 R CNN
 F 1 "433MHz" H 10875 1350 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10950 1350 50  0001 C CNN
 F 3 "" H 10950 1350 50  0001 C CNN
-F 4 "Do not install" H 10950 1350 60  0001 C CNN "Note"
+F 4 "Leave empty" H 10950 1350 60  0001 C CNN "Note"
 	1    10950 1350
 	0    1    1    0   
 $EndComp
@@ -613,7 +613,7 @@ F 0 "R56" V 6530 4250 50  0000 C CNN
 F 1 "0" V 6450 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 4250 50  0001 C CNN
 F 3 "" H 6450 4250 50  0000 C CNN
-F 4 "Do not install" H 6450 4250 60  0001 C CNN "Note"
+F 4 "Leave empty" H 6450 4250 60  0001 C CNN "Note"
 F 5 "www.yageo.com" V 6450 4250 50  0001 C CNN "MFG1_URL"
 F 6 "RC0603JR-070RL" V 6450 4250 50  0001 C CNN "EMPTY_PN"
 	1    6450 4250
