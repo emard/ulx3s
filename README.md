@@ -111,8 +111,9 @@ December 2017 at above of CLASS 3 quality, $126 per board.
 May 2018 at the edge of CLASS 1 quality acceptance
 (drill randomness and copper layer misaligment, hole breakout about 180°),
 $134 per board.
-[PCBWAY](http://www.pcbway.com) is cheap at boards and assembly but asks 
-$40 for FPGA 85F chip which costs $30 at [Mouser](http://www.mouser.com).
+[PCBWAY](http://www.pcbway.com) is cheap at boards and assembly but charged 
+$40 for FPGA 85F chip which costed $30 on [Mouser](http://www.mouser.com)
+at the time and location of purchase.
 
 [PCBCART](http://www.pcbcart.com) would be my next choice because they
 offer CLASS 3 quality and assembly at reasonable cost. Prices for the
