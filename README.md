@@ -49,16 +49,6 @@ run its games, but can do much more.
 
     kicad ulx3s.pro
 
-[PCB v1.7](/pic/ulx3st-real.jpg) is produced. For this board to work,
-IPC CLASS 3 quality PCB is required, 5/5 mil resolution and 0.2 mm holes.
-Important board features are tested and work like
-USB-JTAG, SDRAM, SDCARD, HDMI, FLASH, RTC, I2C, OLED, AUDIO, ADC, 433.92MHz
-US2 can be used to plug USB-PS/2 combo keyboard but US2 feature as USB 
-host/device is not tested.
-There are known issues, luckily most can be fixed by
-[Upgrading PCB v1.7](/doc/pcb-v1.7-upgrade.md).
-
-
 # Features
 
 FPGA: Lattice ECP5 LFE5U-85F-6BG381C
@@ -93,12 +83,41 @@ Clock: 25 MHz onboard, external differential clock input
 
 Low power sleep: RTC clock wakeup, power button, 32768 Hz quartz and battery
 
-
 GPDI is General Purpose Differential Interface,
 Electrically LVDS, mostly TMDS tolerant
 female receptacle more-or-less compatible
 with digital monitors/TVs
 
+# Production
+
+If you are going to order this project by yourself, it is important
+what manufacturer to choose for PCBA (PCB and Assembly) service.
+
+Choose PCBA manufacturer which can produce PCB of IPC CLASS 3 quality,
+5/5 mil trace resolution and 0.2 mm holes.
+Avoid manufacturer who claims "quality" and "satisfaction" but doesn't
+really know what will be IPC CLASS rating for this project.
+
+PCBA manufacturer prices for the parts should be approximately equal as those
+from distributors like [Mouser](www.mouser.com) or [DigiKey](www.digikey.com).
+Avoid any PCBA manufacturer who asks 3$ for the 1$ part or 40$ for the 30$ part.
+Select [Mouser](www.mouser.com) language/location icon to PCBA manufacturer
+country of origin and $-currency to check is PCBA manufacturer telling the truth
+about prices.
+
+[PCBWAY](www.pcbway.com) produced [ULX3S v1.7 45F](/pic/ulx3sb-v17.jpg) in
+December 2017 at above of CLASS 3 quality, $126 per board.
+[PCBWAY](www.pcbway.com) produced [ULX3S v1.8 85F](/pic/ulx3sb-v18.jpg) in 
+May 2018 at the edge of CLASS 1 quality acceptance
+(drill randomness and copper layer misaligment, hole breakout about 180°),
+$134 per board.
+[PCBWAY](www.pcbway.com) is cheap at boards and assembly but asks 
+$40 for FPGA 85F chip which costs $30 at [Mouser](www.mouser.com).
+
+[PCBCART](www.pcbcart.com) would be my next choice because they
+offer CLASS 3 quality and assembly at reasonable cost. Prices for the
+parts are equal as from [Mouser](www.mouser.com) so total price per
+board should be about the same as above.
 
 # Todo
 
