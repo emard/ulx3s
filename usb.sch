@@ -25,6 +25,7 @@ F 3 "" V 2300 1700 60  0000 C CNN
 F 4 "STPS2L30AF" H 2300 1700 60  0001 C CNN "MPN"
 F 5 "www.mouser.com" H 2300 1700 60  0001 C CNN "Mouser_URL"
 F 6 "511-STPS2L30AF " H 2300 1700 60  0001 C CNN "Mouser"
+F 7 "497-12310-1-ND" H 2300 1700 50  0001 C CNN "Digikey"
 	1    2300 1700
 	-1   0    0    1   
 $EndComp
@@ -78,6 +79,7 @@ F 4 "www.fciconnect.com" H 1500 1900 60  0001 C CNN "MFG_URL"
 F 5 "10118192-0001LF" H 1500 1900 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 1500 1900 60  0001 C CNN "Mouser_URL"
 F 7 "649-10118192-0001LF " H 1500 1900 50  0001 C CNN "Mouser"
+F 8 "609-4613-1-ND" H 1500 1900 50  0001 C CNN "Digikey"
 	1    1500 1900
 	0    -1   1    0   
 $EndComp
@@ -205,6 +207,7 @@ F 4 "www.ftdichip.com" H 5700 3400 60  0001 C CNN "MFG_URL"
 F 5 "FT231XS" H 5700 3400 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 5700 3400 60  0001 C CNN "Mouser_URL"
 F 7 "895-FT231XS-R" H 5700 3400 60  0001 C CNN "Mouser"
+F 8 "768-1129-1-ND" H 5700 3400 50  0001 C CNN "Digikey"
 	1    5700 3400
 	1    0    0    -1  
 $EndComp
@@ -517,6 +520,7 @@ F 4 "http://www.taiwansemi.com/en" H 2600 3000 60  0001 C CNN "MFG_URL"
 F 5 "BZT52C3V6S" H 2600 3000 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 2600 3000 60  0001 C CNN "Mouser_URL"
 F 7 "821-BZT52C3V6S" H 2600 3000 60  0001 C CNN "Mouser"
+F 8 "BZT52C3V6S-TPMSCT-ND" H 2600 3000 50  0001 C CNN "Digikey"
 	1    2600 3000
 	0    1    1    0   
 $EndComp
@@ -673,6 +677,7 @@ F 4 "www.diodes.com" H 5450 1450 60  0001 C CNN "MFG_URL"
 F 5 "FNETHE025" H 5450 1450 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 5450 1450 60  0001 C CNN "Mouser_URL"
 F 7 "729-FNETHE025" H 5450 1450 60  0001 C CNN "Mouser"
+F 8 "FNETHE025CT-ND" H 5450 1450 50  0001 C CNN "Digikey"
 	1    5450 1450
 	1    0    0    1   
 $EndComp

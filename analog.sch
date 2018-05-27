@@ -26,6 +26,7 @@ F 4 "www.cui.com" H 2550 2350 60  0001 C CNN "MFG_URL"
 F 5 "SJ-43516-SMT-TR" H 2550 2350 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 2550 2350 60  0001 C CNN "Mouser_URL"
 F 7 "490-SJ-43516-SMT-TR " H 2550 2350 60  0001 C CNN "Mouser"
+F 8 "CP-43516SJCT-ND" H 2550 2350 50  0001 C CNN "Digikey"
 	1    2550 2350
 	1    0    0    -1  
 $EndComp
@@ -239,6 +240,7 @@ F 4 "www.maximintegrated.com" H 3300 4900 60  0001 C CNN "MFG_URL"
 F 5 "MAX11125ATI+" H 3300 4900 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 3300 4900 60  0001 C CNN "Mouser_URL"
 F 7 "700-MAX11125ATI+" H 3300 4900 60  0001 C CNN "Mouser"
+F 8 "MAX11125ATI+-ND" H 3300 4900 50  0001 C CNN "Digikey"
 	1    3300 4900
 	1    0    0    -1  
 $EndComp

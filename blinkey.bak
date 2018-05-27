@@ -483,6 +483,7 @@ F 4 "www.jameco.com" H 8000 3200 60  0001 C CNN "MFG_URL"
 F 5 "219-4MST" H 8000 3200 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 8000 3200 60  0001 C CNN "Mouser_URL"
 F 7 "774-2194MST " H 8000 3200 60  0001 C CNN "Mouser"
+F 8 "CT2194MST-ND" H 8000 3200 50  0001 C CNN "Digikey"
 	1    8000 3200
 	1    0    0    -1  
 $EndComp
@@ -651,6 +652,7 @@ F 4 "www.liteon.com" H 4550 3150 60  0001 C CNN "MFG_URL"
 F 5 "LTST-C170TBKT" H 4550 3150 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 4550 3150 60  0001 C CNN "Mouser_URL"
 F 7 "859-LTST-C170TBKT" H 4550 3150 60  0001 C CNN "Mouser"
+F 8 "160-1579-1-ND" H 4550 3150 50  0001 C CNN "Digikey"
 	1    4550 3150
 	1    0    0    -1  
 $EndComp
@@ -666,6 +668,7 @@ F 4 "www.lite-on.com" H 4550 2950 60  0001 C CNN "MFG_URL"
 F 5 "LTST-C170KGKT" H 4550 2950 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 4550 2950 60  0001 C CNN "Mouser_URL"
 F 7 "859-LTST-C170KGKT " H 4550 2950 60  0001 C CNN "Mouser"
+F 8 "160-1413-1-ND" H 4550 2950 50  0001 C CNN "Digikey"
 	1    4550 2950
 	1    0    0    -1  
 $EndComp
@@ -681,6 +684,7 @@ F 4 "www.liteon.com" H 4550 2550 60  0001 C CNN "MFG_URL"
 F 5 "LTST-C170KRKT" H 4550 2550 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 4550 2550 60  0001 C CNN "Mouser_URL"
 F 7 "859-LTST-C170KRKT" H 4550 2550 60  0001 C CNN "Mouser"
+F 8 "160-1415-1-ND" H 4550 2550 50  0001 C CNN "Digikey"
 	1    4550 2550
 	1    0    0    -1  
 $EndComp
@@ -696,6 +700,7 @@ F 4 "www.liteon.com" H 4550 2750 60  0001 C CNN "MFG_URL"
 F 5 "LTST-C170KFKT" H 4550 2750 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 4550 2750 60  0001 C CNN "Mouser_URL"
 F 7 "859-LTST-C170KFKT" H 4550 2750 60  0001 C CNN "Mouser"
+F 8 "160-1413-1-ND" H 4550 2750 50  0001 C CNN "Digikey"
 	1    4550 2750
 	1    0    0    -1  
 $EndComp
