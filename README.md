@@ -123,9 +123,9 @@ Don't pay everything at once. Following payment phases during the
 PCBA production are recommended:
 
     1. Pay for the parts
-    2. Manufacturer orders the parts and send you the part numbers they received.
+    2. Manufacturer orders the parts and optionally negotiates with you about part numbers.
        Depending on market availability, some parts may come in different physical package.
-    3. Send updated gerbers which matches the ordered parts.
+    3. Send updated gerbers which fits for ordered parts.
     4. Pay for PCB
     5. Manufacturer sends pictures of produced PCB for your inspection.
        If anything looks suspicious, ask also for X-ray imaging.
