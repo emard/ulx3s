@@ -125,15 +125,15 @@ PCBA production are recommended:
     1. Pay for the parts
     2. Manufacturer orders the parts and optionally negotiates with you about part numbers.
        Depending on market availability, some parts may come in different physical package.
-    3. Send updated gerbers which fits for ordered parts.
+    3. Send updated gerbers which fit for ordered parts.
     4. Pay for PCB
     5. Manufacturer sends pictures of produced PCB for your inspection.
        If anything looks suspicious, ask also for X-ray imaging.
     6. Pay for the assembly and shipping.
 
 Nobody wants quality issues, so it is good to ask if manufacturer has qualified personnel
-able to follow instructions for [ULX3S self-test](https://github.com/emard/ulx3s-bin)
-before shipping.
+able to follow instructions 
+for [ULX3S self-test](https://github.com/emard/ulx3s-bin) before shipping.
 
 # Todo
 
