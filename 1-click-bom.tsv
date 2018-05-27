@@ -17,7 +17,7 @@ D10, D13, D14, D16, D17	5		1N4148WSFSCT-ND						www.fairchildsemi.com					1N4148
 D12, D15, D23, D24, D25, D26	6		NSR0530HT1GOSCT-ND	621-BAT54WSQ-7-F	621-BAT54WSQ-7-F 				www.onsemi.com	www.diodes.com				NSR0530HT1G 	BAT54WSQ-7-F 		863-NSR0530HT1G 	621-BAT54WSQ-7-F 		www.mouser.com	
 D20, D21	2		BZT52C3V6S-TPMSCT-ND						www.taiwansemi.com					BZT52C3V6S			821-BZT52C3V6S			www.mouser.com	
 GPDI1	1	https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf	609-4614-1-ND			571-5-1903015-5	www.mouser.com		www.amphenol-icc.com					10029449-111RLF			649-10029449-111RLF			www.mouser.com	
-H1, H2, H3, H4	4																				
+H1, H2, H3, H4	4																				Leave empty
 J1, J2	2																				Leave empty
 J3	1																				Leave empty
 J4	1																				Leave empty
