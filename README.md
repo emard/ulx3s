@@ -1,8 +1,8 @@
 # ULX3S PCB
 
 ULX3S = University digital Logic Learning Xtensible
-board release 3 with SDRAM, Successor of
-[ULX2S](http://github.com/emard/ulx2s).
+board release 3 with SDRAM, Successor
+of [ULX2S](http://github.com/emard/ulx2s).
 
 3D preview
 
@@ -41,9 +41,9 @@ onboard FM/ASK antenna 88-433.92 MHz and 56 GPIO pins which
 are all routed as differential pairs and have pinout that
 is PMOD compatible.
 
-ULX3S is sufficiently equipped to emulate 
-[Amiga](https://github.com/emard/Minimig_ECS) retro computer and
-run its games, but can do much more.
+ULX3S is sufficiently equipped to
+emulate [Amiga](https://github.com/emard/Minimig_ECS) retro
+computer and run its games, but can do much more.
 
 [Schematics](/doc/schematics.pdf) and PCB are done in open source KiCAD 5 PCB editor:
 
