@@ -517,7 +517,7 @@ F 0 "D20" H 2800 2900 50  0000 C CNN
 F 1 "3.6V" H 2600 2910 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2600 3000 50  0001 C CNN
 F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf" V 2600 3000 50  0001 C CNN
-F 4 "http://www.taiwansemi.com/en" H 2600 3000 60  0001 C CNN "MFG1_URL"
+F 4 "www.taiwansemi.com" H 2600 3000 60  0001 C CNN "MFG1_URL"
 F 5 "BZT52C3V6S" H 2600 3000 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 2600 3000 60  0001 C CNN "Mouser_URL"
 F 7 "821-BZT52C3V6S" H 2600 3000 60  0001 C CNN "Mouser"
@@ -533,7 +533,7 @@ F 0 "D21" H 2900 3100 50  0000 C CNN
 F 1 "3.6V" H 2700 3100 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2700 3000 50  0001 C CNN
 F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf" V 2700 3000 50  0001 C CNN
-F 4 "http://www.taiwansemi.com/en" H 2700 3000 60  0001 C CNN "MFG1_URL"
+F 4 "www.taiwansemi.com" H 2700 3000 60  0001 C CNN "MFG1_URL"
 F 5 "BZT52C3V6S" H 2700 3000 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 2700 3000 60  0001 C CNN "Mouser_URL"
 F 7 "821-BZT52C3V6S" H 2700 3000 60  0001 C CNN "Mouser"
