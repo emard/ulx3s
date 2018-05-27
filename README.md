@@ -125,7 +125,7 @@ PCBA production are recommended:
     1. Pay for the parts
     2. Manufacturer orders the parts and optionally negotiates with you about part numbers.
        Depending on market availability, some parts may come in different physical package.
-    3. Send updated gerbers which fit for ordered parts.
+    3. Send updated gerbers which fit to ordered parts.
     4. Pay for PCB
     5. Manufacturer sends pictures of produced PCB for your inspection.
        If anything looks suspicious, ask also for X-ray imaging.
