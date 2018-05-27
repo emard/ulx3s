@@ -106,14 +106,13 @@ country of origin and $-currency to check is PCBA manufacturer telling the truth
 about prices.
 
 [PCBWAY](http://www.pcbway.com) produced [ULX3S v1.7 45F](/pic/ulx3sb-v17.jpg) in
-December 2017 at above of CLASS 3 quality, $126 per board.
-[PCBWAY](http://www.pcbway.com) produced [ULX3S v1.8 85F](/pic/ulx3sb-v18.jpg) in 
+December 2017 at above of CLASS 3 quality, $126 per
+board. [PCBWAY](http://www.pcbway.com) produced [ULX3S v1.8 85F](/pic/ulx3sb-v18.jpg) in 
 May 2018 at the edge of CLASS 1 quality acceptance
 (drill randomness and copper layer misaligment, hole breakout about 180°),
-$134 per board.
-[PCBWAY](http://www.pcbway.com) is cheap at boards and assembly but charged 
-$40 for FPGA 85F chip which costed $30 on [Mouser](http://www.mouser.com)
-at the time and location of purchase.
+$134 per board. [PCBWAY](http://www.pcbway.com) is cheap at boards and assembly but charged 
+$40 for FPGA 85F chip which costed about $30 on [Mouser](http://www.mouser.com) at
+that time.
 
 [PCBCART](http://www.pcbcart.com) would be my next choice because they
 offer CLASS 3 quality and assembly at reasonable cost. Prices for the
