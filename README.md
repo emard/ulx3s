@@ -99,25 +99,37 @@ Avoid manufacturer who claims "quality" and "satisfaction" but doesn't
 really know what will be IPC CLASS rating for this project.
 
 PCBA manufacturer prices for the parts should be approximately equal as those
-from distributors like [Mouser](www.mouser.com) or [DigiKey](www.digikey.com).
+from distributors like [Mouser](http://www.mouser.com) or [DigiKey](http://www.digikey.com).
 Avoid any PCBA manufacturer who asks 3$ for the 1$ part or 40$ for the 30$ part.
-Select [Mouser](www.mouser.com) language/location icon to PCBA manufacturer
+Select [Mouser](http://www.mouser.com) language/location icon to PCBA manufacturer
 country of origin and $-currency to check is PCBA manufacturer telling the truth
 about prices.
 
-[PCBWAY](www.pcbway.com) produced [ULX3S v1.7 45F](/pic/ulx3sb-v17.jpg) in
+[PCBWAY](http://www.pcbway.com) produced [ULX3S v1.7 45F](/pic/ulx3sb-v17.jpg) in
 December 2017 at above of CLASS 3 quality, $126 per board.
-[PCBWAY](www.pcbway.com) produced [ULX3S v1.8 85F](/pic/ulx3sb-v18.jpg) in 
+[PCBWAY](http://www.pcbway.com) produced [ULX3S v1.8 85F](/pic/ulx3sb-v18.jpg) in 
 May 2018 at the edge of CLASS 1 quality acceptance
 (drill randomness and copper layer misaligment, hole breakout about 180°),
 $134 per board.
-[PCBWAY](www.pcbway.com) is cheap at boards and assembly but asks 
-$40 for FPGA 85F chip which costs $30 at [Mouser](www.mouser.com).
+[PCBWAY](http://www.pcbway.com) is cheap at boards and assembly but asks 
+$40 for FPGA 85F chip which costs $30 at [Mouser](http://www.mouser.com).
 
-[PCBCART](www.pcbcart.com) would be my next choice because they
+[PCBCART](http://www.pcbcart.com) would be my next choice because they
 offer CLASS 3 quality and assembly at reasonable cost. Prices for the
-parts are equal as from [Mouser](www.mouser.com) so total price per
+parts are equal as from [Mouser](http://www.mouser.com) so total price per
 board should be about the same as above.
+
+Don't pay everything at once. Following payment phases during the
+PCBA production are recommended:
+
+    1. Pay for the parts
+    2. Manufacturer orders the parts and send you the part numbers they received.
+       Depending on market availability, some parts may come in different physical package.
+    3. Send updated gerbers which matches the ordered parts.
+    4. Pay for PCB
+    5. Manufacturer sends pictures of produced PCB for your inspection.
+       If anything looks suspicious, ask also for X-ray imaging.
+    6. Pay for the assembly and shipping.
 
 # Todo
 
