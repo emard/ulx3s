@@ -238,9 +238,12 @@ F 2 "Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm" H 3300 4950 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf" H 3300 4950 50  0001 C CNN
 F 4 "www.maximintegrated.com" H 3300 4900 60  0001 C CNN "MFG1_URL"
 F 5 "MAX11125ATI+" H 3300 4900 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 3300 4900 60  0001 C CNN "Mouser_URL"
-F 7 "700-MAX11125ATI+" H 3300 4900 60  0001 C CNN "Mouser"
-F 8 "MAX11125ATI+-ND" H 3300 4900 50  0001 C CNN "Digikey"
+F 6 "www.maximintegrated.com" H 3300 4900 50  0001 C CNN "MFG2_URL"
+F 7 "MAX11123ATI+" H 3300 4900 50  0001 C CNN "MPN2"
+F 8 "www.mouser.com" H 3300 4900 60  0001 C CNN "Mouser_URL"
+F 9 "700-MAX11125ATI+" H 3300 4900 60  0001 C CNN "Mouser"
+F 10 "700-MAX11123ATI+" H 3300 4900 50  0001 C CNN "Mouser2"
+F 11 "MAX11125ATI+-ND" H 3300 4900 50  0001 C CNN "Digikey"
 	1    3300 4900
 	1    0    0    -1  
 $EndComp

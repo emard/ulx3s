@@ -220,7 +220,7 @@ F 3 "https://drive.google.com/file/d/0B5lkVYnewKTGRlpxcEdWaXNvWnM/view" H 4750 1
 F 4 "www.displaymodule.com" H 4750 1550 60  0001 C CNN "MFG1_URL"
 F 5 "DM-OLEDC095-626" H 4750 1550 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 4750 1550 60  0001 C CNN "Mouser_URL"
-F 7 "Do not install" H 4750 1550 60  0001 C CNN "Note"
+F 7 "Leave empty" H 4750 1550 60  0001 C CNN "Note"
 	1    4750 1550
 	0    1    1    0   
 $EndComp

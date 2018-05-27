@@ -117,6 +117,7 @@ F 0 "H4" H 3150 5750 50  0000 C CNN
 F 1 "HOLE" V 3250 5650 50  0000 C CNN
 F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 3150 5650 50  0001 C CNN
 F 3 "" H 3150 5650 50  0000 C CNN
+F 4 "Leave empty" H 3150 5650 50  0001 C CNN "Note"
 	1    3150 5650
 	0    -1   -1   0   
 $EndComp

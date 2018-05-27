@@ -2367,7 +2367,7 @@ F 1 "VJ1" H 1400 1650 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1400 1850 50  0001 C CNN
 F 3 "" H 1400 1850 50  0001 C CNN
 F 4 "www.mouser.com" H 1400 1850 60  0001 C CNN "Mouser_URL"
-F 5 "Do not install" H 1400 1850 60  0001 C CNN "Note"
+F 5 "Leave empty" H 1400 1850 60  0001 C CNN "Note"
 	1    1400 1850
 	1    0    0    -1  
 $EndComp
@@ -3027,7 +3027,7 @@ F 3 "" H 1300 800 50  0001 C CNN
 F 4 "www.mouser.com" H 1300 800 60  0001 C CNN "Mouser_URL"
 F 5 "www.yageo.com" H 1300 800 50  0001 C CNN "MFG1_URL"
 F 6 "RC0603JR-070RL" H 1300 800 50  0001 C CNN "EMPTY_PN"
-F 7 "Do not install" H 1300 800 50  0001 C CNN "Note"
+F 7 "Leave empty" H 1300 800 50  0001 C CNN "Note"
 	1    1300 800 
 	0    1    1    0   
 $EndComp
@@ -3042,7 +3042,7 @@ F 3 "" H 1300 1300 50  0001 C CNN
 F 4 "www.mouser.com" H 1300 1300 60  0001 C CNN "Mouser_URL"
 F 5 "www.yageo.com" H 1300 1300 50  0001 C CNN "MFG1_URL"
 F 6 "RC0603JR-070RL" H 1300 1300 50  0001 C CNN "MFG_PN"
-F 7 "Do not install" H 1300 1300 50  0001 C CNN "Note"
+F 7 "Leave empty" H 1300 1300 50  0001 C CNN "Note"
 	1    1300 1300
 	0    1    1    0   
 $EndComp
