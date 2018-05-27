@@ -49,7 +49,8 @@ run its games, but can do much more.
 
     kicad ulx3s.pro
 
-[PCB v1.7](/pic/ulx3st-real.jpg) is produced.
+[PCB v1.7](/pic/ulx3st-real.jpg) is produced. For this board to work,
+IPC CLASS 3 quality PCB is required, 5/5 mil resolution and 0.2 mm holes.
 Important board features are tested and work like
 USB-JTAG, SDRAM, SDCARD, HDMI, FLASH, RTC, I2C, OLED, AUDIO, ADC, 433.92MHz
 US2 can be used to plug USB-PS/2 combo keyboard but US2 feature as USB 
