@@ -54,7 +54,7 @@ U2	1		1450-1352-1-ND						www.micron.com	www.issi.com				MT48LC16M16A2TG-6A	IS42
 U3, U4, U5	3		296-47360-1-ND						www.ti.com	www.dioo.com				TLV62569DBVR	DIO6015BCST5		595-TLV62569DBVR	453-DIO6015BCST5		www.mouser.com	
 U6	1		768-1129-1-ND						www.ftdichip.com					FT231XS			895-FT231XS-R			www.mouser.com	
 U7	1		568-5306-1-ND						www.nxp.com				https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf	 PCF8523T/1,118 			771-PCF8523T/1118			www.mouser.com	
-U8	1		MAX11125ATI+-ND						www.maximintegrated.com					MAX11125ATI+			700-MAX11125ATI+			www.mouser.com	
+U8	1		MAX11125ATI+-ND						www.maximintegrated.com	www.maximintegrated.com				MAX11125ATI+	MAX11123ATI+		700-MAX11125ATI+	700-MAX11123ATI+		www.mouser.com	
 U9	1								espressif.com					ESP-WROOM-32			356-ESP-WROOM-32 			www.mouser.com	
 U10	1		706-1607-1-ND						www.issi.com	www.issi.com				IS25LP032D-JNLE-TR	IS25LP032D-JNLA3		870-IS25LP032DJNLETR	870-IS25LP032DJNLA3T		www.mouser.com	
 U11	1		568-4215-1-ND						www.nxp.com					PCA9306D			771-PCA9306D-T			www.mouser.com	
