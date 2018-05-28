@@ -52,6 +52,7 @@ F 4 "espressif.com" H 6650 3450 60  0001 C CNN "MFG1_URL"
 F 5 "ESP-WROOM-32" H 6650 3450 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 6650 3450 60  0001 C CNN "Mouser_URL"
 F 7 "356-ESP-WROOM-32 " H 6650 3450 50  0001 C CNN "Mouser"
+F 8 "1904-1010-1-ND" H 6650 3450 50  0001 C CNN "Digikey"
 	1    6650 3450
 	1    0    0    -1  
 $EndComp
