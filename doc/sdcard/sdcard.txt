@@ -3,7 +3,20 @@ Ordered part (now obsolete)
 ALPS SCHD3A0100
 
 mouser: cheapest available now
+almost pin compatible
+pins shifted a bit in x-position by 0.105 mm, probably insignificant:
+closest pin center to pad center is 2.58 mm on part 47219-2001
+pin center to pad center is 2.475 mm on part SCHD3A0100
+other dimensions exactly match
 
-523-114-00841-68
-1140084168
-Amphenol Memory Card Connectors Micro SD 8 Pin PCB Gold
+
+Mouser No: 538-47219-2001
+Mfr. No: 47219-2001
+Mfr.: Molex
+Price: $1.14
+Hindge type
+
+Digi-Key Part Number 	WM6698DKR-ND 	
+Manufacturer: Molex, LLC
+Manufacturer Part Number: 0472192001 
+Price: $1.11
