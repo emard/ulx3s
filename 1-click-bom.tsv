@@ -47,7 +47,7 @@ RB1	1		 311-18.0KHRCT-ND			www.yageo.com				RC0603FR-1018KL			603-RC0603FR-1018K
 RB3	1		YAG3605CT-ND			www.yageo.com				RT0603FRE073K3L			603-RT0603FRE073K3L				
 RP1, RP2, RP3	3		541-2970-1-ND			www.yageo.com				RC0603JR-070RL			603-RC0603JR-070RL			www.mouser.com	
 RV2, RV3	2				RC0603JR-070RL	www.yageo.com										www.mouser.com	Leave empty
-SD1	1					www.on-stars.com	www.alps.com			SCHD3A0100	SCHD3A0100		688-SCHD3A0100				
+SD1	1	https://www.molex.com/pdm_docs/sd/472192001_sd.pdf	WM6698DKR-ND			www.on-stars.com	www.molex.com			SCHD3A0100	47219-2001		538-47219-2001	688-SCHD3A0100			
 SW1	1		CT2194MST-ND			www.jameco.com				219-4MST			774-2194MST 			www.mouser.com	
 U1	1		220-2071-ND			www.latticesemi.com	www.latticesemi.com			LFE5U-85F-6BG381C	LFE5U-12F-6BG381C		842-LFE5U85F6BG381C	842-LFE5U12F6BG381C		www.mouser.com	
 U2	1		1450-1352-1-ND			www.micron.com	www.issi.com			MT48LC16M16A2TG-6A	IS42S16160G-7TL-TR		913-4816M16A2TG6AGTR	870-IS42S16160G7TLTR		www.mouser.com	
@@ -55,7 +55,7 @@ U3, U4, U5	3		296-47360-1-ND			www.ti.com	www.dioo.com			TLV62569DBVR	DIO6015BCS
 U6	1		768-1129-1-ND			www.ftdichip.com				FT231XS			895-FT231XS-R			www.mouser.com	
 U7	1		568-5306-1-ND			www.nxp.com			https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf	 PCF8523T/1,118 			771-PCF8523T/1118			www.mouser.com	
 U8	1		MAX11125ATI+-ND			www.maximintegrated.com	www.maximintegrated.com			MAX11125ATI+	MAX11123ATI+		700-MAX11125ATI+	700-MAX11123ATI+		www.mouser.com	
-U9	1					espressif.com				ESP-WROOM-32			356-ESP-WROOM-32 			www.mouser.com	
+U9	1		1904-1010-1-ND			espressif.com				ESP-WROOM-32			356-ESP-WROOM-32 			www.mouser.com	
 U10	1		706-1607-1-ND			www.issi.com	www.issi.com			IS25LP032D-JNLE-TR	IS25LP032D-JNLA3		870-IS25LP032DJNLETR	870-IS25LP032DJNLA3T		www.mouser.com	
 U11	1		568-4215-1-ND			www.nxp.com				PCA9306D			771-PCA9306D-T			www.mouser.com	
 US1, US2	2		609-4613-1-ND			www.fciconnect.com				10118192-0001LF			649-10118192-0001LF 			www.mouser.com	
