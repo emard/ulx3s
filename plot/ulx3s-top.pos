@@ -1,5 +1,5 @@
-### Module positions - created on Wed May 23 15:33:31 2018 ###
-### Printed by Pcbnew version kicad 5.0.0-rc2-dev-unknown+dfsg1+20180318-2
+### Module positions - created on Tue May 29 17:52:36 2018 ###
+### Printed by Pcbnew version kicad 5.0.0-rc2-dev-unknown+dfsg1+20180318-3
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                Package                                  PosX       PosY       Rot  Side
@@ -33,17 +33,17 @@ D18       GREEN              LED_0805_2012Metric                    1.3500     0
 D19       RED                LED_0805_2012Metric                    1.4500     0.2500   90.0000  top
 D22       BLUE               LED_0805_2012Metric                    1.2500     0.2500   90.0000  top
 GPDI1     GPDI-D             CONN-10029449-111RLF                   2.0156     1.6893  180.0000  top
-R36       1k                 R_0603_1608Metric                      1.3500     0.1000  270.0000  top
-R37       1k                 R_0603_1608Metric                      1.4500     0.1000   90.0000  top
-R41       1k                 R_0603_1608Metric                      1.0500     1.1700   90.0000  top
-R42       1k                 R_0603_1608Metric                      0.9500     1.1700   90.0000  top
-R43       1k                 R_0603_1608Metric                      0.8500     1.1700   90.0000  top
-R44       1k                 R_0603_1608Metric                      0.7500     1.1700   90.0000  top
-R45       1k                 R_0603_1608Metric                      0.6500     1.1700   90.0000  top
-R46       1k                 R_0603_1608Metric                      0.5500     1.1700   90.0000  top
-R47       1k                 R_0603_1608Metric                      0.4500     1.1700   90.0000  top
-R48       1k                 R_0603_1608Metric                      0.3500     1.1700   90.0000  top
-R62       1k                 R_0603_1608Metric                      1.2500     0.1000  270.0000  top
+R36       1.2k               R_0603_1608Metric                      1.3500     0.1000  270.0000  top
+R37       1.2k               R_0603_1608Metric                      1.4500     0.1000   90.0000  top
+R41       1.2k               R_0603_1608Metric                      1.0500     1.1700   90.0000  top
+R42       1.2k               R_0603_1608Metric                      0.9500     1.1700   90.0000  top
+R43       1.2k               R_0603_1608Metric                      0.8500     1.1700   90.0000  top
+R44       1.2k               R_0603_1608Metric                      0.7500     1.1700   90.0000  top
+R45       1.2k               R_0603_1608Metric                      0.6500     1.1700   90.0000  top
+R46       1.2k               R_0603_1608Metric                      0.5500     1.1700   90.0000  top
+R47       1.2k               R_0603_1608Metric                      0.4500     1.1700   90.0000  top
+R48       1.2k               R_0603_1608Metric                      0.3500     1.1700   90.0000  top
+R62       1.2k               R_0603_1608Metric                      1.2500     0.1000  270.0000  top
 SW1       DIPSW              SW_DIP_x4_W8.61mm_Slide_LowProfile     2.6000     1.5000   90.0000  top
 U1        LFE5U-85F-6BG381C  BGA-381_pitch0.8mm_dia0.4mm            1.7472     0.9614    0.0000  top
 U2        MT48LC16M16A2TG    TSOP54                                 2.7950     0.9614   90.0000  top
