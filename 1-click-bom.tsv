@@ -13,8 +13,8 @@ D1, D5	2		160-1413-1-ND			www.liteon.com				LTST-C170KFKT			859-LTST-C170KFKT			
 D2, D6, D18	3		160-1414-1-ND			www.liteon.com				LTST-C170KGKT			859-LTST-C170KGKT 			www.mouser.com	
 D3, D7, D22	3		160-1579-1-ND			www.liteon.com				LTST-C170TBKT			859-LTST-C170TBKT			www.mouser.com	
 D8, D9, D51, D52	4		497-12310-1-ND			www.st.com				STPS2L30AF			511-STPS2L30AF 			www.mouser.com	
-D10, D13, D14, D16, D17	5		1N4148WSFSCT-ND			www.fairchildsemi.com				1N4148WS			512-1N4148WS			www.mouser.com	
-D12, D15, D23, D24, D25, D26	6		NSR0530HT1GOSCT-ND			www.onsemi.com	www.diodes.com			NSR0530HT1G 	BAT54WSQ-7-F 		863-NSR0530HT1G 	621-BAT54WSQ-7-F 		www.mouser.com	
+D10, D13, D14, D16, D17, D23, D24, D25, D26	9		1N4148WSFSCT-ND			www.fairchildsemi.com				1N4148WS			512-1N4148WS			www.mouser.com	
+D12, D15	2		NSR0530HT1GOSCT-ND			www.onsemi.com	www.diodes.com			NSR0530HT1G 	BAT54WSQ-7-F 		863-NSR0530HT1G 	621-BAT54WSQ-7-F 		www.mouser.com	
 D20, D21	2		BZT52C3V6S-TPMSCT-ND			www.taiwansemi.com				BZT52C3V6S			821-BZT52C3V6S			www.mouser.com	
 GPDI1	1	https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf	609-4614-1-ND	A136174CT-ND		www.amphenol-icc.com	www.te.com			10029449-111RLF	5-1903015-5		649-10029449-111RLF	571-5-1903015-5		www.mouser.com	
 H1, H2, H3, H4	4																Leave empty
@@ -26,25 +26,21 @@ L1, L2, L3	3		490-10649-1-ND			www.murata.com	www.murata.com	www.bourns.com		DFE
 OLED1	1					www.displaymodule.com				DM-OLEDC095-626						www.mouser.com	Leave empty
 Q1	1		1727-2926-1-ND			www.nxp.com				BC857			771-BC857B-T/R			www.mouser.com	
 Q2	1		1727-4692-1-ND			www.nxp.com				2N7002P,215			771-2N7002P-215			www.mouser.com	
-R1, R9, R13, R34, R55, R63, R64, RA1, RA2, RA3	10		YAG3569CT-ND			www.yageo.com				AC0603FR-1015KL			603-AC0603FR-1015KL				
+R1, R9, R13, R34, R55, RA1, RA2, RA3	8		YAG3569CT-ND			www.yageo.com				AC0603FR-1015KL			603-AC0603FR-1015KL				
 R2	1		311-47.0KHRCT-ND			www.yageo.com				AC0603FR-0747KL			603-AC0603FR-0747KL				
 R3, R4, R25, R26, R30, RB2	6		YAG3613CT-ND			www.yageo.com				AC0603FR-104K7L			603-AC0603FR-104K7L				
 R5	1		311-4.70MHRCT-ND			www.bourns.com				CR0603-JW-475ELF			652-CR0603JW-475ELF				
-R6, R8, R29, R36, R37, R41, R42, R43, R44, R45, R46, R47, R48, R62, R65	15		311-1.00KHRCT-ND			www.yageo.com				RC0603FR-071KL			603-RC0603FR-071KL				
+R6, R8, R14, R18, R29, R36, R37, R40, R41, R42, R43, R44, R45, R46, R47, R48, R54, R57, R62	19		311-1.5KLDCT-ND			www.yageo.com				RC0603FR-071KL			603-RC0603FR-101K2L				
 R7, R10, R17, R21, R39, R51, R60	7		311-150HRCT-ND			www.yageo.com				AC0603FR-07150RL			603-AC0603FR-07150RL				
-R11, R12, R27, R28, R31, R32, R33	7		311-10KLMCT-ND			www.yageo.com				AC0603FR-0710KL			603-AC0603FR-0710KL				
-R14, R18, R57	3		311-1.20KHRCT-ND			www.yageo.com				RC0603FR-101K2L			603-RC0603FR-101K2L				
-R15, R19, R58	3		311-680HRCT-ND			www.yageo.com				RC0603FR-10680RL			603-RC0603FR-10680RL				
+R11, R12, R27, R28, R31, R32, R33, R63, R64	9		311-12.0KHRCT-ND			www.yageo.com				RC0603FR-0712KL			603-RC0603FR-0712KL				
+R15, R19, R35, R58, R61, R65	6		311-680HRCT-ND			www.yageo.com				RC0603FR-10680RL			603-RC0603FR-10680RL				
 R16, R20, R59	3		YAG1298CT-ND			www.yageo.com				RC0603JR-07330RP			603-RC0603JR-07330RP				
-R22, R23	2		311-2.2KLDCT-ND			www.yageo.com				RC0603FR-072K2L			603-RC0603FR-072K2L				
+R22, R23, RB3	3		YAG3605CT-ND			www.yageo.com				RT0603FRE073K3L			603-RT0603FRE073K3L				
 R24	1		P100KHCT-ND			www.yageo.com				AC0603FR-10100KL			603-AC0603FR-10100KL				
-R35, R61	2		311-470HRCT-ND			www.yageo.com				RC0603FR-07470RL			603-RC0603FR-07470RL				
 R38	1		CRL0603-FW-R470ELFCT-ND			www.ctscorp.com				73L2R47J			774-73L2R47J				
-R40, R54	2		311-1.5KLDCT-ND			www.yageo.com				RC0603FR-071K5L			603-RC0603FR-131K5L				
 R49, R50, R52, R53	4		311-27.0HRCT-ND			www.yageo.com				AC0603JR-0727RL			603-AC0603JR-0727RL				
 R56	1				RC0603JR-070RL	www.yageo.com											Leave empty
 RB1	1		 311-18.0KHRCT-ND			www.yageo.com				RC0603FR-1018KL			603-RC0603FR-1018KL				
-RB3	1		YAG3605CT-ND			www.yageo.com				RT0603FRE073K3L			603-RT0603FRE073K3L				
 RP1, RP2, RP3	3		541-2970-1-ND			www.yageo.com				RC0603JR-070RL			603-RC0603JR-070RL			www.mouser.com	
 RV2, RV3	2				RC0603JR-070RL	www.yageo.com										www.mouser.com	Leave empty
 SD1	1	https://www.molex.com/pdm_docs/sd/472192001_sd.pdf	WM6698DKR-ND			www.on-stars.com	www.molex.com			SCHD3A0100	47219-2001		538-47219-2001	688-SCHD3A0100			
