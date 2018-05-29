@@ -729,7 +729,7 @@ Text GLabel 8650 2150 0    60   Input ~ 0
 WIFI_GPIO5
 Text GLabel 8650 2450 0    60   Input ~ 0
 WIFI_GPIO17
-Text Notes 6850 1400 0    60   ~ 0
+Text Notes 7450 1400 0    60   ~ 0
 SD_D2 v1.7
 Text Notes 11150 1900 0    60   ~ 0
 SD_CLK v1.7
@@ -887,8 +887,6 @@ Text Notes 10600 1900 0    60   ~ 0
 SD_D2 v1.8
 Text Notes 10600 1800 0    60   ~ 0
 SD_D1 v1.8
-Text Notes 7450 1400 0    60   ~ 0
-SD_CLK v1.8
 Text Notes 7450 1600 0    60   ~ 0
 SD_CMD v1.8
 Text Notes 7450 1800 0    60   ~ 0

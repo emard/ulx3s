@@ -814,8 +814,8 @@ F 3 "https://assets.nexperia.com/documents/data_sheet/2N7002.pdf" H 4000 5600 50
 F 4 "www.nxp.com" H 4000 5600 50  0001 C CNN "MFG1_URL"
 F 5 "2N7002P,215" H 4000 5600 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 4000 5600 60  0001 C CNN "Mouser_URL"
-F 7 "771-2N7002P-215" H 4000 5600 60  0001 C CNN "Mouser"
-F 8 "1727-4692-1-ND" H 4000 5600 50  0001 C CNN "Digikey"
+F 7 "512-2N7002" H 4000 5600 60  0001 C CNN "Mouser"
+F 8 "2N7002K-TPMSCT-ND" H 4000 5600 50  0001 C CNN "Digikey"
 	1    4000 5600
 	1    0    0    -1  
 $EndComp
@@ -832,8 +832,8 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf" H 3
 F 4 "www.nxp.com" H 3950 3750 50  0001 C CNN "MFG1_URL"
 F 5 "BC857" H 3950 3750 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 3950 3750 60  0001 C CNN "Mouser_URL"
-F 7 "771-BC857B-T/R" H 3950 3750 60  0001 C CNN "Mouser"
-F 8 "1727-2926-1-ND" H 3950 3750 50  0001 C CNN "Digikey"
+F 7 "863-BC857BLT1G" H 3950 3750 60  0001 C CNN "Mouser"
+F 8 "TBC857BLMCT-ND" H 3950 3750 50  0001 C CNN "Digikey"
 	1    3950 3750
 	1    0    0    1   
 $EndComp
