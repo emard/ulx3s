@@ -24,8 +24,8 @@ J4	1																Leave empty
 J5	1															www.mouser.com	Leave empty
 L1, L2, L3	3		490-10649-1-ND			www.murata.com	www.murata.com	www.bourns.com		DFE322512F-2R2M=P2	DFE252012P-2R2M=P2	SRP2512A-2R2M	81-DFE322512F-2R2MP2	81-DFE252012P-2R2MP2	652-SRP2512A-2R2M	www.mouser.com	
 OLED1	1					www.displaymodule.com				DM-OLEDC095-626						www.mouser.com	Leave empty
-Q1	1		1727-2926-1-ND			www.nxp.com				BC857			771-BC857B-T/R			www.mouser.com	
-Q2	1		1727-4692-1-ND			www.nxp.com				2N7002P,215			771-2N7002P-215			www.mouser.com	
+Q1	1		TBC857BLMCT-ND			www.nxp.com				BC857			863-BC857BLT1G			www.mouser.com	
+Q2	1		2N7002K-TPMSCT-ND			www.nxp.com				2N7002P,215			512-2N7002			www.mouser.com	
 R1, R9, R13, R34, R55, RA1, RA2, RA3	8		YAG3569CT-ND			www.yageo.com				AC0603FR-1015KL			603-AC0603FR-1015KL				
 R2	1		311-47.0KHRCT-ND			www.yageo.com				AC0603FR-0747KL			603-AC0603FR-0747KL				
 R3, R4, R25, R26, R30, RB2	6		YAG3613CT-ND			www.yageo.com				AC0603FR-104K7L			603-AC0603FR-104K7L				
