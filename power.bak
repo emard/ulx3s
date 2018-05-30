@@ -814,7 +814,7 @@ F 3 "https://assets.nexperia.com/documents/data_sheet/2N7002.pdf" H 4000 5600 50
 F 4 "www.nxp.com" H 4000 5600 50  0001 C CNN "MFG1_URL"
 F 5 "2N7002P,215" H 4000 5600 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 4000 5600 60  0001 C CNN "Mouser_URL"
-F 7 "512-2N7002" H 4000 5600 60  0001 C CNN "Mouser"
+F 7 "512-2N7002L" H 4000 5600 60  0001 C CNN "Mouser"
 F 8 "2N7002K-TPMSCT-ND" H 4000 5600 50  0001 C CNN "Digikey"
 	1    4000 5600
 	1    0    0    -1  

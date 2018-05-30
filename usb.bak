@@ -744,13 +744,9 @@ P 2250 4650
 AR Path="/5A71E38F" Ref="R63"  Part="1" 
 AR Path="/58D6BF46/5A71E38F" Ref="R63"  Part="1" 
 F 0 "R63" V 2330 4650 50  0000 C CNN
-F 1 "12k" V 2250 4650 50  0000 C CNN
+F 1 "15k" V 2250 4650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 4650 50  0001 C CNN
 F 3 "" H 2250 4650 50  0000 C CNN
-F 4 "www.yageo.com" V 2250 4650 50  0001 C CNN "MFG1_URL"
-F 5 "RC0603FR-0712KL" V 2250 4650 50  0001 C CNN "MPN"
-F 6 "603-RC0603FR-0712KL" V 2250 4650 50  0001 C CNN "Mouser"
-F 7 "311-12.0KHRCT-ND" V 2250 4650 50  0001 C CNN "Digikey"
 	1    2250 4650
 	0    -1   -1   0   
 $EndComp
@@ -761,11 +757,9 @@ P 2250 5250
 AR Path="/5A71E566" Ref="R64"  Part="1" 
 AR Path="/58D6BF46/5A71E566" Ref="R64"  Part="1" 
 F 0 "R64" V 2330 5250 50  0000 C CNN
-F 1 "12k" V 2250 5250 50  0000 C CNN
+F 1 "15k" V 2250 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 5250 50  0001 C CNN
 F 3 "" H 2250 5250 50  0000 C CNN
-F 4 "www.yageo.com" V 2250 5250 50  0001 C CNN "MFG1_URL"
-F 5 "AC0603FR-1015KL" V 2250 5250 50  0001 C CNN "MPN"
 	1    2250 5250
 	0    -1   -1   0   
 $EndComp
@@ -895,4 +889,6 @@ Text Notes 7450 1900 0    60   ~ 0
 SD_D0 v1.8
 Text GLabel 8650 1750 0    60   Input ~ 0
 SD_D1
+Text Notes 1550 6050 0    60   ~ 0
+Deviation from USB specification in\npulldowns for BOM simplificaton.\nWith series diode, correct value R63 R64 \nshould be 12k but 15k is used.
 $EndSCHEMATC
