@@ -45,7 +45,7 @@ SD1	1	https://www.molex.com/pdm_docs/sd/472192001_sd.pdf	WM6698DKR-ND						www.o
 SW1	1		CT2194MST-ND						www.jameco.com			219-4MST			774-2194MST 			www.mouser.com	
 U1	1		220-2071-ND						www.latticesemi.com	www.latticesemi.com		LFE5U-85F-6BG381C	LFE5U-12F-6BG381C		842-LFE5U85F6BG381C	842-LFE5U12F6BG381C		www.mouser.com	
 U2	1		1450-1352-1-ND			Alliance	ISSI		www.micron.com	www.issi.com		MT48LC16M16A2TG-6A	IS42S16160G-7TL-TR		913-4816M16A2TG6AGTR	870-IS42S16160G7TLTR		www.mouser.com	
-U3, U4, U5	3		296-47360-1-ND						www.ti.com	www.dioo.com		TLV62569DBVR	DIO6015BCST5		595-TLV62569DBVR	453-DIO6015BCST5		www.mouser.com	
+U3, U4, U5	3		296-47360-1-ND			TI	DIOO		www.ti.com	www.dioo.com		TLV62569DBVR	DIO6015BCST5		595-TLV62569DBVR	453-DIO6015BCST5		www.mouser.com	
 U6	1		768-1129-1-ND						www.ftdichip.com			FT231XS			895-FT231XS-R			www.mouser.com	
 U7	1		568-5306-1-ND					https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf	www.nxp.com			 PCF8523T/1,118 			771-PCF8523T/1118			www.mouser.com	
 U8	1		MAX11125ATI+-ND						www.maximintegrated.com	www.maximintegrated.com		MAX11125ATI+	MAX11123ATI+		700-MAX11125ATI+	700-MAX11123ATI+		www.mouser.com	
