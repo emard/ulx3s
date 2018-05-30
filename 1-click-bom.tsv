@@ -1,57 +1,57 @@
-References	Qty	Datasheet2	Digikey	Digikey2	EMPTY_PN	MFG1_URL	MFG2_URL	MFG3_URL	MFG_TR_DS	MNF1	MPN	MPN2	MPN3	Mouser	Mouser2	Mouser3	Mouser_URL	Note
-AE1	1																	Leave empty
-AUDIO1	1		CP-43516SJCT-ND			www.cui.com				CUI	SJ-43516-SMT-TR			490-SJ-43516-SMT-TR 			www.mouser.com	
-BAT1	1		36-3000CT-ND			www.keyelco.com					3000TR			534-3000TR			www.mouser.com	
-BTN0, BTN1, BTN2, BTN3, BTN4, BTN5, BTN6	7		CKN9088CT-ND			www.ckswitches.com					PTS645SL50SMTR92 LFS			611-PTS645SL50SMTR92			www.mouser.com	
-C1, C3, C4, C5, C7, C8, C9, C11, C12, C15, C21, C54, C55	13		1276-2412-1-ND			www.yageo.com					CC0805ZKY5V5BB226 			81-GRM188C60J226ME0J				
-C2, C6, C10, C18	4		399-9086-1-ND			www.yageo.com					CS0603KRX7R9BB471			603-CS0603KRX79BB471				
-C13, C16, C17, C19, C20, C22, C23, C24, C46, C47	10		1276-2903-1-ND			www.yageo.com					CC0805MRX5R6BB225			603-CC805MRX5R6BB225				
-C14, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45	11		445-8129-1-ND			www.yageo.com					CC0603KRX7R8BB104			81-GCM188R71E224K55D				
-C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C48, C49, C50, C51, C52, C53	17		1276-2000-1-ND			www.yageo.com					CX0603MRX7R8BB223			603-AC603KRX7R7BB223				
-D0, D4, D11, D19	4		160-1415-1-ND			www.liteon.com					LTST-C170KRKT			859-LTST-C170KRKT			www.mouser.com	
-D1, D5	2		160-1413-1-ND			www.liteon.com					LTST-C170KFKT			859-LTST-C170KFKT			www.mouser.com	
-D2, D6, D18	3		160-1414-1-ND			www.liteon.com					LTST-C170KGKT			859-LTST-C170KGKT 			www.mouser.com	
-D3, D7, D22	3		160-1579-1-ND			www.liteon.com					LTST-C170TBKT			859-LTST-C170TBKT			www.mouser.com	
-D8, D9, D51, D52	4		497-12310-1-ND			www.st.com					STPS2L30AF			511-STPS2L30AF 			www.mouser.com	
-D10, D13, D14, D16, D17, D23, D24, D25, D26	9		1N4148WSFSCT-ND			www.fairchildsemi.com					1N4148WS			512-1N4148WS			www.mouser.com	
-D12, D15	2		NSR0530HT1GOSCT-ND			www.onsemi.com	www.diodes.com				NSR0530HT1G 	BAT54WSQ-7-F 		863-NSR0530HT1G 	621-BAT54WSQ-7-F 		www.mouser.com	
-D20, D21	2		BZT52C3V6S-TPMSCT-ND			www.taiwansemi.com					BZT52C3V6S			821-BZT52C3V6S			www.mouser.com	
-GPDI1	1	https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf	609-4614-1-ND	A136174CT-ND		www.amphenol-icc.com	www.te.com				10029449-111RLF	5-1903015-5		649-10029449-111RLF	571-5-1903015-5		www.mouser.com	
-H1, H2, H3, H4	4																	Leave empty
-J1, J2	2																	Leave empty
-J3	1																	Leave empty
-J4	1																	Leave empty
-J5	1																www.mouser.com	Leave empty
-L1, L2, L3	3		490-10649-1-ND			www.murata.com	www.murata.com	www.bourns.com			DFE322512F-2R2M=P2	DFE252012P-2R2M=P2	SRP2512A-2R2M	81-DFE322512F-2R2MP2	81-DFE252012P-2R2MP2	652-SRP2512A-2R2M	www.mouser.com	
-OLED1	1					www.displaymodule.com					DM-OLEDC095-626						www.mouser.com	Leave empty
-Q1	1		TBC857BLMCT-ND			www.nxp.com					BC857			863-BC857BLT1G			www.mouser.com	
-Q2	1		2N7002K-TPMSCT-ND			www.nxp.com					2N7002P,215			512-2N7002L			www.mouser.com	
-R1, R9, R11, R12, R13, R27, R28, R31, R32, R33, R34, R55, R63, R64, RA1, RA2, RA3	17		YAG3569CT-ND			www.yageo.com					AC0603FR-1015KL			603-RC0603FR-1015KL				
-R2, R24	2		P100KHCT-ND			www.yageo.com					AC0603FR-10100KL			71-CRCW0603100KFKEAC				
-R3, R4, R25, R26, R30, RB2	6		YAG3613CT-ND			www.yageo.com					AC0603FR-104K7L			603-RC0603FR-074K7L				
-R5	1		311-4.70MHRCT-ND			www.bourns.com					CR0603-JW-475ELF			652-CR0603JW-475ELF				
-R6, R8, R14, R18, R29, R36, R37, R40, R41, R42, R43, R44, R45, R46, R47, R48, R54, R57, R62	19		311-1.20KHRCT-ND			www.yageo.com					RC0603FR-071KL			603-AC0603JR-071K2L				
-R7, R10, R17, R21, R39, R51, R60	7		311-150HRCT-ND			www.yageo.com					AC0603FR-07150RL			603-AC0603FR-07150RL				
-R15, R19, R35, R58, R61, R65	6		311-680HRCT-ND			www.yageo.com					RC0603FR-10680RL			603-RC0603FR-10680RL				
-R16, R20, R59	3		YAG1298CT-ND			www.yageo.com					RC0603JR-07330RP			603-RC0603JR-07330RP				
-R22, R23, RB3	3		YAG3605CT-ND			www.yageo.com					RT0603FRE073K3L			603-RC0603FR-103K3L				
-R38	1		73L2R47JCT-ND			www.ctscorp.com					73L2R47J			774-73L2R47J				
-R49, R50, R52, R53	4		311-27.0HRCT-ND			www.yageo.com					AC0603JR-0727RL			603-AC0603JR-0727RL				
-R56	1				RC0603JR-070RL	www.yageo.com												Leave empty
-RB1	1		 311-18.0KHRCT-ND			www.yageo.com					RC0603FR-1018KL			71-CRCW060318K0FKEAC				
-RP1, RP2, RP3	3		541-2968-1-ND			www.yageo.com					RC0603JR-070RL			603-RC0603JR-070RL			www.mouser.com	
-RV2, RV3	2				RC0603JR-070RL	www.yageo.com											www.mouser.com	Leave empty
-SD1	1	https://www.molex.com/pdm_docs/sd/472192001_sd.pdf	WM6698DKR-ND			www.on-stars.com	www.molex.com				SCHD3A0100	47219-2001		538-47219-2001	688-SCHD3A0100			
-SW1	1		CT2194MST-ND			www.jameco.com					219-4MST			774-2194MST 			www.mouser.com	
-U1	1		220-2071-ND			www.latticesemi.com	www.latticesemi.com				LFE5U-85F-6BG381C	LFE5U-12F-6BG381C		842-LFE5U85F6BG381C	842-LFE5U12F6BG381C		www.mouser.com	
-U2	1		1450-1352-1-ND			www.micron.com	www.issi.com				MT48LC16M16A2TG-6A	IS42S16160G-7TL-TR		913-4816M16A2TG6AGTR	870-IS42S16160G7TLTR		www.mouser.com	
-U3, U4, U5	3		296-47360-1-ND			www.ti.com	www.dioo.com				TLV62569DBVR	DIO6015BCST5		595-TLV62569DBVR	453-DIO6015BCST5		www.mouser.com	
-U6	1		768-1129-1-ND			www.ftdichip.com					FT231XS			895-FT231XS-R			www.mouser.com	
-U7	1		568-5306-1-ND			www.nxp.com			https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf		 PCF8523T/1,118 			771-PCF8523T/1118			www.mouser.com	
-U8	1		MAX11125ATI+-ND			www.maximintegrated.com	www.maximintegrated.com				MAX11125ATI+	MAX11123ATI+		700-MAX11125ATI+	700-MAX11123ATI+		www.mouser.com	
-U9	1		1904-1010-1-ND			espressif.com					ESP-WROOM-32			356-ESP-WROOM-32 			www.mouser.com	
-U10	1		706-1607-1-ND			www.issi.com	www.issi.com				IS25LP032D-JNLE-TR	IS25LP032D-JNLA3		870-IS25LP032DJNLETR	870-IS25LP032DJNLA3T		www.mouser.com	
-U11	1		568-4215-1-ND			www.nxp.com					PCA9306D			771-PCA9306D-T			www.mouser.com	
-US1, US2	2		609-4613-1-ND			www.fciconnect.com					10118192-0001LF			649-10118192-0001LF 			www.mouser.com	
-Y1	1		FNETHE025CT-ND			www.diodes.com					FNETHE025			729-FNETHE025			www.mouser.com	
-Y2	1		1923-1019-1-ND			www.iqdfrequencyproducts.com					LFXTAL003000Reel			815-ABS25-32.768KHZT			www.mouser.com	
+References	Qty	Datasheet2	Digikey	Digikey2	EMPTY_PN	MFG1	MFG1_URL	MFG2_URL	MFG3_URL	MFG_TR_DS	MNF1_URL	MPN	MPN2	MPN3	Mouser	Mouser2	Mouser3	Mouser_URL	Note
+AE1	1																		Leave empty
+AUDIO1	1		CP-43516SJCT-ND			CUI					www.cui.com	SJ-43516-SMT-TR			490-SJ-43516-SMT-TR 			www.mouser.com	
+BAT1	1		36-3000CT-ND				www.keyelco.com					3000TR			534-3000TR			www.mouser.com	
+BTN0, BTN1, BTN2, BTN3, BTN4, BTN5, BTN6	7		CKN9088CT-ND				www.ckswitches.com					PTS645SL50SMTR92 LFS			611-PTS645SL50SMTR92			www.mouser.com	
+C1, C3, C4, C5, C7, C8, C9, C11, C12, C15, C21, C54, C55	13		1276-2412-1-ND				www.yageo.com					CC0805ZKY5V5BB226 			81-GRM188C60J226ME0J				
+C2, C6, C10, C18	4		399-9086-1-ND				www.yageo.com					CS0603KRX7R9BB471			603-CS0603KRX79BB471				
+C13, C16, C17, C19, C20, C22, C23, C24, C46, C47	10		1276-2903-1-ND				www.yageo.com					CC0805MRX5R6BB225			603-CC805MRX5R6BB225				
+C14, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45	11		445-8129-1-ND				www.yageo.com					CC0603KRX7R8BB104			81-GCM188R71E224K55D				
+C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C48, C49, C50, C51, C52, C53	17		1276-2000-1-ND				www.yageo.com					CX0603MRX7R8BB223			603-AC603KRX7R7BB223				
+D0, D4, D11, D19	4		160-1415-1-ND				www.liteon.com					LTST-C170KRKT			859-LTST-C170KRKT			www.mouser.com	
+D1, D5	2		160-1413-1-ND				www.liteon.com					LTST-C170KFKT			859-LTST-C170KFKT			www.mouser.com	
+D2, D6, D18	3		160-1414-1-ND				www.liteon.com					LTST-C170KGKT			859-LTST-C170KGKT 			www.mouser.com	
+D3, D7, D22	3		160-1579-1-ND				www.liteon.com					LTST-C170TBKT			859-LTST-C170TBKT			www.mouser.com	
+D8, D9, D51, D52	4		497-12310-1-ND				www.st.com					STPS2L30AF			511-STPS2L30AF 			www.mouser.com	
+D10, D13, D14, D16, D17, D23, D24, D25, D26	9		1N4148WSFSCT-ND				www.fairchildsemi.com					1N4148WS			512-1N4148WS			www.mouser.com	
+D12, D15	2		NSR0530HT1GOSCT-ND				www.onsemi.com	www.diodes.com				NSR0530HT1G 	BAT54WSQ-7-F 		863-NSR0530HT1G 	621-BAT54WSQ-7-F 		www.mouser.com	
+D20, D21	2		BZT52C3V6S-TPMSCT-ND				www.taiwansemi.com					BZT52C3V6S			821-BZT52C3V6S			www.mouser.com	
+GPDI1	1	https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf	609-4614-1-ND	A136174CT-ND			www.amphenol-icc.com	www.te.com				10029449-111RLF	5-1903015-5		649-10029449-111RLF	571-5-1903015-5		www.mouser.com	
+H1, H2, H3, H4	4																		Leave empty
+J1, J2	2																		Leave empty
+J3	1																		Leave empty
+J4	1																		Leave empty
+J5	1																	www.mouser.com	Leave empty
+L1, L2, L3	3		490-10649-1-ND				www.murata.com	www.murata.com	www.bourns.com			DFE322512F-2R2M=P2	DFE252012P-2R2M=P2	SRP2512A-2R2M	81-DFE322512F-2R2MP2	81-DFE252012P-2R2MP2	652-SRP2512A-2R2M	www.mouser.com	
+OLED1	1						www.displaymodule.com					DM-OLEDC095-626						www.mouser.com	Leave empty
+Q1	1		TBC857BLMCT-ND				www.nxp.com					BC857			863-BC857BLT1G			www.mouser.com	
+Q2	1		2N7002K-TPMSCT-ND				www.nxp.com					2N7002P,215			512-2N7002L			www.mouser.com	
+R1, R9, R11, R12, R13, R27, R28, R31, R32, R33, R34, R55, R63, R64, RA1, RA2, RA3	17		YAG3569CT-ND				www.yageo.com					AC0603FR-1015KL			603-RC0603FR-1015KL				
+R2, R24	2		P100KHCT-ND				www.yageo.com					AC0603FR-10100KL			71-CRCW0603100KFKEAC				
+R3, R4, R25, R26, R30, RB2	6		YAG3613CT-ND				www.yageo.com					AC0603FR-104K7L			603-RC0603FR-074K7L				
+R5	1		311-4.70MHRCT-ND				www.bourns.com					CR0603-JW-475ELF			652-CR0603JW-475ELF				
+R6, R8, R14, R18, R29, R36, R37, R40, R41, R42, R43, R44, R45, R46, R47, R48, R54, R57, R62	19		311-1.20KHRCT-ND				www.yageo.com					RC0603FR-071KL			603-AC0603JR-071K2L				
+R7, R10, R17, R21, R39, R51, R60	7		311-150HRCT-ND				www.yageo.com					AC0603FR-07150RL			603-AC0603FR-07150RL				
+R15, R19, R35, R58, R61, R65	6		311-680HRCT-ND				www.yageo.com					RC0603FR-10680RL			603-RC0603FR-10680RL				
+R16, R20, R59	3		YAG1298CT-ND				www.yageo.com					RC0603JR-07330RP			603-RC0603JR-07330RP				
+R22, R23, RB3	3		YAG3605CT-ND				www.yageo.com					RT0603FRE073K3L			603-RC0603FR-103K3L				
+R38	1		73L2R47JCT-ND				www.ctscorp.com					73L2R47J			774-73L2R47J				
+R49, R50, R52, R53	4		311-27.0HRCT-ND				www.yageo.com					AC0603JR-0727RL			603-AC0603JR-0727RL				
+R56	1				RC0603JR-070RL		www.yageo.com												Leave empty
+RB1	1		 311-18.0KHRCT-ND				www.yageo.com					RC0603FR-1018KL			71-CRCW060318K0FKEAC				
+RP1, RP2, RP3	3		541-2968-1-ND				www.yageo.com					RC0603JR-070RL			603-RC0603JR-070RL			www.mouser.com	
+RV2, RV3	2				RC0603JR-070RL		www.yageo.com											www.mouser.com	Leave empty
+SD1	1	https://www.molex.com/pdm_docs/sd/472192001_sd.pdf	WM6698DKR-ND				www.on-stars.com	www.molex.com				SCHD3A0100	47219-2001		538-47219-2001	688-SCHD3A0100			
+SW1	1		CT2194MST-ND				www.jameco.com					219-4MST			774-2194MST 			www.mouser.com	
+U1	1		220-2071-ND				www.latticesemi.com	www.latticesemi.com				LFE5U-85F-6BG381C	LFE5U-12F-6BG381C		842-LFE5U85F6BG381C	842-LFE5U12F6BG381C		www.mouser.com	
+U2	1		1450-1352-1-ND				www.micron.com	www.issi.com				MT48LC16M16A2TG-6A	IS42S16160G-7TL-TR		913-4816M16A2TG6AGTR	870-IS42S16160G7TLTR		www.mouser.com	
+U3, U4, U5	3		296-47360-1-ND				www.ti.com	www.dioo.com				TLV62569DBVR	DIO6015BCST5		595-TLV62569DBVR	453-DIO6015BCST5		www.mouser.com	
+U6	1		768-1129-1-ND				www.ftdichip.com					FT231XS			895-FT231XS-R			www.mouser.com	
+U7	1		568-5306-1-ND				www.nxp.com			https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf		 PCF8523T/1,118 			771-PCF8523T/1118			www.mouser.com	
+U8	1		MAX11125ATI+-ND				www.maximintegrated.com	www.maximintegrated.com				MAX11125ATI+	MAX11123ATI+		700-MAX11125ATI+	700-MAX11123ATI+		www.mouser.com	
+U9	1		1904-1010-1-ND				espressif.com					ESP-WROOM-32			356-ESP-WROOM-32 			www.mouser.com	
+U10	1		706-1607-1-ND				www.issi.com	www.issi.com				IS25LP032D-JNLE-TR	IS25LP032D-JNLA3		870-IS25LP032DJNLETR	870-IS25LP032DJNLA3T		www.mouser.com	
+U11	1		568-4215-1-ND				www.nxp.com					PCA9306D			771-PCA9306D-T			www.mouser.com	
+US1, US2	2		609-4613-1-ND				www.fciconnect.com					10118192-0001LF			649-10118192-0001LF 			www.mouser.com	
+Y1	1		FNETHE025CT-ND				www.diodes.com					FNETHE025			729-FNETHE025			www.mouser.com	
+Y2	1		1923-1019-1-ND				www.iqdfrequencyproducts.com					LFXTAL003000Reel			815-ABS25-32.768KHZT			www.mouser.com	
