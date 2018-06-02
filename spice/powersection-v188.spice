@@ -1,4 +1,4 @@
-* POWERSECTION -> plot v(pwrbtn_pulse),v(shutdown_pulse),v(wake_pulse),v(p3v3),v(ftdi_nsleep)
+* POWERSECTION -> plot v(pwrbtn_pulse),v(shutdown_pulse),v(wake_pulse),v(p3v3),v(ftdi_nsleep),v(pwren)
 
 * Simulation of power network
 * POWER ON: USB plugged in, POWER button, RTC alarm, FTDI_nSLEEP
@@ -40,7 +40,7 @@ Vhard3V3 hard_3V3 0 3.3V
 Rsmps hard_3V3 PWR3V3 10
 
 * base resistor
-R6 WAKEUPn WKn 1k
+R6 WAKEUPn WKn 1.2k
 * PNP transistor
 Q1 WKUP WKn USB5V BC857
 * Slow down capacitor, initially discharged
@@ -51,25 +51,25 @@ D13 0 WKUP N4148
 * diode to activate onboard switching regulator
 D10 WKUP WAKE N4148
 * "OR" resistors
-R1 WAKE PWREN 15k
+R1 WAKE PWREN 4.7k
 R4 PWREN HOLD 15k
 * "OR" diode to 3.3V from switching regulator
-D11 P3V3 HOLD N4148
+D11 P3V3 HOLD LED_RED
 
 * switching regulator, default off, starts by hysteresis
 SW3V3 PWR3V3 P3V3 PWREN 0 SWITCH OFF
 
 * pull down resistor
-R2 PWREN 0 47k
+R2 PWREN 0 18k
 
 * small mosfet
 M1 drain SHUT 0 0 N7002
 * drain resistor
-R8 drain PWREN 1k
+R8 drain PWREN 680
 * mosfet gate slowdown resistor
-C14 SHUT 0 100nF
+C14 SHUT 0 220nF
 * mosfet gate discharge (default OFF) resistor
-R5 SHUT 0 4.7MEG
+R5 SHUT 0 2.2MEG
 
 * diode to discharge gate at shutdown
 D14 SHUT P3V3 N4148
@@ -94,7 +94,7 @@ RL P3V3 0   100
 CL P3V3 0   1000uF
 
 
-.TRAN 1ms 3s
+.TRAN 1ms 3.3s
 .OPTIONS METHOD=GEAR, RELTOL=1E-3, itl1=500, itl4=500
 *.OPTIONS gmin=1e-11 reltol=4e-4 itl1=500 itl4=500
 *.OPTIONS gmin = 1E-12, reltol = 1E-3, itl1 = 500, itl4 = 500 
@@ -102,6 +102,15 @@ CL P3V3 0   1000uF
 .MODEL SWITCH SW (VT=1V, VH=0.5V, RON=0.01, ROFF=100MEG)
 .MODEL N4148 D (CJO=0.2pF)
 .MODEL BAT42 D (VJ=0.25)
+*Typ RED GaAs LED: Vf=1.7V Vr=4V If=40mA trr=3uS
+.MODEL LED_RED D (IS=93.2P RS=42M N=3.73 BV=4 IBV=10U
++ CJO=2.97P VJ=.75 M=.333 TT=4.32U)
+*Typ RED,GREEN,YELLOW,AMBER GaAs LED: Vf=2.1V Vr=4V If=40mA trr=3uS
+.MODEL LED_GREEN D (IS=93.1P RS=42M N=4.61 BV=4 IBV=10U
++ CJO=2.97P VJ=.75 M=.333 TT=4.32U)
+*Typ BLUE SiC LED: Vf=3.4V Vr=5V If=40mA trr=3uS
+.MODEL LED_BLUE D (IS=93.1P RS=42M N=7.47 BV=5 IBV=30U
++ CJO=2.97P VJ=.75 M=.333 TT=4.32U)
 .MODEL BC847 NPN (BF=150)
 .MODEL BC857 PNP (BF=150)
 .MODEL N7002 NMOS (LEVEL=1, VTO=2.5, KP=40, RS=0.033, RD=0.034)
