@@ -7355,7 +7355,7 @@
       (net 314 /usb/US2VBUS))
     (pad 2 smd rect (at 2.5 0 180) (size 3.5 1.8) (layers B.Cu B.Paste B.Mask)
       (net 2 +5V))
-    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMA.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7398,7 +7398,7 @@
       (net 2 +5V))
     (pad 2 smd rect (at 2.5 0 90) (size 3.5 1.8) (layers B.Cu B.Paste B.Mask)
       (net 3 /gpio/IN5V))
-    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMA.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7441,7 +7441,7 @@
       (net 2 +5V))
     (pad 1 smd rect (at -2.5 0 270) (size 3.5 1.8) (layers B.Cu B.Paste B.Mask)
       (net 4 /gpio/OUT5V))
-    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMA.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7925,7 +7925,7 @@
       (net 171 /power/P1V1))
     (pad 2 smd rect (at 0.9625 0 270) (size 0.845 1) (layers B.Cu B.Paste B.Mask)
       (net 172 +1V1))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7961,7 +7961,7 @@
       (net 13 +2V5))
     (pad 1 smd rect (at -0.9625 0) (size 0.845 1) (layers B.Cu B.Paste B.Mask)
       (net 159 /power/P2V5))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7997,7 +7997,7 @@
       (net 158 /power/P3V3))
     (pad 2 smd rect (at 0.9625 0 270) (size 0.845 1) (layers B.Cu B.Paste B.Mask)
       (net 5 +3V3))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
