@@ -12,7 +12,7 @@ D0, D4, D11, D19	4		160-1415-1-ND							www.liteon.com			LTST-C170KRKT			859-LTS
 D1, D5	2		160-1413-1-ND							www.liteon.com			LTST-C170KFKT			859-LTST-C170KFKT			www.mouser.com	
 D2, D6, D18	3		160-1414-1-ND							www.liteon.com			LTST-C170KGKT			859-LTST-C170KGKT 			www.mouser.com	
 D3, D7, D22	3		160-1579-1-ND							www.liteon.com			LTST-C170TBKT-D7			755-SMLMN2BCTT86C	859-LTST-C170TBKT	859-LTST-C171TBKT	www.mouser.com	
-D8, D9, D51, D52	4		497-12310-1-ND							www.st.com			STPS2L30AF			511-STPS2L30AF 			www.mouser.com	
+D8	1		497-12310-1-ND							www.st.com			STPS2L30AF			511-STPS2L30AF 			www.mouser.com	
 D10, D13, D14, D16, D17, D23, D24, D25, D26	9		1N4148WSFSCT-ND							www.fairchildsemi.com			1N4148WS			512-1N4148WS			www.mouser.com	
 D12, D15	2		NSR0530HT1GOSCT-ND			ON semiconductor	Diodes inc.			www.onsemi.com	www.diodes.com		NSR0530HT1G 	BAT54WSQ-7-F 		863-NSR0530HT1G 	621-BAT54WSQ-7-F 		www.mouser.com	
 D20, D21	2		BZT52C3V6S-TPMSCT-ND							www.taiwansemi.com			BZT52C3V6S			821-BZT52C3V6S			www.mouser.com	
@@ -39,7 +39,8 @@ R38	1		73L2R47JCT-ND			CTS				www.ctscorp.com			73L2R47J			774-73L2R47J
 R49, R50, R52, R53	4		311-27.0HRCT-ND							www.yageo.com			AC0603JR-0727RL			603-AC0603JR-0727RL				
 R56	1				RC0603JR-070RL					www.yageo.com										Leave empty
 RB1	1		 311-18.0KHRCT-ND							www.yageo.com			RC0603FR-1018KL			71-CRCW060318K0FKEAC				
-RP1, RP2, RP3	3		541-2968-1-ND							www.yageo.com			RC0603JR-070RL			603-RC0603JR-070RL			www.mouser.com	
+RD9, RD51, RD52	3		YAG1327CT-ND			Yageo	ST			www.yageo.com			RC0805JR-070RL	STPS2L30AF		603-RC0805JR-070RL	511-STPS2L30AF 		www.mouser.com	
+RP1, RP2, RP3	3		YAG1327CT-ND	541-2968-1-ND						www.yageo.com			RC0805JR-070RL	RC0603JR-070RL		603-RC0805JR-070RL	603-RC0603JR-070RL		www.mouser.com	
 RV2, RV3	2				RC0603JR-070RL					www.yageo.com									www.mouser.com	Leave empty
 SD1	1	https://www.molex.com/pdm_docs/sd/472192001_sd.pdf	WM6698DKR-ND							www.on-stars.com	www.molex.com		SCHD3A0100	47219-2001		538-47219-2001	688-SCHD3A0100			
 SW1	1		CT2194MST-ND							www.jameco.com			219-4MST			774-2194MST 			www.mouser.com	
