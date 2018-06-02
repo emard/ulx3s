@@ -583,7 +583,7 @@ Wire Wire Line
 Text Label 10200 1350 0    60   ~ 0
 ANT_433MHz
 Text Notes 650  4100 0    60   ~ 0
-D8,D9: Schottky 2A/30V \nLow drop Vfmax=0.375V
+D8,D9: Schottky 2A/30V \nLow drop Vfmax=0.375V\nParts reduction: Only D8 is required.\nD9 D51 D52 can be 1206\n1A polyfuses or 0-ohm/2A jumpers
 $Comp
 L Device:R R54
 U 1 1 59D562D0
