@@ -52,9 +52,9 @@ D13 0 WKUP N4148
 D10 WKUP WAKE N4148
 * "OR" resistors
 R1 WAKE PWREN 4.7k
-R4 PWREN HOLD 15k
+R4 PWREN HOLD 4.7k
 * "OR" diode to 3.3V from switching regulator
-D11 P3V3 HOLD LED_RED
+D11 P3V3 HOLD LED_GREEN
 
 * switching regulator, default off, starts by hysteresis
 SW3V3 PWR3V3 P3V3 PWREN 0 SWITCH OFF
