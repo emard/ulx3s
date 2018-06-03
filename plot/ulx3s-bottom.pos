@@ -1,4 +1,4 @@
-### Module positions - created on Sun Jun  3 18:46:56 2018 ###
+### Module positions - created on Mon Jun  4 00:03:17 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2-dev-unknown+dfsg1+20180318-2
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -113,8 +113,8 @@ R40       1.2k                R_0603_1608Metric                               2.
 R49       27                  R_0603_1608Metric                               0.7550     1.5250   90.0000  bottom
 R50       27                  R_0603_1608Metric                               0.6800     1.5250   90.0000  bottom
 R51       150                 R_0603_1608Metric                               2.4500     1.5643  180.0000  bottom
-R52       27                  R_0603_1608Metric                               3.0400     1.7817   90.0000  bottom
-R53       27                  R_0603_1608Metric                               2.9850     1.7817   90.0000  bottom
+R52       27                  R_0603_1608Metric                               3.0406     1.7743   90.0000  bottom
+R53       27                  R_0603_1608Metric                               2.9850     1.7743   90.0000  bottom
 R54       1.2k                R_0603_1608Metric                               3.1300     1.8300    0.0000  bottom
 R55       15k                 R_0603_1608Metric                               1.6000     0.5750  270.0000  bottom
 R57       1.2k                R_0603_1608Metric                               0.9300     1.5300   90.0000  bottom
