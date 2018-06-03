@@ -718,7 +718,7 @@ F 7 "P2.20MHCT-ND" V 3400 5850 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 Text Notes 2750 6250 0    60   ~ 0
-R5,C14 to hold 0.5s shutdown
+R5, C14 to hold 0.5s shutdown
 Text Label 4300 4100 0    60   ~ 0
 WKUP
 Text Label 4300 4500 0    60   ~ 0
@@ -3204,4 +3204,6 @@ Wire Wire Line
 	1500 2850 1500 2900
 Text Label 1550 2850 0    60   ~ 0
 RTCVDD
+Text Notes 4400 5300 0    60   ~ 0
+D11 (2V), R2, R4 hold PWREN on 1V\nin the middle of 0.4-1.5V hysteresis
 $EndSCHEMATC
