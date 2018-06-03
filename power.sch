@@ -770,7 +770,7 @@ P 4100 5200
 AR Path="/58D8111E" Ref="R8"  Part="1" 
 AR Path="/58D51CAD/58D8111E" Ref="R8"  Part="1" 
 F 0 "R8" V 4180 5200 50  0000 C CNN
-F 1 "680" V 4100 5200 50  0000 C CNN
+F 1 "1.2k" V 4100 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 5200 50  0001 C CNN
 F 3 "" H 4100 5200 50  0000 C CNN
 	1    4100 5200
@@ -3143,14 +3143,13 @@ F 7 "595-TLV62569DBVR" H 8050 5800 50  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D12
+L Device:D_Schottky D12
 U 1 1 5AF673FF
 P 3800 4950
 F 0 "D12" H 3800 5050 50  0000 C CNN
-F 1 "1N4148" H 3800 4850 50  0000 C CNN
+F 1 "BAT54W" H 3800 4850 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3800 4950 50  0001 C CNN
 F 3 "" H 3800 4950 50  0001 C CNN
-F 4 "1N4148WS" H 3800 4950 50  0001 C CNN "MPN"
 	1    3800 4950
 	-1   0    0    1   
 $EndComp
@@ -3206,4 +3205,6 @@ Text Label 1550 2850 0    60   ~ 0
 RTCVDD
 Text Notes 4400 5300 0    60   ~ 0
 D11 (2V), R2, R4 hold PWREN on 1V\nin the middle of 0.4-1.5V hysteresis
+Text Notes 850  5050 0    60   ~ 0
+FTDI_nSLEEP is 2.5V\nD12 must be schottky
 $EndSCHEMATC
