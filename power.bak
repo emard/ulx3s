@@ -7,8 +7,8 @@ encoding utf-8
 Sheet 3 11
 Title "ULX3S"
 Date ""
-Rev ""
-Comp "FER+RIZ+RADIONA"
+Rev "1.0.0"
+Comp "EMARD"
 Comment1 "Power"
 Comment2 ""
 Comment3 ""
@@ -3143,14 +3143,13 @@ F 7 "595-TLV62569DBVR" H 8050 5800 50  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D12
+L Device:D_Schottky D12
 U 1 1 5AF673FF
 P 3800 4950
 F 0 "D12" H 3800 5050 50  0000 C CNN
-F 1 "1N4148" H 3800 4850 50  0000 C CNN
+F 1 "BAT54W" H 3800 4850 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3800 4950 50  0001 C CNN
 F 3 "" H 3800 4950 50  0001 C CNN
-F 4 "1N4148WS" H 3800 4950 50  0001 C CNN "MPN"
 	1    3800 4950
 	-1   0    0    1   
 $EndComp

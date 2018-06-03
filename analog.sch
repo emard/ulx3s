@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 11
-Title ""
+Title "ULX3S"
 Date ""
-Rev ""
-Comp "FER+RIZ+RADIONA"
+Rev "1.0.0"
+Comp "EMARD"
 Comment1 "Analog audio and video"
 Comment2 ""
 Comment3 ""

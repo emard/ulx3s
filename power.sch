@@ -7,8 +7,8 @@ encoding utf-8
 Sheet 3 11
 Title "ULX3S"
 Date ""
-Rev ""
-Comp "FER+RIZ+RADIONA"
+Rev "1.0.0"
+Comp "EMARD"
 Comment1 "Power"
 Comment2 ""
 Comment3 ""

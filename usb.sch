@@ -7,9 +7,9 @@ encoding utf-8
 Sheet 6 11
 Title "ULX3S"
 Date ""
-Rev "0.0.1"
-Comp "FER+RIZ+RADIONA"
-Comment1 "Root sheet"
+Rev "1.0.0"
+Comp "EMARD"
+Comment1 "USB serial and JTAG"
 Comment2 ""
 Comment3 ""
 Comment4 ""

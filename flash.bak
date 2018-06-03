@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 11
-Title ""
+Title "ULX3S"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1.0.0"
+Comp "EMARD"
+Comment1 "SPI flash"
 Comment2 ""
 Comment3 ""
 Comment4 ""

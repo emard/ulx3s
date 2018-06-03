@@ -7,8 +7,8 @@ encoding utf-8
 Sheet 5 11
 Title "ULX3S"
 Date ""
-Rev "0.0.1"
-Comp "FER+RIZ+RADIONA"
+Rev "1.0.0"
+Comp "EMARD"
 Comment1 "General Purpose Differential Interface"
 Comment2 "Digital Video and Ethernet"
 Comment3 ""

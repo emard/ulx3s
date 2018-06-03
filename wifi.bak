@@ -7,9 +7,9 @@ encoding utf-8
 Sheet 7 11
 Title "ULX3S"
 Date ""
-Rev "0.0.1"
-Comp "FER+RIZ+RADIONA"
-Comment1 "WIFI module ESP8266-12E"
+Rev "1.0.0"
+Comp "EMARD"
+Comment1 "WIFI module ESP32"
 Comment2 ""
 Comment3 ""
 Comment4 ""

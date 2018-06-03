@@ -7,8 +7,8 @@ encoding utf-8
 Sheet 4 11
 Title "ULX3S"
 Date ""
-Rev "0.0.1"
-Comp "FER+RIZ+RADIONA"
+Rev "1.0.0"
+Comp "EMARD"
 Comment1 "Buttons, LEDs, OLED display"
 Comment2 ""
 Comment3 ""

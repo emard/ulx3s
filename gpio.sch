@@ -7,9 +7,9 @@ encoding utf-8
 Sheet 2 11
 Title "ULX3S"
 Date ""
-Rev ""
-Comp "FER+RIZ+RADIONA"
-Comment1 "2.54 mm connectors"
+Rev "1.0.0"
+Comp "EMARD"
+Comment1 "GPIO 2.54 mm connectors"
 Comment2 ""
 Comment3 ""
 Comment4 ""
