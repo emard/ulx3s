@@ -56,6 +56,12 @@ R4 PWREN HOLD 15k
 * "OR" diode to 3.3V from switching regulator
 D11 P3V3 HOLD N4148
 
+* 2.5V from FTDI also supplies P3V3 line so it never falls to 0V
+* it explains why v1.7 wakes after power off
+VFTDI2V5 hard_2V5 0 2.8V
+* FTDI internal resistance for soft 2.5V to P3V3 line
+RFTDI hard_2V5 P3V3 10
+
 * switching regulator, default off, starts by hysteresis
 SW3V3 PWR3V3 P3V3 PWREN 0 SWITCH OFF
 
