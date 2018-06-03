@@ -36,7 +36,7 @@ Qwk  WAKEUPn wake_base 0  BC847
 
 * hard 3.3V voltage
 Vhard3V3 hard_3V3 0 3.3V
-* internal resistor provides "soft" 3.3V
+* internal resistor provides delayed rise of 3.3V
 Rsmps hard_3V3 PWR3V3 10
 
 * base resistor
