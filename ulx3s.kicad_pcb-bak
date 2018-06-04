@@ -6237,10 +6237,10 @@
       (net 1 GND))
     (pad 0 thru_hole circle (at 7.85 4.9 180) (size 2 2) (drill 1.3) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/footprints/hdmi-d/hdmi-d.3dshapes/hdmi-d.wrl
-      (offset (xyz 0 -10 3.3))
+    (model ${KIPRJMOD}/footprints/hdmi-d/hdmi-d.3dshapes/10029449-111RLF.wrl
+      (offset (xyz 0 -1.6 3.3))
       (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz 180 0 0))
     )
   )
 
