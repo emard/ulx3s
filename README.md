@@ -51,7 +51,7 @@ computer and run its games, but can do much more.
 
 # Features
 
-FPGA: Lattice ECP5 LFE5U-85F-6BG381C
+FPGA: Lattice ECP5 LFE5U-85F-6BG381C (85K LUT)
 
 USB: FTDI FT231XS (300kbit JTAG and 3Mbit USB-serial)
 
