@@ -3111,6 +3111,11 @@
       (clearance 0.4))
     (pad "" np_thru_hole circle (at 0 4 270) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask F.SilkS)
       (clearance 0.4))
+    (model ${KIPRJMOD}/footprints/audio-jack/audio-jack.3dshapes/cui_sj_43516_smt_tr.wrl
+      (offset (xyz 0 7.5 2.6))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module SOT96-1:SOT96-1 (layer B.Cu) (tedit 5A0C2F78) (tstamp 5A0BABF2)
@@ -6232,10 +6237,10 @@
       (net 1 GND))
     (pad 0 thru_hole circle (at 7.85 4.9 180) (size 2 2) (drill 1.3) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/footprints/hdmi-d/hdmi-d.3dshapes/hdmi-d.wrl
-      (offset (xyz 0 -10 3.3))
+    (model ${KIPRJMOD}/footprints/hdmi-d/hdmi-d.3dshapes/10029449-111RLF.wrl
+      (offset (xyz 0 -1.6 3.3))
       (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz 180 0 0))
     )
   )
 
