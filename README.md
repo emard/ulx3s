@@ -105,22 +105,13 @@ Select [Mouser](http://www.mouser.com) language/location icon to PCBA manufactur
 country of origin and $-currency to check is PCBA manufacturer telling the truth
 about prices.
 
-[PCBWAY](http://www.pcbway.com) produced [ULX3S v1.7 45F](/pic/ulx3sb-v17.jpg) in
-December 2017 at above of CLASS 3 quality, $126 per
-board. They produced [ULX3S v1.8 85F](/pic/ulx3sb-v18.jpg) in 
-May 2018. Boards look like on the edge of CLASS 1 quality acceptance
-(drill randomness and copper layer 
-misaligment, [some holes have breakout near 180°](/pic/ulx3sb-v18-breakout-c19.png)),
-while they claim it is still CLASS 2 compliant.
-They charged $134 per board but agree to return money. [PCBWAY](http://www.pcbway.com) is
-cheap at boards and assembly but 
-charged $40 for FPGA 85F chip which costed about $30 on [Mouser](http://www.mouser.com) at
-that time.
+Before soldering the parts, ask manufacturer for [pictures](/pic/ulx3sb-v18.jpg) of PCB.
+CLASS 3 demands, among other things, that all drill holes stay inside of VIA pads.
+If some holes [break-out](/pic/ulx3sb-v18-breakout-c19.png)) from pads,
+ask manufacturer to make new PCBs with better drill and copper layer alignment.
 
-[PCBCART](http://www.pcbcart.com) would be my next choice because they
-offer CLASS 3 quality and assembly at reasonable cost. Prices for the
-parts are equal as from [Mouser](http://www.mouser.com) so total price per
-board should be about the same as above.
+[PCBCART](http://www.pcbcart.com) offers CLASS 3 quality and assembly at reasonable cost.
+Prices for the parts are equal to [Mouser](http://www.mouser.com).
 
 Don't pay everything at once. Following payment phases during the
 PCBA production are recommended:
