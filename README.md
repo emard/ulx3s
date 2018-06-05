@@ -238,5 +238,5 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] DIP switch must be pulled up at 2.5/3.3V or 2.5V line, not 3.3V
     [x] RTC time loss at power down fixed with 1k+22uF - see page 54 of datasheet
     [x] Rotate SD card 180° for easier front loading
-    [ ] Move C1,C21 away from J1 connector (make space for IDC header)
+    [x] Move C1, C21, C50 away from J1, J2 connectors (make space for IDC header)
 
