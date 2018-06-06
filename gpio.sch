@@ -37,12 +37,12 @@ F 3 "" H 9000 3550 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:D_Schottky_Small D51
+L Device:Jumper_NC_Small RD51
 U 1 1 56AC483B
 P 7450 5350
-F 0 "D51" H 7450 5450 50  0000 C CNN
-F 1 "STPS2L30AF" H 7450 5250 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" V 7450 5350 60  0001 C CNN
+F 0 "RD51" H 7450 5450 50  0000 C CNN
+F 1 "0" H 7450 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder" V 7450 5350 60  0001 C CNN
 F 3 "" V 7450 5350 60  0000 C CNN
 	1    7450 5350
 	1    0    0    -1  
@@ -50,12 +50,12 @@ $EndComp
 Text Label 7900 5350 0    60   ~ 0
 IN5V
 $Comp
-L Device:D_Schottky_Small D52
+L Device:Jumper_NC_Small RD52
 U 1 1 56AC4846
 P 9400 5350
-F 0 "D52" H 9400 5450 50  0000 C CNN
-F 1 "STPS2L30AF" H 9400 5250 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" V 9400 5350 60  0001 C CNN
+F 0 "RD52" H 9400 5450 50  0000 C CNN
+F 1 "0" H 9400 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder" V 9400 5350 60  0001 C CNN
 F 3 "" V 9400 5350 60  0000 C CNN
 	1    9400 5350
 	1    0    0    -1  
@@ -636,4 +636,32 @@ Text GLabel 2650 4400 2    60   Input ~ 0
 2V5_3V3
 Text GLabel 2700 3500 2    60   Input ~ 0
 2V5_3V3
+Wire Notes Line
+	7550 5100 7450 5100
+Wire Notes Line
+	7450 5150 7450 5050
+Wire Notes Line
+	7450 5150 7400 5100
+Wire Notes Line
+	7400 5100 7450 5050
+Wire Notes Line
+	7400 5050 7400 5150
+Wire Notes Line
+	7400 5100 7300 5100
+Text Notes 7150 5050 0    60   ~ 0
+STPS2L30AF
+Wire Notes Line
+	9550 5100 9450 5100
+Wire Notes Line
+	9450 5150 9450 5050
+Wire Notes Line
+	9450 5150 9400 5100
+Wire Notes Line
+	9400 5100 9450 5050
+Wire Notes Line
+	9400 5050 9400 5150
+Wire Notes Line
+	9400 5100 9300 5100
+Text Notes 9150 5050 0    60   ~ 0
+STPS2L30AF
 $EndSCHEMATC
