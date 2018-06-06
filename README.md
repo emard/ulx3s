@@ -107,7 +107,7 @@ about prices.
 
 Before soldering the parts, ask manufacturer for [pictures](/pic/ulx3sb-v18.jpg) of PCB.
 CLASS 3 demands, among other things, that all drill holes stay inside of VIA pads.
-If some holes [break-out](/pic/ulx3sb-v18-breakout-c19.png)) from pads,
+If some holes [break-out](/pic/ulx3sb-v18-breakout-c19.png) from pads,
 ask manufacturer to make new PCBs with better drill and copper layer alignment.
 
 [PCBCART](http://www.pcbcart.com) offers CLASS 3 quality and assembly at reasonable cost.
