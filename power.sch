@@ -806,7 +806,7 @@ AR Path="/58D883BD" Ref="Q2"  Part="1"
 AR Path="/58D51CAD/58D883BD" Ref="Q2"  Part="1" 
 F 0 "Q2" H 3850 5700 50  0000 L CNN
 F 1 "2N7002" H 3750 5800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4200 5700 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4200 5700 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data_sheet/2N7002.pdf" H 4000 5600 50  0001 C CNN
 F 4 "www.nxp.com" H 4000 5600 50  0001 C CNN "MNF1_URL"
 F 5 "2N7002P,215" H 4000 5600 60  0001 C CNN "MPN"
@@ -824,7 +824,7 @@ AR Path="/58D89315" Ref="Q1"  Part="1"
 AR Path="/58D51CAD/58D89315" Ref="Q1"  Part="1" 
 F 0 "Q1" H 3800 3650 50  0000 L CNN
 F 1 "BC857" H 3750 3950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4150 3850 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 3850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf" H 3950 3750 50  0001 C CNN
 F 4 "www.nxp.com" H 3950 3750 50  0001 C CNN "MNF1_URL"
 F 5 "BC857" H 3950 3750 60  0001 C CNN "MPN"
