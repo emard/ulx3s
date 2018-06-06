@@ -1,4 +1,4 @@
-### Module positions - created on Wed Jun  6 20:47:12 2018 ###
+### Module positions - created on Wed Jun  6 21:11:22 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2+dfsg1-2
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -44,8 +44,8 @@ R46       680                R_0603_1608Metric                               0.5
 R47       680                R_0603_1608Metric                               0.4500     1.1700   90.0000  top
 R48       680                R_0603_1608Metric                               0.3500     1.1700   90.0000  top
 R62       680                R_0603_1608Metric                               1.2500     0.1000  270.0000  top
-RV2       0                  R_0805_2012Metric_Pad1.29x1.40mm_HandSolder     1.4561     1.6695    0.0000  top
-RV3       0                  R_0805_2012Metric_Pad1.29x1.40mm_HandSolder     1.5756     1.6695    0.0000  top
+RV2       0                  R_0805_2012Metric_Pad1.29x1.40mm_HandSolder     1.4456     1.6695    0.0000  top
+RV3       0                  R_0805_2012Metric_Pad1.29x1.40mm_HandSolder     1.5787     1.6695    0.0000  top
 SW1       DIPSW              SW_DIP_x4_W8.61mm_Slide_LowProfile              2.6000     1.5000   90.0000  top
 U1        LFE5U-85F-6BG381C  BGA-381_pitch0.8mm_dia0.4mm                     1.7472     0.9614    0.0000  top
 U2        MT48LC16M16A2TG    TSOP54                                          2.7950     0.9614   90.0000  top
