@@ -1,4 +1,4 @@
-### Module positions - created on Wed Jun  6 08:37:34 2018 ###
+### Module positions - created on Wed Jun  6 20:47:12 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2+dfsg1-2
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -17,7 +17,7 @@ C10       470pF               C_0603_1608Metric                              -0.
 C11       22uF                C_0805_2012Metric                              -0.6000     1.1000  180.0000  bottom
 C12       22uF                C_0805_2012Metric                              -0.6000     1.0250  180.0000  bottom
 C13       2.2uF               C_0805_2012Metric                              -3.1150     1.0800   90.0000  bottom
-C14       100nF               C_0603_1608Metric                              -3.2000     1.4250  270.0000  bottom
+C14       220nF               C_0603_1608Metric                              -3.2000     1.4250  270.0000  bottom
 C15       22uF                C_0805_2012Metric                              -0.4400     0.5200   90.0000  bottom
 C16       2.2uF               C_0805_2012Metric                              -2.8900     0.9900   90.0000  bottom
 C17       2.2uF               C_0805_2012Metric                              -1.7480     0.8110  270.0000  bottom
@@ -49,8 +49,7 @@ C52       22nF                C_0603_1608Metric                              -2.
 C53       22nF                C_0603_1608Metric                              -1.5591     1.0193  180.0000  bottom
 C54       22uF                C_0805_2012Metric                              -2.9556     0.6293   90.0000  bottom
 C55       22uF                C_0805_2012Metric                              -3.3456     0.7993  270.0000  bottom
-D8        STPS2L30AF          D_SMA_Handsoldering                            -0.7150     1.6700    0.0000  bottom
-D9        STPS2L30AF          D_SMA_Handsoldering                            -2.7800     1.5200  180.0000  bottom
+D8        STPS2L30AF          D_SMA                                          -0.7106     1.6593    0.0000  bottom
 D10       1N4148              D_SOD-323_HandSoldering                        -3.0000     1.1000    0.0000  bottom
 D11       RED                 LED_0805_2012Metric                            -3.3500     1.2750   90.0000  bottom
 D12       BAT54W              D_SOD-323_HandSoldering                        -2.9500     1.2750   90.0000  bottom
@@ -65,25 +64,23 @@ D23       1N4148              D_SOD-323_HandSoldering                        -2.
 D24       1N4148              D_SOD-323_HandSoldering                        -2.7500     1.8450  180.0000  bottom
 D25       1N4148              D_SOD-323_HandSoldering                        -3.2800     1.6200   90.0000  bottom
 D26       1N4148              D_SOD-323_HandSoldering                        -3.3600     1.6200  270.0000  bottom
-D51       STPS2L30AF          D_SMA_Handsoldering                            -2.4250     1.8000   90.0000  bottom
-D52       STPS2L30AF          D_SMA_Handsoldering                            -2.6000     1.8000  270.0000  bottom
 L1        2.2uH               L_1008_1210                                    -2.5500     0.9500  180.0000  bottom
 L2        2.2uH               L_1008_1210                                    -0.4250     0.9250    0.0000  bottom
 L3        2.2uH               L_1008_1210                                    -2.4500     1.4750  180.0000  bottom
-Q1        BC857               SOT-23_Handsoldering                           -3.2250     1.1000   90.0000  bottom
-Q2        2N7002              SOT-23_Handsoldering                           -3.0250     1.4250  180.0000  bottom
-R1        15k                 R_0603_1608Metric                              -3.0000     1.1750    0.0000  bottom
-R2        47k                 R_0603_1608Metric                              -3.1000     1.2750   90.0000  bottom
+Q1        BC857               SOT-23                                         -3.2250     1.1000   90.0000  bottom
+Q2        2N7002              SOT-23                                         -3.0250     1.4250  180.0000  bottom
+R1        4.7k                R_0603_1608Metric                              -3.0000     1.1750    0.0000  bottom
+R2        18k                 R_0603_1608Metric                              -3.1000     1.2750   90.0000  bottom
 R3        4.7k                R_0603_1608Metric                              -2.6750     1.6500   90.0000  bottom
 R4        4.7k                R_0603_1608Metric                              -3.2250     1.2500  180.0000  bottom
-R5        4.7M                R_0603_1608Metric                              -3.1500     1.4250  270.0000  bottom
+R5        2.2M                R_0603_1608Metric                              -3.1500     1.4250  270.0000  bottom
 R6        1.2k                R_0603_1608Metric                              -3.3250     1.0750  270.0000  bottom
 R7        150                 R_0603_1608Metric                              -0.7750     1.1000  270.0000  bottom
 R8        1.2k                R_0603_1608Metric                              -3.0250     1.2750   90.0000  bottom
 R9        15k                 R_0603_1608Metric                              -1.3500     0.1000  270.0000  bottom
 R10       150                 R_0603_1608Metric                              -2.2850     0.3600  180.0000  bottom
-R11       12k                 R_0603_1608Metric                              -1.0000     1.2500  270.0000  bottom
-R12       12k                 R_0603_1608Metric                              -0.8000     0.9400   90.0000  bottom
+R11       15k                 R_0603_1608Metric                              -1.0000     1.2500  270.0000  bottom
+R12       15k                 R_0603_1608Metric                              -0.8000     0.9400   90.0000  bottom
 R13       15k                 R_0603_1608Metric                              -3.2250     1.3250  180.0000  bottom
 R14       1.2k                R_0603_1608Metric                              -1.2400     1.0693  180.0000  bottom
 R15       680                 R_0603_1608Metric                              -1.2400     1.1293  180.0000  bottom
@@ -98,13 +95,13 @@ R23       3.3k                R_0603_1608Metric                              -1.
 R24       100k                R_0603_1608Metric                              -2.2250     1.7893   90.0000  bottom
 R25       4.7k                R_0603_1608Metric                              -2.1683     1.5643  180.0000  bottom
 R26       4.7k                R_0603_1608Metric                              -2.1806     1.6743  180.0000  bottom
-R27       12k                 R_0603_1608Metric                              -1.3750     0.6317   90.0000  bottom
-R28       12k                 R_0603_1608Metric                              -0.9250     1.2500  270.0000  bottom
+R27       15k                 R_0603_1608Metric                              -1.3750     0.6317   90.0000  bottom
+R28       15k                 R_0603_1608Metric                              -0.9250     1.2500  270.0000  bottom
 R29       1.2k                R_0603_1608Metric                              -0.7400     0.9400   90.0000  bottom
 R30       4.7k                R_0603_1608Metric                              -0.8500     1.2500  270.0000  bottom
-R31       12k                 R_0603_1608Metric                              -1.9500     0.5500  180.0000  bottom
-R32       12k                 R_0603_1608Metric                              -1.5250     0.5750   90.0000  bottom
-R33       12k                 R_0603_1608Metric                              -1.4500     0.5750   90.0000  bottom
+R31       15k                 R_0603_1608Metric                              -1.9500     0.5500  180.0000  bottom
+R32       15k                 R_0603_1608Metric                              -1.5250     0.5750   90.0000  bottom
+R33       15k                 R_0603_1608Metric                              -1.4500     0.5750   90.0000  bottom
 R34       15k                 R_0603_1608Metric                              -0.3500     0.3394    0.0000  bottom
 R35       680                 R_0603_1608Metric                              -0.3500     0.4000  180.0000  bottom
 R38       0.47                R_0603_1608Metric                              -0.3731     0.5193   90.0000  bottom
@@ -122,8 +119,8 @@ R58       680                 R_0603_1608Metric                              -0.
 R59       330                 R_0603_1608Metric                              -1.0500     1.5300   90.0000  bottom
 R60       150                 R_0603_1608Metric                              -1.1100     1.5300   90.0000  bottom
 R61       680                 R_0603_1608Metric                              -1.9953     1.6661  180.0000  bottom
-R63       12k                 R_0603_1608Metric                              -2.8900     1.7750    0.0000  bottom
-R64       12k                 R_0603_1608Metric                              -3.1299     1.7756  180.0000  bottom
+R63       15k                 R_0603_1608Metric                              -2.8900     1.7750    0.0000  bottom
+R64       15k                 R_0603_1608Metric                              -3.1299     1.7756  180.0000  bottom
 R65       680                 R_0603_1608Metric                              -3.2756     0.7993   90.0000  bottom
 RA1       15k                 R_0603_1608Metric                              -2.3921     0.6528    0.0000  bottom
 RA2       15k                 R_0603_1608Metric                              -0.6000     1.1750  180.0000  bottom
@@ -131,9 +128,12 @@ RA3       15k                 R_0603_1608Metric                              -2.
 RB1       18k                 R_0603_1608Metric                              -2.5250     0.8000  270.0000  bottom
 RB2       4.7k                R_0603_1608Metric                              -0.4750     1.0750   90.0000  bottom
 RB3       3.3k                R_0603_1608Metric                              -2.4250     1.3250  270.0000  bottom
-RP1       0                   R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    -2.2950     0.5850  270.0000  bottom
-RP2       0                   R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    -0.6300     0.9300    0.0000  bottom
-RP3       0                   R_0603_1608Metric_Pad0.84x1.00mm_HandSolder    -2.1800     1.3350  270.0000  bottom
+RD9       0                   R_0805_2012Metric_Pad1.29x1.40mm_HandSolder    -2.7856     1.5193  180.0000  bottom
+RD51      0                   R_0805_2012Metric_Pad1.29x1.40mm_HandSolder    -2.4256     1.7993   90.0000  bottom
+RD52      0                   R_0805_2012Metric_Pad1.29x1.40mm_HandSolder    -2.6006     1.8043  270.0000  bottom
+RP1       0                   R_0805_2012Metric_Pad1.29x1.40mm_HandSolder    -2.2906     0.5850  270.0000  bottom
+RP2       0                   R_0805_2012Metric_Pad1.29x1.40mm_HandSolder    -0.6300     0.9300    0.0000  bottom
+RP3       0                   R_0805_2012Metric_Pad1.29x1.40mm_HandSolder    -2.1800     1.3350  270.0000  bottom
 U3        TLV62569DBV         TSOT-25                                        -2.6250     0.8000    0.0000  bottom
 U4        TLV62569DBV         TSOT-25                                        -0.3750     1.0750  180.0000  bottom
 U5        TLV62569DBV         TSOT-25                                        -2.5250     1.3200    0.0000  bottom
