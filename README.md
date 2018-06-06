@@ -90,6 +90,10 @@ with digital monitors/TVs
 
 # Production
 
+ZIP the gerbers and send them to manufacturer:
+
+    zip -r /tmp/ulx3s.zip plot/ulx3s
+
 If you are going to order this project by yourself, it is important
 what manufacturer to choose for PCBA (PCB and Assembly) service.
 
