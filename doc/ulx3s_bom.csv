@@ -14,11 +14,11 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 13,"LED generic, alternativ symbol",LED_ALT,D2 D6 D18,GREEN,LED_0805_2012Metric,3,http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf,www.liteon.com www.lite-on.com,LTST-C170KGKT,160-1414-1-ND,,www.mouser.com,859-LTST-C170KGKT,,,,,,,,,,,
 14,"LED generic, alternativ symbol",LED_ALT,D1 D5,ORANGE,LED_0805_2012Metric,2,https://optoelectronics.liteon.com/upload/download/DS-22-99-0185/LTST-C170KFKT.pdf,www.liteon.com,LTST-C170KFKT,160-1413-1-ND,,www.mouser.com,859-LTST-C170KFKT,,,,,,,,,,,
 15,"LED generic, alternativ symbol",LED_ALT,D0 D4 D11 D19,RED,LED_0805_2012Metric,4,https://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf,www.liteon.com,LTST-C170KRKT,160-1415-1-ND,,www.mouser.com,859-LTST-C170KRKT,,,,,,,,,,,
-16,"Schottky diode, small symbol",D_Schottky_Small,D8,STPS2L30AF,D_SMA_Handsoldering,1,,www.st.com,STPS2L30AF,497-12310-1-ND,,www.mouser.com,511-STPS2L30AF,,,,,,,,,,,
+16,"Schottky diode, small symbol",D_Schottky_Small,D8,STPS2L30AF,D_SMA,1,,www.st.com,STPS2L30AF,497-12310-1-ND,,www.mouser.com,511-STPS2L30AF,,,,,,,,,,,
 17,,HDMI-D,GPDI1,GPDI-D,CONN-10029449-111RLF,1,http://portal.fciconnect.com/Comergent/fci/drawing/10029449.pdf,www.amphenol-icc.com,10029449-111RLF,609-4614-1-ND,,www.mouser.com,649-10029449-111RLF,5-1903015-5,www.te.com,,571-5-1903015-5,,A136174CT-ND,https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf,,,,
 18,Inductor,L,L1 L2 L3,2.2uH,L_1008_1210,3,http://psearch.en.murata.com/inductor/product/DFE252012PD-2R2M%23.pdf,www.murata.com,DFE322512F-2R2M=P2 DFE252012P-2R2M=P2,490-10649-1-ND,Murata,www.mouser.com,81-DFE322512F-2R2MP2,DFE252012P-2R2M=P2,www.murata.com,Murata,81-DFE252012P-2R2MP2 652-SRP2512A-2R2M,652-SRP2512A-2R2M,,,SRP2512A-2R2M,www.bourns.com,Bourns,
-19,Transistor N-MOSFETwith substrate diode (general),Q_NMOS_GSD,Q2,2N7002,SOT-23_Handsoldering,1,https://assets.nexperia.com/documents/data_sheet/2N7002.pdf,www.nxp.com,"2N7002P,215",2N7002K-TPMSCT-ND,,www.mouser.com,512-2N7002L,,,,,,,,,,,
-20,Transistor PNP (general),Q_PNP_BEC,Q1,BC857,SOT-23_Handsoldering,1,https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf,www.nxp.com,BC857,TBC857BLMCT-ND,,www.mouser.com,863-BC857BLT1G,,,,,,,,,,,
+19,Transistor N-MOSFETwith substrate diode (general),Q_NMOS_GSD,Q2,2N7002,SOT-23,1,https://assets.nexperia.com/documents/data_sheet/2N7002.pdf,www.nxp.com,"2N7002P,215",2N7002K-TPMSCT-ND,,www.mouser.com,512-2N7002L,,,,,,,,,,,
+20,Transistor PNP (general),Q_PNP_BEC,Q1,BC857,SOT-23,1,https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf,www.nxp.com,BC857,TBC857BLMCT-ND,,www.mouser.com,863-BC857BLT1G,,,,,,,,,,,
 21,Resistor,R,R38,0.47,R_0603_1608Metric,1,,www.ctscorp.com,73L2R47J,73L2R47JCT-ND,CTS,,774-73L2R47J,,,,,,,,,,,
 22,Resistor,R,R6 R8 R14 R18 R29 R40 R54 R57,1.2k,R_0603_1608Metric,8,,www.yageo.com,RC0603FR-101K2L RC0603FR-071KL RC0603FR-071K5L,311-1.20KHRCT-ND 311-1.5KLDCT-ND,,,603-AC0603JR-071K2L 603-RC0603FR-131K5L,,,,,,,,,,,
 23,Resistor,R,R24,100k,R_0603_1608Metric,1,,www.yageo.com,AC0603FR-10100KL,P100KHCT-ND,,,71-CRCW0603100KFKEAC,,,,,,,,,,,
@@ -31,34 +31,33 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 30,Resistor,R,R16 R20 R59,330,R_0603_1608Metric,3,,www.yageo.com,RC0603JR-07330RP,YAG1298CT-ND,,,603-RC0603JR-07330RP,,,,,,,,,,,
 31,Resistor,R,R1 R3 R4 R25 R26 R30 RB2,4.7k,R_0603_1608Metric,7,,www.yageo.com,AC0603FR-1015KL AC0603FR-104K7L,YAG3569CT-ND YAG3613CT-ND,,,603-RC0603FR-1015KL 603-RC0603FR-074K7L 603-AC0603FR-10100KL,,,,,,,,,,,
 32,Resistor,R,R15 R19 R35 R36 R37 R41 R42 R43 R44 R45 R46 R47 R48 R58 R61 R62 R65,680,R_0603_1608Metric,17,,www.yageo.com,RC0603FR-10680RL RC0603FR-071KL,311-680HRCT-ND,,,603-RC0603FR-10680RL,,,,,,,,,,,
-33,"Schottky diode, small symbol",D_Schottky_Small,RD9 RD51 RD52,0,D_SMA_Handsoldering,3,,www.yageo.com,RC0805JR-070RL,YAG1327CT-ND,Yageo,www.mouser.com,603-RC0805JR-070RL,STPS2L30AF,,ST,511-STPS2L30AF,,,,,,,
-34,"Jumper, normally closed",Jumper_NC_Small,RP1 RP2 RP3,0,R_0603_1608Metric_Pad0.84x1.00mm_HandSolder,3,,www.yageo.com,RC0805JR-070RL RC0603JR-070RL,YAG1327CT-ND,,www.mouser.com,603-RC0805JR-070RL,RC0603JR-070RL,,,603-RC0603JR-070RL,,541-2968-1-ND,,,,,
-35,Micro SD Card Socket with CD,Micro_SD_Card_CD,SD1,SCHD3A0100,SCHD3A100,1,https://www.relayspec.com/catalogs/001285/2010/SCHD.pdf,www.on-stars.com,SCHD3A0100,WM6698DKR-ND,,,538-47219-2001,47219-2001,www.molex.com,,688-SCHD3A0100,,,https://www.molex.com/pdm_docs/sd/472192001_sd.pdf,,,,
-36,"Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x04_Counter_Clockwise,SW1,DIPSW,SW_DIP_x4_W8.61mm_Slide_LowProfile,1,https://www.ctscorp.com/wp-content/uploads/219.pdf,www.jameco.com,219-4MST,CT2194MST-ND,,www.mouser.com,774-2194MST,,,,,,,,,,,
-37,,ESP-32S,U9,ESP-WROOM-32,ESP32-WROOM,1,http://espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf,espressif.com,ESP-WROOM-32,1904-1010-1-ND,,www.mouser.com,356-ESP-WROOM-32,,,,,,,,,,,
-38,"Full Speed USB to Full Handshake UART, SSOP-20",FT231XS,U6,FT231XS,SSOP-20_4.4x6.5mm_Pitch0.65mm,1,www.ftdichip.com/Documents/DataSheets/ICs/DS_FT231X.pdf,www.ftdichip.com,FT231XS,768-1129-1-ND,,www.mouser.com,895-FT231XS-R,,,,,,,,,,,
-39,"SPI Serial EEPROM, DIP-8/SOIC-8/TSSOP-8",25LCxxx,U10,IS25LP032D-JNLE-TR,SOA008-150mil,1,http://www.issi.com/WW/pdf/25LP-WP032D.pdf,www.issi.com,IS25LP032D-JNLE-TR,706-1607-1-ND,,www.mouser.com,870-IS25LP032DJNLETR,IS25LP032D-JNLA3,www.issi.com,,870-IS25LP032DJNLA3T,,,,,,,
-40,ECP5U85,LFE5U-85F-6BG381C,U1,LFE5U-85F-6BG381C,BGA-381_pitch0.8mm_dia0.4mm,1,http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf,www.latticesemi.com,LFE5U-85F-6BG381C,220-2071-ND,Lattice,www.mouser.com,842-LFE5U85F6BG381C,LFE5U-12F-6BG381C,www.latticesemi.com,Lattice,842-LFE5U12F6BG381C,,,,,,,
-41,SPI ADC,MAX1112x,U8,MAX11125,QFN-28-1EP_5x5mm_Pitch0.5mm,1,https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf,www.maximintegrated.com,MAX11125ATI+,MAX11125ATI+-ND,,www.mouser.com,700-MAX11125ATI+,MAX11123ATI+,www.maximintegrated.com,,700-MAX11123ATI+,,,,,,,
-42,,MT48LC16M16A2TG,U2,MT48LC16M16A2TG,TSOP54,1,https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf,www.micron.com,MT48LC16M16A2TG-6A,1450-1352-1-ND,Micron,www.mouser.com,913-4816M16A2TG6AGTR,IS42S16160G-7TL-TR,www.issi.com,ISSI,870-IS42S16160G7TLTR,,,,,,,
-43,2-Bit Bidirectional Voltage-Level Translator in SOIC-8 Package,PCA9306D,U11,PCA9306D,SM8,1,https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf,www.nxp.com,PCA9306D,568-4215-1-ND,,www.mouser.com,771-PCA9306D-T,,,,,,,,,,,
-44,"Realtime Clock/Calendar I2C Interface, SOIC-8",PCF8563T,U7,PCF8523,SOT96-1,1,https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf,www.nxp.com,"PCF8523T/1,118",568-5306-1-ND,,www.mouser.com,771-PCF8523T/1118,,,,,,,,,,,https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf
-45,DC-DC Converter,DCDC,U3 U4 U5,TLV62569DBV,TSOT-25,3,http://www.ti.com/lit/ds/symlink/tlv62569.pdf,www.ti.com,TLV62569DBVR,296-47360-1-ND,TI,www.mouser.com,595-TLV62569DBVR,DIO6015BCST5,www.dioo.com,DIOO,453-DIO6015BCST5,,,,,,,
-46,,USB_OTG1,US1 US2,MICRO_USB,USB-MICRO-B-FCI-10118192-0001LF,2,portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf,www.fciconnect.com,10118192-0001LF,609-4613-1-ND,,www.mouser.com,649-10118192-0001LF,,,,,,,,,,,
-47,"Four pin crystal (GND on pins 2 and 3), e.g. in SMD package",Crystal_GND23,Y2,32768Hz,Crystal_SMD_ABS25,1,http://www.iqdfrequencyproducts.com/products/pn/LFXTAL003000Reel.pdf,www.iqdfrequencyproducts.com,LFXTAL003000Reel,1923-1019-1-ND,,www.mouser.com,815-ABS25-32.768KHZT,,,,,,,,,,,
-48,"Four pin crystal (GND on pins 2 and 4), e.g. in SMD package",Crystal_GND24,Y1,FNETHE025,Crystal_SMD_7050_4Pads,1,https://www.diodes.com/assets/Datasheets/FNETHE025.pdf,www.diodes.com,FNETHE025,FNETHE025CT-ND,,www.mouser.com,729-FNETHE025,,,,,,,,,,,
+33,"Jumper, normally closed",Jumper_NC_Small,RD9 RD51 RD52 RP1 RP2 RP3,0,R_0805_2012Metric_Pad1.29x1.40mm_HandSolder,6,,www.yageo.com,RC0805JR-070RL RC0603JR-070RL,YAG1327CT-ND,Yageo,www.mouser.com,603-RC0805JR-070RL,STPS2L30AF RC0603JR-070RL,,ST,511-STPS2L30AF 603-RC0603JR-070RL,,541-2968-1-ND,,,,,
+34,Micro SD Card Socket with CD,Micro_SD_Card_CD,SD1,SCHD3A0100,SCHD3A100,1,https://www.relayspec.com/catalogs/001285/2010/SCHD.pdf,www.on-stars.com,SCHD3A0100,WM6698DKR-ND,,,538-47219-2001,47219-2001,www.molex.com,,688-SCHD3A0100,,,https://www.molex.com/pdm_docs/sd/472192001_sd.pdf,,,,
+35,"Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x04_Counter_Clockwise,SW1,DIPSW,SW_DIP_x4_W8.61mm_Slide_LowProfile,1,https://www.ctscorp.com/wp-content/uploads/219.pdf,www.jameco.com,219-4MST,CT2194MST-ND,,www.mouser.com,774-2194MST,,,,,,,,,,,
+36,,ESP-32S,U9,ESP-WROOM-32,ESP32-WROOM,1,http://espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf,espressif.com,ESP-WROOM-32,1904-1010-1-ND,,www.mouser.com,356-ESP-WROOM-32,,,,,,,,,,,
+37,"Full Speed USB to Full Handshake UART, SSOP-20",FT231XS,U6,FT231XS,SSOP-20_4.4x6.5mm_Pitch0.65mm,1,www.ftdichip.com/Documents/DataSheets/ICs/DS_FT231X.pdf,www.ftdichip.com,FT231XS,768-1129-1-ND,,www.mouser.com,895-FT231XS-R,,,,,,,,,,,
+38,"SPI Serial EEPROM, DIP-8/SOIC-8/TSSOP-8",25LCxxx,U10,IS25LP032D-JNLE-TR,SOA008-150mil,1,http://www.issi.com/WW/pdf/25LP-WP032D.pdf,www.issi.com,IS25LP032D-JNLE-TR,706-1607-1-ND,,www.mouser.com,870-IS25LP032DJNLETR,IS25LP032D-JNLA3,www.issi.com,,870-IS25LP032DJNLA3T,,,,,,,
+39,ECP5U85,LFE5U-85F-6BG381C,U1,LFE5U-85F-6BG381C,BGA-381_pitch0.8mm_dia0.4mm,1,http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf,www.latticesemi.com,LFE5U-85F-6BG381C,220-2071-ND,Lattice,www.mouser.com,842-LFE5U85F6BG381C,LFE5U-12F-6BG381C,www.latticesemi.com,Lattice,842-LFE5U12F6BG381C,,,,,,,
+40,SPI ADC,MAX1112x,U8,MAX11125,QFN-28-1EP_5x5mm_Pitch0.5mm,1,https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf,www.maximintegrated.com,MAX11125ATI+,MAX11125ATI+-ND,,www.mouser.com,700-MAX11125ATI+,MAX11123ATI+,www.maximintegrated.com,,700-MAX11123ATI+,,,,,,,
+41,,MT48LC16M16A2TG,U2,MT48LC16M16A2TG,TSOP54,1,https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf,www.micron.com,MT48LC16M16A2TG-6A,1450-1352-1-ND,Micron,www.mouser.com,913-4816M16A2TG6AGTR,IS42S16160G-7TL-TR,www.issi.com,ISSI,870-IS42S16160G7TLTR,,,,,,,
+42,2-Bit Bidirectional Voltage-Level Translator in SOIC-8 Package,PCA9306D,U11,PCA9306D,SM8,1,https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf,www.nxp.com,PCA9306D,568-4215-1-ND,,www.mouser.com,771-PCA9306D-T,,,,,,,,,,,
+43,"Realtime Clock/Calendar I2C Interface, SOIC-8",PCF8563T,U7,PCF8523,SOT96-1,1,https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf,www.nxp.com,"PCF8523T/1,118",568-5306-1-ND,,www.mouser.com,771-PCF8523T/1118,,,,,,,,,,,https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf
+44,DC-DC Converter,DCDC,U3 U4 U5,TLV62569DBV,TSOT-25,3,http://www.ti.com/lit/ds/symlink/tlv62569.pdf,www.ti.com,TLV62569DBVR,296-47360-1-ND,TI,www.mouser.com,595-TLV62569DBVR,DIO6015BCST5,www.dioo.com,DIOO,453-DIO6015BCST5,,,,,,,
+45,,USB_OTG1,US1 US2,MICRO_USB,USB-MICRO-B-FCI-10118192-0001LF-small-pads,2,portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf,www.fciconnect.com,10118192-0001LF,609-4613-1-ND,,www.mouser.com,649-10118192-0001LF,,,,,,,,,,,
+46,"Four pin crystal (GND on pins 2 and 3), e.g. in SMD package",Crystal_GND23,Y2,32768Hz,Crystal_SMD_ABS25,1,http://www.iqdfrequencyproducts.com/products/pn/LFXTAL003000Reel.pdf,www.iqdfrequencyproducts.com,LFXTAL003000Reel,1923-1019-1-ND,,www.mouser.com,815-ABS25-32.768KHZT,,,,,,,,,,,
+47,"Four pin crystal (GND on pins 2 and 4), e.g. in SMD package",Crystal_GND24,Y1,FNETHE025,Crystal_SMD_7050_4Pads,1,https://www.diodes.com/assets/Datasheets/FNETHE025.pdf,www.diodes.com,FNETHE025,FNETHE025CT-ND,,www.mouser.com,729-FNETHE025,,,,,,,,,,,
 
 
 
 
 
-Component Groups:,48
+Component Groups:,47
 Component Count:,189
 Fitted Components:,189
 Number of PCBs:,1
 Total components:,189
 Schematic Version:,1.8.9
 Schematic Date:,
-BoM Date:,"srijeda, 06. lipnja 2018. 08:37:21 CEST"
+BoM Date:,"srijeda, 06. lipnja 2018. 20:48:14 CEST"
 Schematic Source:,/home/davor/src/circuits/fpga/ulx3s/ulx3s.sch
 KiCad Version:,Eeschema 5.0.0-rc2+dfsg1-2
