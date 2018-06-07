@@ -26,7 +26,7 @@ L1, L2, L3	3		490-10649-1-ND			Murata	Murata	Bourns		www.murata.com	www.murata.c
 OLED1	1									www.displaymodule.com			DM-OLEDC095-626						www.mouser.com	Leave empty
 Q1	1		TBC857BLMCT-ND							www.nxp.com			BC857			863-BC857BLT1G			www.mouser.com	
 Q2	1		2N7002K-TPMSCT-ND							www.nxp.com			2N7002P,215			512-2N7002L			www.mouser.com	
-R1, R3, R4, R25, R26, R30, RB2	7		YAG3569CT-ND							www.yageo.com			AC0603FR-1015KL			603-RC0603FR-1015KL				
+R1, R3, R4, R25, R26, R30, RB2	7		YAG3613CT-ND							www.yageo.com			AC0603FR-104K7L			603-RC0603FR-074K7L				
 R2, RB1	2		 311-18.0KHRCT-ND							www.yageo.com			RC0603FR-1018KL			71-CRCW060318K0FKEAC				
 R5	1		P2.20MHCT-ND							www.yageo.com			RC0603FR-132M2L			603-AC0603FR-072M2L				
 R6, R8, R14, R18, R29, R40, R54, R57	8		311-1.20KHRCT-ND							www.yageo.com			RC0603FR-101K2L			603-AC0603JR-071K2L				
