@@ -10003,6 +10003,11 @@
       (net 1 GND))
     (pad 6 smd rect (at 3.8 0 180) (size 1.8 1.9) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
+    (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_Micro-B_Molex_47346-0001.wrl
+      (offset (xyz 0 1.27 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module usb_otg:USB-MICRO-B-FCI-10118192-0001LF (layer F.Cu) (tedit 5912DB1A) (tstamp 5B247A41)
@@ -10057,6 +10062,11 @@
       (net 1 GND))
     (pad 6 smd rect (at -3.1 -2.55 180) (size 2.1 1.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
+    (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_Micro-B_Molex_47346-0001.wrl
+      (offset (xyz 0 1.27 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_text KONČAR (at 114.689 65.883) (layer B.SilkS)
