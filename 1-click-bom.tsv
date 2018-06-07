@@ -50,7 +50,7 @@ U6	1		768-1129-1-ND							www.ftdichip.com			FT231XS			895-FT231XS-R			www.mouse
 U7	1		568-5306-1-ND						https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf	www.nxp.com			 PCF8523T/1,118 			771-PCF8523T/1118			www.mouser.com	
 U8	1		MAX11125ATI+-ND							www.maximintegrated.com	www.maximintegrated.com		MAX11125ATI+	MAX11123ATI+		700-MAX11125ATI+	700-MAX11123ATI+		www.mouser.com	
 U9	1		1904-1010-1-ND							espressif.com			ESP-WROOM-32			356-ESP-WROOM-32 			www.mouser.com	
-U10	1		706-1607-1-ND							www.issi.com	www.issi.com		IS25LP032D-JNLE-TR	IS25LP032D-JNLA3		870-IS25LP032DJNLETR	870-IS25LP032DJNLA3T		www.mouser.com	
+U10	1	http://www.issi.com/WW/pdf/25LP-WP032D.pdf	706-1607-1-ND	IS25LP128F-JBLE-ND						www.issi.com	www.issi.com	www.issi.com	IS25LP128F-JBLE	IS25LP032D-JNLE-TR	IS25LP032D-JNLA3	870-IS25LP128F-JBLE	870-IS25LP032DJNLETR	870-IS25LP032DJNLA3T	www.mouser.com	
 U11	1		568-4215-1-ND							www.nxp.com			PCA9306D			771-PCA9306D-T			www.mouser.com	
 US1, US2	2		609-4613-1-ND							www.fciconnect.com			10118192-0001LF			649-10118192-0001LF 			www.mouser.com	
 Y1	1		FNETHE025CT-ND							www.diodes.com			FNETHE025			729-FNETHE025			www.mouser.com	
