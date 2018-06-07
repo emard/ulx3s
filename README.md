@@ -246,12 +246,12 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] Move C1, C21, C50 away from J1, J2 connectors (make space for IDC header)
     [x] Smaller USB pads
     [x] Smaller pads (not for handsoldering)
-    [ ] Revert USB to datasheet default
+    [x] Revert USB to datasheet default
     [x] ADC text smaller font, move above ADC chip
     [x] ULX3S/version left of ADC chip   
     [x] (inem) KONCAR logo on bottom side
     [x] BTN font size like TCK
-    [ ] Combo pads for flash 150/208 mil
+    [x] Combo pads for flash 150/208 mil
     [x] SDRAM text smaller font size
     [x] SW1 increase size, to more visible place
     [x] GPIO numbering on bottom side, all pins in smaller font
