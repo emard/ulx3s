@@ -45,7 +45,8 @@ ULX3S is sufficiently equipped to
 emulate [Amiga](https://github.com/emard/Minimig_ECS) retro
 computer and run its games, but can do much more.
 
-[Schematics](/doc/schematics.pdf) and PCB are done in open source KiCAD 5 PCB editor:
+[Schematics](/doc/schematics.pdf) and PCB started with KiCAD 4.
+After version v1.8 project switched to KiCAD 5 PCB editor:
 
     kicad ulx3s.pro
 
@@ -246,12 +247,12 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] Smaller USB pads
     [x] Smaller pads (not for handsoldering)
     [ ] Revert USB to datasheet default
-    [ ] ADC text smaller font, move above ADC chip
-    [ ] ULX3S/version left of ADC chip   
-    [ ] (inem) KONCAR logo on bottom side
-    [ ] BTN font size like TCK
+    [x] ADC text smaller font, move above ADC chip
+    [x] ULX3S/version left of ADC chip   
+    [x] (inem) KONCAR logo on bottom side
+    [x] BTN font size like TCK
     [ ] Combo pads for flash 150/208 mil
-    [ ] SDRAM text smaller font size
-    [ ] SW1 increase size, to the right of DIP switch
-    [ ] GPIO numbering on bottom side, all pins in smaller font
-
+    [x] SDRAM text smaller font size
+    [x] SW1 increase size, to more visible place
+    [x] GPIO numbering on bottom side, all pins in smaller font
+    [ ] enlarge FER logo
