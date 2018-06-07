@@ -81,7 +81,7 @@ AR Path="/58D6BF46/58D6C840" Ref="US1"  Part="1"
 F 0 "US1" H 1825 1775 50  0000 C CNN
 F 1 "MICRO_USB" H 1500 2100 50  0000 C CNN
 F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" V 1450 1800 50  0001 C CNN
-F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 1450 1800 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 1450 1800 50  0001 C CNN
 F 4 "FCI" H 1500 1900 50  0001 C CNN "MFG1"
 F 5 "www.fciconnect.com" H 1500 1900 60  0001 C CNN "MNF1_URL"
 F 6 "10118192-0001LF" H 1500 1900 60  0001 C CNN "MPN"
