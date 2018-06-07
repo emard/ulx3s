@@ -1,4 +1,4 @@
-### Module positions - created on Wed Jun  6 21:24:29 2018 ###
+### Module positions - created on Thu Jun  7 16:20:36 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2+dfsg1-2
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -79,7 +79,7 @@ R7        150                 R_0603_1608Metric                              -0.
 R8        1.2k                R_0603_1608Metric                              -3.0250     1.2750   90.0000  bottom
 R9        15k                 R_0603_1608Metric                              -1.3500     0.1000  270.0000  bottom
 R10       150                 R_0603_1608Metric                              -2.2850     0.3600  180.0000  bottom
-R11       15k                 R_0603_1608Metric                              -1.0000     1.2500  270.0000  bottom
+R11       15k                 R_0603_1608Metric                              -1.0006     1.2993  270.0000  bottom
 R12       15k                 R_0603_1608Metric                              -0.8000     0.9400   90.0000  bottom
 R13       15k                 R_0603_1608Metric                              -3.2250     1.3250  180.0000  bottom
 R14       1.2k                R_0603_1608Metric                              -1.2400     1.0693  180.0000  bottom
@@ -96,9 +96,9 @@ R24       100k                R_0603_1608Metric                              -2.
 R25       4.7k                R_0603_1608Metric                              -2.1683     1.5643  180.0000  bottom
 R26       4.7k                R_0603_1608Metric                              -2.1806     1.6743  180.0000  bottom
 R27       15k                 R_0603_1608Metric                              -1.3750     0.6317   90.0000  bottom
-R28       15k                 R_0603_1608Metric                              -0.9250     1.2500  270.0000  bottom
+R28       15k                 R_0603_1608Metric                              -0.9250     1.2993  270.0000  bottom
 R29       1.2k                R_0603_1608Metric                              -0.7400     0.9400   90.0000  bottom
-R30       4.7k                R_0603_1608Metric                              -0.8500     1.2500  270.0000  bottom
+R30       4.7k                R_0603_1608Metric                              -0.8500     1.2993  270.0000  bottom
 R31       15k                 R_0603_1608Metric                              -1.9500     0.5500  180.0000  bottom
 R32       15k                 R_0603_1608Metric                              -1.5250     0.5750   90.0000  bottom
 R33       15k                 R_0603_1608Metric                              -1.4500     0.5750   90.0000  bottom
@@ -139,7 +139,7 @@ U4        TLV62569DBV         TSOT-25                                        -0.
 U5        TLV62569DBV         TSOT-25                                        -2.5250     1.3200    0.0000  bottom
 U6        FT231XS             SSOP-20_4.4x6.5mm_Pitch0.65mm                  -1.5250     0.2000  180.0000  bottom
 U7        PCF8523             SOT96-1                                        -3.1256     0.7443   90.0000  bottom
-U10       IS25LP032D-JNLE-TR  SOA008-150mil                                  -0.9500     1.0000  270.0000  bottom
+U10       IS25LP032D-JNLE-TR  SOA008-150-208mil                              -0.9506     1.0393  270.0000  bottom
 U11       PCA9306D            SM8                                            -1.9913     1.8275   90.0000  bottom
 Y2        32768Hz             Crystal_SMD_ABS25                              -3.2156     0.4842  180.0000  bottom
 ## End
