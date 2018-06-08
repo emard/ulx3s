@@ -255,4 +255,4 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] SDRAM text smaller font size
     [x] SW1 increase size, to more visible place
     [x] GPIO numbering on bottom side, all pins in smaller font
-    [ ] enlarge FER logo
+    [x] enlarge FER logo
