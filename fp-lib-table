@@ -28,4 +28,5 @@
   (lib (name conn-fci)(type KiCad)(uri "$(KIPRJMOD)/footprints/hdmi-d/conn-fci.pretty")(options "")(descr ""))
   (lib (name L_1008_1210)(type KiCad)(uri "$(KIPRJMOD)/footprints/inductor/L_1008_1210.pretty")(options "")(descr ""))
   (lib (name inem)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/inem.pretty")(options "")(descr ""))
+  (lib (name koncar)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/koncar.pretty")(options "")(descr ""))
 )
