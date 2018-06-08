@@ -1,4 +1,4 @@
-### Module positions - created on Fri Jun  8 13:44:49 2018 ###
+### Module positions - created on Fri Jun  8 19:59:44 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2+dfsg1-2
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -137,7 +137,7 @@ RP3       0                R_0805_2012Metric_Pad1.29x1.40mm_HandSolder    -2.180
 U3        TLV62569DBV      TSOT-25                                        -2.6250     0.8000    0.0000  bottom
 U4        TLV62569DBV      TSOT-25                                        -0.3750     1.0750  180.0000  bottom
 U5        TLV62569DBV      TSOT-25                                        -2.5250     1.3200    0.0000  bottom
-U6        FT231XS          SSOP-20_4.4x6.5mm_Pitch0.65mm                  -1.5250     0.2000  180.0000  bottom
+U6        FT231XS          FT231X-SSOP-20_4.4x6.5mm_Pitch0.65mm           -1.5250     0.2000  180.0000  bottom
 U7        PCF8523          SOT96-1                                        -3.1256     0.7443   90.0000  bottom
 U10       IS25LP128F-JBLE  SOA008-150-208mil                              -0.9506     1.0393  270.0000  bottom
 U11       PCA9306D         SM8                                            -1.9913     1.8275   90.0000  bottom
