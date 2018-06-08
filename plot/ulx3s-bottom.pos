@@ -1,4 +1,4 @@
-### Module positions - created on Thu Jun  7 22:26:47 2018 ###
+### Module positions - created on Fri Jun  8 07:19:04 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2+dfsg1-2
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -142,4 +142,5 @@ U7        PCF8523          SOT96-1                                        -3.125
 U10       IS25LP128F-JBLE  SOA008-150-208mil                              -0.9506     1.0393  270.0000  bottom
 U11       PCA9306D         SM8                                            -1.9913     1.8275   90.0000  bottom
 Y2        32768Hz          Crystal_SMD_ABS25                              -3.2156     0.4842  180.0000  bottom
+svg2mod   G***             koncar                                         -0.8156     1.8343  180.0000  bottom
 ## End
