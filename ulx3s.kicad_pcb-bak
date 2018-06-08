@@ -753,7 +753,7 @@
     (uvia_drill 0.1)
   )
 
-  (module inem:inem (layer B.Cu) (tedit 5B1A682A) (tstamp 5B248F4A)
+  (module inem:inem (layer B.Cu) (tedit 5B1A69A8) (tstamp 5B248F4A)
     (at 128.913 65.883)
     (fp_text reference REF** (at 0 -1.6) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -761,7 +761,7 @@
     (fp_text value inem (at 0 1.6) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text user inem (at 0 0.1) (layer B.SilkS)
+    (fp_text user inem (at 0 -0.1) (layer B.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 3 0) (layer B.SilkS) (width 0.3))
@@ -10072,7 +10072,7 @@
   )
 
   (module koncar:koncar (layer B.Cu) (tedit 5B1A0EFD) (tstamp 5B1A54AE)
-    (at 114.816 65.629 180)
+    (at 114.943 65.629 180)
     (descr "Imported from /home/davor/tmp/koncar/koncar.svg")
     (tags svg2mod)
     (attr smd)
