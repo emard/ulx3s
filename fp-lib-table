@@ -29,4 +29,5 @@
   (lib (name L_1008_1210)(type KiCad)(uri "$(KIPRJMOD)/footprints/inductor/L_1008_1210.pretty")(options "")(descr ""))
   (lib (name inem)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/inem.pretty")(options "")(descr ""))
   (lib (name koncar)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/koncar.pretty")(options "")(descr ""))
+  (lib (name ft231x)(type KiCad)(uri "$(KIPRJMOD)/footprints/usbserial/ft231x.pretty")(options "")(descr ""))
 )
