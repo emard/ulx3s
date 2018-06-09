@@ -257,5 +257,5 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] GPIO numbering on bottom side, all pins in smaller font
     [x] enlarge FER logo
     [ ] ESP32 DAC 25,26 to Audio Jack L/R
-    [ ] Better audio jack schematic symbol
+    [x] Descriptive audio jack schematic symbol
     [x] USB ID pin to RTC WAKEUPn
