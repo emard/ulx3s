@@ -2351,73 +2351,65 @@ Text GLabel 7350 950  1    60   Input ~ 0
 $Comp
 L Connector_Generic:Conn_01x03 J5
 U 1 1 5AA2A24D
-P 1400 1900
+P 1450 1050
 AR Path="/5AA2A24D" Ref="J5"  Part="1" 
 AR Path="/58D51CAD/5AA2A24D" Ref="J5"  Part="1" 
-F 0 "J5" H 1400 2100 50  0000 C CNN
-F 1 "VJ1" H 1400 1700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1400 1900 50  0001 C CNN
-F 3 "" H 1400 1900 50  0001 C CNN
-F 4 "www.mouser.com" H 1400 1900 60  0001 C CNN "Mouser_URL"
-F 5 "Leave empty" H 1400 1900 60  0001 C CNN "Note"
-	1    1400 1900
+F 0 "J5" H 1450 1250 50  0000 C CNN
+F 1 "VJ1" H 1450 850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1450 1050 50  0001 C CNN
+F 3 "" H 1450 1050 50  0001 C CNN
+F 4 "www.mouser.com" H 1450 1050 60  0001 C CNN "Mouser_URL"
+F 5 "Leave empty" H 1450 1050 60  0001 C CNN "Note"
+	1    1450 1050
 	1    0    0    1   
 $EndComp
-Text GLabel 1200 1900 0    60   Input ~ 0
-2V5_3V3
 $Comp
 L power:+2V5 #PWR023
 U 1 1 5AA2ABFC
-P 750 2000
-F 0 "#PWR023" H 750 1850 50  0001 C CNN
-F 1 "+2V5" H 750 2140 50  0000 C CNN
-F 2 "" H 750 2000 50  0001 C CNN
-F 3 "" H 750 2000 50  0001 C CNN
-	1    750  2000
-	0    -1   1    0   
+P 1200 1200
+F 0 "#PWR023" H 1200 1050 50  0001 C CNN
+F 1 "+2V5" H 1250 1350 50  0000 C CNN
+F 2 "" H 1200 1200 50  0001 C CNN
+F 3 "" H 1200 1200 50  0001 C CNN
+	1    1200 1200
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+3V3 #PWR024
 U 1 1 5AA2AD24
-P 750 1800
-F 0 "#PWR024" H 750 1650 50  0001 C CNN
-F 1 "+3V3" H 750 1940 50  0000 C CNN
-F 2 "" H 750 1800 50  0001 C CNN
-F 3 "" H 750 1800 50  0001 C CNN
-	1    750  1800
-	0    -1   1    0   
+P 1200 900
+F 0 "#PWR024" H 1200 750 50  0001 C CNN
+F 1 "+3V3" H 1150 1050 50  0000 C CNN
+F 2 "" H 1200 900 50  0001 C CNN
+F 3 "" H 1200 900 50  0001 C CNN
+	1    1200 900 
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	750  2000 1200 2000
-Wire Wire Line
-	750  1800 1200 1800
 Text GLabel 6050 4600 1    60   Input ~ 0
 2V5_3V3
 $Comp
 L Device:C C47
 U 1 1 5AB6B7B8
-P 1650 1850
+P 950 1300
 AR Path="/5AB6B7B8" Ref="C47"  Part="1" 
 AR Path="/58D51CAD/5AB6B7B8" Ref="C47"  Part="1" 
-F 0 "C47" H 1675 1950 50  0000 L CNN
-F 1 "2.2uF" H 1675 1750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1688 1700 50  0001 C CNN
-F 3 "" H 1650 1850 50  0000 C CNN
-F 4 "CC0805MRX5R6BB225" H 1650 1850 50  0001 C CNN "MPN"
-	1    1650 1850
+F 0 "C47" H 950 1200 50  0000 L CNN
+F 1 "2.2uF" H 950 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 988 1150 50  0001 C CNN
+F 3 "" H 950 1300 50  0000 C CNN
+F 4 "CC0805MRX5R6BB225" H 950 1300 50  0001 C CNN "MPN"
+	1    950  1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1650 1700 1    60   Input ~ 0
-2V5_3V3
 $Comp
 L power:GND #PWR025
 U 1 1 5AB6BA00
-P 1650 2000
-F 0 "#PWR025" H 1650 1750 50  0001 C CNN
-F 1 "GND" H 1650 1850 50  0000 C CNN
-F 2 "" H 1650 2000 50  0000 C CNN
-F 3 "" H 1650 2000 50  0000 C CNN
-	1    1650 2000
+P 950 1450
+F 0 "#PWR025" H 950 1200 50  0001 C CNN
+F 1 "GND" H 950 1300 50  0000 C CNN
+F 2 "" H 950 1450 50  0000 C CNN
+F 3 "" H 950 1450 50  0000 C CNN
+	1    950  1450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3009,70 +3001,64 @@ $EndComp
 Wire Wire Line
 	2400 4200 2400 4250
 $Comp
-L Jumper:Jumper_2_Open RV2
+L Device:Jumper_NO_Small RV2
 U 1 1 5AF31FAC
-P 1300 1300
-F 0 "RV2" H 1300 1450 50  0000 C CNN
-F 1 "0" H 1300 1250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder" H 1300 1300 50  0001 C CNN
-F 3 "" H 1300 1300 50  0001 C CNN
-F 4 "www.mouser.com" H 1300 1300 60  0001 C CNN "Mouser_URL"
-F 5 "www.yageo.com" H 1300 1300 50  0001 C CNN "MNF1_URL"
-F 6 "RC0805JR-070RL" H 1300 1300 50  0001 C CNN "EMPTY_PN"
-F 7 "Leave empty" H 1300 1300 50  0001 C CNN "Note"
-	1    1300 1300
-	0    1    -1   0   
+P 750 1200
+F 0 "RV2" H 750 1300 50  0000 C CNN
+F 1 "0" H 750 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder" H 750 1200 50  0001 C CNN
+F 3 "" H 750 1200 50  0001 C CNN
+F 4 "www.mouser.com" H 750 1200 60  0001 C CNN "Mouser_URL"
+F 5 "www.yageo.com" H 750 1200 50  0001 C CNN "MNF1_URL"
+F 6 "RC0805JR-070RL" H 750 1200 50  0001 C CNN "EMPTY_PN"
+F 7 "Leave empty" H 750 1200 50  0001 C CNN "Note"
+	1    750  1200
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper:Jumper_2_Open RV3
+L Device:Jumper_NO_Small RV3
 U 1 1 5AF3694A
-P 1300 800
-F 0 "RV3" H 1300 950 50  0000 C CNN
-F 1 "0" H 1300 750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder" H 1300 800 50  0001 C CNN
-F 3 "" H 1300 800 50  0001 C CNN
-F 4 "www.mouser.com" H 1300 800 60  0001 C CNN "Mouser_URL"
-F 5 "www.yageo.com" H 1300 800 50  0001 C CNN "MNF1_URL"
-F 6 "RC0805JR-070RL" H 1300 800 50  0001 C CNN "EMPTY_PN"
-F 7 "Leave empty" H 1300 800 50  0001 C CNN "Note"
-	1    1300 800 
-	0    1    -1   0   
+P 750 900
+F 0 "RV3" H 750 1000 50  0000 C CNN
+F 1 "0" H 750 850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder" H 750 900 50  0001 C CNN
+F 3 "" H 750 900 50  0001 C CNN
+F 4 "www.mouser.com" H 750 900 60  0001 C CNN "Mouser_URL"
+F 5 "www.yageo.com" H 750 900 50  0001 C CNN "MNF1_URL"
+F 6 "RC0805JR-070RL" H 750 900 50  0001 C CNN "EMPTY_PN"
+F 7 "Leave empty" H 750 900 50  0001 C CNN "Note"
+	1    750  900 
+	0    -1   -1   0   
 $EndComp
-Text GLabel 1200 1050 0    60   Input ~ 0
+Text GLabel 950  950  1    60   Input ~ 0
 2V5_3V3
 $Comp
 L power:+2V5 #PWR0169
 U 1 1 5AF3DD8E
-P 850 1500
-F 0 "#PWR0169" H 850 1350 50  0001 C CNN
-F 1 "+2V5" H 850 1640 50  0000 C CNN
-F 2 "" H 850 1500 50  0001 C CNN
-F 3 "" H 850 1500 50  0001 C CNN
-	1    850  1500
-	0    -1   1    0   
+P 750 1300
+F 0 "#PWR0169" H 750 1150 50  0001 C CNN
+F 1 "+2V5" H 750 1440 50  0000 C CNN
+F 2 "" H 750 1300 50  0001 C CNN
+F 3 "" H 750 1300 50  0001 C CNN
+	1    750  1300
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3V3 #PWR0170
 U 1 1 5AF3DD94
-P 850 600
-F 0 "#PWR0170" H 850 450 50  0001 C CNN
-F 1 "+3V3" H 850 740 50  0000 C CNN
-F 2 "" H 850 600 50  0001 C CNN
-F 3 "" H 850 600 50  0001 C CNN
-	1    850  600 
-	0    -1   1    0   
+P 750 800
+F 0 "#PWR0170" H 750 650 50  0001 C CNN
+F 1 "+3V3" H 750 940 50  0000 C CNN
+F 2 "" H 750 800 50  0001 C CNN
+F 3 "" H 750 800 50  0001 C CNN
+	1    750  800 
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	850  1500 1300 1500
+	750  1050 750  1100
 Wire Wire Line
-	850  600  1300 600 
-Wire Wire Line
-	1200 1050 1300 1050
-Wire Wire Line
-	1300 1050 1300 1100
-Wire Wire Line
-	1300 1050 1300 1000
-Connection ~ 1300 1050
+	750  1050 750  1000
+Connection ~ 750  1050
 $Comp
 L dcdc:DCDC U3
 U 1 1 5AF563F3
@@ -3187,4 +3173,21 @@ Text Notes 4400 5300 0    60   ~ 0
 D11 (2V), R2, R4 hold PWREN on 1V\nin the middle of 0.4-1.5V hysteresis
 Text Notes 850  5050 0    60   ~ 0
 FTDI_nSLEEP is 2.5V\nD12 must be schottky
+Wire Wire Line
+	950  950  950  1050
+Wire Wire Line
+	750  1050 950  1050
+Connection ~ 950  1050
+Wire Wire Line
+	950  1050 950  1150
+Wire Wire Line
+	950  1050 1250 1050
+Wire Wire Line
+	1200 900  1200 950 
+Wire Wire Line
+	1200 950  1250 950 
+Wire Wire Line
+	1200 1200 1200 1150
+Wire Wire Line
+	1200 1150 1250 1150
 $EndSCHEMATC
