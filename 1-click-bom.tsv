@@ -3,7 +3,7 @@ AE1	1																				Leave empty
 AUDIO1	1		CP-43516SJCT-ND				CUI				www.cui.com			SJ-43516-SMT-TR			490-SJ-43516-SMT-TR 			www.mouser.com	
 BAT1	1		36-3000CT-ND				Keystone				www.keyelco.com			3000TR			534-3000TR			www.mouser.com	
 BTN0, BTN1, BTN2, BTN3, BTN4, BTN5, BTN6	7		CKN9088CT-ND								www.ckswitches.com			PTS645SL50SMTR92 LFS			611-PTS645SL50SMTR92			www.mouser.com	
-C1, C3, C4, C5, C7, C8, C9, C11, C12, C15, C21, C54, C55	13		1276-2412-1-ND								www.yageo.com			CC0805ZKY5V5BB226 			81-GRM188C60J226ME0J				
+C1, C3, C4, C5, C7, C8, C9, C11, C12, C15, C21, C54, C55	13		1276-2413-1-ND	1276-2412-1-ND							www.yageo.com			CC0805ZKY5V5BB226 			963-JMK212ABJ226MG-T	81-GRM188C60J226ME0J			
 C2, C6, C10, C18	4		399-9086-1-ND								www.yageo.com			CS0603KRX7R9BB471			603-CS0603KRX79BB471				
 C13, C16, C17, C19, C20, C22, C23, C24, C46, C47	10		1276-2903-1-ND								www.yageo.com			CC0805MRX5R6BB225			603-CC805MRX5R6BB225				
 C14, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45	11		1276-1112-1-ND								www.yageo.com			CC0603KRX7R8BB224			81-GCM188R71E224K55D				
@@ -26,7 +26,7 @@ L1, L2, L3	3		490-10649-1-ND				Murata	Murata	Bourns		www.murata.com	www.murata.
 OLED1	1										www.displaymodule.com			DM-OLEDC095-626						www.mouser.com	Leave empty
 Q1	1		TBC857BLMCT-ND								www.nxp.com			BC857			863-BC857BLT1G			www.mouser.com	
 Q2	1		2N7002K-TPMSCT-ND								www.nxp.com			2N7002P,215			512-2N7002L			www.mouser.com	
-R1, R3, R4, R25, R26, R30, RB2	7		YAG3613CT-ND								www.yageo.com			AC0603FR-104K7L			603-RC0603FR-074K7L				
+R1, R3, R4, R25, R26, R30, RB2	7		YAG3613CT-ND								www.yageo.com			AC0603FR-104K7L			603-AC0603FR-074K7L	603-RC0603FR-074K7L			
 R2, RB1	2		 311-18.0KHRCT-ND								www.yageo.com			RC0603FR-1018KL			71-CRCW060318K0FKEAC				
 R5	1		P2.20MHCT-ND								www.yageo.com			RC0603FR-132M2L			603-AC0603FR-072M2L				
 R6, R8, R14, R18, R29, R40, R54, R57	8		311-1.20KHRCT-ND								www.yageo.com			RC0603FR-101K2L			603-AC0603JR-071K2L				
@@ -39,7 +39,7 @@ R24	1		P100KHCT-ND								www.yageo.com			AC0603FR-10100KL			71-CRCW0603100KFKEA
 R38	1		73L2R47JCT-ND				CTS				www.ctscorp.com			73L2R47J			774-73L2R47J				
 R49, R50, R52, R53	4		311-27.0HRCT-ND								www.yageo.com			AC0603JR-0727RL			603-AC0603JR-0727RL				
 R56	1					RC0603JR-070RL					www.yageo.com										Leave empty
-RD9, RD51, RD52, RP1, RP2, RP3	6		YAG1327CT-ND				Yageo	ST			www.yageo.com			RC0805JR-070RL	STPS2L30AF		603-RC0805JR-070RL	511-STPS2L30AF 		www.mouser.com	
+RD9, RD51, RD52, RP1, RP2, RP3	6		YAG1327CT-ND				Yageo	ST			www.yageo.com			RC0805JR-070RL	STPS2L30AF		652-CR0805-J/-000ELF	603-RC0805JR-070RL		www.mouser.com	
 RV2, RV3	2					RC0805JR-070RL					www.yageo.com									www.mouser.com	Leave empty
 SD1	1	https://www.molex.com/pdm_docs/sd/472192001_sd.pdf	WM6698DKR-ND								www.on-stars.com	www.molex.com		SCHD3A0100	47219-2001		538-47219-2001	688-SCHD3A0100			
 SW1	1		CT2194MST-ND								www.jameco.com			219-4MST			774-2194MST 			www.mouser.com	
