@@ -101,8 +101,6 @@ F 0 "R34" V 4630 2350 50  0000 C CNN
 F 1 "15k" V 4550 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 2350 50  0001 C CNN
 F 3 "" H 4550 2350 50  0000 C CNN
-F 4 "www.yageo.com" V 4550 2350 50  0001 C CNN "MNF1_URL"
-F 5 "AC0603FR-1015KL" V 4550 2350 50  0001 C CNN "MPN"
 	1    4550 2350
 	1    0    0    -1  
 $EndComp
@@ -349,7 +347,7 @@ Wire Wire Line
 Text Label 7350 5400 0    60   ~ 0
 WIFI_GPIO17
 Text Notes 7350 5700 0    60   ~ 0
-LED and WIFI_GPIO17 to solder pads of\nPCB
+LED and WIFI_GPIO17\nto solder pads of PCB
 Text Notes 4500 3900 0    60   ~ 0
 GP10 v1.7
 NoConn ~ 5700 3850

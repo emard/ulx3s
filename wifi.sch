@@ -347,7 +347,7 @@ Wire Wire Line
 Text Label 7350 5400 0    60   ~ 0
 WIFI_GPIO17
 Text Notes 7350 5700 0    60   ~ 0
-LED and WIFI_GPIO17 to solder pads of\nPCB
+LED and WIFI_GPIO17\nto solder pads of PCB
 Text Notes 4500 3900 0    60   ~ 0
 GP10 v1.7
 NoConn ~ 5700 3850
