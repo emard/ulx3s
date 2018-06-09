@@ -203,9 +203,9 @@ GP12
 Text GLabel 5700 3550 0    60   Input ~ 0
 GN12
 Text GLabel 5700 3650 0    60   Input ~ 0
-GP11
+AUDIO_R
 Text GLabel 5700 3750 0    60   Input ~ 0
-GN11
+AUDIO_L
 Text GLabel 7550 3900 2    60   Input ~ 0
 WIFI_GPIO16
 $Comp
