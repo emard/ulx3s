@@ -184,7 +184,7 @@ AUDIO_R3
 Wire Wire Line
 	3500 3000 3600 3000
 Connection ~ 3500 2550
-NoConn ~ 2650 2500
+NoConn ~ 2650 2550
 Text Label 3050 2350 0    60   ~ 0
 AUDIO_L
 Text Label 3050 2550 0    60   ~ 0

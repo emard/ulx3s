@@ -18,7 +18,7 @@ $Comp
 L jack_trs_6pins_apple:JACK_TRS_6PINS_APPLE AUDIO1
 U 1 1 58D82C05
 P 2300 2350
-F 0 "AUDIO1" H 2500 2000 50  0000 C CNN
+F 0 "AUDIO1" H 2400 2750 50  0000 C CNN
 F 1 "JACK_TRS_6PINS" V 1450 2400 50  0000 C CNN
 F 2 "audio-jack:CUI_SJ-43516-SMT" H 2400 2200 50  0001 C CNN
 F 3 "http://www.cui.com/product/resource/sj-4351x-smt-series.pdf" H 2400 2200 50  0001 C CNN
@@ -95,7 +95,7 @@ F 6 "311-1.20KHRCT-ND" V 3750 1900 50  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2950 2350 3500 2350
+	3400 2350 3500 2350
 Wire Wire Line
 	3500 2200 3600 2200
 Wire Wire Line
@@ -171,7 +171,7 @@ Wire Wire Line
 	3500 2700 3600 2700
 Connection ~ 3500 2850
 Wire Wire Line
-	2950 2550 3500 2550
+	3400 2550 3500 2550
 Connection ~ 3500 2700
 Text GLabel 3900 2550 2    60   Input ~ 0
 AUDIO_R0
@@ -185,10 +185,6 @@ Wire Wire Line
 	3500 3000 3600 3000
 Connection ~ 3500 2550
 NoConn ~ 2650 2550
-Text Label 3050 2350 0    60   ~ 0
-AUDIO_L
-Text Label 3050 2550 0    60   ~ 0
-AUDIO_R
 $Comp
 L power:GND #PWR0139
 U 1 1 595A57AD
@@ -464,17 +460,21 @@ Wire Wire Line
 	3500 1400 3500 1550
 NoConn ~ 1900 1900
 Wire Wire Line
-	2050 1900 2050 1450
+	2050 1900 2050 1850
 Text Label 2000 2800 3    60   ~ 0
 AUDIO_V
 Wire Wire Line
 	2000 2750 2000 3200
 Wire Wire Line
-	2300 2750 2300 3200
-Text Label 2300 2800 3    60   ~ 0
-AUDIO_L
-Text Label 2050 1850 1    60   ~ 0
-AUDIO_R
+	2300 2750 2300 2800
 Wire Wire Line
 	2950 1700 3500 1700
+Text GLabel 3400 2350 0    60   Input ~ 0
+AUDIO_L
+Text GLabel 3400 2550 0    60   Input ~ 0
+AUDIO_R
+Text GLabel 2050 1850 1    60   Input ~ 0
+AUDIO_R
+Text GLabel 2300 2800 3    60   Input ~ 0
+AUDIO_L
 $EndSCHEMATC
