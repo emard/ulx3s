@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP JACK_TRS_6PINS_APPLE
+D audio jack TRS 6 pins apple/nokia
+K audio jack connector TRS 6-pin apple/nokia
+$ENDCMP
+#
+#End Doc Library
