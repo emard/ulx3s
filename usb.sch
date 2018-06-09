@@ -33,12 +33,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0107
 U 1 1 58D6C83B
-P 3050 1700
-F 0 "#PWR0107" H 3050 1550 50  0001 C CNN
-F 1 "+5V" H 3050 1840 50  0000 C CNN
-F 2 "" H 3050 1700 60  0000 C CNN
-F 3 "" H 3050 1700 60  0000 C CNN
-	1    3050 1700
+P 2800 1700
+F 0 "#PWR0107" H 2800 1550 50  0001 C CNN
+F 1 "+5V" H 2800 1840 50  0000 C CNN
+F 2 "" H 2800 1700 60  0000 C CNN
+F 3 "" H 2800 1700 60  0000 C CNN
+	1    2800 1700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -60,12 +60,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0108
 U 1 1 58D6C83D
-P 3000 2650
-F 0 "#PWR0108" H 3000 2500 50  0001 C CNN
-F 1 "+5V" H 3000 2790 50  0000 C CNN
-F 2 "" H 3000 2650 60  0000 C CNN
-F 3 "" H 3000 2650 60  0000 C CNN
-	1    3000 2650
+P 2800 2650
+F 0 "#PWR0108" H 2800 2500 50  0001 C CNN
+F 1 "+5V" H 2800 2790 50  0000 C CNN
+F 2 "" H 2800 2650 60  0000 C CNN
+F 3 "" H 2800 2650 60  0000 C CNN
+	1    2800 2650
 	0    1    1    0   
 $EndComp
 $Comp
@@ -74,7 +74,7 @@ U 1 1 58D6C840
 P 1500 1900
 AR Path="/58D6C840" Ref="US1"  Part="1" 
 AR Path="/58D6BF46/58D6C840" Ref="US1"  Part="1" 
-F 0 "US1" H 1825 1775 50  0000 C CNN
+F 0 "US1" V 1200 1900 50  0000 C CNN
 F 1 "MICRO_USB" H 1500 2100 50  0000 C CNN
 F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" V 1450 1800 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 1450 1800 50  0001 C CNN
@@ -99,7 +99,7 @@ U 1 1 58D6C841
 P 1500 2850
 AR Path="/58D6C841" Ref="US2"  Part="1" 
 AR Path="/58D6BF46/58D6C841" Ref="US2"  Part="1" 
-F 0 "US2" H 1825 2725 50  0000 C CNN
+F 0 "US2" V 1200 2850 50  0000 C CNN
 F 1 "MICRO_USB" H 1500 3050 50  0000 C CNN
 F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" V 1450 2750 50  0001 C CNN
 F 3 "portal.fciconnect.com/Comergent/fci/drawing/10118192.pdf" H 1450 2750 50  0001 C CNN
@@ -120,23 +120,22 @@ $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 58D6C843
-P 1850 3050
-F 0 "#PWR0105" H 1850 2800 50  0001 C CNN
-F 1 "GND" H 1850 2900 50  0000 C CNN
-F 2 "" H 1850 3050 50  0000 C CNN
-F 3 "" H 1850 3050 50  0000 C CNN
-	1    1850 3050
+P 2150 3050
+F 0 "#PWR0105" H 2150 2800 50  0001 C CNN
+F 1 "GND" H 2150 2900 50  0000 C CNN
+F 2 "" H 2150 3050 50  0000 C CNN
+F 3 "" H 2150 3050 50  0000 C CNN
+	1    2150 3050
 	0    -1   -1   0   
 $EndComp
 Text GLabel 3000 1800 2    60   Input ~ 0
 USB_FTDI_D-
 Text GLabel 3000 1900 2    60   Input ~ 0
 USB_FTDI_D+
-Text GLabel 3150 2750 2    60   Input ~ 0
+Text GLabel 3000 2750 2    60   Input ~ 0
 USB_FPGA_D-
-Text GLabel 3150 2850 2    60   Input ~ 0
+Text GLabel 3000 2850 2    60   Input ~ 0
 USB_FPGA_D+
-NoConn ~ 1850 2950
 NoConn ~ 1850 2000
 $Comp
 L power:GND #PWR0102
@@ -220,15 +219,15 @@ $EndComp
 Wire Wire Line
 	1800 1700 1950 1700
 Wire Wire Line
-	2400 1700 3050 1700
+	2400 1700 2800 1700
 Wire Wire Line
-	2750 2650 3000 2650
+	2750 2650 2800 2650
 Wire Wire Line
 	1800 2650 2550 2650
 Wire Wire Line
 	1800 2100 1850 2100
 Wire Wire Line
-	1800 3050 1850 3050
+	1800 3050 2150 3050
 Wire Wire Line
 	1800 1800 2150 1800
 Wire Wire Line
@@ -237,8 +236,6 @@ Wire Wire Line
 	1800 2750 2100 2750
 Wire Wire Line
 	1800 2850 2100 2850
-Wire Wire Line
-	1800 2950 1850 2950
 Wire Wire Line
 	1800 2000 1850 2000
 Wire Wire Line
@@ -372,17 +369,17 @@ warning:\nULX3S has different pinout\nfor simpler PCB routing and\nbecause FT230
 $Comp
 L Device:R R40
 U 1 1 591C69FB
-P 2250 4850
+P 2250 4650
 AR Path="/591C69FB" Ref="R40"  Part="1" 
 AR Path="/58D6BF46/591C69FB" Ref="R40"  Part="1" 
-F 0 "R40" V 2330 4850 50  0000 C CNN
-F 1 "1.2k" V 2250 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 4850 50  0001 C CNN
-F 3 "" H 2250 4850 50  0000 C CNN
-	1    2250 4850
-	0    -1   -1   0   
+F 0 "R40" V 2330 4650 50  0000 C CNN
+F 1 "1.2k" V 2250 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 4650 50  0001 C CNN
+F 3 "" H 2250 4650 50  0000 C CNN
+	1    2250 4650
+	0    -1   1    0   
 $EndComp
-Text Notes 2750 5000 0    60   ~ 0
+Text Notes 2750 4750 0    60   ~ 0
 D+ 1.5k pullp for \nfull speed device\nmode USB1.1
 Text GLabel 8650 1450 0    60   Input ~ 0
 CLK_25MHz
@@ -590,17 +587,17 @@ D8,D9: Schottky 2A/30V \nLow drop Vfmax=0.375V\nParts reduction: Only D8 is requ
 $Comp
 L Device:R R54
 U 1 1 59D562D0
-P 2250 5450
+P 2250 5250
 AR Path="/59D562D0" Ref="R54"  Part="1" 
 AR Path="/58D6BF46/59D562D0" Ref="R54"  Part="1" 
-F 0 "R54" V 2150 5450 50  0000 C CNN
-F 1 "1.2k" V 2250 5450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 5450 50  0001 C CNN
-F 3 "" H 2250 5450 50  0000 C CNN
-	1    2250 5450
-	0    1    1    0   
+F 0 "R54" V 2150 5250 50  0000 C CNN
+F 1 "1.2k" V 2250 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 5250 50  0001 C CNN
+F 3 "" H 2250 5250 50  0000 C CNN
+	1    2250 5250
+	0    1    -1   0   
 $EndComp
-Text Notes 2750 5600 0    60   ~ 0
+Text Notes 2750 5350 0    60   ~ 0
 D- 1.5k pullp for \nlow speed device\nmode USB1.0
 Text GLabel 8650 2350 0    60   Input ~ 0
 FTDI_TXDEN
@@ -734,87 +731,86 @@ Text Notes 7450 1400 0    60   ~ 0
 SD_D2 v1.7
 Text Notes 11150 1900 0    60   ~ 0
 SD_CLK v1.7
-Text GLabel 1600 4650 0    60   Input ~ 0
+Text GLabel 1600 4850 0    60   Input ~ 0
 USB_FPGA_PULL_D+
-Text GLabel 1600 5250 0    60   Input ~ 0
+Text GLabel 1600 5450 0    60   Input ~ 0
 USB_FPGA_PULL_D-
 $Comp
 L Device:R R63
 U 1 1 5A71E38F
-P 2250 4650
+P 2250 4850
 AR Path="/5A71E38F" Ref="R63"  Part="1" 
 AR Path="/58D6BF46/5A71E38F" Ref="R63"  Part="1" 
-F 0 "R63" V 2330 4650 50  0000 C CNN
-F 1 "15k" V 2250 4650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 4650 50  0001 C CNN
-F 3 "" H 2250 4650 50  0000 C CNN
-	1    2250 4650
-	0    -1   -1   0   
+F 0 "R63" V 2330 4850 50  0000 C CNN
+F 1 "15k" V 2250 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 4850 50  0001 C CNN
+F 3 "" H 2250 4850 50  0000 C CNN
+	1    2250 4850
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R64
 U 1 1 5A71E566
-P 2250 5250
+P 2250 5450
 AR Path="/5A71E566" Ref="R64"  Part="1" 
 AR Path="/58D6BF46/5A71E566" Ref="R64"  Part="1" 
-F 0 "R64" V 2330 5250 50  0000 C CNN
-F 1 "15k" V 2250 5250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 5250 50  0001 C CNN
-F 3 "" H 2250 5250 50  0000 C CNN
-	1    2250 5250
-	0    -1   -1   0   
+F 0 "R64" V 2330 5450 50  0000 C CNN
+F 1 "15k" V 2250 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 5450 50  0001 C CNN
+F 3 "" H 2250 5450 50  0000 C CNN
+	1    2250 5450
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2400 4650 2550 4650
+	2400 4850 2550 4850
 Wire Wire Line
-	2400 5250 2550 5250
+	2400 5450 2550 5450
 Text Notes 650  4450 0    60   ~ 0
 USB pull lines connected to\nBANK0 on "gpio" sheet
 $Comp
 L Device:D D23
 U 1 1 5A720D44
-P 1950 4650
-F 0 "D23" H 1650 4750 50  0000 C CNN
-F 1 "1N4148" H 1900 4750 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1950 4650 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 1950 4650 50  0001 C CNN
-F 4 "1N4148WS" H 1950 4650 50  0001 C CNN "MPN"
-	1    1950 4650
-	1    0    0    -1  
+P 1950 4850
+F 0 "D23" H 1650 4950 50  0000 C CNN
+F 1 "1N4148" H 1900 4950 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1950 4850 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 1950 4850 50  0001 C CNN
+	1    1950 4850
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	2400 4850 2550 4850
+	2400 4650 2550 4650
 Wire Wire Line
-	2550 4850 2550 4650
-Connection ~ 2550 4650
+	2550 4650 2550 4850
+Connection ~ 2550 4850
 Wire Wire Line
-	2400 5450 2550 5450
+	2400 5250 2550 5250
 Wire Wire Line
-	2550 5450 2550 5250
-Connection ~ 2550 5250
+	2550 5250 2550 5450
+Connection ~ 2550 5450
 Wire Wire Line
-	1600 4650 1700 4650
+	1600 4850 1700 4850
 Wire Wire Line
-	1700 4650 1700 4850
+	1700 4850 1700 4650
 Wire Wire Line
-	1700 4850 1800 4850
-Connection ~ 1700 4650
+	1700 4650 1800 4650
+Connection ~ 1700 4850
 Wire Wire Line
-	1600 5250 1700 5250
+	1600 5450 1700 5450
 Wire Wire Line
-	1700 5250 1700 5450
+	1700 5450 1700 5250
 Wire Wire Line
-	1700 5450 1800 5450
-Connection ~ 1700 5250
+	1700 5250 1800 5250
+Connection ~ 1700 5450
 Wire Wire Line
 	2600 2850 2600 2900
 Wire Wire Line
 	2700 2750 2700 2900
-Text GLabel 2750 4650 2    60   Input ~ 0
+Text GLabel 2750 4850 2    60   Input ~ 0
 USB_FPGA_D+
-Text GLabel 2750 5250 2    60   Input ~ 0
+Text GLabel 2750 5450 2    60   Input ~ 0
 USB_FPGA_D-
-Text Notes 2750 4550 0    60   ~ 0
+Text Notes 2750 5700 0    60   ~ 0
 D+,D- 15k pulldown \nfor host mode
 Wire Wire Line
 	5600 4400 5600 4500
@@ -825,56 +821,54 @@ Wire Wire Line
 Wire Wire Line
 	2650 3200 2700 3200
 Wire Wire Line
-	2600 2850 3150 2850
+	2600 2850 3000 2850
 Wire Wire Line
-	2700 2750 3150 2750
+	2700 2750 3000 2750
 Wire Wire Line
 	6450 3700 6550 3700
 Wire Wire Line
 	5450 1200 5450 1250
 Wire Wire Line
-	2550 4650 2750 4650
+	2550 4850 2750 4850
 Wire Wire Line
-	2550 5250 2750 5250
+	2550 5450 2750 5450
 Wire Wire Line
-	1700 4650 1800 4650
+	1700 4850 1800 4850
 Wire Wire Line
-	1700 5250 1800 5250
+	1700 5450 1800 5450
 $Comp
 L Device:D D25
 U 1 1 5AF760EE
+P 1950 5450
+F 0 "D25" H 1650 5550 50  0000 C CNN
+F 1 "1N4148" H 1900 5550 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1950 5450 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 1950 5450 50  0001 C CNN
+	1    1950 5450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5AF79ABE
+P 1950 4650
+F 0 "D24" H 2250 4750 50  0000 C CNN
+F 1 "1N4148" H 1900 4750 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1950 4650 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 1950 4650 50  0001 C CNN
+	1    1950 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 5AF7B2B2
 P 1950 5250
-F 0 "D25" H 1650 5350 50  0000 C CNN
+F 0 "D26" H 2250 5350 50  0000 C CNN
 F 1 "1N4148" H 1900 5350 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1950 5250 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 1950 5250 50  0001 C CNN
 F 4 "1N4148WS" H 1950 5250 50  0001 C CNN "MPN"
 	1    1950 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D24
-U 1 1 5AF79ABE
-P 1950 4850
-F 0 "D24" H 2250 4950 50  0000 C CNN
-F 1 "1N4148" H 1900 4950 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1950 4850 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 1950 4850 50  0001 C CNN
-F 4 "1N4148WS" H 1950 4850 50  0001 C CNN "MPN"
-	1    1950 4850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D26
-U 1 1 5AF7B2B2
-P 1950 5450
-F 0 "D26" H 2250 5550 50  0000 C CNN
-F 1 "1N4148" H 1900 5550 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 1950 5450 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30065.pdf" V 1950 5450 50  0001 C CNN
-F 4 "1N4148WS" H 1950 5450 50  0001 C CNN "MPN"
-	1    1950 5450
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Text Label 1850 2650 0    60   ~ 0
 US2VBUS
@@ -890,7 +884,7 @@ Text Notes 7450 1900 0    60   ~ 0
 SD_D0 v1.8
 Text GLabel 8650 1750 0    60   Input ~ 0
 SD_D1
-Text Notes 1550 6050 0    60   ~ 0
+Text Notes 750  6050 0    60   ~ 0
 Deviation from USB specification in\npulldowns for BOM simplificaton.\nWith series diode, correct value R63 R64 \nshould be 12k but 15k is used.
 Wire Notes Line
 	2550 2400 2650 2400
@@ -906,4 +900,8 @@ Wire Notes Line
 	2700 2400 2800 2400
 Text Notes 2400 2350 0    60   ~ 0
 STPS2L30AF
+Text GLabel 1800 2950 2    60   Input ~ 0
+US2_ID
+Text Notes 1600 3350 0    60   ~ 0
+US2_ID to RTC\non "powr" sheet
 $EndSCHEMATC

@@ -558,9 +558,9 @@ F 3 "" H 1950 4150 50  0000 C CNN
 	1    1950 4150
 	1    0    0    -1  
 $EndComp
-Text GLabel 2450 3450 2    60   Input ~ 0
+Text GLabel 2350 3450 2    60   Input ~ 0
 FPDI_SCL
-Text GLabel 2450 3550 2    60   Input ~ 0
+Text GLabel 2350 3550 2    60   Input ~ 0
 FPDI_SDA
 $Comp
 L Device:Battery_Cell BAT1
@@ -604,8 +604,6 @@ F 0 "D10" H 4300 4350 50  0000 C CNN
 F 1 "1N4148" H 4300 4150 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4300 4250 50  0001 C CNN
 F 3 "" H 4300 4250 50  0000 C CNN
-F 4 "1N4148WS" H 4300 4250 50  0001 C CNN "MPN"
-F 5 "1N4148WSFSCT-ND" H 4300 4250 50  0001 C CNN "Digikey"
 	1    4300 4250
 	0    -1   -1   0   
 $EndComp
@@ -676,7 +674,7 @@ F 3 "" H 4850 4200 50  0000 C CNN
 	1    4850 4200
 	0    -1   -1   0   
 $EndComp
-Text Notes 3000 3700 0    60   ~ 0
+Text Notes 3100 3700 0    60   ~ 0
 WAKEUPn\nopen drain \nactive low
 Text Label 2400 3750 0    60   ~ 0
 WAKEUPn
@@ -852,7 +850,6 @@ F 0 "D13" H 4050 4350 50  0000 C CNN
 F 1 "1N4148" H 4050 4150 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4050 4250 50  0001 C CNN
 F 3 "" H 4050 4250 50  0000 C CNN
-F 4 "1N4148WS" H 4050 4250 50  0001 C CNN "MPN"
 	1    4050 4250
 	0    1    1    0   
 $EndComp
@@ -888,7 +885,6 @@ F 0 "D14" H 3400 5500 50  0000 C CNN
 F 1 "1N4148" H 3400 5300 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3400 5400 50  0001 C CNN
 F 3 "" H 3400 5400 50  0000 C CNN
-F 4 "1N4148WS" H 3400 5400 50  0001 C CNN "MPN"
 	1    3400 5400
 	0    1    1    0   
 $EndComp
@@ -956,7 +952,6 @@ F 0 "D17" H 3150 4050 50  0000 C CNN
 F 1 "1N4148" H 3200 4250 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3150 4150 50  0001 C CNN
 F 3 "" H 3150 4150 50  0000 C CNN
-F 4 "1N4148WS" H 3150 4150 50  0001 C CNN "MPN"
 	1    3150 4150
 	1    0    0    -1  
 $EndComp
@@ -1480,10 +1475,6 @@ Wire Wire Line
 	4600 1050 4600 1150
 Wire Wire Line
 	1950 4050 1950 4150
-Wire Wire Line
-	2350 3450 2450 3450
-Wire Wire Line
-	2350 3550 2450 3550
 Wire Wire Line
 	900  3800 900  3850
 Wire Wire Line
@@ -3190,4 +3181,34 @@ Wire Wire Line
 	1350 1850 1350 1800
 Wire Wire Line
 	1350 1800 1400 1800
+$Comp
+L Device:D D27
+U 1 1 5B203FA2
+P 2900 3550
+F 0 "D27" H 3100 3600 50  0000 C CNN
+F 1 "1N4148" H 2900 3450 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2900 3550 50  0001 C CNN
+F 3 "" H 2900 3550 50  0000 C CNN
+	1    2900 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 3700 2900 3750
+$Comp
+L Device:R R66
+U 1 1 5B2457C5
+P 3150 3300
+F 0 "R66" V 3230 3300 50  0000 C CNN
+F 1 "1.2k" V 3150 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 3300 50  0001 C CNN
+F 3 "" H 3150 3300 50  0000 C CNN
+	1    3150 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 3400 2900 3300
+Wire Wire Line
+	2900 3300 3000 3300
+Text GLabel 3300 3300 2    60   Input ~ 0
+US2_ID
 $EndSCHEMATC
