@@ -13,5 +13,6 @@
   (lib (name dcdc)(type Legacy)(uri ${KIPRJMOD}/footprints/dcdc_converter/dcdc.lib)(options "")(descr ""))
   (lib (name hdmi-d)(type Legacy)(uri ${KIPRJMOD}/footprints/hdmi-d/hdmi-d.lib)(options "")(descr ""))
   (lib (name jack_trs_6pins)(type Legacy)(uri ${KIPRJMOD}/footprints/audio-jack/jack_trs_6pins.lib)(options "")(descr ""))
+  (lib (name jack_trs_6pins_apple)(type Legacy)(uri ${KIPRJMOD}/footprints/audio-jack/jack_trs_6pins_apple.lib)(options "")(descr ""))
   (lib (name pca9306d)(type Legacy)(uri ${KIPRJMOD}/footprints/level-translator/pca9306d.lib)(options "")(descr ""))
 )
