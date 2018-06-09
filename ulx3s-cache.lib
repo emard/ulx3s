@@ -422,6 +422,21 @@ X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# Device:Jumper_NO_Small
+#
+DEF Device:Jumper_NO_Small JP 0 30 N N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Device:Jumper_NO_Small" 10 -60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -40 0 20 0 1 0 N
+C 40 0 20 0 1 0 N
+X 1 1 -100 0 40 R 50 50 0 1 P
+X 2 2 100 0 40 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Device:L
 #
 DEF Device:L L 0 40 N N 1 F N
@@ -585,25 +600,6 @@ X IO34 6 -950 200 200 R 50 50 1 1 B
 X IO35 7 -950 100 200 R 50 50 1 1 B
 X IO32 8 -950 0 200 R 50 50 1 1 B
 X IO33 9 -950 -100 200 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# Jumper:Jumper_2_Open
-#
-DEF Jumper:Jumper_2_Open JP 0 0 Y N 1 F N
-F0 "JP" 0 110 50 H V C CNN
-F1 "Jumper:Jumper_2_Open" 0 -90 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Jumper*
-$ENDFPLIST
-DRAW
-A 0 -30 100 1269 531 0 1 0 N -60 50 60 50
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-X A 1 -200 0 100 R 50 50 1 1 P
-X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
