@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L jack_trs_6pins:JACK_TRS_6PINS AUDIO1
+L jack_trs_6pins_apple:JACK_TRS_6PINS_APPLE AUDIO1
 U 1 1 58D82C05
 P 2550 2350
 F 0 "AUDIO1" H 2550 2750 50  0000 C CNN
