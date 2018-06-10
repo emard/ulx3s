@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MT48LC16M16A2TG
+D SDRAM
+K SDRAM
+$ENDCMP
+#
 #End Doc Library
