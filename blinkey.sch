@@ -453,22 +453,6 @@ LEDs connected to\nBANK7 on "gpio" sheet
 Text Notes 2100 4400 0    60   ~ 0
 BTN_R,U to BANK2,3 on "ram" sheet\nBTN_F1,F2,D,L to BANK8 on "flash" sheet
 $Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise SW1
-U 1 1 595B94DC
-P 8000 3200
-F 0 "SW1" H 8000 3450 50  0000 C CNN
-F 1 "DIPSW" V 8050 3150 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_DIP_x4_W8.61mm_Slide_LowProfile" H 8000 3200 50  0001 C CNN
-F 3 "https://www.ctscorp.com/wp-content/uploads/219.pdf" H 8000 3200 50  0001 C CNN
-F 4 "www.jameco.com" H 8000 3200 60  0001 C CNN "MNF1_URL"
-F 5 "219-4MST" H 8000 3200 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 8000 3200 60  0001 C CNN "Mouser_URL"
-F 7 "774-2194MST " H 8000 3200 60  0001 C CNN "Mouser"
-F 8 "CT2194MST-ND" H 8000 3200 50  0001 C CNN "Digikey"
-	1    8000 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R51
 U 1 1 595B9C2F
 P 7250 3400
@@ -494,13 +478,13 @@ Connection ~ 7750 3200
 Wire Wire Line
 	7800 3300 7750 3300
 Connection ~ 7750 3300
-Text GLabel 8300 3100 2    60   Input ~ 0
+Text GLabel 8400 3100 2    60   Input ~ 0
 SW1
-Text GLabel 8300 3200 2    60   Input ~ 0
+Text GLabel 8400 3200 2    60   Input ~ 0
 SW2
-Text GLabel 8300 3300 2    60   Input ~ 0
+Text GLabel 8400 3300 2    60   Input ~ 0
 SW3
-Text GLabel 8300 3400 2    60   Input ~ 0
+Text GLabel 8400 3400 2    60   Input ~ 0
 SW4
 Text Notes 7700 3750 0    60   ~ 0
 DIP switch connected to\nBANK0 on 'gpio' sheet
@@ -826,4 +810,19 @@ Wire Wire Line
 	7750 3300 7750 3400
 Text GLabel 7100 3400 0    60   Input ~ 0
 2V5_3V3
+$Comp
+L Switch:SW_DIP_x04 SW1
+U 1 1 5B1DD3B8
+P 8100 3300
+F 0 "SW1" H 8100 3767 50  0000 C CNN
+F 1 "SW_DIP_x04" H 8100 3676 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_DIP_x4_W8.61mm_Slide_LowProfile" H 8100 3300 50  0001 C CNN
+F 3 "https://www.ctscorp.com/wp-content/uploads/219.pdf" H 8100 3300 50  0001 C CNN
+F 4 "www.jameco.com" H 8100 3300 50  0001 C CNN "MNF1_URL"
+F 5 "219-4MST" H 8100 3300 50  0001 C CNN "MPN"
+F 6 "774-2194MST" H 8100 3300 50  0001 C CNN "Mouser"
+F 7 "CT2194MST-ND" H 8100 3300 50  0001 C CNN "Digikey"
+	1    8100 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

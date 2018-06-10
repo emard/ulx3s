@@ -69,7 +69,7 @@ F 3 "" H 2800 2650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L usb_otg:USB_OTG1 US1
+L usb_otg:USB_OTG US1
 U 1 1 58D6C840
 P 1500 1900
 AR Path="/58D6C840" Ref="US1"  Part="1" 
@@ -94,7 +94,7 @@ F 15 "WM17141CT-ND" H 1500 1900 50  0001 C CNN "Digikey2"
 	0    -1   1    0   
 $EndComp
 $Comp
-L usb_otg:USB_OTG1 US2
+L usb_otg:USB_OTG US2
 U 1 1 58D6C841
 P 1500 2850
 AR Path="/58D6C841" Ref="US2"  Part="1" 
