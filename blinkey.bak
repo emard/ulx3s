@@ -816,7 +816,7 @@ U 1 1 5B1DD3B8
 P 8100 3300
 F 0 "SW1" H 8100 3767 50  0000 C CNN
 F 1 "SW_DIP_x04" H 8100 3676 50  0000 C CNN
-F 2 "uttons_Switches_SMD:SW_DIP_x4_W8.61mm_Slide_LowProfile" H 8100 3300 50  0001 C CNN
+F 2 "Buttons_Switches_SMD:SW_DIP_x4_W8.61mm_Slide_LowProfile" H 8100 3300 50  0001 C CNN
 F 3 "https://www.ctscorp.com/wp-content/uploads/219.pdf" H 8100 3300 50  0001 C CNN
 F 4 "www.jameco.com" H 8100 3300 50  0001 C CNN "MNF1_URL"
 F 5 "219-4MST" H 8100 3300 50  0001 C CNN "MPN"
