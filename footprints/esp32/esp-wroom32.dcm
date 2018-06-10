@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP-WROOM32
+D ESP-WROOM32
+K ESP-WROOM32
+$ENDCMP
+#
+#End Doc Library
