@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 9 11
 Title "ULX3S"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "EMARD"
 Comment1 "Analog audio and video"
 Comment2 ""
@@ -95,7 +95,7 @@ F 6 "311-1.20KHRCT-ND" V 3750 1900 50  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3400 2350 3500 2350
+	2950 2350 3500 2350
 Wire Wire Line
 	3500 2200 3600 2200
 Wire Wire Line
@@ -171,7 +171,7 @@ Wire Wire Line
 	3500 2700 3600 2700
 Connection ~ 3500 2850
 Wire Wire Line
-	3400 2550 3500 2550
+	2950 2550 3500 2550
 Connection ~ 3500 2700
 Text GLabel 3900 2550 2    60   Input ~ 0
 AUDIO_R0
@@ -460,21 +460,21 @@ Wire Wire Line
 	3500 1400 3500 1550
 NoConn ~ 1900 1900
 Wire Wire Line
-	2050 1900 2050 1850
+	2050 1900 2050 1450
 Text Label 2000 2800 3    60   ~ 0
 AUDIO_V
 Wire Wire Line
 	2000 2750 2000 3200
 Wire Wire Line
-	2300 2750 2300 2800
+	2300 2750 2300 3200
 Wire Wire Line
 	2950 1700 3500 1700
-Text GLabel 3400 2350 0    60   Input ~ 0
+Text Label 2300 2800 3    60   ~ 0
 AUDIO_L
-Text GLabel 3400 2550 0    60   Input ~ 0
+Text Label 2050 1850 1    60   ~ 0
 AUDIO_R
-Text GLabel 2050 1850 1    60   Input ~ 0
-AUDIO_R
-Text GLabel 2300 2800 3    60   Input ~ 0
+Text Label 3000 2350 0    60   ~ 0
 AUDIO_L
+Text Label 3000 2550 0    60   ~ 0
+AUDIO_R
 $EndSCHEMATC

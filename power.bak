@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 3 11
 Title "ULX3S"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "EMARD"
 Comment1 "Power"
 Comment2 ""
@@ -752,9 +752,10 @@ F 7 "www.diodes.com" H 3100 5600 50  0001 C CNN "MNF2_URL"
 F 8 "Diodes inc." H 3100 5600 50  0001 C CNN "MFG2"
 F 9 "BAT54WSQ-7-F " H 3100 5600 50  0001 C CNN "MPN2"
 F 10 "www.mouser.com" H 3100 5600 50  0001 C CNN "Mouser_URL"
-F 11 "863-NSR0530HT1G " H 3100 5600 50  0001 C CNN "Mouser"
-F 12 "621-BAT54WSQ-7-F " H 3100 5600 50  0001 C CNN "Mouser2"
+F 11 "863-NSR0530HT1G " H 3100 5600 50  0001 C CNN "Mouser2"
+F 12 "621-BAT54WSQ-7-F " H 3100 5600 50  0001 C CNN "Mouser3"
 F 13 "NSR0530HT1GOSCT-ND" H 3100 5600 50  0001 C CNN "Digikey"
+F 14 "755-RSX051VYM30FHTR" H 3100 5600 50  0001 C CNN "Mouser"
 	1    3100 5600
 	-1   0    0    1   
 $EndComp
