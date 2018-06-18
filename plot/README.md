@@ -19,3 +19,15 @@ page, select:
 
 click "Add your gerber file" and upload this zip file then
 click on "Gerber Viewer" to see what will be produced.
+
+Exporting for production:
+
+Drill file:
+[x] Excellon format
+[x] inch units
+[x] suppress trailing zeros
+[x] PTH and NPTH in the same file
+
+Footprint position file:
+[x] ASCII format
+[x] mm units
