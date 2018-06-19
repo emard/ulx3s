@@ -3628,7 +3628,7 @@
   )
 
   (module hrvatski_proizvod_veci:hrvatski (layer F.Cu) (tedit 5A684F2D) (tstamp 5A6852D5)
-    (at 114.9 71.453)
+    (at 114.9 71.598)
     (descr "HRVATSKI PROIZVOD")
     (tags Hrvatski)
     (fp_text reference HR (at 0 -3.7) (layer F.SilkS) hide
