@@ -258,4 +258,4 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] enlarge FER logo
     [x] Descriptive audio jack schematic symbol
     [x] USB ID pin to RTC WAKEUPn
-    [ ] Move 25MHz clock down closer to LEDs
+    [x] Move 25MHz clock down closer to LEDs
