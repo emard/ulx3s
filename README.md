@@ -259,5 +259,5 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] Descriptive audio jack schematic symbol
     [x] USB ID pin to RTC WAKEUPn
     [x] Move 25MHz clock down closer to LEDs
-    [ ] i2c chip U11 VCC1=2.5V EN=3.3V for low power sleep
+    [x] i2c chip U11 VCC1=2.5V EN=3.3V for low power sleep
  

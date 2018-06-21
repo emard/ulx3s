@@ -44,7 +44,7 @@ G04 #@! TD*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
 %ADD20R,1.120000X2.440000*%
 G04 #@! TD*
-G04 #@! %TA.AperFunction,BGAPad,CuDef*
+G04 #@! TA.AperFunction,BGAPad,CuDef*
 %ADD21C,0.350000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
