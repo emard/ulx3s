@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 5 11
 Title "ULX3S"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "EMARD"
 Comment1 "General Purpose Differential Interface"
 Comment2 "Digital Video and Ethernet"
@@ -208,17 +208,6 @@ F 1 "GND" H 6100 5950 50  0000 C CNN
 F 2 "" H 6100 6100 50  0000 C CNN
 F 3 "" H 6100 6100 50  0000 C CNN
 	1    6100 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR091
-U 1 1 58D92A40
-P 5050 4850
-F 0 "#PWR091" H 5050 4700 50  0001 C CNN
-F 1 "+3V3" H 5050 4990 50  0000 C CNN
-F 2 "" H 5050 4850 50  0000 C CNN
-F 3 "" H 5050 4850 50  0000 C CNN
-	1    5050 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -615,14 +604,6 @@ Wire Wire Line
 	6100 4850 6100 4950
 Wire Wire Line
 	5650 4950 6100 4950
-Connection ~ 6100 4950
-Wire Wire Line
-	6100 4950 6100 5250
-Wire Wire Line
-	6100 5250 6100 5750
-Connection ~ 6100 5250
-Wire Wire Line
-	6100 5250 5950 5250
 Wire Wire Line
 	5650 4950 5650 5050
 Connection ~ 6500 5650
@@ -644,4 +625,33 @@ Wire Wire Line
 	5450 4950 5450 5050
 Wire Wire Line
 	5050 4950 5450 4950
+Text Notes 4500 4600 0    60   ~ 0
+v1.9: VCC1=3.3V EN=5V
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5B2FDB6D
+P 5050 4850
+F 0 "#PWR?" H 5050 4700 50  0001 C CNN
+F 1 "+2V5" H 5050 5000 50  0000 C CNN
+F 2 "" H 5050 4850 50  0001 C CNN
+F 3 "" H 5050 4850 50  0001 C CNN
+	1    5050 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 4950
+Wire Wire Line
+	6100 4950 6100 5750
+Wire Wire Line
+	5950 5250 6700 5250
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5B3051DB
+P 6700 5250
+F 0 "#PWR?" H 6700 5100 50  0001 C CNN
+F 1 "+3V3" V 6700 5350 50  0000 L CNN
+F 2 "" H 6700 5250 50  0001 C CNN
+F 3 "" H 6700 5250 50  0001 C CNN
+	1    6700 5250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
