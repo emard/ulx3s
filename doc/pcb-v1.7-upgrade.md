@@ -24,7 +24,7 @@ R25 and R26 are on the back side top,
 under the GPDI connector.
 
 Optionally, as alternative software shutdown, 
-connected J2 "25-" pin to R13-D15 junction.
+connect J2 "25-" pin to R13-D15 junction.
 
 
 Don't connect ESP32 pins leading to SD card,
@@ -43,7 +43,7 @@ Shutdown:
 
 PCB v1.7 assembled comes with D11=1N4148 and R4=15k, those will
 keep waking up the board after shutdown signal because FT231x internal
-regulator will provide enough voltage (cca 2.5V will appear at 3.3V line)
+regulator will provide some voltage (cca 2.5V will appear at 3.3V line)
 and that is enough to wake up the board because voltage
 on ENABLE pin at switching regulators will be above its turn on
 threshold of 1.5V.
