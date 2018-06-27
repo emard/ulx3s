@@ -100,8 +100,8 @@ what manufacturer to choose for PCBA (PCB and Assembly) service.
 
 Parts can be ordered from [Detailed BOM](/doc/ulx3s_bom.csv)
 or from [ULX3S at
-Kitspace](https://kitspace.org/boards/github.com/emard/ulx3s).
-Kitspace automatically submits [Simplified BOM](/1-click-bom.tsv) to Digikey and
+Kitspace](https://kitspace.org/boards/github.com/emard/ulx3s),
+which automatically submits [Simplified BOM](/1-click-bom.tsv) to Digikey and
 Mouser. Kitspace may be updated with about 1 day delay after this project update.
 
 Choose PCBA manufacturer which can produce PCB of IPC CLASS 3 quality,
