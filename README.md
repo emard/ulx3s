@@ -104,8 +104,9 @@ which automatically submits [Simplified BOM](/1-click-bom.tsv) by
 clicking on "Digikey" or "Mouser" button. On each click, Digikey and Mouser will keep
 accumulating the BOM in the shopping cart. Digikey scripts probably have a
 bug: first time click will upload a partial BOM, then the shopping cart must be reset
-and next click will upload complete BOM. To reset shopping cart, click "New basket" or
-"New cart". Kitspace may be updated with about 1 day delay after this project update.
+and next click will upload complete BOM. To reset shopping cart, click
+"New Cart" or "New Basket".
+Kitspace may be updated with about 1 day delay after this project update.
 
 Choose PCBA manufacturer which can produce PCB of IPC CLASS 3 quality,
 5/5 mil trace resolution and 0.2 mm holes.
