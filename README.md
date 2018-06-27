@@ -98,6 +98,11 @@ ZIP the gerbers and send them to manufacturer:
 If you are going to order this project by yourself, it is important
 what manufacturer to choose for PCBA (PCB and Assembly) service.
 
+Parts can be ordered from [Detailed BOM](/doc/ulx3s_bom.csv).
+Or from [ULX3S at Kitspace](https://kitspace.org/boards/github.com/emard/ulx3s)
+which automatically submits [Simplified BOM](/1-click-bom.tsv) to Digikey and Mouser.
+Kitspace may be updated with about 1 day delay after this project update.
+
 Choose PCBA manufacturer which can produce PCB of IPC CLASS 3 quality,
 5/5 mil trace resolution and 0.2 mm holes.
 Avoid manufacturer who claims "quality" and "satisfaction" but doesn't
