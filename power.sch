@@ -541,10 +541,13 @@ F 2 "SOT96-1:SOT96-1" H 1950 3650 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf" H 1950 3650 50  0001 C CNN
 F 4 "www.nxp.com" H 1950 3650 50  0001 C CNN "MNF1_URL"
 F 5 " PCF8523T/1,118 " H 1950 3650 60  0001 C CNN "MPN"
-F 6 "https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf" H 1950 3650 60  0001 C CNN "MFG_TR_DS"
-F 7 "www.mouser.com" H 1950 3650 60  0001 C CNN "Mouser_URL"
-F 8 "771-PCF8523T/1118" H 1950 3650 60  0001 C CNN "Mouser"
-F 9 "568-5306-1-ND" H 1950 3650 50  0001 C CNN "Digikey"
+F 6 "www.microchip.com" H 1950 3650 50  0001 C CNN "MNF2_URL"
+F 7 "MCP7940N-I/SN" H 1950 3650 50  0001 C CNN "MPN2"
+F 8 "https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf" H 1950 3650 60  0001 C CNN "MFG_TR_DS"
+F 9 "www.mouser.com" H 1950 3650 60  0001 C CNN "Mouser_URL"
+F 10 "579-MCP7940N-I/SN" H 1950 3650 50  0001 C CNN "Mouser"
+F 11 "771-PCF8523T/1118" H 1950 3650 60  0001 C CNN "Mouser2"
+F 12 "568-5306-1-ND" H 1950 3650 50  0001 C CNN "Digikey"
 	1    1950 3650
 	1    0    0    -1  
 $EndComp
