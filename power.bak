@@ -944,8 +944,9 @@ F 3 "https://www.fairchildsemi.com/datasheets/1N/1N4148WS.pdf" H 2900 3950 50  0
 F 4 "www.fairchildsemi.com" H 2900 3950 50  0001 C CNN "MNF1_URL"
 F 5 "1N4148WS " H 2900 3950 50  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 2900 3950 50  0001 C CNN "Mouser_URL"
-F 7 "512-1N4148WS" H 2900 3950 50  0001 C CNN "Mouser"
-F 8 "1N4148WSFSCT-ND" H 2900 3950 50  0001 C CNN "Digikey"
+F 7 "863-MMDL914T1G" H 2900 3950 50  0001 C CNN "Mouser"
+F 8 "512-1N4148WS" H 2900 3950 50  0001 C CNN "Mouser2"
+F 9 "1N4148WSFSCT-ND" H 2900 3950 50  0001 C CNN "Digikey"
 	1    2900 3950
 	0    -1   -1   0   
 $EndComp
