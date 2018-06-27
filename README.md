@@ -100,7 +100,7 @@ what manufacturer to choose for PCBA (PCB and Assembly) service.
 
 Parts can be ordered from [Detailed BOM](/doc/ulx3s_bom.csv)
 or from [ULX3S at Kitspace](https://kitspace.org/boards/github.com/emard/ulx3s),
-which automatically submits [Simplified BOM](/1-click-bom.tsv) by
+which automatically submits [Simplified 1-click BOM](/1-click-bom.tsv) by
 clicking on "Digikey" or "Mouser" button. On each click, Digikey and Mouser will keep
 accumulating the BOM in the shopping cart. Number of unique parts on Digikey and Mouser
 should be equal but Digikey scripts have bugs. 
