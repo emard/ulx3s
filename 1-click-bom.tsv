@@ -47,7 +47,7 @@ U1	1		220-2071-ND				Lattice	Lattice			www.latticesemi.com	www.latticesemi.com		
 U2	1		1450-1352-1-ND				Micron	ISSI			www.micron.com	www.issi.com		MT48LC16M16A2TG-6A	IS42S16160G-7TL-TR		913-4816M16A2TG6AGTR	870-IS42S16160G7TLTR		www.mouser.com	
 U3, U4, U5	3		296-47360-1-ND				TI	DIOO			www.ti.com	www.dioo.com		TLV62569DBVR	DIO6015BCST5		595-TLV62569DBVR	453-DIO6015BCST5		www.mouser.com	
 U6	1		768-1129-1-ND								www.ftdichip.com			FT231XS			895-FT231XS-R			www.mouser.com	
-U7	1		568-5306-1-ND							https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf	www.nxp.com			 PCF8523T/1,118 			771-PCF8523T/1118			www.mouser.com	
+U7	1		568-5306-1-ND							https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf	www.nxp.com	www.microchip.com		 PCF8523T/1,118 	MCP7940N-I/SN		579-MCP7940N-I/SN	771-PCF8523T/1118		www.mouser.com	
 U8	1		MAX11125ATI+-ND								www.maximintegrated.com	www.maximintegrated.com		MAX11125ATI+	MAX11123ATI+		700-MAX11125ATI+	700-MAX11123ATI+		www.mouser.com	
 U9	1		1904-1010-1-ND								espressif.com			ESP-WROOM-32			356-ESP-WROOM-32 			www.mouser.com	
 U10	1	http://www.issi.com/WW/pdf/25LP-WP032D.pdf	W25Q128JVSIQCT-ND 	IS25LP128F-JBLE-ND	706-1607-1-ND						www.issi.com	www.issi.com	www.issi.com	IS25LP128F-JBLE	IS25LP032D-JNLE-TR	IS25LP032D-JNLA3	870-IS25LP128F-JBLE	870-IS25LP032DJNLETR	870-IS25LP032DJNLA3T	www.mouser.com	
