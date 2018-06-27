@@ -1,9 +1,9 @@
-### Module positions - created on Thu Jun 21 10:43:41 2018 ###
+### Module positions - created on Wed Jun 27 13:47:25 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2+dfsg1-3
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val              Package                                           PosX       PosY       Rot  Side
-BAT1      CR1225           Keystone_3000_1x12mm-CoinCell                 -70.4850     6.3500  180.0000  bottom
+BAT1      CR1225           Keystone_3000_1x12mm-CoinCell                 -70.4850     6.3500   90.0000  bottom
 C1        22uF             C_0805_2012Metric                              -9.6035    30.3350    0.0000  bottom
 C2        470pF            C_0603_1608Metric                             -60.7600    15.3100    0.0000  bottom
 C3        22uF             C_0805_2012Metric                             -60.9600    21.5900    0.0000  bottom
