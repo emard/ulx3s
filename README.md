@@ -99,10 +99,13 @@ If you are going to order this project by yourself, it is important
 what manufacturer to choose for PCBA (PCB and Assembly) service.
 
 Parts can be ordered from [Detailed BOM](/doc/ulx3s_bom.csv)
-or from [ULX3S at
-Kitspace](https://kitspace.org/boards/github.com/emard/ulx3s),
-which automatically submits [Simplified BOM](/1-click-bom.tsv) to Digikey and
-Mouser. Kitspace may be updated with about 1 day delay after this project update.
+or from [ULX3S at Kitspace](https://kitspace.org/boards/github.com/emard/ulx3s),
+which automatically submits [Simplified BOM](/1-click-bom.tsv) by
+clicking on "Digikey" or "Mouser" button. On each click, Digikey and Mouser will keep
+accumulating the BOM in the shopping cart. Digikey scripts probably have a
+bug: first time click will upload a partial BOM, then the shopping cart must be reset
+and next click will upload complete BOM. To reset shopping cart, click "New basket" or
+"New cart". Kitspace may be updated with about 1 day delay after this project update.
 
 Choose PCBA manufacturer which can produce PCB of IPC CLASS 3 quality,
 5/5 mil trace resolution and 0.2 mm holes.
