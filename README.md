@@ -102,10 +102,11 @@ Parts can be ordered from [Detailed BOM](/doc/ulx3s_bom.csv)
 or from [ULX3S at Kitspace](https://kitspace.org/boards/github.com/emard/ulx3s),
 which automatically submits [Simplified BOM](/1-click-bom.tsv) by
 clicking on "Digikey" or "Mouser" button. On each click, Digikey and Mouser will keep
-accumulating the BOM in the shopping cart. Digikey scripts probably have a
-bug: first time click will upload a partial BOM, then the shopping cart must be reset
-and next click will upload complete BOM. To reset shopping cart, click
-"New Cart" or "New Basket".
+accumulating the BOM in the shopping cart. Number of unique parts on Digikey and Mouser
+should be equal but Digikey scripts have bugs. 
+First time click on "Digikey" will upload a partial BOM, then the shopping
+cart must be reset and next click on "Digikey" will upload complete BOM.
+To reset shopping cart, click "New Cart" or "New Basket".
 Kitspace may be updated with about 1 day delay after this project update.
 
 Choose PCBA manufacturer which can produce PCB of IPC CLASS 3 quality,
