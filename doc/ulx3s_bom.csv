@@ -10,8 +10,8 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 9,Diode,D,D10 D13 D14 D16 D17 D23 D24 D25 D26 D27,1N4148,D_SOD-323_HandSoldering,10,,www.fairchildsemi.com,1N4148WS,1N4148WXTPMSCT-ND,,www.mouser.com,863-MMDL914T1G,1N4148WSFSCT-ND,,,,,,,,,512-1N4148WS,,Leave empty,,,,
 10,"Zener Diode, small symbol, alternativ symbol",D_Zener_Small_ALT,D20 D21,3.6V,D_SOD-323_HandSoldering,2,http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf,www.taiwansemi.com,BZT52C3V6S,BZT52C3V6S-TPMSCT-ND,,www.mouser.com,821-BZT52C3V6S,,,,,,,,,,,,,,,,
 11,Schottky diode,D_Schottky,D12 D15,BAT54W,D_SOD-323_HandSoldering,2,,www.onsemi.com,NSR0530HT1G,NSR0530HT1GOSCT-ND,ON semiconductor,www.mouser.com,755-RSX051VYM30FHTR,,,,BAT54WSQ-7-F,,Diodes inc.,,,www.diodes.com,863-NSR0530HT1G,621-BAT54WSQ-7-F,,,,,
-12,"LED generic, alternativ symbol",LED_ALT,D3 D7 D22,BLUE,LED_0805_2012Metric,3,http://www.mouser.com/ds/2/239/Lite-On-LTST-C170TBKT-1175372.pdf,www.liteon.com,LTST-C170TBKT-D7,160-1579-1-ND,,www.mouser.com,755-SMLMN2BCTT86C,,,,,,,,,,859-LTST-C170TBKT,859-LTST-C171TBKT,,,,,
-13,"LED generic, alternativ symbol",LED_ALT,D2 D6 D18,GREEN,LED_0805_2012Metric,3,http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf,www.liteon.com www.lite-on.com,LTST-C170KGKT,160-1414-1-ND,,www.mouser.com,859-LTST-C170KGKT,,,,,,,,,,,,,,,,
+12,"LED generic, alternativ symbol",LED_ALT,D3 D7 D22,BLUE,LED_0805_2012Metric,3,http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf,www.liteon.com,LTST-C170TBKT-D7,160-1579-1-ND,,,859-LTST-C170TBKT,,,SMLMN2BCTT86C,LTST-C171TBKT-D7,,,,https://www.rohm.com/datasheet/SML-M13UT,,755-SMLMN2BCTT86C,859-LTST-C171TBKT,,http://optoelectronics.liteon.com/upload/download/ds22-2000-233/ltst-c171tbkt(0630).pdf,,,
+13,"LED generic, alternativ symbol",LED_ALT,D2 D6 D18,GREEN,LED_0805_2012Metric,3,http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf,www.liteon.com www.lite-on.com,LTST-C170TGKT LTST-C170KGKT,160-1887-1-ND,,www.mouser.com,859-LTST-C170TGKT 859-LTST-C170KGKT,160-1414-1-ND,,,LTST-C170KGKT,,,,,,859-LTST-C170KGKT,,,,,,
 14,"LED generic, alternativ symbol",LED_ALT,D1 D5,ORANGE,LED_0805_2012Metric,2,https://optoelectronics.liteon.com/upload/download/DS-22-99-0185/LTST-C170KFKT.pdf,www.liteon.com,LTST-C170KFKT,160-1413-1-ND,,www.mouser.com,859-LTST-C170KFKT,,,,,,,,,,,,,,,,
 15,"LED generic, alternativ symbol",LED_ALT,D0 D4 D11 D19,RED,LED_0805_2012Metric,4,https://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf,www.liteon.com,LTST-C170KRKT,160-1415-1-ND,,www.mouser.com,859-LTST-C170KRKT,,,,,,,,,,,,,,,,
 16,"Schottky diode, small symbol",D_Schottky_Small,D8,STPS2L30AF,D_SMA,1,,www.st.com,STPS2L30AF,497-12310-1-ND,,www.mouser.com,511-STPS2L30AF,,,,,,,,,,,,,,,,
@@ -58,6 +58,6 @@ Number of PCBs:,1
 Total components:,191
 Schematic Version:,1.9.2
 Schematic Date:,
-BoM Date:,"etvrtak, 28. lipnja 2018. 09:22:05 CEST"
+BoM Date:,"petak, 29. lipnja 2018. 00:41:07 CEST"
 Schematic Source:,/home/davor/src/circuits/fpga/ulx3s/ulx3s.sch
 KiCad Version:,Eeschema 5.0.0-rc2+dfsg1-3
