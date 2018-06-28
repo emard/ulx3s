@@ -541,14 +541,14 @@ F 2 "SOT96-1:SOT96-1" H 1950 3650 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" H 1950 3650 50  0001 C CNN
 F 4 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP7940N%20Errata_DS80000611C.pdf" H 1950 3650 50  0001 C CNN "Datasheet_errata"
 F 5 "www.microchip.com" H 1950 3650 50  0001 C CNN "MNF1_URL"
-F 6 "MCP7940N-I/SN" H 1950 3650 50  0001 C CNN "MPN"
+F 6 "MCP7940NT-I/SN" H 1950 3650 50  0001 C CNN "MPN"
 F 7 "https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf" H 1950 3650 50  0001 C CNN "Datasheet2"
 F 8 "www.nxp.com" H 1950 3650 50  0001 C CNN "MNF2_URL"
-F 9 " PCF8523T/1,118 " H 1950 3650 60  0001 C CNN "MPN2"
+F 9 "PCF8523T/1,118 " H 1950 3650 60  0001 C CNN "MPN2"
 F 10 "https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf" H 1950 3650 60  0001 C CNN "MFG2_TR_DS"
-F 11 "579-MCP7940N-I/SN" H 1950 3650 50  0001 C CNN "Mouser"
+F 11 "579-MCP7940NT-I/SN" H 1950 3650 50  0001 C CNN "Mouser"
 F 12 "771-PCF8523T/1118" H 1950 3650 60  0001 C CNN "Mouser2"
-F 13 "MCP7940N-I/SN-ND" H 1950 3650 50  0001 C CNN "Digikey"
+F 13 "MCP7940NT-I/SNCT-ND" H 1950 3650 50  0001 C CNN "Digikey"
 F 14 "568-5306-1-ND" H 1950 3650 50  0001 C CNN "Digikey2"
 	1    1950 3650
 	1    0    0    -1  
