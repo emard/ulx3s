@@ -3096,7 +3096,7 @@ F 10 "www.mouser.com" H 8050 3400 50  0001 C CNN "Mouser_URL"
 F 11 "595-TLV62569DBVR" H 8050 3400 50  0001 C CNN "Mouser"
 F 12 "453-DIO6015BCST5" H 8050 3400 50  0001 C CNN "Mouser2"
 F 13 "296-47360-1-ND" H 8050 3400 50  0001 C CNN "Digikey"
-F 14 "https://hr.mouser.com/datasheet/2/802/20141215151207_968-948053.pdf" H 8050 3400 50  0001 C CNN "DatasheetLC"
+F 14 "http://www.dioo.com/attachments/files/20161031180022_361.pdf" H 8050 3400 50  0001 C CNN "DatasheetLC"
 F 15 "453-DIO6015BCST5" H 8050 3400 50  0001 C CNN "LowCost"
 	1    8050 3400
 	1    0    0    -1  
