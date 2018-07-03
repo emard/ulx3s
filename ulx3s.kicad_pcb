@@ -9775,7 +9775,7 @@
       (net 262 2V5_3V3))
     (pad 1 smd rect (at -0.9675 0) (size 1.295 1.4) (layers F.Cu F.Paste F.Mask)
       (net 13 +2V5))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl_disabled
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9787,7 +9787,7 @@
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /58D51CAD/5AF3694A)
-    (attr virtual)
+    (attr smd)
     (fp_text reference RV3 (at 0 -1.65) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
