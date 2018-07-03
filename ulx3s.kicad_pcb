@@ -7665,7 +7665,7 @@
       (net 262 2V5_3V3))
     (pad 3 thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 +3V3))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Horizontal.wrl
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Horizontal.wrl_disabled
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9754,7 +9754,7 @@
     (tags "resistor handsolder")
     (path /58D51CAD/5AF31FAC)
     (attr virtual)
-    (fp_text reference RV2 (at 0.254 -1.65) (layer F.SilkS)
+    (fp_text reference RV2 (at 0.508 -1.651) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0 (at 0 1.65) (layer F.Fab)
