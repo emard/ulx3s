@@ -9754,7 +9754,7 @@
     (tags "resistor handsolder")
     (path /58D51CAD/5AF31FAC)
     (attr virtual)
-    (fp_text reference RV2 (at 0.508 -1.651) (layer F.SilkS)
+    (fp_text reference RV2 (at 0.635 -1.651) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0 (at 0 1.65) (layer F.Fab)
