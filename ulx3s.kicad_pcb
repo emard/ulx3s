@@ -3596,7 +3596,7 @@
   )
 
   (module emard:emard12mm (layer F.Cu) (tedit 5A54AE11) (tstamp 5B3B67A4)
-    (at 125.342 88.997 90)
+    (at 125.342 88.489 90)
     (descr EMARD)
     (tags emard)
     (fp_text reference REF** (at 0 3.2 90) (layer F.SilkS) hide
