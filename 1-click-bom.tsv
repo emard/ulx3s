@@ -3,10 +3,10 @@ AE1	1																								Leave empty
 AUDIO1	1					CP-43516SJCT-ND					CUI				www.cui.com			SJ-43516-SMT-TR			490-SJ-43516-SMT-TR 			www.mouser.com	
 BAT1	1		https://cdn.harwin.com/pdfs/S8201R.pdf			BK-885-ND	36-3000CT-ND	952-1662-1-ND			Keystone	MPD		Harwin	www.keyelco.com	www.memoryprotectiondevices.com	www.harwin.com	3000TR	BK-885	S8201-46R	855-S8201-46R	534-3000TR			
 BTN0, BTN1, BTN2, BTN3, BTN4, BTN5, BTN6	7					CKN9088CT-ND									www.ckswitches.com			PTS645SL50SMTR92 LFS			611-PTS645SL50SMTR92			www.mouser.com	
-C1, C3, C4, C5, C7, C8, C9, C11, C12, C15, C21, C54, C55	13					1276-2413-1-ND	1276-2412-1-ND								www.yageo.com			CC0805ZKY5V5BB226 			81-GRM219R61C226ME5L	81-GRM188C60J226ME0J	963-JMK212ABJ226MG-T		
+C1, C3, C4, C5, C7, C8, C9, C11, C12, C15, C21, C54, C55, C58	14					1276-2413-1-ND	1276-2412-1-ND								www.yageo.com			CC0805ZKY5V5BB226 			81-GRM219R61C226ME5L	81-GRM188C60J226ME0J	963-JMK212ABJ226MG-T		
 C2, C6, C10, C18	4					399-9086-1-ND									www.yageo.com			CS0603KRX7R9BB471			603-CS0603KRX79BB471				
 C13, C16, C17, C19, C20, C22, C23, C24, C46, C47	10					1276-2903-1-ND									www.yageo.com			CC0805MRX5R6BB225			603-CC805MRX5R6BB225				
-C14, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45	11					1276-1112-1-ND									www.yageo.com			CC0603KRX7R8BB224			81-GCM188R71E224K55D	603-CC603KRX7R6BB224			
+C14, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C59	12					1276-1112-1-ND									www.yageo.com			CC0603KRX7R8BB224			81-GCM188R71E224K55D	603-CC603KRX7R6BB224			
 C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C48, C49, C50, C51, C52, C53	17					1276-2000-1-ND									www.yageo.com			CX0603MRX7R8BB223			603-AC603KRX7R7BB223				
 C56, C57	2					311-3349-1-ND									www.yageo.com			CC0603FRNPO9BN100			603-CC603FRNPO9BN100				
 D0, D4, D11, D19	4					160-1415-1-ND									www.liteon.com			LTST-C170KRKT			859-LTST-C170KRKT			www.mouser.com	
@@ -24,6 +24,7 @@ J3	1																								Leave empty
 J4	1																								Leave empty
 J5	1																							www.mouser.com	Leave empty
 L1, L2, L3	3			https://datasheet.octopart.com/LQH32PB2R2NN0L-Murata-datasheet-20916646.pdf		490-10649-1-ND				81-LQH32PB2R2NN0L	Murata	Murata		Bourns	www.murata.com	www.murata.com	www.bourns.com	DFE322512F-2R2M=P2	DFE252012P-2R2M=P2	SRP2512A-2R2M	81-DFE322512F-2R2MP2	81-DFE252012P-2R2MP2	652-SRP2512A-2R2M	www.mouser.com	
+L4	1					CV201210-330KCT-ND									www.bourns.com			CV201210-330K			652-CV201210-330K				
 OLED1	1														www.displaymodule.com			DM-OLEDC095-626						www.mouser.com	Leave empty
 Q1	1					TBC857BLMCT-ND									www.nxp.com			BC857			863-BC857BLT1G			www.mouser.com	
 Q2	1					2N7002K-TPMSCT-ND									www.nxp.com			2N7002P,215			512-2N7002L			www.mouser.com	
