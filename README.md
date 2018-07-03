@@ -272,3 +272,4 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] Move 25MHz clock down closer to LEDs
     [x] i2c chip U11 VCC1=2.5V EN=3.3V for low power sleep
     [x] Noise filter for ADC (LC)
+    [ ] Non-GND yellow layer clearance from board's edge
