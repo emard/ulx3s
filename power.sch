@@ -3021,7 +3021,7 @@ F 7 "Leave empty" H 900 1850 50  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small RV3
+L Device:Jumper_NC_Small RV3
 U 1 1 5AF3694A
 P 900 1550
 F 0 "RV3" H 900 1650 50  0000 C CNN
@@ -3030,8 +3030,8 @@ F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder" H 900 1550 50  00
 F 3 "" H 900 1550 50  0001 C CNN
 F 4 "www.mouser.com" H 900 1550 60  0001 C CNN "Mouser_URL"
 F 5 "www.yageo.com" H 900 1550 50  0001 C CNN "MNF1_URL"
-F 6 "RC0805JR-070RL" H 900 1550 50  0001 C CNN "EMPTY_PN"
-F 7 "Leave empty" H 900 1550 50  0001 C CNN "Note"
+F 6 "RC0805JR-070RL" H 900 1550 50  0001 C CNN "MPN"
+F 7 "71-RCG08050000Z0EA" H 900 1550 50  0001 C CNN "Mouser"
 	1    900  1550
 	0    -1   -1   0   
 $EndComp
