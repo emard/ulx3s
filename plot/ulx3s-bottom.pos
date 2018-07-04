@@ -1,4 +1,4 @@
-### Module positions - created on Wed Jun 27 20:22:41 2018 ###
+### Module positions - created on Wed Jul  4 13:00:51 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2+dfsg1-3
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -49,8 +49,10 @@ C52       22nF             C_0603_1608Metric                             -65.420
 C53       22nF             C_0603_1608Metric                             -39.6022    25.8900  180.0000  bottom
 C54       22uF             C_0805_2012Metric                             -75.0720    15.9840   90.0000  bottom
 C55       22uF             C_0805_2012Metric                             -84.9780    20.3020  270.0000  bottom
-C56       6.8pF            C_0603_1608Metric                             -84.9780    16.7460  270.0000  bottom
-C57       6.8pF            C_0603_1608Metric                             -82.1840     8.3640  180.0000  bottom
+C56       10pF             C_0603_1608Metric                             -84.9780    16.7460  270.0000  bottom
+C57       10pF             C_0603_1608Metric                             -82.1840     8.3640  180.0000  bottom
+C58       22uF             C_0805_2012Metric                             -74.0560    22.3340    0.0000  bottom
+C59       220nF            C_0603_1608Metric                             -74.0560    20.5560    0.0000  bottom
 D8        STPS2L30AF       D_SMA                                         -18.0490    42.1460    0.0000  bottom
 D10       1N4148           D_SOD-323_HandSoldering                       -76.2000    27.9400    0.0000  bottom
 D11       RED              LED_0805_2012Metric                           -85.0900    32.3850   90.0000  bottom
@@ -64,12 +66,13 @@ D20       3.6V             D_SOD-323_HandSoldering                       -73.406
 D21       3.6V             D_SOD-323_HandSoldering                       -79.6290    43.6700    0.0000  bottom
 D23       1N4148           D_SOD-323_HandSoldering                       -69.8500    44.9580    0.0000  bottom
 D24       1N4148           D_SOD-323_HandSoldering                       -69.8500    46.8630  180.0000  bottom
-D25       1N4148           D_SOD-323_HandSoldering                       -83.3120    41.1480   90.0000  bottom
-D26       1N4148           D_SOD-323_HandSoldering                       -85.3440    41.1480  270.0000  bottom
+D25       1N4148           D_SOD-323_HandSoldering                       -83.3120    40.8760   90.0000  bottom
+D26       1N4148           D_SOD-323_HandSoldering                       -85.3440    40.8760  270.0000  bottom
 D27       1N4148           D_SOD-323_HandSoldering                       -80.1520    40.1140  180.0000  bottom
 L1        2.2uH            L_1008_1210                                   -64.7700    24.1300  180.0000  bottom
 L2        2.2uH            L_1008_1210                                   -10.7950    23.4950    0.0000  bottom
 L3        2.2uH            L_1008_1210                                   -62.2300    37.4650  180.0000  bottom
+L4        33uH             L_0805_2012Metric_Pad1.29x1.40mm_HandSolder   -71.2620    24.2390  270.0000  bottom
 Q1        BC857            SOT-23                                        -81.9150    27.9400   90.0000  bottom
 Q2        2N7002           SOT-23                                        -76.8350    36.1950  180.0000  bottom
 R1        4.7k             R_0603_1608Metric                             -76.2000    29.8450    0.0000  bottom
