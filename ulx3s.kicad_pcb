@@ -1907,12 +1907,7 @@
       (net 20 JTAG_TMS))
     (pad 6 thru_hole oval (at 5.08 2.54 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 21 JTAG_TDO))
-    (model Socket_Strips.3dshapes/Socket_Strip_Straight_2x03.wrl
-      (offset (xyz 2.539999961853027 -1.269999980926514 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
-    )
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl_disabled
       (offset (xyz 0 -2.54 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -7630,7 +7625,7 @@
       (net 1 GND))
     (pad 2 thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 173 /wifi/WIFIEN))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Horizontal.wrl
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Horizontal.wrl_disabled
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
