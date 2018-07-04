@@ -976,10 +976,10 @@ $EndComp
 Text GLabel 3300 4150 2    60   Input ~ 0
 BTN_PWRn
 $Comp
-L Switch:SW_Push BTN0
+L Switch:SW_Push B0
 U 1 1 58E83FE0
 P 2200 4600
-F 0 "BTN0" H 2200 4550 50  0000 C CNN
+F 0 "B0" H 2200 4550 50  0000 C CNN
 F 1 "PTS645" H 2350 4700 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 2200 3400 50  0001 C CNN
 F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 2200 3400 50  0001 C CNN
