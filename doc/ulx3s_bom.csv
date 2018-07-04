@@ -2,11 +2,11 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 1,audio jack TRS 6 pins apple/nokia,JACK_TRS_6PINS_APPLE,AUDIO1,JACK_TRS_6PINS,CUI_SJ-43516-SMT,1,http://www.cui.com/product/resource/sj-4351x-smt-series.pdf,www.cui.com,SJ-43516-SMT-TR,CP-43516SJCT-ND,CUI,www.mouser.com,490-SJ-43516-SMT-TR,,,,,,,,,,,,,,,,
 2,"Push button switch, generic, two pins",SW_Push,B0 B1 B2 B3 B4 B5 B6,PTS645,SW_SPST_PTS645,7,http://www.ckswitches.com/media/1471/pts645.pdf,www.ckswitches.com,PTS645SL50SMTR92 LFS,CKN9088CT-ND,,www.mouser.com,611-PTS645SL50SMTR92,,,,,,,,,,,,,,,,
 3,single battery cell,Battery_Cell,BAT1,CR1225,Keystone_3000_1x12mm-CoinCell,1,http://www.keyelco.com/product-pdf.cfm?p=777,www.keyelco.com,3000TR,BK-885-ND,Keystone,,855-S8201-46R,36-3000CT-ND,952-1662-1-ND,S8201-46R,BK-885,www.harwin.com,MPD,Harwin,https://cdn.harwin.com/pdfs/S8201R.pdf,www.memoryprotectiondevices.com,534-3000TR,,,,,,
-4,Unpolarized capacitor,C,C56 C57,10pF,C_0603_1608Metric,2,,www.yageo.com,CC0603FRNPO9BN100,311-3349-1-ND,,,603-CC603FRNPO9BN100,,,,,,,,,,,,,,,,
-5,Unpolarized capacitor,C,C13 C16 C17 C19 C20 C22 C23 C24 C46 C47,2.2uF,C_0805_2012Metric,10,,www.yageo.com,CC0805MRX5R6BB225,1276-2903-1-ND,,,603-CC805MRX5R6BB225,,,,,,,,,,,,,,,,
-6,Unpolarized capacitor,C,C14 C36 C37 C38 C39 C40 C41 C42 C43 C44 C45 C59,220nF,C_0603_1608Metric,12,,www.yageo.com,CC0603KRX7R8BB224,1276-1112-1-ND,,,81-GCM188R71E224K55D,,,,,,,,,,603-CC603KRX7R6BB224,,,,,,
-7,Unpolarized capacitor,C,C25 C26 C27 C28 C29 C30 C31 C32 C33 C34 C35 C48 C49 C50 C51 C52 C53,22nF,C_0603_1608Metric,17,,www.yageo.com,CX0603MRX7R8BB223,1276-2000-1-ND,,,603-AC603KRX7R7BB223,,,,,,,,,,,,,,,,
-8,Unpolarized capacitor,C,C1 C3 C4 C5 C7 C8 C9 C11 C12 C15 C21 C54 C55 C58,22uF,C_0805_2012Metric,14,,www.yageo.com,CC0805ZKY5V5BB226,1276-2413-1-ND,,,81-GRM219R61C226ME5L,1276-2412-1-ND,,,,,,,,,81-GRM188C60J226ME0J,963-JMK212ABJ226MG-T,,,,,
+4,Unpolarized capacitor,C,C13 C16 C17 C19 C20 C22 C23 C24 C46 C47,2.2uF,C_0805_2012Metric,10,,www.yageo.com,CC0805MRX5R6BB225,1276-2903-1-ND,,,603-CC805MRX5R6BB225,,,,,,,,,,,,,,,,
+5,Unpolarized capacitor,C,C14 C36 C37 C38 C39 C40 C41 C42 C43 C44 C45 C59,220nF,C_0603_1608Metric,12,,www.yageo.com,CC0603KRX7R8BB224,1276-1112-1-ND,,,81-GCM188R71E224K55D,,,,,,,,,,603-CC603KRX7R6BB224,,,,,,
+6,Unpolarized capacitor,C,C25 C26 C27 C28 C29 C30 C31 C32 C33 C34 C35 C48 C49 C50 C51 C52 C53,22nF,C_0603_1608Metric,17,,www.yageo.com,CX0603MRX7R8BB223,1276-2000-1-ND,,,603-AC603KRX7R7BB223,,,,,,,,,,,,,,,,
+7,Unpolarized capacitor,C,C1 C3 C4 C5 C7 C8 C9 C11 C12 C15 C21 C54 C55 C58,22uF,C_0805_2012Metric,14,,www.yageo.com,CC0805ZKY5V5BB226,1276-2413-1-ND,,,81-GRM219R61C226ME5L,1276-2412-1-ND,,,,,,,,,81-GRM188C60J226ME0J,963-JMK212ABJ226MG-T,,,,,
+8,Unpolarized capacitor,C,C56 C57,3.3pF,C_0603_1608Metric,2,,www.yageo.com,CC0603CRNPO9BN3R3,311-3848-1-ND,,,710-885012006048,311-3855-1-ND,,,,,,,,,,,,,,,
 9,Unpolarized capacitor,C,C2 C6 C10 C18,470pF,C_0603_1608Metric,4,,www.yageo.com,CS0603KRX7R9BB471,399-9086-1-ND,,,603-CS0603KRX79BB471,,,,,,,,,,,,,,,,
 10,Diode,D,D10 D13 D14 D16 D17 D23 D24 D25 D26 D27,1N4148,D_SOD-323_HandSoldering,10,,www.fairchildsemi.com,1N4148WS,1N4148WXTPMSCT-ND,,www.mouser.com,863-MMDL914T1G,1N4148WSFSCT-ND,,,,,,,,,512-1N4148WS,,Leave empty,,,,
 11,"Zener Diode, small symbol, alternativ symbol",D_Zener_Small_ALT,D20 D21,3.6V,D_SOD-323_HandSoldering,2,http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf,www.taiwansemi.com,BZT52C3V6S,BZT52C3V6S-TPMSCT-ND,,www.mouser.com,821-BZT52C3V6S,,,,,,,,,,,,,,,,
@@ -60,6 +60,6 @@ Number of PCBs:,1
 Total components:,196
 Schematic Version:,2.0
 Schematic Date:,
-BoM Date:,"srijeda, 04. srpnja 2018. 12:39:16 CEST"
+BoM Date:,"srijeda, 04. srpnja 2018. 20:22:02 CEST"
 Schematic Source:,/home/davor/src/circuits/fpga/ulx3s/ulx3s.sch
 KiCad Version:,Eeschema 5.0.0-rc2+dfsg1-3
