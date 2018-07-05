@@ -274,3 +274,4 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] Noise filter for ADC (LC)
     [x] Non-GND yellow layer clearance from board's edge
     [x] VIAs thru-GND
+    [x] no paste on SW1 pads 
