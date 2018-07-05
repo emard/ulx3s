@@ -12,7 +12,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (1 In1.Cu signal hide)
+    (1 In1.Cu signal)
     (2 In2.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
@@ -3517,6 +3517,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 -90))
+    )
+    (model ${KIPRJMOD}/footprints/micro-sd/micro-sd-molex-47219-2001.3dshapes/molex-47219-2001.wrl_disabled
+      (offset (xyz -0.9 0 0.75))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz -90 0 -90))
     )
   )
 
