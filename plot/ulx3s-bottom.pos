@@ -1,4 +1,4 @@
-### Module positions - created on Thu Jul  5 14:42:08 2018 ###
+### Module positions - created on Fri Jul  6 00:31:37 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2+dfsg1-3
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -86,7 +86,7 @@ R8        1.2k             R_0603_1608Metric                             -76.835
 R9        15k              R_0603_1608Metric                             -34.2900     2.5400  270.0000  bottom
 R10       150              R_0603_1608Metric                             -58.0390     9.1440  180.0000  bottom
 R11       15k              R_0603_1608Metric                             -25.4150    33.0020  270.0000  bottom
-R12       15k              R_0603_1608Metric                             -20.3200    23.8760   90.0000  bottom
+R12       15k              R_0603_1608Metric                             -20.2080    23.8760   90.0000  bottom
 R13       15k              R_0603_1608Metric                             -81.9150    33.6550  180.0000  bottom
 R14       1.2k             R_0603_1608Metric                             -31.4960    27.1600  180.0000  bottom
 R15       680              R_0603_1608Metric                             -31.4960    28.6840  180.0000  bottom
@@ -103,7 +103,7 @@ R25       4.7k             R_0603_1608Metric                             -55.075
 R26       4.7k             R_0603_1608Metric                             -55.3870    42.5270  180.0000  bottom
 R27       15k              R_0603_1608Metric                             -34.9250    16.0450   90.0000  bottom
 R28       15k              R_0603_1608Metric                             -23.4950    33.0020  270.0000  bottom
-R29       1.2k             R_0603_1608Metric                             -18.7960    23.8760   90.0000  bottom
+R29       1.2k             R_0603_1608Metric                             -18.6840    23.8760   90.0000  bottom
 R30       4.7k             R_0603_1608Metric                             -21.5900    33.0020  270.0000  bottom
 R31       15k              R_0603_1608Metric                             -49.5300    13.9700  180.0000  bottom
 R32       15k              R_0603_1608Metric                             -38.7350    14.6050   90.0000  bottom
@@ -135,12 +135,6 @@ RA3       15k              R_0603_1608Metric                             -58.420
 RB1       18k              R_0603_1608Metric                             -64.1350    20.3200  270.0000  bottom
 RB2       4.7k             R_0603_1608Metric                             -12.0650    27.3050   90.0000  bottom
 RB3       3.3k             R_0603_1608Metric                             -61.5950    33.6550  270.0000  bottom
-RD9       0                R_0805_2012Metric_Pad1.29x1.40mm_HandSolder   -70.7540    38.5900  180.0000  bottom
-RD51      0                R_0805_2012Metric_Pad1.29x1.40mm_HandSolder   -61.6100    45.7020   90.0000  bottom
-RD52      0                R_0805_2012Metric_Pad1.29x1.40mm_HandSolder   -66.0550    45.8290  270.0000  bottom
-RP1       0                R_0805_2012Metric_Pad1.29x1.40mm_HandSolder   -58.1810    14.8590  270.0000  bottom
-RP2       0                R_0805_2012Metric_Pad1.29x1.40mm_HandSolder   -16.0020    23.6220    0.0000  bottom
-RP3       0                R_0805_2012Metric_Pad1.29x1.40mm_HandSolder   -55.3720    33.9090  270.0000  bottom
 U3        TLV62569DBV      TSOT-25                                       -66.6750    20.3200    0.0000  bottom
 U4        TLV62569DBV      TSOT-25                                        -9.5250    27.3050  180.0000  bottom
 U5        TLV62569DBV      TSOT-25                                       -64.1350    33.5280    0.0000  bottom
