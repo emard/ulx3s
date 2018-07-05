@@ -1,4 +1,4 @@
-### Module positions - created on Thu Jul  5 08:41:39 2018 ###
+### Module positions - created on Thu Jul  5 14:42:08 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc2+dfsg1-3
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -49,8 +49,8 @@ C52       22nF             C_0603_1608Metric                             -65.420
 C53       22nF             C_0603_1608Metric                             -39.6022    25.8900  180.0000  bottom
 C54       22uF             C_0805_2012Metric                             -75.0720    15.9840   90.0000  bottom
 C55       22uF             C_0805_2012Metric                             -84.9780    20.3020  270.0000  bottom
-C56       10pF             C_0603_1608Metric                             -84.9780    16.7460  270.0000  bottom
-C57       10pF             C_0603_1608Metric                             -82.1840     8.3640  180.0000  bottom
+C56       3.3pF            C_0603_1608Metric                             -84.9780    16.7460  270.0000  bottom
+C57       3.3pF            C_0603_1608Metric                             -82.1840     8.3640  180.0000  bottom
 C58       22uF             C_0805_2012Metric                             -73.8020    23.8580   90.0000  bottom
 C59       220nF            C_0603_1608Metric                             -72.1510    23.8580   90.0000  bottom
 D8        STPS2L30AF       D_SMA                                         -18.0490    42.1460    0.0000  bottom
