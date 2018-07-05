@@ -10106,7 +10106,7 @@
       (net 154 /power/PWRBTn))
     (pad 2 smd rect (at 3.98 2.25 180) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/footprints/button/pts645.3dshapes/PTS645.wrl
+    (model ${KIPRJMOD}/footprints/pushbutton/PTS645.3dshapes/PTS645.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10153,7 +10153,7 @@
       (net 128 /blinkey/BTNPUL))
     (pad 2 smd rect (at -3.98 2.25) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask)
       (net 7 BTN_F1))
-    (model ${KIPRJMOD}/footprints/button/pts645.3dshapes/PTS645.wrl
+    (model ${KIPRJMOD}/footprints/pushbutton/PTS645.3dshapes/PTS645.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10200,7 +10200,7 @@
       (net 128 /blinkey/BTNPUL))
     (pad 2 smd rect (at 3.98 2.25) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask)
       (net 8 BTN_F2))
-    (model ${KIPRJMOD}/footprints/button/pts645.3dshapes/PTS645.wrl
+    (model ${KIPRJMOD}/footprints/pushbutton/PTS645.3dshapes/PTS645.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10247,7 +10247,7 @@
       (net 129 /blinkey/BTNPUR))
     (pad 2 smd rect (at -3.98 2.25) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask)
       (net 11 BTN_U))
-    (model ${KIPRJMOD}/footprints/button/pts645.3dshapes/PTS645.wrl
+    (model ${KIPRJMOD}/footprints/pushbutton/PTS645.3dshapes/PTS645.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10294,7 +10294,7 @@
       (net 129 /blinkey/BTNPUR))
     (pad 2 smd rect (at 3.98 2.25 180) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask)
       (net 6 BTN_D))
-    (model ${KIPRJMOD}/footprints/button/pts645.3dshapes/PTS645.wrl
+    (model ${KIPRJMOD}/footprints/pushbutton/PTS645.3dshapes/PTS645.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10341,7 +10341,7 @@
       (net 129 /blinkey/BTNPUR))
     (pad 2 smd rect (at -3.98 2.25 180) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask)
       (net 9 BTN_L))
-    (model ${KIPRJMOD}/footprints/button/pts645.3dshapes/PTS645.wrl
+    (model ${KIPRJMOD}/footprints/pushbutton/PTS645.3dshapes/PTS645.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10388,7 +10388,7 @@
       (net 129 /blinkey/BTNPUR))
     (pad 2 smd rect (at 3.98 2.25 180) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask)
       (net 10 BTN_R))
-    (model ${KIPRJMOD}/footprints/button/pts645.3dshapes/PTS645.wrl
+    (model ${KIPRJMOD}/footprints/pushbutton/PTS645.3dshapes/PTS645.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
