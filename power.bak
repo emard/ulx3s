@@ -1763,6 +1763,7 @@ F 0 "RP2" H 10700 4380 50  0000 C CNN
 F 1 "0" H 10700 4250 50  0000 C CNN
 F 2 "jumper:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder_Jumper_NC" H 10700 4300 50  0001 C CNN
 F 3 "" H 10700 4300 50  0001 C CNN
+F 4 "Leave empty" H 10700 4300 50  0001 C CNN "Note"
 	1    10700 4300
 	1    0    0    -1  
 $EndComp
@@ -1774,6 +1775,7 @@ F 0 "RP3" H 10700 5580 50  0000 C CNN
 F 1 "0" H 10700 5450 50  0000 C CNN
 F 2 "jumper:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder_Jumper_NC" H 10700 5500 50  0001 C CNN
 F 3 "" H 10700 5500 50  0001 C CNN
+F 4 "Leave empty" H 10700 5500 50  0001 C CNN "Note"
 	1    10700 5500
 	1    0    0    -1  
 $EndComp

@@ -528,7 +528,7 @@ P 1950 3650
 AR Path="/58D70684" Ref="U7"  Part="1" 
 AR Path="/58D51CAD/58D70684" Ref="U7"  Part="1" 
 F 0 "U7" H 1650 4000 50  0000 L CNN
-F 1 "PCF8523" H 2050 4000 50  0000 L CNN
+F 1 "MCP7940NT" H 2050 4000 50  0000 L CNN
 F 2 "SOT96-1:SOT96-1" H 1950 3650 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" H 1950 3650 50  0001 C CNN
 F 4 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP7940N%20Errata_DS80000611C.pdf" H 1950 3650 50  0001 C CNN "Datasheet_errata"
