@@ -41,7 +41,7 @@ G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
 %ADD19O,1.727200X2.032000*%
 G04 #@! TD*
-G04 #@! %TA.AperFunction,BGAPad,CuDef*
+G04 #@! TA.AperFunction,BGAPad,CuDef*
 %ADD20C,0.350000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
