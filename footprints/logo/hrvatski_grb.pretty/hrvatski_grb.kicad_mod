@@ -1,0 +1,11 @@
+(module hrvatski_grb (layer F.Cu) (tedit 5B3F1F3C)
+  (attr smd)
+  (descr "Imported from /tmp/hrvatski_grb.svg")
+  (tags svg2mod)
+  (fp_text reference hrvatski_grb (at 0 -3.048) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_text value hrvatski_grb (at 0 3.048) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+)
