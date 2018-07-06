@@ -1,11 +1,11 @@
-(module svg2mod (layer F.Cu) (tedit 5B1A0EFD)
+(module koncar (layer F.Cu) (tedit 5B3F1FF2)
   (attr smd)
-  (descr "Imported from /home/davor/tmp/koncar/koncar.svg")
+  (descr "Imported from /tmp/koncar.svg")
   (tags svg2mod)
-  (fp_text reference svg2mod (at 0 -4.40769669731) (layer F.SilkS) hide
+  (fp_text reference koncar (at 0 -4.40769669731) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
-  (fp_text value G*** (at 0 4.40769669731) (layer F.SilkS) hide
+  (fp_text value koncar (at 0 4.40769669731) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
   (fp_poly
