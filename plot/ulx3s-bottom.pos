@@ -1,4 +1,4 @@
-### Module positions - created on Fri Jul  6 15:31:49 2018 ###
+### Module positions - created on Sat Jul  7 09:59:36 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc3+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -24,7 +24,7 @@ C17       2.2uF            C_0805_2012Metric                             -44.400
 C18       470pF            C_0603_1608Metric                             -56.4896    48.7360   90.0000  bottom
 C19       2.2uF            C_0805_2012Metric                             -44.4000    30.8000   90.0000  bottom
 C20       2.2uF            C_0805_2012Metric                             -44.4000    25.6000  270.0000  bottom
-C21       22uF             C_0805_2012Metric                              -8.6510    19.1590    0.0000  bottom
+C21       22uF             C_0805_2012Metric                              -9.0170    19.1590    0.0000  bottom
 C22       2.2uF            C_0805_2012Metric                             -61.2140    13.7160    0.0000  bottom
 C23       2.2uF            C_0805_2012Metric                             -12.4460    20.8280  180.0000  bottom
 C24       2.2uF            C_0805_2012Metric                             -56.1340    37.3380  180.0000  bottom
@@ -41,16 +41,16 @@ C34       22nF             C_0603_1608Metric                             -63.400
 C35       22nF             C_0603_1608Metric                             -83.2000    17.3200  270.0000  bottom
 C46       2.2uF            C_0805_2012Metric                             -52.1970     8.6360    0.0000  bottom
 C47       2.2uF            C_0805_2012Metric                             -40.4010    43.6700    0.0000  bottom
-C48       22nF             C_0603_1608Metric                              -9.0200    41.2570    0.0000  bottom
-C49       22nF             C_0603_1608Metric                              -8.3970    21.0640    0.0000  bottom
-C50       22nF             C_0603_1608Metric                             -85.6130    24.2390   90.0000  bottom
-C51       22nF             C_0603_1608Metric                             -85.4980     8.3640  180.0000  bottom
+C48       22nF             C_0603_1608Metric                              -9.2710    41.2570    0.0000  bottom
+C49       22nF             C_0603_1608Metric                              -8.7630    21.0640    0.0000  bottom
+C50       22nF             C_0603_1608Metric                             -84.9630    24.2390   90.0000  bottom
+C51       22nF             C_0603_1608Metric                             -85.4980     8.5090  180.0000  bottom
 C52       22nF             C_0603_1608Metric                             -65.4200    15.7300  180.0000  bottom
 C53       22nF             C_0603_1608Metric                             -39.6022    25.8900  180.0000  bottom
 C54       22uF             C_0805_2012Metric                             -75.0720    15.9840   90.0000  bottom
 C55       22uF             C_0805_2012Metric                             -84.9780    20.3020  270.0000  bottom
 C56       3.3pF            C_0603_1608Metric                             -84.9780    16.7460  270.0000  bottom
-C57       3.3pF            C_0603_1608Metric                             -82.1840     8.3640  180.0000  bottom
+C57       3.3pF            C_0603_1608Metric                             -82.1840     8.5090  180.0000  bottom
 C58       22uF             C_0805_2012Metric                             -73.8020    23.8580   90.0000  bottom
 C59       220nF            C_0603_1608Metric                             -72.1510    23.8580   90.0000  bottom
 D8        STPS2L30AF       D_SMA                                         -18.0490    42.1460    0.0000  bottom
@@ -66,8 +66,8 @@ D20       3.6V             D_SOD-323_HandSoldering                       -73.406
 D21       3.6V             D_SOD-323_HandSoldering                       -79.6290    43.6700    0.0000  bottom
 D23       1N4148           D_SOD-323_HandSoldering                       -69.8500    44.9580    0.0000  bottom
 D24       1N4148           D_SOD-323_HandSoldering                       -69.8500    46.8630  180.0000  bottom
-D25       1N4148           D_SOD-323_HandSoldering                       -83.3120    40.8760   90.0000  bottom
-D26       1N4148           D_SOD-323_HandSoldering                       -85.3440    40.8760  270.0000  bottom
+D25       1N4148           D_SOD-323_HandSoldering                       -83.1850    40.8760   90.0000  bottom
+D26       1N4148           D_SOD-323_HandSoldering                       -85.0900    40.8760  270.0000  bottom
 D27       1N4148           D_SOD-323_HandSoldering                       -80.1520    40.1140  180.0000  bottom
 L1        2.2uH            L_1008_1210                                   -64.7700    24.1300  180.0000  bottom
 L2        2.2uH            L_1008_1210                                   -10.7950    23.4950    0.0000  bottom
@@ -108,8 +108,8 @@ R30       4.7k             R_0603_1608Metric                             -21.590
 R31       15k              R_0603_1608Metric                             -49.5300    13.9700  180.0000  bottom
 R32       15k              R_0603_1608Metric                             -38.7350    14.6050   90.0000  bottom
 R33       15k              R_0603_1608Metric                             -36.8300    14.6050   90.0000  bottom
-R34       15k              R_0603_1608Metric                              -8.8900     8.6200    0.0000  bottom
-R35       680              R_0603_1608Metric                              -8.8900    10.1600  180.0000  bottom
+R34       15k              R_0603_1608Metric                              -9.6520     8.6200    0.0000  bottom
+R35       680              R_0603_1608Metric                              -9.6520    10.1600  180.0000  bottom
 R38       0.47             R_0603_1608Metric                              -9.4765    13.1900   90.0000  bottom
 R39       150              R_0603_1608Metric                             -69.2150    15.8750  180.0000  bottom
 R40       1.2k             R_0603_1608Metric                             -73.4060    46.4820    0.0000  bottom
