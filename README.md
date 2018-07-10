@@ -9,7 +9,7 @@ of [ULX2S](http://github.com/emard/ulx2s).
 ![TOP](/pic/ulx3st.jpg)
 ![BOTTOM](/pic/ulx3sb.jpg)
 
-[Manual](/doc/MANUAL.md).
+[Manual](/doc/MANUAL.md) [Quickstart Binaries](http://github.com/emard/ulx3s-bin)
 
 This is a small (94x51 mm) standalone FPGA board 
 for education, research and general purpose, with a full 
