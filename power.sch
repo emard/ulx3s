@@ -1677,8 +1677,6 @@ Wire Wire Line
 	2900 4600 2400 4600
 Wire Wire Line
 	2900 4100 2900 4150
-Text Label 2450 4600 0    60   ~ 0
-PWRBTn
 $Comp
 L Device:C C22
 U 1 1 59D56B84
@@ -3290,4 +3288,9 @@ Wire Wire Line
 Connection ~ 900  3850
 Text Notes 850  4850 0    60   ~ 0
 C56*C57/(C56+C57)+4.5pF=6pF\n4.5pF=3pF chip + 1pF crystal + 0.5pF PCB
+Text GLabel 3000 4600 2    60   Input ~ 0
+PWRBTn
+Wire Wire Line
+	2900 4600 3000 4600
+Connection ~ 2900 4600
 $EndSCHEMATC

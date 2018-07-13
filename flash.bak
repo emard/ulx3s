@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 11 11
 Title "ULX3S"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "EMARD"
 Comment1 "SPI flash"
 Comment2 ""
@@ -477,4 +477,17 @@ Text Notes 9050 4000 0    60   ~ 0
 BTN_R v1.7
 Text Notes 2900 3650 0    60   ~ 0
 Deviation from TN1260 in pullup:\nvalues for BOM simplification.\nCorrect values should be 10k and 1k \nbut 15k and 1.2k are used.
+Text GLabel 5200 4500 0    60   Input ~ 0
+PWRBTn
+$Comp
+L Device:D D28
+U 1 1 5B5DD430
+P 5350 4500
+F 0 "D28" H 5350 4600 50  0000 C CNN
+F 1 "1N4148" H 5350 4400 50  0000 C CNN
+F 2 "" H 5350 4500 50  0001 C CNN
+F 3 "~" H 5350 4500 50  0001 C CNN
+	1    5350 4500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
