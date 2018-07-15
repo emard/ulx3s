@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 502)
+    (drawings 503)
     (tracks 5068)
     (zones 0)
     (modules 218)
@@ -10437,7 +10437,7 @@
     (tags SOD-323)
     (path /58D913EC/5B5DD430)
     (attr virtual)
-    (fp_text reference D28 (at 3.302 0 180) (layer B.SilkS)
+    (fp_text reference D28 (at -3.556 0 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 1N4148 (at 0.1 -1.9 180) (layer B.Fab)
@@ -10474,6 +10474,9 @@
     )
   )
 
+  (gr_text B0PRG (at 138.804 96.98) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text F2 (at 116.975 93.569) (layer F.SilkS) (tstamp 5B3DF7FC)
     (effects (font (size 1 1) (thickness 0.25)))
   )
