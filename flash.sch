@@ -318,8 +318,6 @@ F 3 "" H 5200 2350 50  0000 C CNN
 	1    5200 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5200 2500 5200 3350
 Text Label 5200 3300 1    60   ~ 0
 FPGA_PROGRAMN
 $Comp
@@ -477,34 +475,39 @@ Text Notes 9050 4000 0    60   ~ 0
 BTN_R v1.7
 Text Notes 1200 2550 0    60   ~ 0
 Deviation from TN1260 in pullup:\nvalues for BOM simplification.\nCorrect values should be 10k and 1k \nbut 15k and 1.2k are used.
-Text GLabel 5200 4500 0    60   Input ~ 0
+Text GLabel 4850 3400 0    60   Input ~ 0
 PWRBTn
 $Comp
 L Device:D D28
 U 1 1 5B5DD430
-P 5350 4500
-F 0 "D28" H 5350 4600 50  0000 C CNN
-F 1 "1N4148" H 5350 4400 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5350 4500 50  0001 C CNN
-F 3 "~" H 5350 4500 50  0001 C CNN
-	1    5350 4500
+P 5000 3400
+F 0 "D28" H 5000 3500 50  0000 C CNN
+F 1 "1N4148" H 5400 3400 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5000 3400 50  0001 C CNN
+F 3 "~" H 5000 3400 50  0001 C CNN
+	1    5000 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5150 3700 0    60   Input ~ 0
+Text GLabel 4850 3550 0    60   Input ~ 0
 USER_PROGRAMN
-Wire Wire Line
-	5150 3700 5200 3700
-Wire Wire Line
-	5200 3700 5200 3650
 $Comp
 L Device:D D29
 U 1 1 5B526A74
-P 5200 3500
-F 0 "D29" H 5200 3600 50  0000 C CNN
-F 1 "1N4148" H 5200 3400 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5200 3500 50  0001 C CNN
-F 3 "~" H 5200 3500 50  0001 C CNN
-	1    5200 3500
-	0    -1   -1   0   
+P 5000 3550
+F 0 "D29" H 5000 3450 50  0000 C CNN
+F 1 "1N4148" H 5400 3550 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5000 3550 50  0001 C CNN
+F 3 "~" H 5000 3550 50  0001 C CNN
+	1    5000 3550
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 3400 5200 3400
+Wire Wire Line
+	5200 2500 5200 3400
+Wire Wire Line
+	5150 3550 5200 3550
+Wire Wire Line
+	5200 3550 5200 3400
+Connection ~ 5200 3400
 $EndSCHEMATC
