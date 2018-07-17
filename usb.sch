@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 6 11
 Title "ULX3S"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "EMARD"
 Comment1 "USB serial and JTAG"
 Comment2 ""
@@ -905,4 +905,6 @@ Text GLabel 1800 2950 2    60   Input ~ 0
 US2_ID
 Text Notes 1600 3350 0    60   ~ 0
 US2_ID to RTC\non "power" sheet
+Text GLabel 8650 2250 0    60   Input ~ 0
+USER_PROGRAMN
 $EndSCHEMATC
