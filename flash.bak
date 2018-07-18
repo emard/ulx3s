@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 11 11
 Title "ULX3S"
 Date ""
-Rev "1.0.2"
+Rev "1.0.3"
 Comp "EMARD"
 Comment1 "SPI flash"
 Comment2 ""
@@ -482,7 +482,7 @@ L Device:D D28
 U 1 1 5B5DD430
 P 5000 3400
 F 0 "D28" H 5000 3500 50  0000 C CNN
-F 1 "1N4148" H 4950 3600 50  0000 C CNN
+F 1 "1N4148" H 5400 3400 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5000 3400 50  0001 C CNN
 F 3 "~" H 5000 3400 50  0001 C CNN
 	1    5000 3400
@@ -495,7 +495,7 @@ L Device:D D29
 U 1 1 5B526A74
 P 5000 3550
 F 0 "D29" H 5000 3450 50  0000 C CNN
-F 1 "1N4148" H 4950 3350 50  0000 C CNN
+F 1 "1N4148" H 5400 3550 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5000 3550 50  0001 C CNN
 F 3 "~" H 5000 3550 50  0001 C CNN
 	1    5000 3550
@@ -510,4 +510,8 @@ Wire Wire Line
 Wire Wire Line
 	5200 3550 5200 3400
 Connection ~ 5200 3400
+Text Notes 4000 3450 0    60   ~ 0
+NC v1.7
+Text Notes 3600 3600 0    60   ~ 0
+NC v1.7
 $EndSCHEMATC

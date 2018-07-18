@@ -907,4 +907,6 @@ Text Notes 1600 3350 0    60   ~ 0
 US2_ID to RTC\non "power" sheet
 Text GLabel 8650 2250 0    60   Input ~ 0
 USER_PROGRAMN
+Text Notes 7350 2300 0    60   ~ 0
+NC v1.7
 $EndSCHEMATC

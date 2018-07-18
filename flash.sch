@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 11 11
 Title "ULX3S"
 Date ""
-Rev "1.0.2"
+Rev "1.0.3"
 Comp "EMARD"
 Comment1 "SPI flash"
 Comment2 ""
@@ -510,4 +510,8 @@ Wire Wire Line
 Wire Wire Line
 	5200 3550 5200 3400
 Connection ~ 5200 3400
+Text Notes 4000 3450 0    60   ~ 0
+NC v1.7
+Text Notes 3600 3600 0    60   ~ 0
+NC v1.7
 $EndSCHEMATC
