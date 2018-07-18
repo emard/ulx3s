@@ -1,4 +1,4 @@
-### Module positions - created on Tue Jul 17 15:17:16 2018 ###
+### Module positions - created on Wed Jul 18 14:57:11 2018 ###
 ### Printed by Pcbnew version kicad 5.0.0-rc3+dfsg1-2
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -69,7 +69,7 @@ D24       1N4148           D_SOD-323_HandSoldering                       -69.850
 D25       1N4148           D_SOD-323_HandSoldering                       -83.1850    40.8760   90.0000  bottom
 D26       1N4148           D_SOD-323_HandSoldering                       -85.0900    40.8760  270.0000  bottom
 D27       1N4148           D_SOD-323_HandSoldering                       -80.1520    40.1140  180.0000  bottom
-D29       1N4148           D_SOD-323_HandSoldering                       -46.2080    13.9700    0.0000  bottom
+D29       1N4148           D_SOD-323_HandSoldering                       -46.1010    13.9700    0.0000  bottom
 L1        2.2uH            L_1008_1210                                   -64.7700    24.1300  180.0000  bottom
 L2        2.2uH            L_1008_1210                                   -10.7950    23.4950    0.0000  bottom
 L3        2.2uH            L_1008_1210                                   -62.2300    37.4650  180.0000  bottom
