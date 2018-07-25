@@ -275,4 +275,5 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] Non-GND yellow layer clearance from board's edge
     [x] VIAs thru-GND
     [x] no paste on SW1 pads 
-    [ ] jumper or button for PROGRAMN to GND
+    [x] diode for BTN0 to PROGRAMN
+    [ ] capacitor for BTN0 debounce
