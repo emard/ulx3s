@@ -3300,8 +3300,8 @@ P 2200 4750
 AR Path="/5B5FC348" Ref="C?"  Part="1" 
 AR Path="/58D51CAD/5B5FC348" Ref="C60"  Part="1" 
 F 0 "C60" V 2150 4800 50  0000 L CNN
-F 1 "2.2uF" V 2250 4800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2238 4600 50  0001 C CNN
+F 1 "220nF" V 2250 4800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2238 4600 50  0001 C CNN
 F 3 "" H 2200 4750 50  0000 C CNN
 	1    2200 4750
 	0    1    1    0   
@@ -3326,4 +3326,6 @@ Wire Wire Line
 Connection ~ 2450 4600
 Wire Wire Line
 	2450 4600 2400 4600
+Text Notes 2500 4850 0    60   ~ 0
+to PROGRAMN\non "flash" sheet
 $EndSCHEMATC
