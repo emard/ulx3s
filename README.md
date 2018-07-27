@@ -276,4 +276,4 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] VIAs thru-GND
     [x] no paste on SW1 pads 
     [x] diode for BTN0 to PROGRAMN
-    [ ] capacitor for BTN0 debounce
+    [x] capacitor for BTN0 debounce
