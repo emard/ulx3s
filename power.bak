@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 3 11
 Title "ULX3S"
 Date ""
-Rev "1.0.4"
+Rev "1.0.5"
 Comp "EMARD"
 Comment1 "Power"
 Comment2 ""
@@ -785,7 +785,7 @@ $Comp
 L Device:Crystal_GND23 Y2
 U 1 1 58D85AAB
 P 900 3650
-F 0 "Y2" V 900 3300 50  0000 L CNN
+F 0 "Y2" V 1000 3900 50  0000 L CNN
 F 1 "32768Hz" V 900 3900 50  0000 L CNN
 F 2 "abs25:Crystal_SMD_ABS25" H 900 3650 50  0001 C CNN
 F 3 "https://www.iqdfrequencyproducts.com/products/pn/LFXTAL016178Reel.pdf" H 900 3650 50  0001 C CNN
@@ -979,7 +979,7 @@ $Comp
 L Switch:SW_Push B0
 U 1 1 58E83FE0
 P 2200 4600
-F 0 "B0" H 2200 4550 50  0000 C CNN
+F 0 "B0" H 2100 4700 50  0000 C CNN
 F 1 "PTS645" H 2350 4700 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 2200 3400 50  0001 C CNN
 F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 2200 3400 50  0001 C CNN
@@ -1674,7 +1674,7 @@ F 3 "" H 2650 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 4600 2400 4600
+	2900 4600 2450 4600
 Wire Wire Line
 	2900 4100 2900 4150
 $Comp
@@ -3286,11 +3286,44 @@ $EndComp
 Wire Wire Line
 	900  3900 900  3850
 Connection ~ 900  3850
-Text Notes 850  4850 0    60   ~ 0
+Text Notes 600  6600 0    60   ~ 0
 C56*C57/(C56+C57)+4.5pF=6pF\n4.5pF=3pF chip + 1pF crystal + 0.5pF PCB
 Text GLabel 3000 4600 2    60   Input ~ 0
 PWRBTn
 Wire Wire Line
 	2900 4600 3000 4600
 Connection ~ 2900 4600
+$Comp
+L Device:C C?
+U 1 1 5B5FC348
+P 2200 4750
+AR Path="/5B5FC348" Ref="C?"  Part="1" 
+AR Path="/58D51CAD/5B5FC348" Ref="C60"  Part="1" 
+F 0 "C60" V 2150 4800 50  0000 L CNN
+F 1 "2.2uF" V 2250 4800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2238 4600 50  0001 C CNN
+F 3 "" H 2200 4750 50  0000 C CNN
+	1    2200 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0174
+U 1 1 5B5FD030
+P 2000 4750
+F 0 "#PWR0174" H 2000 4500 50  0001 C CNN
+F 1 "GND" H 2000 4600 50  0000 C CNN
+F 2 "" H 2000 4750 50  0000 C CNN
+F 3 "" H 2000 4750 50  0000 C CNN
+	1    2000 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 4750 2050 4750
+Wire Wire Line
+	2350 4750 2450 4750
+Wire Wire Line
+	2450 4750 2450 4600
+Connection ~ 2450 4600
+Wire Wire Line
+	2450 4600 2400 4600
 $EndSCHEMATC
