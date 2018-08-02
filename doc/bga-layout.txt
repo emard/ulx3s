@@ -1,4 +1,8 @@
 for proper placing ground and power planes, see
-TN1074 - PCB Layout Recommendations for BGA Packages, page 32
-example for BGA 381 ECP5
+TN1074 - PCB Layout Recommendations for BGA Packages
+page 1: table 1: row 0.8 ball pitch, 756/554/381/400 caBGA
+Pad copper diameter:  0.4  mm
+Solder mask opening:  0.5  mm
+Solder land diameter: 0.35 mm (solder paste = stencil opening)
+page 32: example for BGA 381 ECP5
 
