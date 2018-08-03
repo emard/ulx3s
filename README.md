@@ -277,3 +277,8 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] no paste on SW1 pads 
     [x] diode for BTN0 to PROGRAMN
     [x] capacitor for BTN0 debounce
+    [ ] BGA pad=0.4mm mask=0.5mm paste=0.35mm
+    [ ] VIA align to 0.4mm raster
+    [ ] min VIA enlarge 0.4 mm -> 0.419 mm
+
+
