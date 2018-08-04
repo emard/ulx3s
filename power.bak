@@ -3326,4 +3326,6 @@ Wire Wire Line
 Connection ~ 2450 4600
 Wire Wire Line
 	2450 4600 2400 4600
+Text Notes 2500 4850 0    60   ~ 0
+to PROGRAMN\non "flash" sheet
 $EndSCHEMATC

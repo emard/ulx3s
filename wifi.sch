@@ -195,17 +195,17 @@ Text Notes 4550 6300 0    60   ~ 0
 ESP32 JTAG slave interface\nEN: TRST_N\nGPIO15: TDO\nGPIO12: TDI\nGPIO13: TCK\nGPIO14: TMS\nFLASH over JTAG\nnot yet supported.
 Text Notes 2750 6000 0    60   ~ 0
 ESP32 VSPI pins\nGPIO5: SS\nGPIO18: SCK\nGPIO19: MISO\nGPIO23: MOSI
-Text GLabel 5700 3250 0    60   Input ~ 0
-GP13
 Text GLabel 5700 3350 0    60   Input ~ 0
+GP13
+Text GLabel 5700 3250 0    60   Input ~ 0
 GN13
-Text GLabel 5700 3450 0    60   Input ~ 0
-GP12
 Text GLabel 5700 3550 0    60   Input ~ 0
+GP12
+Text GLabel 5700 3450 0    60   Input ~ 0
 GN12
-Text GLabel 5700 3650 0    60   Input ~ 0
-GP11
 Text GLabel 5700 3750 0    60   Input ~ 0
+GP11
+Text GLabel 5700 3650 0    60   Input ~ 0
 GN11
 Text GLabel 7550 3900 2    60   Input ~ 0
 WIFI_GPIO16
@@ -358,4 +358,16 @@ Wire Wire Line
 	4550 2550 4550 2600
 Wire Wire Line
 	4550 2950 4550 3000
+Text Notes 4750 3800 0    60   ~ 0
+GN11 <v2.0.6
+Text Notes 4750 3700 0    60   ~ 0
+GP11 <v2.0.6
+Text Notes 4750 3600 0    60   ~ 0
+GN12 <v2.0.6
+Text Notes 4750 3500 0    60   ~ 0
+GP12 <v2.0.6
+Text Notes 4750 3400 0    60   ~ 0
+GN13 <v2.0.6
+Text Notes 4750 3300 0    60   ~ 0
+GP13 <v2.0.6
 $EndSCHEMATC
