@@ -1546,7 +1546,7 @@
       (net 109 AUDIO_R0) (solder_mask_margin 0.05))
     (pad A2 smd circle (at -6.8 -7.6) (size 0.4 0.35) (layers F.Cu F.Paste F.Mask)
       (net 221 GP9) (solder_mask_margin 0.05))
-    (model ${KISYS3DMOD}/Package_BGA.3dshapes/BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD.wrl_disabled
+    (model ${KISYS3DMOD}/Package_BGA.3dshapes/BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
