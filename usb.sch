@@ -909,4 +909,5 @@ Text GLabel 8650 2250 0    60   Input ~ 0
 USER_PROGRAMN
 Text Notes 7350 2300 0    60   ~ 0
 NC v1.7
+NoConn ~ 8650 2950
 $EndSCHEMATC

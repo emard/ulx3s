@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 11
 Title "ULX3S"
 Date ""
-Rev "2.0.6"
+Rev "2.0.7"
 Comp "EMARD"
 Comment1 "Root sheet"
 Comment2 ""
@@ -173,4 +173,7 @@ Wire Notes Line
 	4450 6850 4450 5400
 Wire Notes Line
 	4450 5400 2950 5400
+NoConn ~ 8300 5600
+NoConn ~ 8200 6200
+NoConn ~ 8300 6250
 $EndSCHEMATC

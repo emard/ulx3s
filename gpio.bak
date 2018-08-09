@@ -666,4 +666,7 @@ Wire Notes Line
 	9400 5100 9300 5100
 Text Notes 9150 5050 0    60   ~ 0
 STPS2L30AF
+NoConn ~ 4200 3000
+NoConn ~ 4200 3100
+NoConn ~ 5700 3000
 $EndSCHEMATC

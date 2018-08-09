@@ -173,4 +173,8 @@ Wire Notes Line
 	4450 6850 4450 5400
 Wire Notes Line
 	4450 5400 2950 5400
+NoConn ~ 8300 5600
+NoConn ~ 8200 6200
+NoConn ~ 8300 6250
+NoConn ~ 10000 5600
 $EndSCHEMATC
