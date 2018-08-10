@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 11 11
 Title "ULX3S"
 Date ""
-Rev "1.0.3"
+Rev "1.0.4"
 Comp "EMARD"
 Comment1 "SPI flash"
 Comment2 ""
@@ -514,4 +514,8 @@ Text Notes 4000 3450 0    60   ~ 0
 NC v1.7
 Text Notes 3600 3600 0    60   ~ 0
 NC v1.7
+Text Notes 4000 3800 0    60   ~ 0
+USER_PROGRAMN\non "usb" sheet
+Text Notes 4100 3300 0    60   ~ 0
+PWRBTn\non "power" sheet
 $EndSCHEMATC
