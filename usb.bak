@@ -42,10 +42,10 @@ F 3 "" H 2800 1700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NC_Small RD9
+L Device:Jumper_NC_Small D9
 U 1 1 58D6C83C
 P 2650 2650
-F 0 "RD9" H 2650 2750 50  0000 C CNN
+F 0 "D9" H 2650 2750 50  0000 C CNN
 F 1 "0" H 2650 2600 50  0000 C CNN
 F 2 "jumper:D_SMA_Jumper_NC" V 2650 2650 60  0001 C CNN
 F 3 "" V 2650 2650 60  0000 C CNN
