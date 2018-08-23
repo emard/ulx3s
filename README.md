@@ -60,7 +60,7 @@ GPIO: 56 pins (28 differential pairs), PMOD-friendly
 
 RAM: 32MB SDRAM MT48LC16M16
 
-Flash: 4MB Quad-SPI Flash IS25LP032D for FPGA config
+Flash: 16MB Quad-SPI Flash IS25LP128F for FPGA config
 
 Storage: Micro-SD slot
 
@@ -82,7 +82,7 @@ Power: 3 Switching voltage regulators: 1.1V, 2.5V, 3.3V
 
 Clock: 25 MHz onboard, external differential clock input
 
-Low power 5uA sleep: RTC clock wakeup, power button, 32768 Hz quartz and battery
+Low power sleep: 5uA/5V standby, RTC clock wakeup, power button, 32768 Hz quartz and battery
 
 GPDI is General Purpose Differential Interface,
 Electrically LVDS, mostly TMDS tolerant
