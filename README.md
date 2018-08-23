@@ -82,7 +82,7 @@ Power: 3 Switching voltage regulators: 1.1V, 2.5V, 3.3V
 
 Clock: 25 MHz onboard, external differential clock input
 
-Low power sleep: RTC clock wakeup, power button, 32768 Hz quartz and battery
+Low power 5uA sleep: RTC clock wakeup, power button, 32768 Hz quartz and battery
 
 GPDI is General Purpose Differential Interface,
 Electrically LVDS, mostly TMDS tolerant
