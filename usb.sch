@@ -521,7 +521,7 @@ F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf"
 F 4 "www.taiwansemi.com" H 2600 3000 60  0001 C CNN "MNF1_URL"
 F 5 "BZT52C3V6S" H 2600 3000 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 2600 3000 60  0001 C CNN "Mouser_URL"
-F 7 "821-BZT52C3V6S" H 2600 3000 60  0001 C CNN "Mouser"
+F 7 "833-BZT52C3V6S-TP" H 2600 3000 60  0001 C CNN "Mouser"
 F 8 "BZT52C3V6S-TPMSCT-ND" H 2600 3000 50  0001 C CNN "Digikey"
 	1    2600 3000
 	0    1    1    0   
@@ -537,7 +537,7 @@ F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf"
 F 4 "www.taiwansemi.com" H 2700 3000 60  0001 C CNN "MNF1_URL"
 F 5 "BZT52C3V6S" H 2700 3000 60  0001 C CNN "MPN"
 F 6 "www.mouser.com" H 2700 3000 60  0001 C CNN "Mouser_URL"
-F 7 "821-BZT52C3V6S" H 2700 3000 60  0001 C CNN "Mouser"
+F 7 "833-BZT52C3V6S-TP" H 2700 3000 60  0001 C CNN "Mouser"
 	1    2700 3000
 	0    1    1    0   
 $EndComp
