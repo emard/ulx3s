@@ -14,9 +14,10 @@ D1, D5	2					160-1413-1-ND											www.liteon.com			LTST-C170KFKT			859-LTST-C
 D2, D6, D18	3					160-1887-1-ND		160-1414-1-ND	67-1713-1-ND								www.liteon.com			LTST-C170TGKT 	LTST-C170KGKT	SML-LXR85SUGC-TR	859-LTST-C170TGKT		859-LTST-C170KGKT 		www.mouser.com	
 D3, D7, D22	3	http://optoelectronics.liteon.com/upload/download/ds22-2000-233/ltst-c171tbkt(0630).pdf	https://www.rohm.com/datasheet/SML-M13UT			160-1579-1-ND											www.liteon.com			LTST-C170TBKT-D7	LTST-C171TBKT-D7	SMLMN2BCTT86C	859-LTST-C170TBKT		755-SMLMN2BCTT86C	859-LTST-C171TBKT		
 D8	1					497-12310-1-ND											www.st.com			STPS2L30AF			511-STPS2L30AF 				www.mouser.com	
+D9, D51, D52	3									RC0805JR-070RL			Yageo	ST			www.yageo.com				STPS2L30AF							Leave empty
 D10, D13, D14, D16, D17, D23, D24, D25, D26, D27, D28, D29	12					1N4148WXTPMSCT-ND		1N4148WSFSCT-ND				Leave empty					www.fairchildsemi.com			1N4148WS 			863-MMDL914T1G		512-1N4148WS		www.mouser.com	
 D12, D15	2					NSR0530HT1GOSCT-ND							ON semiconductor	Diodes inc.			www.onsemi.com	www.diodes.com		NSR0530HT1G 	BAT54WSQ-7-F 		755-RSX051VYM30FHTR		863-NSR0530HT1G 	621-BAT54WSQ-7-F 	www.mouser.com	
-D20, D21	2					BZT52C3V6S-TPMSCT-ND											www.taiwansemi.com			BZT52C3V6S			821-BZT52C3V6S				www.mouser.com	
+D20, D21	2					BZT52C3V6S-TPMSCT-ND											www.taiwansemi.com			BZT52C3V6S			833-BZT52C3V6S-TP				www.mouser.com	
 GPDI1	1	https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf				609-4614-1-ND		A136174CT-ND									www.amphenol-icc.com	www.te.com		10029449-111RLF	5-1903015-5		649-10029449-111RLF		571-5-1903015-5		www.mouser.com	
 H1, H2, H3, H4	4																											Leave empty
 J1, J2	2																											Leave empty
@@ -27,7 +28,7 @@ L1, L2, L3	3			https://datasheet.octopart.com/LQH32PB2R2NN0L-Murata-datasheet-20
 L4	1					CV201210-330KCT-ND											www.bourns.com			CV201210-330K			652-CV201210-330K					
 OLED1	1																www.displaymodule.com			DM-OLEDC095-626							www.mouser.com	Leave empty
 Q1	1					TBC857BLMCT-ND											www.nxp.com			BC857			863-BC857BLT1G				www.mouser.com	
-Q2	1					2N7002K-TPMSCT-ND											www.nxp.com			2N7002P,215			512-2N7002L				www.mouser.com	
+Q2	1					2N7002K-TPMSCT-ND											www.nxp.com			2N7002P,215			757-T2N7002AKLM		512-2N7002L		www.mouser.com	
 R1, R3, R4, R25, R26, R30, RB2	7					YAG3613CT-ND						Leave empty					www.yageo.com			AC0603FR-104K7L			603-AC0603FR-074K7L		603-RC0603FR-074K7L			
 R2, RB1	2					 311-18.0KHRCT-ND											www.yageo.com			RC0603FR-1018KL			71-CRCW060318K0FKEAC					
 R5	1					P2.20MHCT-ND						Leave empty					www.yageo.com			RC0603FR-132M2L			603-AC0603FR-072M2L					
@@ -41,7 +42,6 @@ R24	1					P100KHCT-ND						Leave empty					www.yageo.com			AC0603FR-10100KL			71
 R38	1					73L2R47JCT-ND							CTS				www.ctscorp.com			73L2R47J			774-73L2R47J					
 R49, R50, R52, R53	4					311-27.0HRCT-ND											www.yageo.com			AC0603JR-0727RL			603-AC0603JR-0727RL					
 R56	1										RC0603JR-070RL						www.yageo.com											Leave empty
-RD9, RD51, RD52	3									RC0805JR-070RL			Yageo	ST			www.yageo.com				STPS2L30AF							Leave empty
 RP1, RP2, RP3	3						YAG1327CT-ND			RC0805JR-070RL							www.yageo.com							71-RCG08050000Z0EA	603-RC0805JR-070RL	652-CR0805-J/-000ELF	www.mouser.com	Leave empty
 RV2	1										RC0805JR-070RL						www.yageo.com										www.mouser.com	Leave empty
 RV3	1					YAG1327CT-ND											www.yageo.com			RC0805JR-070RL			71-RCG08050000Z0EA				www.mouser.com	
