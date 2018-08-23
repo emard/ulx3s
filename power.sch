@@ -3328,4 +3328,12 @@ Wire Wire Line
 	2450 4600 2400 4600
 Text Notes 2500 4850 0    60   ~ 0
 to PROGRAMN\non "flash" sheet
+NoConn ~ 4850 7050
+NoConn ~ 4850 7250
+NoConn ~ 6550 7250
+NoConn ~ 6550 7050
+NoConn ~ 4850 5800
+NoConn ~ 4850 5600
+NoConn ~ 6550 5600
+NoConn ~ 6550 5800
 $EndSCHEMATC
