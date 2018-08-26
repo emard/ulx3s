@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 6 11
 Title "ULX3S"
 Date ""
-Rev "1.0.1"
+Rev "1.0.2"
 Comp "EMARD"
 Comment1 "USB serial and JTAG"
 Comment2 ""
@@ -768,7 +768,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 5450 2550 5450
 Text Notes 650  4450 0    60   ~ 0
-USB pull lines connected to\nBANK0 on "gpio" sheet
+USB pull lines connected to\nBANK1 on "gpdi" sheet
 $Comp
 L Device:D D23
 U 1 1 5A720D44
