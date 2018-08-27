@@ -16,6 +16,13 @@ include <upbox.scad>
 //Texte façade - Front text
   Text          = 1;// [0:No, 1:Yes]
 
+// multicolor front panel
+/*
+;BEFORE_LAYER_CHANGE
+;2.7
+M600 ; Pause print to change filament
+*/
+
 /*//////////////////////////////////////////////////////////////////
               -  mjesečno po svojem parkir  FB Aka Heartman/Hearty 2016     -                   
               -   http://heartygfx.blogspot.com    -                  
@@ -54,7 +61,7 @@ PCBLength       = 30*2.54;
 // - Largeur PCB - PCB Width
 PCBWidth        = 17*2.54;
 // Thickness of PCB
-PCBThick        = 1.6;
+PCBThick        = 1.8;
 // - Heuteur pied - Feet height
 FootHeight      = 7;
 // - Diamètre pied - Foot diameter
@@ -100,8 +107,8 @@ Thick           = 2;//[2:5]
 // - lissage de l'arrondi - Filet smoothness  
   Resolution    = 20;//[1:100] 
 // - Tolérance - Tolerance (Panel/rails gap)
-  m             = 0.5;
-  mz            = 1.0; // panels height tolerance
+  m             = 0.8;
+  mz            = 1.5; // panels height tolerance
 // mounting legs clearance
   MountClearance = 0.1;
   // clearance between Top and Bottom shell
