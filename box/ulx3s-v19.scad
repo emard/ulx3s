@@ -9,20 +9,12 @@ include <upbox.scad>
   BPanel        = 1;// [0:No, 1:Yes]
 //Panneau avant - Front panel
   FPanel        = 1;// [0:No, 1:Yes]
+// Font color: at height 2.7: M600; change filament
 // button pins
   Pins          = 1; // button pins
 
 //Texte façade - Front text
   Text          = 1;// [0:No, 1:Yes]
-
-// multicolor front panel
-/*
-;BEFORE_LAYER_CHANGE
-;2.7
-
-; Pause print to change filament
-M600
-*/
 
 /*//////////////////////////////////////////////////////////////////
               -  mjesečno po svojem parkir  FB Aka Heartman/Hearty 2016     -                   
@@ -62,7 +54,7 @@ PCBLength       = 30*2.54;
 // - Largeur PCB - PCB Width
 PCBWidth        = 17*2.54;
 // Thickness of PCB
-PCBThick        = 1.8;
+PCBThick        = 1.6;
 // - Heuteur pied - Feet height
 FootHeight      = 7;
 // - Diamètre pied - Foot diameter
@@ -108,8 +100,8 @@ Thick           = 2;//[2:5]
 // - lissage de l'arrondi - Filet smoothness  
   Resolution    = 20;//[1:100] 
 // - Tolérance - Tolerance (Panel/rails gap)
-  m             = 0.8;
-  mz            = 1.5; // panels height tolerance
+  m             = 0.5;
+  mz            = 1.0; // panels height tolerance
 // mounting legs clearance
   MountClearance = 0.1;
   // clearance between Top and Bottom shell
@@ -178,10 +170,10 @@ module connector_cut()
       // cut off for AUDIO
       translate([21.47,cy,11])
         rotate([90,0,0])
-          cylinder(d=13,h=10,$fn=32,center=true);
+          cylinder(d=13.5,h=10,$fn=32,center=true);
       // cut off for 2.5/3.3V jumper
-      translate([27.07+2.54,cy,9.5])
-        cube([13,10,5],center=true);
+      translate([27.07+2.54,cy,11])
+        cube([13,10,7],center=true);
       // cut off for USB1
       translate([8.89,cy,9.5])
         cube([13,10,9],center=true);

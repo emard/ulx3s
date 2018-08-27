@@ -236,6 +236,7 @@ module Coque(top=0){//Coque - Shell
                 }//fin union decoration
             }//fin difference decoration
 
+            if(MountLegSize > 0.001)
             if(top < 0.5)
             for(i = [0:1])
             union(){ //sides inner holes
@@ -251,6 +252,7 @@ module Coque(top=0){//Coque - Shell
                     }
                 }
             }
+            if(MountLegSize > 0.001)
             if(top > 0.5)
             for(i = [0:1])
             union() // sides outer holes
