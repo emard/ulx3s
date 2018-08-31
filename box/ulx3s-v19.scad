@@ -12,6 +12,7 @@ include <upbox.scad>
 // Font color: at height 2.7: M600; change filament
 // button pins
   Pins          = 1; // button pins
+  Pin           = 0; // one pin
 
 //Texte façade - Front text
   Text          = 1;// [0:No, 1:Yes]
@@ -220,10 +221,12 @@ module top_add()
   }
   for(i = [0:3])
   {
+    upbase=1;
     translate([0,0,Height-Fh/2])
     translate(Fxy[i])
     {
-      cylinder(d=6,h=Fh,$fn=12,center=true);
+      translate([0,0,-upbase/2])
+      cylinder(d1=6,d2=11,h=Fh-upbase,$fn=12,center=true);
       // small in-hole centering cylinders
       translate([0,0,-Fh/2-(PCBThick-0.1-0.001)])
         cylinder(d=3,h=PCBThick-0.1,$fn=32);
@@ -231,25 +234,26 @@ module top_add()
   }
 }
 
-
-module button_pins()
+module button_pin()
 {
   pin_d1=6; // top dia
   pin_h=Height/2+2; // total height
   pin_d2=8; // button touch dia
   pin_h2=2; // button touch h
 
-  //footx = 2*Thick+FootClrX;
-  //footy = Thick+FootClrY;
-
-  translate([Footx,Footy,Height/2+0.5])
-  for(i = [0:6])
-    translate(button_pos[i])
       union()
       {
         cylinder(d=pin_d1,h=pin_h,$fn=32);
         cylinder(d=pin_d2,h=pin_h2,$fn=32);
       }
+}
+
+module button_pins()
+{
+  translate([Footx,Footy,Height/2+0.5])
+  for(i = [0:6])
+    translate(button_pos[i])
+      button_pin();
 }
 
 
@@ -295,10 +299,12 @@ BFclr = 0.5; // bottom feet clearance
 // add bottom custom feet
 module bottom_add()
 {
+  upbase=1;
   bfh=Height-Fh-PCBThick-BFclr; // bottom feet height
   for(i=[0:3])
     translate(Fxy[i])
-      cylinder(d=6.5,h=bfh,$fn=12,center=false);
+      translate([0,0,upbase])
+      cylinder(d2=6.5,d1=8,h=bfh-upbase,$fn=12,center=false);
 
 }
 
@@ -442,3 +448,6 @@ color( Couleur1,1){
 
 if(Pins==1)
     button_pins();
+
+if(Pin==1)
+    button_pin();
