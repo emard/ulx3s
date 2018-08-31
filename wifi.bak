@@ -133,6 +133,7 @@ F 1 "WIFI_OFF" H 4600 3200 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4550 2100 50  0001 C CNN
 F 3 "" H 4550 2100 50  0000 C CNN
 F 4 "Leave empty" H 4550 3300 60  0001 C CNN "Note"
+F 5 "T" H 4550 3300 50  0001 C CNN "Side"
 	1    4550 3300
 	0    -1   -1   0   
 $EndComp

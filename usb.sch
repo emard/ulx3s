@@ -93,6 +93,7 @@ F 13 "538-47346-0001" H 1500 1900 50  0001 C CNN "Mouser2"
 F 14 "609-4613-1-ND" H 1500 1900 50  0001 C CNN "Digikey"
 F 15 "WM17141CT-ND" H 1500 1900 50  0001 C CNN "Digikey2"
 F 16 "FU010" V 1500 1900 50  0001 C CNN "Koncar"
+F 17 "T" V 1500 1900 50  0001 C CNN "Side"
 	1    1500 1900
 	0    -1   1    0   
 $EndComp
@@ -398,6 +399,7 @@ F 1 "CONN_02X03" H 9350 4800 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x03" H 9350 3800 50  0001 C CNN
 F 3 "" H 9350 3800 50  0000 C CNN
 F 4 "Leave empty" H 9350 5000 60  0001 C CNN "Note"
+F 5 "T" H 9350 5000 50  0001 C CNN "Side"
 	1    9350 5000
 	1    0    0    -1  
 $EndComp
@@ -686,6 +688,7 @@ F 6 "www.mouser.com" H 5450 1450 60  0001 C CNN "Mouser_URL"
 F 7 "729-FNETHE025" H 5450 1450 60  0001 C CNN "Mouser"
 F 8 "FNETHE025CT-ND" H 5450 1450 50  0001 C CNN "Digikey"
 F 9 "FQ001" H 5450 1450 50  0001 C CNN "Koncar"
+F 10 "T" H 5450 1450 50  0001 C CNN "Side"
 	1    5450 1450
 	1    0    0    1   
 $EndComp
