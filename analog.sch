@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 9 11
 Title "ULX3S"
 Date ""
-Rev "1.0.2"
+Rev "1.0.3"
 Comp "EMARD"
 Comment1 "Analog audio and video"
 Comment2 ""
@@ -542,4 +542,6 @@ F 3 "" H 1500 4800 50  0001 C CNN
 $EndComp
 Text Label 1100 4450 0    60   ~ 0
 ADC3V3
+NoConn ~ 2900 5350
+NoConn ~ 3700 5100
 $EndSCHEMATC
