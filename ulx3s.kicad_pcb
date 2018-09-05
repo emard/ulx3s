@@ -2777,7 +2777,7 @@
       (net 1 GND))
     (pad 39 smd rect (at 0.3 2.45 180) (size 6 6) (layers B.Cu B.Mask)
       (net 1 GND))
-    (model ./footprints/esp32/ESP32.3dshapes/KiCAD-ESP-WROOM-32.wrl_defunct
+    (model ./footprints/esp32/ESP32.3dshapes/KiCAD-ESP-WROOM-32.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
