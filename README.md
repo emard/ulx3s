@@ -280,5 +280,6 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] BGA pad=0.4mm mask=0.5mm paste=0.35mm
     [x] VIA align to 0.4mm raster
     [x] min VIA enlarge 0.4 mm -> 0.419 mm
-
+    [x] USB: copper fill keepout
+    [ ] ADC: new footprint pads clearance 8.0->8.7 mil, length 11.7->11.0 mil, fab: %R, silk: pin 1 mark
 
