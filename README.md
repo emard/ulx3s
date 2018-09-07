@@ -91,6 +91,10 @@ with digital monitors/TVs
 
 # Production
 
+Independent production
+like [q3k](https://twitter.com/q3k/status/1029010026269167618) are
+welcome and desirable.
+
 ZIP the gerbers and send them to manufacturer:
 
     zip -r /tmp/ulx3s.zip plot/ulx3s
