@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 3 11
 Title "ULX3S"
 Date ""
-Rev "1.0.5"
+Rev "1.0.6"
 Comp "EMARD"
 Comment1 "Power"
 Comment2 ""
@@ -729,8 +729,7 @@ F 4 "www.yageo.com" V 3400 5850 50  0001 C CNN "MNF1_URL"
 F 5 "RC0603FR-132M2L" V 3400 5850 50  0001 C CNN "MPN"
 F 6 "603-AC0603FR-072M2L" V 3400 5850 50  0001 C CNN "Mouser"
 F 7 "P2.20MHCT-ND" V 3400 5850 50  0001 C CNN "Digikey"
-F 8 "Leave empty" V 3400 5850 50  0001 C CNN "LowCost"
-F 9 "FR007" V 3400 5850 50  0001 C CNN "Koncar"
+F 8 "FR007" V 3400 5850 50  0001 C CNN "Koncar"
 	1    3400 5850
 	1    0    0    -1  
 $EndComp
@@ -3236,7 +3235,6 @@ F 0 "D27" H 3100 3600 50  0000 C CNN
 F 1 "1N914" H 2900 3450 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2900 3550 50  0001 C CNN
 F 3 "" H 2900 3550 50  0000 C CNN
-F 4 "Leave empty" H 2900 3550 50  0001 C CNN "LowCost"
 	1    2900 3550
 	0    -1   -1   0   
 $EndComp
@@ -3250,7 +3248,6 @@ F 0 "R66" V 3230 3300 50  0000 C CNN
 F 1 "1.2k" V 3150 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 3300 50  0001 C CNN
 F 3 "" H 3150 3300 50  0000 C CNN
-F 4 "Leave empty" V 3150 3300 50  0001 C CNN "LowCost"
 	1    3150 3300
 	0    1    1    0   
 $EndComp

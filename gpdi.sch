@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 5 11
 Title "ULX3S"
 Date ""
-Rev "1.0.1"
+Rev "1.0.2"
 Comp "EMARD"
 Comment1 "General Purpose Differential Interface"
 Comment2 "Digital Video and Ethernet"
@@ -153,8 +153,7 @@ F 5 "AC0603FR-10100KL" V 6100 4700 50  0001 C CNN "MPN"
 F 6 "71-RCA0603100KJNEC" V 6100 4700 50  0001 C CNN "Mouser"
 F 7 "71-CRCW0603100KFKEAC" V 6100 4700 50  0001 C CNN "Mouser2"
 F 8 "P100KHCT-ND" V 6100 4700 50  0001 C CNN "Digikey"
-F 9 "Leave empty" V 6100 4700 50  0001 C CNN "LowCost"
-F 10 "FR003" V 6100 4700 50  0001 C CNN "Koncar"
+F 9 "FR003" V 6100 4700 50  0001 C CNN "Koncar"
 	1    6100 4700
 	1    0    0    -1  
 $EndComp
@@ -166,7 +165,6 @@ F 0 "R25" V 6380 4700 50  0000 C CNN
 F 1 "4.7k" V 6300 4700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 4700 50  0001 C CNN
 F 3 "" H 6300 4700 50  0000 C CNN
-F 4 "Leave empty" V 6300 4700 50  0001 C CNN "LowCost"
 	1    6300 4700
 	1    0    0    -1  
 $EndComp
@@ -178,7 +176,6 @@ F 0 "R26" V 6580 4700 50  0000 C CNN
 F 1 "4.7k" V 6500 4700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 4700 50  0001 C CNN
 F 3 "" H 6500 4700 50  0000 C CNN
-F 4 "Leave empty" V 6500 4700 50  0001 C CNN "LowCost"
 	1    6500 4700
 	1    0    0    -1  
 $EndComp
