@@ -17,7 +17,7 @@ D8	1					497-12310-1-ND						FV008						www.st.com			STPS2L30AF			511-STPS2L30AF
 D9, D51, D52	3									RC0805JR-070RL				Yageo	ST			www.yageo.com				STPS2L30AF								Leave empty	
 D10, D13, D14, D16, D17, D23, D24, D25, D26, D27, D29	11					1N4148WXTPMSCT-ND		1N4148WSFSCT-ND				FV001						www.fairchildsemi.com			1N4148WS 			863-MMDL914T1G		512-1N4148WS			www.mouser.com		
 D12, D15	2					NSR0530HT1GOSCT-ND						FV003		ON semiconductor	Diodes inc.			www.onsemi.com	www.diodes.com		NSR0530HT1G 	BAT54WSQ-7-F 		755-RSX051VYM30FHTR		863-NSR0530HT1G 	621-BAT54WSQ-7-F 		www.mouser.com		
-D18	1																	www.lite-on.com			LTST-C170KGKT			859-LTST-C170KGKT 					www.mouser.com		
+D18	1					160-1887-1-ND		160-1414-1-ND	67-1713-1-ND			FV005						www.liteon.com			LTST-C170TGKT 	LTST-C170KGKT	SML-LXR85SUGC-TR	859-LTST-C170TGKT		859-LTST-C170KGKT 					T
 D20, D21	2					BZT52C3V6S-TPMSCT-ND						FV002						www.taiwansemi.com			BZT52C3V6S			833-BZT52C3V6S-TP					www.mouser.com		
 D22	1	http://optoelectronics.liteon.com/upload/download/ds22-2000-233/ltst-c171tbkt(0630).pdf	https://www.rohm.com/datasheet/SML-M13UT			160-1579-1-ND						FV004						www.liteon.com			LTST-C170TBKT-D7	LTST-C171TBKT-D7	SMLMN2BCTT86C	859-LTST-C170TBKT		755-SMLMN2BCTT86C	859-LTST-C171TBKT				T
 D28	1					1N4148WXTPMSCT-ND				MMDL914T1G		FV001												863-MMDL914T1G						Leave empty	
