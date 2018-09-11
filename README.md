@@ -286,4 +286,5 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] min VIA enlarge 0.4 mm -> 0.419 mm
     [x] USB: copper fill keepout
     [x] ADC: footprint according to MAX1112x land pattern 90-0023
+    [ ] fix tombstoning see https://www.tempoautomation.com/blog/surface-mount-tombstone-experiment/
 
