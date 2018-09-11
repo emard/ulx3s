@@ -93,7 +93,7 @@ with digital monitors/TVs
 
 Independent production
 like [q3k](https://twitter.com/q3k/status/1029010026269167618) is
-welcome and desirable under conditions of [modified MIT LICENSE](/LICENSE.md).
+welcome and desirable under conditions of [modified MIT LICENSE](/LICENSE).
 
 ZIP the gerbers and send them to manufacturer:
 
