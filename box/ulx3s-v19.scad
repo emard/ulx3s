@@ -270,7 +270,7 @@ module top_cut()
       translate([8.89,28.81,0])
         cube([20,4,10],center=true);
       // 3-led view slit 
-      translate([27.94,2.54,0])
+      translate([25.4,2.54,0])
         cube([10,4,10],center=true);
       // display (screen)
       if(1)
