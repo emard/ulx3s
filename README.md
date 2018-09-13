@@ -287,4 +287,8 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] USB: copper fill keepout
     [x] ADC: footprint according to MAX1112x land pattern 90-0023
     [ ] fix tombstoning see https://www.tempoautomation.com/blog/surface-mount-tombstone-experiment/
-
+    [ ] Avoid VIAs on the PADs
+    [ ] aligment marks for BGA footprint using exposed gold plated copper
+    [ ] Order ADCs in reel (not bulk, not tube).
+    [ ] check increased distance of 2 pad rows for SDRAM
+    [ ] check increased distance of 2 pad rows for FT231X
