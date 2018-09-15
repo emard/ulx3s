@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 11 11
 Title "ULX3S"
 Date ""
-Rev "1.0.4"
+Rev "1.0.5"
 Comp "EMARD"
 Comment1 "SPI flash"
 Comment2 ""
@@ -104,7 +104,7 @@ L Device:R R27
 U 1 1 58EC0EFE
 P 3450 2350
 F 0 "R27" V 3530 2350 50  0000 C CNN
-F 1 "15k" V 3450 2350 50  0000 C CNN
+F 1 "10k" V 3450 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3380 2350 50  0001 C CNN
 F 3 "" H 3450 2350 50  0000 C CNN
 	1    3450 2350
@@ -130,7 +130,7 @@ L Device:R R28
 U 1 1 58EC0F8E
 P 3650 2350
 F 0 "R28" V 3730 2350 50  0000 C CNN
-F 1 "15k" V 3650 2350 50  0000 C CNN
+F 1 "10k" V 3650 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 2350 50  0001 C CNN
 F 3 "" H 3650 2350 50  0000 C CNN
 	1    3650 2350
@@ -216,9 +216,14 @@ L Device:R R11
 U 1 1 58EC4E77
 P 3050 2350
 F 0 "R11" V 3130 2350 50  0000 C CNN
-F 1 "15k" V 3050 2350 50  0000 C CNN
+F 1 "10k" V 3050 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 2350 50  0001 C CNN
 F 3 "" H 3050 2350 50  0000 C CNN
+F 4 "www.yageo.com" V 3050 2350 50  0001 C CNN "MNF1_URL"
+F 5 "RC0603FR-0710KL" V 3050 2350 50  0001 C CNN "MPN"
+F 6 "603-RC0603FR-0710KL" V 3050 2350 50  0001 C CNN "Mouser"
+F 7 "311-10KLMCT-ND" V 3050 2350 50  0001 C CNN "Digikey"
+F 8 "FR014" V 3050 2350 50  0001 C CNN "Koncar"
 	1    3050 2350
 	1    0    0    -1  
 $EndComp
@@ -242,7 +247,7 @@ L Device:R R12
 U 1 1 58EC4E85
 P 3250 2350
 F 0 "R12" V 3330 2350 50  0000 C CNN
-F 1 "15k" V 3250 2350 50  0000 C CNN
+F 1 "10k" V 3250 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 2350 50  0001 C CNN
 F 3 "" H 3250 2350 50  0000 C CNN
 	1    3250 2350
@@ -475,7 +480,7 @@ BTN_U v1.7
 Text Notes 9050 4000 0    60   ~ 0
 BTN_R v1.7
 Text Notes 1200 2550 0    60   ~ 0
-Deviation from TN1260 in pullup:\nvalues for BOM simplification.\nCorrect values should be 10k and 1k \nbut 15k and 1.2k are used.
+Deviation from TN1260 in pullup:\nvalues for BOM simplification.\nCorrect values should be 1k \nbut 1.2k are used.
 Text GLabel 4850 3400 0    60   Input ~ 0
 PWRBTn
 $Comp
