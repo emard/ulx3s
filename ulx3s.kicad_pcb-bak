@@ -10646,7 +10646,7 @@
   (gr_text +- (at 104.26 100.79) (layer F.SilkS) (tstamp 5A8F5288)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text v2.1.9 (at 169.807 101.443) (layer F.SilkS) (tstamp 5B2583F8)
+  (gr_text v2.1.10 (at 169.807 101.443) (layer F.SilkS) (tstamp 5B2583F8)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "KEYSTONE\n3000" (at 164.585 99) (layer B.SilkS) (tstamp 5AF93C9B)
