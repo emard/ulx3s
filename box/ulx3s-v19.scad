@@ -88,7 +88,7 @@ Thick           = 2;//[2:5]
 // - Largeur - Width
   Width         = PCBWidth+2*(Thick+FootClrY);
 // - Hauteur - Height  
-  Height        = 26;
+  Height        = 25;
   
 /* [Box options] */
 // Pieds PCB - PCB feet (x4) 
@@ -152,7 +152,7 @@ PCBW=PCBWidth;
   // mounting hole xy-position
   Footx = 2*Thick+FootClrX;
   Footy = Thick+FootClrY+FootmvY;
-  Fh = 17.5; // top feet height
+  Fh = 16.5; // top feet height
   // foot xy positions
   Fxy = [
   [Footx, Footy, 0],
@@ -228,6 +228,7 @@ module top_add()
       translate([0,0,-upbase/2])
       cylinder(d1=6,d2=11,h=Fh-upbase,$fn=12,center=true);
       // small in-hole centering cylinders
+      if(0)
       translate([0,0,-Fh/2-(PCBThick-0.1-0.001)])
         cylinder(d=3,h=PCBThick-0.1,$fn=32);
     }
@@ -303,8 +304,12 @@ module bottom_add()
   bfh=Height-Fh-PCBThick-BFclr; // bottom feet height
   for(i=[0:3])
     translate(Fxy[i])
+    {
       translate([0,0,upbase])
       cylinder(d2=6.5,d1=8,h=bfh-upbase,$fn=12,center=false);
+      translate([0,0,bfh])
+        cylinder(d=3,h=1.5,$fn=12,center=false);
+    }
 
 }
 
@@ -327,8 +332,8 @@ module bottom_cut()
     }
     // cut rails for PCB
     if(1)
-    translate((Fxy[0]+Fxy[3])/2+[0,0,Height/2+(Height-Fh-PCBThick-BFclr)])
-      cube([99,51.15,Height],center=true);
+    translate((Fxy[0]+Fxy[3])/2+[0,24.6,Height/2+(Height-Fh-PCBThick-BFclr)])
+      cube([99,2.1,Height],center=true);
 
 }
 
