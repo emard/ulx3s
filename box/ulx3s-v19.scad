@@ -275,7 +275,7 @@ module top_cut()
         cube([10,4,10],center=true);
       // display (screen)
       if(1)
-      translate([PCBLength/2-1,PCBWidth/2,0])
+      translate([PCBLength/2-1,PCBWidth/2-2,0])
         cube([23,16,10],center=true);
       // display socket
       if(0)
