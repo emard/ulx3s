@@ -323,10 +323,10 @@ module bottom_cut()
     translate(Fxy[i])
     union()
     {
-      cylinder(d=1.8,h=Height,$fn=12,center=false);
+      cylinder(d=2.2,h=Height,$fn=12,center=false);
       // conical transition
       translate([0,0,bfhole-0.01])
-        cylinder(d1=5,d2=1.8,h=transition+0.02,$fn=12,center=false);
+        cylinder(d1=5,d2=2.2,h=transition+0.02,$fn=12,center=false);
       // screw head hole
       cylinder(d=5,h=bfhole,$fn=12,center=false);
     }
