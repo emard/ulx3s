@@ -27,10 +27,10 @@ J1, J2	2																													Leave empty
 J3	1																													Leave empty	T
 J4	1																													Leave empty	T
 J5	1																												www.mouser.com	Leave empty	T
-L1, L2, L3	3			https://datasheet.octopart.com/LQH32PB2R2NN0L-Murata-datasheet-20916646.pdf		490-10649-1-ND						FL001	81-LQH32PB2R2NN0L	Murata	Murata		Bourns	www.murata.com	www.murata.com	www.bourns.com	DFE322512F-2R2M=P2	DFE252012P-2R2M=P2	SRP2512A-2R2M	81-DFE322512F-2R2MP2		81-DFE252012P-2R2MP2	652-SRP2512A-2R2M		www.mouser.com		
+L1, L2, L3	3			https://datasheet.octopart.com/LQH32PB2R2NN0L-Murata-datasheet-20916646.pdf		490-10649-1-ND						FL001	81-DFE252012P-2R2MP2	Murata	Murata		Bourns	www.murata.com	www.murata.com	www.bourns.com	DFE322512F-2R2M=P2	DFE252012P-2R2M=P2	SRP2512A-2R2M	81-DFE322512F-2R2MP2		81-DFE252012P-2R2MP2	652-SRP2512A-2R2M	81-LQH32PB2R2NN0L	www.mouser.com		
 L4	1					CV201210-330KCT-ND						FL002						www.bourns.com			CV201210-330K			652-CV201210-330K							
 OLED1	1																	www.displaymodule.com			DM-OLEDC095-626								www.mouser.com	Leave empty	
-Q1	1					TBC857BLMCT-ND						FT001						www.nxp.com			BC857			863-BC857BLT1G					www.mouser.com		
+Q1	1					TBC857BLMCT-ND						FT001						www.nxp.com			BC857			 583-BC856A-T		863-BC857BLT1G			www.mouser.com		
 Q2	1					2N7002K-TPMSCT-ND						FT002						www.nxp.com			2N7002P,215			757-T2N7002AKLM		512-2N7002L			www.mouser.com		
 R1, R3, R4, R25, R26, R30, RB2	7					YAG3613CT-ND						FR011						www.yageo.com			AC0603FR-104K7L			755-SFR03EZPF4701		603-RC0603FR-074K7L	603-AC0603FR-074K7L				
 R2, RB1	2					 311-18.0KHRCT-ND						FR006						www.yageo.com			RC0603FR-1018KL			71-CRCW060318K0FKEAC							
@@ -41,7 +41,7 @@ R9, R13, R31, R32, R33, R34, R55, R63, R64, RA1, RA2, RA3	12					YAG3569CT-ND			
 R11, R12, R27, R28	4					311-10KLMCT-ND						FR014						www.yageo.com			RC0603FR-0710KL			603-RC0603FR-0710KL							
 R15, R19, R35, R36, R37, R41, R42, R43, R44, R45, R46, R47, R48, R58, R61, R62, R65	17					311-680HRCT-ND						FR012						www.yageo.com			RC0603FR-10680RL			603-AC0603FR-07680KL		603-RC0603FR-10680RL					TB
 R16, R20, R59	3					YAG1298CT-ND						FR010						www.yageo.com			RC0603JR-07330RP			603-RC0603JR-07330RP							
-R22, R23, RB3	3					YAG3605CT-ND						FR009						www.yageo.com			RT0603FRE073K3L			603-RC0603FR-103K3L							
+R22, R23, RB3	3					YAG3605CT-ND						FR009						www.yageo.com			RT0603FRE073K3L			603-RC0603FR-073K3L		603-RC0603FR-103K3L					
 R24	1					P100KHCT-ND						FR003						www.yageo.com			AC0603FR-10100KL			71-RCA0603100KJNEC		71-CRCW0603100KFKEAC					
 R38	1					73L2R47JCT-ND						FR001		CTS				www.ctscorp.com			73L2R47J			774-73L2R47J							
 R49, R50, R52, R53	4					311-27.0HRCT-ND						FR008						www.yageo.com			AC0603JR-0727RL			603-AC0603JR-0727RL							
