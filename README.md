@@ -50,6 +50,10 @@ After version v1.8 project switched to KiCAD 5 PCB editor:
 
     kicad ulx3s.pro
 
+View generated gerbers
+
+    gerbv -p plot/ulx3s.gvp
+
 # Features
 
 FPGA: Lattice ECP5 LFE5U-85F-6BG381C (85K LUT)
@@ -286,7 +290,7 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] min VIA enlarge 0.4 mm -> 0.419 mm
     [x] USB: copper fill keepout
     [x] ADC: footprint according to MAX1112x land pattern 90-0023
-    [ ] fix tombstoning see https://www.tempoautomation.com/blog/surface-mount-tombstone-experiment/
+    [x] fix tombstoning see https://www.tempoautomation.com/blog/surface-mount-tombstone-experiment/
     [x] Avoid VIAs on the PADs
     [x] aligment marks for BGA footprint using exposed gold plated copper
     [ ] Order ADCs in reel (not bulk, not tube).
