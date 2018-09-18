@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 521)
-    (tracks 5299)
+    (tracks 5303)
     (zones 0)
     (modules 220)
     (nets 272)
@@ -14767,7 +14767,6 @@
   (segment (start 133.7355 99.3295) (end 134.575 98.49) (width 0.19) (layer B.Cu) (net 154))
   (segment (start 129.66 100.155) (end 130.4855 99.3295) (width 0.19) (layer B.Cu) (net 154))
   (segment (start 130.4855 99.3295) (end 133.7355 99.3295) (width 0.19) (layer B.Cu) (net 154))
-  (segment (start 149.472 77.211) (end 151.186 77.211) (width 0.6) (layer B.Cu) (net 155))
   (segment (start 151.27 77.295) (end 151.264735 77.289735) (width 0.8) (layer B.Cu) (net 155))
   (segment (start 153.03 74.755) (end 154.33 74.755) (width 0.6) (layer B.Cu) (net 155))
   (segment (start 151.645 82.375) (end 151.645 81.105) (width 0.3) (layer B.Cu) (net 155))
@@ -14781,6 +14780,11 @@
   (segment (start 151.1715 74.882) (end 152.903 74.882) (width 0.6) (layer B.Cu) (net 155))
   (segment (start 151.5825 79.2) (end 151.5825 78.961) (width 0.3) (layer B.Cu) (net 155))
   (segment (start 150.2825 77.3435) (end 149.472 77.3435) (width 0.3) (layer B.Cu) (net 155))
+  (segment (start 150.615 77.211) (end 150.615 78.946) (width 0.3) (layer B.Cu) (net 155))
+  (segment (start 150.615 77.211) (end 151.186 77.211) (width 0.6) (layer B.Cu) (net 155))
+  (segment (start 149.472 77.211) (end 150.615 77.211) (width 0.6) (layer B.Cu) (net 155))
+  (segment (start 150.869 79.2) (end 151.5825 79.2) (width 0.3) (layer B.Cu) (net 155))
+  (segment (start 150.615 78.946) (end 150.869 79.2) (width 0.3) (layer B.Cu) (net 155))
   (segment (start 107.53 91.126) (end 107.796 91.392) (width 0.3) (layer B.Cu) (net 156))
   (segment (start 110.07 86.705) (end 110.59 86.185) (width 0.3) (layer B.Cu) (net 156))
   (segment (start 110.215 81.105) (end 110.215 82.375) (width 0.3) (layer B.Cu) (net 156))
@@ -18183,12 +18187,12 @@
     )
     (filled_polygon
       (pts
-        (xy 139.835 87.24825) (xy 139.835 87.134502) (xy 139.948748 87.134502)
+        (xy 137.165 87.24825) (xy 137.051252 87.134502) (xy 137.165 87.134502)
       )
     )
     (filled_polygon
       (pts
-        (xy 137.165 87.24825) (xy 137.051252 87.134502) (xy 137.165 87.134502)
+        (xy 139.835 87.24825) (xy 139.835 87.134502) (xy 139.948748 87.134502)
       )
     )
     (filled_polygon
