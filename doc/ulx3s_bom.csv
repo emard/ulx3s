@@ -33,9 +33,9 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 32,Resistor,R,R5,2.2M,R_0603_1608Metric,1,,FR007,www.yageo.com,,RC0603FR-132M2L,,P2.20MHCT-ND,,603-AC0603FR-072M2L,,,,,,,,,,,,,,,,,,,
 33,Resistor,R,R49 R50 R52 R53,27,R_0603_1608Metric,4,,FR008,www.yageo.com,,AC0603JR-0727RL,,311-27.0HRCT-ND,,603-AC0603JR-0727RL,,,,,,,,,,,,,,,,,,,
 34,Resistor,R,R22 R23 RB3,3.3k,R_0603_1608Metric,3,,FR009,www.yageo.com,,RT0603FRE073K3L,,YAG3605CT-ND,,603-RC0603FR-073K3L,,,,,,,,,,603-RC0603FR-103K3L,,,,,,,,,
-35,Resistor,R,R16 R20 R59,330,R_0603_1608Metric,3,,FR010,www.yageo.com,,RC0603JR-07330RP,,YAG1298CT-ND,,603-RC0603JR-07330RP,,,,,,,,,,,,,,,,,,,
+35,Resistor,R,R16 R20 R59,300,R_0603_1608Metric,3,,FR010,www.yageo.com,,RC0603JR-07330RP,,YAG1298CT-ND,,603-RC0603FR-10300RL,,,,,,,,,,603-RC0603JR-07330RP,,,,,,,,,
 36,Resistor,R,R1 R3 R4 R25 R26 R30 RB2,4.7k,R_0603_1608Metric,7,,FR011,www.yageo.com,,AC0603FR-104K7L,,YAG3613CT-ND,,755-SFR03EZPF4701,,,,,,,,,,603-RC0603FR-074K7L,,,603-AC0603FR-074K7L,,,,,,
-37,Resistor,R,R15 R19 R35 R36 R37 R41 R42 R43 R44 R45 R46 R47 R48 R58 R61 R62 R65,680,R_0603_1608Metric,17,,FR012,www.yageo.com,TB,RC0603FR-10680RL,,311-680HRCT-ND,,652-CR0603FX-5900ELF,,,,,,,,,,603-RC0603FR-10680RL,,,603-RC0603FR-07680RL,,,,,,
+37,Resistor,R,R15 R19 R35 R36 R37 R41 R42 R43 R44 R45 R46 R47 R48 R58 R61 R62 R65,590,R_0603_1608Metric,17,,FR012,www.yageo.com,TB,CR0603-FX-5900ELF RC0603FR-10680RL,,311-680HRCT-ND,,652-CR0603FX-5900ELF,,,,,,,,,,603-RC0603FR-10680RL,,,603-RC0603FR-07680RL,,,,,,
 38,"Jumper, normally closed",Jumper_NC_Small,RV3,0,R_0805_2012Metric_Pad1.29x1.40mm_HandSolder,1,,FR013,www.yageo.com,T,RC0805JR-070RL,,YAG1327CT-ND,www.mouser.com,71-RCG08050000Z0EA,,,,,,,,,,,,,,,,,,,
 39,Micro SD Card Socket with CD,Micro_SD_Card_CD,SD1,SCHD3A0100,SCHD3A100,1,https://www.relayspec.com/catalogs/001285/2010/SCHD.pdf,FX002,www.on-stars.com,T,SCHD3A0100,,WM6698DKR-ND,,538-47219-2001,,,,47219-2001,,,,,www.molex.com,688-SCHD3A0100,,,,https://www.molex.com/pdm_docs/sd/472192001_sd.pdf,,,,,
 40,"4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x04,SW1,SW_DIP_x04,SW_DIP_x4_W8.61mm_Slide_LowProfile,1,https://www.ctscorp.com/wp-content/uploads/219.pdf,FSW002,www.jameco.com,T,219-4MST,,CT2194MST-ND,,774-2194MST,,,,,,,,,,,,,,,,,,,
@@ -63,6 +63,6 @@ Number of PCBs:,1
 Total components:,193
 Schematic Version:,2.1.10
 Schematic Date:,
-BoM Date:,"subota, 22. rujna 2018. 16:46:52 CEST"
+BoM Date:,"nedjelja, 23. rujna 2018. 11:11:38 CEST"
 Schematic Source:,/home/guest/src/fpga/circuits/ulx3s/ulx3s.sch
 KiCad Version:,Eeschema 5.0.0+dfsg1-2
