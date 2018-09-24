@@ -1,0 +1,129 @@
+* POWERSECTION -> plot v(pwrbtn_pulse),v(shutdown_pulse),v(wake_pulse),v(p3v3),v(ftdi_nsleep),v(pwren)
+
+* Simulation of power network
+* POWER ON: USB plugged in, POWER button, RTC alarm, FTDI_nSLEEP
+* POWER OFF: SHUTDOWN signal
+* FTDI_nSLEEP has priority over SHUTDOWN signal (not yet simulated)
+
+*  Simulate 5V USB plugging in every 10 seconds
+*                                       start  rise  fall  duration  period
+VUSB5V hard_5V 0         PULSE(0V    5V  0.1s  10ms  10ms        9s     10s DC=0V)
+* internal resistor provides "soft" USB 5V
+Rusb hard_5V USB5V 0.1
+
+*  shutdown pulse every 1 second, start after 0.4s
+*                                       start  rise  fall  duration  period
+VSHUT shutdown_pulse  0  PULSE(0V  3.3V  0.4s  10ms  10ms     100ms      1s DC=0V)
+* convergence friendly resistor
+RSHUT shutdown_pulse SHUTDOWN 220
+
+*  power up button pulse every 10 seconds, start after 0.7s
+*                                       start  rise  fall  duration  period
+VPWRBTN pwrbtn_pulse  0  PULSE(0V  3.3V  0.9s  10ms  10ms     100ms     10s DC=0V)
+
+* RTC internal wakeup pulse every 10 seconds, start after 1.7s
+*                                       start  rise  fall  duration  period
+VWAKEUP wake_pulse  0  PULSE(0V  3.3V    1.9s  10ms  10ms     100ms     10s DC=0V)
+* convergence friendly internal resistor
+Rwk  wake_pulse wake_base  1k
+
+*  FTDI_nSLEEP signal every 10 seconds, start after 2.3s
+*                                       start  rise  fall  duration  period
+VFTDI FTDI_nSLEEP   0    PULSE(0V  2.5V  2.2s  10ms  10ms      0.5s     10s DC=0V)
+
+* RTC internal NPN transisfor for open collector output
+Qwk  WAKEUPn wake_base 0  BC847
+
+* hard 3.3V voltage
+Vhard3V3 hard_3V3 0 3.3V
+* internal resistor provides delayed rise of 3.3V
+Rsmps hard_3V3 PWR3V3 10
+
+* base resistor
+R6 WAKEUPn WKn 1.2k
+* PNP transistor
+Q1 WKUP WKn USB5V BC857
+* Slow down capacitor, initially discharged
+C13 USB5V WKUP 2.2uF IC=0
+* diode to discharge C13 at shutdown
+D13 0 WKUP N4148
+
+* diode to activate onboard switching regulator
+D10 WKUP WAKE N4148
+* "OR" resistors
+R1 WAKE PWREN 4.7k
+R4 PWREN HOLD 4.7k
+* "OR" diode to 3.3V from switching regulator
+D11 P3V3 HOLD LED_GREEN
+
+* 2.5V from FTDI also supplies P3V3 line so it never falls to 0V
+VFTDI2V5 hard_2V5 0 2.8V
+* FTDI internal resistance for soft 2.5V to P3V3 line
+RFTDI hard_2V5 P3V3 10
+
+* switching regulator, default off, starts by hysteresis
+SW3V3 PWR3V3 P3V3 PWREN 0 SWITCH OFF
+
+* pull down resistor
+R2 PWREN 0 18k
+
+* small mosfet
+M1 drain SHUT 0 0 N7002
+* drain resistor
+R8 drain PWREN 1.2k
+* mosfet gate slowdown resistor
+C14 SHUT 0 220nF
+* mosfet gate discharge (default OFF) resistor
+R5 SHUT 0 2.2MEG
+
+* diode to discharge gate at shutdown
+D14 SHUT P3V3 N4148
+
+* diode for shutdown to only pull down, never up
+D15 SHUTDOWN SHUT BAT54W
+* Pull down resistor
+R13 SHUTDOWN 0 15k
+
+* power button
+R3 USB5V pwrbtn 4.7k
+D16 WAKEUPn pwrbtn N4148
+SPWR pwrbtn 0  pwrbtn_pulse 0  SWITCH OFF
+
+* ftdi no-sleep network
+R10 FTDI_nSLEEP FTDI_nSUSPEND 130
+D12 FTDI_nSUSPEND PWREN BAT54W
+
+
+* The load (slow)
+RL P3V3 0   100
+CL P3V3 0   1000uF
+
+
+.TRAN 1ms 3.3s
+.OPTIONS METHOD=GEAR, RELTOL=1E-3, itl1=500, itl4=500
+*.OPTIONS gmin=1e-11 reltol=4e-4 itl1=500 itl4=500
+*.OPTIONS gmin = 1E-12, reltol = 1E-3, itl1 = 500, itl4 = 500 
+
+.MODEL SWITCH SW (VT=1V, VH=0.5V, RON=0.01, ROFF=100MEG)
+.MODEL N4148 D (CJO=0.2pF)
+.MODEL BAT54W D (
++IS=1.4092e-08 RS=0.78137 N=0.960292 EG=0.706829
++XTI=0.5 BV=30 IBV=0.00001 CJO=1.28873e-11
++VJ=0.604739 M=0.445477 FC=0.5 TT=0
++KF=0 AF=1)
+*Typ RED GaAs LED: Vf=1.7V Vr=4V If=40mA trr=3uS
+.MODEL LED_RED D (IS=93.2P RS=42M N=3.73 BV=4 IBV=10U
++ CJO=2.97P VJ=.75 M=.333 TT=4.32U)
+*Typ RED,GREEN,YELLOW,AMBER GaAs LED: Vf=2.1V Vr=4V If=40mA trr=3uS
+.MODEL LED_GREEN D (IS=93.1P RS=42M N=4.61 BV=4 IBV=10U
++ CJO=2.97P VJ=.75 M=.333 TT=4.32U)
+*Typ BLUE SiC LED: Vf=3.4V Vr=5V If=40mA trr=3uS
+.MODEL LED_BLUE D (IS=93.1P RS=42M N=7.47 BV=5 IBV=30U
++ CJO=2.97P VJ=.75 M=.333 TT=4.32U)
+.MODEL BC847 NPN (BF=150)
+.MODEL BC857 PNP (BF=150)
+.MODEL N7002 NMOS (LEVEL=1, VTO=2.5, KP=40, RS=0.033, RD=0.034)
+
+* todo
+* [x] delay: switch power 3.3V doesn't start immediately simulated with Rsmps=10 ohm
+* [ ] control signals should be derived from P3V3 line
