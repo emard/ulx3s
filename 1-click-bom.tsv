@@ -11,15 +11,15 @@ C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C48, C49, C50, C51, C52, 
 C56, C57	2					311-3848-1-ND		311-3855-1-ND				FC005						www.yageo.com			CC0603CRNPO9BN3R3			710-885012006048								
 D0, D4, D11, D19	4					160-1415-1-ND						FV007						www.liteon.com			LTST-C170KRKT			859-LTST-C170KRKT						www.mouser.com		TB
 D1, D5	2					160-1413-1-ND						FV006	LTST-C170KRKT					www.liteon.com			LTST-C170KFKT			859-LTST-C170KFKT						www.mouser.com		T
-D2, D6	2					160-1887-1-ND		160-1414-1-ND	67-1713-1-ND			FV005	LTST-C170KRKT					www.liteon.com			LTST-C170TGKT 	LTST-C170KGKT	SML-LXR85SUGC-TR	859-LTST-C170TGKT		859-LTST-C170KGKT 						T
-D3, D7	2	http://optoelectronics.liteon.com/upload/download/ds22-2000-233/ltst-c171tbkt(0630).pdf	https://www.rohm.com/datasheet/SML-M13UT			160-1579-1-ND						FV004	LTST-C170KRKT					www.liteon.com			LTST-C170TBKT-D7	LTST-C171TBKT-D7	SMLMN2BCTT86C	859-LTST-C170TBKT		755-SMLMN2BCTT86C	859-LTST-C171TBKT					T
+D2, D6	2					160-1887-1-ND						FV005	LTST-C170KRKT					www.liteon.com			LTST-C170TGKT 			859-LTST-C170TGKT								T
+D3, D7	2	http://optoelectronics.liteon.com/upload/download/ds22-2000-233/ltst-c171tbkt(0630).pdf	https://www.rohm.com/datasheet/SML-M13UT			160-1579-1-ND						FV004	LTST-C170KRKT					www.liteon.com			LTST-C170TBKT	LTST-C171TBKT	SMLMN2BCTT86C	859-LTST-C170TBKT		755-SMLMN2BCTT86C	859-LTST-C171TBKT					T
 D8	1					497-12310-1-ND						FV008						www.st.com			STPS2L30AF			511-STPS2L30AF 						www.mouser.com		
 D9, D51, D52	3									RC0805JR-070RL				Yageo	ST			www.yageo.com				STPS2L30AF									Leave empty	
 D10, D13, D14, D16, D17, D23, D24, D25, D26, D27, D29	11					1N4148WXTPMSCT-ND		1N4148WSFSCT-ND				FV001						www.fairchildsemi.com			1N4148WS 			863-MMDL914T1G		512-1N4148WS				www.mouser.com		
 D12, D15	2					NSR0530HT1GOSCT-ND						FV003		ON semiconductor	Diodes inc.			www.onsemi.com	www.diodes.com		NSR0530HT1G 	BAT54WSQ-7-F 		755-RSX051VYM30FHTR		863-NSR0530HT1G 	621-BAT54WSQ-7-F 			www.mouser.com		
-D18	1					160-1887-1-ND		160-1414-1-ND	67-1713-1-ND			FV005						www.liteon.com			LTST-C170TGKT 	LTST-C170KGKT	SML-LXR85SUGC-TR	859-LTST-C170TGKT		859-LTST-C170KGKT 						T
+D18	1					160-1887-1-ND						FV005						www.liteon.com			LTST-C170TGKT 			859-LTST-C170TGKT								T
 D20, D21	2					BZT52C3V6S-TPMSCT-ND						FV002						www.taiwansemi.com			BZT52C3V6S			833-BZT52C3V6S-TP						www.mouser.com		
-D22	1	http://optoelectronics.liteon.com/upload/download/ds22-2000-233/ltst-c171tbkt(0630).pdf	https://www.rohm.com/datasheet/SML-M13UT			160-1579-1-ND						FV004						www.liteon.com			LTST-C170TBKT-D7	LTST-C171TBKT-D7	SMLMN2BCTT86C	859-LTST-C170TBKT		755-SMLMN2BCTT86C	859-LTST-C171TBKT					T
+D22	1	http://optoelectronics.liteon.com/upload/download/ds22-2000-233/ltst-c171tbkt(0630).pdf	https://www.rohm.com/datasheet/SML-M13UT			160-1579-1-ND						FV004						www.liteon.com			LTST-C170TBKT	LTST-C171TBKT	SMLMN2BCTT86C	859-LTST-C170TBKT		755-SMLMN2BCTT86C	859-LTST-C171TBKT					T
 D28	1					1N4148WXTPMSCT-ND				MMDL914T1G		FV001												863-MMDL914T1G							Leave empty	
 GPDI1	1	https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf				609-4614-1-ND		A136174CT-ND				FX001						www.amphenol-icc.com	www.te.com		10029449-111RLF	5-1903015-5		649-10029449-111RLF		571-5-1903015-5				www.mouser.com		T
 H1, H2, H3, H4	4																														Leave empty	
@@ -36,11 +36,11 @@ R1, R3, R4, R25, R26, R30, RB2	7					YAG3613CT-ND						FR011						www.yageo.com	
 R2, RB1	2					 311-18.0KHRCT-ND						FR006						www.yageo.com			RC0603FR-1018KL			71-CRCW060318K0FKEAC								
 R5	1					P2.20MHCT-ND						FR007						www.yageo.com			RC0603FR-132M2L			603-AC0603FR-072M2L								
 R6, R8, R14, R18, R29, R40, R54, R57, R66	9					311-1.20KHRCT-ND						FR002						www.yageo.com			RC0603FR-101K2L			603-AC0603JR-071K2L								
-R7, R10, R17, R21, R39, R51, R60	7					311-150HRCT-ND						FR004						www.yageo.com			RC0603FR-07150RL			603-RC0603FR-07150RL		603-AC0603FR-07150RL						
+R7, R10, R17, R21, R39, R51, R60	7					311-130HRCT-ND						FR004						www.yageo.com			RC0603FR-07130RL			603-RC0603FR-07130RL								
 R9, R13, R31, R32, R33, R34, R55, R63, R64, RA1, RA2, RA3	12					YAG3569CT-ND						FR005						www.yageo.com			RC0603FR-1015KL			603-RC0603FR-1315KL		603-RC0603FR-1015KL						
 R11, R12, R27, R28	4					311-10KLMCT-ND						FR014						www.yageo.com			RC0603FR-0710KL			603-RC0603FR-0710KL								
-R15, R19, R35, R36, R37, R41, R42, R43, R44, R45, R46, R47, R48, R58, R61, R62, R65	17					311-680HRCT-ND						FR012						www.yageo.com			CR0603-FX-5900ELF			652-CR0603FX-5900ELF		603-RC0603FR-10680RL	603-RC0603FR-07680RL					TB
-R16, R20, R59	3					YAG1298CT-ND						FR010						www.yageo.com			RC0603JR-07330RP			603-RC0603FR-10300RL		603-RC0603JR-07330RP						
+R15, R19, R35, R36, R37, R41, R42, R43, R44, R45, R46, R47, R48, R58, R61, R62, R65	17					311-549HRCT-ND						FR012						www.yageo.com			RC0603FR-07549RL			603-RC0603FR-07549RL								TB
+R16, R20, R59	3					311-270HRCT-ND						FR010						www.yageo.com			RC0603JR-07330RP			603-RC0603FR-10300RL								
 R22, R23, RB3	3					YAG3605CT-ND						FR009						www.yageo.com			RT0603FRE073K3L			603-RC0603FR-073K3L		603-RC0603FR-103K3L						
 R24	1					P100KHCT-ND						FR003						www.yageo.com			AC0603FR-10100KL			71-RCA0603100KJNEC		71-CRCW0603100KFKEAC						
 R38	1					73L2R47JCT-ND						FR001		CTS				www.ctscorp.com			73L2R47J			774-73L2R47J								
