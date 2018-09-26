@@ -156,7 +156,7 @@ L Device:R R29
 U 1 1 58EC15E1
 P 3850 2350
 F 0 "R29" V 3930 2350 50  0000 C CNN
-F 1 "1.2k" V 3850 2350 50  0000 C CNN
+F 1 "1.1k" V 3850 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3780 2350 50  0001 C CNN
 F 3 "" H 3850 2350 50  0000 C CNN
 	1    3850 2350
@@ -480,7 +480,7 @@ BTN_U v1.7
 Text Notes 9050 4000 0    60   ~ 0
 BTN_R v1.7
 Text Notes 1200 2550 0    60   ~ 0
-Deviation from TN1260 in pullup:\nvalues for BOM simplification.\nCorrect values should be 1k \nbut 1.2k are used.
+Deviation from TN1260 in pullup:\nvalues for BOM simplification.\nCorrect values should be 1k \nbut 1.1k is used.
 Text GLabel 4850 3400 0    60   Input ~ 0
 PWRBTn
 $Comp
