@@ -1,4 +1,5 @@
 #all: powersection-v17.plot
+#all: powersection-v188.plot
 all: powersection-v20.plot
 
 #SPICE=spice3

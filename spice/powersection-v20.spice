@@ -40,7 +40,7 @@ Vhard3V3 hard_3V3 0 3.3V
 Rsmps hard_3V3 PWR3V3 10
 
 * base resistor
-R6 WAKEUPn WKn 1.2k
+R6 WAKEUPn WKn 1.1k
 * PNP transistor
 Q1 WKUP WKn USB5V BC857
 * Slow down capacitor, initially discharged
@@ -70,7 +70,7 @@ R2 PWREN 0 18k
 * small mosfet
 M1 drain SHUT 0 0 N7002
 * drain resistor
-R8 drain PWREN 1.2k
+R8 drain PWREN 1.1k
 * mosfet gate slowdown resistor
 C14 SHUT 0 220nF
 * mosfet gate discharge (default OFF) resistor
