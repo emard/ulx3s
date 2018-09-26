@@ -164,7 +164,6 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] Solder stop mask must go inbetween all SMD chip pads
     [x] External differential clock input at J1_33 +/-
     [x] physically sprinkle VCC blocator capacitors under BGA
-    [ ] Values on silkscreen
     [x] Dedicated antenna pin
     [x] onboard 433 antenna
     [x] 433 remove GND and silkscreen test point
@@ -227,7 +226,6 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] SDRAM raster back to 0.8 mm
     [x] connect SPI Flash Quad Mode (QSPI)
     [x] allow powering the board without powering FTDI chip
-    [ ] reverse D9 at US2 to draw power from usb instead of provide it
     [x] micro USB extended pads for Handsoldering (already were extended)
     [x] move 25MHz oscillator away from USB connector for handsoldering
     [x] schematics gpio J..+- pins renamed to gp/gn for easier readability
@@ -241,7 +239,7 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] clear silkscreen mess with Cx under FPGA
     [x] power decoupling capacitors for ESP32 and OLED
     [x] Connect switching power supply jumpers
-    [ ] every 1-2 seconds there are clicks at analog audio output
+    [x] every 1-2 seconds there are clicks at analog audio output, fixed in v2.1.2
     [x] 3.6V zener diodes must be on FPGA side
     [x] can esp32 second tx/rx port make serial communication with FPGA
     [x] Jumper to switch 2.5V/3.3V for left IO banks
@@ -257,7 +255,7 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] RTC battery capacitor
     [x] battery + pad clearance
     [x] PCB v1.8.1 redesigned to fit HDMI 649-10029449-111RLF (the cheapest)
-    [ ] use cheaper diodes 583-MM4148-T in SOD-80C package
+    [x] use cheaper diodes 1N914
     [x] fix copper layer after using non-handsoldering resistor footprints
     [x] DIP switch must be pulled up at 2.5/3.3V or 2.5V line, not 3.3V
     [x] RTC time loss at power down fixed with 1k+22uF - see page 54 of datasheet
