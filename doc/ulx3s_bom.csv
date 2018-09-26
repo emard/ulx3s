@@ -24,7 +24,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 23,Transistor N-MOSFETwith substrate diode (general),Q_NMOS_GSD,Q2,2N7002,SOT-23,1,https://assets.nexperia.com/documents/data_sheet/2N7002.pdf,FT002,www.nxp.com,,"2N7002P,215",,2N7002K-TPMSCT-ND,www.mouser.com,757-T2N7002AKLM,,,,,,,,,,512-2N7002L,,,,,,,,,
 24,Transistor PNP (general),Q_PNP_BEC,Q1,BC857,SOT-23,1,https://assets.nexperia.com/documents/data-sheet/BC856_BC857_BC858.pdf,FT001,www.nxp.com,,BC857,,TBC857BLMCT-ND,www.mouser.com,583-BC856A-T,,,,,,,,,,863-BC857BLT1G,,,,,,,,,
 25,Resistor,R,R38,0.47,R_0603_1608Metric,1,,FR001,www.ctscorp.com,,73L2R47J,CTS,73L2R47JCT-ND,,774-73L2R47J,,,,,,,,,,,,,,,,,,,
-26,Resistor,R,R6 R8 R14 R18 R29 R40 R54 R57 R66,1.2k,R_0603_1608Metric,9,,FR002,www.yageo.com,,RC0603FR-101K2L,,311-1.20KHRCT-ND,,603-AC0603JR-071K2L,,,,,,,,,,,,,,,,,,,
+26,Resistor,R,R6 R8 R14 R18 R29 R40 R54 R57 R66,1.1k,R_0603_1608Metric,9,,FR002,www.yageo.com,,RC0603FR-071K1L,,P1.10KHCT-ND,,603-RC0603FR-071K1L,,,,,,,,,,,,,,,,,,,
 27,Resistor,R,R24,100k,R_0603_1608Metric,1,,FR003,www.yageo.com,,AC0603FR-10100KL,,P100KHCT-ND,,71-RCA0603100KJNEC,,,,,,,,,,71-CRCW0603100KFKEAC,,,,,,,,,
 28,Resistor,R,R11 R12 R27 R28,10k,R_0603_1608Metric,4,,FR014,www.yageo.com,,RC0603FR-0710KL,,311-10KLMCT-ND,,603-RC0603FR-0710KL,,,,,,,,,,,,,,,,,,,
 29,Resistor,R,R7 R10 R17 R21 R39 R51 R60,130,R_0603_1608Metric,7,,FR004,www.yageo.com,,RC0603FR-07130RL,,311-130HRCT-ND,,603-RC0603FR-07130RL,,,,,,,,,,,,,,,,,,,
@@ -35,7 +35,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 34,Resistor,R,R16 R20 R59,270,R_0603_1608Metric,3,,FR010,www.yageo.com,,RC0603JR-07330RP,,311-270HRCT-ND,,603-RC0603FR-10300RL,,,,,,,,,,,,,,,,,,,
 35,Resistor,R,R22 R23 RB3,3.3k,R_0603_1608Metric,3,,FR009,www.yageo.com,,RT0603FRE073K3L,,YAG3605CT-ND,,603-RC0603FR-073K3L,,,,,,,,,,603-RC0603FR-103K3L,,,,,,,,,
 36,Resistor,R,R1 R3 R4 R25 R26 R30 RB2,4.7k,R_0603_1608Metric,7,,FR011,www.yageo.com,,AC0603FR-104K7L,,YAG3613CT-ND,,755-SFR03EZPF4701,,,,,,,,,,603-RC0603FR-074K7L,,,603-AC0603FR-074K7L,,,,,,
-37,Resistor,R,R15 R19 R35 R36 R37 R41 R42 R43 R44 R45 R46 R47 R48 R58 R61 R62 R65,550,R_0603_1608Metric,17,,FR012,www.yageo.com,TB,RC0603FR-07549RL,,311-549HRCT-ND,,603-RC0603FR-07549RL,,,,,,,,,,,,,,,,,,,
+37,Resistor,R,R15 R19 R35 R36 R37 R41 R42 R43 R44 R45 R46 R47 R48 R58 R61 R62 R65,549,R_0603_1608Metric,17,,FR012,www.yageo.com,TB,RC0603FR-07549RL,,311-549HRCT-ND,,603-RC0603FR-07549RL,,,,,,,,,,,,,,,,,,,
 38,"Jumper, normally closed",Jumper_NC_Small,RV3,0,R_0805_2012Metric_Pad1.29x1.40mm_HandSolder,1,,FR013,www.yageo.com,T,RC0805JR-070RL,,YAG1327CT-ND,www.mouser.com,71-RCG08050000Z0EA,,,,,,,,,,,,,,,,,,,
 39,Micro SD Card Socket with CD,Micro_SD_Card_CD,SD1,SCHD3A0100,SCHD3A100,1,https://www.relayspec.com/catalogs/001285/2010/SCHD.pdf,FX002,www.on-stars.com,T,SCHD3A0100,,WM6698DKR-ND,,538-47219-2001,,,,47219-2001,,,,,www.molex.com,688-SCHD3A0100,,,,https://www.molex.com/pdm_docs/sd/472192001_sd.pdf,,,,,
 40,"4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x04,SW1,SW_DIP_x04,SW_DIP_x4_W8.61mm_Slide_LowProfile,1,https://www.ctscorp.com/wp-content/uploads/219.pdf,FSW002,www.jameco.com,T,219-4MST,,CT2194MST-ND,,774-2194MST,,,,,,,,,,,,,,,,,,,
@@ -63,6 +63,6 @@ Number of PCBs:,1
 Total components:,193
 Schematic Version:,2.1.10
 Schematic Date:,
-BoM Date:,"ponedjeljak, 24. rujna 2018. 11:42:57 CEST"
+BoM Date:,"srijeda, 26. rujna 2018. 11:41:10 CEST"
 Schematic Source:,/home/guest/src/fpga/circuits/ulx3s/ulx3s.sch
 KiCad Version:,Eeschema 5.0.0+dfsg1-2
