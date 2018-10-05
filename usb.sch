@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 6 11
 Title "ULX3S"
 Date ""
-Rev "1.0.2"
+Rev "1.0.3"
 Comp "EMARD"
 Comment1 "USB serial and JTAG"
 Comment2 ""
@@ -921,4 +921,8 @@ USER_PROGRAMN
 Text Notes 7350 2300 0    60   ~ 0
 NC v1.7
 NoConn ~ 8650 2950
+Text GLabel 10150 1950 2    60   Input ~ 0
+FTDI_nRXLED
+Text Notes 10950 2000 0    60   ~ 0
+NC v3.0.4
 $EndSCHEMATC

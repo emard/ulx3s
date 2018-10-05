@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 11
 Title "ULX3S"
 Date ""
-Rev "2.1.10"
+Rev "3.0.5"
 Comp "EMARD"
 Comment1 "Root sheet"
 Comment2 ""
