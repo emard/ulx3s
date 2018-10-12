@@ -372,4 +372,10 @@ Text Notes 4750 3400 0    60   ~ 0
 GN13 <v2.0.6
 Text Notes 4750 3300 0    60   ~ 0
 GP13 <v2.0.6
+NoConn ~ 6400 4500
+NoConn ~ 6500 4500
+NoConn ~ 6600 4500
+NoConn ~ 6700 4500
+NoConn ~ 6800 4500
+NoConn ~ 6900 4500
 $EndSCHEMATC
