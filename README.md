@@ -295,3 +295,4 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] check increased distance of 2 pad rows of SDRAM
     [x] check decreased distance of 2 pad rows of FT231X
     [x] route FTDI_nRXLED to FPGA
+    [ ] resistor in series with + battery
