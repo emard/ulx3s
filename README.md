@@ -21,7 +21,7 @@ it should be also good to other projects.
 
 ULX3S will carry all digital logic on our
 research, [education](https://www.fer.unizg.hr/en/course/diglog) and
-makerspace projects in next 5 years.
+[makerspace](https://radiona.org) projects in next 5 years.
 
 ULX3S is standalone embeddable gadget with onboard display, buttons,
 storage, WiFi and compatible connectors.
