@@ -19,7 +19,8 @@ It's open source and open hardware because if it is
 good for our development of [f32c](http://github.com/f32c/f32c) SOC,
 it should be also good to other projects.
 
-ULX3S will carry all digital logic on our research, education and 
+ULX3S will carry all digital logic on our
+research, [education](https://www.fer.unizg.hr/en/course/diglog) and
 makerspace projects in next 5 years.
 
 ULX3S is standalone embeddable gadget with onboard display, buttons,
