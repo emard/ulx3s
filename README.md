@@ -1,8 +1,8 @@
 # ULX3S PCB
 
-ULX3S = University digital Logic Learning Xtensible
-board release 3 with SDRAM, Successor
-of [ULX2S](http://github.com/emard/ulx2s).
+ULX3S = [University digital Logic](https://www.fer.unizg.hr/en/course/diglog) Learning
+Xtensible board release 3 with SDRAM,
+Successor of [ULX2S](http://github.com/emard/ulx2s).
 
 3D preview
 
