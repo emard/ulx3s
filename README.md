@@ -59,7 +59,7 @@ View generated gerbers
 
 FPGA: Lattice ECP5 LFE5U-85F-6BG381C (85K LUT)
 
-USB: FTDI FT231XS (300kbit JTAG and 3Mbit USB-serial)
+USB: FTDI FT231XS (500kbit JTAG and 3Mbit USB-serial)
 
 GPIO: 56 pins (28 differential pairs), PMOD-friendly
 
