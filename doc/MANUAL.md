@@ -9,9 +9,10 @@
     US2    Auxiliary micro-USB connected directly to FPGA pins
            for experimenting with user-defined USB cores.
            Board provides power to US2.
-           Board can't be powered from US2.
-           If you want to power board from US2, reverse diode
-           D9 near US2 connector.
+           Board v1.7 can't be powered from US2 by default.
+           Board v2.0 and higher can be powered from US2-
+           If you want to power board v1.7 from US2, reverse diode
+           D9 near US2 connector or short D9 with a wire.
 
     GPDI   Plug for cable to digital monitor or TV,
            4 TMDS+- video
@@ -43,7 +44,8 @@
            at 3.3V logical level with 56 bidirectional single-ended
            pins or 28 bidirectional differential pairs or combined,
            some single-ended and some differential.
-           J1 pins marked 9-13 are shared with WiFi (PCB v1.7)
+           J1 pins marked 9-13 are shared with WiFi on PCB v1.7.
+           J1 pins marked 11-13 are shared with WiFi on PCB >v2.0.
            J2 pins marked 14-17 are shared with ADC.
            4 PMOD connectors can be made out of it
            (GND and 3.3V power are on the right place)
