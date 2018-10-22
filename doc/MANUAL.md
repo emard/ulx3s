@@ -123,8 +123,19 @@ Optionally you can change "45K" to "25K" or "12K" in regard with FPGA chip size.
 Re-plug the USB and it will appear as new name which can be autodetected
 with USB-serial JTAG tool.
 
-Use Emard's fork of Xark's [FleaFPGA-JTAG](https://github.com/emard/FleaFPGA-JTAG) tool.
-This tool accepts VME files for uploading to the FPGA SRAM or onboard 
+To program ULX3S, Use [ujprog](https://github.com/f32c/tools) or 
+Emard's fork of Xark's [FleaFPGA-JTAG](https://github.com/emard/FleaFPGA-JTAG) tool
+or Emard's fork of [OpenOCD](https://github.com/emard/openocd) (the patch is
+sent also to openocd gerrit review system, please join them and 
+add +1 for mainstream acceptance).
+
+"ujprog" tool acceps BIT or SVF files for uploading to the FPGA SRAM.
+Upload to onboard FLASH can't be yet done by "ujprog"
+
+    ujprog bitstream-sram.bit
+    ujprog bitstream-sram.svf
+
+"FleaFPGA-JTAG" tool accepts VME files for uploading to the FPGA SRAM or onboard 
 SPI FLASH chip. SRAM VME file is simple to make, but when generating 
 FLASH VME file, follow the Lattice 
 TN02050 document: 
@@ -142,6 +153,9 @@ When it creates VME file, pass it to FleaFPGA-JTAG argument and wait
 5-10 minutes, it's not particulary fast.
 
     FleaFPGA-JTAG bitstream-flash.vme
+
+"OpenOCD" tool accepts SVF files and can upload to SRAM or onboard FLASH.
+For details see their documentation.
 
 # Programming over JTAG header
 
