@@ -4,14 +4,15 @@ ULX3S = [University digital Logic](https://www.fer.unizg.hr/en/course/diglog) Le
 Xtensible board release 3 with SDRAM,
 Successor of [ULX2S](http://github.com/emard/ulx2s).
 
+[Manual](/doc/MANUAL.md)
+[Quickstart Binaries](http://github.com/emard/ulx3s-bin)
+[ULX3S at Kitspace](https://kitspace.org/boards/github.com/emard/ulx3s)
+
 3D preview
 
 ![TOP](/pic/ulx3st.jpg)
 ![BOTTOM](/pic/ulx3sb.jpg)
 
-[Manual](/doc/MANUAL.md)
-[Quickstart Binaries](http://github.com/emard/ulx3s-bin)
-[ULX3S at Kitspace](https://kitspace.org/boards/github.com/emard/ulx3s)
 
 This is a small (94x51 mm) standalone FPGA board 
 for education, research and general purpose, with a full 
