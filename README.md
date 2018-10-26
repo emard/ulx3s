@@ -50,7 +50,8 @@ is PMOD compatible.
 
 ULX3S is sufficiently equipped to
 emulate [Amiga](https://github.com/emard/Minimig_ECS) retro
-computer and run its games, but can do much more.
+computer and run its games, but can do much more like
+running [Linux](https://twitter.com/fpga_dave/status/1053290842809683968).
 
 [Schematics](/doc/schematics.pdf) and PCB started with KiCAD 4.
 After version v1.8 project switched to KiCAD 5 PCB editor:
