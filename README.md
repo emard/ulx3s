@@ -4,8 +4,8 @@ ULX3S = [University digital Logic](https://www.fer.unizg.hr/en/course/diglog) Le
 Xtensible board release 3 with SDRAM,
 Successor of [ULX2S](http://github.com/emard/ulx2s).
 
-[Manual](/doc/MANUAL.md)
-* [Quickstart Binaries](http://github.com/emard/ulx3s-bin) *
+[Manual](/doc/MANUAL.md) *
+[Quickstart Binaries](http://github.com/emard/ulx3s-bin) *
 [ULX3S at Kitspace](https://kitspace.org/boards/github.com/emard/ulx3s)
 
 3D preview
