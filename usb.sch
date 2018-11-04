@@ -925,4 +925,6 @@ Text GLabel 10150 1950 2    60   Input ~ 0
 FTDI_nRXLED
 Text Notes 10950 2000 0    60   ~ 0
 NC <v3.0.5
+Text Notes 7350 2200 0    60   ~ 0
+NC v1.7
 $EndSCHEMATC

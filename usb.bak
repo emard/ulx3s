@@ -924,5 +924,5 @@ NoConn ~ 8650 2950
 Text GLabel 10150 1950 2    60   Input ~ 0
 FTDI_nRXLED
 Text Notes 10950 2000 0    60   ~ 0
-NC v3.0.4
+NC <v3.0.5
 $EndSCHEMATC
