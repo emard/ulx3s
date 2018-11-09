@@ -255,7 +255,7 @@ This project is open source, freely downloadable so there can be
 as many versions as here are git commits.
 
 v3.0.3 is currently the only version which is officially being sold
-at [skriptarnica](skriptarnica.hr). Other versions are either
+at [skriptarnica](http//skriptarnica.hr). Other versions are either
 prototypes or independently produced.
 
 Up to our knowledge those versions are currently circulating around.
