@@ -258,7 +258,7 @@ v3.0.3 is currently the only version which is officially being sold
 at [skriptarnica](skriptarnica.hr). Other versions are either
 prototypes or independently produced.
 
-Up to our knowledge those version are currently circulating around.
+Up to our knowledge those versions are currently circulating around.
 All listed versions should work if all parts (notably BGA) are properly
 soldered.
 
