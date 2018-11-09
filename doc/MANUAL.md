@@ -248,3 +248,27 @@ Such combination will preventing JTAG from working so
 ULX3S board may become "Bricked". There is jumper J3 to disable
 ESP-32, its left of SD card slot. Note boards PCB v1.7 need
 upgrade for this jumper to work correctly.
+
+# Board Versions
+
+This project is open source, freely downloadable so there can be
+as many versions as here are git commits.
+
+v3.0.3 is currently the only version which is officially being sold
+at [skriptarnica](skriptarnica.hr). Other versions are either
+prototypes or independently produced.
+
+Up to our knowledge those version are currently circulating around.
+All listed versions should work if all parts (notably BGA) are properly
+soldered.
+
+    PCB       assembly       quantity                constraints
+    version   facility       produced   date         compatibility   note
+    -------   ------------   --------   ----------   -------------   --------
+    v1.7      PCBWay         8          dec 2017     v17patch        prototype
+    v1.7      lemilica.com   1          jan 2018     v17patch        handwork
+    v1.8      PCBWay         10         may 2018     v19             prototype
+    v2.0.3    q3k            1          aug 2018     v20             handwork
+    v2.1.2    INEM-KONČAR    35         sep 2018     v20             prototype
+    v3.0.3    INEM-KONČAR    220        oct 2018     v20             selling
+    v2.0.5    Marvin         1          nov 2018     v20             handwork
