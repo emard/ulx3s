@@ -267,7 +267,7 @@ soldered.
     -------   ------------   --------   ----------   -------------   --------
     v1.7      PCBWay         8          dec 2017     v17patch        prototype
     v1.7      lemilica.com   1          jan 2018     v17patch        handwork
-    v1.8      PCBWay         10         may 2018     v19             prototype
+    v1.8      PCBWay         10         may 2018     v18             prototype
     v2.0.3    q3k            1          aug 2018     v20             handwork
     v2.1.2    INEM-KONČAR    35         sep 2018     v20             prototype
     v3.0.3    INEM-KONČAR    220        oct 2018     v20             selling
