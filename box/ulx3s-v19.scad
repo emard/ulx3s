@@ -62,7 +62,8 @@ PCBLength       = 30*2.54;
 // - Largeur PCB - PCB Width
 PCBWidth        = 17*2.54;
 // Thickness of PCB
-PCBThick        = 1.8;
+PCBThick        = 1.6;
+PCBThickTol     = 0.0;
 // - Heuteur pied - Feet height
 FootHeight      = 7;
 // - Diamètre pied - Foot diameter
@@ -74,7 +75,7 @@ Foot3Width = 0*2.54;
 
 // those clearances should be larger than
 // the PCB edge to hole centers distances
-FootClrX = 10; // foot center to panel clearance 25 for DB-9, 10 for tight
+FootClrX = 11; // foot center to panel clearance 25 for DB-9, 11 for tight
 FootClrY = 10-3; // foot center to shell wall clearance
 FootmvY = 3; // move foot out of center y direction
 
@@ -117,7 +118,7 @@ Thick           = 2;//[2:5]
 
 
 // mounting hole diameters
-MountOuterHole = 2.5;
+MountOuterHole = 2.0;
 MountInnerHole = 1.8;
 
 // fixation leg size
@@ -229,8 +230,8 @@ module top_add()
       cylinder(d1=6,d2=11,h=Fh-upbase,$fn=12,center=true);
       // small in-hole centering cylinders
       if(0)
-      translate([0,0,-Fh/2-(PCBThick-0.1-0.001)])
-        cylinder(d=3,h=PCBThick-0.1,$fn=32);
+      translate([0,0,-Fh/2-(PCBThick-PCBThickTol-0.001)])
+        cylinder(d=3,h=PCBThick-PCBThickTol,$fn=32);
     }
   }
 }
@@ -296,7 +297,7 @@ module top_cut()
       cylinder(d=1.8,h=screwhole_h,$fn=6,center=true);
 }
 
-BFclr = 0.5; // bottom feet clearance
+BFclr = 0.1; // bottom feet clearance
 // add bottom custom feet
 module bottom_add()
 {
@@ -323,10 +324,10 @@ module bottom_cut()
     translate(Fxy[i])
     union()
     {
-      cylinder(d=2.2,h=Height,$fn=12,center=false);
+      cylinder(d=MountOuterHole,h=Height,$fn=12,center=false);
       // conical transition
       translate([0,0,bfhole-0.01])
-        cylinder(d1=5,d2=2.2,h=transition+0.02,$fn=12,center=false);
+        cylinder(d1=5,d2=MountOuterHole,h=transition+0.02,$fn=12,center=false);
       // screw head hole
       cylinder(d=5,h=bfhole,$fn=12,center=false);
     }
