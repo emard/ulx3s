@@ -153,7 +153,7 @@ PCBW=PCBWidth;
   // mounting hole xy-position
   Footx = 2*Thick+FootClrX;
   Footy = Thick+FootClrY+FootmvY;
-  Fh = 16.5; // top feet height
+  Fh = 17.0; // top feet height
   // foot xy positions
   Fxy = [
   [Footx, Footy, 0],
@@ -168,7 +168,7 @@ module connector_cut()
   //footx = 2*Thick+FootClrX;
   //footy = Thick+FootClrY;
   cy = 60-8;
-  translate([Footx,Footy,0])
+  translate([Footx,Footy,-0.8])
   {
       // cut off for WiFi
       translate([24-10,-10,6])
