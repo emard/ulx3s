@@ -16,7 +16,7 @@ include <upbox.scad>
 
 //Texte façade - Front text
   Text          = 1;// [0:No, 1:Yes]
-
+  
 // multicolor front panel
 /*
 ;BEFORE_LAYER_CHANGE
@@ -64,6 +64,7 @@ PCBWidth        = 17*2.54;
 // Thickness of PCB
 PCBThick        = 1.6;
 PCBThickTol     = 0.0;
+BFclr = 0.15; // bottom feet clearance
 // - Heuteur pied - Feet height
 FootHeight      = 7;
 // - Diamètre pied - Foot diameter
@@ -168,7 +169,7 @@ module connector_cut()
   //footx = 2*Thick+FootClrX;
   //footy = Thick+FootClrY;
   cy = 60-8;
-  translate([Footx,Footy,-0.8])
+  translate([Footx,Footy,-0.7])
   {
       // cut off for WiFi
       translate([24-10,-10,6])
@@ -297,7 +298,6 @@ module top_cut()
       cylinder(d=1.8,h=screwhole_h,$fn=6,center=true);
 }
 
-BFclr = 0.1; // bottom feet clearance
 // add bottom custom feet
 module bottom_add()
 {
@@ -309,7 +309,7 @@ module bottom_add()
       translate([0,0,upbase])
       cylinder(d2=6.5,d1=8,h=bfh-upbase,$fn=12,center=false);
       translate([0,0,bfh])
-        cylinder(d=3,h=1.5,$fn=12,center=false);
+        cylinder(d=3,h=0.8,$fn=12,center=false);
     }
 
 }
