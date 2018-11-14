@@ -66,9 +66,9 @@
 
 # Constraints (board pinout)
 
-Are here
-for [patched PCB v1.7](/doc/constraints/ulx3s_v17patch.lpf)
-and [PCB v2.x.x and v3.0.x](/doc/constraints/ulx3s_v20.lpf)
+For [PCB v1.7 patched for ESP32 to work](/doc/constraints/ulx3s_v17patch.lpf)
+
+For [PCB v2.x.x and v3.0.x](/doc/constraints/ulx3s_v20.lpf)
 
 # Power
 
