@@ -64,7 +64,7 @@ PCBWidth        = 17*2.54;
 // Thickness of PCB
 PCBThick        = 1.6;
 PCBThickTol     = 0.0;
-BFclr = 0.15; // bottom feet clearance
+BFclr = 0.2; // bottom feet clearance
 // - Heuteur pied - Feet height
 FootHeight      = 7;
 // - Diamètre pied - Foot diameter
@@ -277,7 +277,7 @@ module top_cut()
         cube([10,4,10],center=true);
       // display (screen)
       if(1)
-      translate([PCBLength/2-1,PCBWidth/2-2,0])
+      translate([PCBLength/2-1,PCBWidth/2-1,0])
         cube([23,16,10],center=true);
       // display socket
       if(0)
