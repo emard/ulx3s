@@ -64,6 +64,12 @@
            card pins otherwise ESP-32 won't boot no matter if
            SD card is inserted or not.
 
+# Constraints (board pinout)
+
+Are here
+for [patched PCB v1.7](/doc/constraints/ulx3s_v17patch.lpf)
+and [PCB v2.x.x and v3.0.x](/doc/constraints/ulx3s_v20.lpf)
+
 # Power
 
 Plug US1 into PC or USB charger and board should power up.
