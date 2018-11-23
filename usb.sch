@@ -741,7 +741,7 @@ Text GLabel 5000 2800 0    60   Input ~ 0
 FT2V5
 Text GLabel 5600 2500 1    60   Input ~ 0
 USB5V
-Text Notes 7150 2500 0    60   ~ 0
+Text Notes 6700 2500 0    60   ~ 0
 WIFI_GPIO15 v1.7
 Text GLabel 8650 2150 0    60   Input ~ 0
 WIFI_GPIO5
@@ -935,4 +935,8 @@ Text Notes 10950 2000 0    60   ~ 0
 NC <v3.0.5
 Text Notes 7350 2200 0    60   ~ 0
 NC v1.7
+Text Notes 7550 2500 0    60   ~ 0
+WIFI_TXD2
+Text Notes 7550 2600 0    60   ~ 0
+WIFI_RXD2
 $EndSCHEMATC
