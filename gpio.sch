@@ -516,8 +516,8 @@ Text Notes 950  7550 0    60   ~ 0
 GPIO route only A/B pairs as those are differential bidirectional\ndon't route C/D pairs to GPIO as those can be differential input only 
 Text GLabel 5700 2800 2    60   Input ~ 0
 BTN_PWRn
-Text Notes 7050 5750 0    60   ~ 0
-GP,GN 14-21 connected to  BANK2,3 on "ram" sheet\nJ2_25-J2_35 connected to BANK1 on "gpdi" sheet
+Text Notes 7200 5950 0    60   ~ 0
+GP,GN 14-21 connected to BANK2,3 on "ram" sheet\nGP,GN 22-27 connected to BANK1 on "gpdi" sheet
 Text GLabel 4200 2500 0    60   Input ~ 0
 SW1
 Text GLabel 5700 2500 2    60   Input ~ 0
@@ -639,34 +639,54 @@ Text GLabel 2650 4400 2    60   Input ~ 0
 Text GLabel 2700 3500 2    60   Input ~ 0
 2V5_3V3
 Wire Notes Line
-	7550 5100 7450 5100
+	7600 5500 7500 5500
 Wire Notes Line
-	7450 5150 7450 5050
+	7500 5550 7500 5450
 Wire Notes Line
-	7450 5150 7400 5100
+	7500 5550 7450 5500
 Wire Notes Line
-	7400 5100 7450 5050
+	7450 5500 7500 5450
 Wire Notes Line
-	7400 5050 7400 5150
+	7450 5450 7450 5550
 Wire Notes Line
-	7400 5100 7300 5100
-Text Notes 7150 5050 0    60   ~ 0
+	7450 5500 7350 5500
+Text Notes 7200 5650 0    60   ~ 0
 STPS2L30AF
 Wire Notes Line
-	9550 5100 9450 5100
+	9550 5500 9450 5500
 Wire Notes Line
-	9450 5150 9450 5050
+	9450 5550 9450 5450
 Wire Notes Line
-	9450 5150 9400 5100
+	9450 5550 9400 5500
 Wire Notes Line
-	9400 5100 9450 5050
+	9400 5500 9450 5450
 Wire Notes Line
-	9400 5050 9400 5150
+	9400 5450 9400 5550
 Wire Notes Line
-	9400 5100 9300 5100
-Text Notes 9150 5050 0    60   ~ 0
+	9400 5500 9300 5500
+Text Notes 9150 5650 0    60   ~ 0
 STPS2L30AF
 NoConn ~ 4200 3000
 NoConn ~ 4200 3100
 NoConn ~ 5700 3000
+Text Notes 7250 4000 0    60   ~ 0
+GR_PCLK3_0
+Text Notes 2450 5250 0    60   ~ 0
+GR_PCLK7_1
+Text Notes 2450 5150 0    60   ~ 0
+PCLKT7_1
+Text Notes 800  5150 0    60   ~ 0
+PCLKC7_1
+Text Notes 2400 3750 0    60   ~ 0
+PCLKT0_0
+Text Notes 850  3750 0    60   ~ 0
+PCLKC0_0
+Text Notes 2400 3850 0    60   ~ 0
+PCLKT0_1
+Text Notes 850  3850 0    60   ~ 0
+PCLKC0_1
+Text Notes 2400 3950 0    60   ~ 0
+GR_PCLK0_1
+Text Notes 750  3950 0    60   ~ 0
+GR_PCLK0_0
 $EndSCHEMATC
