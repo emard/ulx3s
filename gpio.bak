@@ -685,4 +685,8 @@ Text Notes 2400 3850 0    60   ~ 0
 PCLKT0_1
 Text Notes 850  3850 0    60   ~ 0
 PCLKC0_1
+Text Notes 2400 3950 0    60   ~ 0
+GR_PCLK0_1
+Text Notes 750  3950 0    60   ~ 0
+GR_PCLK0_0
 $EndSCHEMATC
