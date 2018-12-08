@@ -86,7 +86,7 @@ Video: GPDI connector with 3.3V-5V I2C bidirectional level shifter
 
 Display: placeholder for 0.96" SPI COLOR OLED [SSD1331](https://drive.google.com/file/d/0B5lkVYnewKTGRlpxcEdWaXNvWnM/view)
 
-WiFi+bluetooth: placeholder for ESP-32 (Standalone JTAG web interface over WiFi)
+WiFi+bluetooth: placeholder for [ESP-32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) (Standalone JTAG web interface over WiFi)
 
 ADC: 8 channels, 12 bit, 1 MSa/s [MAX11125](https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf)
 
