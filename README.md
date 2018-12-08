@@ -68,11 +68,11 @@ FPGA: Lattice ECP5 LFE5U-85F-6BG381C (85K LUT)
 
 USB: FTDI FT231XS (500kbit JTAG and 3Mbit USB-serial)
 
-GPIO: 56 pins (28 differential pairs), PMOD-friendly
+GPIO: 56 pins (28 differential pairs), [PMOD](https://reference.digilentinc.com/_media/pmod:pmod:originalPmodInterfaceSpecification.pdf)-friendly
 
-RAM: 32MB SDRAM MT48LC16M16
+RAM: 32MB SDRAM [MT48LC16M16](https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf)
 
-Flash: 16MB Quad-SPI Flash IS25LP128F for FPGA config
+Flash: 16MB Quad-SPI Flash [IS25LP128F](http://www.issi.com/WW/pdf/25LP-WP128F.pdf) for FPGA config
 
 Storage: Micro-SD slot
 
@@ -84,17 +84,17 @@ Audio: 3.5 mm jack with 4 contacts (analog stereo + digital audio or composite v
 
 Video: GPDI connector with 3.3V-5V I2C bidirectional level shifter
 
-Display: placeholder for 0.96" SPI COLOR OLED
+Display: placeholder for 0.96" SPI COLOR OLED [SSD1331](https://drive.google.com/file/d/0B5lkVYnewKTGRlpxcEdWaXNvWnM/view)
 
 WiFi+bluetooth: placeholder for ESP-32 (Standalone JTAG web interface over WiFi)
 
-ADC: 8 channels, 12 bit, 1 MSa/s MAX11125
+ADC: 8 channels, 12 bit, 1 MSa/s [MAX11125](https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf)
 
 Power: 3 Switching voltage regulators: 1.1V, 2.5V, 3.3V
 
 Clock: 25 MHz onboard, external differential clock input
 
-Low power sleep: 5uA/5V standby, RTC clock wakeup, power button, 32768 Hz quartz and battery
+Low power sleep: 5uA/5V standby, RTC [MCP7940N](http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf) clock wakeup, power button, 32768 Hz quartz and battery
 
 GPDI is General Purpose Differential Interface,
 Electrically LVDS, mostly TMDS tolerant
