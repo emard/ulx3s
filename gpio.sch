@@ -689,4 +689,8 @@ Text Notes 2400 3950 0    60   ~ 0
 GR_PCLK0_1
 Text Notes 750  3950 0    60   ~ 0
 GR_PCLK0_0
+Text Notes 500  5050 0    60   ~ 0
+DAC WIFI_GPIO25
+Text Notes 2450 5050 0    60   ~ 0
+DAC WIFI_GPIO26
 $EndSCHEMATC
