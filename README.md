@@ -88,6 +88,8 @@ Display: placeholder for 0.96" SPI COLOR OLED [SSD1331](https://drive.google.com
 
 WiFi+bluetooth: placeholder for [ESP-32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) (Standalone JTAG web interface over WiFi)
 
+Antenna: 88-108/433 MHz FM/ASK onboard
+
 ADC: 8 channels, 12 bit, 1 MSa/s [MAX11125](https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf)
 
 Power: 3 Switching voltage regulators: 1.1V, 2.5V, 3.3V
