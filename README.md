@@ -43,7 +43,7 @@ battery backed RTC.
 
 ULX3S has rich range of chips and connectivity
 required for many other open source projects:
-SDRAM, USB, PS/2, SDCARD, HDMI, FLASH, RTC, I2C, OLED, AUDIO, ADC,
+SDRAM, USB, PS/2, SDCARD, Digital Video, FLASH, RTC, I2C, OLED, AUDIO, ADC,
 onboard FM/ASK antenna 88-433.92 MHz and 56 GPIO pins which
 are all routed as differential pairs and have pinout that
 is PMOD compatible.
@@ -204,7 +204,7 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] top layer GND fill
     [x] R25 move away from oled screw hole
     [x] DIP switch to the right near RAM
-    [x] Move HDMI a bit closer to OLED
+    [x] Move GPDI a bit closer to OLED
     [x] 32768Hz oscillator footprint
     [x] SD card footprint SCHD3A0100
     [x] center the SD footprint for T&R
@@ -266,7 +266,7 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] Selected 2.5/3.3V to J1 header (instead fixed 3.3V)
     [x] RTC battery capacitor
     [x] battery + pad clearance
-    [x] PCB v1.8.1 redesigned to fit HDMI 649-10029449-111RLF (the cheapest)
+    [x] PCB v1.8.1 redesigned to fit digital video 649-10029449-111RLF (the cheapest)
     [x] use cheaper diodes 1N914
     [x] fix copper layer after using non-handsoldering resistor footprints
     [x] DIP switch must be pulled up at 2.5/3.3V or 2.5V line, not 3.3V
