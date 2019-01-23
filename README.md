@@ -308,3 +308,4 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] check decreased distance of 2 pad rows of FT231X
     [x] route FTDI_nRXLED to FPGA
     [ ] resistor in series with + battery
+    [ ] GPDI clock to clock capable pins, swap with USB pullup
