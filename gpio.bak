@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 2 11
 Title "ULX3S"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "EMARD"
 Comment1 "GPIO 2.54 mm connectors"
 Comment2 ""
@@ -513,7 +513,7 @@ LED6
 Text GLabel 5650 5250 2    60   Input ~ 0
 LED7
 Text Notes 950  7550 0    60   ~ 0
-GPIO route only A/B pairs as those are differential bidirectional\ndon't route C/D pairs to GPIO as those can be differential input only 
+GPIO route only A/B pairs as those are differential bidirectional\ndon't route C/D pairs to GPIO as those can be differential input only\nBANK0,1 are single-ended (non-differential)
 Text GLabel 5700 2800 2    60   Input ~ 0
 BTN_PWRn
 Text Notes 7200 5950 0    60   ~ 0
@@ -693,4 +693,6 @@ Text Notes 500  5050 0    60   ~ 0
 DAC WIFI_GPIO25
 Text Notes 2450 5050 0    60   ~ 0
 DAC WIFI_GPIO26
+Text Notes 1150 5750 0    60   ~ 0
+GPN 0-7: single-ended\nGPN 8-13: differential bidirectional
 $EndSCHEMATC
