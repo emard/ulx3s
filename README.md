@@ -44,9 +44,9 @@ battery backed RTC.
 ULX3S has rich range of chips and connectivity
 required for many other open source projects:
 SDRAM, USB, PS/2, SDCARD, Digital Video, FLASH, RTC, I2C, OLED, AUDIO, ADC,
-onboard FM/ASK antenna 88-433.92 MHz and 56 GPIO pins which
-are all routed as differential pairs and have pinout that
-is PMOD compatible.
+onboard FM/ASK antenna 88-433.92 MHz and 56 GPIO pins routed as differential
+pairs and have pinout that is PMOD compatible. There are 12 true
+differential bidirectional pairs and 16 single-ended pairs.
 
 ULX3S is sufficiently equipped to
 emulate [Amiga](https://github.com/emard/Minimig_ECS) retro
@@ -68,7 +68,7 @@ FPGA: Lattice ECP5 [LFE5U-85F-6BG381C](http://www.latticesemi.com/~/media/Lattic
 
 USB: FTDI [FT231XS](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf) (500kbit JTAG and 3Mbit USB-serial)
 
-GPIO: 56 pins (28 differential pairs), [PMOD](https://reference.digilentinc.com/_media/pmod:pmod:originalPmodInterfaceSpecification.pdf)-friendly
+GPIO: 56 pins (12 true differential pairs, 16 single-ended pairs), [PMOD](https://reference.digilentinc.com/_media/pmod:pmod:originalPmodInterfaceSpecification.pdf)-friendly
 with power out 3.3V/1A 2.5V/1.5A
 
 RAM: 32MB SDRAM [MT48LC16M16](https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf)
