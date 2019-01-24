@@ -41,12 +41,19 @@
                      TDO TMS
     
     GPIO   40-pin 2.54 mm double-row connectors J1 and J2 for GPIO 
-           at 3.3V logical level with 56 bidirectional single-ended
-           pins or 28 bidirectional differential pairs or combined,
-           some single-ended and some differential.
-           J1 pins marked 9-13 are shared with WiFi on PCB v1.7.
-           J1 pins marked 11-13 are shared with WiFi on PCB >v2.0.
-           J2 pins marked 14-17 are shared with ADC.
+           at 3.3V logical level with 56 pins from which are:
+           J1 GP,GN 0-7 are single-ended pins.
+           J1 GP,GN 8-13 are differential bidirectional pairs.
+           J2 GP,GN 14-21 are differential bidirectional pairs.
+           J2 GP,GN 22-27 are single-ended pins.
+           Differential pairs can be used also as single-ended pins.
+           J1 GP,GN 12 is differential primary clock capable.
+           J1 GP,GN 0,1 are single-ended primary clock capable.
+           J1 GP 13 and J2 GN 17 are general routing (non-primary)
+           clock capable.
+           J1 pins GP,GN 9-13 are shared with WiFi on PCB v1.7.
+           J1 pins GP,GN 11-13 are shared with WiFi on PCB >v2.0.
+           J2 pins GP,GN 14-17 are shared with ADC.
            4 PMOD connectors can be made out of it
            (GND and 3.3V power are on the right place)
            J1-J2 distance is suitable to be plugged into triple
@@ -276,5 +283,6 @@ soldered.
     v1.8      PCBWay         10         may 2018     v18             prototype
     v2.0.3    q3k            1          aug 2018     v20             handwork
     v2.1.2    INEM-KONČAR    35         sep 2018     v20             prototype
-    v3.0.3    INEM-KONČAR    220        oct 2018     v20             selling
+    v3.0.3    INEM-KONČAR    220        oct 2018     v20             for sale
     v2.0.5    Marvin         1          nov 2018     v20             handwork
+    v3.0.3    INEM-KONČAR    35         jan 2019     v20             for sale
