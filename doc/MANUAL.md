@@ -67,9 +67,6 @@
     ESP32  Placeholder to solder ESP-32 WROOM module.
            ESP-32 can provide standalone web interface for uploading
            bitstream into FPGA and its config FLASH. 
-           Warning on PCB v1.7 ESP-32 must be isolated from all SD
-           card pins otherwise ESP-32 won't boot no matter if
-           SD card is inserted or not.
 
 # Constraints (board pinout)
 
