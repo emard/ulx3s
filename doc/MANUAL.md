@@ -161,9 +161,11 @@ and select FLASH chip type:
     Vendor: Micron
     Device: SPI-M25F32
     Package. 8-pin VDFPN8
+    Verify: No
 
-When it creates VME file, pass it to FleaFPGA-JTAG argument and wait
-5-10 minutes, it's not particulary fast.
+When it creates VME file, pass it to FleaFPGA-JTAG argument.
+Disabled "verify" will make flashing fast, but if enabled, expect to wait
+5-15 minutes. Verify is normally not neccessary because bitstream has CRC.
 
     FleaFPGA-JTAG bitstream-flash.vme
 
