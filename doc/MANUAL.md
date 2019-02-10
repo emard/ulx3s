@@ -171,7 +171,38 @@ its own CRC and it will just not load if FLASHed with errors.
     FleaFPGA-JTAG bitstream-flash.vme
 
 "OpenOCD" tool accepts SVF files and can upload to SRAM or onboard FLASH.
-For details see their documentation.
+For details see their ft232r driver documentation. In short, this
+config file should help to get started, modified to set actual
+${CHIP_ID} and ${FILE_SVF}
+
+    interface ft232r
+    ft232r_vid_pid 0x0403 0x6015
+    # ft232r_serial_desc 123456
+    ft232r_tck_num DSR
+    ft232r_tms_num DCD
+    ft232r_tdi_num RI
+    ft232r_tdo_num CTS
+    ft232r_trst_num RTS
+    ft232r_srst_num DTR
+    ft232r_restore_serial 0x15
+    adapter_khz 1000
+
+    telnet_port 4444
+    gdb_port 3333
+
+    # JTAG TAPs
+    jtag newtap lfe5 tap -expected-id ${CHIP_ID} -irlen 8 -irmask 0xFF -ircapture 0x5
+
+    # 12F: CHIP_ID=0x21111043
+    # 25F: CHIP_ID=0x41111043
+    # 45F: CHIP_ID=0x41112043
+    # 85F: CHIP_ID=0x41113043
+
+    init
+    scan_chain
+    svf -tap lfe5.tap -quiet -progress ${FILE_SVF}
+    shutdown
+    EOF
 
 # Programming over JTAG header
 
