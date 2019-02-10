@@ -7,10 +7,12 @@
            over US1: FPGA, FLASH, WiFi, RTC.
 
     US2    Auxiliary micro-USB connected directly to FPGA pins
-           for experimenting with user-defined USB cores.
+           for experimenting with user-defined USB cores or to
+           connect PS/2 keyboard or mouse using USB-OTG and 
+           USB-PS/2 adapters.
            Board provides power to US2.
            Board v1.7 can't be powered from US2 by default.
-           Board v2.0 and higher can be powered from US2-
+           Board v2.0 and higher can be powered from US2.
            If you want to power board v1.7 from US2, reverse diode
            D9 near US2 connector or short D9 with a wire.
 
