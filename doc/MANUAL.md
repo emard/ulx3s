@@ -140,9 +140,7 @@ with USB-serial JTAG tool.
 
 To program ULX3S, Use [ujprog](https://github.com/f32c/tools) or 
 Emard's fork of Xark's [FleaFPGA-JTAG](https://github.com/emard/FleaFPGA-JTAG) tool
-or Emard's fork of [OpenOCD](https://github.com/emard/openocd) (the patch is
-sent also to openocd gerrit review system, please join them and 
-add +1 for mainstream acceptance).
+or ft232r driver in latest [OpenOCD](https://sourceforge.net/p/openocd/code/ci/master/tree).
 
 "ujprog" tool acceps BIT or SVF files for uploading to the FPGA SRAM.
 Upload to onboard FLASH can't be yet done by "ujprog"
@@ -197,7 +195,7 @@ memory to buffer entire bitstream delivered in a long single SVF command.
     ddtcmd -oft -svfsingle -revd -maxdata 8 -if ulx3s_flash.xcf -of bitstream.svf
 
 To start using ESP-32 first you need to compile
-[ULX3S passthru from f32c project](https://github.com/f32c/f32c/tree/master/rtl/proj/lattice/ulx3s/passthru_45f)
+[ULX3S passthru](https://github.com/emard/ulx3s-passthru)
 and upload it using FleaFPGA-JTAG or external JTAG programmer.
 "Passthru" bitstream configures FPGA to route lines from USB-serial to ESP-32.
 
