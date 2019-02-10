@@ -51,8 +51,8 @@
            J1 GP,GN 0,1 are single-ended primary clock capable.
            J1 GP 13 and J2 GN 17 are general routing (non-primary)
            clock capable.
-           J1 pins GP,GN 9-13 are shared with WiFi on PCB v1.7.
-           J1 pins GP,GN 11-13 are shared with WiFi on PCB >v2.0.
+           J1 pins GP,GN 9-13 are shared with ESP32 WiFi on PCB v1.7.
+           J1 pins GP,GN 11-13 are shared with ESP32 WiFi on PCB >v2.0.
            J2 pins GP,GN 14-17 are shared with ADC.
            4 PMOD connectors can be made out of it
            (GND and 3.3V power are on the right place)
@@ -170,7 +170,7 @@ its own CRC and it will just not load if FLASHed with errors.
 "OpenOCD" tool accepts SVF files and can upload to SRAM or onboard FLASH.
 For details see their ft232r driver documentation. In short, this
 config file should help to get started, modified to set actual
-${CHIP_ID} and ${FILE_SVF}
+${CHIP_ID} and ${FILE_SVF}:
 
     interface ft232r
     ft232r_vid_pid 0x0403 0x6015
@@ -199,7 +199,6 @@ ${CHIP_ID} and ${FILE_SVF}
     scan_chain
     svf -tap lfe5.tap -quiet -progress ${FILE_SVF}
     shutdown
-    EOF
 
 # Programming over JTAG header
 
