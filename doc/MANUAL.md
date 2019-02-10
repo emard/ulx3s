@@ -165,7 +165,8 @@ and select FLASH chip type:
 
 When it creates VME file, pass it to FleaFPGA-JTAG argument.
 Disabled "verify" will make flashing fast, but if enabled, expect to wait
-5-15 minutes. Verify is normally not neccessary because bitstream has CRC.
+5-15 minutes. You don't need verify because bitstream always checks
+its own CRC and it will just not load if FLASHed with errors.
 
     FleaFPGA-JTAG bitstream-flash.vme
 
