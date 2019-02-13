@@ -254,11 +254,28 @@ Then upload the web page content to ESP-32 FLASH filesystem,
 at websvf window click "Tools->ESP32 Sketch Data Upload".
 successful upload will finish with same as above.
 
-Connect to ESP-32 WiFi (it will either connect to your
-local WiFi or become access point with
-default ssid=websvf password=12345678).
+ESP32 will try to connect to your local WiFi as client with
+default ssid=websvf password=12345678
+Insert SD card with file "ulx3s-wifi.conf" in SD root directory:
 
-In web browser open upload page "http://192.168.4.1".
+    {
+       "host_name": "ulx3s",
+       "ssid": "ulx3s",
+       "password": "testpass",
+       "http_username": "user",
+       "http_password": "pass"
+    }
+
+By editing this file you can set
+ssid and password for connection
+to your local WiFi access point.
+
+If client connection is unsuccessful ESP-32 it will become
+access point with the same ssid and password, but so far many people
+reported unsuccessful connection attempts from PC to ESP-32 in AP mode.
+If you want to try, AP mode ESP-32 web address is "http://192.168.4.1"
+and internet should not to work in this case :).
+
 If ESP-32 connected as a client, IP address will vary depending
 on local network. Discover it by using WiFi access
 point web interface, ARP, NMAP, or by sniffing it.
