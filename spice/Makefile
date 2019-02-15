@@ -1,6 +1,6 @@
 #all: powersection-v17.plot
 #all: powersection-v188.plot
-all: powersection-v20.plot
+all: powersection-v20.plot2
 
 #SPICE=spice3
 #SCOPE=rlwrap nutmeg
@@ -16,6 +16,9 @@ bin:	switch.m
 
 %.plot: %.raw
 	$(SCOPE) $<
+
+%.plot2: %.spice
+	$(SPICE) < $<
 
 clean:
 	rm -f *.raw *~ DEADJOE

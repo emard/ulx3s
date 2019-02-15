@@ -124,6 +124,19 @@ CL P3V3 0   1000uF
 .MODEL BC857 PNP (BF=150)
 .MODEL N7002 NMOS (LEVEL=1, VTO=2.5, KP=40, RS=0.033, RD=0.034)
 
+* .control card accepts commands like from interactive mode see: 
+* http://bwrcs.eecs.berkeley.edu/Classes/IcBook/SPICE/UserGuide/interactive_fr.html
+.CONTROL
+* white background (color0)
+*set color0 = white
+* black text and grid
+*set color1 = black
+* run transient analysis
+tran 1ms 3.3s
+* plot results
+plot v(pwrbtn_pulse),v(shutdown_pulse),v(wake_pulse),v(p3v3),v(ftdi_nsleep),v(pwren)
+.ENDC
+
 * todo
 * [x] delay: switch power 3.3V doesn't start immediately simulated with Rsmps=10 ohm
 * [ ] control signals should be derived from P3V3 line
