@@ -11,14 +11,17 @@ SCOPE=rlwrap ngnutmeg
 OBJS=switch.o
 bin:	switch.m
 
+# run spice in batch mode, generate raw waveform file
 %.raw: %.spice
 	$(SPICE) < $< -r $@
 
+# plot raw waveform file
 %.plot: %.raw
 	$(SCOPE) $<
 
+# running spice interactively, plot waveform from its .CONTROL card
 %.plot2: %.spice
-	$(SPICE) < $<
+	$(SPICE) $<
 
 clean:
 	rm -f *.raw *~ DEADJOE
