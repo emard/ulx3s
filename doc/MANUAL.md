@@ -124,7 +124,7 @@ Switching regulators use ferrite core coils L1,L2,L3 which can saturate
 at magnetic fields above 0.3T. Never approach neodymium magnets
 near powered board.
 
-# Programming over USB
+# Programming over USB port "US1"
 
 Use ftx_prog to allow max USB power consumption of 500mA
 and change product/manufacturer name of FT231X chip:
@@ -201,6 +201,39 @@ ${CHIP_ID} and ${FILE_SVF}:
     scan_chain
     svf -tap lfe5.tap -quiet -progress ${FILE_SVF}
     shutdown
+
+# Programming over USB port "US2"
+
+There is possibility to program ULX3S SPI config flash thru
+US2 connector and
+a [fork of tinyfpga bootloader](https://github.com/tinyfpga/TinyFPGA-Bootloader) loaded
+to FPGA, either loaded from US1 temporary to FPGA SRAM or permanently 
+to SPI config flash. Bootloader uses multiboot feature of ECP5 FPGA.
+This programming option is experimental and not recommended for
+regular use.
+
+ULX3S with fully functional US2 bootloader can be used without
+USB-serial to JTAG chip FT231X.
+
+For bootloader convenience, it is recommented to solder D28 diode
+at empty placeholder located on back side near OLED and JTAG header.
+Observe diode polarity, see how other similar diodes are soldered on ULX3S.
+Any general purpose or schottky diode in SOD-323 package will fit
+like 1N914 1N4148 BAT54W etc. This diode will convert BTN0 function
+to unconditionally switch to next multiboot image by pulling down
+FPGA PROGRAMN pin.
+
+USB bootloader is in hacky state of development, you need hi quality
+USB cable, a compatible PC and selected USB port and too much luck (try
+all). I think bootloader's USB bus error recovery handling is wrong
+but sometimes it just works.
+US2 port should enumerate as some vendor specific USB-HID USB device
+and "tiyfpgasp" application can be used to write or read arbitrary
+image to FPGA SPI config FLASH.
+
+User bitstream should be uploaded to byte address 0x200000 of SPI config
+FLASH. Bootloader itself resites at a0 address 0. Try not to overwrite
+it with something else otherwise US1 or JTAG recovery will be required.
 
 # Programming over JTAG header
 
