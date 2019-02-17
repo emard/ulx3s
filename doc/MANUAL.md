@@ -215,7 +215,7 @@ regular use.
 ULX3S with fully functional US2 bootloader can be used to program
 FPGA config FLASH without use of USB-serial chip FT231X.
 
-For bootloader convenience, it is recommented to solder D28 diode
+For bootloader convenience, it is recommended to solder D28 diode
 at empty placeholder located on back side near OLED and JTAG header.
 Observe diode polarity, see how other similar diodes are soldered on ULX3S.
 Any general purpose or schottky diode in SOD-323 package will fit
