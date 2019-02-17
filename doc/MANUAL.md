@@ -204,16 +204,16 @@ ${CHIP_ID} and ${FILE_SVF}:
 
 # Programming over USB port "US2"
 
-There is possibility to program ULX3S SPI config flash thru
+There is possibility to program ULX3S SPI config FLASH thru
 US2 connector and
 a [fork of tinyfpga bootloader](https://github.com/tinyfpga/TinyFPGA-Bootloader) loaded
 to FPGA, either loaded from US1 temporary to FPGA SRAM or permanently 
-to SPI config flash. Bootloader uses multiboot feature of ECP5 FPGA.
+to SPI config FLASH. Bootloader uses multiboot feature of ECP5 FPGA.
 This programming option is experimental and not recommended for
 regular use.
 
-ULX3S with fully functional US2 bootloader can be used without
-USB-serial to JTAG chip FT231X.
+ULX3S with fully functional US2 bootloader can be used to program
+FPGA config FLASH without use of USB-serial chip FT231X.
 
 For bootloader convenience, it is recommented to solder D28 diode
 at empty placeholder located on back side near OLED and JTAG header.
@@ -228,7 +228,7 @@ USB cable, a compatible PC and selected USB port and too much luck (try
 all). I think bootloader's USB bus error recovery handling is wrong
 but sometimes it just works.
 US2 port should enumerate as some vendor specific USB-HID USB device
-and "tiyfpgasp" application can be used to write or read arbitrary
+and "tinyfpgasp" application can be used to write or read arbitrary
 image to FPGA SPI config FLASH.
 
 User bitstream should be uploaded to byte address 0x200000 of SPI config
