@@ -232,8 +232,15 @@ and "tinyfpgasp" application can be used to write or read arbitrary
 image to FPGA SPI config FLASH.
 
 User bitstream should be uploaded to byte address 0x200000 of SPI config
-FLASH. Bootloader itself resites at a0 address 0. Try not to overwrite
-it with something else otherwise US1 or JTAG recovery will be required.
+FLASH. Bootloader in multiboot mode resides in multiple copies on SPI config
+FLASH chip. "primary"
+bootloader image is at byte address 0 of SPI config FLASH, "golden"
+bootloader image is at 0x140000 address on 45F chip but its location
+varies on various sizes of FPGA 12/25/45/85F. At the last 256 bytes of
+FLASH are some special FPGA lattice boot state machine commands
+(like some primitive CPU assemlby) than setups and controls multiboot
+function. Try not to overwrite any of boot realted areas with something
+else otherwise US1 or JTAG recovery will be required.
 
 # Programming over JTAG header
 
