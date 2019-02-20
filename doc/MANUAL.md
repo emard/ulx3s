@@ -139,7 +139,8 @@ with USB-serial JTAG tool.
 
 To program ULX3S, Use [ujprog](https://github.com/f32c/tools) or 
 Emard's fork of Xark's [FleaFPGA-JTAG](https://github.com/emard/FleaFPGA-JTAG) tool
-or ft232r driver in latest [OpenOCD](https://sourceforge.net/p/openocd/code/ci/master/tree).
+or ft232r driver in latest [OpenOCD soruce](https://sourceforge.net/p/openocd/code/ci/master/tree)
+or [OpenOCD binaries 2019 or later](https://github.com/gnu-mcu-eclipse/openocd/releases).
 
 "ujprog" tool acceps BIT or SVF files for uploading to the FPGA SRAM.
 Upload to onboard FLASH can't be yet done by "ujprog"
