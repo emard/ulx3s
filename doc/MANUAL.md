@@ -473,6 +473,18 @@ ULX3S board may become "Bricked". There is jumper J3 to disable
 ESP-32, its left of SD card slot. Note boards PCB v1.7 need
 upgrade for this jumper to work correctly.
 
+# Programming ESP32
+
+Load "passthru" bitstream to FPGA config flash, install
+Arduino ESP32 support. In "tools" pull down menu, sleect ESP32 
+board "WEMOS LOLIN32" and normally program ULX3S onboard ESP32
+from Arduino by uploading sketch. "passthru" bitstream will
+redirect USB-serial traffic from PC thru FPGA to ESP32.
+
+There may be issues on getting this to work on windows.
+On linux, there are no serious issues, usually only USB-serial
+port access permissions.
+
 # Board Versions
 
 This project is open source, freely downloadable so there can be
