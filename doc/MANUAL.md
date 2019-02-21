@@ -475,10 +475,10 @@ upgrade for this jumper to work correctly.
 
 # Programming ESP32
 
-ESP32 WiFi module soldered on ULX3S are usually shipped
+ESP32 WiFi module soldered on ULX3S is usually shipped
 to end-users with WiFi Web-JTAG application loaded in ESP32.
 User can overwrite ESP32 with any other sketch  like "blink"
-and then ESP32 Web-JTAG interface will not work.
+and then ESP32 Web-JTAG interface will temporarily disappear.
 
 Web-JTAG ESP32 application can be restored back to factory
 default state using binaries and linux scripts
