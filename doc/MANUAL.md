@@ -131,7 +131,10 @@ and change product/manufacturer name of FT231X chip:
 
     ftx_prog --max-bus-power 500
     ftx_prog --manufacturer "FER-RADIONA-EMARD"
-    ftx_prog --product "ULX3S FPGA 45K v1.7"
+    ftx_prog --product "ULX3S FPGA 12K v3.0.3"
+    ftx_prog --new-serial-number 120001
+    ftx_prog --cbus 2 TxRxLED
+    ftx_prog --cbus 3 SLEEP
 
 Optionally you can change "45K" to "25K" or "12K" in regard with FPGA chip size.
 Re-plug the USB and it will appear as new name which can be autodetected
@@ -262,7 +265,12 @@ Any openocd compatible JTAG like FT2232 can be connected to JTAG header
 and it will program SRAM and FLASH at maximum speed possible.
 Even Diamond programmer can use any FT2232 module as a native programmer,
 with a little help - it will work after first bitstream is programmed
-over FT2232 with openocd.
+over FT2232 with openocd. If FT2232 is equipped with EEPROM you can use
+original "FT_PROG" for windows or this linux tool to read/write the EEPROM
+and confgure it:
+
+   apt-get install ftdi-eeprom
+   man ftdi_eeprom
 
 Openocd accepts SVF files, everything applies the same as for VME files
 
