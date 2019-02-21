@@ -93,13 +93,15 @@ preventing 5V to FT231X power pin, but FT231X will still be weakly
 back-powered from its other pins connected with rest of the board 
 and it will appear as some load. For most practical cases, we
 are lucky that FT231X appears as high-z when not directly powered.
+However, unpowered FT231X pins loading may sometimes have prevent
+JTAG from ESP32 or external JTAG, so for more reliable JTAG
+we recommend to keep FT231X powered.
 
 Green LED D18 behaviour is the "Power LED". Green LED ON will keep 
 board powered up. By factory default, when USB-serial chip
 is enumerated by PC, Green LED will turn ON.
 Normally when board is plugged into USB charger Green LED may shortly
 blink and stay OFF, but board will keep being powered.
-
 
 Board PCB v1.7 must be hardware patched to be able to reliably
 enter shutdown mode. (It will keep waking up).
