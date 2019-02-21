@@ -144,11 +144,10 @@ Onboard ESP32 WiFi web interface
 External USB-JTAG programmer connected to JTAG header.
 
 Most external JTAGs should work with OpenOCD.
-FT2232 or FT4232 JTAGs are most recommended because they are
-very fast, compatible and works with Lattice Diamond native programmer.
-with Lattice original FT2232 JTAG cable or some generic FT2232 JTAG like
+FT2232 or FT4232 JTAGs are recommended as they are
+fast, compatible and work with Lattice Diamond native programmer.
+Get Lattice original FT2232 JTAG cable or some generic FT2232 JTAG like
 [FT2232 breakout board from DangerousPrototypes](http://dangerousprototypes.com/docs/FT2232_breakout_board).
-FT2232 based JTAG is 
 
 # Programming over USB port "US1"
 
