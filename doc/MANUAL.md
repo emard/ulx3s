@@ -173,8 +173,11 @@ its own CRC and it will just not load if FLASHed with errors.
 "OpenOCD" tool accepts SVF files and can upload to SRAM or onboard FLASH.
 For details see their ft232r driver documentation. In short, this
 config file should help to get started, modified to set actual
-${CHIP_ID} and ${FILE_SVF}:
+CHIP_ID and file.svf:
 
+file "ft231x.ocd"
+
+    # file: ft231x.ocd
     interface ft232r
     ft232r_vid_pid 0x0403 0x6015
     # ft232r_serial_desc 123456
@@ -187,21 +190,29 @@ ${CHIP_ID} and ${FILE_SVF}:
     ft232r_restore_serial 0x15
     adapter_khz 1000
 
+file "ecp5.ocd"
+
+    # file: ecp5.ocd
     telnet_port 4444
     gdb_port 3333
 
     # JTAG TAPs
-    jtag newtap lfe5 tap -expected-id ${CHIP_ID} -irlen 8 -irmask 0xFF -ircapture 0x5
+    jtag newtap lfe5 tap -expected-id 0x21111043 -irlen 8 -irmask 0xFF -ircapture 0x5
 
-    # 12F: CHIP_ID=0x21111043
-    # 25F: CHIP_ID=0x41111043
-    # 45F: CHIP_ID=0x41112043
-    # 85F: CHIP_ID=0x41113043
+    # -expected-id should match ECP5 CHIP_ID:
+    # 12F: 0x21111043
+    # 25F: 0x41111043
+    # 45F: 0x41112043
+    # 85F: 0x41113043
 
     init
     scan_chain
-    svf -tap lfe5.tap -quiet -progress ${FILE_SVF}
+    svf -tap lfe5.tap -quiet -progress file.svf
     shutdown
+
+commandline
+
+    openocd --file=ft231x.ocd --file=ecp5.ocd
 
 # Programming over USB port "US2"
 
@@ -256,6 +267,32 @@ over FT2232 with openocd.
 Openocd accepts SVF files, everything applies the same as for VME files
 
     ddtcmd -oft -svfsingle -revd -if ulx3s_flash.xcf -of bitstream.svf
+
+For ft2232 generic cable, this openocd config file can be used with above
+file "ecp5.ocd" to program "file.svf":
+
+file "ft2232.ocd"
+
+    # file: ft2232.ocd
+
+    interface ftdi
+    # ftdi_device_desc "Dual RS232-HS"
+    ftdi_vid_pid 0x0403 0x6010
+    ftdi_layout_init 0x3088 0x1f8b
+
+    # default is port A if unspecified
+    # pinout ADBUS 0-TCK 1-TDI 2-TDO 3-TMS 
+    #ftdi_channel 0
+
+    # uncomment this to use port B
+    # pinout BDBUS 0-TCK 1-TDI 2-TDO 3-TMS 
+    #ftdi_channel 1
+
+    adapter_khz 25000
+
+commandline
+
+    openocd --file=ft2232.ocd --file=ecp5.ocd
 
 # Programming over WiFi
 
