@@ -268,7 +268,7 @@ Openocd accepts SVF files, everything applies the same as for VME files
 
     ddtcmd -oft -svfsingle -revd -if ulx3s_flash.xcf -of bitstream.svf
 
-For ft2232 generic cable, this openocd config file can be used with above
+For FT2232 generic cable, this openocd config file can be used with above
 file "ecp5.ocd" to program "file.svf":
 
 file "ft2232.ocd"
