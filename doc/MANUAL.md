@@ -410,6 +410,26 @@ commandline
 
     openocd --file=ft2232.ocd --file=ecp5.ocd
 
+External FT2232 JTAG cable can be used by Lattice Diamond native programmer
+on linux. Prior to use the FT2232 port A or B which is connected as JTAG,
+USB-serial kernel driver must be detached from the FT2232 port. 
+To detach detach port B manually:
+
+    ls /sys/bus/usb/drivers/ftdi_sio
+    1-6.2:1.0  1-6.2:1.1  bind  module  uevent  unbind
+    echo -n "1-6.2:1.1" > /sys/bus/usb/drivers/ftdi_sio/unbind
+
+To detach port B automatically:
+
+    #/bin/bash
+    allow_io=`lsusb | sed -n 's/^Bus \([0-9]*\) Device \([0-9]*\): ID 0403:6010 .*/\1\/\2/p'`
+    unbind_tty=`ls /sys/bus/usb/drivers/ftdi_sio/ | sed -n 's/\(.*\:1\.1\).*/\1/p'`
+    sudo chmod a+rw \/dev\/bus\/usb\/$allow_io
+    sudo sh -c "echo $unbind_tty > /sys/bus/usb/drivers/ftdi_sio/unbind"
+
+When USB-serial driver is detached from port A or B, Lattice Diamond programmer
+can use this port as native JTAG programmer.
+
 # Programming over WiFi
 
 ESP-32 provides standalone JTAG SVF player over web HTTP and TCP interface for
