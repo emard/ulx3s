@@ -428,11 +428,17 @@ To detach port B automatically:
     sudo sh -c "echo $unbind_tty > /sys/bus/usb/drivers/ftdi_sio/unbind"
 
 When USB-serial driver is detached from port A or B, Lattice Diamond programmer
-can use this port as native JTAG programmer.
+can use this port as native JTAG programmer. See also
+[Versa under Linux](https://section5.ch/index.php/2017/01/26/ecp5g-versa-board-under-linux/).
 
 For JTAG sharing with ESP32 port B should be set to high impedance
 and the experimentally found solution is to set this port to FIFO or OPTO
 using "ftdi_eeprom" tool
+source is here
+[ftdi_eeprom source](https://www.intra2net.com/en/developer/libftdi/index.php)
+there's also
+[ftdi_eeprom readme](http://developer.intra2net.com/git/?p=libftdi;a=blob;f=README.build)
+and the binary is already in linux distro:
 
     apt-get install ftdi_eeprom
 
