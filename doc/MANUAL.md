@@ -129,8 +129,8 @@ near powered board.
 To program ULX3S bitstream, there are many programming options:
 
 [ujprog source from GIT](https://github.com/f32c/tools)
-[ujprog binary from EMARD](https://github.com/emard/ulx3s-bin/tree/master/usb-jtag)
-[ujprog binary from FER](http://www.nxlab.fer.hr/dl)
+or [ujprog binary from EMARD](https://github.com/emard/ulx3s-bin/tree/master/usb-jtag)
+or [ujprog binary from FER](http://www.nxlab.fer.hr/dl)
 
 EMARD's fork of Xark's [FleaFPGA-JTAG source](https://github.com/emard/FleaFPGA-JTAG)
 or [FleaFPGA-JTAG binary](https://github.com/emard/ulx3s-bin/tree/master/usb-jtag)
