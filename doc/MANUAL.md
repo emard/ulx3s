@@ -93,8 +93,8 @@ preventing 5V to FT231X power pin, but FT231X will still be weakly
 back-powered from its other pins connected with rest of the board 
 and it will appear as some load. For most practical cases, we
 are lucky that FT231X appears as high-z when not directly powered.
-However, unpowered FT231X pins loading may sometimes have prevent
-JTAG from ESP32 or external JTAG, so for more reliable JTAG
+Pin loads from unpowered FT231X may sometimes prevent
+JTAG'ing from ESP32 or external JTAG, so for more reliable JTAG
 we recommend to keep FT231X powered.
 
 Green LED D18 behaviour is the "Power LED". Green LED ON will keep 
