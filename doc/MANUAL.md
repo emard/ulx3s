@@ -100,7 +100,7 @@ Onboard 3V lithium battery CR1225 is only to keep RTC clock running
 and hold its configuration for a year or so. 3V battery is too
 weak to power up complete ULX3S board.
 
-A regulated clean and stable power supply is required
+A regulated clean and stable power supply is required,
 like USB port on PC or USB charger. 5V/0.5A should be enough for fully
 loaded and constantly active FPGA, SDRAM, LEDS, AUDIO, SD,
 ESP32 WiFi and OLED.
