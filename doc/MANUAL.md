@@ -143,11 +143,12 @@ Onboard ESP32 WiFi web interface
 
 External USB-JTAG programmer connected to JTAG header.
 
-Most external JTAGs should work with OpenOCD but FT2232 or FT4232 based JTAGs like
-lattice original JTAG cables
-or [FT2232 breakout board from DangerousPrototypes](http://dangerousprototypes.com/docs/FT2232_breakout_board) are
-recommended. FT2232 based JTAG is very fast, compatible and works with Lattice
-Diamond native programmer.
+Most external JTAGs should work with OpenOCD.
+FT2232 or FT4232 JTAGs are most recommended because they are
+very fast, compatible and works with Lattice Diamond native programmer.
+with Lattice original FT2232 JTAG cable or some generic FT2232 JTAG like
+[FT2232 breakout board from DangerousPrototypes](http://dangerousprototypes.com/docs/FT2232_breakout_board).
+FT2232 based JTAG is 
 
 # Programming over USB port "US1"
 
@@ -312,6 +313,17 @@ and confgure it:
 Openocd accepts SVF files, everything applies the same as for VME files
 
     ddtcmd -oft -svfsingle -revd -if ulx3s_flash.xcf -of bitstream.svf
+
+Connect JTAG cable to ULX3S JTAG header with female-female color wires.
+Carefully observe the pinout. It's standard pinout to MPSSE bus A or B
+written as TCK/TDO/TDI/TMS either on the JTAG board/cable or in
+manual/schematics. The pinout also appears as comments in the
+file "ft2232.ocd" listed below.
+
+To be on safe side, do not to connect 3.3V line unless required by JTAG cable manual.
+3.3V line is not needed for most cables as they use their own USB supply and
+have default 3.3V TTL level. 3.3V power rail from ULX3S is 2A current
+capable and can damage the cable if accidentally connected to wrong pin.
 
 For FT2232 generic cable, this openocd config file can be used with above
 file "ecp5.ocd" to program "bitstream.svf":
