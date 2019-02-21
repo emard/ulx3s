@@ -476,14 +476,17 @@ upgrade for this jumper to work correctly.
 # Programming ESP32
 
 Load "passthru" bitstream to FPGA config flash, install
-Arduino ESP32 support. In "tools" pull down menu, sleect ESP32 
-board "WEMOS LOLIN32" and normally program ULX3S onboard ESP32
-from Arduino by uploading sketch. "passthru" bitstream will
-redirect USB-serial traffic from PC thru FPGA to ESP32.
+Arduino and its ESP32 support. In "tools" pull down menu, under ESP32 
+select board "WEMOS LOLIN32" and normally program ULX3S onboard ESP32
+from Arduino by clicking right arrow round button (->) to upload sketch.
+Examples->Digital->Blink_without_delay any you should see blue LED D22
+blinking.
 
-There may be issues on getting this to work on windows.
-On linux, there are no serious issues, usually only USB-serial
-port access permissions.
+This automagically works because "passthru" bitstream will
+redirect USB-serial ESP32 programming traffic from PC thru FPGA to ESP32.
+
+There might be strange issues on getting this to work on windows.
+On linux usually only USB-serial port access permission is required.
 
 # Board Versions
 
