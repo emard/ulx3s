@@ -83,9 +83,16 @@ Plug US1 into PC or USB charger and board should power up.
 Initial voltage rise at USB 5V line will trigger board powering
 up and holding the power.
 
-USB-serial chip FT231X will always be powered from 5V USB
-on PCB v1.7. The board has switching voltage regulators
+On PCB v1.7, USB-serial chip FT231X will always be powered from 5V USB.
+The board has switching voltage regulators
 which can be turned off to reduce power consumption.
+
+On PCB v2.0 and later, USB-serial chip FT231X will be directly
+powered only from US1. If board is powered from US2, there is diode
+preventing 5V to FT231X power pin, but FT231X will still be weakly
+back-powered from its other pins connected with rest of the board 
+and it will appear as some load. For most practical cases, we
+are lucky that FT231X appears as high-z when not directly powered.
 
 Green LED D18 behaviour is the "Power LED". Green LED ON will keep 
 board powered up. By factory default, when USB-serial chip
