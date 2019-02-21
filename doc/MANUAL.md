@@ -126,15 +126,19 @@ There is SHUTDOWN pin where FPGA can turn OFF the board.
 This pin is not correctly routed on PCB v1.7 and needs
 hardware upgrade to make it work.
 
-When board is ready to accept SHUTDOWN signal, LED D11
-(found on back side of the board near J1 pin 22) should
+When RTC has 3V battery and its registers for current time,
+alarm time and alarm logic are configured to trigger
+RTC ALARM in the future, the board is ready to accept
+SHUTDOWN signal, which is indicated when LED D11
+(found on back side of the board near J1 pin 22) is
 be very dimly lit, visible in the dark.
-While D11 is dimly lit, power down 
-board by setting SHUTDOWN signal to 1
-(or shortly and carefully connect 1k resistor between SHUTDOWN pin of R13
-and 3.3V).
-When RTC ALARM is triggered, board should turn ON and D11 should be OFF
-indicating board can't enter SHUTDOWN until RTC ALARM flag is cleared. 
+
+While D11 is dimly lit, board can be powered down by setting SHUTDOWN
+signal to 1 from FPGA logic or by shortly and carefully connecting 1k
+resistor between SHUTDOWN pin of R13 and 3.3V.
+When RTC ALARM is triggered, board should turn ON. When D11 is OFF,
+it is indicating that board can't enter SHUTDOWN, probably RTC ALARM
+flag has to be cleared or other RTC registers configured.
 
 On J2 connector there are 2 pins for 5V external power input
 and output. They are located on top right, near pin labeled 27 
