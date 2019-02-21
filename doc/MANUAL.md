@@ -128,7 +128,7 @@ carefully cut and schottky diodes soldered on their pads to route the
 Powering only from 3.3V is not possible because switching regulators
 need 5V to generate 2.5V and 1.1V.
 
-Switching regulators use ferrite core coils L1,L2,L3 which can saturate
+Switching regulators use ferrite core inductors L1,L2,L3 which can saturate
 at magnetic fields above 0.3T. Never approach neodymium magnets
 near powered board.
 
