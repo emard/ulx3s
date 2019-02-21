@@ -176,7 +176,7 @@ its own CRC and it will just not load if FLASHed with errors.
 "OpenOCD" tool accepts SVF files and can upload to SRAM or onboard FLASH.
 For details see their ft232r driver documentation. In short, this
 config file should help to get started, modified to set actual
-CHIP_ID and file.svf:
+CHIP_ID and bitstream.svf:
 
 file "ft231x.ocd"
 
@@ -210,7 +210,7 @@ file "ecp5.ocd"
 
     init
     scan_chain
-    svf -tap lfe5.tap -quiet -progress file.svf
+    svf -tap lfe5.tap -quiet -progress bitstream.svf
     shutdown
 
 commandline
@@ -277,7 +277,7 @@ Openocd accepts SVF files, everything applies the same as for VME files
     ddtcmd -oft -svfsingle -revd -if ulx3s_flash.xcf -of bitstream.svf
 
 For FT2232 generic cable, this openocd config file can be used with above
-file "ecp5.ocd" to program "file.svf":
+file "ecp5.ocd" to program "bitstream.svf":
 
 file "ft2232.ocd"
 
