@@ -124,23 +124,9 @@ Switching regulators use ferrite core coils L1,L2,L3 which can saturate
 at magnetic fields above 0.3T. Never approach neodymium magnets
 near powered board.
 
-# Programming over USB port "US1"
+# Programming options
 
-Use ftx_prog to allow max USB power consumption of 500mA
-and change product/manufacturer name of FT231X chip:
-
-    ftx_prog --max-bus-power 500
-    ftx_prog --manufacturer "FER-RADIONA-EMARD"
-    ftx_prog --product "ULX3S FPGA 12K v3.0.3"
-    ftx_prog --new-serial-number 120001
-    ftx_prog --cbus 2 TxRxLED
-    ftx_prog --cbus 3 SLEEP
-
-Optionally you can change "45K" to "25K" or "12K" in regard with FPGA chip size.
-Re-plug the USB and it will appear as new name which can be autodetected
-with USB-serial JTAG tool.
-
-To program ULX3S there are many programming options:
+To program ULX3S bitstream, there are many programming options:
 
 [ujprog](https://github.com/f32c/tools)
 
@@ -159,6 +145,39 @@ lattice original JTAG cables
 or [FT2232 breakout board from DangerousPrototypes](http://dangerousprototypes.com/docs/FT2232_breakout_board) are
 recommended. FT2232 based JTAG is very fast, compatible and works with Lattice
 Diamond native programmer.
+
+# Programming over USB port "US1"
+
+Factory default (empty) onboard FT231X has to be initialized in order
+to be autodetected by "ujprog" or "FleaFPGA-JTAG" use ftx_prog.
+
+This needs to be done only once and board will remember it
+after power down. Settings enable max USB power consumption of 500mA
+set autodetectable product/manufacturer name of FT231X chip, serial
+number, set proper USB-serial activity LED and sets CBUS line to
+wake up board when FT231X is enumerated by host computer (PC).
+
+    ftx_prog --max-bus-power 500
+    ftx_prog --manufacturer "FER-RADIONA-EMARD"
+    ftx_prog --product "ULX3S FPGA 12K v3.0.3"
+    ftx_prog --new-serial-number 120001
+    ftx_prog --cbus 2 TxRxLED
+    ftx_prog --cbus 3 SLEEP
+
+Optionally you can change "45K" to "25K" or "12K" in regard with FPGA chip size.
+Re-plug the USB and it will appear as new name which can be autodetected
+with USB-serial JTAG tool.
+
+If running linux, some udev rule is practical in order to allow non-root users
+(in given example, members of "dialout" group) access to the USB-serial JTAG:
+
+    # file: /etc/udev/rules.d/80-fpga-ulx3s.rules
+    # this is for usb-serial tty device
+    SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6015", \
+      MODE="664", GROUP="dialout"
+    # this is for ujprog libusb access
+    ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6015", \
+      GROUP="dialout", MODE="666"
 
 "ujprog" tool acceps BIT or SVF files for uploading to the FPGA SRAM.
 Upload to onboard FLASH can't be yet done by "ujprog"
