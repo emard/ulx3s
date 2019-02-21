@@ -100,6 +100,7 @@ is enumerated by PC, Green LED will turn ON.
 Normally when board is plugged into USB charger Green LED may shortly
 blink and stay OFF, but board will keep being powered.
 
+
 Board PCB v1.7 must be hardware patched to be able to reliably
 enter shutdown mode. (It will keep waking up).
 
@@ -117,6 +118,8 @@ If other devices are connected and powered from ULX3S J1/J2 GPIO/PMOD
 connectors then more than 0.5A may be required - board can draw 2-3A
 when externally loaded.
 
+# Low Power Mode
+
 RTC without battery will keep waking up the board as factory default.
 3V battery CR1225 and configured RTC chip is required for the board to
 enter shutdown mode. There are several ways to wake up the board:
@@ -133,19 +136,36 @@ There is SHUTDOWN pin where FPGA can turn OFF the board.
 This pin is not correctly routed on PCB v1.7 and needs
 hardware upgrade to make it work.
 
-When RTC has 3V battery and its registers for current time,
-alarm time and alarm logic are configured to trigger
-RTC ALARM in the future, the board is ready to accept
-SHUTDOWN signal, which is indicated when LED D11
-(found on back side of the board near J1 pin 22) is
-be very dimly lit, visible in the dark.
+To accept SHUTDOWN D18 (green LED on top side near SD card)
+must be OFF and D11 found on back side of the board near J1 pin 22.
 
-While D11 is dimly lit, board can be powered down by setting SHUTDOWN
-signal to 1 from FPGA logic or by shortly and carefully connecting 1k
-resistor between SHUTDOWN pin of R13 and 3.3V.
-When RTC ALARM is triggered, board should turn ON. When D11 is OFF,
-it is indicating that board can't enter SHUTDOWN, probably RTC ALARM
-flag has to be cleared or other RTC registers configured.
+D18 is controlled by USB-serial chip and when lit indicates that
+USB-serial chip holds board constantly powered up.
+
+D11 is controlled by RTC chip and when dimly lit (visible in the dark),
+it indicates that RTC chip has ALARM INT1 pin set as inactive (high-Z, open drain).
+Due to its primary function as voltage drop in analog circuit, D11 never gets fully
+lit like other LEDs.
+
+RTC must have 3V battery and registers set for current time, alarm
+time and alarm logic to trigger RTC ALARM in the future. Then
+board is ready to accept SHUTDOWN signal, which is indicated when LED D11
+is very dimly lit, visible in the dark.
+
+While D11 is dimly lit, and D18 is OFF, board can be powered down by
+setting SHUTDOWN signal to 1 from FPGA logic or by
+connecting 1k resistor between SHUTDOWN pin of R13 and 3.3V, carefully and
+only for a moment. When RTC ALARM is triggered, RTC ALARM INT1 open-drain
+pull down will become active and board should turn ON.
+
+When D11 is OFF, or D18 is ON, it is indicating that board can't enter SHUTDOWN,
+probably RTC ALARM flag has to be cleared or other RTC registers configured.
+
+To get D18 OFF, either power board from US2 connector, power it from US1
+with charger which doesn't do USB enumeration or power it from PC at US1
+but reconfigure USB chip to turn D18 OFF:
+
+    ftx_prog --cbus 3 DRIVE_0
 
 On J2 connector there are 2 pins for 5V external power input
 and output. They are located on top right, near pin labeled 27 
