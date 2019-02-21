@@ -475,6 +475,16 @@ upgrade for this jumper to work correctly.
 
 # Programming ESP32
 
+ESP32 WiFi module soldered on ULX3S are usually shipped
+to end-users with WiFi Web-JTAG application loaded in ESP32.
+User can overwrite ESP32 with any other sketch  like "blink"
+and then ESP32 Web-JTAG interface will not work.
+
+Web-JTAG ESP32 application can be restored back to factory
+default state using binaries and linux scripts
+from [ulx3s-bin](https://github.com/emard/ulx3s-bin) or
+by recompiling from [LibXSVF-ESP Source](https://github.com/emard/LibXSVF-ESP).
+
 Load "passthru" bitstream to FPGA config flash, install
 Arduino and its ESP32 support. In "tools" pull down menu, under ESP32 
 select board "WEMOS LOLIN32" and normally program ULX3S onboard ESP32
@@ -484,6 +494,7 @@ blinking.
 
 This automagically works because "passthru" bitstream will
 redirect USB-serial ESP32 programming traffic from PC thru FPGA to ESP32.
+
 
 There might be strange issues on getting this to work on windows.
 On linux usually only USB-serial port access permission is required.
