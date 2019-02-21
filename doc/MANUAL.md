@@ -103,7 +103,8 @@ weak to power up complete ULX3S board.
 A regulated clean and stable power supply is required,
 like USB port on PC or USB charger. 5V/0.5A should be enough for fully
 loaded and constantly active FPGA, SDRAM, LEDS, AUDIO, SD,
-ESP32 WiFi and OLED.
+ESP32 WiFi and OLED. Maximum tolerant USB voltage is 6V. Exceeding
+this limit will instantly damage the board!
 
 If other devices are connected and powered from ULX3S J1/J2 GPIO/PMOD
 connectors then more than 0.5A may be required - board can draw 2-3A
