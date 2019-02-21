@@ -118,6 +118,20 @@ If other devices are connected and powered from ULX3S J1/J2 GPIO/PMOD
 connectors then more than 0.5A may be required - board can draw 2-3A
 when externally loaded.
 
+On J2 connector there are 2 pins for 5V external power input
+and output. They are located on top right, near pin labeled 27 
+and US2 connector. On PCB v2.0 and later boards, both J2 5V pins are
+connected to US2 5V but there are onboard jumpers which can be
+carefully cut and schottky diodes soldered on their pads to route the
+5V power in and/or out of the board.
+
+Powering only from 3.3V is not possible because switching regulators
+need 5V to generate 2.5V and 1.1V.
+
+Switching regulators use ferrite core coils L1,L2,L3 which can saturate
+at magnetic fields above 0.3T. Never approach neodymium magnets
+near powered board.
+
 # Low Power Mode
 
 RTC without battery will keep waking up the board as factory default.
@@ -167,17 +181,6 @@ but reconfigure USB chip to turn D18 OFF:
 
     ftx_prog --cbus 3 DRIVE_0
 
-On J2 connector there are 2 pins for 5V external power input
-and output. They are located on top right, near pin labeled 27 
-and US2 connector. Power is unidirectionaly routed using schottky
-diodes.
-
-Powering only from 3.3V is not possible because switching regulators
-need 5V to generate 2.5V and 1.1V.
-
-Switching regulators use ferrite core coils L1,L2,L3 which can saturate
-at magnetic fields above 0.3T. Never approach neodymium magnets
-near powered board.
 
 # Programming options
 
