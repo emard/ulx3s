@@ -140,16 +140,25 @@ Optionally you can change "45K" to "25K" or "12K" in regard with FPGA chip size.
 Re-plug the USB and it will appear as new name which can be autodetected
 with USB-serial JTAG tool.
 
-To program ULX3S, Use [ujprog](https://github.com/f32c/tools) or 
+To program ULX3S there are many programming options:
+
+[ujprog](https://github.com/f32c/tools)
+
 Emard's fork of Xark's [FleaFPGA-JTAG](https://github.com/emard/FleaFPGA-JTAG) tool
-or ft232r driver in latest [OpenOCD soruce](https://sourceforge.net/p/openocd/code/ci/master/tree)
-or [OpenOCD binaries 2019 or later](https://github.com/gnu-mcu-eclipse/openocd/releases)
-or onbard ESP32 wifi web interface
-or external USB-JTAG programmer connected to JTAG header. Most
-JTAGs should work with OpenOCD but FT2232 or FT4232 based JTAGs like
-lattice original JTAG cables or
-[FT2232 breakout board from DangerousPrototypes](http://dangerousprototypes.com/docs/FT2232_breakout_board)
-are recommended because FT2232 JTAG is among the fastest and works with lattice diamond native programmer.
+
+ft232r driver in latest [OpenOCD soruce](https://sourceforge.net/p/openocd/code/ci/master/tree)
+
+[OpenOCD binaries 2019 or later](https://github.com/gnu-mcu-eclipse/openocd/releases)
+
+onboard ESP32 wifi web interface
+
+external USB-JTAG programmer connected to JTAG header.
+
+Most external JTAGs should work with OpenOCD but FT2232 or FT4232 based JTAGs like
+lattice original JTAG cables
+or [FT2232 breakout board from DangerousPrototypes](http://dangerousprototypes.com/docs/FT2232_breakout_board) are
+recommended. FT2232 based JTAG is very fast, compatible and works with Lattice
+Diamond native programmer.
 
 "ujprog" tool acceps BIT or SVF files for uploading to the FPGA SRAM.
 Upload to onboard FLASH can't be yet done by "ujprog"
