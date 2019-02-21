@@ -430,6 +430,24 @@ To detach port B automatically:
 When USB-serial driver is detached from port A or B, Lattice Diamond programmer
 can use this port as native JTAG programmer.
 
+For JTAG sharing with ESP32 port B should be set to high impedance
+and the experimentally found solution is to set this port to FIFO or OPTO
+using "ftdi_eeprom" tool
+
+    apt-get install ftdi_eeprom
+
+make "ftdi_eeprom.conf" config file, set manufacturer/product strings
+to your liking but important line for high impedance for port B is
+to set it as FIFO or OPTO:
+
+    chb_type=FIFO
+
+write config to eeprom:
+
+    ftdi_eeprom --flash-eeprom ftdi_eeprom.conf
+
+re-plug USB to reload new eeprom content.
+
 # Programming over WiFi
 
 ESP-32 provides standalone JTAG SVF player over web HTTP and TCP interface for
