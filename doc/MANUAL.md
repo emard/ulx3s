@@ -143,7 +143,13 @@ with USB-serial JTAG tool.
 To program ULX3S, Use [ujprog](https://github.com/f32c/tools) or 
 Emard's fork of Xark's [FleaFPGA-JTAG](https://github.com/emard/FleaFPGA-JTAG) tool
 or ft232r driver in latest [OpenOCD soruce](https://sourceforge.net/p/openocd/code/ci/master/tree)
-or [OpenOCD binaries 2019 or later](https://github.com/gnu-mcu-eclipse/openocd/releases).
+or [OpenOCD binaries 2019 or later](https://github.com/gnu-mcu-eclipse/openocd/releases)
+or onbard ESP32 wifi web interface
+or external USB-JTAG programmer connected to JTAG header. Most
+JTAGs should work with OpenOCD but FT2232 or FT4232 based JTAGs like
+lattice original JTAG cables or
+[FT2232 breakout board from DangerousPrototypes](http://dangerousprototypes.com/docs/FT2232_breakout_board)
+are recommended because FT2232 JTAG is among the fastest and works with lattice diamond native programmer.
 
 "ujprog" tool acceps BIT or SVF files for uploading to the FPGA SRAM.
 Upload to onboard FLASH can't be yet done by "ujprog"
