@@ -135,12 +135,13 @@ or [ujprog binary from FER](http://www.nxlab.fer.hr/dl)
 EMARD's fork of Xark's [FleaFPGA-JTAG source](https://github.com/emard/FleaFPGA-JTAG)
 or [FleaFPGA-JTAG binary](https://github.com/emard/ulx3s-bin/tree/master/usb-jtag)
 
-ft232r driver in latest [OpenOCD soruce](https://sourceforge.net/p/openocd/code/ci/master/tree)
+[OpenOCD soruce](https://sourceforge.net/p/openocd/code/ci/master/tree)
 or [OpenOCD binaries 2019 or later](https://github.com/gnu-mcu-eclipse/openocd/releases)
+(ft232r interface configuredd for ULX3S FT231X pinout)
 
-onboard ESP32 wifi web interface
+Onboard ESP32 WiFi web interface
 
-external USB-JTAG programmer connected to JTAG header.
+External USB-JTAG programmer connected to JTAG header.
 
 Most external JTAGs should work with OpenOCD but FT2232 or FT4232 based JTAGs like
 lattice original JTAG cables
