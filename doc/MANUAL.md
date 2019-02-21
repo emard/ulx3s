@@ -96,7 +96,20 @@ blink and stay OFF, but board will keep being powered.
 Board PCB v1.7 must be hardware patched to be able to reliably
 enter shutdown mode. (It will keep waking up).
 
-RTC without battery will keep powering up the board as factory default.
+Onboard 3V lithium battery CR1225 is only to keep RTC clock running
+and hold its configuration for a year or so. 3V battery is too
+weak to power up complete ULX3S board.
+
+A regulated clean and stable power supply is required
+like USB port on PC or USB charger. 5V/0.5A should be enough for fully
+loaded and constantly active FPGA, SDRAM, LEDS, AUDIO, SD,
+ESP32 WiFi and OLED.
+
+If other devices are connected and powered from ULX3S J1/J2 GPIO/PMOD
+connectors then more than 0.5A may be required - board can draw 2-3A
+when externally loaded.
+
+RTC without battery will keep waking up the board as factory default.
 3V battery CR1225 and configured RTC chip is required for the board to
 enter shutdown mode. There are several ways to wake up the board:
 
