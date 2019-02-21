@@ -269,8 +269,8 @@ over FT2232 with openocd. If FT2232 is equipped with EEPROM you can use
 original "FT_PROG" for windows or this linux tool to read/write the EEPROM
 and confgure it:
 
-   apt-get install ftdi-eeprom
-   man ftdi_eeprom
+    apt-get install ftdi-eeprom
+    man ftdi_eeprom
 
 Openocd accepts SVF files, everything applies the same as for VME files
 
