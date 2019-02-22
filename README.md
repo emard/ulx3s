@@ -310,6 +310,6 @@ Here is checklist what was done or should be done in the next PCB release.
     [ ] resistor in series with + battery
     [ ] GPDI clock to clock capable pins, swap with USB pullup
     [ ] more routing to true differential pins (avoid bank 0 and 1)
-    [ ] FT2232H powered from 3.3V switched rail with
-        SOT-23-5 i2c EEPROM like 24CW1280T-I/OT placeholder
-        by default i2c routed to FPGA for emulation
+    [ ] FT2232H port B MPSSE JTAG, powered from 3.3V onboard.
+        SOT-23-6 SPI EEPROM like 24CW1280T-I/OT placeholder
+        by default SPI also routed to FPGA for emulation
