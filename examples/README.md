@@ -26,7 +26,7 @@ Project summary information will be shown, then click "Next":
 
 ![alt text](./blinky/images/diamond-project-step5.PNG )
 
-next, add the lpf constraint file to the project:
+next, add the [lpf constraint file](../doc/constraints/ulx3s_v20.lpf) to the project:
 
 ![alt text](./blinky/images/diamond-project-add-lpf.PNG )
 
