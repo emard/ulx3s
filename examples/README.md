@@ -42,7 +42,7 @@ Unfortunately, Lattice Diamond does not see the FTDI FT232 chip:
 
 ![alt text](./blinky/images/diamond-programmer-no-FT232-detected.PNG )
 
-So we'll need to use the [ujprog](https://github.com/f32c/tools/tree/master/ujprog) utility. 
+So we'll need to use the [ujprog](https://github.com/f32c/tools/tree/master/ujprog) utility. Precompiled binaries can be found in [emard/ulx3s-bin](https://github.com/emard/ulx3s-bin), such as [this one](https://github.com/emard/ulx3s-bin/tree/master/usb-jtag/win64mingw).
 
 Note there may be some issues running the Windows version in WSL. See https://github.com/f32c/tools/issues/8 and https://github.com/f32c/tools/pull/9.
 
