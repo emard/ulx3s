@@ -30,7 +30,7 @@ next, add the [lpf constraint file](../doc/constraints/ulx3s_v20.lpf) to the pro
 
 ![alt text](./blinky/images/diamond-project-add-lpf.PNG )
 
-To make the bitfile, click on the Process tab, and check the Bitstream File checkbox. Then right-click and "Run"
+To make the bitfile, click on the Process tab, and check the `Bitstream File` checkbox in the `Export Files` section. Then right-click and select "Run:
 
 ![alt text](./blinky/images/diamond-project-make-bitfile.PNG )
 
