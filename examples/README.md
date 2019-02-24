@@ -37,3 +37,12 @@ To make the bitfile, click on the Process tab, and check the `Bitstream File` ch
 If the file was created successfully, there will be an indication in the Output View:
 
 ![alt text](./blinky/images/diamond-Blinky-bitfile-success-output.PNG )
+
+Unfortunately, Lattice Diamond does not see the FTDI FT232 chip:
+
+![alt text](./blinky/images/diamond-programmer-no-FT232-detected.PNG )
+
+So we'll need to use the [ujprog](https://github.com/f32c/tools/tree/master/ujprog) utility. 
+
+Note there may be some issues running the Windows version in WSL. See https://github.com/f32c/tools/issues/8 and https://github.com/f32c/tools/pull/9.
+
