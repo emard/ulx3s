@@ -4,43 +4,43 @@
 This blinky is based on the [ULX3S-Blinky project](https://github.com/DoctorWkt/ULX3S-Blinky) from @Doctorwkt.
 
 To create a Lattice Diamond project, click on File - New - Project ...
-![alt text](./images/diamond-project-step0.PNG )
+![new project step 0](./images/diamond-project-step0.PNG )
 
 Give the project a name, in this case "Diamond", then click "Next":
 
-![alt text](./images/diamond-project-step1.PNG )
+![new project step 1](./images/diamond-project-step1.PNG )
 
 add the `blinky.v` source file, then click "Next".
 
-![alt text](./images/diamond-project-step2.PNG )
+![new project step 2](./images/diamond-project-step2.PNG )
  
 specify your target (in this case a 12F is shown), then click "next":
 
-![alt text](./images/diamond-project-step3.PNG )
+![new project step 3](./images/diamond-project-step3.PNG )
 
 The default is Lattise LSE, then click "Next":
 
-![alt text](./images/diamond-project-step4.PNG )
+![new project step 4](./images/diamond-project-step4.PNG )
 
 Project summary information will be shown, then click "Next":
 
-![alt text](./images/diamond-project-step5.PNG )
+![new project step 5](./images/diamond-project-step5.PNG )
 
 next, add the [lpf constraint file](../doc/constraints/ulx3s_v20.lpf) to the project (or copy the contents to `Blinky.lpf`):
 
-![alt text](./images/diamond-project-add-lpf.PNG )
+![add lpf](./images/diamond-project-add-lpf.PNG )
 
 To make the bitfile, click on the Process tab, and check the `Bitstream File` checkbox in the `Export Files` section. Then right-click and select "Run:
 
-![alt text](./images/diamond-project-make-bitfile.PNG )
+![makew bitfile](./images/diamond-project-make-bitfile.PNG )
 
 If the file was created successfully, there will be an indication in the Output View:
 
-![alt text](./images/diamond-Blinky-bitfile-success-output.PNG )
+!bitfile success](./images/diamond-Blinky-bitfile-success-output.PNG )
 
 Unfortunately, Lattice Diamond does not see the FTDI FT232 chip:
 
-![alt text](./images/diamond-programmer-no-FT232-detected.PNG )
+![no FT232 detected](./images/diamond-programmer-no-FT232-detected.PNG )
 
 So we'll need to use the [ujprog](https://github.com/f32c/tools/tree/master/ujprog) utility. Precompiled binaries can be found in [emard/ulx3s-bin](https://github.com/emard/ulx3s-bin), such as [this one](https://github.com/emard/ulx3s-bin/tree/master/usb-jtag/win64mingw).
 
@@ -48,11 +48,11 @@ Note there may be some issues running the Windows version in WSL. See https://gi
 
 The bitfile can be found in the implementation directory (in this case Blinky_Implmentation):
 
-![alt text](./images/diamond-bitfile-location.PNG )
+![bitfile location](./images/diamond-bitfile-location.PNG )
 
 You can open a DOS command prompt simply by typing CMD in the path, and press enter:
 
-![alt text](./images/diamond-bitfile-location-cmd.PNG )
+![bitfile location command prompt](./images/diamond-bitfile-location-cmd.PNG )
 
 Assuming the f32c tools are in c:\workspace\f32c_tools like this:
 
@@ -64,8 +64,13 @@ git clone https://github.com/f32c/tools.git f32c_tools
 
 The bitfile can be uploaded like this:
 
-![alt text](./images/diamond-bitfile-ujprog-upload.PNG )
+```
+\workspace\f32c_tools\ujprog\ujprog.exe Diamond_Blinky_Implementation.bit
+```
+
+![ujprog upload](./images/diamond-bitfile-ujprog-upload.PNG )
 
 If the LED's are not blinking, ensure the proper ldf file is in bold as the Active Preference File.
 
+![set active lpf](./images/diamond-project-active-lpf.PNG )
 
