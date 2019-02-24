@@ -1,12 +1,12 @@
 # ULX3S Examples
 
 # Blinky in Lattice Diamond for Windows
-This blinky is based on the [blinky project](https://github.com/DoctorWkt/ULX3S-Blinky) from @Doctorwkt.
+This blinky is based on the [ULX3S-Blinky project](https://github.com/DoctorWkt/ULX3S-Blinky) from @Doctorwkt.
 
 To create a Lattice Diamond project, click on File - New - Project ...
 ![alt text](./images/diamond-project-step0.PNG )
 
-Give the project a name, in this case "Blinky", then click "Next":
+Give the project a name, in this case "Diamond", then click "Next":
 
 ![alt text](./images/diamond-project-step1.PNG )
 
