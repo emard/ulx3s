@@ -4,25 +4,29 @@
 This blinky is based on the [blinky project](https://github.com/DoctorWkt/ULX3S-Blinky) from @Doctorwkt.
 
 To create a Lattice Diamond project, click on File - New - Project ...
-![alt text](https://raw.githubusercontent.com/gojimmypi/ulx3s/development/examples/blinky/images/diamond-project-step0.PNG )
+![alt text](./blinky/images/diamond-project-step0.PNG )
 
 Give the project a name, in this case "Blinky", then click "Next":
 
-![alt text](https://raw.githubusercontent.com/gojimmypi/ulx3s/development/examples/blinky/images/diamond-project-step1.PNG )
+![alt text](./blinky/images/diamond-project-step1.PNG )
 
 add the `blinky.v` source file, then click "Next".
 
-![alt text](https://raw.githubusercontent.com/gojimmypi/ulx3s/development/examples/blinky/images/diamond-project-step2.PNG )
+![alt text](./blinky/images/diamond-project-step2.PNG )
  
 specify your target (in this case a 12F is shown), then click "next":
 
-![alt text](https://raw.githubusercontent.com/gojimmypi/ulx3s/development/examples/blinky/images/diamond-project-step3.PNG )
+![alt text](./blinky/images/diamond-project-step3.PNG )
 
 The default is Lattise LSE, then click "Next":
 
-![alt text](https://raw.githubusercontent.com/gojimmypi/ulx3s/development/examples/blinky/images/diamond-project-step4.PNG )
+![alt text](./blinky/images/diamond-project-step4.PNG )
 
 Project summary information will be shown, then click "Next":
 
-![alt text](https://raw.githubusercontent.com/gojimmypi/ulx3s/development/examples/blinky/images/diamond-project-step5.PNG )
+![alt text](./blinky/images/diamond-project-step5.PNG )
+
+next, add the lpf constraint file to the project:
+
+![alt text](./blinky/images/diamond-project-add-lpf.PNG )
 
