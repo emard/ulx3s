@@ -36,7 +36,7 @@ To make the bitfile, click on the Process tab, and check the `Bitstream File` ch
 
 If the file was created successfully, there will be an indication in the Output View:
 
-!bitfile success](./images/diamond-Blinky-bitfile-success-output.PNG )
+![bitfile success](./images/diamond-Blinky-bitfile-success-output.PNG )
 
 Unfortunately, Lattice Diamond does not see the FTDI FT232 chip:
 
@@ -50,7 +50,7 @@ The bitfile can be found in the implementation directory (in this case Blinky_Im
 
 ![bitfile location](./images/diamond-bitfile-location.PNG )
 
-You can open a DOS command prompt simply by typing CMD in the path, and press enter:
+You can open a DOS command prompt at the location of the binary file simply by typing CMD in the path, and press enter:
 
 ![bitfile location command prompt](./images/diamond-bitfile-location-cmd.PNG )
 
