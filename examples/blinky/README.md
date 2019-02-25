@@ -92,3 +92,14 @@ FREQUENCY PORT "clk_25mhz" 25 MHZ;
 Similarly, the `o_led[6]` is assigned the value of the `Fire1` button, `btn[1]` (chip site pin "R1")
 
 ![R1 pin](./images/ulx3s-R1.PNG )
+
+From the schematic, the FIRE1 button is named BTN_F1:
+
+![ulx3s schematic buttons](./images/ulx3s-schematic-buttons.PNG )
+
+And connected to R1 of BANK-8 of the LFE-5U:
+
+![ulx3s schematic BTN_F1 R1](./images/ulx3s-schematic-BTN_F1-R1.PNG )
+
+
+
