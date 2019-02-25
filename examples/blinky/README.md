@@ -74,7 +74,11 @@ If the LED's are not blinking, ensure the proper ldf file is in bold as the Acti
 
 ![set active lpf](./images/diamond-project-active-lpf.PNG )
 
-While reviewing the blinky.v file, note there's an assignment: `assign i_clk= clk_25mhz;` that assigns our local varable `i_clk` to the constraint file item `clk_25mhz` connected to our chip at pin "G2":
+While reviewing the blinky.v file, note there's an assignment: `assign i_clk= clk_25mhz;` 
+
+![G2 pin](./images/blinky-assign-clk.PNG )
+
+that assigns our local varable `i_clk` to the constraint file item `clk_25mhz` connected to our chip at pin "G2":
 
 ```
 # The clock "usb" and "gpdi" sheet
@@ -83,4 +87,8 @@ IOBUF PORT "clk_25mhz" PULLMODE=NONE IO_TYPE=LVCMOS33;
 FREQUENCY PORT "clk_25mhz" 25 MHZ;
 ```
 
-![set active lpf](./images/ulx3s-G2.PNG )
+![G2 pin](./images/ulx3s-G2.PNG )
+
+Similarly, the `o_led[6]` is assigned the value of the `Fire1` button, `btn[1]` (chip site pin "R1")
+
+![R1 pin](./images/ulx3s-R1.PNG )
