@@ -74,3 +74,13 @@ If the LED's are not blinking, ensure the proper ldf file is in bold as the Acti
 
 ![set active lpf](./images/diamond-project-active-lpf.PNG )
 
+While reviewing the blinky.v file, note there's an assignment: `assign i_clk= clk_25mhz;` that assigns our local varable `i_clk` to the constraint file item `clk_25mhz` connected to our chip at pin "G2":
+
+```
+# The clock "usb" and "gpdi" sheet
+LOCATE COMP "clk_25mhz" SITE "G2";
+IOBUF PORT "clk_25mhz" PULLMODE=NONE IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk_25mhz" 25 MHZ;
+```
+
+![set active lpf](./images/ulx3s-G2.PNG )
