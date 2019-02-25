@@ -93,13 +93,19 @@ Similarly, the `o_led[6]` is assigned the value of the `Fire1` button, `btn[1]` 
 
 ![R1 pin](./images/ulx3s-R1.PNG )
 
-From the schematic, the FIRE1 button is named BTN_F1:
+From the schematic, the `FIRE1` button is named `BTN_F1`:
 
 ![ulx3s schematic buttons](./images/ulx3s-schematic-buttons.PNG )
 
-And connected to R1 of BANK-8 of the LFE-5U:
+And connected to `R1` of BANK-8 of the LFE-5U:
 
 ![ulx3s schematic BTN_F1 R1](./images/ulx3s-schematic-BTN_F1-R1.PNG )
+
+Similarly, the array of LED values (bits 0..5) are connnected to out counter to simulate blinking:
+
+![ulx3s schematic BTN_F1 R1](./images/ulx3s-LED.PNG
+
+Note bit position 7 `o_led[7]` is fixed at "1" (on), and position 6 `o_led[7]` is connected to the `btn[1]` button and thus is only illumintated when the FIRE1 button is pressed.
 
 
 
