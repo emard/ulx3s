@@ -78,7 +78,7 @@ While reviewing the `blinky.v` file, note there's an assignment: `assign i_clk= 
 
 ![G2 pin](./images/blinky-assign-clk.PNG )
 
-that assigns our local varable `i_clk` to the constraint file item `clk_25mhz` connected to our chip at pin "G2":
+that assigns our local varable `i_clk` to the constraint file item `clk_25mhz` which is connected to our chip at pin "G2" as shown in the LPF Constraint File:
 
 ```
 # The clock "usb" and "gpdi" sheet
@@ -86,6 +86,8 @@ LOCATE COMP "clk_25mhz" SITE "G2";
 IOBUF PORT "clk_25mhz" PULLMODE=NONE IO_TYPE=LVCMOS33;
 FREQUENCY PORT "clk_25mhz" 25 MHZ;
 ```
+
+Here is G2 in Package View:
 
 ![G2 pin](./images/ulx3s-G2.PNG )
 
