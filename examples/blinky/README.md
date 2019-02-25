@@ -101,7 +101,7 @@ And connected to `R1` of BANK-8 of the LFE-5U:
 
 ![ulx3s schematic BTN_F1 R1](./images/ulx3s-schematic-BTN_F1-R1.PNG )
 
-Similarly, the array of LED values (bits 0..5) are connnected to out counter to simulate blinking:
+Similarly, the array of LED values (bits 0..5) are connnected to our counter to simulate blinking:
 
 ![ulx3s schematic BTN_F1 R1](./images/ulx3s-LED.PNG)
 
