@@ -50,11 +50,11 @@ The bitfile can be found in the implementation directory (in this case Blinky_Im
 
 ![bitfile location](./images/diamond-bitfile-location.PNG )
 
-You can open a DOS command prompt at the location of the binary file simply by typing CMD in the path, and press enter:
+You can open a DOS command prompt at the location of the binary file simply by typing `CMD` in the path, and press enter:
 
 ![bitfile location command prompt](./images/diamond-bitfile-location-cmd.PNG )
 
-Assuming the f32c tools are in c:\workspace\f32c_tools like this:
+Assuming the f32c tools are in `c:\workspace\f32c_tools\` like this:
 
 ```
 c:
@@ -74,7 +74,7 @@ If the LED's are not blinking, ensure the proper ldf file is in bold as the Acti
 
 ![set active lpf](./images/diamond-project-active-lpf.PNG )
 
-While reviewing the blinky.v file, note there's an assignment: `assign i_clk= clk_25mhz;` 
+While reviewing the `blinky.v` file, note there's an assignment: `assign i_clk= clk_25mhz;` 
 
 ![G2 pin](./images/blinky-assign-clk.PNG )
 
@@ -103,7 +103,7 @@ And connected to `R1` of BANK-8 of the LFE-5U:
 
 Similarly, the array of LED values (bits 0..5) are connnected to out counter to simulate blinking:
 
-![ulx3s schematic BTN_F1 R1](./images/ulx3s-LED.PNG
+![ulx3s schematic BTN_F1 R1](./images/ulx3s-LED.PNG)
 
 Note bit position 7 `o_led[7]` is fixed at "1" (on), and position 6 `o_led[7]` is connected to the `btn[1]` button and thus is only illumintated when the FIRE1 button is pressed.
 
