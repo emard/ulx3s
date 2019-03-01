@@ -2,7 +2,9 @@
 
 This blinky is based on the [ULX3S-Blinky project](https://github.com/DoctorWkt/ULX3S-Blinky) from @Doctorwkt. This example blinks an LED using FPGA code.
 
-To create a Lattice Diamond project, click on File - New - Project ...
+The existing Diamond project can be loaded by opening the Diamond.lpf project file. 
+
+Alternatively, to create a Lattice Diamond project, click on File - New - Project ...
 ![new project step 0](../images/diamond-project-step0.PNG )
 
 Give the project a name, in this case "Diamond", then click "Next":
