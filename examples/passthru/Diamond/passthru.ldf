@@ -6,7 +6,7 @@
         <Source name="passthru.vhd" type="VHDL" type_short="VHDL">
             <Options top_module="ulx3s_passthru_wifi"/>
         </Source>
-        <Source name="../../doc/constraints/ulx3s_v20.lpf" type="Logic Preference" type_short="LPF">
+        <Source name="ulx3s_v20.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>
     </Implementation>
