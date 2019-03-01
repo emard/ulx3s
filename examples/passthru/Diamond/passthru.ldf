@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BaliProject version="3.2" title="passthru" device="LFE5U-12F-6BG381I" default_implementation="passthru_implementation">
     <Options/>
-    <Implementation title="passthru_implementation" dir="passthru_implementation" description="passthru_implementation" synthesis="lse" default_strategy="Strategy1">
+    <Implementation title="implementation" dir="implementation" description="passthru implementation" synthesis="lse" default_strategy="Strategy1">
         <Options def_top="ulx3s_passthru_wifi"/>
         <Source name="passthru.vhd" type="VHDL" type_short="VHDL">
             <Options top_module="ulx3s_passthru_wifi"/>
