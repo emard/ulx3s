@@ -4,9 +4,12 @@
     <Implementation title="Blinky_Implementation" dir="Blinky_Implementation" description="Blinky_Implementation" synthesis="lse" default_strategy="Strategy1">
         <Options def_top="top"/>
         <Source name="../blinky.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="../../../doc/constraints/ulx3s_v20.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>
-        <Source name="Diamond.lpf" type="Logic Preference" type_short="LPF">
+        <Source name="Diamond.lpf" type="Logic Preference" type_short="LPF" excluded="TRUE">
             <Options/>
         </Source>
     </Implementation>
