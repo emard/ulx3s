@@ -111,4 +111,6 @@ Similarly, the array of LED values (bits 0..5) are connnected to our counter to 
 Note bit position 7 `o_led[7]` is fixed at "1" (on), and position 6 `o_led[7]` is connected to the `btn[1]` button and thus is only illumintated when the FIRE1 button is pressed.
 
 
+See also [other examples](../../README.md)
+
 

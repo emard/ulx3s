@@ -16,3 +16,5 @@ Cannot find JTAG cable.
 [Blinky in Lattice Diamond for Windows](./Diamond/README.md)
 
 [Blinky using Open Source](./OpenSource/README.md)
+
+See also [other examples](../README.md)
