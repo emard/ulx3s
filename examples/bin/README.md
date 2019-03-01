@@ -4,7 +4,7 @@
 
 `ujprog.exe` - compiled for Windows / WSL
 
-`passthru_passthru_implementation_12F.bit` - prebuilt 12F passthru (see [../passthru/README.md]() )
+`passthru_passthru_implementation_12F.bit` - prebuilt 12F passthru (see [../../passthru/README.md]() )
 
 see also [https://github.com/emard/ulx3s-bin](https://github.com/emard/ulx3s-bin)
 
