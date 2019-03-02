@@ -10,6 +10,13 @@ Next, click on the Process tab, check the Bitstream File checkbox, right-click "
 
 ![Diamond-open-passthru](../images/Diamond-process-create-bitstream.PNG )
 
+Once the `passthru_implementation.bit` FPGA binary file is created (or copied from [examples/bin](../../bin/README.md)), it can be loaded onto the ULX3S with `ujprog`:
+
+```
+ujprog.exe Diamond_Blinky_Implementation.bit
+```
+
+
 For a more detailed example using Diamondd, see the [Diamond Blinky Example](../../blinky/Diamond/README.md)
 
 See also [other examples](../../README.md)
