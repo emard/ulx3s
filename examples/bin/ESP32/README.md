@@ -15,8 +15,8 @@ These 4 files are loaded with the `--flash_size detect` parameter for `esptool` 
 
 `esptool.py` - python script for programming the ESP32
 
-`upload_blinky.bat` - DOS batch file for uploading blinky to ESP32
+[upload_blinky.bat](./upload_blinky.bat) - DOS batch file for uploading blinky to ESP32
 
-`upload_blinky.sh` - BASH script for uploading blinky to ESP32
+[upload_blinky.sh](./upload_blinky.sh) - BASH script for uploading blinky to ESP32
 
 
