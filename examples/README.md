@@ -7,3 +7,5 @@
 [PassThru in Lattice Diamond for Windows](./passthru/Diamond/README.md)
 
 [PassThru using Open Source](./passthru/OpenSource/README.md)
+
+[binaries](./bin/README.md)
