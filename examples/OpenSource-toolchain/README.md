@@ -26,7 +26,7 @@ sudo ls # pause if copy/paste password prompt
 #
 # wget (TODO)/raw/Makefile -O Makefile
 #
-# Works bext with Ubuntu 18.04 or later
+# Works best with Ubuntu 18.04 or later
 
 #***************************************************************************************************
 # To fetch and use this file:
