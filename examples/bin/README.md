@@ -6,5 +6,8 @@
 
 `passthru_implementation_12F.bit` - prebuilt 12F passthru (see [PassThru example](../../examples/passthru/README.md) )
 
-see also [https://github.com/emard/ulx3s-bin](https://github.com/emard/ulx3s-bin)
+To get started quickly, see the [upload_passthru.sh](./upload_passthru.sh) to upload the FPGA passthru code and [ESP32/upload_blinky.sh](./ESP32/upload_blinky.sh) for the ESP32 blinky.
 
+For other binaries see [https://github.com/emard/ulx3s-bin](https://github.com/emard/ulx3s-bin)
+
+See also [other examples](../README.md)
