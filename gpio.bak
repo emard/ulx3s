@@ -566,27 +566,27 @@ F 6 "842-LFE5U85F6BG381C" H 4950 2500 60  0001 C CNN "Mouser"
 	1    4950 2500
 	1    0    0    -1  
 $EndComp
-Text Notes 1900 3900 2    60   ~ 0
+Text Notes 1950 3900 2    60   ~ 0
 0
-Text Notes 1900 4000 2    60   ~ 0
+Text Notes 1950 4000 2    60   ~ 0
 1
-Text Notes 1900 4100 2    60   ~ 0
+Text Notes 1950 4100 2    60   ~ 0
 2
-Text Notes 1900 4200 2    60   ~ 0
+Text Notes 1950 4200 2    60   ~ 0
 3
 Text Notes 1950 5100 2    60   ~ 0
 10
-Text Notes 1900 4300 2    60   ~ 0
+Text Notes 1950 4300 2    60   ~ 0
 4
-Text Notes 1900 4400 2    60   ~ 0
+Text Notes 1950 4400 2    60   ~ 0
 5
-Text Notes 1900 4500 2    60   ~ 0
+Text Notes 1950 4500 2    60   ~ 0
 6
-Text Notes 1900 4800 2    60   ~ 0
+Text Notes 1950 4800 2    60   ~ 0
 7
-Text Notes 1900 4900 2    60   ~ 0
+Text Notes 1950 4900 2    60   ~ 0
 8
-Text Notes 1900 5000 2    60   ~ 0
+Text Notes 1950 5000 2    60   ~ 0
 9
 Text Notes 1950 5200 2    60   ~ 0
 11

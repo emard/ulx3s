@@ -669,7 +669,7 @@ STPS2L30AF
 NoConn ~ 4200 3000
 NoConn ~ 4200 3100
 NoConn ~ 5700 3000
-Text Notes 9000 5000 0    60   ~ 0
+Text Notes 9000 5100 0    60   ~ 0
 GR_PCLK3_0
 Text Notes 1300 5400 2    60   ~ 0
 GR_PCLK7_1
