@@ -64,16 +64,16 @@ View generated gerbers
 
 # Features
 
-FPGA: Lattice ECP5 [LFE5U-85F-6BG381C](http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf?document_id=50461) (85K LUT)
+FPGA: Lattice ECP5 [LFE5U-85F-6BG381C](http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf?document_id=50461) (12/25/45/85K LUT)
 
 USB: FTDI [FT231XS](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf) (500kbit JTAG and 3Mbit USB-serial)
 
 GPIO: 56 pins (12 true differential pairs, 16 single-ended pairs), [PMOD](https://reference.digilentinc.com/_media/pmod:pmod:originalPmodInterfaceSpecification.pdf)-friendly
 with power out 3.3V/1A 2.5V/1.5A
 
-RAM: 32MB SDRAM [MT48LC16M16](https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf)
+RAM: 16-bit SDRAM [MT48LC32M16](https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf) (8/16/32/64 MB)
 
-Flash: 16MB Quad-SPI Flash [IS25LP128F](http://www.issi.com/WW/pdf/25LP-WP128F.pdf) for FPGA config
+Flash: Quad-SPI Flash [IS25LP128F](http://www.issi.com/WW/pdf/25LP-WP128F.pdf) (4/8/16 MB for FPGA config and user data)
 
 Storage: Micro-SD slot
 
