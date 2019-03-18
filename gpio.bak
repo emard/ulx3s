@@ -594,33 +594,33 @@ Text Notes 1950 5300 2    60   ~ 0
 12
 Text Notes 1950 5400 2    60   ~ 0
 13
-Text Notes 8350 5300 0    60   ~ 0
+Text Notes 8350 5400 0    60   ~ 0
 14
-Text Notes 8350 5200 0    60   ~ 0
+Text Notes 8350 5300 0    60   ~ 0
 15
-Text Notes 8350 5100 0    60   ~ 0
+Text Notes 8350 5200 0    60   ~ 0
 16
-Text Notes 8350 5000 0    60   ~ 0
+Text Notes 8350 5100 0    60   ~ 0
 17
-Text Notes 8350 4900 0    60   ~ 0
+Text Notes 8350 5000 0    60   ~ 0
 18
-Text Notes 8350 4800 0    60   ~ 0
+Text Notes 8350 4900 0    60   ~ 0
 19
-Text Notes 8350 4700 0    60   ~ 0
+Text Notes 8350 4800 0    60   ~ 0
 20
-Text Notes 8350 4400 0    60   ~ 0
+Text Notes 8350 4500 0    60   ~ 0
 21
-Text Notes 8350 4300 0    60   ~ 0
+Text Notes 8350 4400 0    60   ~ 0
 22
-Text Notes 8350 4200 0    60   ~ 0
+Text Notes 8350 4300 0    60   ~ 0
 23
-Text Notes 8350 4100 0    60   ~ 0
+Text Notes 8350 4200 0    60   ~ 0
 24
-Text Notes 8350 4000 0    60   ~ 0
+Text Notes 8350 4100 0    60   ~ 0
 25
-Text Notes 8350 3900 0    60   ~ 0
+Text Notes 8350 4000 0    60   ~ 0
 26
-Text Notes 8350 3800 0    60   ~ 0
+Text Notes 8350 3900 0    60   ~ 0
 27
 Text Notes 2800 2250 0    60   ~ 0
 NC v1.7
@@ -669,7 +669,7 @@ STPS2L30AF
 NoConn ~ 4200 3000
 NoConn ~ 4200 3100
 NoConn ~ 5700 3000
-Text Notes 7250 5000 0    60   ~ 0
+Text Notes 9000 5000 0    60   ~ 0
 GR_PCLK3_0
 Text Notes 1300 5400 2    60   ~ 0
 GR_PCLK7_1
@@ -696,7 +696,7 @@ DAC WIFI_GPIO26
 Text Notes 600  5950 0    60   ~ 0
 GP,GN 0-7 single-ended connected to BANK0\nGP,GN 8-13 differential bidirectional connected to BANK7
 Text Notes 650  3450 0    60   ~ 0
-J1 J2 PIN numbering is for FEMALE 90° ANGLED header.\nFor MALE VERTICAL header, SWAP EVEN and ODD pin numbers.
+J1 J2 PIN numbering 1-40 is for FEMALE 90° ANGLED header.\nFor MALE VERTICAL header, SWAP EVEN and ODD pin numbers.
 Text Notes 7050 3250 0    60   ~ 0
-J1 J2 PIN numbering is for FEMALE 90° ANGLED header.\nFor MALE VERTICAL header, SWAP EVEN and ODD pin numbers.
+J1 J2 PIN numbering 1-40 is for FEMALE 90° ANGLED header.\nFor MALE VERTICAL header, SWAP EVEN and ODD pin numbers.
 $EndSCHEMATC

@@ -566,27 +566,27 @@ F 6 "842-LFE5U85F6BG381C" H 4950 2500 60  0001 C CNN "Mouser"
 	1    4950 2500
 	1    0    0    -1  
 $EndComp
-Text Notes 1900 3900 2    60   ~ 0
+Text Notes 1950 3900 2    60   ~ 0
 0
-Text Notes 1900 4000 2    60   ~ 0
+Text Notes 1950 4000 2    60   ~ 0
 1
-Text Notes 1900 4100 2    60   ~ 0
+Text Notes 1950 4100 2    60   ~ 0
 2
-Text Notes 1900 4200 2    60   ~ 0
+Text Notes 1950 4200 2    60   ~ 0
 3
 Text Notes 1950 5100 2    60   ~ 0
 10
-Text Notes 1900 4300 2    60   ~ 0
+Text Notes 1950 4300 2    60   ~ 0
 4
-Text Notes 1900 4400 2    60   ~ 0
+Text Notes 1950 4400 2    60   ~ 0
 5
-Text Notes 1900 4500 2    60   ~ 0
+Text Notes 1950 4500 2    60   ~ 0
 6
-Text Notes 1900 4800 2    60   ~ 0
+Text Notes 1950 4800 2    60   ~ 0
 7
-Text Notes 1900 4900 2    60   ~ 0
+Text Notes 1950 4900 2    60   ~ 0
 8
-Text Notes 1900 5000 2    60   ~ 0
+Text Notes 1950 5000 2    60   ~ 0
 9
 Text Notes 1950 5200 2    60   ~ 0
 11
@@ -594,33 +594,33 @@ Text Notes 1950 5300 2    60   ~ 0
 12
 Text Notes 1950 5400 2    60   ~ 0
 13
-Text Notes 8350 5300 0    60   ~ 0
+Text Notes 8350 5400 0    60   ~ 0
 14
-Text Notes 8350 5200 0    60   ~ 0
+Text Notes 8350 5300 0    60   ~ 0
 15
-Text Notes 8350 5100 0    60   ~ 0
+Text Notes 8350 5200 0    60   ~ 0
 16
-Text Notes 8350 5000 0    60   ~ 0
+Text Notes 8350 5100 0    60   ~ 0
 17
-Text Notes 8350 4900 0    60   ~ 0
+Text Notes 8350 5000 0    60   ~ 0
 18
-Text Notes 8350 4800 0    60   ~ 0
+Text Notes 8350 4900 0    60   ~ 0
 19
-Text Notes 8350 4700 0    60   ~ 0
+Text Notes 8350 4800 0    60   ~ 0
 20
-Text Notes 8350 4400 0    60   ~ 0
+Text Notes 8350 4500 0    60   ~ 0
 21
-Text Notes 8350 4300 0    60   ~ 0
+Text Notes 8350 4400 0    60   ~ 0
 22
-Text Notes 8350 4200 0    60   ~ 0
+Text Notes 8350 4300 0    60   ~ 0
 23
-Text Notes 8350 4100 0    60   ~ 0
+Text Notes 8350 4200 0    60   ~ 0
 24
-Text Notes 8350 4000 0    60   ~ 0
+Text Notes 8350 4100 0    60   ~ 0
 25
-Text Notes 8350 3900 0    60   ~ 0
+Text Notes 8350 4000 0    60   ~ 0
 26
-Text Notes 8350 3800 0    60   ~ 0
+Text Notes 8350 3900 0    60   ~ 0
 27
 Text Notes 2800 2250 0    60   ~ 0
 NC v1.7
@@ -669,7 +669,7 @@ STPS2L30AF
 NoConn ~ 4200 3000
 NoConn ~ 4200 3100
 NoConn ~ 5700 3000
-Text Notes 7250 5000 0    60   ~ 0
+Text Notes 9000 5000 0    60   ~ 0
 GR_PCLK3_0
 Text Notes 1300 5400 2    60   ~ 0
 GR_PCLK7_1
