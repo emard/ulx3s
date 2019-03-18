@@ -91,9 +91,9 @@ WiFi+bluetooth: placeholder for [ESP-32](https://www.espressif.com/sites/default
 
 Antenna: 88-108/433 MHz FM/ASK onboard
 
-ADC: 8 channels, 12 bit, 1 MSa/s [MAX11125](https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf)
+ADC: 8 channels, 12 bit, 1 MSa/s [MAX11125](https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf) (4/8-ch, 8/10/12-bit, 0.5/1 MSa/s)
 
-Power: 3 Switching voltage regulators: 1.1V, 2.5V, 3.3V
+Power: 3 Switching voltage regulators: 1.1V, 2.5V, 3.3V (1.5/2A)
 
 Clock: 25 MHz onboard, external differential clock input
 
