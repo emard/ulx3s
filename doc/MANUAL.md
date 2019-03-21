@@ -577,9 +577,8 @@ On linux usually only USB-serial port access permission is required.
 
 # OLED
 
-Solder 7-pin header on ULX3S and obtain
-0.95 Inch 7pin Full Color 65K Color SSD1331 SPI OLED Display Module For
-Arduino.
+Solder 7-pin 2.54mm female header on ULX3S and obtain
+0.95 Inch 7pin Full Color 65K Color SSD1331 SPI OLED Display Module For Arduino.
 
 ![OLED COLOR DISPLAY SSD1331](/pic/oled-ssd1331-module.jpg)
 
