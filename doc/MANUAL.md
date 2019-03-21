@@ -575,6 +575,22 @@ redirect USB-serial ESP32 programming traffic from PC thru FPGA to ESP32.
 There might be strange issues on getting this to work on windows.
 On linux usually only USB-serial port access permission is required.
 
+# OLED
+
+Solder 7-pin header on ULX3S and obtain
+0.95 Inch 7pin Full Color 65K Color SSD1331 SPI OLED Display Module For
+Arduino.
+
+![OLED COLOR DISPLAY SSD1331](/pic/oled-ssd1331-module.jpg)
+
+Pin names on OLED module should match those written on ULX3S silkscreen.
+Cheapest from ebay or aliexpress are all good and work.
+Display glass may be glued a bit off-angle from module to module,
+that's kinda "normal" for 7$. It can display nice and readable high
+contrast color picture :)
+
+![OLED 1-PIXEL FONT](/pic/oled-1-pixel-wide-font.jpg)
+
 # Board Versions
 
 This project is open source, freely downloadable so there can be
