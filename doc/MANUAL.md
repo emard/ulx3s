@@ -613,6 +613,7 @@ soldered.
     v2.1.2    INEM-KONČAR    35         sep 2018     v20             prototype
     v3.0.3    INEM-KONČAR    220        oct 2018     v20             for sale
     v2.0.5    Marvin         1          nov 2018     v20             handwork
+    v2.0.5    Markus         1          dec 2018     v20             handwork
     v3.0.3    INEM-KONČAR    35         jan 2019     v20             for sale
     v2.0.5    Zvone          2          mar 2019     v20             handwork
-    v3.0.?    Sam Littlewood 1          mar 2019     v20             handwork
+    v3.0.6    Sam Littlewood 1          mar 2019     v20             handwork
