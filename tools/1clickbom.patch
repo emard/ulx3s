@@ -1,0 +1,22 @@
+diff --git a/output_scripts/kicad/1-click-bom_fields.py b/output_scripts/kicad/1-click-bom_fields.py
+index cd0d5a0..f1eab4c 100644
+--- a/output_scripts/kicad/1-click-bom_fields.py
++++ b/output_scripts/kicad/1-click-bom_fields.py
+@@ -9,6 +9,7 @@ import kicad_netlist_reader
+ import csv
+ import sys
+ import os
++import re
+ 
+ def myEqu(self, other):
+     """myEqu is a more advanced equivalence function for components which is
+@@ -65,6 +66,9 @@ partfields -= set( ['Reference', 'Value', 'Datasheet', 'Footprint'] )
+ 
+ columnset = compfields | partfields     # union
+ 
++
++ignore_columns = re.compile('[A-z0-9]*_URL|price')
++columnset = [c for c in columnset if ignore_columns.match(c) is None]
+ # prepend an initial 'hard coded' list and put the enchillada into list 'columns'
+ columns = ['References', 'Qty'] + sorted(list(columnset))
+
