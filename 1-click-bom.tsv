@@ -53,7 +53,7 @@ SD1	1				https://www.molex.com/pdm_docs/sd/472192001_sd.pdf					WM6698DKR-ND				
 SW1	1									CT2194MST-ND							FSW002								219-4MST								774-2194MST										T		
 U1	1									220-2071-ND							FU004		842-LFE5U12F6BG381C	Lattice	Lattice				LFE5U-85F-6BG381C	LFE5U-12F-6BG381C							842-LFE5U85F6BG381C										T		
 U2	1						https://www.alliancememory.com/wp-content/uploads/pdf/dram/512M%20SDRAM_%20B%20die_AS4C32M16SB-7TCN-7TIN-6TIN_Rev%201.0%20June%202016.pdf			1450-1352-1-ND							FU007	C62379		Micron	ISSI		Winbond	Alliance	MT48LC16M16A2TG-6A	IS42S16160G-7TL-TR	W9812G6KH-6	AS4C32M16SB-7TCN		913-4816M16A2TG6AGTR	870-IS42S16160G7TLTR		913-AS4C32M16SB-7TCN										T		
-U3, U4, U5	3							http://www.dioo.com/attachments/files/20161031180022_361.pdf		296-47360-1-ND							FU009	C141836	453-DIO6015BCST5	TI	DIOO				TLV62569DBVR	DIO6015BCST5							595-TLV62569DBVR												
+U3, U4, U5	3							http://www.dioo.com/attachments/files/20161031180022_361.pdf		296-47360-1-ND							FU009	C141836	453-DIO6015BCST5	TI	DIOO				TLV62569DBVR	DIO6015BCST5					453-DIO6015BCST5		595-TLV62569DBVR												
 U6	1									768-1129-1-ND							FU002								FT231XS								895-FT231XS-R									7570032			
 U7	1	MCP7940NT-I/SN			https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf				http://ww1.microchip.com/downloads/en/DeviceDoc/MCP7940N%20Errata_DS80000611C.pdf	MCP7940NT-I/SNCT-ND		568-5306-1-ND					FU006					https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf			MCP7940NT-I/SN	PCF8523T/1,118 							579-MCP7940NT-I/SN												
 U8	1									MAX11125ATI+-ND							FU005		700-MAX11123ATI+						MAX11125ATI+	MAX11123ATI+							700-MAX11125ATI+										T		
