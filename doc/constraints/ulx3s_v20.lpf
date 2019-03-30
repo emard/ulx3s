@@ -179,6 +179,7 @@ IOBUF PORT "wifi_en" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4;
 IOBUF PORT "wifi_rxd" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4;
 IOBUF PORT "wifi_txd" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4;
 IOBUF PORT "wifi_gpio0" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4;
+IOBUF PORT "wifi_gpio5" PULLMODE=NONE IO_TYPE=LVCMOS33 DRIVE=4;
 IOBUF PORT "wifi_gpio16" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4;
 IOBUF PORT "wifi_gpio17" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4;
 # IOBUF PORT "prog_done" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4;
@@ -323,6 +324,13 @@ IOBUF PORT "gpdi_sda" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4;
 IOBUF PORT "gpdi_scl" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4;
 
 # GPIO (default single-ended) "gpio", "ram", "gpdi" sheet
+# Physical connector pins:
+# *** when FEMALE ANGLED (90 deg PMOD) soldered ***
+# Jm_n- = Jm_n, Jm_n+ = Jm_n+1
+# example: J1_5- is J1_5 phsyical, J1_5+ is J1_6 physical
+# *** when MALE VERTICAL soldered ***
+# Jm_n+ = Jm_n, Jm_n- = Jm_n+1
+# example: J1_5+ is J1_5 physical, J1_5- is J1_6 physical
 # Pins enumerated gp[0-27], gn[0-27].
 # With differential mode enabled on Lattice,
 # gp[] (+) are used, gn[] (-) are ignored from design

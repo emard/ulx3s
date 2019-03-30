@@ -64,16 +64,16 @@ View generated gerbers
 
 # Features
 
-FPGA: Lattice ECP5 [LFE5U-85F-6BG381C](http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf?document_id=50461) (85K LUT)
+FPGA: Lattice ECP5 [LFE5U-85F-6BG381C](http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf?document_id=50461) (12/25/45/85K LUT)
 
 USB: FTDI [FT231XS](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf) (500kbit JTAG and 3Mbit USB-serial)
 
 GPIO: 56 pins (12 true differential pairs, 16 single-ended pairs), [PMOD](https://reference.digilentinc.com/_media/pmod:pmod:originalPmodInterfaceSpecification.pdf)-friendly
 with power out 3.3V/1A 2.5V/1.5A
 
-RAM: 32MB SDRAM [MT48LC16M16](https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf)
+RAM: 16-bit SDRAM [MT48LC32M16](https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf) (8/16/32/64 MB)
 
-Flash: 16MB Quad-SPI Flash [IS25LP128F](http://www.issi.com/WW/pdf/25LP-WP128F.pdf) for FPGA config
+Flash: Quad-SPI Flash [IS25LP128F](http://www.issi.com/WW/pdf/25LP-WP128F.pdf) (4/8/16 MB for FPGA config and user data)
 
 Storage: Micro-SD slot
 
@@ -91,9 +91,9 @@ WiFi+bluetooth: placeholder for [ESP-32](https://www.espressif.com/sites/default
 
 Antenna: 88-108/433 MHz FM/ASK onboard
 
-ADC: 8 channels, 12 bit, 1 MSa/s [MAX11125](https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf)
+ADC: 8 channels, 12 bit, 1 MSa/s [MAX11125](https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf) (4/8-ch, 8/10/12-bit, 0.5/1 MSa/s)
 
-Power: 3 Switching voltage regulators: 1.1V, 2.5V, 3.3V
+Power: 3 Switching voltage regulators: 1.1V, 2.5V, 3.3V (1.5/2A)
 
 Clock: 25 MHz onboard, external differential clock input
 
