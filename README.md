@@ -107,7 +107,8 @@ with digital monitors/TVs
 # Production
 
 Independent production
-like [q3k](https://twitter.com/q3k/status/1029010026269167618) is
+like [q3k](https://twitter.com/q3k/status/1029010026269167618) or
+[samlittlewood](https://twitter.com/samlittlewood/status/1108531208001077250) is
 welcome and desirable under conditions of [modified MIT LICENSE](/LICENSE.md).
 If you do manual assembly here is [minimal parts list](/doc/MINIMAL.md).
 
