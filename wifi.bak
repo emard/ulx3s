@@ -50,12 +50,11 @@ F 2 "ESP32:ESP32-WROOM" H 7000 4800 60  0001 C CNN
 F 3 "http://espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 6200 3900 60  0001 C CNN
 F 4 "espressif.com" H 6650 3450 60  0001 C CNN "MNF1_URL"
 F 5 "ESP-WROOM-32" H 6650 3450 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 6650 3450 60  0001 C CNN "Mouser_URL"
-F 7 "356-ESP-WROOM-32 " H 6650 3450 50  0001 C CNN "Mouser"
-F 8 "3.32€" H 6650 3450 50  0001 C CNN "price100_Mouser"
-F 9 "1904-1010-1-ND" H 6650 3450 50  0001 C CNN "Digikey"
-F 10 "Leave empty" H 6650 3450 50  0001 C CNN "LowCost"
-F 11 "FU001" H 6650 3450 50  0001 C CNN "Koncar"
+F 6 "356-ESP-WROOM-32 " H 6650 3450 50  0001 C CNN "Mouser"
+F 7 "3.32€" H 6650 3450 50  0001 C CNN "price100_Mouser"
+F 8 "1904-1010-1-ND" H 6650 3450 50  0001 C CNN "Digikey"
+F 9 "Leave empty" H 6650 3450 50  0001 C CNN "LowCost"
+F 10 "FU001" H 6650 3450 50  0001 C CNN "Koncar"
 	1    6650 3450
 	1    0    0    -1  
 $EndComp

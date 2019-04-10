@@ -545,8 +545,7 @@ F 1 "LFE5U-85F-6BG381C" H 4900 5600 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 3850 5700 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 3850 5700 60  0001 C CNN
 F 4 "LFE5U-85F-6BG381C" H 4900 4750 60  0001 C CNN "MPN"
-F 5 "www.mouser.com" H 4900 4750 60  0001 C CNN "Mouser_URL"
-F 6 "842-LFE5U85F6BG381C" H 4900 4750 60  0001 C CNN "Mouser"
+F 5 "842-LFE5U85F6BG381C" H 4900 4750 60  0001 C CNN "Mouser"
 	6    4900 4750
 	1    0    0    -1  
 $EndComp
@@ -561,8 +560,7 @@ F 1 "LFE5U-85F-6BG381C" H 4950 3350 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 3900 3450 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 3900 3450 60  0001 C CNN
 F 4 "LFE5U-85F-6BG381C" H 4950 2500 60  0001 C CNN "MPN"
-F 5 "www.mouser.com" H 4950 2500 60  0001 C CNN "Mouser_URL"
-F 6 "842-LFE5U85F6BG381C" H 4950 2500 60  0001 C CNN "Mouser"
+F 5 "842-LFE5U85F6BG381C" H 4950 2500 60  0001 C CNN "Mouser"
 	1    4950 2500
 	1    0    0    -1  
 $EndComp

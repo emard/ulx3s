@@ -70,7 +70,6 @@ F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 3050 1750 50  0001 C CNN
 F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 1750 50  0001 C CNN
 F 4 "www.ckswitches.com" H 3050 2950 60  0001 C CNN "MNF1_URL"
 F 5 "PTS645SL50SMTR92 LFS" H 3050 2950 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 3050 2950 60  0001 C CNN "Mouser_URL"
 	1    3050 2950
 	1    0    0    -1  
 $EndComp
@@ -608,13 +607,12 @@ F 2 "LED_SMD:LED_0805_2012Metric" H 4550 2550 50  0001 C CNN
 F 3 "https://optoelectronics.liteon.com/upload/download/DS-22-99-0150/LTST-C170KRKT.pdf" H 4550 2550 50  0001 C CNN
 F 4 "www.liteon.com" H 4550 2550 60  0001 C CNN "MNF1_URL"
 F 5 "LTST-C170KRKT" H 4550 2550 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 4550 2550 60  0001 C CNN "Mouser_URL"
-F 7 "859-LTST-C170KRKT" H 4550 2550 60  0001 C CNN "Mouser"
-F 8 "160-1415-1-ND" H 4550 2550 50  0001 C CNN "Digikey"
-F 9 "C94868" H 4550 2550 50  0001 C CNN "LCSC"
-F 10 "0.0195$" H 4550 2550 50  0001 C CNN "price400_LCSC"
-F 11 "FV007" H 4550 2550 50  0001 C CNN "Koncar"
-F 12 "TB" H 4550 2550 50  0001 C CNN "Side"
+F 6 "859-LTST-C170KRKT" H 4550 2550 60  0001 C CNN "Mouser"
+F 7 "160-1415-1-ND" H 4550 2550 50  0001 C CNN "Digikey"
+F 8 "C94868" H 4550 2550 50  0001 C CNN "LCSC"
+F 9 "0.0195$" H 4550 2550 50  0001 C CNN "price400_LCSC"
+F 10 "FV007" H 4550 2550 50  0001 C CNN "Koncar"
+F 11 "TB" H 4550 2550 50  0001 C CNN "Side"
 	1    4550 2550
 	1    0    0    -1  
 $EndComp
@@ -628,14 +626,13 @@ F 2 "LED_SMD:LED_0805_2012Metric" H 4550 2750 50  0001 C CNN
 F 3 "https://optoelectronics.liteon.com/upload/download/DS-22-99-0185/LTST-C170KFKT.pdf" H 4550 2750 50  0001 C CNN
 F 4 "www.liteon.com" H 4550 2750 60  0001 C CNN "MNF1_URL"
 F 5 "LTST-C170KFKT" H 4550 2750 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 4550 2750 60  0001 C CNN "Mouser_URL"
-F 7 "859-LTST-C170KFKT" H 4550 2750 60  0001 C CNN "Mouser"
-F 8 "160-1413-1-ND" H 4550 2750 50  0001 C CNN "Digikey"
-F 9 "C284931" H 4550 2750 50  0001 C CNN "LCSC"
-F 10 "0.02075$" H 4550 2750 50  0001 C CNN "price200_LCSC"
-F 11 "LTST-C170KRKT" H 4550 2750 50  0001 C CNN "LowCost"
-F 12 "FV006" H 4550 2750 50  0001 C CNN "Koncar"
-F 13 "T" H 4550 2750 50  0001 C CNN "Side"
+F 6 "859-LTST-C170KFKT" H 4550 2750 60  0001 C CNN "Mouser"
+F 7 "160-1413-1-ND" H 4550 2750 50  0001 C CNN "Digikey"
+F 8 "C284931" H 4550 2750 50  0001 C CNN "LCSC"
+F 9 "0.02075$" H 4550 2750 50  0001 C CNN "price200_LCSC"
+F 10 "LTST-C170KRKT" H 4550 2750 50  0001 C CNN "LowCost"
+F 11 "FV006" H 4550 2750 50  0001 C CNN "Koncar"
+F 12 "T" H 4550 2750 50  0001 C CNN "Side"
 	1    4550 2750
 	1    0    0    -1  
 $EndComp
@@ -649,7 +646,6 @@ F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 3050 1950 50  0001 C CNN
 F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 1950 50  0001 C CNN
 F 4 "www.ckswitches.com" H 3050 3150 60  0001 C CNN "MNF1_URL"
 F 5 "PTS645SL50SMTR92 LFS" H 3050 3150 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 3050 3150 60  0001 C CNN "Mouser_URL"
 	1    3050 3150
 	1    0    0    -1  
 $EndComp
@@ -663,7 +659,6 @@ F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 3050 2150 50  0001 C CNN
 F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 2150 50  0001 C CNN
 F 4 "www.ckswitches.com" H 3050 3350 60  0001 C CNN "MNF1_URL"
 F 5 "PTS645SL50SMTR92 LFS" H 3050 3350 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 3050 3350 60  0001 C CNN "Mouser_URL"
 	1    3050 3350
 	1    0    0    -1  
 $EndComp
@@ -677,7 +672,6 @@ F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 3050 2350 50  0001 C CNN
 F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 2350 50  0001 C CNN
 F 4 "www.ckswitches.com" H 3050 3550 60  0001 C CNN "MNF1_URL"
 F 5 "PTS645SL50SMTR92 LFS" H 3050 3550 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 3050 3550 60  0001 C CNN "Mouser_URL"
 	1    3050 3550
 	1    0    0    -1  
 $EndComp
@@ -691,7 +685,6 @@ F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 3050 2550 50  0001 C CNN
 F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 2550 50  0001 C CNN
 F 4 "www.ckswitches.com" H 3050 3750 60  0001 C CNN "MNF1_URL"
 F 5 "PTS645SL50SMTR92 LFS" H 3050 3750 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 3050 3750 60  0001 C CNN "Mouser_URL"
 	1    3050 3750
 	1    0    0    -1  
 $EndComp
@@ -705,7 +698,6 @@ F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 3050 2750 50  0001 C CNN
 F 3 "http://www.ckswitches.com/media/1471/pts645.pdf" H 3050 2750 50  0001 C CNN
 F 4 "www.ckswitches.com" H 3050 3950 60  0001 C CNN "MNF1_URL"
 F 5 "PTS645SL50SMTR92 LFS" H 3050 3950 60  0001 C CNN "MPN"
-F 6 "www.mouser.com" H 3050 3950 60  0001 C CNN "Mouser_URL"
 	1    3050 3950
 	1    0    0    -1  
 $EndComp
