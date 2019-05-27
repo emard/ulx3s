@@ -1,6 +1,5 @@
 (sym_lib_table
   (lib (name ulx3s-rescue)(type Legacy)(uri ${KIPRJMOD}/ulx3s-rescue.lib)(options "")(descr ""))
-  (lib (name ESP8266)(type Legacy)(uri ${KIPRJMOD}/footprints/esp8266/ESP8266.lib)(options "")(descr ""))
   (lib (name lfe5bg381)(type Legacy)(uri ${KIPRJMOD}/footprints/lattice/lfe5bg381.lib)(options "")(descr ""))
   (lib (name ft2232)(type Legacy)(uri ${KIPRJMOD}/footprints/usbserial/ft2232.lib)(options "")(descr ""))
   (lib (name esp-wroom32)(type Legacy)(uri ${KIPRJMOD}/footprints/esp32/esp-wroom32.lib)(options "")(descr ""))
