@@ -1,5 +1,5 @@
-### Module positions - created on Fri Sep  7 12:39:35 2018 ###
-### Printed by Pcbnew version kicad 5.0.0+dfsg1-2
+### Module positions - created on ponedjeljak, 27. svibnja 2019. 16:37:00 CEST ###
+### Printed by Pcbnew version kicad 5.0.2+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                Package                                           PosX       PosY       Rot  Side
@@ -33,17 +33,17 @@ D18       GREEN              LED_0805_2012Metric                            34.2
 D19       RED                LED_0805_2012Metric                            36.8300     6.3500   90.0000  top
 D22       BLUE               LED_0805_2012Metric                            31.7500     6.3500   90.0000  top
 GPDI1     GPDI-D             CONN-10029449-111RLF                           51.1960    42.9080  180.0000  top
-R36       680                R_0603_1608Metric                              34.2900     2.5400  270.0000  top
-R37       680                R_0603_1608Metric                              36.8300     2.5400   90.0000  top
-R41       680                R_0603_1608Metric                              26.6700    29.7180   90.0000  top
-R42       680                R_0603_1608Metric                              24.1300    29.7180   90.0000  top
-R43       680                R_0603_1608Metric                              21.5900    29.7180   90.0000  top
-R44       680                R_0603_1608Metric                              19.0500    29.7180   90.0000  top
-R45       680                R_0603_1608Metric                              16.5100    29.7180   90.0000  top
-R46       680                R_0603_1608Metric                              13.9700    29.7180   90.0000  top
-R47       680                R_0603_1608Metric                              11.4300    29.7180   90.0000  top
-R48       680                R_0603_1608Metric                               8.8900    29.7180   90.0000  top
-R62       680                R_0603_1608Metric                              31.7500     2.5400  270.0000  top
+R36       549                R_0603_1608Metric                              34.2900     2.5400  270.0000  top
+R37       549                R_0603_1608Metric                              36.8300     2.5400   90.0000  top
+R41       549                R_0603_1608Metric                              26.6700    29.7180   90.0000  top
+R42       549                R_0603_1608Metric                              24.1300    29.7180   90.0000  top
+R43       549                R_0603_1608Metric                              21.5900    29.7180   90.0000  top
+R44       549                R_0603_1608Metric                              19.0500    29.7180   90.0000  top
+R45       549                R_0603_1608Metric                              16.5100    29.7180   90.0000  top
+R46       549                R_0603_1608Metric                              13.9700    29.7180   90.0000  top
+R47       549                R_0603_1608Metric                              11.4300    29.7180   90.0000  top
+R48       549                R_0603_1608Metric                               8.8900    29.7180   90.0000  top
+R62       549                R_0603_1608Metric                              31.7500     2.5400  270.0000  top
 RV3       0                  R_0805_2012Metric_Pad1.29x1.40mm_HandSolder    40.1470    42.6540    0.0000  top
 SD1       SCHD3A0100         SCHD3A100                                      20.9500     8.7200  270.0000  top
 SW1       SW_DIP_x04         SW_DIP_x4_W8.61mm_Slide_LowProfile             66.0400    38.1000   90.0000  top
