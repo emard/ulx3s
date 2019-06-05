@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 7 11
 Title "ULX3S"
 Date ""
-Rev "1.0.1"
+Rev "1.0.2"
 Comp "EMARD"
 Comment1 "WIFI module ESP32"
 Comment2 ""
@@ -287,68 +287,6 @@ Text Notes 8550 3850 0    60   ~ 0
 NC v1.7
 Text Notes 8550 4050 0    60   ~ 0
 NC v1.7
-Wire Wire Line
-	7100 5200 7100 5300
-Wire Wire Line
-	7100 5300 8350 5300
-Wire Wire Line
-	8350 5300 8350 3700
-Wire Wire Line
-	8350 3700 8200 3700
-Text Label 7350 5300 0    60   ~ 0
-LED
-Wire Wire Line
-	6800 4550 6800 5050
-Wire Wire Line
-	6800 5050 7100 5050
-Wire Wire Line
-	7100 5050 7100 4900
-Wire Wire Line
-	6600 4550 6600 5150
-Wire Wire Line
-	6600 5150 7000 5150
-Wire Wire Line
-	7000 5150 7000 4950
-Wire Wire Line
-	6900 4550 6900 5500
-Wire Wire Line
-	6900 5500 8250 5500
-Wire Wire Line
-	8250 5500 8250 4000
-Wire Wire Line
-	8250 4000 7950 4000
-Wire Wire Line
-	6700 4550 6700 5300
-Wire Wire Line
-	6700 5300 5000 5300
-Wire Wire Line
-	5000 5300 5000 3950
-Wire Wire Line
-	5000 3950 5250 3950
-Wire Wire Line
-	6400 4550 6400 5200
-Wire Wire Line
-	6400 5200 5100 5200
-Wire Wire Line
-	5100 5200 5100 4050
-Wire Wire Line
-	5100 4050 5250 4050
-Wire Wire Line
-	6300 4900 6300 5100
-Wire Wire Line
-	6300 5100 6500 5100
-Wire Wire Line
-	6500 5100 6500 4550
-Wire Wire Line
-	7000 5200 7000 5400
-Wire Wire Line
-	7000 5400 8500 5400
-Wire Wire Line
-	8500 5400 8500 3800
-Wire Wire Line
-	8500 3800 8200 3800
-Text Label 7350 5400 0    60   ~ 0
-WIFI_GPIO17
 Text Notes 7350 5700 0    60   ~ 0
 LED and WIFI_GPIO17\nto solder pads of PCB
 Text Notes 4500 3900 0    60   ~ 0
