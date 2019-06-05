@@ -1,4 +1,4 @@
-### Module positions - created on ponedjeljak, 27. svibnja 2019. 16:37:00 CEST ###
+### Module positions - created on srijeda, 05. lipnja 2019. 12:28:49 CEST ###
 ### Printed by Pcbnew version kicad 5.0.2+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -51,9 +51,9 @@ C54       22uF             C_0805_2012Metric                             -75.072
 C55       22uF             C_0805_2012Metric                             -84.9780    20.3020  270.0000  bottom
 C56       3.3pF            C_0603_1608Metric                             -84.9780    16.7460  270.0000  bottom
 C57       3.3pF            C_0603_1608Metric                             -82.1840     8.5090  180.0000  bottom
-C58       22uF             C_0805_2012Metric                             -73.8020    23.8580   90.0000  bottom
-C59       220nF            C_0603_1608Metric                             -72.1510    23.8580   90.0000  bottom
+C58       22uF             C_0805_2012Metric                             -75.0570    19.3040  270.0000  bottom
 C60       220nF            C_0603_1608Metric                             -72.8980    41.9100    0.0000  bottom
+C61       22uF             C_0805_2012Metric                             -71.8820    23.7490   90.0000  bottom
 D8        STPS2L30AF       D_SMA                                         -18.0490    42.1460    0.0000  bottom
 D10       1N914            D_SOD-323_HandSoldering                       -76.2000    27.9400    0.0000  bottom
 D11       RED              LED_0805_2012Metric                           -85.0900    32.3850   90.0000  bottom
@@ -74,7 +74,8 @@ D29       1N914            D_SOD-323_HandSoldering                       -46.101
 L1        2.2uH            L_1008_1210                                   -64.7700    24.1300  180.0000  bottom
 L2        2.2uH            L_1008_1210                                   -10.7950    23.4950    0.0000  bottom
 L3        2.2uH            L_1008_1210                                   -62.2300    37.4650  180.0000  bottom
-L4        33uH             L_0805_2012Metric_Pad1.29x1.40mm_HandSolder   -75.7070    23.8580  270.0000  bottom
+L4        33uH             L_0805_2012Metric_Pad1.15x1.40mm_HandSolder   -75.6920    23.7490  270.0000  bottom
+L5        33uH             L_0805_2012Metric_Pad1.15x1.40mm_HandSolder   -73.7870    23.7490  270.0000  bottom
 Q1        BC857            SOT-23                                        -81.9150    27.9400   90.0000  bottom
 Q2        2N7002           SOT-23                                        -76.8350    36.1950  180.0000  bottom
 R1        4.7k             R_0603_1608Metric                             -76.2000    29.8450    0.0000  bottom

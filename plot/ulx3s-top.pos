@@ -1,4 +1,4 @@
-### Module positions - created on ponedjeljak, 27. svibnja 2019. 16:37:00 CEST ###
+### Module positions - created on srijeda, 05. lipnja 2019. 12:28:49 CEST ###
 ### Printed by Pcbnew version kicad 5.0.2+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -21,6 +21,8 @@ C42       220nF              C_0603_1608Metric                              44.6
 C43       220nF              C_0603_1608Metric                              47.4980    36.4490   90.0000  top
 C44       220nF              C_0603_1608Metric                              50.2920    36.4490   90.0000  top
 C45       220nF              C_0603_1608Metric                              53.4670    36.4610   90.0000  top
+C59       220nF              C_0603_1608Metric                              78.8670    15.1130   90.0000  top
+C62       220nF              C_0603_1608Metric                              78.8670     8.8900  270.0000  top
 D0        RED                LED_0805_2012Metric                            26.6700    32.6210  270.0000  top
 D1        ORANGE             LED_0805_2012Metric                            24.1300    32.6210  270.0000  top
 D2        GREEN              LED_0805_2012Metric                            21.5900    32.6210  270.0000  top
