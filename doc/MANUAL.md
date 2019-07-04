@@ -617,3 +617,5 @@ soldered.
     v3.0.3    INEM-KONČAR    35         jan 2019     v20             for sale
     v2.0.5    Zvone          2          mar 2019     v20             handwork
     v3.0.6    Sam Littlewood 2          mar 2019     v20             handwork
+    v3.0.?    Kalle          1          jul 2019     v20             handwork
+    v3-0.7    Watterott      100        --- ----     v20             for sale
