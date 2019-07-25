@@ -124,9 +124,7 @@ or from [ULX3S at Kitspace](https://kitspace.org/boards/github.com/emard/ulx3s),
 which automatically submits [Simplified 1-click BOM](/1-click-bom.tsv) by
 clicking on "Digikey" or "Mouser" button. On each click, Digikey and Mouser will keep
 accumulating the BOM in the shopping cart. Number of unique parts on Digikey and Mouser
-should be equal but Digikey scripts have bugs. 
-First time click on "Digikey" will upload a partial BOM, then the shopping
-cart must be reset and next click on "Digikey" will upload complete BOM.
+should be equal but DigiKey may split some parts (LEDs) in multiple rows.
 To reset shopping cart, click "New Cart" or "New Basket".
 Kitspace may be updated with about 1 day delay after this project update.
 
