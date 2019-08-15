@@ -590,6 +590,26 @@ contrast color picture :)
 
 ![OLED 1-PIXEL FONT](/pic/oled-1-pixel-wide-font.jpg)
 
+# AUDIO Jack to Cinch Cable
+
+ULX3S 3.5 mm audio jack is compatible with stereo earphones/headphones.
+Output is loud enough, amplifier is not needed. It has 3-channel 4-bit
+DAC with 75 ohm output impedance and 0-3.3V DC swing.
+
+To use 3rd channel for SPDIF audio or compositie video together with
+2-channel analog audio, use Apple/Nokia compatible 3-cinch cable.
+It can be easily found on ebay, search for
+"3.5mm 4 Pole Male Plug To 3 RCA (Red/Yellow/White) Female Jack Cable".
+
+WARNING: Sony compatible 3-cinch cables are NOT SUITABLE for ULX3S!
+Sony cables are the most often found in consumer audio/video shops.
+Visually they look identical, but the pinout is different.
+Check the unknown cable pinout with instrument.
+
+Correct pinout is this:
+
+![AUDIO JACK TO CINCH](/pic/cinch_jack.jpg)
+
 # Board Versions
 
 This project is open source, freely downloadable so there can be
