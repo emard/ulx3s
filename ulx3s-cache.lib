@@ -9,7 +9,7 @@ F1 "Connector_Generic_Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
 S -50 5 0 -5 1 1 6 N
@@ -404,6 +404,9 @@ F0 "JP" 0 80 50 H V C CNN
 F1 "Device_Jumper_NC_Small" 10 -60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+$ENDFPLIST
 DRAW
 A 0 -10 57 450 1350 0 1 0 N 40 30 -40 30
 C -40 0 20 0 1 0 N
@@ -420,6 +423,9 @@ F0 "JP" 0 80 50 H V C CNN
 F1 "Device_Jumper_NO_Small" 10 -60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Open*
+$ENDFPLIST
 DRAW
 C -40 0 20 0 1 0 N
 C 40 0 20 0 1 0 N
@@ -668,7 +674,7 @@ ENDDEF
 #
 # Timer_RTC_PCF8563T
 #
-DEF Timer_RTC_PCF8563T U 0 40 Y Y 1 F N
+DEF Timer_RTC_PCF8563T U 0 20 Y Y 1 F N
 F0 "U" -300 350 50 H V L CNN
 F1 "Timer_RTC_PCF8563T" 100 350 50 H V L CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 0 50 H I C CNN
