@@ -312,3 +312,5 @@ Here is checklist what was done or should be done in the next PCB release.
     [ ] FT2232H port B MPSSE JTAG, powered from 3.3V onboard.
         SOT-23-6 SPI EEPROM like 24CW1280T-I/OT placeholder
         by default SPI also routed to FPGA for emulation
+    [ ] Pull-up <10k for clk_oe
+
