@@ -638,5 +638,7 @@ soldered.
     v2.0.5    Zvone          2          mar 2019     v20             handwork
     v3.0.6    Sam Littlewood 2          mar 2019     v20             handwork
     v3.0.7    Kalle          1          jul 2019     v20             handwork
-    v3-0.7    Watterott      8          Aug 2019     v20             for sale
+    v3.0.7    Watterott      8          Aug 2019     v20             for sale
     v3.0.3    Anil Gurses    1          Aug 2019     v20             handwork
+    v3.0.8    Forksand       1          Oct 2019     v20             handwork
+    v3.0.8    Lolsborn       1          Oct 2019     v20             handwork
