@@ -642,3 +642,4 @@ soldered.
     v3.0.3    Anil Gurses    1          Aug 2019     v20             handwork
     v3.0.8    SierraCircuits 1          Oct 2019     v20             prototype
     v3.0.8    Lolsborn       1          Oct 2019     v20             handwork
+    v3.0.3    INEM-KONČAR    220        oct 2019     v20             for sale
