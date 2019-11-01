@@ -1,1 +1,1 @@
-../ulx3s-F.Mask.gts
+../ulx3s-F_Mask.gts
