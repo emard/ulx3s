@@ -454,9 +454,9 @@ write config to eeprom:
 
 re-plug USB to reload new eeprom content.
 
-# Programming over WiFi
+# Programming over WiFi (ESP32 firmware)
 
-ESP-32 provides standalone JTAG SVF player over web HTTP and TCP interface for
+ESP-32 firmware provides standalone JTAG SVF player over web HTTP and TCP interface for
 programming and flashing in convenient and OS independent way. Web interface
 requires no client software installed but web browser. It is much faster than
 FT231X but still not as fast as FT2232. It accepts SVF files but you need to limit
@@ -548,6 +548,17 @@ Such combination will preventing JTAG from working so
 ULX3S board may become "Bricked". There is jumper J3 to disable
 ESP-32, its left of SD card slot. Note boards PCB v1.7 need
 upgrade for this jumper to work correctly.
+
+Precompiled ESP32 firmware from
+[ESP32 LibXSVF-ESP source](https://github.com/emard/LibXSVF-ESP):
+
+# Programming over WiFi (ESP32 micropython)
+
+[Micropython ESP32 ECP5 programmer](https://github.com/emard/esp32ecp5)
+can be used from WiFi remote shell prompt or
+integrated in FTP or WEB server also written in micropython
+and running on ESP32 for user-customizeable applications.
+Easy programming, rapid development.
 
 # Programming ESP32
 
