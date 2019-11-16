@@ -654,3 +654,4 @@ soldered.
     v3.0.8    SierraCircuits 1          oct 2019     v20             prototype
     v3.0.8    Lolsborn       1          oct 2019     v20             handwork
     v3.0.3    INEM-KONČAR    220        oct 2019     v20             for sale
+    v3.0.7    Watterott      88         nov 2019     v20             for sale
