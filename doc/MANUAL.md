@@ -632,6 +632,16 @@ you need 3 but it's double-packed, so buy 2, you get 4
 
 ![RJ45-male to USB-female](/pic/RJ45-male-to-USB-female.jpg)
 
+# ETHERNET RJ45
+
+ULX3S doesn't have onboard RJ45 ethernet but on ebay
+there are cheap 100-Mbit RMII-standard pin compatible ethernet modules
+which can be directly plugged into ULX3S:
+
+[LAN8720 RMII RJ45 Ethernet module](https://www.ebay.com/itm/1pcs-Smart-Electronics-LAN8720-network-module-Ethernet-transceiver-for-arduino/183479331440)
+
+![LAN8720 RMII RJ45 Ethernet module](/pic/LAN8720.png)
+
 # AUDIO Jack to Cinch Cable
 
 ULX3S 3.5 mm audio jack is compatible with stereo earphones/headphones.
