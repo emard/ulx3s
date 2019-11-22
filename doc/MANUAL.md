@@ -607,13 +607,11 @@ Here is list of some useful cables and adapters for US2 connector
 
 For US2 to various things:
 
-[OTG
-adapter](https://www.ebay.com/itm/Micro-USB-2-0-A-Female-to-B-Male-Converter-OTG-Adapter-Cable-for-Samsung-HTC-LG/311201513107)
+[micro-USB-male to USB-female aka OTG adapter](https://www.ebay.com/itm/Micro-USB-2-0-A-Female-to-B-Male-Converter-OTG-Adapter-Cable-for-Samsung-HTC-LG/311201513107)
 
 For PS/2 keyboard or mouse:
 
-[male USB to female PS/2
-adapter](https://www.ebay.com/itm/PS-2-Adapter-Female-To-USB-Male-Converter-Keyboard-Mouse-Adaptor-Connector-Mini-/303015055836)
+[USB-male to PS/2-female](https://www.ebay.com/itm/PS-2-Adapter-Female-To-USB-Male-Converter-Keyboard-Mouse-Adaptor-Connector-Mini-/303015055836)
 
 For electrical USB sniffer you need this:
 
