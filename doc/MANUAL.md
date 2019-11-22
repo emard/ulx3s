@@ -617,11 +617,11 @@ adapter](https://www.ebay.com/itm/PS-2-Adapter-Female-To-USB-Male-Converter-Keyb
 
 For electrical USB sniffer you need this:
 
-[USB male-to-male](https://www.ebay.com/itm/351868263369)
+[USB-male to USB-male](https://www.ebay.com/itm/351868263369)
 
-[RJ45 1-male-to-3-female](https://www.ebay.com/itm/RJ45-1-To-3-Ethernet-LAN-Network-Cable-Splitter-Extender-Adapter-Connector-KY/113393365472)
+[1-RJ45-male to 3-RJ45-female](https://www.ebay.com/itm/RJ45-1-To-3-Ethernet-LAN-Network-Cable-Splitter-Extender-Adapter-Connector-KY/113393365472)
 
-[RJ45-to-USB](https://www.ebay.com/itm/2Pcs-Ethernet-RJ45-Male-to-USB-Female-Connector-Converter-Adapter-LAN-Network/391958541369)
+[RJ45-male to USB-female](https://www.ebay.com/itm/2Pcs-Ethernet-RJ45-Male-to-USB-Female-Connector-Converter-Adapter-LAN-Network/391958541369)
 you need 3 but it's double-packed, so buy 2, you get 4
 
 # AUDIO Jack to Cinch Cable
