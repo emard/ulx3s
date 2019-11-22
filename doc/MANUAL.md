@@ -608,23 +608,28 @@ Here is list of some useful cables and adapters for US2 connector
 For US2 to various things:
 
 [micro-USB-male to USB-female aka OTG adapter](https://www.ebay.com/itm/Micro-USB-2-0-A-Female-to-B-Male-Converter-OTG-Adapter-Cable-for-Samsung-HTC-LG/311201513107)
+
 ![micro-USB-male to USB-female](/pic/micro-USB-male-to-USB-female.jpg)
 
 For PS/2 keyboard or mouse:
 
 [USB-male to PS/2-female](https://www.ebay.com/itm/PS-2-Adapter-Female-To-USB-Male-Converter-Keyboard-Mouse-Adaptor-Connector-Mini-/303015055836)
+
 ![USB-male to PS/2-female](/pic/USB-male-to-PS2-female.jpg)
 
 For electrical USB sniffer you need this:
 
 [USB-male to USB-male](https://www.ebay.com/itm/351868263369)
+
 ![USB-male to USB-male](/pic/USB-male-to-USB-male.jpg)
 
 [1-RJ45-male to 3-RJ45-female](https://www.ebay.com/itm/RJ45-1-To-3-Ethernet-LAN-Network-Cable-Splitter-Extender-Adapter-Connector-KY/113393365472)
+
 ![1-RJ45-male to 3-RJ45-female](/pic/1RJ45-male-to-3RJ45-female.jpg)
 
 [RJ45-male to USB-female](https://www.ebay.com/itm/2Pcs-Ethernet-RJ45-Male-to-USB-Female-Connector-Converter-Adapter-LAN-Network/391958541369)
 you need 3 but it's double-packed, so buy 2, you get 4
+
 ![RJ45-male to USB-female](/pic/RJ45-male-to-USB-female.jpg)
 
 # AUDIO Jack to Cinch Cable
