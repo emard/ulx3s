@@ -601,6 +601,29 @@ contrast color picture :)
 
 ![OLED 1-PIXEL FONT](/pic/oled-1-pixel-wide-font.jpg)
 
+# US2 connector as OTG, PS/2 or sniffer
+
+Here is list of some useful cables and adapters for US2 connector
+
+For US2 to various things:
+
+[OTG
+adapter](https://www.ebay.com/itm/Micro-USB-2-0-A-Female-to-B-Male-Converter-OTG-Adapter-Cable-for-Samsung-HTC-LG/311201513107)
+
+For PS/2 keyboard or mouse:
+
+[male USB to female PS/2
+adapter](https://www.ebay.com/itm/PS-2-Adapter-Female-To-USB-Male-Converter-Keyboard-Mouse-Adaptor-Connector-Mini-/303015055836)
+
+For electrical USB sniffer you need this:
+
+[USB male-to-male](https://www.ebay.com/itm/351868263369)
+
+[RJ45 1-male-to-3-female](https://www.ebay.com/itm/RJ45-1-To-3-Ethernet-LAN-Network-Cable-Splitter-Extender-Adapter-Connector-KY/113393365472)
+
+[RJ45-to-USB](https://www.ebay.com/itm/2Pcs-Ethernet-RJ45-Male-to-USB-Female-Connector-Converter-Adapter-LAN-Network/391958541369)
+you need 3 but it's double-packed, so buy 2, you get 4
+
 # AUDIO Jack to Cinch Cable
 
 ULX3S 3.5 mm audio jack is compatible with stereo earphones/headphones.
