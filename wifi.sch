@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ulx3s-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,7 +45,7 @@ U 1 1 58E5662B
 P 6650 3450
 F 0 "U9" H 5950 4700 60  0000 C CNN
 F 1 "ESP32-WROOM" H 6950 4700 60  0000 C CNN
-F 2 "ESP32:ESP32-WROOM-stencil" H 7000 4800 60  0001 C CNN
+F 2 "ESP32:ESP32-WROOM32" H 7000 4800 60  0001 C CNN
 F 3 "http://espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 6200 3900 60  0001 C CNN
 F 4 "espressif.com" H 6650 3450 60  0001 C CNN "MNF1_URL"
 F 5 "ESP-WROOM-32" H 6650 3450 60  0001 C CNN "MPN"

@@ -13,7 +13,7 @@
   (lib (name oled)(type KiCad)(uri "$(KIPRJMOD)/footprints/oled/oled.pretty")(options "")(descr ""))
   (lib (name oscxo)(type KiCad)(uri "$(KIPRJMOD)/footprints/crystal/oscxo.pretty")(options "")(descr ""))
   (lib (name micro-sd-schd3a0100)(type KiCad)(uri "$(KIPRJMOD)/footprints/micro-sd/micro-sd-schd3a0100.pretty")(options "")(descr ""))
-  (lib (name ESP32)(type KiCad)(uri "$(KIPRJMOD)/footprints/esp32/ESP32-WROOM-stencil.pretty")(options "")(descr ""))
+  (lib (name ESP32)(type KiCad)(uri "$(KIPRJMOD)/footprints/esp32/ESP32-WROOM32.pretty")(options "")(descr ""))
   (lib (name emard)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/emard.pretty")(options "")(descr ""))
   (lib (name radiona)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/radiona.pretty")(options "")(descr ""))
   (lib (name riz)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/riz.pretty")(options "")(descr ""))
