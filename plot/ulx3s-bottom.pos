@@ -1,4 +1,4 @@
-### Module positions - created on petak, 13. prosinca 2019. 13:58:31 CET ###
+### Module positions - created on petak, 13. prosinca 2019. 14:13:05 CET ###
 ### Printed by Pcbnew version kicad 5.1.5+dfsg1-2
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -143,7 +143,7 @@ U4        TLV62569DBV      TSOT-25                                        -9.525
 U5        TLV62569DBV      TSOT-25                                       -64.1350    33.5280    0.0000  bottom
 U6        FT231XS          FT231X-SSOP-20_4.4x6.5mm_Pitch0.65mm          -38.7350     5.0800  180.0000  bottom
 U7        MCP7940NT        SOT96-1                                       -79.3900    18.9050   90.0000  bottom
-U9        ESP32-WROOM      ESP32-WROOM-stencil                           -23.1300     6.4700  180.0000  bottom
+U9        ESP32-WROOM      ESP32-WROOM32                                 -23.1300     6.4700  180.0000  bottom
 U10       IS25LP128F-JBLE  SOA008-150-208mil                             -24.1450    26.3980  270.0000  bottom
 U11       PCA9306D         SM8                                           -50.5800    46.4185   90.0000  bottom
 Y2        32768Hz          Crystal_SMD_ABS25                             -81.6760    12.2980  180.0000  bottom
