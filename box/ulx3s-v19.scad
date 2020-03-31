@@ -14,6 +14,9 @@ include <upbox.scad>
   Pins          = 1; // button pins
   Pin           = 0; // one pin
 
+// Flat Cable holes
+  FlatCable     = 1;
+
 //Texte façade - Front text
   Text          = 1;// [0:No, 1:Yes]
   
@@ -110,8 +113,8 @@ Thick           = 2;//[2:5]
 // - lissage de l'arrondi - Filet smoothness  
   Resolution    = 20;//[1:100] 
 // - Tolérance - Tolerance (Panel/rails gap)
-  m             = 0.8;
-  mz            = 1.0; // panels height tolerance
+  m             = 0.7;
+  mz            = 0.7; // panels height tolerance
 // mounting legs clearance
   MountClearance = 0.1;
   // clearance between Top and Bottom shell
@@ -147,6 +150,8 @@ PCBL=PCBLength;
 PCBW=PCBWidth;
 //echo (" PCBWidth = ",PCBW);
 
+// flat cable connector spacing between centers
+flatcable_spacing = 35*2.54;
 
 
 ///////////////////////////////////// - Main - ///////////////////////////////////////
@@ -191,6 +196,25 @@ module connector_cut()
       translate([67.31,cy,9.5])
         cube([13,10,9],center=true);
   }    
+}
+
+module flatcable_cut()
+{
+  height=5;
+  width=6.3;
+  length=56;
+  notch=2;
+  notch_length=4;
+  translate((Fxy[0]+Fxy[3])/2)
+  {
+    for(i=[-1:2:1])
+      translate([flatcable_spacing*i/2,0,height/2-0.01])
+      {
+        cube([width,length,height],center=true);
+        translate([-i*notch,0,0])
+        cube([width,notch_length,height],center=true);
+      }
+  }
 }
 
 // xyz positions of all buttons
@@ -405,6 +429,8 @@ difference()
    }
    connector_cut();
    bottom_cut();
+   if(FlatCable)
+     flatcable_cut();
 }
   if(0)
   if (PCBFeet==1)  // Feet
