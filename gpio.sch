@@ -648,7 +648,7 @@ Wire Notes Line
 Wire Notes Line
 	7450 3500 7350 3500
 Text Notes 7250 3400 0    60   ~ 0
-STPS2L30AF
+STPS2L40AF
 Wire Notes Line
 	9550 3500 9450 3500
 Wire Notes Line
@@ -662,7 +662,7 @@ Wire Notes Line
 Wire Notes Line
 	9400 3500 9300 3500
 Text Notes 9150 3400 0    60   ~ 0
-STPS2L30AF
+STPS2L40AF
 NoConn ~ 4200 3000
 NoConn ~ 4200 3100
 NoConn ~ 5700 3000
