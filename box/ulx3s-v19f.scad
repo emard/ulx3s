@@ -4,14 +4,14 @@ include <upbox.scad>
 //Coque haut - Top shell
   TShell        = 1;// [0:No, 1:Yes]
 //Coque bas- Bottom shell
-  BShell        = 0;// [0:No, 1:Yes]
+  BShell        = 1;// [0:No, 1:Yes]
 //Front panel ULX3S text
-  FPanel        = 0;// [0:No, 1:Yes]
+  FPanel        = 1;// [0:No, 1:Yes]
 //Rear panel DB9 opening
-  BPanel        = 0;// [0:No, 1:Yes]
+  BPanel        = 1;// [0:No, 1:Yes]
 // Font color: at height 2.7: M600; change filament
 // button pins
-  Pins          = 0; // button pins
+  Pins          = 1; // button pins
   Pin           = 0; // one pin
 
 // Flat Cable holes
@@ -101,9 +101,9 @@ Thick           = 2;//[2:5]
 /* [Box dimensions] */
 // - Length  
   Length        = PCBLength+2*(2*Thick+FootClrX);
-// - Width add +3 for 1.5" display
-  Width         = PCBWidth+2*(1*Thick+FootClrY+3);
-// - Height  
+// - Width add +1.3 for 1.5" display
+  Width         = PCBWidth+2*(1*Thick+FootClrY+1.3);
+// - Height 25 without flat cable, 28 with flat cable
   Height        = 28;
 
 /* [Box options] */
@@ -124,8 +124,8 @@ Thick           = 2;//[2:5]
 // - lissage de l'arrondi - Filet smoothness  
   Resolution    = 20;//[1:100] 
 // - Tolérance - Tolerance (Panel/rails gap)
-  m             = 0.8;
-  mz            = 1.0; // panels height tolerance
+  m             = 0.9;
+  mz            = 1.1; // panels height tolerance
 // mounting legs clearance
   MountClearance = 0.1;
   // clearance between Top and Bottom shell
@@ -300,9 +300,9 @@ module top_cut()
         rotate([0,0,-display_rotation])
           cube([24,24,10],center=true);
       if(display_type==2) // ST7789 1.54"
-      translate([PCBLength/2-2,PCBWidth/2+4+display_center,0])
+      translate([PCBLength/2-2.5,PCBWidth/2+4.5+display_center,0])
         rotate([0,0,-display_rotation])
-          cube([27,27,10],center=true);
+          cube([30,30,10],center=true);
       if(display_type==3) // SSD1331 0.96"
       translate([PCBLength/2-1,PCBWidth/2-2+display_center,0])
         rotate([0,0,-display_rotation])
@@ -381,8 +381,8 @@ module bottom_cut()
 module flatcable_cut()
 {
   height=Height-Fh-2.54;
-  width=6.3;
-  length=56;
+  width=6.5;
+  length=56.2;
   notch=2;
   notch_length=4;
   translate((Fxy[0]+Fxy[3])/2)
