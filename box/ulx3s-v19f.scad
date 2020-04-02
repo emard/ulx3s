@@ -101,8 +101,8 @@ Thick           = 2;//[2:5]
 /* [Box dimensions] */
 // - Length  
   Length        = PCBLength+2*(2*Thick+FootClrX);
-// - Width add +1.3 for 1.5" display
-  Width         = PCBWidth+2*(1*Thick+FootClrY+1.3);
+// - Width add +1.5 for 1.5" display
+  Width         = PCBWidth+2*(1*Thick+FootClrY+1.5);
 // - Height 25 without flat cable, 28 with flat cable
   Height        = 28;
 
