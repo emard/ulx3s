@@ -1,23 +1,23 @@
 include <upbox.scad>
 
 /* [STL element to export] */
-//Coque haut - Top shell
-  TShell        = 1;// [0:No, 1:Yes]
-//Coque bas- Bottom shell
-  BShell        = 1;// [0:No, 1:Yes]
-//Front panel ULX3S text
-  FPanel        = 1;// [0:No, 1:Yes]
-//Rear panel DB9 opening
-  BPanel        = 1;// [0:No, 1:Yes]
+// Top shell
+  TShell        = 0; // [0:No, 1:Yes]
+// Bottom shell
+  BShell        = 1; // [0:No, 1:Yes]
+// Front panel ULX3S text
+  FPanel        = 0; // [0:No, 1:Yes]
+// Rear panel DB9 opening
+  BPanel        = 0; // [0:No, 1:Yes]
 // Font color: at height 2.7: M600; change filament
 // button pins
-  Pins          = 1; // button pins
+  Pins          = 0; // button pins
   Pin           = 0; // one pin
 
 // Flat Cable holes
   FlatCable     = 1;
 
-//Texte façade - Front text
+// Front text
   Text          = 1;// [0:No, 1:Yes]
 
 // display_type:
@@ -27,7 +27,7 @@ include <upbox.scad>
 // 3:SSD1331  96x64  0.96"
 // 4:SSD1351 128x128 1.5"
 // 5:SSD1306 128x64  1.3"
-display_type = 2;
+display_type = 1;
 display_center = 0; // Y center adjust +up -down
 display_rotation = 0; // display z-rotation  adjust deg +cw -ccw
 
@@ -39,7 +39,7 @@ M600 ; Pause print to change filament
 */
 
 /*//////////////////////////////////////////////////////////////////
-              -  mjesečno po svojem parkir  FB Aka Heartman/Hearty 2016     -                   
+              -   Heartman/Hearty 2016     -                   
               -   http://heartygfx.blogspot.com    -                  
               -       OpenScad Parametric Box      -                     
               -         CC BY-NC 3.0 License       -                      
@@ -63,7 +63,7 @@ M600 ; Pause print to change filament
 ////////////////////////////////////////////////////////////////////
 
 
-////////// - Paramètres de la boite - Box parameters - /////////////
+////////// - Box parameters - /////////////
 
 /* [PCB_Feet--TheBoard_Will_NotBeExported) ] */
 //All dimensions are from the center foot axis
@@ -78,7 +78,7 @@ PCBWidth        = 17*2.54;
 // Thickness of PCB
 PCBThick        = 1.6;
 PCBThickTol     = 0.0;
-BFclr = 0.2; // bottom feet clearance
+BFclr = 0.4; // bottom feet clearance
 // - Heuteur pied - Feet height
 FootHeight      = 7;
 // - Diamètre pied - Foot diameter
@@ -96,7 +96,6 @@ FootmvY = 3; // move foot out of center y direction
 
 // - Wall thickness  
 Thick           = 2;//[2:5]  
-
 
 /* [Box dimensions] */
 // - Length  
@@ -125,7 +124,7 @@ Thick           = 2;//[2:5]
   Resolution    = 20;//[1:100] 
 // - Tolérance - Tolerance (Panel/rails gap)
   m             = 0.9;
-  mz            = 1.1; // panels height tolerance
+  mz            = 1.0; // panels height tolerance
 // mounting legs clearance
   MountClearance = 0.1;
   // clearance between Top and Bottom shell
@@ -171,8 +170,8 @@ flatcable_spacing = 35*2.54;
   // mounting hole xy-position
   Footx = 2*Thick+FootClrX;
   Footy = Thick+FootClrY+FootmvY;
-  Fh = 17.0; // top feet height
-  
+  Fh = 16.5; // top feet height
+
   // foot xy positions
   Fxy = [
   [Footx, Footy, 0],
@@ -187,7 +186,7 @@ module connector_cut()
   //footx = 2*Thick+FootClrX;
   //footy = Thick+FootClrY;
   cy = 60-8;
-  translate([Footx,Footy,-0.7+Height-25])
+  translate([Footx,Footy,-0.2+Height-25])
   {
       // cut off for WiFi
       translate([24-10,-10,7])
@@ -224,14 +223,16 @@ button_pos =
   [68.58,0,0] // btn6  
 ];
 
+tube_h=8.5; // btn tube height
+tube_id=7; // button tube inner diameter
+tube_od=9; // tube outer diameter
+
 // addition to top shell - button tubes
 module top_add()
 {
   // mounting hole xy-position
   //footx = 2*Thick+FootClrX;
   //footy = Thick+FootClrY;
-  tube_h=9.5;
-  tube_od=9; // tube outer diameter
   translate([Footx,Footy,Height-tube_h/2])
   {
       // btn hole
@@ -258,7 +259,7 @@ module top_add()
 module button_pin()
 {
   pin_d1=6; // top dia
-  pin_h=14.5; // total height
+  pin_h=14; // total height
   pin_d2=8; // button touch dia
   pin_h2=2; // button touch h
 
@@ -271,7 +272,7 @@ module button_pin()
 
 module button_pins()
 {
-  translate([Footx,Footy,Height-12.5])
+  translate([Footx,Footy,Height-12])
   for(i = [0:6])
     translate(button_pos[i])
       button_pin();
@@ -283,9 +284,6 @@ module top_cut()
   // mounting hole xy-position
   //footx = 2*Thick+FootClrX;
   //footy = Thick+FootClrY;
-  tube_h=9.5;
-  tube_id=7; // button tube inner diameter
-  tube_od=9; // tube outer diameter
   translate([Footx,Footy,Height])
   {
       // 8-led view slit
@@ -296,9 +294,9 @@ module top_cut()
         cube([10,4,10],center=true);
       // display (screen)
       if(display_type==1) // ST7789 1.3"
-      translate([PCBLength/2-1,PCBWidth/2+2+display_center,0])
+      translate([PCBLength/2-1.2,PCBWidth/2+3+display_center,0])
         rotate([0,0,-display_rotation])
-          cube([24,24,10],center=true);
+          cube([26,26,10],center=true);
       if(display_type==2) // ST7789 1.54"
       translate([PCBLength/2-2.5,PCBWidth/2+4.5+display_center,0])
         rotate([0,0,-display_rotation])
@@ -308,9 +306,9 @@ module top_cut()
         rotate([0,0,-display_rotation])
           cube([23,16,10],center=true);
       if(display_type==4) // SSD1351 1.5"
-      translate([PCBLength/2-1,PCBWidth/2+3+display_center,0])
+      translate([PCBLength/2-1.2,PCBWidth/2+3+display_center,0])
         rotate([0,0,-display_rotation])
-          cube([27,27,10],center=true);
+          cube([30,30,10],center=true);
       if(display_type==5) // SSD1306 1.3"
       translate([PCBLength/2-1,PCBWidth/2+0+display_center,0])
         rotate([0,0,-display_rotation])
