@@ -2,16 +2,16 @@ include <upbox.scad>
 
 /* [STL element to export] */
 // Top shell
-  TShell        = 0; // [0:No, 1:Yes]
+  TShell        = 1; // [0:No, 1:Yes]
 // Bottom shell
   BShell        = 1; // [0:No, 1:Yes]
 // Front panel ULX3S text
-  FPanel        = 0; // [0:No, 1:Yes]
+  FPanel        = 1; // [0:No, 1:Yes]
 // Rear panel DB9 opening
-  BPanel        = 0; // [0:No, 1:Yes]
+  BPanel        = 1; // [0:No, 1:Yes]
 // Font color: at height 2.7: M600; change filament
 // button pins
-  Pins          = 0; // button pins
+  Pins          = 1; // button pins
   Pin           = 0; // one pin
 
 // Flat Cable holes
@@ -25,7 +25,7 @@ include <upbox.scad>
 // 1:ST7789  240x240 1.3"
 // 2:ST7789  240x240 1.54"
 // 3:SSD1331  96x64  0.96"
-// 4:SSD1351 128x128 1.5"
+// 4:SSD1351 128x128 1.54"
 // 5:SSD1306 128x64  1.3"
 display_type = 1;
 display_center = 0; // Y center adjust +up -down
@@ -192,20 +192,20 @@ module connector_cut()
       translate([24-10,-10,7])
         cube([21,3,3],center=true);
       // cut off for HDMI
-      translate([42.3,cy,12])
+      translate([42.3,cy,11.5])
         cube([22,10,13],center=true);
       // cut off for AUDIO
-      translate([21.47,cy,11])
+      translate([21.47,cy,11.5])
         rotate([90,0,0])
           cylinder(d=13.5,h=10,$fn=32,center=true);
       // cut off for 2.5/3.3V jumper
       translate([27.07+2.54,cy,11])
         cube([13,10,7],center=true);
       // cut off for USB1
-      translate([8.89,cy,9.5])
+      translate([8.89,cy,9.7])
         cube([13,10,9],center=true);
       // cut off for USB2
-      translate([67.31,cy,9.5])
+      translate([67.31,cy,9.7])
         cube([13,10,9],center=true);
   }    
 }
@@ -261,7 +261,7 @@ module button_pin()
   pin_d1=6; // top dia
   pin_h=14; // total height
   pin_d2=8; // button touch dia
-  pin_h2=2; // button touch h
+  pin_h2=2.5; // button touch h
 
       union()
       {
