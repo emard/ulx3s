@@ -78,7 +78,7 @@ PCBWidth        = 17*2.54;
 // Thickness of PCB
 PCBThick        = 1.6;
 PCBThickTol     = 0.0;
-BFclr = 0.4; // bottom feet clearance
+BFclr = 0.6; // bottom feet clearance
 // - Heuteur pied - Feet height
 FootHeight      = 7;
 // - Diamètre pied - Foot diameter
@@ -103,7 +103,7 @@ Thick           = 2;//[2:5]
 // - Width add +1.5 for 1.5" display
   Width         = PCBWidth+2*(1*Thick+FootClrY+1.5);
 // - Height 25 without flat cable, 28 with flat cable
-  Height        = 28.5;
+  Height        = 28.7;
 
 /* [Box options] */
 // Pieds PCB - PCB feet (x4) 
