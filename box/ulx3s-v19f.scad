@@ -103,7 +103,7 @@ Thick           = 2;//[2:5]
 // - Width add +1.5 for 1.5" display
   Width         = PCBWidth+2*(1*Thick+FootClrY+1.5);
 // - Height 25 without flat cable, 28 with flat cable
-  Height        = 28.2;
+  Height        = 28.5;
 
 /* [Box options] */
 // Pieds PCB - PCB feet (x4) 
@@ -186,7 +186,7 @@ module connector_cut()
   //footx = 2*Thick+FootClrX;
   //footy = Thick+FootClrY;
   cy = 60-8;
-  translate([Footx,Footy,-0.4+Height-25])
+  translate([Footx,Footy,Height-Fh-9])
   {
       // cut off for WiFi
       translate([24-10,-10,7])
@@ -223,7 +223,7 @@ button_pos =
   [68.58,0,0] // btn6  
 ];
 
-tube_h=8.7; // btn tube height
+tube_h=9; // btn tube height
 tube_id=7; // button tube inner diameter
 tube_od=9; // tube outer diameter
 
