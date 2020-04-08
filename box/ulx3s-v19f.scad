@@ -192,7 +192,7 @@ module connector_cut()
       translate([24-10,-10,7])
         cube([21,3,3],center=true);
       // cut off for HDMI
-      translate([42.3+0.5,cy,11.5])
+      translate([42.3+0.2,cy,11.5])
         cube([22,10,13],center=true);
       // cut off for AUDIO
       translate([21.47,cy,11.2])
@@ -202,10 +202,10 @@ module connector_cut()
       translate([27.07+2.54,cy,11])
         cube([13,10,7],center=true);
       // cut off for USB1
-      translate([8.89+0.5,cy,9.7])
+      translate([8.89+0.2,cy,9.7])
         cube([13,10,9],center=true);
       // cut off for USB2
-      translate([67.31+0.5,cy,9.7])
+      translate([67.31+0.2,cy,9.7])
         cube([13,10,9],center=true);
   }    
 }
@@ -379,8 +379,8 @@ module bottom_cut()
 module flatcable_cut()
 {
   height=Height-Fh-2.54;
-  width=6.6;
-  length=56.5;
+  width=6.8;
+  length=57;
   notch=2;
   notch_length=5;
   translate((Fxy[0]+Fxy[3])/2)
