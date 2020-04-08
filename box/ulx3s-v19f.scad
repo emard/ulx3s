@@ -379,10 +379,10 @@ module bottom_cut()
 module flatcable_cut()
 {
   height=Height-Fh-2.54;
-  width=6.5;
-  length=56.2;
+  width=6.6;
+  length=56.5;
   notch=2;
-  notch_length=4;
+  notch_length=5;
   translate((Fxy[0]+Fxy[3])/2)
   {
     for(i=[-1:2:1])
