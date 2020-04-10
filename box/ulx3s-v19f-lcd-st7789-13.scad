@@ -1,8 +1,8 @@
 
 body=[27,10,3.4];
-hole_d=1.8;
+hole_d=1.6;
 hole_h=2.0;
-hole_dist=23.2;
+hole_dist=23.4;
 
 hdmi_width=17;
 hdmi_height=14;
