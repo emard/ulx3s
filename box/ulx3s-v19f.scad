@@ -195,7 +195,7 @@ module connector_cut()
       translate([42.3+0.2,cy,11.5])
         cube([22,10,13],center=true);
       // cut off for AUDIO
-      translate([21.47,cy,11.2])
+      translate([21.47-0.3,cy,11.2+0.5])
         rotate([90,0,0])
           cylinder(d=13.5,h=10,$fn=32,center=true);
       // cut off for 2.5/3.3V jumper
