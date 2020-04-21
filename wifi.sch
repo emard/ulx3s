@@ -285,9 +285,8 @@ Text Notes 8550 4050 0    60   ~ 0
 NC v1.7
 Text Notes 7350 5700 0    60   ~ 0
 LED and WIFI_GPIO17\nto solder pads of PCB
-Text Notes 4500 3900 0    60   ~ 0
-GP10 v1.7
-NoConn ~ 5700 3850
+Text Notes 4350 3900 0    60   ~ 0
+GP10 v1.7, NC <v3.1
 NoConn ~ 5700 3150
 NoConn ~ 5700 3050
 Wire Wire Line
@@ -312,12 +311,12 @@ NoConn ~ 6600 4500
 NoConn ~ 6700 4500
 NoConn ~ 6800 4500
 NoConn ~ 6900 4500
-Text Notes 8550 2950 0    60   ~ 0
-TDI <v3.1
 Text Notes 8550 3550 0    60   ~ 0
 TDO <v3.1
-Text Notes 8550 3350 0    60   ~ 0
-TMS <v3.1
 Text Notes 3150 3300 0    60   ~ 0
 GN13 <v3.1
+Text GLabel 5700 3850 0    60   Input ~ 0
+GN10
+Text GLabel 7550 3300 2    60   Input ~ 0
+WIFI_GPIO21
 $EndSCHEMATC

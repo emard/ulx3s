@@ -934,4 +934,10 @@ Text Notes 7550 2500 0    60   ~ 0
 WIFI_TXD2
 Text Notes 7550 2600 0    60   ~ 0
 WIFI_RXD2
+Text GLabel 10150 2050 2    60   Input ~ 0
+WIFI_GPIO21
+Text Notes 10950 2100 0    60   ~ 0
+NC <v3.1
+Text GLabel 10150 1650 2    60   Input ~ 0
+WIFI_GPIO22
 $EndSCHEMATC
