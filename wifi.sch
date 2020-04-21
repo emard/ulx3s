@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 11
 Title "ULX3S"
 Date ""
-Rev "1.0.2"
+Rev "1.0.3"
 Comp "EMARD"
 Comment1 "WIFI module ESP32"
 Comment2 ""
@@ -33,11 +33,11 @@ Text GLabel 7550 4100 2    60   Input ~ 0
 WIFI_GPIO0
 Text GLabel 7550 2900 2    60   Input ~ 0
 JTAG_TDI
-Text GLabel 7550 3500 2    60   Input ~ 0
+Text GLabel 5700 3250 0    60   Input ~ 0
 JTAG_TDO
 Text GLabel 7550 3600 2    60   Input ~ 0
 JTAG_TCK
-Text GLabel 7550 3300 2    60   Input ~ 0
+Text GLabel 7550 3700 2    60   Input ~ 0
 JTAG_TMS
 $Comp
 L esp-wroom32:ESP-WROOM32 U9
@@ -137,7 +137,7 @@ F 5 "T" H 4550 3300 50  0001 C CNN "Side"
 	1    4550 3300
 	0    -1   -1   0   
 $EndComp
-Text Notes 8500 3300 0    60   ~ 0
+Text Notes 9250 4200 0    60   ~ 0
 Programming pins:\nTXD RXD EN GPIO0
 $Comp
 L Device:R R35
@@ -153,36 +153,36 @@ $EndComp
 $Comp
 L Device:C C21
 U 1 1 5924A09B
-P 3650 3100
-F 0 "C21" H 3675 3200 50  0000 L CNN
-F 1 "22uF" H 3675 3000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3688 2950 50  0001 C CNN
-F 3 "" H 3650 3100 50  0000 C CNN
-F 4 "www.yageo.com" H 3650 3100 50  0001 C CNN "MNF1_URL"
-F 5 "CC0805ZKY5V5BB226" H 3650 3100 50  0001 C CNN "MPN"
-	1    3650 3100
+P 3550 2350
+F 0 "C21" H 3575 2450 50  0000 L CNN
+F 1 "22uF" H 3575 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3588 2200 50  0001 C CNN
+F 3 "" H 3550 2350 50  0000 C CNN
+F 4 "www.yageo.com" H 3550 2350 50  0001 C CNN "MNF1_URL"
+F 5 "CC0805ZKY5V5BB226" H 3550 2350 50  0001 C CNN "MPN"
+	1    3550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0115
 U 1 1 5924A1EA
-P 3650 2950
-F 0 "#PWR0115" H 3650 2800 50  0001 C CNN
-F 1 "+3V3" H 3650 3090 50  0000 C CNN
-F 2 "" H 3650 2950 50  0000 C CNN
-F 3 "" H 3650 2950 50  0000 C CNN
-	1    3650 2950
+P 3550 2200
+F 0 "#PWR0115" H 3550 2050 50  0001 C CNN
+F 1 "+3V3" H 3550 2340 50  0000 C CNN
+F 2 "" H 3550 2200 50  0000 C CNN
+F 3 "" H 3550 2200 50  0000 C CNN
+	1    3550 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 5924A206
-P 3650 3250
-F 0 "#PWR0116" H 3650 3000 50  0001 C CNN
-F 1 "GND" H 3650 3100 50  0000 C CNN
-F 2 "" H 3650 3250 50  0000 C CNN
-F 3 "" H 3650 3250 50  0000 C CNN
-	1    3650 3250
+P 3550 2500
+F 0 "#PWR0116" H 3550 2250 50  0001 C CNN
+F 1 "GND" H 3550 2350 50  0000 C CNN
+F 2 "" H 3550 2500 50  0000 C CNN
+F 3 "" H 3550 2500 50  0000 C CNN
+	1    3550 2500
 	1    0    0    -1  
 $EndComp
 Text Notes 5900 2050 0    60   ~ 0
@@ -199,8 +199,6 @@ Text Notes 2750 6000 0    60   ~ 0
 ESP32 VSPI pins\nGPIO5: SS\nGPIO18: SCK\nGPIO19: MISO\nGPIO23: MOSI
 Text GLabel 5700 3350 0    60   Input ~ 0
 GP13
-Text GLabel 5700 3250 0    60   Input ~ 0
-GN13
 Text GLabel 5700 3550 0    60   Input ~ 0
 GP12
 Text GLabel 5700 3450 0    60   Input ~ 0
@@ -238,9 +236,7 @@ $EndComp
 Wire Wire Line
 	7550 2700 7650 2700
 Text GLabel 7550 3000 2    60   Input ~ 0
-PROG_DONE
-Text Notes 8500 3050 0    60   ~ 0
-PROG_DONE on\n"flash" sheet
+WIFI_GPIO22
 $Comp
 L power:GND #PWR0121
 U 1 1 59DEDA17
@@ -279,10 +275,10 @@ Text Notes 7050 6350 1    60   ~ 0
 WIFI_GPIO15 v1.7
 Text Notes 7150 6200 1    60   ~ 0
 WIFI_LED v1.7
-Text GLabel 7550 3700 2    60   Input ~ 0
-WIFI_GPIO5
+Text GLabel 7550 3500 2    60   Input ~ 0
+WIFI_GPIO19
 Text Notes 8550 3750 0    60   ~ 0
-NC v1.7, LED v1.8
+NC v1.7, WIFI_GPIO5 <v3.1
 Text Notes 8550 3850 0    60   ~ 0
 NC v1.7
 Text Notes 8550 4050 0    60   ~ 0
@@ -308,7 +304,7 @@ Text Notes 4750 3500 0    60   ~ 0
 GP12 <v2.0.6
 Text Notes 4750 3400 0    60   ~ 0
 GN13 <v2.0.6
-Text Notes 4750 3300 0    60   ~ 0
+Text Notes 3750 3300 0    60   ~ 0
 GP13 <v2.0.6
 NoConn ~ 6400 4500
 NoConn ~ 6500 4500
@@ -316,4 +312,12 @@ NoConn ~ 6600 4500
 NoConn ~ 6700 4500
 NoConn ~ 6800 4500
 NoConn ~ 6900 4500
+Text Notes 8550 2950 0    60   ~ 0
+TDI <v3.1
+Text Notes 8550 3550 0    60   ~ 0
+TDO <v3.1
+Text Notes 8550 3350 0    60   ~ 0
+TMS <v3.1
+Text Notes 3150 3300 0    60   ~ 0
+GN13 <v3.1
 $EndSCHEMATC

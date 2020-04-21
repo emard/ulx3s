@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 11 11
 Title "ULX3S"
 Date ""
-Rev "1.0.5"
+Rev "1.0.6"
 Comp "EMARD"
 Comment1 "SPI flash"
 Comment2 ""
@@ -437,19 +437,6 @@ Text GLabel 6500 3900 0    60   Input ~ 0
 BTN_L
 Text Notes 4700 1950 0    60   ~ 0
 pullups to allow entering USER mode\nTN1260: lattice ECP5 sysCONFIG guide p.6, p.8, p.13
-$Comp
-L Device:R R55
-U 1 1 59DEB568
-P 5350 4800
-F 0 "R55" V 5430 4800 50  0000 C CNN
-F 1 "15k" V 5350 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5280 4800 50  0001 C CNN
-F 3 "" H 5350 4800 50  0000 C CNN
-	1    5350 4800
-	0    1    1    0   
-$EndComp
-Text GLabel 5200 4800 0    60   Input ~ 0
-PROG_DONE
 $Comp
 L lfe5bg381:LFE5U-85F-6BG381C U1
 U 7 1 5A07BEF6

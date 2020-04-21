@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 11
 Title "ULX3S"
 Date ""
-Rev "1.0.3"
+Rev "1.0.4"
 Comp "EMARD"
 Comment1 "USB serial and JTAG"
 Comment2 ""
@@ -739,7 +739,7 @@ USB5V
 Text Notes 6700 2500 0    60   ~ 0
 WIFI_GPIO15 v1.7
 Text GLabel 8650 2150 0    60   Input ~ 0
-WIFI_GPIO5
+WIFI_GPIO19
 Text GLabel 8650 2450 0    60   Input ~ 0
 WIFI_GPIO17
 Text Notes 7450 1400 0    60   ~ 0
@@ -928,8 +928,8 @@ Text GLabel 10150 1950 2    60   Input ~ 0
 FTDI_nRXLED
 Text Notes 10950 2000 0    60   ~ 0
 NC <v3.0.5
-Text Notes 7350 2200 0    60   ~ 0
-NC v1.7
+Text Notes 6700 2200 0    60   ~ 0
+NC v1.7 WIFI_GPIO5 <v3.1
 Text Notes 7550 2500 0    60   ~ 0
 WIFI_TXD2
 Text Notes 7550 2600 0    60   ~ 0

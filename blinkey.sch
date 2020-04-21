@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 11
 Title "ULX3S"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "EMARD"
 Comment1 "Buttons, LEDs, OLED display"
 Comment2 ""
@@ -466,7 +466,7 @@ DIP switch connected to\nBANK0 on 'gpio' sheet
 Text Notes 8000 4550 0    60   ~ 0
 To fix issues with FT231XS rev A,B,C\nShort-circuit D18 LED, but then\nboard cannot keep awake by USB.\nchip rev D works properly\nSee TN140_FT231X Errata\n
 Text GLabel 5650 5850 2    60   Input ~ 0
-WIFI_GPIO5
+JTAG_TMS
 $Comp
 L Device:R R62
 U 1 1 5A07AFD8
@@ -703,7 +703,7 @@ F 5 "PTS645SL50SMTR92 LFS" H 3050 3950 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Text Notes 6400 5900 0    60   ~ 0
-GPIO2 on PCB v1.7
+WIFI_GPIO2 v1.7, WIFI_GPIO5 <v3.1
 Text Notes 2100 3000 0    60   ~ 0
 FIRE1
 Text Notes 2100 3200 0    60   ~ 0
