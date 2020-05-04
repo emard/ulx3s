@@ -26,7 +26,7 @@ include <upbox.scad>
 // 2:ST7789  240x240 1.54"
 // 3:SSD1331  96x64  0.96"
 // 4:SSD1351 128x128 1.54"
-// 5:SSD1306 128x64  1.3"
+// 5:SSD1306 128x64  0.96"
 display_type = 1;
 display_center = 0; // Y center adjust +up -down
 display_rotation = 0; // display z-rotation  adjust deg +cw -ccw
@@ -309,10 +309,10 @@ module top_cut()
       translate([PCBLength/2-1.2,PCBWidth/2+3+display_center,0])
         rotate([0,0,-display_rotation])
           cube([30,30,10],center=true);
-      if(display_type==5) // SSD1306 1.3"
-      translate([PCBLength/2-1,PCBWidth/2+0+display_center,0])
+      if(display_type==5) // SSD1306 0.96"
+      translate([PCBLength/2-1,PCBWidth/2-4+display_center,0])
         rotate([0,0,-display_rotation])
-          cube([30,15,10],center=true);
+          cube([23,12,10],center=true);
       // display socket
       if(0)
       translate([PCBLength/2,8.5,0])
