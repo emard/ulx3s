@@ -133,7 +133,7 @@ F 3 "" H 1900 2750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 4450 1050 0    60   ~ 0
-SSD1306 B/W or SSD1331 COLOR \ncompatible OLED 0.96" or 1.3" PCB \n14x14 units\n1 unit = 2.54 mm
+ST7789/SSD1331/SSD1351/SSD1306\ncompatible LCD/OLED 0.96/1.3/1.54" PCB \n14x14 units\n1 unit = 2.54 mm
 Wire Wire Line
 	4400 2550 4250 2550
 Wire Wire Line
@@ -205,12 +205,12 @@ LED7
 Text Label 2100 2750 0    60   ~ 0
 BTNPUL
 $Comp
-L ssd_13xx:SSD_13xx OLED1
+L st7789:ST7789 LCD1
 U 1 1 58E6D4AC
 P 4750 1550
-F 0 "OLED1" H 4750 1150 50  0000 C CNN
-F 1 "SSD_1331" H 4750 1050 50  0000 C CNN
-F 2 "oled:oled_13xx" V 4750 1350 50  0001 C CNN
+F 0 "LCD1" H 4750 1150 50  0000 C CNN
+F 1 "ST7789" H 4750 1050 50  0000 C CNN
+F 2 "st7789:st7789" V 4750 1350 50  0001 C CNN
 F 3 "https://drive.google.com/file/d/0B5lkVYnewKTGRlpxcEdWaXNvWnM/view" H 4750 1350 50  0001 C CNN
 F 4 "www.displaymodule.com" H 4750 1550 60  0001 C CNN "MNF1_URL"
 F 5 "DM-OLEDC095-626" H 4750 1550 60  0001 C CNN "MPN"
@@ -501,7 +501,7 @@ Text Label 7450 3400 0    60   ~ 0
 SWPU
 Text Notes 6350 5400 0    60   ~ 0
 TXLED blinks when FPGA sends data to FTDI
-Text Notes 4850 2150 0    60   ~ 0
+Text Notes 4450 2300 0    60   ~ 0
 OLED connected to\nBANK6 on "usb" sheet
 $Comp
 L Device:LED_ALT D7
