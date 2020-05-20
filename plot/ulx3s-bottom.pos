@@ -1,4 +1,4 @@
-### Module positions - created on Wed May 20 13:23:14 2020 ###
+### Module positions - created on Wed May 20 13:48:20 2020 ###
 ### Printed by Pcbnew version kicad 5.1.6+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -32,7 +32,7 @@ C25       22nF             C_0603_1608Metric                             -46.800
 C26       22nF             C_0603_1608Metric                             -42.0000    26.0000  270.0000  bottom
 C27       22nF             C_0603_1608Metric                             -42.8000    21.0000  270.0000  bottom
 C28       22nF             C_0603_1608Metric                             -46.0000    21.0000  270.0000  bottom
-C29       22nF             C_0603_1608Metric                             -48.0000    21.0000  270.0000  bottom
+C29       22nF             C_0603_1608Metric                             -47.9000    21.1000  270.0000  bottom
 C30       22nF             C_0603_1608Metric                             -40.8000    21.2000  270.0000  bottom
 C31       22nF             C_0603_1608Metric                             -42.0000    23.8000    0.0000  bottom
 C32       22nF             C_0603_1608Metric                             -46.8000    23.8000  180.0000  bottom
