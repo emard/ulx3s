@@ -942,4 +942,8 @@ Text GLabel 10150 1650 2    60   Input ~ 0
 WIFI_GPIO22
 Text Notes 10950 1700 0    60   ~ 0
 NC <v3.1
+Text GLabel 8650 1650 0    60   Input ~ 0
+OLED_BL
+Text Notes 7450 1700 0    60   ~ 0
+NC <v3.0.8
 $EndSCHEMATC

@@ -839,4 +839,8 @@ F 9 "T" H 5500 4600 50  0001 C CNN "Side"
 	1    5500 4600
 	1    0    0    -1  
 $EndComp
+Text GLabel 4850 1950 2    60   Input ~ 0
+OLED_BL
+Wire Wire Line
+	4750 1950 4850 1950
 $EndSCHEMATC
