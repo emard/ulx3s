@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ST7789
+D Connector, single row, 01x08
+K connector
+$ENDCMP
+#
+#End Doc Library
