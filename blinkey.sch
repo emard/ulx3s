@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 11
 Title "ULX3S"
 Date ""
-Rev "1.0.1"
+Rev "1.0.2"
 Comp "EMARD"
 Comment1 "Buttons, LEDs, OLED display"
 Comment2 ""

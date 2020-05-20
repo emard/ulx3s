@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 11
 Title "ULX3S"
 Date ""
-Rev "1.0.4"
+Rev "1.0.5"
 Comp "EMARD"
 Comment1 "USB serial and JTAG"
 Comment2 ""
