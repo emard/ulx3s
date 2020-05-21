@@ -313,6 +313,6 @@ Here is checklist what was done or should be done in the next PCB release.
         SOT-23-6 SPI EEPROM like 24CW1280T-I/OT placeholder
         by default SPI also routed to FPGA for emulation
     [ ] Pull-up <10k for clk_oe
-    [ ] 8-pin LCD header
+    [x] 8-pin LCD header
     [ ] prototype test: connect blue LED+R on TMS line (ESP32-FPGA-FT231x)
     
