@@ -1,7 +1,7 @@
 References	Qty	Aliexpress	Arrow	AvnetEU	Chip1stop	Datasheet2	Datasheet3	Datasheet4	DatasheetLC	Datasheet_errata	Digike_y	Digike_y1	Digike_y2	Digike_y3	Digikey	Digikey2	Dtasheet4	EMPTY_MPN	FreelanceElec	Koncar	LCSC	LCS_C1	LowCost	MFG1	MFG2	MFG2_TR_DS	MFG3	MFG4	MPN	MPN2	MPN3	MPN4	MPN5	MP_N2	MP_N3	MP_N4	MP_N5	Mouse_r	Mouse_r1	Mouse_r2	Mouse_r3	Mouse_r4	Mouse_r5	Mouser	Newark	Note	Onlinecomponents	RS	Side	TME	Vertical
 AE1	1																																													Leave empty					
 AUDIO1	1														CP-43516SJCT-ND					FAU001				CUI					SJ-43516-SMT-TR											490-SJ-43516-SMT-TR 				490-SJ43515RS-SMT-TR					T		SJ-43516-SMT-TR
-B0, B1, B2, B3, B4, B5, B6	7														CKN9088CT-ND					FSW001	C221877								PTS645SL50SMTR92 LFS															611-PTS645SL50SMTR92					T		
+B0, B1, B2, B3, B4, B5, B6	7														CKN9088CT-ND					FSW001	C285463								PTS645SL50SMTR92 LFS															611-PTS645SL50SMTR92					T		
 BAT1	1						https://cdn.harwin.com/pdfs/S8201R.pdf						36-3000CT-ND	952-1662-1-ND	BK-885-ND					FBAT001	C238097			Keystone	MPD		Harwin		3000TR	BK-885	S8201-46R									855-S8201-46R	534-3000TR			614-SMTM1225.TR				1613707			
 C1, C3, C4, C5, C7, C8, C9, C11, C12, C15, C21, C54, C55, C58, C61	15												1276-2412-1-ND		1276-2413-1-ND					FC004	C29277								CC0805ZKY5V5BB226 											81-GRM21BR61A226ME1K	81-GRM219R61C226ME5L	81-GRM188C60J226ME0J	963-LMK212BBJ226MG-T	81-GRM21BR61A226ME1L							
 C2, C6, C10, C18	4														399-9086-1-ND					FC006	C22396								CS0603KRX7R9BB471										603-CC603KRX7R9BB471 	603-CS0603KRX79BB471				710-885012206081							
@@ -12,14 +12,14 @@ C56, C57	2												311-3855-1-ND		311-3848-1-ND					FC005	C85300								CC060
 D0, D4, D11, D19	4														160-1415-1-ND					FV007	C94868								LTST-C170KRKT										859-LTST-C170KRKT					743-IN-S85ATR					TB		
 D1, D5	2														160-1413-1-ND					FV006	C284931		LTST-C170KRKT						LTST-C170KFKT															859-LTST-C170KFKT					T		
 D2, D6	2														160-1887-1-ND					FV005	C364562		LTST-C170KRKT						LTST-C170TGKT 															859-LTST-C170TGKT					T	LTST-C170TGKT	
-D3, D7	2					http://optoelectronics.liteon.com/upload/download/ds22-2000-233/ltst-c171tbkt(0630).pdf	https://www.rohm.com/datasheet/SML-M13UT								160-1579-1-ND					FV004	C98222		LTST-C170KRKT						LTST-C170TBKT					LTST-C171TBKT	SMLMN2BCTT86C				859-LTST-C170TBKT	755-SMLMN2BCTT86C	859-LTST-C171TBKT			593-LSM0805463V					T		
+D3, D7	2					http://optoelectronics.liteon.com/upload/download/ds22-2000-233/ltst-c171tbkt(0630).pdf	https://www.rohm.com/datasheet/SML-M13UT								160-1579-1-ND					FV004	C375453		LTST-C170KRKT						LTST-C170TBKT					LTST-C171TBKT	SMLMN2BCTT86C				859-LTST-C170TBKT	755-SMLMN2BCTT86C	859-LTST-C171TBKT			593-LSM0805463V					T		
 D8	1			STPS2L30AF											497-12310-1-ND					FV008	C111630								STPS2L30AF															511-STPS2L40AF							
 D9, D51, D52	3																	RC0805JR-070RL						Yageo	ST					STPS2L30AF																Leave empty					
 D10, D13, D14, D16, D17, D23, D24, D25, D26, D27, D29	11				C1S541901230010								1N4148WSFSCT-ND	1N4148WXTPMSCT-ND	1N914BWSCT-ND					FV001	C258181								1N4148WS 										833-1N4148WX-TP	863-MMDL914T1G				512-1N914BWS 							
 D12, D15	2														NSR0530HT1GOSCT-ND					FV003	C12744			ON semiconductor	Diodes inc.				NSR0530HT1G 	BAT54WSQ-7-F 										755-RSX051VYM30FHTR				771-BAT54J115							
 D18	1														160-1887-1-ND					FV005	C364562								LTST-C170TGKT 															859-LTST-C170TGKT					T		
 D20, D21	2														BZT52C3V6S-TPMSCT-ND					FV002	C353525								BZT52C3V6S															833-BZT52C3V6S-TP							
-D22	1					http://optoelectronics.liteon.com/upload/download/ds22-2000-233/ltst-c171tbkt(0630).pdf	https://www.rohm.com/datasheet/SML-M13UT								160-1579-1-ND					FV004	C98222								LTST-C170TBKT					LTST-C171TBKT	SMLMN2BCTT86C				859-LTST-C170TBKT	755-SMLMN2BCTT86C	859-LTST-C171TBKT			593-LSM0805463V					T		
+D22	1					http://optoelectronics.liteon.com/upload/download/ds22-2000-233/ltst-c171tbkt(0630).pdf	https://www.rohm.com/datasheet/SML-M13UT								160-1579-1-ND					FV004	C375453								LTST-C170TBKT					LTST-C171TBKT	SMLMN2BCTT86C				859-LTST-C170TBKT	755-SMLMN2BCTT86C	859-LTST-C171TBKT			593-LSM0805463V					T		
 D28	1										1N4148WXTPMSCT-ND							MMDL914T1G		FV001																		863-MMDL914T1G								Leave empty					
 GPDI1	1					https://hr.mouser.com/datasheet/2/418/NG_CD_1903015_S-662666.pdf							A136174CT-ND		609-4614-1-ND					FX001	C427307								10029449-111RLF	5-1903015-5														649-10029449-111RLF			10029449-111RLF		T		
 H1, H2, H3, H4	4																																													Leave empty					
@@ -58,7 +58,7 @@ U6	1														768-1129-1-ND					FU002	C132160								FT231XS															8
 U7	1		MCP7940NT-I/SN			https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf				http://ww1.microchip.com/downloads/en/DeviceDoc/MCP7940N%20Errata_DS80000611C.pdf			568-5306-1-ND		MCP7940NT-I/SNCT-ND					FU006	C148052					https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf			MCP7940NT-I/SN	PCF8523T/1,118 														579-MCP7940NT-I/SN							
 U8	1														MAX11125ATI+-ND					FU005	C490299		700-MAX11123ATI+						MAX11125ATI+	MAX11123ATI+														700-MAX11125ATI+					T		
 U9	1														1904-1010-1-ND					FU001	C529581		Leave empty						ESP-WROOM-32											356-ESP-WROOM-32 				356-ESPWROOM3216MB							
-U10	1					http://www.issi.com/WW/pdf/25LP-WP032D.pdf							IS25LP128F-JBLE-ND	706-1607-1-ND	W25Q128JVSIQCT-ND 		https://www.winbond.com/resource-files/w25q128jv%20spi%20revc%2011162016.pdf			FU003	C97521		870-IS25LP032DJBLETR						IS25LP128F-JBLE	IS25LP032D-JNLE-TR	IS25LP032D-JNLA3	W25Q128JVSIM												454-W25Q128JVSIMTR							
+U10	1					http://www.issi.com/WW/pdf/25LP-WP032D.pdf							IS25LP128F-JBLE-ND	706-1607-1-ND	W25Q128JVSIQCT-ND 		https://www.winbond.com/resource-files/w25q128jv%20spi%20revc%2011162016.pdf			FU003	C113767		870-IS25LP032DJBLETR						IS25LP128F-JBLE	IS25LP032D-JNLE-TR	IS25LP032D-JNLA3	W25Q128JVSIM												454-W25Q128JVSIMTR							
 U11	1														568-4215-1-ND					FU008			Leave empty						PCA9306D															771-PCA9306D-T	70R6428						
 US1, US2	2					https://www.molex.com/pdm_docs/sd/473460001_sd.pdf									609-4613-1-ND	WM17141CT-ND			10118192-0001LF	FU010	C132564			FCI	Molex				10118192-0001LF	47346-0001										538-47346-0001				649-10118192-0001LF 					T		
 Y1	1														FNETHE025CT-ND					FQ001	C390569								FNETHE025	SiT8008BC-81-33E-25.000000X	S7D25.000000D20F30T									788-8008BC8133E25X 				729-FNETHE025					T		
