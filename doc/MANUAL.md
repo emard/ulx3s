@@ -17,8 +17,8 @@
            D9 near US2 connector or short D9 with a wire.
 
     GPDI   Plug for cable to digital monitor or TV,
-           4 TMDS+- video
-           1 HEAC+- ethernet and audio return 
+           4 TMDS+- video out differential pairs
+           1 HEAC+- pair (future expansion)
            SDA,SCL  I2C (DDS EDID)
            CEC      remote control
            +5V      supply to enable plug-in detection
@@ -34,7 +34,8 @@
            Ring2:  Digital audio SPDIF
            Sleeve: GND
 
-    OLED   7-pin 2.54 mm header OLED1 for SSD1331 SPI color OLED
+    OLED   7-pin 2.54 mm header OLED1 for ST7789/SSD1331/SSD1351/SSD1306
+           COLOR/BW LCD/OLED 3.3V
            pinout:   CS DC RES SDA SCL VCC GND
 
     JTAG   6-pin 2.54 mm header J4 for external JTAG programmer
@@ -198,6 +199,8 @@ or [FleaFPGA-JTAG binary](https://github.com/emard/ulx3s-bin/tree/master/usb-jta
 [OpenOCD soruce](https://sourceforge.net/p/openocd/code/ci/master/tree)
 or [OpenOCD binaries 2019 or later](https://github.com/gnu-mcu-eclipse/openocd/releases)
 (ft232r interface configuredd for ULX3S FT231X pinout)
+
+Onboard [ESP32 WiFi FTP](https://github.com/emard/esp32ecp5)
 
 Onboard ESP32 WiFi web interface
 
