@@ -463,6 +463,15 @@ write config to eeprom:
 
 re-plug USB to reload new eeprom content.
 
+# Programming over WiFi (ESP32 micropython)
+
+[Micropython ESP32 ECP5 programmer](https://github.com/emard/esp32ecp5)
+can be used from WiFi remote shell prompt or
+FTP or pull data from remote WEB server.
+Faster than (f)ujprog, ESP32 keeps it all in micropython source
+for easy user-customizeation and other applications.
+Easy programming, rapid development.
+
 # Programming over WiFi (ESP32 firmware)
 
 ESP-32 firmware provides standalone JTAG SVF player over web HTTP and TCP interface for
@@ -561,14 +570,6 @@ upgrade for this jumper to work correctly.
 Precompiled ESP32 firmware from
 [ESP32 LibXSVF-ESP source](https://github.com/emard/LibXSVF-ESP):
 
-# Programming over WiFi (ESP32 micropython)
-
-[Micropython ESP32 ECP5 programmer](https://github.com/emard/esp32ecp5)
-can be used from WiFi remote shell prompt or
-integrated in FTP or WEB server also written in micropython
-and running on ESP32 for user-customizeable applications.
-Easy programming, rapid development.
-
 # Programming ESP32
 
 ESP32 WiFi module soldered on ULX3S is usually shipped
@@ -597,8 +598,24 @@ On linux usually only USB-serial port access permission is required.
 
 # OLED
 
-Solder 7-pin 2.54mm female header on ULX3S and obtain
-0.95 Inch 7pin Full Color 65K Color SSD1331 SPI OLED Display Module For Arduino.
+Solder 7-pin 2.54mm female header on ULX3S and obtain some
+pin compatible display:
+
+    1.3" 7-pin 240x240 Color ST7789 SPI LCD.
+    (Best buy, cheap, very fast, good brightness).
+    
+    1.54" 8-pin 240x240 Color ST7789 SPI LCD.
+    (Same as 1.3" but larger and costs more.
+    Pin 8 (backlight) is default ON when not connected).
+    
+    0.95" 7-pin 96x64 Color SSD1331 SPI OLED.
+    (Supported by "websvf". Expensive, very fast, full-featured, good brightness).
+
+    1.54" 7-pin 128x128 Color SSD1351 SPI OLED.
+    (Expensive, fast, low brightness).
+
+    0.95" 7-pin 128x64 BW SSD1306 SPI OLED.
+    (Expensive, no color).
 
 ![OLED COLOR DISPLAY SSD1331](/pic/oled-ssd1331-module.jpg)
 
