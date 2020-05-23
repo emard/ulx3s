@@ -184,10 +184,16 @@ but reconfigure USB chip to turn D18 OFF:
 
     ftx_prog --cbus 3 DRIVE_0
 
+# Precompiled linux opensource tools
+
+Almost everything you need for linux except diamond is in
+[KOST's ULX3S git releases](https://github.com/alpin3/ulx3s/releases)
 
 # Programming options
 
 To program ULX3S bitstream, there are many programming options:
+
+[fujprog source from GIT](https://github.com/kost/fujprog)
 
 [ujprog source from GIT](https://github.com/f32c/tools)
 or [ujprog binary from EMARD](https://github.com/emard/ulx3s-bin/tree/master/usb-jtag)
