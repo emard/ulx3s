@@ -596,7 +596,7 @@ redirect USB-serial ESP32 programming traffic from PC thru FPGA to ESP32.
 There might be strange issues on getting this to work on windows.
 On linux usually only USB-serial port access permission is required.
 
-# OLED
+# LCD/OLED Display
 
 Solder 7-pin 2.54mm female header on ULX3S and obtain some
 pin compatible display:
