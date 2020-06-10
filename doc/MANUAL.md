@@ -267,7 +267,7 @@ or FLASH.
     fujprog -j flash bitstream.bit
     fujprog bitstream.svf
 
-"openFPGALoader" tool acceptus BIT files for uploading to the FPGA SRAM or
+"openFPGALoader" tool accepts BIT files for uploading to the FPGA SRAM or
 FLASH
 
     openFPGALoader --board=ulx3s bitstream.bit
