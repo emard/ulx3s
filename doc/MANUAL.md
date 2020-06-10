@@ -260,11 +260,18 @@ If running linux, some udev rule is practical in order to allow non-root users
     ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6015", \
       GROUP="dialout", MODE="666"
 
-"ujprog" tool acceps BIT or SVF files for uploading to the FPGA SRAM.
-Upload to onboard FLASH can't be yet done by "ujprog"
+"fujprog" or "ujprog" tool acceps BIT or SVF files for uploading to the FPGA SRAM
+or FLASH.
 
-    ujprog bitstream-sram.bit
-    ujprog bitstream-sram.svf
+    fujprog bitstream.bit
+    fujprog -j flash bitstream.bit
+    fujprog bitstream.svf
+
+"openFPGALoader" tool acceptus BIT files for uploading to the FPGA SRAM or
+FLASH
+
+    openFPGALoader --board=ulx3s bitstream.bit
+    openFPGALoader --write-flash --board=ulx3s bitstream.bit
 
 "FleaFPGA-JTAG" tool accepts VME files for uploading to the FPGA SRAM or onboard 
 SPI FLASH chip. SRAM VME file is simple to make, but when generating 
