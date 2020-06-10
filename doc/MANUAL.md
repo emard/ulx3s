@@ -268,10 +268,10 @@ or FLASH.
     fujprog bitstream.svf
 
 "openFPGALoader" tool accepts BIT files for uploading to the FPGA SRAM or
-FLASH
+FLASH.
 
     openFPGALoader --board=ulx3s bitstream.bit
-    openFPGALoader --write-flash --board=ulx3s bitstream.bit
+    openFPGALoader --board=ulx3s --write-flash bitstream.bit
 
 "FleaFPGA-JTAG" tool accepts VME files for uploading to the FPGA SRAM or onboard 
 SPI FLASH chip. SRAM VME file is simple to make, but when generating 
