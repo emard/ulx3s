@@ -188,6 +188,15 @@ but reconfigure USB chip to turn D18 OFF:
 
 Almost everything you need for linux except diamond is in
 [KOST's ULX3S git releases](https://github.com/alpin3/ulx3s/releases)
+Installing is simple:
+
+    dpkg -i ulx3s-toolchain_2020.05.24-2_amd64.deb
+
+Tools contain "openocd" with ft231x support.
+System's "openocd" should be removed if it was
+installed before:
+
+    apt-get remove --purge openocd
 
 # Programming options
 
