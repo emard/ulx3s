@@ -184,19 +184,39 @@ but reconfigure USB chip to turn D18 OFF:
 
     ftx_prog --cbus 3 DRIVE_0
 
-# Precompiled linux opensource tools
+# Precompiled linux opensource tools (KOST)
 
-Almost everything you need for linux except diamond is in
+Almost everything you need for linux, including
+Verilog and VHDL compilers, USB programmers,
+everything except diamond is in
 [KOST's ULX3S git releases](https://github.com/alpin3/ulx3s/releases)
-Installing is simple:
+Installation is simple:
 
     dpkg -i ulx3s-toolchain_2020.05.24-2_amd64.deb
 
-Tools contain "openocd" with ft231x support.
+Tools contain latest "openocd" with ft231x support.
 System's "openocd" should be removed if it was
 installed before:
 
     apt-get remove --purge openocd
+
+# Precompiled opensource tools for all platforms
+
+Here is nightly-fresh binary build of
+[ECP5 opensource tools for all platforms](https://github.com/open-tool-forge/fpga-toolchain/releases).
+
+This archive has ECP5 compilers which can be used
+for ULX3S. It doesn't contain ULX3S programmers.
+
+This archive is for [OrangeCrab](https://gregdavill.github.io/OrangeCrab/r0.2/)
+interesting miniature ECP5 board, a must-have item.
+
+Unzip it anywhere and set shell command search path:
+
+    Linux:              export PATH=[path-to-bin]:$PATH
+    MacOS:              export PATH=[path-to-bin]:$PATH
+    Windows Powershell: $ENV:PATH = "[path-to-bin];" + $ENV:PATH
+    Windows cmd.exe:    PATH=[path-to-bin];%PATH%
 
 # Programming options
 
