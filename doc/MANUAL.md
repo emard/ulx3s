@@ -189,7 +189,7 @@ but reconfigure USB chip to turn D18 OFF:
 Almost everything you need for linux, including
 Verilog and VHDL compilers, USB programmers,
 everything except diamond is in
-[KOST's ULX3S git releases](https://github.com/alpin3/ulx3s/releases)
+[KOST's ULX3S git releases](https://github.com/alpin3/ulx3s/releases).
 Installation is simple:
 
     dpkg -i ulx3s-toolchain_2020.05.24-2_amd64.deb
@@ -208,7 +208,8 @@ Here is nightly-fresh binary build of
 This archive has ECP5 compilers which can be used
 for ULX3S. It doesn't contain ULX3S programmers.
 
-This archive is for [OrangeCrab](https://gregdavill.github.io/OrangeCrab/r0.2/)
+This archive is for
+[OrangeCrab](https://gregdavill.github.io/OrangeCrab/r0.2/),
 interesting miniature ECP5 board, a must-have item.
 
 Unzip it anywhere and set shell command search path:
