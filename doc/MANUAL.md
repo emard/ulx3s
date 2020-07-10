@@ -213,10 +213,10 @@ interesting miniature ECP5 board, a must-have item.
 
 Unzip it anywhere and set shell command search path:
 
-    Linux:              export PATH=[path-to-bin]:$PATH
-    MacOS:              export PATH=[path-to-bin]:$PATH
-    Windows Powershell: $ENV:PATH = "[path-to-bin];" + $ENV:PATH
-    Windows cmd.exe:    PATH=[path-to-bin];%PATH%
+    Linux              : export PATH=[path-to-bin]:$PATH
+    MacOS              : export PATH=[path-to-bin]:$PATH
+    Windows Powershell : $ENV:PATH = "[path-to-bin];" + $ENV:PATH
+    Windows cmd.exe    : PATH=[path-to-bin];%PATH%
 
 # Programming options
 
