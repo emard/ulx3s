@@ -1,0 +1,172 @@
+# TODO
+
+Here is checklist what was done or should be done in the next PCB release.
+
+    [x] Silkscreen Double outline for BGA chip
+    [x] Silkscreen do not write over the solder pads
+    [x] Silkscreen JTAG signal names on 6-pin 2.54 mm header
+    [x] Silkscreen remove OLED outline
+    [x] Solder stop mask must go inbetween all SMD chip pads
+    [x] External differential clock input at J1_33 +/-
+    [x] physically sprinkle VCC blocator capacitors under BGA
+    [x] Dedicated antenna pin
+    [x] onboard 433 antenna
+    [x] 433 remove GND and silkscreen test point
+    [x] Resistors for LEDs
+    [x] Move USB LEDs from bottom to top side
+    [x] Improve SDRAM routing - use VIAs for closest pins
+    [x] Increase thickness of power lines (5V, 3.3V, 2.5V)
+    [x] Compile a f32c bitstream using the schematics
+    [x] Compile differential GPDI output
+    [x] Connect more lines from ESP-32 to FPGA
+    [x] Connect FPGA USB D+/D- with 1.5k pullup in USB 1.1 (full speed) mode
+    [x] FPGA USB add 27 ohm + 3.6 V zener
+    [x] Symmetrically place USB connectors left-right 
+    [x] External JTAG header
+    [x] Move JTAG 2 mm left
+    [x] Move WiFi Disable jumper closer to the BTN1 (angled header)
+    [x] Sprinkle 2.2uF capacitors on power lines
+    [x] Spice simulation of power-up/shutdown network
+    [x] 27ohm D+/D- to FT231XS
+    [x] DIP switch (4 switches)
+    [x] MAX11123 ADC SPI
+    [x] I2C for RTC
+    [x] main usb connector on top side 
+    [x] space screw to other parts
+    [x] move battery away from screw hole
+    [x] top layer GND fill
+    [x] R25 move away from oled screw hole
+    [x] DIP switch to the right near RAM
+    [x] Move GPDI a bit closer to OLED
+    [x] 32768Hz oscillator footprint
+    [x] SD card footprint SCHD3A0100
+    [x] center the SD footprint for T&R
+    [x] SD connect GND (thin pins)
+    [x] move USB 0.5-1mm more out
+    [x] DIP SW footprint correct
+    [x] AUDIO jack footprint fits
+    [x] AUDIO jack pin 4 (ring2) connected to 4-bit DAC
+    [x] BTN footprint too small
+    [x] SMPS jumpers default OFF for prototype testing
+    [x] FPGA DONE to ESP-32
+    [x] Diodes manual soldering
+    [x] R56: FT231X rev A,B,C TXDEN to GND
+        workaround from TN140_FT231X Errata
+    [x] PCB for LFE5UM ready (some GND will change to
+        VCC for Serdes power supply, see LFE5U->LFE5UM
+        migration docs)
+    [x] Check GND/VCC for 45 and 85 packages,
+        for example pin T11 is NC on 25U, GND on 85U and VCC ond 85UM
+    [x] Reconnect WIFI_OFF so that jumper has priority
+    [x] 25MHz oscillator: needs clearance from LEDs, move under USB1
+    [x] connect SHUTDOWN to FPGA
+    [x] ESP-32: won't boot when SD connected. Don't solder it at PCB v1.7
+        It is routed differently in newer release
+        Arduino->Examples->ESP32->SD_MMC_Test
+        https://github.com/espressif/esp-idf/blob/master/examples/storage/sd_card/README.md
+        moved blue LED from GPIO2 to GPIO5
+    [x] I2C resistors increased 470->2.2k
+    [x] GPDI AC-coupling 100nF to each differential line.
+    [x] reliable shutdown (D11=RED LED, R4=4.7k)
+    [x] SDRAM raster back to 0.8 mm
+    [x] connect SPI Flash Quad Mode (QSPI)
+    [x] allow powering the board without powering FTDI chip
+    [x] micro USB extended pads for Handsoldering (already were extended)
+    [x] move 25MHz oscillator away from USB connector for handsoldering
+    [x] schematics gpio J..+- pins renamed to gp/gn for easier readability
+    [ ] route 16-channel ADC
+    [x] move 8 LEDs a bit down and right
+    [x] let SD_CLK go to FPGA clock capable pin: swap SD_CLK and SD_D2 pins 
+    [x] additional 2 differential lines for US2
+    [x] additional US2 pins for pullup 1.5k
+    [x] additional US2 pins for pull up-down 15k
+    [x] unified US2 pullup/down: resistor-diode nework for pullup 1.5k and pulldown 15k
+    [x] clear silkscreen mess with Cx under FPGA
+    [x] power decoupling capacitors for ESP32 and OLED
+    [x] Connect switching power supply jumpers
+    [x] every 1-2 seconds there are clicks at analog audio output, fixed in v2.1.2
+    [x] 3.6V zener diodes must be on FPGA side
+    [x] can esp32 second tx/rx port make serial communication with FPGA
+    [x] Jumper to switch 2.5V/3.3V for left IO banks
+    [x] move usb pull from gpio bank0 to gpdi bank1
+    [x] isolate each PMOD group to each io bank
+    [ ] move GP7,GP8 from gpio bank0 to gpio bank7
+    [x] route selected voltage to VCCio0/7
+    [x] route selected voltage to J1 PMOD instead of 3.3V fixed
+    [x] more bank0,1,7 decoupling capacitors
+    [x] Move Jumper 2.5V/3.3V deeper inside PCB (angled header)
+    [x] 0R resistor placeholders to hardwire 2.5V/3.3V instead of the jumper
+    [x] Selected 2.5/3.3V to J1 header (instead fixed 3.3V)
+    [x] RTC battery capacitor
+    [x] battery + pad clearance
+    [x] PCB v1.8.1 redesigned to fit digital video 649-10029449-111RLF (the cheapest)
+    [x] use cheaper diodes 1N914
+    [x] fix copper layer after using non-handsoldering resistor footprints
+    [x] DIP switch must be pulled up at 2.5/3.3V or 2.5V line, not 3.3V
+    [x] RTC time loss at power down fixed with 1k+22uF - see page 54 of datasheet
+    [x] Rotate SD card 180° for easier front loading
+    [x] Move C1, C21, C50 away from J1, J2 connectors (make space for IDC header)
+    [x] Smaller USB pads
+    [x] Smaller pads (not for handsoldering)
+    [x] Revert USB to datasheet default
+    [x] ADC text smaller font, move above ADC chip
+    [x] ULX3S/version left of ADC chip   
+    [x] (inem) KONCAR logo on bottom side
+    [x] BTN font size like TCK
+    [x] Combo pads for flash 150/208 mil
+    [x] SDRAM text smaller font size
+    [x] SW1 increase size, to more visible place
+    [x] GPIO numbering on bottom side, all pins in smaller font
+    [x] enlarge FER logo
+    [x] Descriptive audio jack schematic symbol
+    [x] USB ID pin to RTC WAKEUPn
+    [x] Move 25MHz clock down closer to LEDs
+    [x] i2c chip U11 VCC1=2.5V EN=3.3V for low power sleep
+    [x] Noise filter for ADC (LC)
+    [x] Non-GND yellow layer clearance from board's edge
+    [x] VIAs thru-GND
+    [x] no paste on SW1 pads 
+    [x] diode for BTN0 to PROGRAMN
+    [x] capacitor for BTN0 debounce
+    [x] BGA pad=0.4mm mask=0.5mm paste=0.35mm
+    [x] VIA align to 0.4mm raster
+    [x] min VIA enlarge 0.4 mm -> 0.419 mm
+    [x] USB: copper fill keepout
+    [x] ADC: footprint according to MAX1112x land pattern 90-0023
+    [x] fix tombstoning see https://www.tempoautomation.com/blog/surface-mount-tombstone-experiment/
+    [x] Avoid VIAs on the PADs
+    [x] aligment marks for BGA footprint using exposed gold plated copper
+    [ ] Order ADCs in reel (not bulk, not tube).
+    [x] check increased distance of 2 pad rows of SDRAM
+    [x] check decreased distance of 2 pad rows of FT231X
+    [x] route FTDI_nRXLED to FPGA
+    [ ] resistor in series with + battery
+    [ ] GPDI clock to clock capable pins, swap with USB pullup
+    [ ] more routing to true differential pins (avoid bank 0 and 1)
+    [ ] FT2232H port B MPSSE JTAG, powered from 3.3V onboard.
+        SOT-23-6 SPI EEPROM like 24CW1280T-I/OT placeholder
+        by default SPI also routed to FPGA for emulation
+    [ ] Pull-up <10k for clk_oe
+    [x] 8-pin LCD header
+    [ ] prototype test: connect blue LED+R on TMS line (ESP32-FPGA-FT231x)
+    [ ] SD alternative check footprints
+
+Digi-Key Part Number 	WM12834TR-ND 	
+Manufacturer 	Molex 	
+Manufacturer Part Number 	5031821852 	
+Description 	MICRO SD NORMAL ULTRALOWPRO8CKTE 	
+Manufacturer Standard Lead Time 	12 Weeks 	
+Detailed Description 	10 (8 + 2) Position Card Connector microSD™ Surface Mount, Right Angle Gold 
+
+Digi-Key Part Number 	WM9750TR-ND 	
+Manufacturer 	Molex 	
+Manufacturer Part Number 	5031821853 	
+Description 	CONN MICRO SD CARD PUSH-PUSH R/A 	
+Detailed Description 	10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold 
+
+Digi-Key Part Number 	2073-MEM2075-00-140-01-ACT-ND 	
+Manufacturer 	GCT 	
+Manufacturer Part Number 	MEM2075-00-140-01-A 	
+Description 	MICRO SD PUSH-PUSH, SMT, 1.40MM 	
+Manufacturer Standard Lead Time 	6 Weeks 	
+Detailed Description 	9 (8 + 1) Position Card Connector microSD™ Surface Mount, Right Angle Gold 
