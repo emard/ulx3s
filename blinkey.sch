@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 11
 Title "ULX3S"
 Date ""
-Rev "1.0.2"
+Rev "1.0.3"
 Comp "EMARD"
 Comment1 "Buttons, LEDs, OLED display"
 Comment2 ""
@@ -483,19 +483,6 @@ Text Label 4750 5850 0    60   ~ 0
 LED_WIFI
 Wire Wire Line
 	4400 5850 4250 5850
-Wire Wire Line
-	4250 5850 4250 6200
-$Comp
-L power:GND #PWR085
-U 1 1 5A07AFE2
-P 4250 6200
-F 0 "#PWR085" H 4250 5950 50  0001 C CNN
-F 1 "GND" H 4250 6050 50  0000 C CNN
-F 2 "" H 4250 6200 50  0000 C CNN
-F 3 "" H 4250 6200 50  0000 C CNN
-	1    4250 6200
-	1    0    0    -1  
-$EndComp
 Text Label 7450 3400 0    60   ~ 0
 SWPU
 Text Notes 6350 5400 0    60   ~ 0
@@ -824,7 +811,7 @@ F 15 "C375453" H 5500 5850 50  0001 C CNN "LCSC"
 F 16 "FV004" H 5500 5850 50  0001 C CNN "Koncar"
 F 17 "T" H 5500 5850 50  0001 C CNN "Side"
 	1    5500 5850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D18
@@ -848,4 +835,15 @@ Text GLabel 4850 1950 2    60   Input ~ 0
 OLED_BL
 Wire Wire Line
 	4750 1950 4850 1950
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F0C55F7
+P 4250 5850
+F 0 "#PWR?" H 4250 5700 50  0001 C CNN
+F 1 "+3V3" H 4250 5990 50  0000 C CNN
+F 2 "" H 4250 5850 50  0000 C CNN
+F 3 "" H 4250 5850 50  0000 C CNN
+	1    4250 5850
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
