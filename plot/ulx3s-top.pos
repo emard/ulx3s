@@ -1,4 +1,4 @@
-### Module positions - created on Wed May 20 13:48:20 2020 ###
+### Module positions - created on Sun Jul 12 16:44:33 2020 ###
 ### Printed by Pcbnew version kicad 5.1.6+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -33,7 +33,7 @@ D6        GREEN              LED_0805_2012Metric                            11.4
 D7        BLUE               LED_0805_2012Metric                             8.8900    32.6210  270.0000  top
 D18       GREEN              LED_0805_2012Metric                            34.2900     6.3500   90.0000  top
 D19       RED                LED_0805_2012Metric                            36.8300     6.3500   90.0000  top
-D22       BLUE               LED_0805_2012Metric                            31.7500     6.3500   90.0000  top
+D22       BLUE               LED_0805_2012Metric                            31.7500     6.3500  270.0000  top
 GPDI1     GPDI-D             CONN-10029449-111RLF                           51.1960    42.9080  180.0000  top
 R36       549                R_0603_1608Metric                              34.2900     2.5400  270.0000  top
 R37       549                R_0603_1608Metric                              36.8300     2.5400   90.0000  top
