@@ -230,8 +230,8 @@ or [ujprog binary from FER](http://www.nxlab.fer.hr/dl)
 
 [OpenFPGA Loader](https://github.com/trabucayre/openFPGALoader)
 can do everyting fujprog can, last time I tested it was just
-a little bit slower than fujprog. Supports not only ULX3S but
-many other boards and is actively developed.
+a little bit slower than fujprog, some users have reported it was faster.
+Supports not only ULX3S but many other boards and is actively developed.
 
 EMARD's fork of Xark's [FleaFPGA-JTAG source](https://github.com/emard/FleaFPGA-JTAG)
 or [FleaFPGA-JTAG binary](https://github.com/emard/ulx3s-bin/tree/master/usb-jtag)
