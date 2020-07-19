@@ -227,26 +227,29 @@ To program ULX3S bitstream, there are many programming options:
 [ujprog source from GIT](https://github.com/f32c/tools)
 or [ujprog binary from EMARD](https://github.com/emard/ulx3s-bin/tree/master/usb-jtag)
 or [ujprog binary from FER](http://www.nxlab.fer.hr/dl)
+Accepts *.bit or *.svf files which all tools can generate.
 
 [OpenFPGA Loader](https://github.com/trabucayre/openFPGALoader)
 can do everyting fujprog can, last time I tested it was just
 a little bit slower than fujprog, some users have reported it was faster.
+Accepts *.bit files which all tools can generate.
 Supports not only ULX3S but many other boards and is actively developed.
 
 EMARD's fork of Xark's [FleaFPGA-JTAG source](https://github.com/emard/FleaFPGA-JTAG)
 or [FleaFPGA-JTAG binary](https://github.com/emard/ulx3s-bin/tree/master/usb-jtag)
-It needs *.VME files which AFAIK can be created only with closed
+Accepts *.VME files which AFAIK can be created only with closed
 source tools (diamond) but cannot be created with open source tools
 (trellis).
 
-
 [OpenOCD soruce](https://sourceforge.net/p/openocd/code/ci/master/tree)
 or [OpenOCD binaries 2019 or later](https://github.com/gnu-mcu-eclipse/openocd/releases)
-(ft232r interface configuredd for ULX3S FT231X pinout)
+(ft232r interface configured for ULX3S FT231X pinout). Accepts *.SVF files
+which all tools can generate. It is much slower than f/ujprog.
 
-Onboard [ESP32 WiFi FTP](https://github.com/emard/esp32ecp5)
+Onboard [ESP32 WiFi FTP](https://github.com/emard/esp32ecp5).
+It is much faster than f/ujprog. Accepts *.bit files which all tools can generate.
 
-Onboard ESP32 WiFi web interface
+Onboard ESP32 WiFi web interface. Accepts *.svf files which all tools can generate.
 
 External USB-JTAG programmer connected to JTAG header.
 
