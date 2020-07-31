@@ -204,8 +204,8 @@ installed before:
 
 Here is nightly-fresh binary build of
 [ECP5 opensource tools for all platforms](https://github.com/open-tool-forge/fpga-toolchain/releases).
-This archive has ECP5 compilers which can be used
-for ULX3S but doesn't have ULX3S programmers.
+This archive has ECP5 compilers and openFPGALoader
+which can be used for ULX3S.
 
 It is made for
 [OrangeCrab](https://gregdavill.github.io/OrangeCrab/r0.2/),
