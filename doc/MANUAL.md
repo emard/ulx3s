@@ -686,6 +686,8 @@ with pinout that can be directly plugged to J1/J2 connector.
 For OLED connector, read pinout carefully, VCC and GND should be
 swapped!
 
+e-ink 1.54" v2 BW 200x200 SPI with IL3829 driver chip:
+
 ![eink154v2top](/pic/eink154v2top.jpg)
 ![eink154v2bot](/pic/eink154v2bot.jpg)
 
