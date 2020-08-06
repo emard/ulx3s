@@ -676,6 +676,19 @@ contrast color picture :)
 
 ![OLED 1-PIXEL FONT](/pic/oled-1-pixel-wide-font.jpg)
 
+# e-ink/e-paper Display
+
+Those displays may keep picture without any power applied
+and are ideal for ULX3S in low-power sleep and wake-on-RTC.
+
+Currently e-ink/e-paper displays are availabe on ebay and others
+with pinout that can be directly plugged to J1/J2 connector.
+For OLED connector, read pinout carefully, VCC and GND should be
+swapped!
+
+![eink154v2top](/pic/eink154v2top.jpg)
+![eink154v2bot](/pic/eink154v2bot.jpg)
+
 # US2 connector as OTG, PS/2 or sniffer
 
 Here is list of some useful cables and adapters for US2 connector
