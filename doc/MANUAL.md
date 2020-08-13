@@ -755,11 +755,15 @@ Correct pinout is this:
 
 # i2s-Quality Audio Module
 
-Onboard audio module has cheap and educative 4-bit DAC
+Onboard audio jack has cheap and educative 4-bit DAC
 which is good for audible tones but may be noisy.
-Better audio quality can be easily obtained by external
-I2S module PCM5102 for clean stereo PCM 192kHz 16-bit sound,
-properly amplified for headphones.
+Better audio quality can be obtained from external
+I2S module PCM5102 for clean stereo PCM 192kHz 16-bit sound.
+Module also has amplifiers for headphones, it is loud enough.
+
+On ebay it is sold for about 4$.
+
+[PCM5102 I2S Interface DAC Decoder GY-PCM5102 I2S Player Module for Raspberry Pi](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2047675.m570.l1313&_nkw=PCM5102&_sacat=0)
 
 ![I2S AUDIO MODULE](/pic/pcm5102.jpg)
 
