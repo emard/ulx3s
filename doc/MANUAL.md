@@ -753,6 +753,16 @@ Correct pinout is this:
 
 ![AUDIO JACK TO CINCH](/pic/cinch_jack.jpg)
 
+# i2s-Quality Audio Module
+
+Onboard audio module has cheap and educative 4-bit DAC
+which is good for audible tones but may be noisy.
+Better audio quality can be easily obtained by external
+I2S module PCM5102 for clean stereo PCM 192kHz 16-bit sound,
+properly amplified for headphones.
+
+![I2S AUDIO MODULE](/pic/pcm5102.jpg)
+
 # Board Versions
 
 This project is open source, freely downloadable so there can be
