@@ -546,7 +546,9 @@ module's FLASH voltage to 3.3V. This is in assumption that inside of
 ESP32 is FLASH that works at 3.3V and it is currently true for all known
 ESP32 WROOM modules mounted on ULX3S. If you have WROVER module, fuse
 setting is different for 1.8V FLASH or it may work with SD card without
-this fuse setting so don't do it.
+this fuse setting so don't do it. Here are archived
+[ESP32 serial tools](https://github.com/emard/ulx3s-bin/tree/master/esp32/serial-uploader)
+which are known to work or you can use latest from ESP.
 
     python serial-uploader/espefuse.py --port /dev/ttyUSB0 set_flash_voltage 3.3V
 
