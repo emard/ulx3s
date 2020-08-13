@@ -532,21 +532,21 @@ Skip this section if unsure.
 ESP32 has one-time programmable efuses that need to be
 properly set for using ESP32 with SD card.
 SD card needs pull-up on all of its pins.
-ESP32 with unprogrammed fuse needs pin GPIO12 pull-down in
+ESP32 with unprogrammed efuse needs pin GPIO12 pull-down in
 order to boot from its FLASH and as GPIO12 is shared with
 SD we have conflicting situation which can be resolved by
 programming efuse.
 
 efuse should be programmed by ULX3S manufacturer during test and setup phase.
-A wrong fuse setting will make ESP32 module unbootable and only
+A wrong efuse setting will make ESP32 module unbootable and only
 fix is to replace it with new ESP32.
 
 Remove SD card and burn efuse to ignore GPIO12 by fixing internal
 module's FLASH voltage to 3.3V. This is in assumption that inside of
 ESP32 is FLASH that works at 3.3V and it is currently true for all known
-ESP32 WROOM modules mounted on ULX3S. If you have WROVER module, fuse
+ESP32 WROOM modules mounted on ULX3S. If you have WROVER module, efuse
 setting is different for 1.8V FLASH or it may work with SD card without
-this fuse setting so don't do it. Here are archived
+this efuse setting so don't do it. Here are archived
 [ESP32 serial tools](https://github.com/emard/ulx3s-bin/tree/master/esp32/serial-uploader)
 which are known to work or you can use latest from ESP.
 
