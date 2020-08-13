@@ -526,7 +526,7 @@ efuse should be programmed by ULX3S manufacturer during test and setup phase.
 A wrong fuse setting will make ESP32 module unbootable and only
 fix is to replace it with new ESP32.
 
-Remove SD card and burn efuse to ignore GPIO12 and biy fixing internal
+Remove SD card and burn efuse to ignore GPIO12 by fixing internal
 module's FLASH voltage to 3.3V. This is in assumption that inside of
 ESP32 is FLASH that works at 3.3V and it is currently true for all known
 ESP32 WROOM modules mounted on ULX3S. If you have WROVER module, fuse
