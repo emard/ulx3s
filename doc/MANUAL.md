@@ -530,7 +530,8 @@ Remove SD card and burn efuse to ignore GPIO12 by fixing internal
 module's FLASH voltage to 3.3V. This is in assumption that inside of
 ESP32 is FLASH that works at 3.3V and it is currently true for all known
 ESP32 WROOM modules mounted on ULX3S. If you have WROVER module, fuse
-setting is different for 1.8V FLASH or maybe even not needed.
+setting is different for 1.8V FLASH or it may work with SD card without
+this fuse setting so don't do it.
 
     python serial-uploader/espefuse.py --port /dev/ttyUSB0 set_flash_voltage 3.3V
 
@@ -586,6 +587,7 @@ at websvf window click "Tools->ESP32 Sketch Data Upload".
 successful upload will finish with same as above.
 
 ESP32 will try to connect to your local WiFi as client with
+
 default ssid=websvf password=12345678
 Insert SD card with file "ulx3s-wifi.conf" in SD root directory:
 
