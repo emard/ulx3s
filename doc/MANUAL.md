@@ -512,7 +512,22 @@ write config to eeprom:
 
 re-plug USB to reload new eeprom content.
 
-# Preparing WiFi (ESP32)
+# Preparing WiFi (passthru)
+
+Passthru bitstream should be written to FPGA config flash
+in order to program ESP32 FLASH and efuse by US1 usb-serial port.
+Get binary passthru suitable for ULX3S board version and
+FPGA chip 12/25/45/85 from 
+[ulx3s-bin passhtru](https://github.com/emard/ulx3s-bin/tree/master/fpga/passthru)
+or compile it from [ULX3S passthru source](https://github.com/emard/ulx3s-passthru)
+
+    fujprog -j flash passthru.bit
+
+"Passthru" bitstream configures FPGA to route lines from USB-serial to ESP-32.
+
+# Preparing WiFi (ESP32 efuse)
+
+Skip this section if unsure.
 
 ESP32 has one-time programmable efuses that need to be
 properly set for using ESP32 with SD card.
@@ -558,12 +573,9 @@ memory to buffer entire bitstream delivered in a long single SVF command.
 
     ddtcmd -oft -svfsingle -revd -maxdata 8 -if ulx3s_flash.xcf -of bitstream.svf
 
-To start using ESP-32 first you need to compile
-[ULX3S passthru](https://github.com/emard/ulx3s-passthru)
-and upload it using FleaFPGA-JTAG or external JTAG programmer.
-"Passthru" bitstream configures FPGA to route lines from USB-serial to ESP-32.
-
-Then you need to install Arduino and its ESP-32 support, and
+Write "passthru" to FPGA config flash as described above in section "Preparing WiFi
+(passthru)".
+Install Arduino and its ESP-32 support, and
 install Emard's library [LibXSVF-ESP](https://github.com/emard/LibXSVF-ESP),
 required library dependencies and 
 [ESP-32 SPIFFS uploader](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/tag/v0.1)
