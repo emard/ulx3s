@@ -512,6 +512,26 @@ write config to eeprom:
 
 re-plug USB to reload new eeprom content.
 
+# Preparing WiFi (ESP32)
+
+ESP32 has one-time programmable fuses that need to be
+properly set for using ESP32 with SD card.
+
+Fuse should be programmed by ULX3S manufacturer during test and setup phase.
+A wrong fuse setting will make ESP32 module unbootable and only
+fix is to replace it with new ESP32.
+
+Remove SD card and burn efuse to ignore GPIO12 and biy fixing internal
+module's FLASH voltage to 3.3V. This is in assumption that inside of
+ESP32 is FLASH that works at 3.3V and it currently true for all known
+ESP32 WROOM modules mounted on ULX3S. If you have WROVER module, fuse
+setting is different for 1.8V FLASH or maybe even not needed.
+
+    python serial-uploader/espefuse.py --port /dev/ttyUSB0 set_flash_voltage 3.3V
+
+After this there is no way back. ESP32 should boot again and accept SD
+cards.
+
 # Programming over WiFi (ESP32 micropython)
 
 [Micropython ESP32 ECP5 programmer](https://github.com/emard/esp32ecp5)
