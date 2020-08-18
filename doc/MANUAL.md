@@ -807,6 +807,19 @@ On ebay it is sold for about 4$.
 
 ![I2S AUDIO MODULE](/pic/pcm5102.jpg)
 
+# Fast ADC/DAC
+
+Module AN108 for features 32 MSa/s 8-bit input AD9280 and 125 MSa/s 8-bit output
+AD9708. It is not directly pluggable, some adapter PCB has to be made.
+Module AN926 12-bit 2-ch 50 MSa/s AD9226 is nearly directly pluggable,
+by recrimping of a flat cable it could fit the board.
+
+AN108 8-bit AD/DA 32 MSa/s IN, 125 Msa/s OUT
+![AN108 8-bit AD/DA 32 MSa/s IN, 125 Msa/s OUT](/pic/an108.jpg)
+
+AN926 12-bit 2-ch AD 50 MSa/s IN
+![AN926 12-bit 2-ch 50 MSA/s](/pic/an926.png)
+
 # Board Versions
 
 This project is open source, freely downloadable so there can be
