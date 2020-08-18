@@ -816,7 +816,8 @@ Module AN108 32 MSa/s 8-bit input AD9280 and 125 MSa/s 8-bit output AD9708.
 It is not directly pluggable, some adapter PCB has to be made.
 
 Module AN926 12-bit 2-ch 50 MSa/s AD9226 is "almost" directly pluggable,
-user has to re-crimping or modify few lines of a flat cable and it will fit.
+user has to re-crimp or modify few lines of a 40-pin flat cable and it
+should fit.
 
 AN108 8-bit AD/DA 32 MSa/s IN, 125 Msa/s OUT
 ![AN108 8-bit AD/DA 32 MSa/s IN, 125 Msa/s OUT](/pic/an108.jpg)
