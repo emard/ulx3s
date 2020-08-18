@@ -809,10 +809,14 @@ On ebay it is sold for about 4$.
 
 # Fast ADC/DAC
 
-Module AN108 for features 32 MSa/s 8-bit input AD9280 and 125 MSa/s 8-bit output
-AD9708. It is not directly pluggable, some adapter PCB has to be made.
-Module AN926 12-bit 2-ch 50 MSa/s AD9226 is nearly directly pluggable,
-by recrimping of a flat cable it could fit the board.
+Onboard ADC allows total bandwith of 1 MSa/s, shared for all channels used.
+For faster ADC/DAC there are options to connect external boards:
+
+Module AN108 32 MSa/s 8-bit input AD9280 and 125 MSa/s 8-bit output AD9708.
+It is not directly pluggable, some adapter PCB has to be made.
+
+Module AN926 12-bit 2-ch 50 MSa/s AD9226 is "almost" directly pluggable,
+user has to re-crimping or modify few lines of a flat cable and it will fit.
 
 AN108 8-bit AD/DA 32 MSa/s IN, 125 Msa/s OUT
 ![AN108 8-bit AD/DA 32 MSa/s IN, 125 Msa/s OUT](/pic/an108.jpg)
