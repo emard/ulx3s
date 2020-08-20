@@ -209,8 +209,9 @@ which can be used for ULX3S. Get the latest for linux
 automatically with this script:
 
     #!/bin/sh
-    date_string=$(date +%Y%m%d)
+    TZ=Australia/Canberra date_string=$(date +%Y%m%d)
     wget -c https://github.com/open-tool-forge/fpga-toolchain/releases/download/nightly-${date_string}/fpga-toolchain-linux_x86_64-nightly-${date_string}.tar.xz
+    tar -xvf fpga-toolchain-linux_x86_64-nightly-${date_string}.tar.xz
 
 It is made for
 [OrangeCrab](https://gregdavill.github.io/OrangeCrab/r0.2/),
