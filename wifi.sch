@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 11
 Title "ULX3S"
 Date ""
-Rev "1.0.3"
+Rev "1.0.4"
 Comp "EMARD"
 Comment1 "WIFI module ESP32"
 Comment2 ""
@@ -44,7 +44,7 @@ L esp-wroom32:ESP-WROOM32 U9
 U 1 1 58E5662B
 P 6650 3450
 F 0 "U9" H 5950 4700 60  0000 C CNN
-F 1 "ESP32-WROOM" H 6950 4700 60  0000 C CNN
+F 1 "ESP32" H 7200 4700 60  0000 C CNN
 F 2 "ESP32:ESP32-WROOM32" H 7000 4800 60  0001 C CNN
 F 3 "http://espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 6200 3900 60  0001 C CNN
 F 4 "espressif.com" H 6650 3450 60  0001 C CNN "MNF1_URL"
@@ -208,8 +208,6 @@ Text GLabel 5700 3750 0    60   Input ~ 0
 GP11
 Text GLabel 5700 3650 0    60   Input ~ 0
 GN11
-Text GLabel 7550 3900 2    60   Input ~ 0
-WIFI_GPIO16
 $Comp
 L power:GND #PWR0123
 U 1 1 59C1BF96
@@ -253,8 +251,6 @@ Wire Wire Line
 	6200 4500 6200 4900
 Wire Wire Line
 	4550 2900 4550 2950
-Text GLabel 7550 3800 2    60   Input ~ 0
-WIFI_GPIO17
 Wire Wire Line
 	4550 2950 5700 2950
 Text Label 5350 2950 0    60   ~ 0
@@ -281,7 +277,7 @@ WIFI_GPIO19
 Text Notes 8550 3750 0    60   ~ 0
 NC v1.7, WIFI_GPIO5 <v3.1
 Text Notes 8550 3850 0    60   ~ 0
-NC v1.7
+NC v1.7, >=v3.1.2
 Text Notes 8550 4050 0    60   ~ 0
 NC v1.7
 Text Notes 7350 5700 0    60   ~ 0
@@ -322,4 +318,10 @@ Text GLabel 5700 3850 0    60   Input ~ 0
 GP10
 Text GLabel 5700 3350 0    60   Input ~ 0
 GN10
+Text Notes 8550 3950 0    60   ~ 0
+NC >=v3.1.2
+NoConn ~ 7550 3800
+NoConn ~ 7550 3900
+Text Notes 9550 3950 0    60   ~ 0
+WROVER GPIO16,17\nused internally for PSRAM
 $EndSCHEMATC
