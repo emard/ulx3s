@@ -205,14 +205,7 @@ installed before:
 Here is nightly-fresh binary build of
 [ECP5 opensource tools for all platforms](https://github.com/open-tool-forge/fpga-toolchain/releases).
 This archive has ECP5 compilers and openFPGALoader
-which can be used for ULX3S. Get the latest for linux 
-automatically with this script:
-
-    #!/bin/sh
-    date_string=$(TZ=Australia/Canberra date +%Y%m%d)
-    wget -c https://github.com/open-tool-forge/fpga-toolchain/releases/download/nightly-${date_string}/fpga-toolchain-linux_x86_64-nightly-${date_string}.tar.xz
-    tar -xvf fpga-toolchain-linux_x86_64-nightly-${date_string}.tar.xz
-
+which can be used for ULX3S.
 It is made for
 [OrangeCrab](https://gregdavill.github.io/OrangeCrab/r0.2/),
 interesting miniature ECP5 board, a must-have item.
