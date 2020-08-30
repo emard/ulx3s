@@ -2,7 +2,7 @@
   (lib (name ulx3s-rescue)(type Legacy)(uri ${KIPRJMOD}/ulx3s-rescue.lib)(options "")(descr ""))
   (lib (name lfe5bg381)(type Legacy)(uri ${KIPRJMOD}/footprints/lattice/lfe5bg381.lib)(options "")(descr ""))
   (lib (name ft2232)(type Legacy)(uri ${KIPRJMOD}/footprints/usbserial/ft2232.lib)(options "")(descr ""))
-  (lib (name esp-wroom32)(type Legacy)(uri ${KIPRJMOD}/footprints/esp32/esp-wroom32.lib)(options "")(descr ""))
+  (lib (name esp32)(type Legacy)(uri ${KIPRJMOD}/footprints/esp32/esp32.lib)(options "")(descr ""))
   (lib (name ssd_13xx)(type Legacy)(uri ${KIPRJMOD}/footprints/oled/ssd_13xx.lib)(options "")(descr ""))
   (lib (name ftdi)(type Legacy)(uri ${KIPRJMOD}/footprints/usbserial/ftdi.lib)(options "")(descr ""))
   (lib (name max1112x)(type Legacy)(uri ${KIPRJMOD}/footprints/adc/max1112x/max1112x.lib)(options "")(descr ""))

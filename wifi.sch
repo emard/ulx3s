@@ -15,7 +15,7 @@ Comment4 ""
 $EndDescr
 Text GLabel 7100 4500 3    60   Input ~ 0
 SD_D0
-Text GLabel 7550 4000 2    60   Input ~ 0
+Text GLabel 7550 3950 2    60   Input ~ 0
 SD_D1
 Text GLabel 6300 4500 3    60   Input ~ 0
 SD_D3
@@ -25,27 +25,29 @@ Text GLabel 5700 3950 0    60   Input ~ 0
 SD_CLK
 Text GLabel 5700 4050 0    60   Input ~ 0
 SD_D2
-Text GLabel 7550 3200 2    60   Input ~ 0
+Text GLabel 7550 3150 2    60   Input ~ 0
 WIFI_RXD
-Text GLabel 7550 3100 2    60   Input ~ 0
+Text GLabel 7550 3050 2    60   Input ~ 0
 WIFI_TXD
-Text GLabel 7550 4100 2    60   Input ~ 0
+Text GLabel 7550 4050 2    60   Input ~ 0
 WIFI_GPIO0
-Text GLabel 7550 2900 2    60   Input ~ 0
+Text GLabel 7550 2850 2    60   Input ~ 0
 JTAG_TDI
 Text GLabel 5700 3250 0    60   Input ~ 0
 JTAG_TDO
-Text GLabel 7550 3600 2    60   Input ~ 0
+Text GLabel 7550 3550 2    60   Input ~ 0
 JTAG_TCK
-Text GLabel 7550 3700 2    60   Input ~ 0
+Text GLabel 7550 3650 2    60   Input ~ 0
 JTAG_TMS
 $Comp
-L esp-wroom32:ESP-WROOM32 U9
+L esp32:ESP32-WROOM-WROVER U9
 U 1 1 58E5662B
 P 6650 3450
+AR Path="/58E5662B" Ref="U9"  Part="1" 
+AR Path="/58D6D447/58E5662B" Ref="U9"  Part="1" 
 F 0 "U9" H 5950 4700 60  0000 C CNN
 F 1 "ESP32" H 7200 4700 60  0000 C CNN
-F 2 "ESP32:ESP32-WROOM32" H 7000 4800 60  0001 C CNN
+F 2 "ESP32:ESP32" H 7000 4800 60  0001 C CNN
 F 3 "http://espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 6200 3900 60  0001 C CNN
 F 4 "espressif.com" H 6650 3450 60  0001 C CNN "MNF1_URL"
 F 5 "ESP-WROOM-32" H 6650 3450 60  0001 C CNN "MPN"
@@ -211,30 +213,30 @@ GN11
 $Comp
 L power:GND #PWR0123
 U 1 1 59C1BF96
-P 7650 2800
-F 0 "#PWR0123" H 7650 2550 50  0001 C CNN
-F 1 "GND" H 7650 2650 50  0000 C CNN
-F 2 "" H 7650 2800 50  0001 C CNN
-F 3 "" H 7650 2800 50  0001 C CNN
-	1    7650 2800
+P 7650 2750
+F 0 "#PWR0123" H 7650 2500 50  0001 C CNN
+F 1 "GND" H 7650 2600 50  0000 C CNN
+F 2 "" H 7650 2750 50  0001 C CNN
+F 3 "" H 7650 2750 50  0001 C CNN
+	1    7650 2750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7550 2800 7650 2800
+	7550 2750 7650 2750
 $Comp
 L power:GND #PWR0122
 U 1 1 59C1BFCC
-P 7650 2700
-F 0 "#PWR0122" H 7650 2450 50  0001 C CNN
-F 1 "GND" H 7650 2550 50  0000 C CNN
-F 2 "" H 7650 2700 50  0001 C CNN
-F 3 "" H 7650 2700 50  0001 C CNN
-	1    7650 2700
+P 7650 2650
+F 0 "#PWR0122" H 7650 2400 50  0001 C CNN
+F 1 "GND" H 7650 2500 50  0000 C CNN
+F 2 "" H 7650 2650 50  0001 C CNN
+F 3 "" H 7650 2650 50  0001 C CNN
+	1    7650 2650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7550 2700 7650 2700
-Text GLabel 7550 3000 2    60   Input ~ 0
+	7550 2650 7650 2650
+Text GLabel 7550 2950 2    60   Input ~ 0
 WIFI_GPIO22
 $Comp
 L power:GND #PWR0121
@@ -272,7 +274,7 @@ Text Notes 7050 6350 1    60   ~ 0
 WIFI_GPIO15 v1.7
 Text Notes 7150 6200 1    60   ~ 0
 WIFI_LED v1.7
-Text GLabel 7550 3500 2    60   Input ~ 0
+Text GLabel 7550 3450 2    60   Input ~ 0
 WIFI_GPIO19
 Text Notes 8550 3750 0    60   ~ 0
 NC v1.7, WIFI_GPIO5 <v3.1
@@ -310,7 +312,7 @@ Text Notes 8550 3550 0    60   ~ 0
 TDO <v3.1
 Text Notes 3150 3300 0    60   ~ 0
 GN13 <v3.1
-Text GLabel 7550 3300 2    60   Input ~ 0
+Text GLabel 7550 3250 2    60   Input ~ 0
 WIFI_GPIO21
 Text GLabel 5700 3150 0    60   Input ~ 0
 GN13
@@ -320,8 +322,8 @@ Text GLabel 5700 3350 0    60   Input ~ 0
 GN10
 Text Notes 8550 3950 0    60   ~ 0
 NC >=v3.1.2
-NoConn ~ 7550 3800
-NoConn ~ 7550 3900
+NoConn ~ 7550 3750
+NoConn ~ 7550 3850
 Text Notes 9550 3950 0    60   ~ 0
 WROVER GPIO16,17\nused internally for PSRAM
 $EndSCHEMATC
