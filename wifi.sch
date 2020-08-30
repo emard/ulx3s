@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 11
 Title "ULX3S"
 Date ""
-Rev "1.0.5"
+Rev "1.0.6"
 Comp "EMARD"
 Comment1 "WIFI module ESP32"
 Comment2 ""
@@ -48,16 +48,17 @@ AR Path="/58D6D447/58E5662B" Ref="U9"  Part="1"
 F 0 "U9" H 5950 4700 60  0000 C CNN
 F 1 "ESP32" H 7200 4700 60  0000 C CNN
 F 2 "ESP32:ESP32" H 7000 4800 60  0001 C CNN
-F 3 "http://espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 6200 3900 60  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf" H 6200 3900 60  0001 C CNN
 F 4 "espressif.com" H 6650 3450 60  0001 C CNN "MNF1_URL"
-F 5 "ESP-WROOM-32" H 6650 3450 60  0001 C CNN "MPN"
-F 6 "356-ESPWROOM3216MB" H 6650 3450 50  0001 C CNN "Mouser"
-F 7 "356-ESP-WROOM-32 " H 6650 3450 50  0001 C CNN "Mouse_r2"
-F 8 "3.32€" H 6650 3450 50  0001 C CNN "price100_Mouser"
-F 9 "1904-1010-1-ND" H 6650 3450 50  0001 C CNN "Digikey"
-F 10 "C529581" H 6650 3450 50  0001 C CNN "LCSC"
-F 11 "Leave empty" H 6650 3450 50  0001 C CNN "LowCost"
-F 12 "FU001" H 6650 3450 50  0001 C CNN "Koncar"
+F 5 "ESP32-WROVER-E" H 6650 3450 60  0001 C CNN "MPN"
+F 6 "356-ESP32WRVE22864PC" H 6650 3450 50  0001 C CNN "Mouser"
+F 7 "356-ESPWROOM3216MB" H 6650 3450 50  0001 C CNN "Mouse_r1"
+F 8 "356-ESP-WROOM-32 " H 6650 3450 50  0001 C CNN "Mouse_r2"
+F 9 "3.32€" H 6650 3450 50  0001 C CNN "price100_Mouser"
+F 10 "1904-1010-1-ND" H 6650 3450 50  0001 C CNN "Digikey"
+F 11 "C529581" H 6650 3450 50  0001 C CNN "LCSC"
+F 12 "Leave empty" H 6650 3450 50  0001 C CNN "LowCost"
+F 13 "FU001" H 6650 3450 50  0001 C CNN "Koncar"
 	1    6650 3450
 	1    0    0    -1  
 $EndComp
@@ -140,7 +141,7 @@ F 5 "T" H 4550 3300 50  0001 C CNN "Side"
 	1    4550 3300
 	0    -1   -1   0   
 $EndComp
-Text Notes 9250 4200 0    60   ~ 0
+Text Notes 9050 4150 0    60   ~ 0
 Programming pins:\nTXD RXD EN GPIO0
 $Comp
 L Device:R R35
@@ -190,7 +191,7 @@ F 3 "" H 3550 2500 50  0000 C CNN
 $EndComp
 Text Notes 5900 2050 0    60   ~ 0
 WiFi and SDcard connected to\nBANK6 on "usb" sheet
-Text Notes 9250 4650 0    60   ~ 0
+Text Notes 9050 4600 0    60   ~ 0
 Strapping pins\n(avoid using to avoid\nboot problems)\nGPIO0,2,4,5,12,15
 Text Notes 2500 6500 0    60   ~ 0
 ESP32 ADC capable pins\nGPIO36,39,34,35,32,33,25,26,27,\nGPIO14,12,13,15 - shared with HSPI/JTAG\nConnected to BANK7 on "gpio" sheet
@@ -263,11 +264,11 @@ Text Notes 7150 6200 1    60   ~ 0
 WIFI_LED v1.7
 Text GLabel 7550 3450 2    60   Input ~ 0
 WIFI_GPIO19
-Text Notes 8550 3750 0    60   ~ 0
+Text Notes 8350 3700 0    60   ~ 0
 NC v1.7, WIFI_GPIO5 <v3.1
-Text Notes 8550 3850 0    60   ~ 0
+Text Notes 8350 3800 0    60   ~ 0
 NC v1.7, >=v3.1.2
-Text Notes 8550 4050 0    60   ~ 0
+Text Notes 8350 4000 0    60   ~ 0
 NC v1.7
 Text Notes 7350 5700 0    60   ~ 0
 LED and WIFI_GPIO17\nto solder pads of PCB
@@ -289,7 +290,7 @@ Text Notes 3150 3400 0    60   ~ 0
 GP13 <v3.1 GN13 <v2.0.6
 Text Notes 3750 3300 0    60   ~ 0
 GP13 <v2.0.6
-Text Notes 8550 3550 0    60   ~ 0
+Text Notes 8350 3500 0    60   ~ 0
 TDO <v3.1
 Text Notes 3150 3300 0    60   ~ 0
 GN13 <v3.1
@@ -301,10 +302,10 @@ Text GLabel 5700 3850 0    60   Input ~ 0
 GP10
 Text GLabel 5700 3350 0    60   Input ~ 0
 GN10
-Text Notes 8550 3950 0    60   ~ 0
+Text Notes 8350 3900 0    60   ~ 0
 NC >=v3.1.2
 NoConn ~ 7550 3750
 NoConn ~ 7550 3850
-Text Notes 9550 3950 0    60   ~ 0
+Text Notes 9350 3900 0    60   ~ 0
 WROVER GPIO16,17\nused internally for PSRAM
 $EndSCHEMATC
