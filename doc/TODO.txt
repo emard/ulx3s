@@ -148,8 +148,9 @@ Here is checklist what was done or should be done in the next PCB release.
         by default SPI also routed to FPGA for emulation
     [ ] Pull-up <10k for clk_oe
     [x] 8-pin LCD header
-    [ ] prototype test: connect blue LED+R on TMS line (ESP32-FPGA-FT231x)
-    [ ] ESP32 enlarge solder paste openings in all 3 directions
+    [x] prototype test: connect blue LED+R on TMS line (ESP32-FPGA-FT231x)
+    [ ] ESP32 wifi_gpio27 (maybe also 25,26) directly to FPGA
+    [x] ESP32 enlarge solder paste openings in all 3 directions
         openings should extent longer than copper area for sufficient
         solder to be pulled under the pad
     [ ] SD alternative check footprints
