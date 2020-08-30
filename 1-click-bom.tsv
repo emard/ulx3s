@@ -57,7 +57,7 @@ U3, U4, U5	3								http://www.dioo.com/attachments/files/20161031180022_361.pdf
 U6	1														768-1129-1-ND					FU002	C132160									FT231XS																895-FT231XS-R				7570032			
 U7	1		MCP7940NT-I/SN			https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf				http://ww1.microchip.com/downloads/en/DeviceDoc/MCP7940N%20Errata_DS80000611C.pdf			568-5306-1-ND		MCP7940NT-I/SNCT-ND					FU006	C148052						https://www.nxp.com/docs/en/packing/SOT96-1_118.pdf			MCP7940NT-I/SN	PCF8523T/1,118 															579-MCP7940NT-I/SN							
 U8	1														MAX11125ATI+-ND					FU005	C490299			700-MAX11123ATI+						MAX11125ATI+	MAX11123ATI+															700-MAX11125ATI+					T		
-U9	1														1904-1010-1-ND					FU001	C529581			Leave empty						ESP-WROOM-32												356-ESP-WROOM-32 				356-ESPWROOM3216MB							
+U9	1												1904-1010-1-ND		1965-ESP32-WROVER-B(16MB)CT-ND					FU001	C529589		C529581	Leave empty						ESP32-WROVER-E											356-ESPWROOM3216MB	356-ESP-WROOM-32 				356-ESP32WRVE22864PC							
 U10	1					http://www.issi.com/WW/pdf/25LP-WP032D.pdf							IS25LP128F-JBLE-ND	706-1607-1-ND	W25Q128JVSIQCT-ND 		https://www.winbond.com/resource-files/w25q128jv%20spi%20revc%2011162016.pdf			FU003	C113767			870-IS25LP032DJBLETR						IS25LP128F-JBLE	IS25LP032D-JNLE-TR	IS25LP032D-JNLA3	W25Q128JVSIM									454-W25Q128JVSIMTR				454-W25Q128JVSIQTR							
 U11	1														568-4215-1-ND					FU008				Leave empty						PCA9306D																771-PCA9306D-T	70R6428						
 US1, US2	2					https://www.molex.com/pdm_docs/sd/473460001_sd.pdf									609-4613-1-ND	WM17141CT-ND			10118192-0001LF	FU010	C132564				FCI	Molex				10118192-0001LF	47346-0001										649-10118192-0001LF 					538-47346-0001					T		
