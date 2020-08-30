@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 11
 Title "ULX3S"
 Date ""
-Rev "1.0.4"
+Rev "1.0.5"
 Comp "EMARD"
 Comment1 "WIFI module ESP32"
 Comment2 ""
@@ -223,19 +223,6 @@ F 3 "" H 7650 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7550 2750 7650 2750
-$Comp
-L power:GND #PWR0122
-U 1 1 59C1BFCC
-P 7650 2650
-F 0 "#PWR0122" H 7650 2400 50  0001 C CNN
-F 1 "GND" H 7650 2500 50  0000 C CNN
-F 2 "" H 7650 2650 50  0001 C CNN
-F 3 "" H 7650 2650 50  0001 C CNN
-	1    7650 2650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7550 2650 7650 2650
 Text GLabel 7550 2950 2    60   Input ~ 0
 WIFI_GPIO22
 $Comp
@@ -302,12 +289,6 @@ Text Notes 3150 3400 0    60   ~ 0
 GP13 <v3.1 GN13 <v2.0.6
 Text Notes 3750 3300 0    60   ~ 0
 GP13 <v2.0.6
-NoConn ~ 6400 4500
-NoConn ~ 6500 4500
-NoConn ~ 6600 4500
-NoConn ~ 6700 4500
-NoConn ~ 6800 4500
-NoConn ~ 6900 4500
 Text Notes 8550 3550 0    60   ~ 0
 TDO <v3.1
 Text Notes 3150 3300 0    60   ~ 0
