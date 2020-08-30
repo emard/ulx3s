@@ -549,6 +549,7 @@ this efuse setting so don't do it. Here are archived
 [ESP32 serial tools](https://github.com/emard/ulx3s-bin/tree/master/esp32/serial-uploader)
 which are known to work or you can use latest from ESP.
 
+    # WROVER only - don't apply to WROOM
     python serial-uploader/espefuse.py --port /dev/ttyUSB0 set_flash_voltage 3.3V
 
 After this there is no way back. ESP32 should boot again and accept SD cards.
