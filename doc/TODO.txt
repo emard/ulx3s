@@ -154,6 +154,7 @@ Here is checklist what was done or should be done in the next PCB release.
         openings should extent longer than copper area for sufficient
         solder to be pulled under the pad
     [ ] SD alternative check footprints
+    [ ] why i2c pullup to 2.5V instead of 3.3V?
 
 Digi-Key Part Number 	WM12834TR-ND 	
 Manufacturer 	Molex 	
