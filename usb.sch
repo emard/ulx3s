@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 11
 Title "ULX3S"
 Date ""
-Rev "1.0.5"
+Rev "1.0.6"
 Comp "EMARD"
 Comment1 "USB serial and JTAG"
 Comment2 ""
@@ -750,7 +750,7 @@ WIFI_GPIO15 v1.7
 Text GLabel 8650 2150 0    60   Input ~ 0
 WIFI_GPIO19
 Text GLabel 8650 2450 0    60   Input ~ 0
-WIFI_GPIO17
+WIFI_GPIO27
 Text Notes 7450 1400 0    60   ~ 0
 SD_D2 v1.7
 Text Notes 11150 1900 0    60   ~ 0

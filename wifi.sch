@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 11
 Title "ULX3S"
 Date ""
-Rev "1.0.6"
+Rev "1.0.7"
 Comp "EMARD"
 Comment1 "WIFI module ESP32"
 Comment2 ""
@@ -275,7 +275,7 @@ NC v1.7
 Text Notes 7350 5700 0    60   ~ 0
 LED and WIFI_GPIO17\nto solder pads of PCB
 Text Notes 3150 3900 0    60   ~ 0
-NC <v3.1 GP10 v1.7
+NC <v3.1 GP10 v1.7 GP10 <=v3.1.2
 Wire Wire Line
 	4550 2550 4550 2600
 Wire Wire Line
@@ -301,7 +301,7 @@ WIFI_GPIO21
 Text GLabel 5700 3150 0    60   Input ~ 0
 GN13
 Text GLabel 5700 3850 0    60   Input ~ 0
-GP10
+WIFI_GPIO27
 Text GLabel 5700 3350 0    60   Input ~ 0
 GN10
 Text Notes 8350 3900 0    60   ~ 0
