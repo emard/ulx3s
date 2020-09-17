@@ -210,7 +210,7 @@ GP12
 Text GLabel 5700 3450 0    60   Input ~ 0
 GN12
 Text GLabel 5700 3650 0    60   Input ~ 0
-GN11
+WIFI_GPIO25
 $Comp
 L power:GND #PWR0123
 U 1 1 59C1BF96

@@ -696,4 +696,6 @@ Text Notes 650  3450 0    60   ~ 0
 J1 J2 PIN numbering 1-40 is for FEMALE 90° ANGLED header.\nFor MALE VERTICAL header, SWAP EVEN and ODD pin numbers.
 Text Notes 7050 3250 0    60   ~ 0
 J1 J2 PIN numbering 1-40 is for FEMALE 90° ANGLED header.\nFor MALE VERTICAL header, SWAP EVEN and ODD pin numbers.
+Text GLabel 5700 2200 2    60   Input ~ 0
+WIFI_GPIO25
 $EndSCHEMATC
