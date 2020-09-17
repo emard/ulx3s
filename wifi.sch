@@ -209,8 +209,6 @@ Text GLabel 5700 3550 0    60   Input ~ 0
 GP12
 Text GLabel 5700 3450 0    60   Input ~ 0
 GN12
-Text GLabel 5700 3750 0    60   Input ~ 0
-GP11
 Text GLabel 5700 3650 0    60   Input ~ 0
 GN11
 $Comp
@@ -310,4 +308,6 @@ NoConn ~ 7550 3750
 NoConn ~ 7550 3850
 Text Notes 9350 3900 0    60   ~ 0
 WROVER GPIO16,17\nused internally for PSRAM
+Text GLabel 5700 3750 0    60   Input ~ 0
+WIFI_GPIO26
 $EndSCHEMATC

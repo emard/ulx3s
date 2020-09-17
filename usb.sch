@@ -582,7 +582,7 @@ Connection ~ 2650 3200
 Connection ~ 2600 2850
 Connection ~ 2700 2750
 Text GLabel 8650 2550 0    60   Input ~ 0
-WIFI_GPIO16
+WIFI_GPIO26
 $Comp
 L Device:Antenna AE1
 U 1 1 59C3AE47
@@ -745,8 +745,8 @@ Text GLabel 5000 2800 0    60   Input ~ 0
 FT2V5
 Text GLabel 5600 2500 1    60   Input ~ 0
 USB5V
-Text Notes 6700 2500 0    60   ~ 0
-WIFI_GPIO15 v1.7
+Text Notes 6300 2500 0    60   ~ 0
+WIFI_GPIO15 v1.7 WIFI_GPIO17 <v3.1
 Text GLabel 8650 2150 0    60   Input ~ 0
 WIFI_GPIO19
 Text GLabel 8650 2450 0    60   Input ~ 0
@@ -939,10 +939,6 @@ Text Notes 10950 2000 0    60   ~ 0
 NC <v3.0.5
 Text Notes 6700 2200 0    60   ~ 0
 NC v1.7 WIFI_GPIO5 <v3.1
-Text Notes 7550 2500 0    60   ~ 0
-WIFI_TXD2
-Text Notes 7550 2600 0    60   ~ 0
-WIFI_RXD2
 Text GLabel 10150 2050 2    60   Input ~ 0
 WIFI_GPIO21
 Text Notes 10950 2100 0    60   ~ 0
@@ -955,4 +951,6 @@ Text GLabel 8650 1650 0    60   Input ~ 0
 OLED_BL
 Text Notes 7450 1700 0    60   ~ 0
 NC <v3.1
+Text Notes 7150 2600 0    60   ~ 0
+WIFI_GPIO16 <v3.1
 $EndSCHEMATC
