@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 11
 Title "ULX3S"
 Date ""
-Rev "1.0.1"
+Rev "1.0.2"
 Comp "EMARD"
 Comment1 "GPIO 2.54 mm connectors"
 Comment2 ""
@@ -698,4 +698,8 @@ Text Notes 7050 3250 0    60   ~ 0
 J1 J2 PIN numbering 1-40 is for FEMALE 90° ANGLED header.\nFor MALE VERTICAL header, SWAP EVEN and ODD pin numbers.
 Text GLabel 5700 2200 2    60   Input ~ 0
 WIFI_GPIO25
+Text GLabel 4200 2800 0    60   Input ~ 0
+WIFI_GPIO35
+Text Notes 2800 2850 0    60   ~ 0
+NC <v3.1.2
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=četvrtak, 17. rujna 2020. 13:17:49 CEST
+update=petak, 18. rujna 2020. 10:48:24 CEST
 version=1
 last_client=kicad
 [cvpcb]

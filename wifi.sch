@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 11
 Title "ULX3S"
 Date ""
-Rev "1.0.7"
+Rev "1.0.8"
 Comp "EMARD"
 Comment1 "WIFI module ESP32"
 Comment2 ""
@@ -301,7 +301,7 @@ GN13
 Text GLabel 5700 3850 0    60   Input ~ 0
 WIFI_GPIO27
 Text GLabel 5700 3350 0    60   Input ~ 0
-GN10
+WIFI_GPIO35
 Text Notes 8350 3900 0    60   ~ 0
 NC >=v3.1.2
 NoConn ~ 7550 3750
