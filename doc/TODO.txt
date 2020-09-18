@@ -142,6 +142,7 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] route FTDI_nRXLED to FPGA
     [ ] resistor in series with + battery
     [ ] GPDI clock to clock capable pins, swap with USB pullup
+    [ ] GPDI eth->hpd/cec with resistors and schottky
     [ ] more routing to true differential pins (avoid bank 0 and 1)
     [ ] FT2232H port B MPSSE JTAG, powered from 3.3V onboard.
         SOT-23-6 SPI EEPROM like 24CW1280T-I/OT placeholder
@@ -149,10 +150,12 @@ Here is checklist what was done or should be done in the next PCB release.
     [ ] Pull-up <10k for clk_oe
     [x] 8-pin LCD header
     [x] prototype test: connect blue LED+R on TMS line (ESP32-FPGA-FT231x)
-    [ ] ESP32 wifi_gpio27 (maybe also 25,26) directly to FPGA
     [x] ESP32 enlarge solder paste openings in all 3 directions
         openings should extent longer than copper area for sufficient
         solder to be pulled under the pad
+    [x] ESP32 wifi_gpio26,27,35 directly to FPGA
+    [ ] ESP32 wifi_gpio25 3.3V io connected 3.3V/2.5V, OK?
+    [ ] BGA J2 weak GND
     [ ] SD alternative check footprints
     [ ] why i2c pullup to 2.5V instead of 3.3V?
 
