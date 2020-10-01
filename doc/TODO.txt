@@ -155,9 +155,10 @@ Here is checklist what was done or should be done in the next PCB release.
         solder to be pulled under the pad
     [x] ESP32 wifi_gpio26,27,35 directly to FPGA
     [ ] ESP32 wifi_gpio25 3.3V io connected 3.3V/2.5V, OK?
-    [ ] BGA J2 weak GND
+    [x] BGA J2 weak GND
     [ ] SD alternative check footprints
     [ ] why i2c pullup to 2.5V instead of 3.3V?
+    [ ] avoid ESP32 sharing with true differential lines
 
 Digi-Key Part Number 	WM12834TR-ND 	
 Manufacturer 	Molex 	
