@@ -653,7 +653,7 @@ $EndComp
 Text Notes 6100 5000 0    60   ~ 0
 Short circuit R56\nfor chip rev A,B,C\nworkaround in \nTN140_FT231X Errata
 $Comp
-L lfe5bg381:LFE5U-85F-6BG381C U1
+L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 5 1 5A079A7A
 P 9400 2050
 AR Path="/5A079A7A" Ref="U1"  Part="5" 
@@ -667,7 +667,7 @@ F 4 "LFE5U-85F-6BG381C" H 9400 2050 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lfe5bg381:LFE5U-85F-6BG381C U1
+L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 10 1 5A07A05D
 P 8600 3950
 AR Path="/5A07A05D" Ref="U1"  Part="10" 

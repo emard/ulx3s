@@ -440,7 +440,7 @@ BTN_L
 Text Notes 4700 1950 0    60   ~ 0
 pullups to allow entering USER mode\nTN1260: lattice ECP5 sysCONFIG guide p.6, p.8, p.13
 $Comp
-L lfe5bg381:LFE5U-85F-6BG381C U1
+L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 7 1 5A07BEF6
 P 7250 4500
 AR Path="/5A07BEF6" Ref="U1"  Part="7" 

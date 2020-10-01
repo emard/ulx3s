@@ -1976,7 +1976,7 @@ L1,L2,L3: Isat>3A Rdc<100mohm L=2.5-5.8mm W<3mm\nMurata DFE322512F-2R2M=P2, DFE2
 Text Notes 950  6200 0    60   ~ 0
 WARNING\nECP5 family datasheet\np.48: Power Supply Ramp rates\nfor all supplies 0.01-10V/ms\n
 $Comp
-L lfe5bg381:LFE5U-85F-6BG381C U1
+L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 8 1 5A076CD7
 P 5700 6400
 AR Path="/5A076CD7" Ref="U1"  Part="8" 
@@ -2001,7 +2001,7 @@ F 15 "T" H 5700 6400 50  0001 C CNN "Side"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lfe5bg381:LFE5U-85F-6BG381C U1
+L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 9 1 5A077765
 P 6200 1800
 AR Path="/5A077765" Ref="U1"  Part="9" 
