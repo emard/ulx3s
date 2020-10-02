@@ -270,8 +270,6 @@ Text Notes 8350 3800 0    60   ~ 0
 NC v1.7, >=v3.1.2
 Text Notes 8350 4000 0    60   ~ 0
 NC v1.7
-Text Notes 7350 5700 0    60   ~ 0
-LED and WIFI_GPIO17\nto solder pads of PCB
 Text Notes 3150 3900 0    60   ~ 0
 NC <v3.1 GP10 v1.7 GP10 <=v3.1.2
 Wire Wire Line
@@ -310,4 +308,160 @@ Text Notes 9350 3900 0    60   ~ 0
 WROVER GPIO16,17\nused internally for PSRAM
 Text GLabel 5700 3750 0    60   Input ~ 0
 WIFI_GPIO26
+$Comp
+L power:GND #PWR0146
+U 1 1 5F7AEDE3
+P 8750 5650
+F 0 "#PWR0146" H 8750 5400 50  0001 C CNN
+F 1 "GND" H 8750 5500 50  0000 C CNN
+F 2 "" H 8750 5650 50  0000 C CNN
+F 3 "" H 8750 5650 50  0000 C CNN
+	1    8750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0147
+U 1 1 5F7AEDE9
+P 11000 5950
+F 0 "#PWR0147" H 11000 5700 50  0001 C CNN
+F 1 "GND" H 11000 5800 50  0000 C CNN
+F 2 "" H 11000 5950 50  0000 C CNN
+F 3 "" H 11000 5950 50  0000 C CNN
+	1    11000 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0148
+U 1 1 5F7AEDEF
+P 8350 4950
+F 0 "#PWR0148" H 8350 4800 50  0001 C CNN
+F 1 "+3V3" H 8350 5090 50  0000 C CNN
+F 2 "" H 8350 4950 50  0000 C CNN
+F 3 "" H 8350 4950 50  0000 C CNN
+	1    8350 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 5000 0    60   Input ~ 0
+SD_D2
+Text GLabel 9250 5100 0    60   Input ~ 0
+SD_D3
+Text GLabel 9250 5200 0    60   Input ~ 0
+SD_CMD
+Text GLabel 9250 5400 0    60   Input ~ 0
+SD_CLK
+Text GLabel 9250 5600 0    60   Input ~ 0
+SD_D0
+Text GLabel 9250 5700 0    60   Input ~ 0
+SD_D1
+Text Notes 8250 6450 0    60   ~ 0
+minimum pins for compatible mode\nSD_CLK, SD_CMD, SD_D0, SD_D3
+$Comp
+L Device:R R?
+U 1 1 5F7AEE02
+P 8350 5100
+AR Path="/58DA7327/5F7AEE02" Ref="R?"  Part="1" 
+AR Path="/58D6D447/5F7AEE02" Ref="R38"  Part="1" 
+F 0 "R38" V 8430 5100 50  0000 C CNN
+F 1 "0.47" V 8350 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8280 5100 50  0001 C CNN
+F 3 "" H 8350 5100 50  0000 C CNN
+F 4 "CTS" V 8350 5100 50  0001 C CNN "MFG1"
+F 5 "www.ctscorp.com" V 8350 5100 50  0001 C CNN "MNF1_URL"
+F 6 "73L2R47J" V 8350 5100 50  0001 C CNN "MPN"
+F 7 "774-73L2R47J" V 8350 5100 50  0001 C CNN "Mouser"
+F 8 "73L2R47JCT-ND" V 8350 5100 50  0001 C CNN "Digikey"
+F 9 "FR001" V 8350 5100 50  0001 C CNN "Koncar"
+	1    8350 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0149
+U 1 1 5F7AEE08
+P 8350 5650
+F 0 "#PWR0149" H 8350 5400 50  0001 C CNN
+F 1 "GND" H 8350 5500 50  0000 C CNN
+F 2 "" H 8350 5650 50  0000 C CNN
+F 3 "" H 8350 5650 50  0000 C CNN
+	1    8350 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 5250 8350 5300
+Connection ~ 8350 5300
+Text Label 8450 5300 0    60   ~ 0
+SD3V3
+$Comp
+L Device:C C?
+U 1 1 5F7AEE13
+P 8350 5500
+AR Path="/58DA7327/5F7AEE13" Ref="C?"  Part="1" 
+AR Path="/58D6D447/5F7AEE13" Ref="C15"  Part="1" 
+F 0 "C15" H 8375 5600 50  0000 L CNN
+F 1 "22uF" H 8375 5400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8388 5350 50  0001 C CNN
+F 3 "" H 8350 5500 50  0000 C CNN
+F 4 "www.yageo.com" H 8350 5500 50  0001 C CNN "MNF1_URL"
+F 5 "CC0805ZKY5V5BB226 " H 8350 5500 50  0001 C CNN "MPN"
+	1    8350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L micro_sd_card_cd:Micro_SD_Card_CD SD?
+U 1 1 5F7AEE25
+P 10150 5300
+AR Path="/58DA7327/5F7AEE25" Ref="SD?"  Part="1" 
+AR Path="/58D6D447/5F7AEE25" Ref="SD1"  Part="1" 
+F 0 "SD1" H 9500 5900 50  0000 C CNN
+F 1 "SCHD3A0100" H 10800 5900 50  0000 R CNN
+F 2 "micro-sd-schd3a0100:SCHD3A100" H 11300 5600 50  0001 C CNN
+F 3 "https://www.relayspec.com/catalogs/001285/2010/SCHD.pdf" H 10150 5300 50  0001 C CNN
+F 4 "www.on-stars.com" H 10150 5300 60  0001 C CNN "MNF1_URL"
+F 5 "SCHD3A0100" H 10150 5300 60  0001 C CNN "MPN"
+F 6 "https://www.molex.com/pdm_docs/sd/472192001_sd.pdf" H 10150 5300 50  0001 C CNN "Datasheet2"
+F 7 "www.molex.com" H 10150 5300 60  0001 C CNN "MNF2_URL"
+F 8 "47219-2001" H 10150 5300 60  0001 C CNN "MPN2"
+F 9 "538-47219-2001" H 10150 5300 50  0001 C CNN "Mouser"
+F 10 "WM6698DKR-ND" H 10150 5300 50  0001 C CNN "Digikey"
+F 11 "C164170" H 10150 5300 50  0001 C CNN "LCSC"
+F 12 "https://www.aliexpress.com/item/100pcs-ALPS-SCHD3A0100-SMD-TF-Card-Slot-Holder-Tray-with-Original-Packaging-Memory-Card-Slot/32608596294.html?spm=2114.search0104.3.8.376c7afennjKsn&ws_ab_test=searchweb0_0,searchweb201602_5_10065_10068_319_10059_10884_317_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_10820_10301_10821_10303_537_536,searchweb201603_16,ppcSwitch_0&algo_expid=7b146c26-dd1e-4684-969f-42f8ad0642a4-1&algo_pvid=7b146c26-dd1e-4684-969f-42f8ad0642a4" H 10150 5300 50  0001 C CNN "Aliexpress"
+F 13 "0.36135$" H 10150 5300 50  0001 C CNN "price100_LCSC"
+F 14 "FX002" H 10150 5300 50  0001 C CNN "Koncar"
+F 15 "T" H 10150 5300 50  0001 C CNN "Side"
+	1    10150 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5500 9250 5500
+Wire Wire Line
+	10950 5900 11000 5900
+Wire Wire Line
+	11000 5900 11000 5950
+Wire Wire Line
+	8350 5300 9250 5300
+Wire Wire Line
+	8750 5500 8750 5650
+Text Notes 8250 6100 0    60   ~ 0
+SDcard connected to\nBANK6 on "usb" sheet
+$Comp
+L power:GND #PWR0150
+U 1 1 5F7AEE31
+P 10100 6250
+F 0 "#PWR0150" H 10100 6000 50  0001 C CNN
+F 1 "GND" H 10100 6100 50  0000 C CNN
+F 2 "" H 10100 6250 50  0000 C CNN
+F 3 "" H 10100 6250 50  0000 C CNN
+	1    10100 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 6150 10100 6200
+Wire Wire Line
+	10100 6200 10200 6200
+Wire Wire Line
+	10200 6200 10200 6150
+Connection ~ 10100 6200
+Wire Wire Line
+	8350 5300 8350 5350
+Wire Wire Line
+	10100 6200 10100 6250
 $EndSCHEMATC
