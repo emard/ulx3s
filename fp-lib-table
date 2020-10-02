@@ -1,6 +1,4 @@
 (fp_lib_table
-  (lib (name Pin_Headers)(type KiCad)(uri "$(KISYSMOD)/Pin_Headers.pretty")(options "")(descr "")(disabled))
-  (lib (name SMD_Packages)(type KiCad)(uri "$(KISYSMOD)/SMD_Packages.pretty")(options "")(descr "")(disabled))
   (lib (name lfe5bg381)(type KiCad)(uri "$(KIPRJMOD)/footprints/lattice/lfe5bg381.pretty")(options "")(descr ""))
   (lib (name micro-sd)(type KiCad)(uri "$(KIPRJMOD)/footprints/micro-sd/micro-sd.pretty")(options "")(descr ""))
   (lib (name usb_otg)(type KiCad)(uri "$(KIPRJMOD)/footprints/usb_otg/usb_otg.pretty")(options "")(descr ""))
@@ -9,7 +7,6 @@
   (lib (name Keystone_3000_1x12mm-CoinCell)(type KiCad)(uri "$(KIPRJMOD)/footprints/battery/Keystone_3000_1x12mm-CoinCell.pretty")(options "")(descr ""))
   (lib (name audio-jack)(type KiCad)(uri "$(KIPRJMOD)/footprints/audio-jack/audio-jack.pretty")(options "")(descr ""))
   (lib (name abs25)(type KiCad)(uri "$(KIPRJMOD)/footprints/crystal/abs25.pretty")(options "")(descr ""))
-  (lib (name hdmi-swm-19)(type KiCad)(uri "$(KIPRJMOD)/footprints/micro-hdmi-d/hdmi-swm-19.pretty")(options "")(descr "")(disabled))
   (lib (name oled)(type KiCad)(uri "$(KIPRJMOD)/footprints/oled/oled.pretty")(options "")(descr ""))
   (lib (name oscxo)(type KiCad)(uri "$(KIPRJMOD)/footprints/crystal/oscxo.pretty")(options "")(descr ""))
   (lib (name micro-sd-schd3a0100)(type KiCad)(uri "$(KIPRJMOD)/footprints/micro-sd/micro-sd-schd3a0100.pretty")(options "")(descr ""))
