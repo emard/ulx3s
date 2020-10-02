@@ -6,9 +6,9 @@ encoding utf-8
 Sheet 10 11
 Title "ULX3S"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "EMARD"
-Comment1 "SD card"
+Comment1 "SD card and serdes"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -237,7 +237,6 @@ Wire Wire Line
 	6550 3600 6650 3600
 Wire Wire Line
 	6650 3400 6650 3600
-Connection ~ 6650 3400
 Wire Wire Line
 	6550 3400 6650 3400
 Wire Wire Line
@@ -252,17 +251,12 @@ Wire Wire Line
 	4850 3600 4750 3600
 Wire Wire Line
 	4750 3400 4750 3600
-Connection ~ 4750 3400
 Wire Wire Line
 	4850 3400 4750 3400
-Connection ~ 6650 2500
 Wire Wire Line
 	6550 2500 6650 2500
 Wire Wire Line
-	6650 2600 6650 2700
-Wire Wire Line
-	6650 2500 6650 2600
-Connection ~ 6650 2600
+	6650 2500 6650 2550
 Wire Wire Line
 	6550 2600 6650 2600
 Wire Wire Line
@@ -275,9 +269,6 @@ Wire Wire Line
 	6550 3050 6650 3050
 Wire Wire Line
 	6550 3250 6650 3250
-Wire Wire Line
-	4750 3250 4750 3400
-Connection ~ 4750 3250
 Wire Wire Line
 	4850 3250 4750 3250
 Wire Wire Line
@@ -312,23 +303,16 @@ Wire Wire Line
 	4850 2600 4750 2600
 Wire Wire Line
 	4750 2500 4750 2600
-Connection ~ 4750 2500
 Wire Wire Line
 	4850 2500 4750 2500
 Wire Wire Line
-	6650 2350 6650 2500
-Wire Wire Line
 	6650 2150 6650 2350
-Connection ~ 6650 2350
 Wire Wire Line
 	6550 2350 6650 2350
 Wire Wire Line
 	6550 2150 6650 2150
 Wire Wire Line
-	4750 2350 4750 2500
-Wire Wire Line
 	4750 2150 4750 2350
-Connection ~ 4750 2350
 Wire Wire Line
 	4850 2350 4750 2350
 Wire Wire Line
@@ -343,7 +327,6 @@ Wire Wire Line
 	4750 1950 4750 2150
 Wire Wire Line
 	4850 1950 4750 1950
-Connection ~ 6650 2700
 Wire Wire Line
 	6650 2700 6650 2800
 Connection ~ 6650 2800
@@ -352,13 +335,100 @@ Wire Wire Line
 Connection ~ 6650 2950
 Wire Wire Line
 	6650 2950 6650 3050
-Connection ~ 6650 3050
 Wire Wire Line
-	6650 3050 6650 3150
-Connection ~ 6650 3150
+	6650 3150 6650 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5F79F367
+P 6750 2150
+AR Path="/58D51CAD/5F79F367" Ref="#PWR?"  Part="1" 
+AR Path="/58DA7327/5F79F367" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 1900 50  0001 C CNN
+F 1 "GND" H 6750 2000 50  0000 C CNN
+F 2 "" H 6750 2150 50  0001 C CNN
+F 3 "" H 6750 2150 50  0001 C CNN
+	1    6750 2150
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	6650 3150 6650 3250
-Connection ~ 6650 3250
+	6650 2150 6750 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5F7AF08A
+P 4650 2150
+AR Path="/58D51CAD/5F7AF08A" Ref="#PWR?"  Part="1" 
+AR Path="/58DA7327/5F7AF08A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 1900 50  0001 C CNN
+F 1 "GND" H 4650 2000 50  0000 C CNN
+F 2 "" H 4650 2150 50  0001 C CNN
+F 3 "" H 4650 2150 50  0001 C CNN
+	1    4650 2150
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	6650 3250 6650 3400
+	4750 2150 4650 2150
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5F80CE95
+P 6750 2800
+F 0 "#PWR?" H 6750 2650 50  0001 C CNN
+F 1 "+2V5" H 6750 2940 50  0000 C CNN
+F 2 "" H 6750 2800 50  0000 C CNN
+F 3 "" H 6750 2800 50  0000 C CNN
+	1    6750 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5F87460B
+P 6750 2550
+AR Path="/58D51CAD/5F87460B" Ref="#PWR?"  Part="1" 
+AR Path="/58DA7327/5F87460B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 2400 50  0001 C CNN
+F 1 "+1V1" H 6750 2690 50  0000 C CNN
+F 2 "" H 6750 2550 50  0001 C CNN
+F 3 "" H 6750 2550 50  0001 C CNN
+	1    6750 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5F876631
+P 4650 2800
+AR Path="/58D51CAD/5F876631" Ref="#PWR?"  Part="1" 
+AR Path="/58DA7327/5F876631" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 2650 50  0001 C CNN
+F 1 "+1V1" H 4650 2940 50  0000 C CNN
+F 2 "" H 4650 2800 50  0001 C CNN
+F 3 "" H 4650 2800 50  0001 C CNN
+	1    4650 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 2800 4750 2800
+Wire Wire Line
+	6650 2800 6750 2800
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5F905BBD
+P 6750 3200
+AR Path="/58D51CAD/5F905BBD" Ref="#PWR?"  Part="1" 
+AR Path="/58DA7327/5F905BBD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 3050 50  0001 C CNN
+F 1 "+1V1" H 6750 3340 50  0000 C CNN
+F 2 "" H 6750 3200 50  0001 C CNN
+F 3 "" H 6750 3200 50  0001 C CNN
+	1    6750 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 2550 6750 2550
+Connection ~ 6650 2550
+Wire Wire Line
+	6650 2550 6650 2600
+Wire Wire Line
+	6650 3200 6750 3200
+Connection ~ 6650 3200
+Wire Wire Line
+	6650 3200 6650 3250
 $EndSCHEMATC
