@@ -170,8 +170,8 @@ P 5700 2850
 AR Path="/5FA6D869" Ref="U?"  Part="8" 
 AR Path="/58D51CAD/5FA6D869" Ref="U?"  Part="8" 
 AR Path="/58DA7327/5FA6D869" Ref="U1"  Part="8" 
-F 0 "U1" H 5700 3800 60  0000 C CNN
-F 1 "LFE5U-85F-6BG381C" H 5700 3700 60  0000 C CNN
+F 0 "U1" H 5700 4000 60  0000 C CNN
+F 1 "LFE5U-85F-6BG381C" H 5700 3900 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 4650 3800 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/EH/TN1261.pdf?document_id=50463" H 4650 3800 60  0001 C CNN
 F 4 "Lattice" H 5700 2850 50  0001 C CNN "MFG1"
@@ -199,60 +199,6 @@ NoConn ~ 4850 3700
 NoConn ~ 4850 3500
 Wire Wire Line
 	6550 3150 6650 3150
-$Comp
-L power:GND #PWR?
-U 1 1 5FA6D878
-P 6650 3900
-AR Path="/58D51CAD/5FA6D878" Ref="#PWR?"  Part="1" 
-AR Path="/58DA7327/5FA6D878" Ref="#PWR0178"  Part="1" 
-F 0 "#PWR0178" H 6650 3650 50  0001 C CNN
-F 1 "GND" H 6650 3750 50  0000 C CNN
-F 2 "" H 6650 3900 50  0001 C CNN
-F 3 "" H 6650 3900 50  0001 C CNN
-	1    6650 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FA6D87E
-P 4750 3900
-AR Path="/58D51CAD/5FA6D87E" Ref="#PWR?"  Part="1" 
-AR Path="/58DA7327/5FA6D87E" Ref="#PWR0179"  Part="1" 
-F 0 "#PWR0179" H 4750 3650 50  0001 C CNN
-F 1 "GND" H 4750 3750 50  0000 C CNN
-F 2 "" H 4750 3900 50  0001 C CNN
-F 3 "" H 4750 3900 50  0001 C CNN
-	1    4750 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6650 3800 6650 3900
-Connection ~ 6650 3800
-Wire Wire Line
-	6550 3800 6650 3800
-Wire Wire Line
-	6650 3600 6650 3800
-Connection ~ 6650 3600
-Wire Wire Line
-	6550 3600 6650 3600
-Wire Wire Line
-	6650 3400 6650 3600
-Wire Wire Line
-	6550 3400 6650 3400
-Wire Wire Line
-	4750 3800 4750 3900
-Connection ~ 4750 3800
-Wire Wire Line
-	4850 3800 4750 3800
-Wire Wire Line
-	4750 3600 4750 3800
-Connection ~ 4750 3600
-Wire Wire Line
-	4850 3600 4750 3600
-Wire Wire Line
-	4750 3400 4750 3600
-Wire Wire Line
-	4850 3400 4750 3400
 Wire Wire Line
 	6550 2500 6650 2500
 Wire Wire Line
@@ -306,28 +252,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 2500 4750 2500
 Wire Wire Line
-	6650 2150 6650 2350
-Wire Wire Line
-	6550 2350 6650 2350
-Wire Wire Line
-	6550 2150 6650 2150
-Wire Wire Line
-	4750 2150 4750 2350
-Wire Wire Line
-	4850 2350 4750 2350
-Wire Wire Line
-	4850 2150 4750 2150
-Connection ~ 6650 2150
-Wire Wire Line
-	6650 1950 6650 2150
-Wire Wire Line
-	6550 1950 6650 1950
-Connection ~ 4750 2150
-Wire Wire Line
-	4750 1950 4750 2150
-Wire Wire Line
-	4850 1950 4750 1950
-Wire Wire Line
 	6650 2700 6650 2800
 Connection ~ 6650 2800
 Wire Wire Line
@@ -337,36 +261,6 @@ Wire Wire Line
 	6650 2950 6650 3050
 Wire Wire Line
 	6650 3150 6650 3200
-$Comp
-L power:GND #PWR?
-U 1 1 5F79F367
-P 6750 2150
-AR Path="/58D51CAD/5F79F367" Ref="#PWR?"  Part="1" 
-AR Path="/58DA7327/5F79F367" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6750 1900 50  0001 C CNN
-F 1 "GND" H 6750 2000 50  0000 C CNN
-F 2 "" H 6750 2150 50  0001 C CNN
-F 3 "" H 6750 2150 50  0001 C CNN
-	1    6750 2150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6650 2150 6750 2150
-$Comp
-L power:GND #PWR?
-U 1 1 5F7AF08A
-P 4650 2150
-AR Path="/58D51CAD/5F7AF08A" Ref="#PWR?"  Part="1" 
-AR Path="/58DA7327/5F7AF08A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4650 1900 50  0001 C CNN
-F 1 "GND" H 4650 2000 50  0000 C CNN
-F 2 "" H 4650 2150 50  0001 C CNN
-F 3 "" H 4650 2150 50  0001 C CNN
-	1    4650 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4750 2150 4650 2150
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5F80CE95
