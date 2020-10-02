@@ -64,12 +64,6 @@ F0 "analog" 60
 F1 "analog.sch" 60
 $EndSheet
 $Sheet
-S 10400 5250 750  450 
-U 58DA7327
-F0 "sdcard" 60
-F1 "sdcard.sch" 60
-$EndSheet
-$Sheet
 S 10400 5900 750  450 
 U 58D913EC
 F0 "flash" 60
@@ -172,4 +166,10 @@ Wire Notes Line
 	4450 6850 4450 5400
 Wire Notes Line
 	4450 5400 2950 5400
+$Sheet
+S 10400 5250 750  450 
+U 58DA7327
+F0 "serdes" 60
+F1 "serdes.sch" 60
+$EndSheet
 $EndSCHEMATC

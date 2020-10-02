@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 11 11
 Title "ULX3S"
 Date ""
 Rev "1.0.1"
 Comp "EMARD"
-Comment1 "SD card and serdes"
+Comment1 "serdes"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -112,10 +112,10 @@ Wire Wire Line
 Wire Wire Line
 	6650 3150 6650 3200
 $Comp
-L power:+2V5 #PWR0178
+L power:+2V5 #PWR?
 U 1 1 5F80CE95
 P 6750 2800
-F 0 "#PWR0178" H 6750 2650 50  0001 C CNN
+F 0 "#PWR?" H 6750 2650 50  0001 C CNN
 F 1 "+2V5" H 6750 2940 50  0000 C CNN
 F 2 "" H 6750 2800 50  0000 C CNN
 F 3 "" H 6750 2800 50  0000 C CNN

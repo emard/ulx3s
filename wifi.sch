@@ -143,7 +143,7 @@ F 5 "T" H 4550 3300 50  0001 C CNN "Side"
 	1    4550 3300
 	0    -1   -1   0   
 $EndComp
-Text Notes 9050 4150 0    60   ~ 0
+Text Notes 9350 2850 0    60   ~ 0
 Programming pins:\nTXD RXD EN GPIO0
 $Comp
 L Device:R R35
@@ -193,7 +193,7 @@ F 3 "" H 3550 2500 50  0000 C CNN
 $EndComp
 Text Notes 5900 2050 0    60   ~ 0
 WiFi and SDcard connected to\nBANK6 on "usb" sheet
-Text Notes 9050 4600 0    60   ~ 0
+Text Notes 9350 3300 0    60   ~ 0
 Strapping pins\n(avoid using to avoid\nboot problems)\nGPIO0,2,4,5,12,15
 Text Notes 2500 6500 0    60   ~ 0
 ESP32 ADC capable pins\nGPIO36,39,34,35,32,33,25,26,27,\nGPIO14,12,13,15 - shared with HSPI/JTAG\nConnected to BANK7 on "gpio" sheet
