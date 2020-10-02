@@ -1863,143 +1863,10 @@ Wire Wire Line
 Wire Wire Line
 	10800 5500 10850 5500
 Connection ~ 10850 5500
-Wire Wire Line
-	4850 5500 4750 5500
-Wire Wire Line
-	4750 5500 4750 5700
-Wire Wire Line
-	6550 5500 6650 5500
-Wire Wire Line
-	6650 5500 6650 5700
-Wire Wire Line
-	4850 5700 4750 5700
-Connection ~ 4750 5700
-Wire Wire Line
-	4850 5900 4750 5900
-Connection ~ 4750 5900
-Wire Wire Line
-	6550 5700 6650 5700
-Connection ~ 6650 5700
-Wire Wire Line
-	6550 5900 6650 5900
-Connection ~ 6650 5900
-Wire Wire Line
-	4850 6050 4750 6050
-Connection ~ 4750 6050
-Wire Wire Line
-	4850 6150 4750 6150
-Connection ~ 4750 6150
-Wire Wire Line
-	4850 6250 4750 6250
-Connection ~ 4750 6250
-Wire Wire Line
-	4850 6350 4750 6350
-Connection ~ 4750 6350
-Wire Wire Line
-	4850 6500 4750 6500
-Connection ~ 4750 6500
-Wire Wire Line
-	4850 6600 4750 6600
-Connection ~ 4750 6600
-Wire Wire Line
-	4850 6700 4750 6700
-Connection ~ 4750 6700
-Wire Wire Line
-	4850 6800 4750 6800
-Connection ~ 4750 6800
-Wire Wire Line
-	6550 6800 6650 6800
-Connection ~ 6650 6800
-Connection ~ 6650 6700
-Wire Wire Line
-	6550 6600 6650 6600
-Connection ~ 6650 6600
-Wire Wire Line
-	6550 6500 6650 6500
-Connection ~ 6650 6500
-Wire Wire Line
-	6550 6350 6650 6350
-Connection ~ 6650 6350
-Wire Wire Line
-	6550 6250 6650 6250
-Connection ~ 6650 6250
-Wire Wire Line
-	6550 6150 6650 6150
-Connection ~ 6650 6150
-Wire Wire Line
-	6550 6050 6650 6050
-Connection ~ 6650 6050
-Wire Wire Line
-	4850 6950 4750 6950
-Connection ~ 4750 6950
-Wire Wire Line
-	4850 7150 4750 7150
-Connection ~ 4750 7150
-Wire Wire Line
-	4850 7350 4750 7350
-Connection ~ 4750 7350
-Wire Wire Line
-	6550 6950 6650 6950
-Connection ~ 6650 6950
-Wire Wire Line
-	6550 7150 6650 7150
-Connection ~ 6650 7150
-Wire Wire Line
-	6550 7350 6650 7350
-Connection ~ 6650 7350
-$Comp
-L power:GND #PWR043
-U 1 1 59EF897E
-P 4750 7450
-F 0 "#PWR043" H 4750 7200 50  0001 C CNN
-F 1 "GND" H 4750 7300 50  0000 C CNN
-F 2 "" H 4750 7450 50  0001 C CNN
-F 3 "" H 4750 7450 50  0001 C CNN
-	1    4750 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR063
-U 1 1 59EF8A0A
-P 6650 7450
-F 0 "#PWR063" H 6650 7200 50  0001 C CNN
-F 1 "GND" H 6650 7300 50  0000 C CNN
-F 2 "" H 6650 7450 50  0001 C CNN
-F 3 "" H 6650 7450 50  0001 C CNN
-	1    6650 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6550 6700 6650 6700
 Text Notes 8300 6500 0    60   ~ 0
 L1,L2,L3: Isat>3A Rdc<100mohm L=2.5-5.8mm W<3mm\nMurata DFE322512F-2R2M=P2, DFE252012P-2R2M=P2\nBourns SRP2512A-2R2M
 Text Notes 950  6200 0    60   ~ 0
 WARNING\nECP5 family datasheet\np.48: Power Supply Ramp rates\nfor all supplies 0.01-10V/ms\n
-$Comp
-L lfe5bg381:LFE5UM-85F-6BG381C U1
-U 8 1 5A076CD7
-P 5700 6400
-AR Path="/5A076CD7" Ref="U1"  Part="8" 
-AR Path="/58D51CAD/5A076CD7" Ref="U1"  Part="8" 
-F 0 "U1" H 5700 7350 60  0000 C CNN
-F 1 "LFE5U-85F-6BG381C" H 5700 7250 60  0000 C CNN
-F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 4650 7350 60  0001 C CNN
-F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/EH/TN1261.pdf?document_id=50463" H 4650 7350 60  0001 C CNN
-F 4 "Lattice" H 5700 6400 50  0001 C CNN "MFG1"
-F 5 "www.latticesemi.com" H 5700 6400 50  0001 C CNN "MNF1_URL"
-F 6 "LFE5U-85F-6BG381C" H 5700 6400 60  0001 C CNN "MPN"
-F 7 "Lattice" H 5700 6400 50  0001 C CNN "MFG2"
-F 8 "www.latticesemi.com" H 5700 6400 50  0001 C CNN "MNF2_URL"
-F 9 "LFE5U-12F-6BG381C" H 5700 6400 50  0001 C CNN "MP_N2"
-F 10 "842-LFE5U85F6BG381C" H 5700 6400 60  0001 C CNN "Mouser"
-F 11 "22.82$" H 5700 6400 50  0001 C CNN "price100_Mouse"
-F 12 "220-2071-ND" H 5700 6400 50  0001 C CNN "Digikey"
-F 13 "842-LFE5U12F6BG381C" H 5700 6400 50  0001 C CNN "LowCost"
-F 14 "FU004" H 5700 6400 50  0001 C CNN "Koncar"
-F 15 "T" H 5700 6400 50  0001 C CNN "Side"
-	8    5700 6400
-	1    0    0    -1  
-$EndComp
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 9 1 5A077765
@@ -2984,58 +2851,6 @@ Wire Wire Line
 	10850 4300 10850 4350
 Wire Wire Line
 	10850 5500 10850 5550
-Wire Wire Line
-	4750 5700 4750 5900
-Wire Wire Line
-	4750 5900 4750 6050
-Wire Wire Line
-	6650 5700 6650 5900
-Wire Wire Line
-	6650 5900 6650 6050
-Wire Wire Line
-	4750 6050 4750 6150
-Wire Wire Line
-	4750 6150 4750 6250
-Wire Wire Line
-	4750 6250 4750 6350
-Wire Wire Line
-	4750 6350 4750 6500
-Wire Wire Line
-	4750 6500 4750 6600
-Wire Wire Line
-	4750 6600 4750 6700
-Wire Wire Line
-	4750 6700 4750 6800
-Wire Wire Line
-	4750 6800 4750 6950
-Wire Wire Line
-	6650 6800 6650 6950
-Wire Wire Line
-	6650 6700 6650 6800
-Wire Wire Line
-	6650 6600 6650 6700
-Wire Wire Line
-	6650 6500 6650 6600
-Wire Wire Line
-	6650 6350 6650 6500
-Wire Wire Line
-	6650 6250 6650 6350
-Wire Wire Line
-	6650 6150 6650 6250
-Wire Wire Line
-	6650 6050 6650 6150
-Wire Wire Line
-	4750 6950 4750 7150
-Wire Wire Line
-	4750 7150 4750 7350
-Wire Wire Line
-	4750 7350 4750 7450
-Wire Wire Line
-	6650 6950 6650 7150
-Wire Wire Line
-	6650 7150 6650 7350
-Wire Wire Line
-	6650 7350 6650 7450
 $Comp
 L Device:C C54
 U 1 1 5AEDFB32
@@ -3240,8 +3055,6 @@ Wire Wire Line
 	1500 2850 1500 2900
 Text Label 1550 2850 0    60   ~ 0
 RTCVDD
-Text Notes 4400 5300 0    60   ~ 0
-D11 (2V), R2, R4 hold PWREN on 1V\nin the middle of 0.4-1.5V hysteresis
 Text Notes 850  5050 0    60   ~ 0
 FTDI_nSLEEP is 2.5V\nD12 must be schottky
 Wire Wire Line
@@ -3393,12 +3206,6 @@ Wire Wire Line
 	2450 4600 2400 4600
 Text Notes 2500 4850 0    60   ~ 0
 to PROGRAMN\non "flash" sheet
-NoConn ~ 4850 7050
-NoConn ~ 4850 7250
-NoConn ~ 6550 7250
-NoConn ~ 6550 7050
-NoConn ~ 4850 5800
-NoConn ~ 4850 5600
-NoConn ~ 6550 5600
-NoConn ~ 6550 5800
+Text Notes 4400 5300 0    60   ~ 0
+D11 (2V), R2, R4 hold PWREN on 1V\nin the middle of 0.4-1.5V hysteresis
 $EndSCHEMATC
