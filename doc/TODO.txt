@@ -159,6 +159,7 @@ Here is checklist what was done or should be done in the next PCB release.
     [ ] SD alternative check footprints
     [ ] why i2c pullup to 2.5V instead of 3.3V?
     [ ] avoid ESP32 sharing with true differential lines
+    [ ] FT231 too close to LCD holes
 
 Digi-Key Part Number 	WM12834TR-ND 	
 Manufacturer 	Molex 	
