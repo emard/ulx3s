@@ -262,12 +262,12 @@ Get Lattice original FT2232 JTAG cable or some generic FT2232 JTAG like
 # USB port "US1" factory default
 
 If you have receved your fresh board it will have FT231X already
-programmed so skip please skip this ftx_prog section. You can get back
-here if you have reprogrammed board with ftx_prog and want to return board
-to factory default state.
+programmed, so you can skip this ftx_prog section. You can get back
+here when want to return board to factory default state.
 
-It is good idea to write on a papaer or save in a file USB serial number
-and description strings of your board if accidentaly overwritten.
+It is good idea to write on a papaer or save in a file original
+USB serial number and description strings of your board if
+accidentaly overwritten.
 
 Factory default (empty) onboard FT231X has to be initialized in order
 to be autodetected by "ujprog" or "FleaFPGA-JTAG" use ftx_prog.
