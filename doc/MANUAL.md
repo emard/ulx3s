@@ -259,7 +259,15 @@ fast, compatible and work with Lattice Diamond native programmer.
 Get Lattice original FT2232 JTAG cable or some generic FT2232 JTAG like
 [FT2232 breakout board from DangerousPrototypes](http://dangerousprototypes.com/docs/FT2232_breakout_board).
 
-# Programming over USB port "US1"
+# USB port "US1" factory default
+
+If you have receved your fresh board it will have FT231X already
+programmed so skip please skip this ftx_prog section. You can get back
+here if you have reprogrammed board with ftx_prog and want to return board
+to factory default state.
+
+It is good idea to write on a papaer or save in a file USB serial number
+and description strings of your board if accidentaly overwritten.
 
 Factory default (empty) onboard FT231X has to be initialized in order
 to be autodetected by "ujprog" or "FleaFPGA-JTAG" use ftx_prog.
@@ -280,6 +288,8 @@ wake up board when FT231X is enumerated by host computer (PC).
 Optionally you can change "45K" to "25K" or "12K" in regard with FPGA chip size.
 Re-plug the USB and it will appear as new name which can be autodetected
 with USB-serial JTAG tool.
+
+# Programming over USB port "US1"
 
 If running linux, some udev rule is practical in order to allow non-root users
 (in given example, members of "dialout" group) access to the USB-serial JTAG:
