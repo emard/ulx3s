@@ -28,6 +28,6 @@
   (lib (name ft231x)(type KiCad)(uri "$(KIPRJMOD)/footprints/usbserial/ft231x.pretty")(options "")(descr ""))
   (lib (name dipswitch)(type KiCad)(uri "$(KIPRJMOD)/footprints/dipswitch/dipswitch_smd.pretty")(options "")(descr ""))
   (lib (name max1112x-tqfn28)(type KiCad)(uri ${KIPRJMOD}/footprints/adc/max1112x-tqfn28.pretty)(options "")(descr ""))
-  (lib (name st7789)(type KiCad)(uri ${KIPRJMOD}/footprints/lcd/st7789.lib)(options "")(descr ""))
+  (lib (name st7789)(type KiCad)(uri /mt/scratch/tmp/fpga/circuits/ulx3s/footprints/lcd/st7789.pretty)(options "")(descr ""))
   (lib (name micro-sd-104031-811)(type KiCad)(uri /mt/scratch/tmp/fpga/circuits/ulx3s/footprints/micro-sd/micro-sd-104031-0811.pretty)(options "")(descr ""))
 )
