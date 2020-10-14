@@ -68,7 +68,8 @@ FPGA: Lattice ECP5 [LFE5U-85F-6BG381C](http://www.latticesemi.com/~/media/Lattic
 
 USB: FTDI [FT231XS](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf) (500kbit JTAG and 3Mbit USB-serial)
 
-GPIO: 56 pins (12 true differential pairs, 16 single-ended pairs), [PMOD](https://reference.digilentinc.com/_media/pmod:pmod:originalPmodInterfaceSpecification.pdf)-friendly
+GPIO: 56 pins (12 true differential pairs, 16 single-ended pairs),
+[PMOD](https://reference.digilentinc.com/_media/pmod:pmod:originalPmodInterfaceSpecification.pdf) compatible
 with power out 3.3V/1A 2.5V/1.5A
 
 RAM: 16-bit SDRAM [MT48LC32M16](https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf) (8/16/32/64 MB)
