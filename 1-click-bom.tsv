@@ -1,4 +1,3 @@
-/home/guest/src/downloaded/1clickBOM/output_scripts/kicad/1-click-bom_fields.py : Can't open output file for writing: /1-click-bom.tsv <_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>
 References	Qty	Arrow	AvnetEU	Chip1stop	Datasheet2	Datasheet3	Datasheet4	DatasheetLC	Datasheet_errata	Digike_y	Digike_y1	Digike_y2	Digike_y3	Digikey	Digikey2	Dtasheet4	EMPTY_MPN	Field5	FreelanceElec	Koncar	LCSC	LCS_C1	LCS_C2	LowCost	MFG1	MFG2	MFG2_TR_DS	MFG3	MFG4	MPN	MPN2	MPN3	MPN4	MPN5	MP_N2	MP_N3	MP_N4	MP_N5	Mouse_r	Mouse_r0	Mouse_r1	Mouse_r2	Mouse_r3	Mouse_r4	Mouse_r5	Mouser	Newark	Note	Onlinecomponents	RS	Side	TME	Vertical
 AE1	1																																															Leave empty					
 AUDIO1	1													CP-43516SJCT-ND						FAU001					CUI					SJ-43516-SMT-TR												490-SJ-43516-SMT-TR 				490-SJ43515RS-SMT-TR					T		SJ-43516-SMT-TR
