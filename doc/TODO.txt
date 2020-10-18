@@ -142,7 +142,7 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] route FTDI_nRXLED to FPGA
     [ ] resistor in series with + battery
     [ ] GPDI clock to clock capable pins, swap with USB pullup
-    [ ] GPDI eth->hpd/cec with resistors and schottky
+    [x] GPDI eth->hpd/cec with resistors
     [ ] more routing to true differential pins (avoid bank 0 and 1)
     [ ] FT2232H port B MPSSE JTAG, powered from 3.3V onboard.
         SOT-23-6 SPI EEPROM like 24CW1280T-I/OT placeholder
@@ -155,11 +155,15 @@ Here is checklist what was done or should be done in the next PCB release.
         solder to be pulled under the pad
     [x] ESP32 wifi_gpio26,27,35 directly to FPGA
     [ ] ESP32 wifi_gpio25 3.3V io connected 3.3V/2.5V, OK?
+    [ ] ESP32 LED standalone?
+    [ ] ESP32 avoid sharing with true differential lines
+    [ ] GPDI capacitors sorted
     [x] BGA J2 weak GND
-    [ ] SD alternative check footprints
+    [x] SD new footprints
     [ ] why i2c pullup to 2.5V instead of 3.3V?
-    [ ] avoid ESP32 sharing with true differential lines
-    [ ] FT231 too close to LCD holes
+    [x] FT231 too close to LCD holes
+    [ ] OLED 3.3V/GND internal copper fill standoff (be able to cut for serdes)
+    [ ] return of PCB logos
 
 Digi-Key Part Number 	WM12834TR-ND 	
 Manufacturer 	Molex 	
