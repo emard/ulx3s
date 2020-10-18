@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 5 11
 Title "ULX3S"
 Date ""
-Rev "1.0.2"
+Rev "1.0.3"
 Comp "EMARD"
 Comment1 "General Purpose Differential Interface"
 Comment2 "Digital Video and Ethernet"
@@ -116,9 +116,9 @@ F 3 "" H 8450 3800 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 Text GLabel 6950 3900 0    60   Input ~ 0
-FPDI_ETH-
+FPDI_HPD
 Text GLabel 6950 3400 0    60   Input ~ 0
-FPDI_ETH+
+FPDI_UTIL
 Text GLabel 6950 2100 0    60   Input ~ 0
 FPDI_D2+
 Text GLabel 6950 2300 0    60   Input ~ 0
@@ -135,8 +135,8 @@ Text GLabel 6950 3000 0    60   Input ~ 0
 FPDI_CLK+
 Text GLabel 6950 3200 0    60   Input ~ 0
 FPDI_CLK-
-Text GLabel 8500 3300 0    60   Input ~ 0
-GPDI_CEC
+Text GLabel 6950 3300 0    60   Input ~ 0
+FPDI_CEC
 Text GLabel 8500 3500 0    60   Input ~ 0
 GPDI_SCL
 Text GLabel 8500 3600 0    60   Input ~ 0
@@ -268,7 +268,7 @@ FPDI_D2-
 Text GLabel 4350 2400 2    60   Input ~ 0
 FPDI_CLK-
 Text GLabel 4350 2200 2    60   Input ~ 0
-FPDI_ETH-
+FPDI_HPD
 Text GLabel 2850 3100 0    60   Input ~ 0
 FPDI_D1+
 Text GLabel 2850 3400 0    60   Input ~ 0
@@ -276,13 +276,13 @@ FPDI_D2+
 Text GLabel 2850 2400 0    60   Input ~ 0
 FPDI_CLK+
 Text GLabel 2850 2200 0    60   Input ~ 0
-FPDI_ETH+
+FPDI_UTIL
 Text GLabel 4350 3500 2    60   Input ~ 0
 FPDI_SCL
 Text GLabel 4350 2300 2    60   Input ~ 0
 FPDI_SDA
-Text GLabel 1350 2300 0    60   Input ~ 0
-GPDI_CEC
+Text GLabel 2850 2300 0    60   Input ~ 0
+FPDI_CEC
 Text GLabel 4350 2900 2    60   Input ~ 0
 GN22
 Text GLabel 4350 2500 2    60   Input ~ 0
@@ -334,9 +334,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 3200 7700 3200
 Wire Wire Line
-	8750 3300 8500 3300
-Wire Wire Line
-	8750 3400 7400 3400
+	8750 3400 7700 3400
 Wire Wire Line
 	8750 3500 8500 3500
 Wire Wire Line
@@ -392,20 +390,14 @@ $EndComp
 $Comp
 L Device:R R61
 U 1 1 5A0777ED
-P 1600 2300
-F 0 "R61" V 1680 2300 50  0000 C CNN
-F 1 "549" V 1600 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 2300 50  0001 C CNN
-F 3 "" H 1600 2300 50  0000 C CNN
-	1    1600 2300
-	0    -1   -1   0   
+P 7200 3300
+F 0 "R61" V 7350 3300 50  0000 C CNN
+F 1 "549" V 7200 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 3300 50  0001 C CNN
+F 3 "" H 7200 3300 50  0000 C CNN
+	1    7200 3300
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1750 2300 2850 2300
-Wire Wire Line
-	1450 2300 1350 2300
-Text Label 1800 2300 0    60   ~ 0
-FPDI_CEC
 Text Notes 5150 6600 0    60   ~ 0
 i2c shared with RTC\non "power" sheet
 Text Notes 1600 2850 0    60   ~ 0
@@ -420,28 +412,6 @@ Text GLabel 2850 2800 0    60   Input ~ 0
 USB_FPGA_D+
 Text GLabel 4350 2800 2    60   Input ~ 0
 USB_FPGA_D-
-$Comp
-L Device:C C36
-U 1 1 5A878883
-P 7250 3400
-F 0 "C36" V 7300 3500 50  0000 L CNN
-F 1 "220nF" V 7300 3100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7288 3250 50  0001 C CNN
-F 3 "" H 7250 3400 50  0000 C CNN
-	1    7250 3400
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C C37
-U 1 1 5A878B40
-P 7550 3900
-F 0 "C37" V 7600 3950 50  0000 L CNN
-F 1 "220nF" V 7600 3600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7588 3750 50  0001 C CNN
-F 3 "" H 7550 3900 50  0000 C CNN
-	1    7550 3900
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:C C45
 U 1 1 5A87EC41
@@ -549,14 +519,14 @@ Wire Wire Line
 Wire Wire Line
 	7100 3000 6950 3000
 Wire Wire Line
-	7100 3400 6950 3400
-Text Label 7950 3400 2    60   ~ 0
-GPDI_ETH+
+	7400 3400 6950 3400
+Text Label 8400 3400 2    60   ~ 0
+GPDI_UTIL
 Text Label 8200 3900 2    60   ~ 0
-GPDI_ETH-
-Text Label 8400 3200 2    60   ~ 0
+GPDI_HPD
+Text Label 8450 3200 2    60   ~ 0
 GPDI_CLK-
-Text Label 8400 3000 2    60   ~ 0
+Text Label 8450 3000 2    60   ~ 0
 GPDI_CLK+
 Text Label 8400 2900 2    60   ~ 0
 GPDI_D0-
@@ -664,4 +634,33 @@ $EndComp
 NoConn ~ 2850 3700
 NoConn ~ 2850 3800
 NoConn ~ 4350 3700
+$Comp
+L Device:R R67
+U 1 1 5F900680
+P 7550 3900
+F 0 "R67" V 7630 3900 50  0000 C CNN
+F 1 "1.1k" V 7550 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7480 3900 50  0001 C CNN
+F 3 "" H 7550 3900 50  0000 C CNN
+	1    7550 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R55
+U 1 1 5F9109EC
+P 7550 3400
+F 0 "R55" V 7450 3400 50  0000 C CNN
+F 1 "1.1k" V 7550 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7480 3400 50  0001 C CNN
+F 3 "" H 7550 3400 50  0000 C CNN
+F 4 "Leave empty" V 7550 3400 50  0001 C CNN "Note"
+	1    7550 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 3300 8750 3300
+Wire Wire Line
+	7050 3300 6950 3300
+Text Label 7950 3300 0    60   ~ 0
+GPDI_CEC
 $EndSCHEMATC
