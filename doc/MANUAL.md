@@ -823,7 +823,11 @@ Onboard ADC allows total bandwith of 1 MSa/s, shared for all channels used.
 For faster ADC/DAC there are options to connect external boards:
 
 Module AN108 32 MSa/s 8-bit input AD9280 and 125 MSa/s 8-bit output AD9708.
-It is not directly pluggable, some adapter PCB has to be made.
+It is not directly pluggable, but
+[gojimmypi made adapter](https://github.com/gojimmypi/ulx3s-adda/),
+which can be ordered from oshpark:
+[ULX3S FPGA to AD/DA Converter Adapter
+Board](https://oshpark.com/profiles/gojimmypi).
 
 Module AN926 12-bit 2-ch 50 MSa/s AD9226 is "almost" directly pluggable,
 user has to re-crimp or modify few lines of a 40-pin flat cable and it
