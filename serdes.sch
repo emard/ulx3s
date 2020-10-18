@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 11 11
 Title "ULX3S"
 Date ""
-Rev "1.0.1"
+Rev "1.0.2"
 Comp "EMARD"
 Comment1 "serdes"
 Comment2 ""
@@ -178,14 +178,14 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 5F8D5462
-P 4250 1950
+P 4200 1950
 AR Path="/58D686D9/5F8D5462" Ref="C?"  Part="1" 
 AR Path="/58DA7327/5F8D5462" Ref="C67"  Part="1" 
-F 0 "C67" V 4300 2000 50  0000 L CNN
-F 1 "220nF" V 4300 1650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 1800 50  0001 C CNN
-F 3 "" H 4250 1950 50  0000 C CNN
-	1    4250 1950
+F 0 "C67" V 4250 2000 50  0000 L CNN
+F 1 "220nF" V 4250 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4238 1800 50  0001 C CNN
+F 3 "" H 4200 1950 50  0000 C CNN
+	1    4200 1950
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -243,27 +243,27 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5F8D5483
-P 4250 2350
+P 4200 2350
 AR Path="/58D686D9/5F8D5483" Ref="C?"  Part="1" 
 AR Path="/58DA7327/5F8D5483" Ref="C65"  Part="1" 
-F 0 "C65" V 4300 2400 50  0000 L CNN
-F 1 "220nF" V 4300 2050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 2200 50  0001 C CNN
-F 3 "" H 4250 2350 50  0000 C CNN
-	1    4250 2350
+F 0 "C65" V 4250 2400 50  0000 L CNN
+F 1 "220nF" V 4250 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4238 2200 50  0001 C CNN
+F 3 "" H 4200 2350 50  0000 C CNN
+	1    4200 2350
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5F8D548B
-P 4250 2150
+P 4200 2150
 AR Path="/58D686D9/5F8D548B" Ref="C?"  Part="1" 
 AR Path="/58DA7327/5F8D548B" Ref="C63"  Part="1" 
-F 0 "C63" V 4300 2200 50  0000 L CNN
-F 1 "220nF" V 4300 1850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 2000 50  0001 C CNN
-F 3 "" H 4250 2150 50  0000 C CNN
-	1    4250 2150
+F 0 "C63" V 4250 2200 50  0000 L CNN
+F 1 "220nF" V 4250 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4238 2000 50  0001 C CNN
+F 3 "" H 4200 2150 50  0000 C CNN
+	1    4200 2150
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -282,47 +282,47 @@ $EndComp
 Wire Wire Line
 	6550 2150 7000 2150
 Wire Wire Line
-	4400 2150 4850 2150
+	4350 2150 4850 2150
 Wire Wire Line
 	7300 2150 7550 2150
-Text GLabel 4000 2150 0    60   Input ~ 0
+Text GLabel 3950 2150 0    60   Input ~ 0
 OLED_BL
 Text GLabel 7550 2150 2    60   Input ~ 0
 OLED_CS
 Wire Wire Line
 	6550 2350 7000 2350
 Wire Wire Line
-	4400 2350 4850 2350
+	4350 2350 4850 2350
 Wire Wire Line
 	7300 2350 7550 2350
 Wire Wire Line
-	4100 2350 4000 2350
-Text Label 4450 2150 0    60   ~ 0
+	4050 2350 3950 2350
+Text Label 4400 2150 0    60   ~ 0
 SRDP00
-Text Label 4450 2350 0    60   ~ 0
+Text Label 4400 2350 0    60   ~ 0
 SRDP01
 Wire Wire Line
-	4000 2150 4100 2150
-Text Label 6600 2350 0    60   ~ 0
+	3950 2150 4050 2150
+Text Label 6650 2350 0    60   ~ 0
 SRDN01
-Text Label 6600 2150 0    60   ~ 0
+Text Label 6650 2150 0    60   ~ 0
 SRDN00
-Text GLabel 4000 2350 0    60   Input ~ 0
+Text GLabel 3950 2350 0    60   Input ~ 0
 OLED_DC
 Text GLabel 7550 2350 2    60   Input ~ 0
 OLED_RES
 Wire Wire Line
-	4400 1950 4850 1950
+	4350 1950 4800 1950
 Wire Wire Line
-	6550 1950 7000 1950
-Text Label 4450 1950 0    60   ~ 0
-SRCP0
-Text Label 6600 1950 0    60   ~ 0
-SRCN0
-Text GLabel 4000 1950 0    60   Input ~ 0
+	6550 1950 6600 1950
+Text Label 4400 1950 0    60   ~ 0
+SRCLKP
+Text Label 6650 1950 0    60   ~ 0
+SRCLKN
+Text GLabel 3950 1950 0    60   Input ~ 0
 OLED_MOSI
 Wire Wire Line
-	4000 1950 4100 1950
+	3950 1950 4050 1950
 Text GLabel 7550 1950 2    60   Input ~ 0
 OLED_CLK
 Wire Wire Line
@@ -337,4 +337,26 @@ Text Label 6600 3600 0    60   ~ 0
 SRDN10
 NoConn ~ 7300 3600
 NoConn ~ 4100 3600
+Wire Wire Line
+	4850 3400 3250 3400
+Wire Wire Line
+	3250 3400 3250 1750
+Wire Wire Line
+	3250 1750 4800 1750
+Wire Wire Line
+	4800 1750 4800 1950
+Connection ~ 4800 1950
+Wire Wire Line
+	4800 1950 4850 1950
+Wire Wire Line
+	6550 3400 8200 3400
+Wire Wire Line
+	8200 3400 8200 1750
+Wire Wire Line
+	8200 1750 6600 1750
+Wire Wire Line
+	6600 1750 6600 1950
+Connection ~ 6600 1950
+Wire Wire Line
+	6600 1950 7000 1950
 $EndSCHEMATC
