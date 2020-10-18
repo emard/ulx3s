@@ -175,4 +175,166 @@ Wire Wire Line
 Connection ~ 6650 3200
 Wire Wire Line
 	6650 3200 6650 3250
+$Comp
+L Device:C C?
+U 1 1 5F8D5462
+P 4250 1950
+AR Path="/58D686D9/5F8D5462" Ref="C?"  Part="1" 
+AR Path="/58DA7327/5F8D5462" Ref="C67"  Part="1" 
+F 0 "C67" V 4300 2000 50  0000 L CNN
+F 1 "220nF" V 4300 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 1800 50  0001 C CNN
+F 3 "" H 4250 1950 50  0000 C CNN
+	1    4250 1950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8D5468
+P 7150 3600
+AR Path="/58D686D9/5F8D5468" Ref="C?"  Part="1" 
+AR Path="/58DA7327/5F8D5468" Ref="C70"  Part="1" 
+F 0 "C70" V 7200 3650 50  0000 L CNN
+F 1 "220nF" V 7200 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7188 3450 50  0001 C CNN
+F 3 "" H 7150 3600 50  0000 C CNN
+	1    7150 3600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8D546E
+P 4250 3600
+AR Path="/58D686D9/5F8D546E" Ref="C?"  Part="1" 
+AR Path="/58DA7327/5F8D546E" Ref="C69"  Part="1" 
+F 0 "C69" V 4300 3650 50  0000 L CNN
+F 1 "220nF" V 4300 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 3450 50  0001 C CNN
+F 3 "" H 4250 3600 50  0000 C CNN
+	1    4250 3600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8D5474
+P 7150 2350
+AR Path="/58D686D9/5F8D5474" Ref="C?"  Part="1" 
+AR Path="/58DA7327/5F8D5474" Ref="C66"  Part="1" 
+F 0 "C66" V 7200 2400 50  0000 L CNN
+F 1 "220nF" V 7200 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7188 2200 50  0001 C CNN
+F 3 "" H 7150 2350 50  0000 C CNN
+	1    7150 2350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8D547D
+P 7150 1950
+AR Path="/58D686D9/5F8D547D" Ref="C?"  Part="1" 
+AR Path="/58DA7327/5F8D547D" Ref="C68"  Part="1" 
+F 0 "C68" V 7200 2000 50  0000 L CNN
+F 1 "220nF" V 7200 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7188 1800 50  0001 C CNN
+F 3 "" H 7150 1950 50  0000 C CNN
+	1    7150 1950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8D5483
+P 4250 2350
+AR Path="/58D686D9/5F8D5483" Ref="C?"  Part="1" 
+AR Path="/58DA7327/5F8D5483" Ref="C65"  Part="1" 
+F 0 "C65" V 4300 2400 50  0000 L CNN
+F 1 "220nF" V 4300 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 2200 50  0001 C CNN
+F 3 "" H 4250 2350 50  0000 C CNN
+	1    4250 2350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8D548B
+P 4250 2150
+AR Path="/58D686D9/5F8D548B" Ref="C?"  Part="1" 
+AR Path="/58DA7327/5F8D548B" Ref="C63"  Part="1" 
+F 0 "C63" V 4300 2200 50  0000 L CNN
+F 1 "220nF" V 4300 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 2000 50  0001 C CNN
+F 3 "" H 4250 2150 50  0000 C CNN
+	1    4250 2150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8D5491
+P 7150 2150
+AR Path="/58D686D9/5F8D5491" Ref="C?"  Part="1" 
+AR Path="/58DA7327/5F8D5491" Ref="C64"  Part="1" 
+F 0 "C64" V 7200 2200 50  0000 L CNN
+F 1 "220nF" V 7200 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7188 2000 50  0001 C CNN
+F 3 "" H 7150 2150 50  0000 C CNN
+	1    7150 2150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6550 2150 7000 2150
+Wire Wire Line
+	4400 2150 4850 2150
+Wire Wire Line
+	7300 2150 7550 2150
+Text GLabel 4000 2150 0    60   Input ~ 0
+OLED_BL
+Text GLabel 7550 2150 2    60   Input ~ 0
+OLED_CS
+Wire Wire Line
+	6550 2350 7000 2350
+Wire Wire Line
+	4400 2350 4850 2350
+Wire Wire Line
+	7300 2350 7550 2350
+Wire Wire Line
+	4100 2350 4000 2350
+Text Label 4450 2150 0    60   ~ 0
+SRDP00
+Text Label 4450 2350 0    60   ~ 0
+SRDP01
+Wire Wire Line
+	4000 2150 4100 2150
+Text Label 6600 2350 0    60   ~ 0
+SRDN01
+Text Label 6600 2150 0    60   ~ 0
+SRDN00
+Text GLabel 4000 2350 0    60   Input ~ 0
+OLED_DC
+Text GLabel 7550 2350 2    60   Input ~ 0
+OLED_RES
+Wire Wire Line
+	4400 1950 4850 1950
+Wire Wire Line
+	6550 1950 7000 1950
+Text Label 4450 1950 0    60   ~ 0
+SRCP0
+Text Label 6600 1950 0    60   ~ 0
+SRCN0
+Text GLabel 4000 1950 0    60   Input ~ 0
+OLED_MOSI
+Wire Wire Line
+	4000 1950 4100 1950
+Text GLabel 7550 1950 2    60   Input ~ 0
+OLED_CLK
+Wire Wire Line
+	7300 1950 7550 1950
+Wire Wire Line
+	4400 3600 4850 3600
+Wire Wire Line
+	6550 3600 7000 3600
+Text Label 4450 3600 0    60   ~ 0
+SRDP10
+Text Label 6600 3600 0    60   ~ 0
+SRDN10
+NoConn ~ 7300 3600
+NoConn ~ 4100 3600
 $EndSCHEMATC
