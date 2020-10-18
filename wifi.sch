@@ -264,8 +264,6 @@ Text Notes 7150 6200 1    60   ~ 0
 WIFI_LED v1.7
 Text GLabel 7550 3450 2    60   Input ~ 0
 WIFI_GPIO19
-Text Notes 8350 3700 0    60   ~ 0
-NC v1.7, WIFI_GPIO5 <v3.1
 Text Notes 8350 3800 0    60   ~ 0
 NC v1.7, >=v3.1.2
 Text Notes 8350 4000 0    60   ~ 0
@@ -471,4 +469,6 @@ Wire Wire Line
 Connection ~ 10200 6200
 NoConn ~ 10650 5200
 NoConn ~ 10650 5300
+Text Notes 8350 3700 0    60   ~ 0
+NC v1.7, WIFI_GPIO5 <v3.1 LED >=3.1.2
 $EndSCHEMATC
