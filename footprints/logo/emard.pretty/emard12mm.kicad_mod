@@ -1,7 +1,7 @@
-(module emard12mm (layer F.Cu) (tedit 59DE94A6)
+(module emard:emard12mm (layer F.Cu) (tedit 5F8C7FC9)
   (descr EMARD)
   (tags emard)
-  (fp_text reference REF** (at 0 3.2) (layer F.SilkS)
+  (fp_text reference EMARD** (at 0 3.2) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value emard12mm (at 0.2 -3.2) (layer F.Fab)
