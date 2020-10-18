@@ -449,7 +449,6 @@ Wire Wire Line
 Connection ~ 10000 6200
 Wire Wire Line
 	10000 6200 10100 6200
-NoConn ~ 10650 5000
 NoConn ~ 10650 5100
 Wire Wire Line
 	9600 6100 9600 6200
