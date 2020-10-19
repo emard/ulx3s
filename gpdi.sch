@@ -340,7 +340,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 3700 8700 3700
 Wire Wire Line
-	8750 3900 7700 3900
+	8750 3900 8500 3900
 Wire Wire Line
 	8750 3800 8450 3800
 Wire Wire Line
@@ -552,7 +552,7 @@ Wire Wire Line
 	6300 4450 6500 4450
 Wire Wire Line
 	5050 5450 5150 5450
-Text Notes 7350 5200 0    60   ~ 0
+Text Notes 7550 6200 0    60   ~ 0
 PCB v1.8.1 and higher accept FCI 10029449-111RLF\nwww.amphenol-icc.com\nmouser PN: 649-10029449-111RLF\nhttp://portal.fciconnect.com/Comergent/fci/drawing/10029449.pdf\n\nPCB v1.7 and v1.8 accept\nmouser PN: 538-47151-1001 (Molex)\nhttps://www.molex.com/pdm_docs/sd/471511001_sd.pdf\nmouser PN: 710-685119134923 (Wurth)\nhttps://katalog.we-online.com/em/datasheet/685119134923.pdf
 $Comp
 L pca9306d:PCA9306D U11
@@ -639,11 +639,46 @@ L Device:R R67
 U 1 1 5F900680
 P 7550 3900
 F 0 "R67" V 7630 3900 50  0000 C CNN
-F 1 "1.1k" V 7550 3900 50  0000 C CNN
+F 1 "549" V 7550 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7480 3900 50  0001 C CNN
 F 3 "" H 7550 3900 50  0000 C CNN
 	1    7550 3900
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 3300 8750 3300
+Wire Wire Line
+	7050 3300 6950 3300
+Text Label 7950 3300 0    60   ~ 0
+GPDI_CEC
+$Comp
+L Device:D_Zener_Small_ALT D?
+U 1 1 5F8E4470
+P 8500 4050
+AR Path="/58D6BF46/5F8E4470" Ref="D?"  Part="1" 
+AR Path="/58D686D9/5F8E4470" Ref="D30"  Part="1" 
+F 0 "D30" H 8500 3950 50  0000 C CNN
+F 1 "3.6V" H 8500 4150 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 8500 4050 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf" V 8500 4050 50  0001 C CNN
+	1    8500 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 3900 8500 3950
+Connection ~ 8500 3900
+Wire Wire Line
+	8500 3900 7700 3900
+$Comp
+L power:GND #PWR043
+U 1 1 5F8F4E63
+P 8500 4150
+F 0 "#PWR043" H 8500 3900 50  0001 C CNN
+F 1 "GND" H 8500 4000 50  0000 C CNN
+F 2 "" H 8500 4150 50  0000 C CNN
+F 3 "" H 8500 4150 50  0000 C CNN
+	1    8500 4150
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R55
@@ -657,10 +692,4 @@ F 4 "Leave empty" V 7550 3400 50  0001 C CNN "Note"
 	1    7550 3400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7350 3300 8750 3300
-Wire Wire Line
-	7050 3300 6950 3300
-Text Label 7950 3300 0    60   ~ 0
-GPDI_CEC
 $EndSCHEMATC
