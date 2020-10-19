@@ -157,13 +157,14 @@ Here is checklist what was done or should be done in the next PCB release.
     [ ] ESP32 wifi_gpio25 3.3V io connected 3.3V/2.5V, OK?
     [ ] ESP32 LED standalone?
     [ ] ESP32 avoid sharing with true differential lines
-    [ ] GPDI capacitors sorted
+    [x] GPDI capacitors sorted
     [x] BGA J2 weak GND
     [x] SD new footprints
     [ ] why i2c pullup to 2.5V instead of 3.3V?
     [x] FT231 too close to LCD holes
-    [ ] OLED 3.3V/GND internal copper fill standoff (be able to cut for serdes)
-    [ ] return of PCB logos
+    [x] OLED 3.3V/GND internal copper fill standoff (be able to cut for serdes)
+    [x] return of PCB logos
+    [x] stencil opening with briges and island for THT holes of GPDI
 
 Digi-Key Part Number 	WM12834TR-ND 	
 Manufacturer 	Molex 	
