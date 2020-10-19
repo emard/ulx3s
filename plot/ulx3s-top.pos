@@ -1,4 +1,4 @@
-### Module positions - created on Mon Oct 19 02:07:23 2020 ###
+### Module positions - created on Mon Oct 19 11:27:26 2020 ###
 ### Printed by Pcbnew version kicad 5.1.7+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -44,7 +44,7 @@ R46       549                R_0603_1608Metric                              13.9
 R47       549                R_0603_1608Metric                              11.4300    29.7180   90.0000  top
 R48       549                R_0603_1608Metric                               8.8900    29.7180   90.0000  top
 R62       549                R_0603_1608Metric                              31.7500     2.5400  270.0000  top
-R67       1.1k               R_0603_1608Metric                              57.6580    36.4490   90.0000  top
+R67       549                R_0603_1608Metric                              57.6580    36.4490   90.0000  top
 RV3       0                  R_0805_2012Metric_Pad1.29x1.40mm_HandSolder    40.1470    42.6540    0.0000  top
 SD1       104031-0811        SCHD3A100-104031-0811                          21.0320     8.7200  270.0000  top
 SW1       SW_DIP_x04         SW_DIP_x4_W8.61mm_Slide_LowProfile             66.0400    38.1000   90.0000  top
