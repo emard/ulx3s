@@ -104,17 +104,6 @@ F 3 "" H 8700 2200 60  0000 C CNN
 	1    8700 2200
 	0    1    -1   0   
 $EndComp
-$Comp
-L power:+5V #PWR095
-U 1 1 58D6907F
-P 8450 3800
-F 0 "#PWR095" H 8450 3650 50  0001 C CNN
-F 1 "+5V" H 8450 3940 50  0000 C CNN
-F 2 "" H 8450 3800 50  0000 C CNN
-F 3 "" H 8450 3800 50  0000 C CNN
-	1    8450 3800
-	0    -1   1    0   
-$EndComp
 Text GLabel 6950 3900 0    60   Input ~ 0
 FPDI_HPD
 Text GLabel 6950 3400 0    60   Input ~ 0
@@ -340,8 +329,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 3700 8700 3700
 Wire Wire Line
-	8750 3900 8500 3900
-Wire Wire Line
 	8750 3800 8450 3800
 Wire Wire Line
 	8750 2000 8700 2000
@@ -515,7 +502,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 2300 6950 2300
 Wire Wire Line
-	7400 3900 6950 3900
+	7400 3900 7200 3900
 Wire Wire Line
 	7100 3000 6950 3000
 Wire Wire Line
@@ -652,35 +639,6 @@ Wire Wire Line
 Text Label 7950 3300 0    60   ~ 0
 GPDI_CEC
 $Comp
-L Device:D_Zener_Small_ALT D?
-U 1 1 5F8E4470
-P 8500 4050
-AR Path="/58D6BF46/5F8E4470" Ref="D?"  Part="1" 
-AR Path="/58D686D9/5F8E4470" Ref="D30"  Part="1" 
-F 0 "D30" H 8500 3950 50  0000 C CNN
-F 1 "3.6V" H 8500 4150 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 8500 4050 50  0001 C CNN
-F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf" V 8500 4050 50  0001 C CNN
-	1    8500 4050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8500 3900 8500 3950
-Connection ~ 8500 3900
-Wire Wire Line
-	8500 3900 7700 3900
-$Comp
-L power:GND #PWR043
-U 1 1 5F8F4E63
-P 8500 4150
-F 0 "#PWR043" H 8500 3900 50  0001 C CNN
-F 1 "GND" H 8500 4000 50  0000 C CNN
-F 2 "" H 8500 4150 50  0000 C CNN
-F 3 "" H 8500 4150 50  0000 C CNN
-	1    8500 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R55
 U 1 1 5F9109EC
 P 7550 3400
@@ -692,4 +650,46 @@ F 4 "Leave empty" V 7550 3400 50  0001 C CNN "Note"
 	1    7550 3400
 	0    -1   -1   0   
 $EndComp
+$Comp
+L power:+5V #PWR095
+U 1 1 58D6907F
+P 8450 3800
+F 0 "#PWR095" H 8450 3650 50  0001 C CNN
+F 1 "+5V" H 8450 3940 50  0000 C CNN
+F 2 "" H 8450 3800 50  0000 C CNN
+F 3 "" H 8450 3800 50  0000 C CNN
+	1    8450 3800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7700 3900 8750 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5F8E2751
+P 7200 4150
+F 0 "#PWR?" H 7200 3900 50  0001 C CNN
+F 1 "GND" H 7200 4000 50  0000 C CNN
+F 2 "" H 7200 4150 50  0000 C CNN
+F 3 "" H 7200 4150 50  0000 C CNN
+	1    7200 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3900 7200 3950
+$Comp
+L Device:D_Zener_Small_ALT D?
+U 1 1 5F8E2758
+P 7200 4050
+AR Path="/58D6BF46/5F8E2758" Ref="D?"  Part="1" 
+AR Path="/58D686D9/5F8E2758" Ref="D30"  Part="1" 
+F 0 "D30" H 7200 3950 50  0000 C CNN
+F 1 "3.6V" H 7200 4150 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 7200 4050 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf" V 7200 4050 50  0001 C CNN
+	1    7200 4050
+	0    1    1    0   
+$EndComp
+Connection ~ 7200 3900
+Wire Wire Line
+	7200 3900 6950 3900
 $EndSCHEMATC
