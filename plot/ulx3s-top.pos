@@ -1,4 +1,4 @@
-### Module positions - created on Fri Oct  2 20:04:08 2020 ###
+### Module positions - created on Mon Oct 19 02:07:23 2020 ###
 ### Printed by Pcbnew version kicad 5.1.7+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -11,16 +11,14 @@ B3        PTS645             SW_SPST_PTS645                                 66.0
 B4        PTS645             SW_SPST_PTS645                                 66.0400     3.8100  180.0000  top
 B5        PTS645             SW_SPST_PTS645                                 54.6100     3.8100  180.0000  top
 B6        PTS645             SW_SPST_PTS645                                 77.4700     3.8100  180.0000  top
-C36       220nF              C_0603_1608Metric                              56.2610    36.4490   90.0000  top
-C37       220nF              C_0603_1608Metric                              57.6580    36.4490   90.0000  top
-C38       220nF              C_0603_1608Metric                              46.1010    36.4490   90.0000  top
-C39       220nF              C_0603_1608Metric                              48.8950    36.4490   90.0000  top
-C40       220nF              C_0603_1608Metric                              51.6890    36.4490   90.0000  top
-C41       220nF              C_0603_1608Metric                              54.8640    36.4490   90.0000  top
-C42       220nF              C_0603_1608Metric                              44.6428    36.4564   90.0000  top
-C43       220nF              C_0603_1608Metric                              47.4980    36.4490   90.0000  top
-C44       220nF              C_0603_1608Metric                              50.2920    36.4490   90.0000  top
-C45       220nF              C_0603_1608Metric                              53.4670    36.4610   90.0000  top
+C38       220nF              C_0603_1608Metric                              44.6428    36.4564   90.0000  top
+C39       220nF              C_0603_1608Metric                              46.1010    36.4490   90.0000  top
+C40       220nF              C_0603_1608Metric                              47.4980    36.4490   90.0000  top
+C41       220nF              C_0603_1608Metric                              48.8950    36.4490   90.0000  top
+C42       220nF              C_0603_1608Metric                              50.2920    36.4490   90.0000  top
+C43       220nF              C_0603_1608Metric                              51.6890    36.4490   90.0000  top
+C44       220nF              C_0603_1608Metric                              53.4670    36.4610   90.0000  top
+C45       220nF              C_0603_1608Metric                              54.8640    36.4490   90.0000  top
 C59       220nF              C_0603_1608Metric                              78.8670    15.1130   90.0000  top
 C62       220nF              C_0603_1608Metric                              78.8670     8.8900  270.0000  top
 D0        RED                LED_0805_2012Metric                            26.6700    32.6210  270.0000  top
@@ -46,8 +44,9 @@ R46       549                R_0603_1608Metric                              13.9
 R47       549                R_0603_1608Metric                              11.4300    29.7180   90.0000  top
 R48       549                R_0603_1608Metric                               8.8900    29.7180   90.0000  top
 R62       549                R_0603_1608Metric                              31.7500     2.5400  270.0000  top
+R67       1.1k               R_0603_1608Metric                              57.6580    36.4490   90.0000  top
 RV3       0                  R_0805_2012Metric_Pad1.29x1.40mm_HandSolder    40.1470    42.6540    0.0000  top
-SD1       SCHD3A0100         SCHD3A100                                      20.9500     8.7200  270.0000  top
+SD1       104031-0811        SCHD3A100-104031-0811                          21.0320     8.7200  270.0000  top
 SW1       SW_DIP_x04         SW_DIP_x4_W8.61mm_Slide_LowProfile             66.0400    38.1000   90.0000  top
 U1        LFE5U-85F-6BG381C  BGA-381_pitch0.8mm_dia0.4mm                    44.3800    24.4200    0.0000  top
 U2        MT48LC16M16A2TG    TSOP54                                         70.9930    24.4200   90.0000  top
@@ -55,4 +54,5 @@ U8        MAX11125           MAX1112x-TQFN-28-1EP_5x5mm_Pitch0.5mm          83.1
 US1       MICRO_USB          USB-MICRO-B-FCI-10118192-0001LF                17.7800    48.8950  180.0000  top
 US2       MICRO_USB          USB-MICRO-B-FCI-10118192-0001LF                76.2000    48.8950  180.0000  top
 Y1        FNETHE025          Crystal_SMD_7050_4Pads                         11.5720    39.8600  180.0000  top
+radiona   radiona            radiona                                        55.6800    24.6200   90.0000  top
 ## End
