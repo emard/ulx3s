@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 11
 Title "ULX3S"
 Date ""
-Rev "1.0.6"
+Rev "1.0.7"
 Comp "EMARD"
 Comment1 "USB serial and JTAG"
 Comment2 ""
@@ -208,12 +208,12 @@ JTAG_TMS
 Text GLabel 2150 1500 2    60   Input ~ 0
 USB5V
 $Comp
-L ftdi:FT231XS U6
+L ftdi:FT231XQ U6
 U 1 1 58EB61C6
 P 5700 3400
 F 0 "U6" H 5150 4200 50  0000 L CNN
-F 1 "FT231XS" H 6000 4200 50  0000 L CNN
-F 2 "ft231x:FT231X-SSOP-20_4.4x6.5mm_Pitch0.65mm" H 5700 3400 50  0001 C CNN
+F 1 "FT231XQ" H 6000 4200 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" H 5700 3400 50  0001 C CNN
 F 3 "www.ftdichip.com/Documents/DataSheets/ICs/DS_FT231X.pdf" H 5700 3400 50  0001 C CNN
 F 4 "www.ftdichip.com" H 5700 3400 60  0001 C CNN "MNF1_URL"
 F 5 "FT231XS" H 5700 3400 60  0001 C CNN "MPN"
@@ -252,8 +252,6 @@ Wire Wire Line
 	5600 4300 5600 4400
 Connection ~ 5600 4400
 Wire Wire Line
-	6400 3700 6450 3700
-Wire Wire Line
 	6400 3800 6550 3800
 Wire Wire Line
 	6400 3900 6550 3900
@@ -281,7 +279,7 @@ Wire Wire Line
 	1950 1500 1950 1700
 Connection ~ 1950 1700
 Wire Wire Line
-	5600 4400 5800 4400
+	5600 4400 5700 4400
 Wire Wire Line
 	5800 4400 5800 4300
 Text GLabel 4850 3400 0    60   Input ~ 0
@@ -620,36 +618,6 @@ Text Notes 2750 5350 0    60   ~ 0
 D- 1.5k pullp for \nlow speed device\nmode USB1.0
 Text GLabel 8650 2350 0    60   Input ~ 0
 FTDI_TXDEN
-$Comp
-L Device:R R56
-U 1 1 59DFFFBE
-P 6450 4250
-AR Path="/59DFFFBE" Ref="R56"  Part="1" 
-AR Path="/58D6BF46/59DFFFBE" Ref="R56"  Part="1" 
-F 0 "R56" V 6530 4250 50  0000 C CNN
-F 1 "0" V 6450 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 4250 50  0001 C CNN
-F 3 "" H 6450 4250 50  0000 C CNN
-F 4 "Leave empty" H 6450 4250 60  0001 C CNN "Note"
-F 5 "www.yageo.com" V 6450 4250 50  0001 C CNN "MNF1_URL"
-F 6 "RC0603JR-070RL" V 6450 4250 50  0001 C CNN "EMPTY_MPN"
-	1    6450 4250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6450 4100 6450 3700
-Connection ~ 6450 3700
-$Comp
-L power:GND #PWR0112
-U 1 1 59E000AB
-P 6450 4400
-F 0 "#PWR0112" H 6450 4150 50  0001 C CNN
-F 1 "GND" H 6450 4250 50  0000 C CNN
-F 2 "" H 6450 4400 50  0000 C CNN
-F 3 "" H 6450 4400 50  0000 C CNN
-	1    6450 4400
-	1    0    0    -1  
-$EndComp
 Text Notes 6100 5000 0    60   ~ 0
 Short circuit R56\nfor chip rev A,B,C\nworkaround in \nTN140_FT231X Errata
 $Comp
@@ -849,8 +817,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 2750 3000 2750
 Wire Wire Line
-	6450 3700 6550 3700
-Wire Wire Line
 	5450 1200 5450 1250
 Wire Wire Line
 	2550 4850 2750 4850
@@ -953,4 +919,11 @@ Text Notes 7450 1700 0    60   ~ 0
 NC <v3.1
 Text Notes 7150 2600 0    60   ~ 0
 WIFI_GPIO16 <v3.1
+Wire Wire Line
+	6400 3700 6550 3700
+Wire Wire Line
+	5700 4300 5700 4400
+Connection ~ 5700 4400
+Wire Wire Line
+	5700 4400 5800 4400
 $EndSCHEMATC
