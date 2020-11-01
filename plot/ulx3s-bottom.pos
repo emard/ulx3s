@@ -1,4 +1,4 @@
-### Module positions - created on Mon Oct 19 14:14:34 2020 ###
+### Module positions - created on Sun Nov  1 19:57:06 2020 ###
 ### Printed by Pcbnew version kicad 5.1.7+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -21,7 +21,7 @@ C14       220nF            C_0603_1608Metric                              81.280
 C15       22uF             C_0805_2012Metric                              11.1760    13.2080   90.0000  bottom
 C16       2.2uF            C_0805_2012Metric                              80.2790    24.7470    0.0000  bottom
 C17       2.2uF            C_0805_2012Metric                              44.4000    20.6000  270.0000  bottom
-C18       470pF            C_0603_1608Metric                              56.4896    48.7360   90.0000  bottom
+C18       470pF            C_0603_1608Metric                              55.8800    47.3200   90.0000  bottom
 C19       2.2uF            C_0805_2012Metric                              44.4000    30.8000   90.0000  bottom
 C20       2.2uF            C_0805_2012Metric                              44.4000    25.6000  270.0000  bottom
 C21       22uF             C_0805_2012Metric                               9.0170    19.1590    0.0000  bottom
@@ -64,7 +64,7 @@ C69       22nF             C_0603_1608Metric                              48.080
 C70       22nF             C_0603_1608Metric                              49.5800    14.2200  270.0000  bottom
 C71       22nF             C_0603_1608Metric                              51.0800    14.2200   90.0000  bottom
 C72       22nF             C_0603_1608Metric                              52.5800    14.2200  270.0000  bottom
-D8        STPS2L40AF       D_SMA                                          17.8000    47.9000    0.0000  bottom
+D8        STPS2L40AF       D_SMA                                          17.8800    47.0200    0.0000  bottom
 D10       1N914            D_SOD-323_HandSoldering                        76.2000    27.9400    0.0000  bottom
 D11       RED              LED_0805_2012Metric                            85.0900    32.3850   90.0000  bottom
 D12       BAT54W           D_SOD-323_HandSoldering                        74.9300    32.3850   90.0000  bottom
@@ -91,13 +91,13 @@ Q1        BC857            SOT-23                                         81.915
 Q2        2N7002           SOT-23                                         76.8350    36.1950  180.0000  bottom
 R1        4.7k             R_0603_1608Metric                              76.2000    29.8450    0.0000  bottom
 R2        18k              R_0603_1608Metric                              78.7400    32.3850   90.0000  bottom
-R3        4.7k             R_0603_1608Metric                              67.9450    41.9100   90.0000  bottom
+R3        4.7k             R_0603_1608Metric                              68.3800    41.9100   90.0000  bottom
 R4        4.7k             R_0603_1608Metric                              81.9150    31.7500  180.0000  bottom
 R5        2.2M             R_0603_1608Metric                              80.0100    36.1950  270.0000  bottom
 R6        1.1k             R_0603_1608Metric                              84.4550    27.3050  270.0000  bottom
 R7        130              R_0603_1608Metric                               8.1280    21.7170   90.0000  bottom
 R8        1.1k             R_0603_1608Metric                              76.8350    32.3850   90.0000  bottom
-R9        15k              R_0603_1608Metric                              34.2900     2.5400  270.0000  bottom
+R9        15k              R_0603_1608Metric                              34.8800     3.4200  270.0000  bottom
 R10       130              R_0603_1608Metric                              58.0390     9.1440  180.0000  bottom
 R11       10k              R_0603_1608Metric                              25.1000    39.1000  270.0000  bottom
 R12       10k              R_0603_1608Metric                              20.7000    30.5000   90.0000  bottom
@@ -112,9 +112,9 @@ R20       270              R_0603_1608Metric                              39.385
 R21       130              R_0603_1608Metric                              40.9090    37.4470   90.0000  bottom
 R22       3.3k             R_0603_1608Metric                              45.9255    46.9900   90.0000  bottom
 R23       3.3k             R_0603_1608Metric                              46.4970    42.0190  270.0000  bottom
-R24       100k             R_0603_1608Metric                              56.5150    45.4480   90.0000  bottom
+R24       100k             R_0603_1608Metric                              55.8800    44.3200   90.0000  bottom
 R25       4.7k             R_0603_1608Metric                              55.0750    39.7330  180.0000  bottom
-R26       4.7k             R_0603_1608Metric                              55.3870    42.5270  180.0000  bottom
+R26       4.7k             R_0603_1608Metric                              55.0800    42.0200  180.0000  bottom
 R27       10k              R_0603_1608Metric                              23.6675    27.5200    0.0000  bottom
 R28       10k              R_0603_1608Metric                              23.5950    39.1020  270.0000  bottom
 R29       1.1k             R_0603_1608Metric                              19.2000    30.5000   90.0000  bottom
@@ -151,7 +151,7 @@ RB3       3.3k             R_0603_1608Metric                              61.595
 U3        TLV62569DBV      TSOT-25                                        66.6750    20.3200    0.0000  bottom
 U4        TLV62569DBV      TSOT-25                                         9.7250    36.4050  180.0000  bottom
 U5        TLV62569DBV      TSOT-25                                        64.1350    33.5280    0.0000  bottom
-U6        FT231XS          FT231X-SSOP-20_4.4x6.5mm_Pitch0.65mm           38.7350     5.0800  180.0000  bottom
+U6        FT231XQ          FT231X-QFN-20-1EP_4x4mm_P0.5mm_EP2x2mm         38.7350     5.6200  180.0000  bottom
 U7        MCP7940NT        SOT96-1                                        79.3900    18.9050   90.0000  bottom
 U9        ESP32            ESP32                                          23.2000     9.5000  180.0000  bottom
 U10       IS25LP128F-JBLE  SOA008-150-208mil                              24.2450    32.9980  270.0000  bottom
