@@ -1,4 +1,4 @@
-### Module positions - created on Sun Nov  1 19:57:06 2020 ###
+### Module positions - created on Mon Nov  2 10:57:18 2020 ###
 ### Printed by Pcbnew version kicad 5.1.7+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -157,5 +157,4 @@ U9        ESP32            ESP32                                          23.200
 U10       IS25LP128F-JBLE  SOA008-150-208mil                              24.2450    32.9980  270.0000  bottom
 U11       PCA9306D         SM8                                            50.5800    46.4185   90.0000  bottom
 Y2        32768Hz          Crystal_SMD_ABS25                              81.6760    12.2980  180.0000  bottom
-koncar    koncar           koncar                                         32.9800    49.0200  180.0000  bottom
 ## End

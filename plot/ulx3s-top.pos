@@ -1,4 +1,4 @@
-### Module positions - created on Mon Nov  2 10:41:10 2020 ###
+### Module positions - created on Mon Nov  2 10:57:18 2020 ###
 ### Printed by Pcbnew version kicad 5.1.7+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -54,5 +54,4 @@ U8        MAX11125           MAX1112x-TQFN-28-1EP_5x5mm_Pitch0.5mm          83.1
 US1       MICRO_USB          USB-MICRO-B-FCI-10118192-0001LF                17.7800    48.8950  180.0000  top
 US2       MICRO_USB          USB-MICRO-B-FCI-10118192-0001LF                76.2000    48.8950  180.0000  top
 Y1        FNETHE025          Crystal_SMD_7050_4Pads                         11.5720    39.8600  180.0000  top
-radiona   radiona            radiona                                        55.6800    24.6200   90.0000  top
 ## End
