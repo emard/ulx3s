@@ -1,4 +1,4 @@
-### Module positions - created on Sun Nov  1 19:57:06 2020 ###
+### Module positions - created on Mon Nov  2 10:41:10 2020 ###
 ### Printed by Pcbnew version kicad 5.1.7+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -11,14 +11,14 @@ B3        PTS645             SW_SPST_PTS645                                 66.0
 B4        PTS645             SW_SPST_PTS645                                 66.0400     3.8100  180.0000  top
 B5        PTS645             SW_SPST_PTS645                                 54.6100     3.8100  180.0000  top
 B6        PTS645             SW_SPST_PTS645                                 77.4700     3.8100  180.0000  top
-C38       220nF              C_0603_1608Metric                              44.6428    36.4564   90.0000  top
-C39       220nF              C_0603_1608Metric                              46.1010    36.4490   90.0000  top
-C40       220nF              C_0603_1608Metric                              47.4980    36.4490   90.0000  top
-C41       220nF              C_0603_1608Metric                              48.8950    36.4490   90.0000  top
-C42       220nF              C_0603_1608Metric                              50.2920    36.4490   90.0000  top
-C43       220nF              C_0603_1608Metric                              51.6890    36.4490   90.0000  top
-C44       220nF              C_0603_1608Metric                              53.4670    36.4610   90.0000  top
-C45       220nF              C_0603_1608Metric                              54.8640    36.4490   90.0000  top
+C38       22nF               C_0603_1608Metric                              44.6428    36.4564   90.0000  top
+C39       22nF               C_0603_1608Metric                              46.1010    36.4490   90.0000  top
+C40       22nF               C_0603_1608Metric                              47.4980    36.4490   90.0000  top
+C41       22nF               C_0603_1608Metric                              48.8950    36.4490   90.0000  top
+C42       22nF               C_0603_1608Metric                              50.2920    36.4490   90.0000  top
+C43       22nF               C_0603_1608Metric                              51.6890    36.4490   90.0000  top
+C44       22nF               C_0603_1608Metric                              53.4670    36.4610   90.0000  top
+C45       22nF               C_0603_1608Metric                              54.8640    36.4490   90.0000  top
 C59       220nF              C_0603_1608Metric                              78.8670    15.1130   90.0000  top
 C62       220nF              C_0603_1608Metric                              78.8670     8.8900  270.0000  top
 D0        RED                LED_0805_2012Metric                            26.6700    32.6210  270.0000  top
