@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 5 11
 Title "ULX3S"
 Date ""
-Rev "1.0.4"
+Rev "1.0.5"
 Comp "EMARD"
 Comment1 "General Purpose Differential Interface"
 Comment2 "Digital Video and Ethernet"
@@ -187,7 +187,7 @@ L Device:C C18
 U 1 1 58D92807
 P 6100 5900
 F 0 "C18" H 6125 6000 50  0000 L CNN
-F 1 "470pF" H 6125 5800 50  0000 L CNN
+F 1 "100pF" H 6125 5800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 5750 50  0001 C CNN
 F 3 "" H 6100 5900 50  0000 C CNN
 	1    6100 5900
