@@ -1882,7 +1882,6 @@ F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 5150 2750 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/EH/TN1261.pdf?document_id=50463" H 5150 2750 60  0001 C CNN
 F 4 "www.latticesemi.com" H 6200 1800 60  0001 C CNN "MNF1_URL"
 F 5 "LFE5U-85F-6BG381C" H 6200 1800 60  0001 C CNN "MPN"
-F 6 "842-LFE5U85F6BG381C" H 6200 1800 60  0001 C CNN "Mouser"
 	9    6200 1800
 	1    0    0    -1  
 $EndComp

@@ -380,7 +380,6 @@ F 1 "LFE5U-85F-6BG381C" H 9300 4000 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 8250 4100 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 8250 4100 60  0001 C CNN
 F 4 "LFE5U-85F-6BG381C" H 9300 3150 60  0001 C CNN "MPN"
-F 5 "842-LFE5U85F6BG381C" H 9300 3150 60  0001 C CNN "Mouser"
 	3    9300 3150
 	1    0    0    -1  
 $EndComp
@@ -395,7 +394,6 @@ F 1 "LFE5U-85F-6BG381C" H 9300 6100 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 8250 6200 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 8250 6200 60  0001 C CNN
 F 4 "LFE5U-85F-6BG381C" H 9300 5250 60  0001 C CNN "MPN"
-F 5 "842-LFE5U85F6BG381C" H 9300 5250 60  0001 C CNN "Mouser"
 	4    9300 5250
 	1    0    0    -1  
 $EndComp
