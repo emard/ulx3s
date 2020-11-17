@@ -27,7 +27,7 @@ J1, J2	2																																															Leave empty
 J3	1																																															Leave empty			T		
 J4	1																																															Leave empty			T		
 J5	1																																															Leave empty			T		
-L1, L2, L3	3							https://datasheet.octopart.com/LQH32PB2R2NN0L-Murata-datasheet-20916646.pdf			490-18405-1-ND	490-10649-1-ND		445-TFM322512ALMA2R2MTAACT-ND						FL001	C285914			81-DFE252012P-2R2MP2	Murata	Murata		Bourns	Chilisin Elec	DFE322512F-2R2M=P2					DFE252012P-2R2M=P2	SRP2512A-2R2M	HEI322512A-2R2M-Q8	81-LQH32PB2R2NN0L			81-DFE322512F-2R2MP2		81-DFE322520FD2R2MP2			810-TFM322512ALMA2R2							DFE322512F-2R2M=P2
+L1, L2, L3	3							https://datasheet.octopart.com/LQH32PB2R2NN0L-Murata-datasheet-20916646.pdf			490-18405-1-ND	490-10649-1-ND		445-TFM322512ALMA2R2MTAACT-ND						FL001	C285758		C285914	81-DFE252012P-2R2MP2	Murata	Murata		Bourns	Chilisin Elec	DFE322512F-2R2M=P2					DFE252012P-2R2M=P2	SRP2512A-2R2M	HEI322512A-2R2M-Q8	81-LQH32PB2R2NN0L			81-DFE322512F-2R2MP2		81-DFE322520FD2R2MP2			810-TFM322512ALMA2R2							DFE322512F-2R2M=P2
 L4, L5	2													CV201210-330KCT-ND						FL002	C412010									CV201210-330K																652-CV201210-330K							
 LCD1	1																													DM-OLEDC095-626																		Leave empty					
 Q1	1													TBC857BLMCT-ND						FT001	C181146									BC857												863-BC857BLT1G				 583-BC856A-T							
