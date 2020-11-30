@@ -915,7 +915,7 @@ now should provide ESP32-RMII connectivity from WiFi to FPGA.
 
 GPDI series C lowered from 220nF to 22nF to reduce interference. 
 GPDI hotplug line now has R coupling and protection Zener
-diode which should make hotplug line work now.
+diode which should make hotplug line work.
 
 Board accepts old and new SD card slots. Old non-hinged SD slots
 with landing contacts were cheapest and I liked them most, but are
