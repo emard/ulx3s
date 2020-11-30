@@ -839,7 +839,7 @@ AN108 8-bit AD/DA 32 MSa/s IN, 125 Msa/s OUT
 AN926 12-bit 2-ch AD 50 MSa/s IN
 ![AN926 12-bit 2-ch 50 MSA/s](/pic/an926.png)
 
-# Board diffrences
+# Board differences
 
 v1.7 prototype
 
@@ -851,7 +851,7 @@ doesn't have series C to GPDI connector which makes it
 very sensitive to static discharge or bad GND connection.
 
 Main reason for redesign was to get ESP32 working properly.
-Some BTNs and similar things have changed routes to
+BTN UP, BTN RIGHT and some other pins have changed routes to
 FPGA pins in later versions.
 
 v2.0.x and v3.0.x
@@ -930,8 +930,10 @@ slowly wear out contacts at each insertion. Luckily all SD
 operations can be done remotely by ESP32 so number of insertions
 is negligible.
 
-7-pin OLED/LCD header is extended to 8-pin and shared with 4 SERDES
-RX differential input lanes coupled with series C=22nF.
+7-pin OLED/LCD header is extended to 8-pin and shared with
+3 SERDES input differential pairs (1xRXCLK, 2xRXDATA) coupled with
+series C=22nF. Additional 2 SERDES pairs (1xRXDATA, 1xTXDATA)
+are routed only to C=22nF for possible manual wire patching.
 
 RTC load capacitors are increased from 3.3pF to 4.7pF in attempt
 to reduce clock error below 20ppm.
