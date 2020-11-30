@@ -839,13 +839,88 @@ AN108 8-bit AD/DA 32 MSa/s IN, 125 Msa/s OUT
 AN926 12-bit 2-ch AD 50 MSa/s IN
 ![AN926 12-bit 2-ch 50 MSA/s](/pic/an926.png)
 
+# Board diffrences
+
+v1.7 prototype
+
+The first prototype made. Has 45F and 32MB SDRAM.
+To get ESP32 working it has to be manually wire patched.
+Flash is connected as 1-bit SPI, US2 connector doesn't have
+all lines needed to be both host and device. This board
+doesn't have series C to GPDI connector which makes it
+very sensitive to static discharge or bad GND connection.
+
+Main reason for redesign was to get ESP32 working properly.
+Some BTNs and similar things have changed routes to
+FPGA pins in later versions.
+
+v2.0.x and v3.0.x
+
+Very successful and widely produced boards, no important differences to the
+user.
+
+Most differences are in thermal management for soldering and
+reducing number of faulty produced boards. Significant problems
+were at version v2.0.5 and earlier with BGA soldering and "tombstoning"
+effect when resistors rise up due to unequal local temperature between
+pads.
+
+Around v3.0.5 some unused FTDI LED line was connected to unused
+pin of FPGA in schematics with idea to create fully connected secondary
+openocd JTAG channel from FTDI to debug FPGA softcore RISC5 CPUs with linux
+on litex and saxonsoc. Such FTDI JTAG is fully functional but very slow
+and linux needs big data thruput so in practice external JTAG is used
+there anyway.
+
+Main reason for redesign was to allow placement of
+ESP32-WROVER-E modules 4MB RAM/16MB FLASH.
+Micropython is now used on ESP32 to control 
+ULX3S boards. It is user-friendly but RAM hungry.
+
+Second reason was some RF interference with ESP32.
+When video signal 800x600 or 1024x768 is generated
+and monitor connected to GPDI port, then ESP32 almost
+completely looses WiFi signal. When GPDI is unplugged,
+connection is restored.
+
+SD card slot need footprint for compatibility
+alternative with slide-in/out reliable but inxepensive
+SD card slot which is on-stock available from common suppliers.
+
+RTC clock runs 30 ppm too fast.
+
+GPDI hotplug HPD doesn't work because of C coupling.
+
+No SERDES.
+
+v3.1.4
+
+New prototype, currently tested.
+
+Board accepts ESP32-WROOM and ESP32-WROVER, ESP32 JTAG glitch was
+fixed by connecting JTAG to different ESP32 pins,
+accepts old and new SD card slots, 7-pin OLED/LCD header extended
+to 8-pin and shared with SERDES input lanes, RX differential coupled with
+series C. GPDI hotplug now has R coupling and protection Zener diode
+which should make it work now.
+
+Generally all should work as before except ESP32 pinout is now
+different. wifi_gpio16 and wifi_gpio17 are gone because WROVER
+needs them for internal RAM, but here are many new available, so
+wifi_gpio26 and wifi_gpio27 can be used instead
+for example.
+
 # Board Versions
 
 This project is open source, freely downloadable so there can be
 as many versions as here are git commits.
 
-v3.0.3 is currently the only version which is officially being sold
-at [skriptarnica](http://skriptarnica.hr/vijest.aspx?newsID=1466).
+v3.0.3 is sold at
+[skriptarnica](http://skriptarnica.hr/vijest.aspx?newsID=1466).
+
+v3.0.8 is sold at
+[Mouser](https://hr.mouser.com/Search/Refine?Keyword=ulx3s)
+
 Other versions are either prototypes or independently produced.
 
 Up to our knowledge those versions are currently circulating around.
@@ -873,4 +948,5 @@ soldered.
     v3.0.8    Lolsborn       1          oct 2019     v20             handwork
     v3.0.3    INEM-KONČAR    220        oct 2019     v20             for sale   M12L2561616A-6TG2T    W25Q128JVSIQ
     v3.0.7    Watterott      88         nov 2019     v20             for sale   AS4C32M16SB-7TCN      W25Q128JVSIQ
-    v3.0.8    INEM-KONČAR    824        jul 2020     v20             for sale   IS42S16160G-7TL-TR    W25Q128JVSIQ
+    v3.0.8    INEM-KONČAR    1000       jul 2020     v20             for sale   IS42S16160G-7TL-TR    W25Q128JVSIQ
+    v3.1.4    INTERGALAKTIK  1          nov 2020     v31             prototype  MT48LC16M16A2TG-6A    W25Q128JVSIQ
