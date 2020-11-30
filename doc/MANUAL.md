@@ -856,8 +856,8 @@ FPGA pins in later versions.
 
 v2.0.x and v3.0.x
 
-Very successful and widely produced boards, no important differences to the
-user.
+Very successful and widely produced boards. There are no
+important differences between v2.0.x, v2.1.x and v3.0.x to the user.
 
 Most differences are in thermal management for soldering and
 reducing number of faulty produced boards. Significant problems
@@ -917,7 +917,18 @@ GPDI series C lowered from 220nF to 22nF to reduce interference.
 GPDI hotplug line now has R coupling and protection Zener
 diode which should make hotplug line work now.
 
-Board accepts old and new SD card slots
+Board accepts old and new SD card slots. Old non-hinged SD slots
+with landing contacts were cheapest and I liked them most, but are
+no longer available from western suppliers. They may be still available
+directly from china with longer ordering times. Hinged SD card slots
+are available from western suppliers, have landing contacts too and make
+good connectivity but hinge is fragile and makes insertion procedure longer.
+Now board supports quick slide-in/out SD card slots with wiping contacts,
+similar as RPI, on-stock available from western suppliers. Contact is good
+but as those are wiping contacts, friction forces will
+slowly wear out contacts at each insertion. Luckily all SD
+operations can be done remotely by ESP32 so number of insertions
+is negligible.
 
 7-pin OLED/LCD header is extended to 8-pin and shared with SERDES
 input lanes, RX differential coupled with series C=22nF.
