@@ -865,6 +865,18 @@ were at version v2.0.5 and earlier with BGA soldering and "tombstoning"
 effect when resistors rise up due to unequal local temperature between
 pads.
 
+FLASH is connected as 4-bit QSPI, supports 1-bit SPI but user
+must take care to hold unused lines at '1' (logic high level)
+otherwise some ISSI FLASH chips will not work because of crosstalk.
+
+BTNs are slightly different routed.
+
+US2 connector now has 6 routes to FPGA, supports both device and host mode,
+differential and single-ended connections, low-speed 1.5 Mbps
+and high-speed 12Mbps.
+
+GPDI has 220nF series capacitors for coupling.
+
 Around v3.0.5 some unused FTDI LED line was connected to unused
 pin of FPGA in schematics with idea to create fully connected secondary
 openocd JTAG channel from FTDI to debug FPGA softcore RISC5 CPUs with linux
@@ -898,17 +910,25 @@ v3.1.4
 New prototype, currently tested.
 
 Board accepts ESP32-WROOM and ESP32-WROVER, ESP32 JTAG glitch was
-fixed by connecting JTAG to different ESP32 pins,
-accepts old and new SD card slots, 7-pin OLED/LCD header extended
-to 8-pin and shared with SERDES input lanes, RX differential coupled with
-series C. GPDI hotplug now has R coupling and protection Zener diode
-which should make it work now.
+fixed by connecting JTAG to different ESP32 pins. ESP32 wiring
+now should provide ESP32-RMII connectivity from WiFi to FPGA.
+
+GPDI series C lowered from 220nF to 22nF to reduce interference. 
+GPDI hotplug line now has R coupling and protection Zener
+diode which should make hotplug line work now.
+
+Board accepts old and new SD card slots
+
+7-pin OLED/LCD header is extended to 8-pin and shared with SERDES
+input lanes, RX differential coupled with series C=22nF.
+
+RTC load capacitors are increased from 3.3pF to 4.7pF in attempt
+to reduce clock error below 20ppm.
 
 Generally all should work as before except ESP32 pinout is now
 different. wifi_gpio16 and wifi_gpio17 are gone because WROVER
 needs them for internal RAM, but here are many new available, so
-wifi_gpio26 and wifi_gpio27 can be used instead
-for example.
+wifi_gpio26 and wifi_gpio27 can be used instead for example.
 
 # Board Versions
 
