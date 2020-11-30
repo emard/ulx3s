@@ -930,8 +930,8 @@ slowly wear out contacts at each insertion. Luckily all SD
 operations can be done remotely by ESP32 so number of insertions
 is negligible.
 
-7-pin OLED/LCD header is extended to 8-pin and shared with SERDES
-input lanes, RX differential coupled with series C=22nF.
+7-pin OLED/LCD header is extended to 8-pin and shared with 4 SERDES
+RX differential input lanes coupled with series C=22nF.
 
 RTC load capacitors are increased from 3.3pF to 4.7pF in attempt
 to reduce clock error below 20ppm.
