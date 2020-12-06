@@ -1,19 +1,19 @@
-### Module positions - created on Mon Nov  2 10:57:18 2020 ###
-### Printed by Pcbnew version kicad 5.1.7+dfsg1-1
+### Module positions - created on Sun Dec  6 18:55:56 2020 ###
+### Printed by Pcbnew version kicad 5.1.8+dfsg1-1+b1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val              Package                                           PosX       PosY       Rot  Side
 BAT1      CR1225           Keystone_3000_1x12mm-CoinCell                  70.4850     6.3500   90.0000  bottom
 C1        22uF             C_0805_2012Metric                               9.8035    39.4350    0.0000  bottom
-C2        470pF            C_0603_1608Metric                              60.7600    15.3100    0.0000  bottom
+C2        100pF            C_0603_1608Metric                              60.7600    15.3100    0.0000  bottom
 C3        22uF             C_0805_2012Metric                              60.9600    21.5900    0.0000  bottom
 C4        22uF             C_0805_2012Metric                              60.9600    19.6850    0.0000  bottom
 C5        22uF             C_0805_2012Metric                              69.2150    20.3200   90.0000  bottom
-C6        470pF            C_0603_1608Metric                              58.4200    29.8450    0.0000  bottom
+C6        100pF            C_0603_1608Metric                              58.4200    29.8450    0.0000  bottom
 C7        22uF             C_0805_2012Metric                              58.4200    33.0200    0.0000  bottom
 C8        22uF             C_0805_2012Metric                              58.4200    34.9250    0.0000  bottom
 C9        22uF             C_0805_2012Metric                              66.6750    33.6550   90.0000  bottom
-C10       470pF            C_0603_1608Metric                              15.4400    40.2150  180.0000  bottom
+C10       100pF            C_0603_1608Metric                              15.4400    40.2150  180.0000  bottom
 C11       22uF             C_0805_2012Metric                              15.4400    37.0400  180.0000  bottom
 C12       22uF             C_0805_2012Metric                              15.4400    35.1350  180.0000  bottom
 C13       2.2uF            C_0805_2012Metric                              79.1210    27.4320   90.0000  bottom
@@ -21,7 +21,7 @@ C14       220nF            C_0603_1608Metric                              81.280
 C15       22uF             C_0805_2012Metric                              11.1760    13.2080   90.0000  bottom
 C16       2.2uF            C_0805_2012Metric                              80.2790    24.7470    0.0000  bottom
 C17       2.2uF            C_0805_2012Metric                              44.4000    20.6000  270.0000  bottom
-C18       470pF            C_0603_1608Metric                              55.8800    47.3200   90.0000  bottom
+C18       100pF            C_0603_1608Metric                              55.8800    47.3200   90.0000  bottom
 C19       2.2uF            C_0805_2012Metric                              44.4000    30.8000   90.0000  bottom
 C20       2.2uF            C_0805_2012Metric                              44.4000    25.6000  270.0000  bottom
 C21       22uF             C_0805_2012Metric                               9.0170    19.1590    0.0000  bottom
