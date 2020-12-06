@@ -373,4 +373,8 @@ Text Label 4450 3700 0    60   ~ 0
 STXP11
 Text Label 6650 3700 0    60   ~ 0
 STXN11
+NoConn ~ 6550 3400
+NoConn ~ 6550 3800
+NoConn ~ 4850 3800
+NoConn ~ 4850 3400
 $EndSCHEMATC
