@@ -165,6 +165,8 @@ Here is checklist what was done or should be done in the next PCB release.
     [x] OLED 3.3V/GND internal copper fill standoff (be able to cut for serdes)
     [x] return of PCB logos
     [x] stencil opening with briges and island for THT holes of GPDI
+    [ ] ESP32 wroom vias, remove from area where not connected pads are
+    [ ] U11 silkscreen move bottom right, write C11 there
 
 Digi-Key Part Number 	WM12834TR-ND 	
 Manufacturer 	Molex 	
