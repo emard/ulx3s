@@ -1,7 +1,7 @@
 
 body=[27,10,3.4];
 hole_d=1.6;
-hole_h=2.0;
+hole_h=2.7;
 hole_dist=23.4;
 
 hdmi_width=17;
@@ -39,7 +39,7 @@ difference()
   if(0)
   translate([hole_dist/2+audio_width/2,0,-body[2]/2])
     cube([audio_width,10,audio_height],center=true);
-  // 45 deg transtion
+  // 45 deg transition
   if(1)
   translate([0,7.5,0])
     rotate([45,0,0])
