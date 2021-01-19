@@ -67,7 +67,7 @@
     SD     Micro SD card, all signal pins are routed to FPGA and
            shared with ESP-32
 
-    ESP32  Placeholder to solder ESP-32 WROOM module.
+    ESP32  Placeholder to solder ESP-32 module.
            ESP-32 can provide standalone web interface for uploading
            bitstream into FPGA and its config FLASH. 
 
