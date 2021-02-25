@@ -229,9 +229,8 @@ or [ujprog binary from FER](http://www.nxlab.fer.hr/dl)
 Accepts *.bit or *.svf files which all tools can generate.
 
 [OpenFPGA Loader](https://github.com/trabucayre/openFPGALoader)
-can do everyting fujprog can, last time I tested it was just
-a little bit slower than fujprog, but some users have reported it was faster.
-Accepts *.bit files which all tools can generate.
+can do everyting fujprog can, at the same speed or slightly
+faster. Accepts *.bit files which all tools can generate.
 Supports not only ULX3S but many other boards and is actively developed.
 
 EMARD's fork of Xark's [FleaFPGA-JTAG source](https://github.com/emard/FleaFPGA-JTAG)
