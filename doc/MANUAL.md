@@ -65,10 +65,10 @@
            5V tolerant).
 
     SD     Micro SD card, all signal pins are routed to FPGA and
-           shared with ESP-32
+           shared with ESP32
 
-    ESP32  Placeholder to solder ESP-32 module.
-           ESP-32 can provide standalone web interface for uploading
+    ESP32  Placeholder to solder ESP32 module.
+           ESP32 can provide standalone web interface for uploading
            bitstream into FPGA and its config FLASH. 
 
 # Constraints (board pinout)
@@ -531,7 +531,7 @@ or compile it from [ULX3S passthru source](https://github.com/emard/ulx3s-passth
 
     fujprog -j flash passthru.bit
 
-"Passthru" bitstream configures FPGA to route lines from USB-serial to ESP-32.
+"Passthru" bitstream configures FPGA to route lines from USB-serial to ESP32.
 
 # Preparing WiFi (ESP32 efuse)
 
@@ -574,25 +574,25 @@ Easy programming, rapid development.
 
 # Programming over WiFi (ESP32 firmware)
 
-ESP-32 firmware provides standalone JTAG SVF player over web HTTP and TCP interface for
+ESP32 firmware provides standalone JTAG SVF player over web HTTP and TCP interface for
 programming and flashing in convenient and OS independent way. Web interface
 requires no client software installed but web browser. It is much faster than
 FT231X but still not as fast as FT2232. It accepts SVF files but you need to limit
 SVF command size to max 8 kilobits "-maxdata 8", effectively it will split
-upload into many shorter SVF commands because ESP-32 doesn't have enough
+upload into many shorter SVF commands because ESP32 doesn't have enough
 memory to buffer entire bitstream delivered in a long single SVF command.
 
     ddtcmd -oft -svfsingle -revd -maxdata 8 -if ulx3s_flash.xcf -of bitstream.svf
 
 Write "passthru" to FPGA config flash as described above in section "Preparing WiFi
 (passthru)".
-Install Arduino and its ESP-32 support, and
+Install Arduino and its ESP32 support, and
 install Emard's library [LibXSVF-ESP](https://github.com/emard/LibXSVF-ESP),
 required library dependencies and 
-[ESP-32 SPIFFS uploader](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/tag/v0.1)
+[ESP32 SPIFFS uploader](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/tag/v0.1)
 Version "ESP32FS-v0.1.zip" worked for me.
 
-In Arduino boards manager select this ESP-32 board:
+In Arduino boards manager select this ESP32 board:
 
     DOIT ESP32 DEVKIT V1
 
@@ -605,7 +605,7 @@ window, successfull upload will finish with this:
     Leaving...
     Hard resetting...
 
-Then upload the web page content to ESP-32 FLASH filesystem,
+Then upload the web page content to ESP32 FLASH filesystem,
 at websvf window click "Tools->ESP32 Sketch Data Upload".
 successful upload will finish with same as above.
 
@@ -626,16 +626,16 @@ By editing this file you can set
 ssid and password for connection
 to your local WiFi access point.
 
-If client connection is unsuccessful ESP-32 it will become
+If client connection is unsuccessful ESP32 it will become
 access point with the same ssid and password, but so far many people
-reported unsuccessful connection attempts from PC to ESP-32 in AP mode.
-If you want to try, AP mode ESP-32 web address is "http://192.168.4.1"
+reported unsuccessful connection attempts from PC to ESP32 in AP mode.
+If you want to try, AP mode ESP32 web address is "http://192.168.4.1"
 and internet should not to work in this case :).
 
-If ESP-32 connected as a client, IP address will vary depending
+If ESP32 connected as a client, IP address will vary depending
 on local network. Discover it by using WiFi access
 point web interface, ARP, NMAP, or by sniffing it.
-On the ESP-32 page something like this will appear:
+On the ESP32 page something like this will appear:
 
       Select SVF File or use minimal or svfupload.py
       [File] File not selected
@@ -650,19 +650,19 @@ web iterface it takes 2-3 minutes. Also on the web interface
 there's available for download a small python commandline 
 upload tool.
 
-Note that FPGA can enable or disable ESP-32 module. If ESP-32
+Note that FPGA can enable or disable ESP32 module. If ESP32
 is disabled by newly uploaded bistream, some alert window will
-pop-up after otherwise successful upload because ESP-32 cannot
+pop-up after otherwise successful upload because ESP32 cannot
 close HTTP session properly.
 To make it go smooth, in the bitstream make FPGA pin "wifi_en"
 as input (HIGH-impedance, pull up).
 
-Technically, ESP-32 can be loaded with such a code that
+Technically, ESP32 can be loaded with such a code that
 permanently holds JTAG lines while FPGA can at the same time
-have in FLASH a bitstream that permanenly enables ESP-32.
+have in FLASH a bitstream that permanenly enables ESP32.
 Such combination will preventing JTAG from working so
 ULX3S board may become "Bricked". There is jumper J3 to disable
-ESP-32, its left of SD card slot. Note boards PCB v1.7 need
+ESP32, its left of SD card slot. Note boards PCB v1.7 need
 upgrade for this jumper to work correctly.
 
 Precompiled ESP32 firmware from
@@ -690,9 +690,21 @@ blinking.
 This automagically works because "passthru" bitstream will
 redirect USB-serial ESP32 programming traffic from PC thru FPGA to ESP32.
 
-
 There might be strange issues on getting this to work on windows.
 On linux usually only USB-serial port access permission is required.
+
+Note boards PCB v3.1.x: if esptool.py can't program when passthru
+bitstream is loaded, connect TMS and GND at JTAG header and try
+programming then.
+
+To avoid programming difficulties, ESP32 firmware should not
+drive PIN 5 (wifi_gpio5, blue LED D22, TMS) as output first few
+seconds after ESP32 boot. If PIN 5 is driven immediately at
+boot, esptool.py can't program. Solution is to force PIN 5 low
+at JTAG header by connecting TMS and GND (blue LED will turn ON)
+and holding it at least until ESP32 programming starts.
+It can be released when flash starts writing from 0x00010000.
+Or simply when red LED D19 TX/RX blinks for few seconds.
 
 # LCD/OLED Display
 
