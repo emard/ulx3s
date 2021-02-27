@@ -168,8 +168,7 @@ Here is checklist what was done or should be done in the next PCB release.
     [ ] ESP32 wroom vias, remove from area where not connected pads are
     [ ] U11 silkscreen move bottom right, write C11 there
     [x] swap WIFI_EN with WIFI_GPIO22, for GPIO22 to connect to clock capable pin
-    [ ] WIFI_GPIO0 (ETH RMII CLK 50MHz) connect to FPGA clock capable pin
-    [ ] WIFI_GPIO5 (TMS currently) must be controlled by FPGA or pulled down to program/unbrick ESP32
+    [x] WIFI_GPIO0 to FPGA clock capable pin, swap WIFI_GPIO22 with WIFI_GPIO0
 
 Digi-Key Part Number 	WM12834TR-ND 	
 Manufacturer 	Molex 	
