@@ -1,9 +1,9 @@
-### Module positions - created on Sun Feb 28 06:07:17 2021 ###
+### Module positions - created on Mon Mar  1 22:15:15 2021 ###
 ### Printed by Pcbnew version kicad 5.1.9+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                Package                                           PosX       PosY       Rot  Side
-AUDIO1    JACK_TRS_6PINS     CUI_SJ-43516-SMT                               30.3680    43.2020    0.0000  top
+AUDIO1    JACK_TRS_6PINS     CUI_SJ-43516-SMT                               30.3680    42.6200    0.0000  top
 B0        PTS645             SW_SPST_PTS645                                 77.4700    38.1000  180.0000  top
 B1        PTS645             SW_SPST_PTS645                                 11.4300    22.8600    0.0000  top
 B2        PTS645             SW_SPST_PTS645                                 22.8600    22.8600    0.0000  top
