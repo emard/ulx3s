@@ -768,6 +768,10 @@ For PS/2 keyboard or mouse:
 
 ![USB-male to PS/2-female](/pic/USB-male-to-PS2-female.jpg)
 
+For PS/2 keyboard, combo USB-PS/2 keyboard is recommended, some older
+Logitech are known to work. Recently reported working is
+[CiT KB2106C USB/PS2 Combo Keyboard](https://www.cclonline.com/product/76320/KB-2106C/Keyboards/CiT-KB-2106C-USB/PS2-Combo-Keyboard/KBD0426/)
+
 For electrical USB sniffer you need this:
 
 [USB-male to USB-male](https://www.ebay.com/itm/351868263369)
