@@ -809,6 +809,9 @@ To use 3rd channel for SPDIF audio or compositie video together with
 It can be easily found on ebay, search for
 "3.5mm 4 Pole Male Plug To 3 RCA (Red/Yellow/White) Female Jack Cable".
 
+Compatible cable wiring is "OMTP" as descrbed in the
+[TRRS standards](https://en.wikipedia.org/wiki/Phone_connector_(audio)#TRRS_standards)
+
 WARNING: Sony compatible 3-cinch cables are NOT SUITABLE for ULX3S!
 Sony cables are the most often found in consumer audio/video shops.
 Visually they look identical, but the pinout is different.
