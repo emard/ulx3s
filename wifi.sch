@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 11
 Title "ULX3S"
 Date ""
-Rev "1.0.8"
+Rev "1.0.9"
 Comp "EMARD"
 Comment1 "WIFI module ESP32"
 Comment2 ""
@@ -476,4 +476,30 @@ NoConn ~ 10650 5200
 NoConn ~ 10650 5300
 Text Notes 8350 3700 0    60   ~ 0
 NC v1.7, WIFI_GPIO5 <v3.1 LED >=3.1.2
+Text GLabel 8100 4250 0    60   Input ~ 0
+WIFI_GPIO0
+$Comp
+L power:+3V3 #PWR043
+U 1 1 60AB4A06
+P 8400 4250
+F 0 "#PWR043" H 8400 4100 50  0001 C CNN
+F 1 "+3V3" H 8400 4390 50  0000 C CNN
+F 2 "" H 8400 4250 50  0000 C CNN
+F 3 "" H 8400 4250 50  0000 C CNN
+	1    8400 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R56
+U 1 1 60AB9B55
+P 8250 4250
+F 0 "R56" V 8330 4250 50  0000 C CNN
+F 1 "15k" V 8250 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 4250 50  0001 C CNN
+F 3 "" H 8250 4250 50  0000 C CNN
+	1    8250 4250
+	0    1    1    0   
+$EndComp
+Text Notes 7550 4650 0    60   ~ 0
+R56 makes ESP32 boot at power up\nno R56: FPGA should pull up GPIO0\nand pulse EN for ESP32 to boot
 $EndSCHEMATC
