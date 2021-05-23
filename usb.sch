@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 11
 Title "ULX3S"
 Date ""
-Rev "1.0.9"
+Rev "1.0.10"
 Comp "EMARD"
 Comment1 "USB serial and JTAG"
 Comment2 ""
@@ -626,8 +626,6 @@ Text Notes 2750 5350 0    60   ~ 0
 D- 1.5k pullp for \nlow speed device\nmode USB1.0
 Text GLabel 8650 2350 0    60   Input ~ 0
 FTDI_TXDEN
-Text Notes 6100 5000 0    60   ~ 0
-Short circuit R56\nfor chip rev A,B,C\nworkaround in \nTN140_FT231X Errata
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 5 1 5A079A7A
