@@ -1,1 +1,1 @@
-../ulx3s-Edge_Cuts.gm1
+../gerbers/ulx3s-Edge_Cuts.gm1

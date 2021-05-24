@@ -41,7 +41,7 @@
 	(cons 'visible #f)
 	(cons 'color #(65535 65535 65535))
 )
-(define-layer! 2 (cons 'filename "ulx3s-PTH.drl")
+(define-layer! 2 (cons 'filename "ulx3s/ulx3s-PTH.drl")
 	(cons 'visible #t)
 	(cons 'color #(0 0 0))
 	(cons 'attribs (list
@@ -51,7 +51,7 @@
 		(list 'digits 'Integer 4)
 	))
 )
-(define-layer! 1 (cons 'filename "ulx3s-NPTH.drl")
+(define-layer! 1 (cons 'filename "ulx3s/ulx3s-NPTH.drl")
 	(cons 'visible #t)
 	(cons 'color #(0 0 0))
 	(cons 'attribs (list

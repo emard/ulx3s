@@ -1,1 +1,1 @@
-../ulx3s-F_Mask.gts
+../gerbers/ulx3s-F_Mask.gts
