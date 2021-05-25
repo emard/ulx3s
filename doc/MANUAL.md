@@ -971,7 +971,10 @@ EN and GPIO22 changed.
 
 Board has minor problem ESP32 will not boot standalone,
 bitstream must pull up or output high to GPIO0 and then
-pulse EN for ESP32 to boot.
+pulse EN for ESP32 to boot. "Official" patch is to solder
+15k 0603 resistor at GPIO0 pin which 3rd soldered pin,
+near letter "R" of R33 label. With thin wire 0.1mm connect
+other end of 15k resistor to 3.3V at other end of R33.
 
 v3.1.7
 
