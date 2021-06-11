@@ -17,10 +17,20 @@ KIKIT = ~/.local/bin/kikit
 
 RADIUS=0
 
+# help panelizer locate board
+# this design has a single board
+# so area is oversized to include everything
+X_ORIGIN=83
+Y_ORIGIN=54
+X_SIZE=115
+Y_SIZE=70
+
 all: $(GERBERS)
 
 $(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
-	$(KIKIT) panelize extractboard -s 94 51 94 112 $< $@
+	$(KIKIT) panelize extractboard \
+		--sourcearea $(X_ORIGIN) $(Y_ORIGIN) $(X_SIZE) $(Y_SIZE) \
+		$< $@
 
 $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize grid     \
@@ -33,6 +43,7 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 		--railsTb   2.0    \
 		--fiducials 5.0 5.0 1.0 2.0 \
 		--radius $(RADIUS) \
+		--tolerance 20     \
 		$< $@
 
 %-gerber: %.kicad_pcb
