@@ -15,7 +15,8 @@ BOARDSFILES = $(addprefix $(DESTINATION)/, $(BOARDS:=.kicad_pcb))
 GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
 KIKIT = ~/.local/bin/kikit
 
-RADIUS=0
+# milling tool diameter mm
+RADIUS=2
 
 # help panelizer locate board
 # this design has a single board
@@ -36,15 +37,20 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize grid     \
 		--space     10     \
 		--gridsize  4 2    \
+		--vtabs     1      \
+		--tabwidth  25     \
 		--vcuts            \
 		--framecutV        \
 		--framecutH        \
-		--railsLr   5.0    \
-		--railsTb   2.0    \
+		--railsLr   1.0    \
+		--railsTb   8.0    \
 		--fiducials 5.0 5.0 1.0 2.0 \
 		--radius $(RADIUS) \
 		--tolerance 20     \
 		$< $@
+
+#		--htabs     0      \
+#		--tabheight 30     \
 
 %-gerber: %.kicad_pcb
 	$(KIKIT) export gerber $< $@
