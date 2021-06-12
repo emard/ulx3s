@@ -38,7 +38,6 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 		--space     8       \
 		--gridsize  4 2     \
 		--vtabs     0       \
-		--tabwidth  24      \
 		--radius    2       \
 		--vcuts             \
 		--railsLr   5       \
