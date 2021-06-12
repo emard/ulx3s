@@ -30,20 +30,38 @@ $(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
 		--sourcearea $(X_ORIGIN) $(Y_ORIGIN) $(X_SIZE) $(Y_SIZE) \
 		$< $@
 
+# this is almost as what we need but
+# space should be cut 2mm more to the left and right
+# currnetly cuts will leave "dents" at the edges.
 $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
-	$(KIKIT) panelize grid     \
-		--space     5      \
-		--gridsize  4 2    \
-		--tabwidth  25     \
-		--tabheight 45     \
-		--radius    2      \
-		--vcuts            \
-		--railsLr   5.0    \
-		--railsTb   8.0    \
-		--copperfill       \
-		--tolerance 20     \
-		--fiducials 5.0 5.0 1.0 2.0 \
+	$(KIKIT) panelize grid      \
+		--space     8       \
+		--gridsize  4 2     \
+		--vtabs     0       \
+		--tabwidth  24      \
+		--radius    2       \
+		--vcuts             \
+		--railsLr   5       \
+		--railsTb   8       \
+		--copperfill        \
+		--tolerance 20      \
+		--fiducials 5 5 1 2 \
 		$< $@
+
+# this makes too much cuts and tabs
+#		--space     8       \
+#		--gridsize  4 2     \
+#		--htabs     0       \
+#		--tabheight 44      \
+#		--vtabs     0       \
+#		--tabwidth  24      \
+#		--radius    2       \
+#		--vcuts             \
+#		--railsLr   5       \
+#		--railsTb   8       \
+#		--copperfill        \
+#		--tolerance 20      \
+#		--fiducials 5 5 1 2 \
 
 %-gerber: %.kicad_pcb
 	$(KIKIT) export gerber $< $@
