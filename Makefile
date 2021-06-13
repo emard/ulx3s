@@ -42,9 +42,9 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 		--vcuts             \
 		--railsLr   5       \
 		--railsTb   8       \
-		--copperfill        \
-		--tolerance 20      \
 		--fiducials 5 5 1 2 \
+		--tolerance 20      \
+		--copperfill        \
 		$< $@
 
 # this makes too much cuts and tabs
