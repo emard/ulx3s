@@ -47,6 +47,13 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 		--copperfill        \
 		$< $@
 
+# adding this will enlarge horizontal cuts
+# but will also remove them from upper and
+# lower parts of the panel so boards can't
+# separate from the panel
+#		--htabs     1       \
+#		--tabheight 50      \
+
 # this makes too much cuts and tabs
 #		--space     8       \
 #		--gridsize  4 2     \
