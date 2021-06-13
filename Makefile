@@ -31,13 +31,14 @@ $(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
 		$< $@
 
 # this is almost as what we need but
-# space should be cut 2mm more to the left and right
-# currnetly cuts will leave "dents" at the edges.
+# space should be cut more by radius to the left and right
+# currently cuts will leave "dents" at the edges.
+# workaround now is to have radius 0 instead of 2 mm
 $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize grid      \
 		--gridsize  4 2     \
 		--space     9       \
-		--radius    1       \
+		--radius    0       \
 		--vtabs     0       \
 		--tabwidth  0       \
 		--vcuts             \
