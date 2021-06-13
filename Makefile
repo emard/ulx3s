@@ -36,9 +36,10 @@ $(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
 $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize grid      \
 		--gridsize  4 2     \
-		--space     8       \
-		--radius    2       \
+		--space     9       \
+		--radius    1       \
 		--vtabs     0       \
+		--tabwidth  0       \
 		--vcuts             \
 		--railsLr   5       \
 		--railsTb   8       \
