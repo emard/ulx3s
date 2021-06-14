@@ -13,6 +13,7 @@ DESTINATION = plot/panel
 
 BOARDSFILES = $(addprefix $(DESTINATION)/, $(BOARDS:=.kicad_pcb))
 GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
+RAR = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber.rar))
 KIKIT = ~/.local/bin/kikit
 
 # help panelizer locate board
@@ -23,7 +24,7 @@ Y_ORIGIN=54
 X_SIZE=115
 Y_SIZE=70
 
-all: $(GERBERS)
+all: $(GERBERS) $(RAR)
 
 $(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
 	$(KIKIT) panelize extractboard \
@@ -74,8 +75,14 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 %-gerber: %.kicad_pcb
 	$(KIKIT) export gerber $< $@
 
+%-gerber.rar: %-gerber
+	rar a $@ $<
+
 $(DESTINATION):
 	mkdir -p $(DESTINATION)
+
+view: $(DESTINATION)/ulx3s-panel.kicad_pcb
+	pcbnew $<
 
 clean:
 	rm -f *~
