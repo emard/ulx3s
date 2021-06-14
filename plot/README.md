@@ -34,19 +34,19 @@ Footprint position file:
 
 # Penel from [JLCPCB](http://jlcpcb.com)
 
-Install KIKIT (v0.7 used here) or upgrade
+Install [KiKit](https://github.com/yaqwsx/KiKit) (v0.7 used here) or upgrade
 
     pip3 install kikit
     pip3 install --upgrade kikit
 
-Generate gerbers with [KIKIT](http://)
+Generate gerbers (needs "KiKit" installed)
 
     make
 
 View panel gerbers with gerbv:
 
     cd plot
-    gerbv (from GUI open file ulx3s-panel.gvp, F5 to refresh)
+    gerbv (File->Open ulx3s-panel.gvp, F5 to refresh)
 
 View panel design with pcbnew (try View->3D Viewer):
 
