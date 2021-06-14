@@ -31,3 +31,65 @@ Drill file:
 Footprint position file:
 [x] ASCII format
 [x] mm units
+
+# Penel from [JLCPCB](http://jlcpcb.com)
+
+Install KIKIT (v0.7 used here) or upgrade
+
+    pip3 install kikit
+    pip3 install --upgrade kikit
+
+Generate gerbers with [KIKIT](http://)
+
+    make
+
+View panel gerbers with gerbv:
+
+    cd plot
+    gerbv (from GUI open file ulx3s-panel.gvp, F5 to refresh)
+
+View panel design with pcbnew (try View->3D Viewer):
+
+    pcbnew plot/panel/ulx3s-panel.kicad_pcb
+
+Compress with rar (should fit max size 10 MB)
+
+    cd plot/panel
+    rar c /tmp/ulx3s-panel-gerber.rar ulx3s-panel-gerber
+
+Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
+
+    PCB Panel
+    -------------------
+    Layers              : 1  2 [4] 6
+    Dimensions [mm]     : 224 * 264
+    PCB Qty             : 5 [10] 15  20
+    Different Design    : [1] 2  3  4
+    Delivery Format     : Single PCB [Panel by Customer] Panel by JLCPCB
+    Panel Format        : Columns: 2  Rows: 4
+    PCB Thickness       : 0.8  1.0  1.2 [1.6] 2.0 mm
+    Impedance           : [No] Yes
+    PCB Color           : [Green] Red Yellow Blue White Black
+    Surface Finish      : HASL(with lead) LeadFree HASL-RoHS [ENIG-RoHS]
+    Outer Copper Weight : [1 oz] 2 oz
+    Inner Copper Weight : [0.5 oz] 2 oz
+    Gold Fingers        : [No] Yes
+    Confirm Production file : No [Yes]
+    Flying Probe Test   : [Fully Test] Not Test
+    Castellated Holes   : [No] Yes
+    Remove Order Number : [No] Yes  Specify Location
+
+    PCB Remark:         : 4 vertical V-CUTS, 16 horizontal MILL LINES of 2 mm width
+                          Use external edges from "EdgeCuts.gbr" layer
+                          Ignore internal edges from "EdgeCuts.gbr" layer
+
+    SMT Assembly        : No
+
+    Stencil             : Yes (Order together with PCB)
+    -------------------
+    Framework           : [No] Yes
+    Dimensions [mm]     : 380*280 (valid area 290*190) [420*320 (valid area 400*240)]
+    Customized size     : [No] Yes
+    Stencil Side        : Top+Bottom (On Single Stencil)  Top  Bottom [Top&Bottom (On Separate Stencil)]
+    Electropolishing    : No [Yes]
+    Fiducials           : No Fiducial [Etched Through] Etched Half into board
