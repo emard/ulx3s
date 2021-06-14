@@ -122,7 +122,7 @@ Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
                          [Top&Bottom (On Separate Stencil)]
     Electropolishing    : No [Yes]
     Fiducials           : No Fiducial
-                         [Etched Through]
-                          Etched Half into board
+                          Etched Through
+                         [Etched Half into board]
 
     Sending options     : EuroPacket
