@@ -23,7 +23,7 @@ Generate floorplan PDF for top and bottom side
 RAR or ZIP to a file
 
     cd plot
-    rar c  /tmp/ulx3s-pcb.rar gerbers
+    rar a  /tmp/ulx3s-pcb.rar gerbers
     zip -r /tmp/ulx3s-pcb.zip gerbers
 
 Open [Seeedstudio PCB production](https://www.seeedstudio.com/fusion_pcb.html)
@@ -79,7 +79,7 @@ View panel design with pcbnew (try View->3D Viewer):
 Compress with rar (should fit max size 10 MB)
 
     cd plot/panel
-    rar c /tmp/ulx3s-panel-gerber.rar ulx3s-panel-gerber
+    rar a /tmp/ulx3s-panel-gerber.rar ulx3s-panel-gerber
 
 Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
 
