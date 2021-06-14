@@ -1,11 +1,30 @@
-# Submitting for production
+# Submitting for production (panelized by manufacturer)
 
-From NewPCB open PCB, view it and menu File->Plot
-Click "Plot" and click "Generate Drill File"
-another window will open. Click "Drill file".
-ZIP seeedstudio to a file
+If manufacturer panelizes, we should create
+gerber files for a single PCB.
 
-    zip -r /tmp/ulx3s-pcb.zip seeedstudio
+From pcbnew open PCB, view it and menu
+
+    File->Plot
+
+Click "Plot" to create gerbers and click "Generate Drill File"
+another window will open. Click "Drill file" to create drill files.
+
+Generate footprint positions
+
+    File->Fabrication Outputs->Footprint Position (.pos) File
+
+Generate floorplan PDF for top and bottom side
+
+    File->Print
+    [x] F.Fab  [ ] Print Mirrored
+    [x] B.Fab  [x] Print Mirrored
+
+RAR or ZIP to a file
+
+    cd plot
+    rar c  /tmp/ulx3s-pcb.rar gerbers
+    zip -r /tmp/ulx3s-pcb.zip gerbers
 
 Open [Seeedstudio PCB production](https://www.seeedstudio.com/fusion_pcb.html)
 page, select:
@@ -17,7 +36,7 @@ page, select:
     Min Tracking/Spacing: 5/5 mils
     Quality: IPC Class 3
 
-click "Add your gerber file" and upload this zip file then
+click "Add your gerber file" and upload this rar file then
 click on "Gerber Viewer" to see what will be produced.
 
 Exporting for production:
@@ -32,7 +51,12 @@ Footprint position file:
 [x] ASCII format
 [x] mm units
 
-# Penel from [JLCPCB](http://jlcpcb.com)
+# Submitting for production (panelized by us)
+
+If we panelize, we should create gerbers for panel
+and the stencil. Gerbers should have a file describing
+depanelization cuts (vertical v-cuts and horizontal mill
+lines).
 
 Install [KiKit](https://github.com/yaqwsx/KiKit) (v0.7 used here) or upgrade
 
