@@ -103,6 +103,11 @@ Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
     Castellated Holes   : [No] Yes
     Remove Order Number : [No] Yes  Specify Location
 
+    Advanced options
+    Min Hole            : 0.45 mm [0.2/0.4 mm]
+    4-Wire Kelvin Test  : No [Yes]
+    Paper between PCBs  : No [Yes]
+
     PCB Remark:         : 4 vertical V-CUTS, 16 horizontal MILL LINES of 2 mm width
                           Use external edges from "EdgeCuts.gbr" layer
                           Ignore internal edges from "EdgeCuts.gbr" layer
