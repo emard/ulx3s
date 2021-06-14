@@ -116,8 +116,13 @@ Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
                           400*300 (valid area 240*140)
                          [520*420 (valid area 340*240)]
     Customized size     : [No] Yes
-    Stencil Side        : Top+Bottom (On Single Stencil)  Top  Bottom [Top&Bottom (On Separate Stencil)]
+    Stencil Side        : Top+Bottom (On Single Stencil)
+                          Top
+                          Bottom 
+                         [Top&Bottom (On Separate Stencil)]
     Electropolishing    : No [Yes]
-    Fiducials           : No Fiducial [Etched Through] Etched Half into board
+    Fiducials           : No Fiducial
+                         [Etched Through]
+                          Etched Half into board
 
     Sending options     : EuroPacket
