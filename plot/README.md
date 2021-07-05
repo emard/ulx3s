@@ -85,6 +85,7 @@ Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
 
     PCB Panel
     -------------------
+    Base Material       : [FR-4] Aluminium
     Layers              : 1  2 [4] 6
     Dimensions [mm]     : 224 * 264
     PCB Qty             : 5 [10] 15  20
@@ -94,10 +95,12 @@ Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
     PCB Thickness       : 0.8  1.0  1.2 [1.6] 2.0 mm
     Impedance           : [No] Yes
     PCB Color           : [Green] Red Yellow Blue White Black
+    Silkscreen          : White
     Surface Finish      : HASL(with lead) LeadFree HASL-RoHS [ENIG-RoHS]
     Outer Copper Weight : [1 oz] 2 oz
     Inner Copper Weight : [0.5 oz] 2 oz
     Gold Fingers        : [No] Yes
+    Material Type       : FR4-Standard Tg 130-145C [FR4 TG155] 
     Confirm Production file : No [Yes]
     Flying Probe Test   : [Fully Test] Not Test
     Castellated Holes   : [No] Yes
@@ -107,6 +110,7 @@ Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
     Min Hole            : 0.45 mm [0.2/0.4 mm]
     4-Wire Kelvin Test  : No [Yes]
     Paper between PCBs  : No [Yes]
+    Appearance Quality  : [IPC Class 2 Standard] Superb Quality
 
     PCB Remark:         : 4 vertical V-CUTS, 16 horizontal MILL LINES of 2 mm width
                           Use external edges from "EdgeCuts.gbr" layer
