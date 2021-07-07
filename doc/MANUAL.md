@@ -146,7 +146,7 @@ enter shutdown mode. There are several ways to wake up the board:
     3) RTC ALARM (using MCP7940N or PCF8523 arduino example)
     4) Turn on Green LED D18 (using ftx_prog or libftdi)
 
-Just a short pulse at RTC (ALARM INT1 shorly pull down) or
+Just a short pulse at RTC (ALARM INT1 shortly pull down) or
 Green LED shortly going HIGH is enough to wake up the board.
 
 There is SHUTDOWN pin where FPGA can turn OFF the board.
