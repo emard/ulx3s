@@ -1,10 +1,14 @@
 # makefile for panelization experiments
 # just demo example, not yet ready for production
 
+# pip3 uninstall kikit
 # pip3 install kikit
 # pip3 install --upgrade kikit
 # pip3 show kikit
 # Version: 0.7
+
+# unstable version (commandline options not compatible)
+# pip3 install git+https://github.com/yaqwsx/KiKit@master
 
 .PHONY: all clean
 
