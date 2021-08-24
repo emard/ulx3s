@@ -232,6 +232,20 @@ Accepts *.bit or *.svf files which all tools can generate.
 can do everyting fujprog can, at the same speed or slightly
 faster. Accepts *.bit files which all tools can generate.
 Supports not only ULX3S but many other boards and is actively developed.
+Here is a hacky shell script for most common uses of "fujprog"
+replaced with "openFPGALoader", assuming 1-argument call is
+to program SRAM, 3-argument call is to program FLASH
+
+    cat /usr/local/bin/fujprog
+    #!/bin/sh -e
+    if [ $# -eq 1 ]
+    then
+      openFPGALoader -b ulx3s ${1}
+    fi
+    if [ $# -eq 3 ]
+    then
+      openFPGALoader -b ulx3s -f ${3}
+    fi
 
 EMARD's fork of Xark's [FleaFPGA-JTAG source](https://github.com/emard/FleaFPGA-JTAG)
 or [FleaFPGA-JTAG binary](https://github.com/emard/ulx3s-bin/tree/master/usb-jtag)
