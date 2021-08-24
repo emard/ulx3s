@@ -236,6 +236,7 @@ Here is a hacky shell script for most common uses of "fujprog"
 replaced with "openFPGALoader", assuming 1-argument call is
 to program SRAM, 3-argument call is to program FLASH
 
+    chmod +x /usr/local/bin/fujprog
     cat /usr/local/bin/fujprog
     #!/bin/sh -e
     if [ $# -eq 1 ]
