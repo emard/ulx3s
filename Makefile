@@ -1,14 +1,10 @@
-# makefile for panelization experiments
+# makefile for panelization
 # just demo example, not yet ready for production
 
 # pip3 uninstall kikit
-# pip3 install kikit
-# pip3 install --upgrade kikit
-# pip3 show kikit
-# Version: 0.7
-
-# unstable version (commandline options not compatible)
 # pip3 install git+https://github.com/yaqwsx/KiKit@master
+# pip3 show kikit
+# Version: 0.99-pre1.0-33.g2e56d48
 
 .PHONY: all clean
 
@@ -20,61 +16,25 @@ GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
 RAR = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber.rar))
 KIKIT = ~/.local/bin/kikit
 
-# help panelizer locate board
-# this design has a single board
-# so area is oversized to include everything
-X_ORIGIN=83
-Y_ORIGIN=54
-X_SIZE=115
-Y_SIZE=70
-
 all: $(GERBERS) $(RAR)
 
+# extract the board for panelization
 $(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
-	$(KIKIT) panelize extractboard \
-		--sourcearea $(X_ORIGIN) $(Y_ORIGIN) $(X_SIZE) $(Y_SIZE) \
+	$(KIKIT) panelize \
 		$< $@
 
-# this is almost as what we need but
-# space should be cut more by radius to the left and right
-# currently cuts will leave "dents" at the edges.
-# workaround now is to have radius 0 instead of 2 mm
+# panelization
+# we would like straight mill lines but
+# current workaround is experimentally determined hwidth
+# which makes small "bends" at the ends of mill lines
 $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
-	$(KIKIT) panelize grid      \
-		--gridsize  4 2     \
-		--space     9       \
-		--radius    0       \
-		--vtabs     0       \
-		--tabwidth  0       \
-		--vcuts             \
-		--railsLr   5       \
-		--railsTb   8       \
-		--fiducials 5 5 1 2 \
-		--tolerance 20      \
-		--copperfill        \
+	$(KIKIT) panelize      \
+		--layout 'grid; rows: 4; cols: 2; space: 9mm;' \
+		--tabs 'fixed; hwidth: 50.3mm; vcount: 0;' \
+		--post 'millradius: 1mm;' \
+		--cuts vcuts \
+		--framing 'tightframe; width: 5mm; space: 3mm;' \
 		$< $@
-
-# adding this will enlarge horizontal cuts
-# but will also remove them from upper and
-# lower parts of the panel so boards can't
-# separate from the panel
-#		--htabs     1       \
-#		--tabheight 50      \
-
-# this makes too much cuts and tabs
-#		--space     8       \
-#		--gridsize  4 2     \
-#		--htabs     0       \
-#		--tabheight 44      \
-#		--vtabs     0       \
-#		--tabwidth  24      \
-#		--radius    2       \
-#		--vcuts             \
-#		--railsLr   5       \
-#		--railsTb   8       \
-#		--copperfill        \
-#		--tolerance 20      \
-#		--fiducials 5 5 1 2 \
 
 %-gerber: %.kicad_pcb
 	$(KIKIT) export gerber $< $@
