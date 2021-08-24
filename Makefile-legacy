@@ -7,9 +7,6 @@
 # pip3 show kikit
 # Version: 0.7
 
-# unstable version (commandline options not compatible)
-# pip3 install git+https://github.com/yaqwsx/KiKit@master
-
 .PHONY: all clean
 
 BOARDS = ulx3s
