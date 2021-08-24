@@ -11,6 +11,9 @@
 BOARDS = ulx3s
 DESTINATION = plot/panel
 
+# writing on the panel
+TITLE = ULX3S
+
 BOARDSFILES = $(addprefix $(DESTINATION)/, $(BOARDS:=.kicad_pcb))
 GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
 RAR = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber.rar))
@@ -24,16 +27,15 @@ $(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
 		$< $@
 
 # panelization
-# we would like straight mill lines but
-# current workaround is experimentally determined hwidth
-# which makes small "bends" at the ends of mill lines
+# hwidth is board height minus 0.01 mm (50.8-0.01=50.79)
 $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize      \
 		--layout 'grid; rows: 4; cols: 2; space: 9mm;' \
-		--tabs 'fixed; hwidth: 50.3mm; vcount: 0;' \
+		--tabs 'fixed; hwidth: 50.79mm; vcount: 0;' \
 		--post 'millradius: 1mm;' \
 		--cuts vcuts \
 		--framing 'tightframe; width: 5mm; space: 3mm;' \
+		--text 'simple; text: $(TITLE); anchor: mt; voffset: 2.5mm; hjustify: center; vjustify: center;' \
 		$< $@
 
 %-gerber: %.kicad_pcb
