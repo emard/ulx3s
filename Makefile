@@ -55,6 +55,7 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 # vspace = (470 - (4*50.80+3*9+2*5))/2 = 114.9
 $(DESTINATION)/ulx3s-stencil.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize \
+		--source    'tolerance: 20mm;'                    \
 		--layout    'grid; rows: 4; cols: 2; space: 9mm;' \
 		--framing   'tightframe; width: 5mm; hspace: 80.52mm; vspace: 114.9mm;' \
 		--tabs      'full;'                               \
