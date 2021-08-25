@@ -33,6 +33,8 @@ $(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
 
 # panelization run
 # fiducials voffset experimentally placed at the middle of tabs
+# hwidth is 0.01mm less than board y-size 50.8-0.01 = 50.79 mm
+# millradius must be 1mm, if larger, mill cut will disappear.
 $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize \
 		--source    'tolerance: 20mm;'                    \
