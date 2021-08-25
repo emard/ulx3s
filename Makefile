@@ -11,10 +11,9 @@
 BOARDS = ulx3s
 DESTINATION = plot/panel
 
-
 BOARDSFILES = $(addprefix $(DESTINATION)/, $(BOARDS:=.kicad_pcb))
 GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
-# stencil bug workaround:
+# stencil bug workaround (if mill lines cut stencil):
 # GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber)) $(addprefix $(DESTINATION)/, $(BOARDS:=-stencil-gerber))
 RAR = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber.rar))
 KIKIT = ~/.local/bin/kikit
@@ -29,13 +28,14 @@ all: $(GERBERS) $(RAR)
 # extract the board for panelization
 $(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
 	$(KIKIT) panelize \
+		--source    'tolerance: 20mm;'                    \
 		$< $@
 
 # panelization run
 # fiducials voffset experimentally placed at the middle of tabs
-# BUG: mill lines also cut stencil while they shouldn't
 $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize \
+		--source    'tolerance: 20mm;'                    \
 		--layout    'grid; rows: 4; cols: 2; space: 9mm;' \
 		--framing   'tightframe; width: 5mm; space: 3mm;' \
 		--tabs      'fixed; hwidth: 50.79mm; vcount: 0;'  \
@@ -64,7 +64,7 @@ $(DESTINATION)/ulx3s-stencil.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) export gerber $< $@
 
 %-gerber.rar: %-gerber
-        # copy files generated for stencil bug workaround
+        # copy stencil bug workaround files if mill lines cut stencil
 	#cp $(DESTINATION)/ulx3s-stencil-gerber/ulx3s-stencil-PasteTop.gbr    $(DESTINATION)/ulx3s-panel-gerber/ulx3s-panel-PasteTop.gbr
 	#cp $(DESTINATION)/ulx3s-stencil-gerber/ulx3s-stencil-PasteBottom.gbr $(DESTINATION)/ulx3s-panel-gerber/ulx3s-panel-PasteBottom.gbr
 	rar a $@ $<
