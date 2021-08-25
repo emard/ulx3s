@@ -21,7 +21,8 @@ KIKIT = ~/.local/bin/kikit
 
 # writing on the panel
 KIKIT_VERSION = $(shell $(KIKIT) --version)
-TITLE = ULX3S panelized by $(KIKIT_VERSION)
+PANELIZATION_DATE = $(shell date +%F)
+TITLE = ULX3S panelized $(PANELIZATION_DATE) with $(KIKIT_VERSION)
 
 all: $(GERBERS) $(RAR)
 
