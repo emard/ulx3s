@@ -12,7 +12,8 @@ BOARDS = ulx3s
 DESTINATION = plot/panel
 
 # writing on the panel
-TITLE = ULX3S panelized by kikit 0.99-pre1.0-33.g2e56d48
+KIKIT_VERSION = $(shell pip3 show kikit | grep Version | cut -d ":" -f 2)
+TITLE = ULX3S panelized by kikit$(KIKIT_VERSION)
 
 BOARDSFILES = $(addprefix $(DESTINATION)/, $(BOARDS:=.kicad_pcb))
 # GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
@@ -38,7 +39,7 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 		--post 'millradius: 1mm; copperfill: true' \
 		--cuts vcuts \
 		--framing 'tightframe; width: 5mm; space: 3mm;' \
-		--text 'simple; text: $(TITLE); anchor: mt; voffset: 2.5mm; hjustify: center; vjustify: center;' \
+		--text 'simple; text: $(TITLE); anchor: mt; voffset: 3mm; hjustify: center; vjustify: center;' \
 		$< $@
 
 # BUG workaround for stencil:
@@ -53,7 +54,7 @@ $(DESTINATION)/ulx3s-stencil.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 		--post 'millradius: 2mm; copperfill: true' \
 		--cuts vcuts \
 		--framing 'tightframe; width: 5mm; space: 3mm;' \
-		--text 'simple; text: $(TITLE); anchor: mt; voffset: 2.5mm; hjustify: center; vjustify: center;' \
+		--text 'simple; text: $(TITLE); anchor: mt; voffset: 3mm; hjustify: center; vjustify: center;' \
 		$< $@
 
 %-gerber: %.kicad_pcb
