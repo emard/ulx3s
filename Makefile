@@ -4,7 +4,7 @@
 # pip3 uninstall kikit
 # pip3 install git+https://github.com/yaqwsx/KiKit@master
 # pip3 show kikit
-# Version: 0.99-pre1.0-33.g2e56d48
+# Version: 0.99-pre1.0+35.g4fe4b78
 
 .PHONY: all clean
 
@@ -13,9 +13,9 @@ DESTINATION = plot/panel
 
 
 BOARDSFILES = $(addprefix $(DESTINATION)/, $(BOARDS:=.kicad_pcb))
-# GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
+GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
 # stencil bug workaround:
-GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber)) $(addprefix $(DESTINATION)/, $(BOARDS:=-stencil-gerber))
+# GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber)) $(addprefix $(DESTINATION)/, $(BOARDS:=-stencil-gerber))
 RAR = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber.rar))
 KIKIT = ~/.local/bin/kikit
 
@@ -45,18 +45,17 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 		$< $@
 
 # BUG workaround for stencil:
-# stencil would be cut by mill lines while it shouldn't.
+# if stencil is cut by mill lines while it shouldn't.
 # To avoid stencil cuts,
 # run panelization again with full tabs
 # mill cuts from tabs will disappear, making clean stencil files
-# calculate frame edges width/height to generate standard framed stencil 370x470 mm
-# width  = 370 - ( 2*94.98+1*9+2*3 ) = 165.04
-# height = 470 - ( 4*50.80+3*9+2*3 ) = 233.80
-# but currently I don't know how to set different width/height at the frame
+# calculate frame hspace/vspace to fit standard framed stencil 370x470 mm
+# hspace = (370 - (2*94.98+1*9+2*5))/2 =  80.52
+# vspace = (470 - (4*50.80+3*9+2*5))/2 = 114.9
 $(DESTINATION)/ulx3s-stencil.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize \
 		--layout    'grid; rows: 4; cols: 2; space: 9mm;' \
-		--framing   'tightframe; width: 5mm; space: 3mm;' \
+		--framing   'tightframe; width: 5mm; hspace: 80.52mm; vspace: 114.9mm;' \
 		--tabs      'full;'                               \
 		$< $@
 
@@ -65,8 +64,8 @@ $(DESTINATION)/ulx3s-stencil.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 
 %-gerber.rar: %-gerber
         # copy files generated for stencil bug workaround
-	cp $(DESTINATION)/ulx3s-stencil-gerber/ulx3s-stencil-PasteTop.gbr    $(DESTINATION)/ulx3s-panel-gerber/ulx3s-panel-PasteTop.gbr
-	cp $(DESTINATION)/ulx3s-stencil-gerber/ulx3s-stencil-PasteBottom.gbr $(DESTINATION)/ulx3s-panel-gerber/ulx3s-panel-PasteBottom.gbr
+	#cp $(DESTINATION)/ulx3s-stencil-gerber/ulx3s-stencil-PasteTop.gbr    $(DESTINATION)/ulx3s-panel-gerber/ulx3s-panel-PasteTop.gbr
+	#cp $(DESTINATION)/ulx3s-stencil-gerber/ulx3s-stencil-PasteBottom.gbr $(DESTINATION)/ulx3s-panel-gerber/ulx3s-panel-PasteBottom.gbr
 	rar a $@ $<
 
 $(DESTINATION):
