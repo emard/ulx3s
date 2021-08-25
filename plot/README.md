@@ -121,9 +121,9 @@ Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
     Stencil             : Yes (Order together with PCB)
     -------------------
     Framework           : No [Yes]
-    Dimensions [mm]     : 470*370 (valid area 290*190)
+    Dimensions [mm]     :[470*370 (valid area 290*190)]
                           400*300 (valid area 240*140)
-                         [520*420 (valid area 340*240)]
+                          520*420 (valid area 340*240)
     Customized size     : [No] Yes
     Stencil Side        : Top+Bottom (On Single Stencil)
                           Top
