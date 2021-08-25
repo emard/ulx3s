@@ -11,9 +11,6 @@
 BOARDS = ulx3s
 DESTINATION = plot/panel
 
-# writing on the panel
-KIKIT_VERSION = $(shell pip3 show kikit | grep Version | cut -d ":" -f 2)
-TITLE = ULX3S panelized by kikit$(KIKIT_VERSION)
 
 BOARDSFILES = $(addprefix $(DESTINATION)/, $(BOARDS:=.kicad_pcb))
 # GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
@@ -22,6 +19,10 @@ GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber)) $(addprefix $(D
 RAR = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber.rar))
 KIKIT = ~/.local/bin/kikit
 
+# writing on the panel
+KIKIT_VERSION = $(shell $(KIKIT) --version)
+TITLE = ULX3S panelized by $(KIKIT_VERSION)
+
 all: $(GERBERS) $(RAR)
 
 # extract the board for panelization
@@ -29,32 +30,34 @@ $(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
 	$(KIKIT) panelize \
 		$< $@
 
-# panelization
-# hwidth is board height minus 0.01 mm (50.8-0.01=50.79)
+# panelization run
+# fiducials voffset experimentally placed at the middle of tabs
 # BUG: mill lines also cut stencil while they shouldn't
 $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize \
-		--layout 'grid; rows: 4; cols: 2; space: 9mm;' \
-		--tabs 'fixed; hwidth: 50.79mm; vcount: 0;' \
-		--post 'millradius: 1mm; copperfill: true' \
-		--cuts vcuts \
-		--framing 'tightframe; width: 5mm; space: 3mm;' \
-		--text 'simple; text: $(TITLE); anchor: mt; voffset: 3mm; hjustify: center; vjustify: center;' \
+		--layout    'grid; rows: 4; cols: 2; space: 9mm;' \
+		--framing   'tightframe; width: 5mm; space: 3mm;' \
+		--tabs      'fixed; hwidth: 50.79mm; vcount: 0;'  \
+		--cuts      'vcuts;'                              \
+		--post      'millradius: 1mm; copperfill: true;'  \
+		--fiducials '3fid; hoffset: 10mm; voffset: 63.34mm; coppersize: 2mm; opening: 2.5mm;' \
+		--text      'simple; text: $(TITLE); anchor: mt; voffset: 3mm; hjustify: center; vjustify: center;' \
 		$< $@
 
 # BUG workaround for stencil:
 # stencil would be cut by mill lines while it shouldn't.
 # To avoid stencil cuts,
-# run panelization again with too large millradius: 2mm
-# mill cuts will disappear, making clean stencil files
+# run panelization again with full tabs
+# mill cuts from tabs will disappear, making clean stencil files
+# calculate frame edges width/height to generate standard framed stencil 370x470 mm
+# width  = 370 - ( 2*94.98+1*9+2*3 ) = 165.04
+# height = 470 - ( 4*50.80+3*9+2*3 ) = 233.80
+# but currently I don't know how to set different width/height at the frame
 $(DESTINATION)/ulx3s-stencil.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize \
-		--layout 'grid; rows: 4; cols: 2; space: 9mm;' \
-		--tabs 'fixed; hwidth: 50.79mm; vcount: 0;' \
-		--post 'millradius: 2mm; copperfill: true' \
-		--cuts vcuts \
-		--framing 'tightframe; width: 5mm; space: 3mm;' \
-		--text 'simple; text: $(TITLE); anchor: mt; voffset: 3mm; hjustify: center; vjustify: center;' \
+		--layout    'grid; rows: 4; cols: 2; space: 9mm;' \
+		--framing   'tightframe; width: 5mm; space: 3mm;' \
+		--tabs      'full;'                               \
 		$< $@
 
 %-gerber: %.kicad_pcb
