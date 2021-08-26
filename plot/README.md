@@ -58,10 +58,13 @@ and the stencil. Gerbers should have a file describing
 depanelization cuts (vertical v-cuts and horizontal mill
 lines).
 
-Install [KiKit](https://github.com/yaqwsx/KiKit) (v0.7 used here) or upgrade
+Install [KiKit](https://github.com/yaqwsx/KiKit) or upgrade
 
-    pip3 install kikit
-    pip3 install --upgrade kikit
+    pip3 uninstall kikit
+    pip3 install git+https://github.com/yaqwsx/KiKit@master
+    pip3 install --upgrade git+https://github.com/yaqwsx/KiKit@master
+    pip3 show kikit
+    Version: 0.99-pre1.0+35.g4fe4b78
 
 Generate gerbers (needs "KiKit" installed)
 
