@@ -80,7 +80,9 @@ Count number of pads in gerbv:
     select visible either PasteTop or PasteBottom layer.
     (all other layers de-selected)
     Analyze->Analyze visible Gerber layers->D codes
-    D03 count (flash aperture) counts number of pads.
+    D03 count (flash aperture) is the number of pads.
+    PasteTop    : 4464 pads
+    PasteBottom : 1016 pads
 
 View panel design with pcbnew (try View->3D Viewer):
 
