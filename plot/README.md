@@ -124,9 +124,7 @@ Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
     Paper between PCBs  : No [Yes]
     Appearance Quality  : [IPC Class 2 Standard] Superb Quality
 
-    PCB Remark:         : 4 vertical V-CUTS, 16 horizontal MILL LINES of 2 mm width
-                          Use external edges from "EdgeCuts.gbr" layer
-                          Ignore internal edges from "EdgeCuts.gbr" layer
+    PCB Remark:         : 4 vertical V-CUTS, 16 horizontal MILL LINES of 3 mm width
 
     SMT Assembly        : No
 
