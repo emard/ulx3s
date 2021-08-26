@@ -99,7 +99,7 @@ Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
     -------------------
     Base Material       : [FR-4] Aluminium
     Layers              : 1  2 [4] 6
-    Dimensions [mm]     : 224 * 264
+    Dimensions [mm]     : 212 * 246
     PCB Qty             : 5 [10] 15  20
     Different Design    : [1] 2  3  4
     Delivery Format     : Single PCB [Panel by Customer] Panel by JLCPCB
@@ -151,4 +151,3 @@ For stencil, up to 1000 pads above 4000 they charge 4.3$,
 so they will ask for additional 9.6$ because
 stencil has 4464 pads on top and 1016 on bottom, 
 total 5480 pads.
-
