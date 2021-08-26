@@ -71,7 +71,7 @@ $(DESTINATION)/ulx3s-stencil.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
         # copy stencil bug workaround files if mill lines cut stencil
 	#cp $(DESTINATION)/ulx3s-stencil-gerber/ulx3s-stencil-PasteTop.gbr    $(DESTINATION)/ulx3s-panel-gerber/ulx3s-panel-PasteTop.gbr
 	#cp $(DESTINATION)/ulx3s-stencil-gerber/ulx3s-stencil-PasteBottom.gbr $(DESTINATION)/ulx3s-panel-gerber/ulx3s-panel-PasteBottom.gbr
-	rar a $@ $<
+	rar a -ep -ap$(BOARDS)-panel-gerber $@ $<
 
 $(DESTINATION):
 	mkdir -p $(DESTINATION)
