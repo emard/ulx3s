@@ -72,6 +72,13 @@ View panel gerbers with gerbv:
     cd plot
     gerbv (File->Open ulx3s-panel.gvp, F5 to refresh)
 
+Count number of pads in gerbv:
+
+    select visible either PasteTop or PasteBottom layer.
+    (all other layers de-selected)
+    Analyze->Analyze visible Gerber layers->D codes
+    D03 count (flash aperture) counts number of pads.
+
 View panel design with pcbnew (try View->3D Viewer):
 
     pcbnew plot/panel/ulx3s-panel.kicad_pcb
