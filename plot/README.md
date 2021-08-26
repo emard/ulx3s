@@ -147,3 +147,9 @@ Upload .rar file to [JLCPCB](http://jlcpcb.com) and select options:
                          [Etched Half into board]
 
     Sending options     : EuroPacket
+
+Check [JLCPCB extra costs](https://support.jlcpcb.com/article/62-what-cases-will-be-charged-of-extra-cost)
+For example our board has 4464 pads on top stencil, 1016 pads on bottom
+stencil and that is total 5480 pads which if charged 4.3$ per each 1000
+pads above 4000, makes them ask for 9.6$ additional cost for stencil only
+because of the number of pads.
