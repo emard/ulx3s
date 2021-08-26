@@ -3,6 +3,7 @@
 
 # pip3 uninstall kikit
 # pip3 install git+https://github.com/yaqwsx/KiKit@master
+# pip3 install --upgrade git+https://github.com/yaqwsx/KiKit@master
 # pip3 show kikit
 # Version: 0.99-pre1.0+35.g4fe4b78
 
