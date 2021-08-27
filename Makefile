@@ -40,7 +40,7 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize \
 		--source    'tolerance: 20mm;'                    \
 		--layout    'grid; rows: 4; cols: 2; space: 9mm;' \
-		--framing   'tightframe; width: 5mm; space: 3mm;' \
+		--framing   'tightframe; width: 6mm; space: 2mm;' \
 		--tabs      'fixed; hwidth: 50.79mm; vcount: 0;'  \
 		--cuts      'vcuts;'                              \
 		--post      'millradius: 1mm; copperfill: true;'  \
@@ -54,13 +54,13 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 # run panelization again with full tabs
 # mill cuts from tabs will disappear, making clean stencil files
 # calculate frame hspace/vspace to fit standard framed stencil 370x470 mm
-# hspace = (370 - (2*94.98+1*9+2*5))/2 =  80.52
-# vspace = (470 - (4*50.80+3*9+2*5))/2 = 114.9
+# hspace = (370 - (2*94.98+1*9+2*6))/2 =  79.52
+# vspace = (470 - (4*50.80+3*9+2*6))/2 = 113.9
 $(DESTINATION)/ulx3s-stencil.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	$(KIKIT) panelize \
 		--source    'tolerance: 20mm;'                    \
 		--layout    'grid; rows: 4; cols: 2; space: 9mm;' \
-		--framing   'tightframe; width: 5mm; hspace: 80.52mm; vspace: 114.9mm;' \
+		--framing   'tightframe; width: 6mm; hspace: 79.52mm; vspace: 113.9mm;' \
 		--tabs      'full;'                               \
 		$< $@
 
