@@ -44,7 +44,7 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 		--tabs      'fixed; hwidth: 50.79mm; vcount: 0;'  \
 		--cuts      'vcuts;'                              \
 		--post      'millradius: 1mm; copperfill: true;'  \
-		--fiducials '3fid; hoffset: 10mm; voffset: 63.34mm; coppersize: 2mm; opening: 2.5mm;' \
+		--fiducials '3fid; hoffset: 15mm; voffset: 3mm; coppersize: 2mm; opening: 2.5mm;' \
 		--text      'simple; text: $(TITLE); anchor: mt; voffset: 3mm; hjustify: center; vjustify: center;' \
 		$< $@
 
