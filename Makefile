@@ -26,17 +26,13 @@ TITLE = ULX3S panelized $(PANELIZATION_DATE) with $(KIKIT_VERSION)
 
 all: $(GERBERS) $(RAR)
 
-# extract the board for panelization
-$(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
-	$(KIKIT) panelize \
-		--source    'tolerance: 20mm;'                    \
-		$< $@
-
 # panelization run
 # fiducials voffset experimentally placed at the middle of tabs
 # hwidth is 0.01mm less than board y-size 50.8-0.01 = 50.79 mm
 # millradius must be 1mm, if larger, mill cut will disappear.
-$(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
+#$(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
+$(DESTINATION)/ulx3s-panel.kicad_pcb: ulx3s.kicad_pcb
+	mkdir -p $(DESTINATION)
 	$(KIKIT) panelize \
 		--source    'tolerance: 20mm;'                    \
 		--layout    'grid; rows: 4; cols: 2; space: 9mm;' \
@@ -45,6 +41,7 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 		--cuts      'vcuts;'                              \
 		--post      'millradius: 1mm; copperfill: true;'  \
 		--fiducials '3fid; hoffset: 15mm; voffset: 3mm; coppersize: 2mm; opening: 2.5mm;' \
+		--tooling   '4hole; hoffset: 3mm; voffset: 3mm; size: 3.2mm; paste: false;' \
 		--text      'simple; text: $(TITLE); anchor: mt; voffset: 3mm; hjustify: center; vjustify: center;' \
 		$< $@
 
@@ -57,6 +54,7 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 # hspace = (370 - (2*94.98+1*9+2*6))/2 =  79.52
 # vspace = (470 - (4*50.80+3*9+2*6))/2 = 113.9
 $(DESTINATION)/ulx3s-stencil.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
+	mkdir -p $(DESTINATION)
 	$(KIKIT) panelize \
 		--source    'tolerance: 20mm;'                    \
 		--layout    'grid; rows: 4; cols: 2; space: 9mm;' \
@@ -72,9 +70,6 @@ $(DESTINATION)/ulx3s-stencil.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	#cp $(DESTINATION)/ulx3s-stencil-gerber/ulx3s-stencil-PasteTop.gbr    $(DESTINATION)/ulx3s-panel-gerber/ulx3s-panel-PasteTop.gbr
 	#cp $(DESTINATION)/ulx3s-stencil-gerber/ulx3s-stencil-PasteBottom.gbr $(DESTINATION)/ulx3s-panel-gerber/ulx3s-panel-PasteBottom.gbr
 	rar a -ep -ap$(BOARDS)-panel-gerber $@ $<
-
-$(DESTINATION):
-	mkdir -p $(DESTINATION)
 
 view: $(DESTINATION)/ulx3s-panel.kicad_pcb
 	pcbnew $<
