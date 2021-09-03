@@ -72,6 +72,7 @@ $(DESTINATION)/ulx3s-stencil.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 	rar a -ep -ap$(BOARDS)-panel-gerber $@ $<
 
 view: $(DESTINATION)/ulx3s-panel.kicad_pcb
+	ln -sf ../../footprints $(DESTINATION)/footprints
 	pcbnew $<
 
 clean:
