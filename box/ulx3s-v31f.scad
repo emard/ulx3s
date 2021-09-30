@@ -18,7 +18,7 @@ include <upbox.scad>
   FlatCable     = 1;
 
 // Front text
-  Text          = 1;// [0:No, 1:Yes]
+  Text          = 2;// [0:No, 1:Extrude, 2:Cut]
 
 // display_type:
 // 0:none
@@ -449,12 +449,12 @@ translate ([-m/2,0,0]){
 if(FPanel==1)
 {
   //Front Panel
-  rotate([0,0,180])
-    translate([-Length-m/2,-Width,0])
-       Panels();
 
   if(Text==1)
-   // Front text
+  {
+    rotate([0,0,180])
+      translate([-Length-m/2,-Width,0])
+         Panels();
    color(Couleur1)
    {
      translate([
@@ -469,6 +469,30 @@ if(FPanel==1)
                  }
      }
    }
+  }
+
+  if(Text==2)
+  {
+    difference()
+    {
+      rotate([0,0,180])
+        translate([-Length-m/2,-Width,0])
+           Panels();
+      // cut letters
+      translate([
+        Length-(Thick*2)-m/2-0.1,
+        Width/2,
+        Height/2])
+      {// x,y,z
+        rotate([90,0,90]){
+              linear_extrude(height = Thick+0.2){
+              text(txt, font = Police, size = TxtSize,  valign ="center", halign ="center");
+              }
+          }
+      }
+    }
+  }
+
 }
 
 if(BShell==1)
