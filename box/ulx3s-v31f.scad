@@ -8,7 +8,7 @@ include <upbox.scad>
 // Front panel ULX3S text
   FPanel        = 1; // [0:No, 1:Yes]
 // Rear panel DB9 opening
-  BPanel        = 1; // [0:No, 1:Yes]
+  BPanel        = 2; // [0:No, 1:DB-9 2:40-pin]
 // Font color: at height 2.7: M600; change filament
 // button pins
   Pins          = 1; // button pins
@@ -399,7 +399,7 @@ module flatcable_cut()
 
 
 if(BPanel==1)
-//Back Panel
+//Back Panel DB-9
 translate ([-m/2,0,0]){
   difference()
   {
@@ -426,6 +426,25 @@ translate ([-m/2,0,0]){
 
   }
 }
+
+if(BPanel==2)
+//Back Panel 40-pin
+translate ([-m/2,0,0]){
+  difference()
+  {
+    union()
+    {
+      Panels();
+    }
+    if(1)
+    {
+       // cut off opening for 40-pin female connector
+       translate([Thick*1.5+m,Width/2+1.5,Height/2-1])
+         cube([Thick*2,53,6],center=true);
+    }
+  }
+}
+
 
 if(FPanel==1)
 {
