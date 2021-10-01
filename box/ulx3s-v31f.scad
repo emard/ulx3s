@@ -28,7 +28,7 @@ include <upbox.scad>
 // 4:SSD1351 128x128 1.54"
 // 5:SSD1306 128x64  0.96"
 display_type = 1;
-display_center = 0; // Y center adjust +up -down
+display_center = [1,0,0]; // XYZ center adjust X +right - left, (v3.1.7 X=1) Y +up -down, Z 0
 display_rotation = 0; // display z-rotation  adjust deg +cw -ccw
 
 // multicolor front panel
@@ -296,23 +296,23 @@ module top_cut()
       xadj=-1.0;
       yadj=1.0;
       if(display_type==1) // ST7789 1.3"
-      translate([PCBLength/2-0.2+xadj,PCBWidth/2+2+yadj+display_center,0])
+      translate([PCBLength/2-0.2+xadj,PCBWidth/2+2+yadj,0]+display_center)
         rotate([0,0,-display_rotation])
           cube([26,26,10],center=true);
       if(display_type==2) // ST7789 1.54"
-      translate([PCBLength/2-2.5+xadj,PCBWidth/2+4.5+yadj+display_center,0])
+      translate([PCBLength/2-2.5+xadj,PCBWidth/2+4.5+yadj,0]+display_center)
         rotate([0,0,-display_rotation])
           cube([30,30,10],center=true);
       if(display_type==3) // SSD1331 0.96"
-      translate([PCBLength/2-1+xadj,PCBWidth/2-2+yadj+display_center,0])
+      translate([PCBLength/2-1+xadj,PCBWidth/2-2+yadj,0]+display_center)
         rotate([0,0,-display_rotation])
           cube([23,16,10],center=true);
       if(display_type==4) // SSD1351 1.5"
-      translate([PCBLength/2-1.2+xadj,PCBWidth/2+3+yadj+display_center,0])
+      translate([PCBLength/2-1.2+xadj,PCBWidth/2+3+yadj,0]+display_center)
         rotate([0,0,-display_rotation])
           cube([30,30,10],center=true);
       if(display_type==5) // SSD1306 0.96"
-      translate([PCBLength/2-1+xadj,PCBWidth/2-4+yadj+display_center,0])
+      translate([PCBLength/2-1+xadj,PCBWidth/2-4+yadj,0]+display_center)
         rotate([0,0,-display_rotation])
           cube([23,12,10],center=true);
       // display socket
