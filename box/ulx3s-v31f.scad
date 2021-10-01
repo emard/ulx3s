@@ -119,9 +119,9 @@ Thick           = 2;//[2:5]
 // - Font  
   Police        ="Arial Black"; 
 // - Diamètre Coin arrondi - Filet diameter  
-  Filet         = 2;//[0.1:12] 
+  Filet         = 3; //[0.1:12] 
 // - lissage de l'arrondi - Filet smoothness  
-  Resolution    = 20;//[1:100] 
+  Resolution    = 32; //[1:100] 
 // - Tolérance - Tolerance (Panel/rails gap)
   m             = 0.9;
   mz            = 1.0; // panels height tolerance
