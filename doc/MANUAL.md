@@ -1022,18 +1022,18 @@ soldered.
     v1.7      PCBWay         8          dec 2017     v17patch        prototype
     v1.7      lemilica.com   1          jan 2018     v17patch        handwork
     v1.8      PCBWay         10         may 2018     v18             prototype
-    v2.0.3    q3k            1          aug 2018     v20             handwork   MT48LC16M16A2TG       IS25LP128F-JBLE
-    v2.1.2    INEM-KONČAR    35         sep 2018     v20             prototype  MT48LC16M16A2TG       IS25LP128F-JBLE
-    v3.0.3    INEM-KONČAR    220        oct 2018     v20             for sale   MT48LC16M16A2TG       IS25LP032D-JNLE-TR
-    v2.0.5    Marvin         1          nov 2018     v20             handwork   MT48LC16M16A2TG       S25FL064L-ABMF
-    v2.0.5    Markus         1          dec 2018     v20             handwork   MT48LC16M16A2TG       S25FL064L-ABMF
-    v3.0.3    INEM-KONČAR    35         jan 2019     v20             for sale   MT48LC16M16A2TG       IS25LP128F-JBLE
-    v2.0.5    Zvone          2          mar 2019     v20             handwork   MT48LC16M16A2TG       S25FL064L-ABMF
+    v2.0.3    q3k            1          aug 2018     v20             handwork   MT48LC16M16A2TG-6A    IS25LP128F-JBLE
+    v2.1.2    INEM-KONČAR    35         sep 2018     v20             prototype  MT48LC16M16A2TG-6A    IS25LP128F-JBLE
+    v3.0.3    INEM-KONČAR    220        oct 2018     v20             for sale   MT48LC16M16A2TG-6A    IS25LP032D-JNLE-TR
+    v2.0.5    Marvin         1          nov 2018     v20             handwork   MT48LC16M16A2TG-6A    S25FL064L-ABMF
+    v2.0.5    Markus         1          dec 2018     v20             handwork   MT48LC16M16A2TG-6A    S25FL064L-ABMF
+    v3.0.3    INEM-KONČAR    35         jan 2019     v20             for sale   MT48LC16M16A2TG-6A    IS25LP128F-JBLE
+    v2.0.5    Zvone          2          mar 2019     v20             handwork   MT48LC16M16A2TG-6A    S25FL064L-ABMF
     v3.0.6    Sam Littlewood 2          mar 2019     v20             handwork
     v3.0.7    Kalle          1          jul 2019     v20             handwork
     v3.0.7    Watterott      8          aug 2019     v20             for sale   AS4C32M16SB-7TCN      W25Q128JVSIQ
     v3.0.3    Anil Gurses    1          aug 2019     v20             handwork
-    v3.0.8    SierraCircuits 1          oct 2019     v20             prototype
+    v3.0.8    Fork Sand      5          oct 2019     v20             prototype  MT48LC16M16A2TG-6A    IS25LP128F-JBLE
     v3.0.8    Lolsborn       1          oct 2019     v20             handwork
     v3.0.3    INEM-KONČAR    220        oct 2019     v20             for sale   M12L2561616A-6TG2T    W25Q128JVSIQ
     v3.0.7    Watterott      88         nov 2019     v20             for sale   AS4C32M16SB-7TCN      W25Q128JVSIQ
