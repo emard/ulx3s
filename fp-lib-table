@@ -31,4 +31,5 @@
   (lib (name ft231x)(type KiCad)(uri "$(KIPRJMOD)/footprints/usbserial/ft231x.pretty")(options "")(descr ""))
   (lib (name dipswitch)(type KiCad)(uri "$(KIPRJMOD)/footprints/dipswitch/dipswitch_smd.pretty")(options "")(descr ""))
   (lib (name max1112x-tqfn28)(type KiCad)(uri ${KIPRJMOD}/footprints/adc/max1112x-tqfn28.pretty)(options "")(descr ""))
+  (lib (name dm)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/dm.pretty")(options "")(descr ""))
 )
