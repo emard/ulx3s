@@ -208,8 +208,8 @@ Unzip it anywhere and set shell command search path:
 
 # Precompiled linux opensource tools (KOST)
 
-Almost everything you need for linux, including
-Verilog and VHDL compilers, USB programmers,
+Not so often updated but almost all you need for
+linux, including Verilog and VHDL compilers, USB programmers,
 everything except diamond is in
 [KOST's ULX3S git releases](https://github.com/alpin3/ulx3s/releases).
 Installation is simple:
