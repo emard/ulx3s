@@ -184,6 +184,27 @@ but reconfigure USB chip to turn D18 OFF:
 
     ftx_prog --cbus 3 DRIVE_0
 
+# Precompiled opensource tools for all platforms
+
+This is daily-fresh binary build of
+[OSS ECP5 opensource tools for all platforms](https://github.com/YosysHQ/oss-cad-suite-build/releases/).
+This archive has ECP5 compilers, fujprog and openFPGALoader.
+
+This was nightly-fresh binary build of
+[OrangeCrab ECP5 opensource tools for all platforms](https://github.com/open-tool-forge/fpga-toolchain/releases).
+but it's not refreshed recently.
+This archive has ECP5 compilers and openFPGALoader.
+It works for ULX3S but is actually made for
+[OrangeCrab](https://gregdavill.github.io/OrangeCrab/r0.2/),
+interesting miniature ECP5 board, a must-have item.
+
+Unzip it anywhere and set shell command search path:
+
+    Linux              : export PATH=[path-to-bin]:$PATH
+    MacOS              : export PATH=[path-to-bin]:$PATH
+    Windows Powershell : $ENV:PATH = "[path-to-bin];" + $ENV:PATH
+    Windows cmd.exe    : PATH=[path-to-bin];%PATH%
+
 # Precompiled linux opensource tools (KOST)
 
 Almost everything you need for linux, including
@@ -199,23 +220,6 @@ System's "openocd" should be removed if it was
 installed before:
 
     apt-get remove --purge openocd
-
-# Precompiled opensource tools for all platforms
-
-Here is nightly-fresh binary build of
-[ECP5 opensource tools for all platforms](https://github.com/open-tool-forge/fpga-toolchain/releases).
-This archive has ECP5 compilers and openFPGALoader
-which can be used for ULX3S.
-It is made for
-[OrangeCrab](https://gregdavill.github.io/OrangeCrab/r0.2/),
-interesting miniature ECP5 board, a must-have item.
-
-Unzip it anywhere and set shell command search path:
-
-    Linux              : export PATH=[path-to-bin]:$PATH
-    MacOS              : export PATH=[path-to-bin]:$PATH
-    Windows Powershell : $ENV:PATH = "[path-to-bin];" + $ENV:PATH
-    Windows cmd.exe    : PATH=[path-to-bin];%PATH%
 
 # Programming options
 
