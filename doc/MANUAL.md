@@ -186,15 +186,15 @@ but reconfigure USB chip to turn D18 OFF:
 
 # Precompiled opensource tools for all platforms
 
-This is daily-fresh binary build of
-[OSS ECP5 opensource tools for all platforms](https://github.com/YosysHQ/oss-cad-suite-build/releases/).
-This archive has ECP5 compilers, fujprog and openFPGALoader.
+Here is daily-fresh binary build of
+[OSS ECP5 opensource tools for all platforms](https://github.com/YosysHQ/oss-cad-suite-build/releases/)
+with ECP5 compilers, fujprog and openFPGALoader.
 
-This was nightly-fresh binary build of
+Here was nightly-fresh binary build of
 [OrangeCrab ECP5 opensource tools for all platforms](https://github.com/open-tool-forge/fpga-toolchain/releases).
 Last known successful build for linux and apple
-was [2021-10-06](https://github.com/YosysHQ/fpga-toolchain/releases/tag/nightly-20211006).
-This archive has ECP5 compilers and openFPGALoader.
+was [2021-10-06](https://github.com/YosysHQ/fpga-toolchain/releases/tag/nightly-20211006)
+with ECP5 compilers and openFPGALoader.
 It works for ULX3S but is actually made for
 [OrangeCrab](https://gregdavill.github.io/OrangeCrab/r0.2/),
 interesting miniature ECP5 board, a must-have item.
