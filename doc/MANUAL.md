@@ -1006,8 +1006,6 @@ other end of 15k resistor to 3.3V at other end of R33.
 
 v3.1.7
 
-Not yet produced.
-
 Adds R56 resistor which should make ESP32 boot standalone,
 without help of FPGA bitstream.
 
