@@ -37,7 +37,7 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: ulx3s.kicad_pcb
 		--source    'tolerance: 20mm;'                    \
 		--layout    'grid; rows: 4; cols: 2; space: 9mm;' \
 		--framing   'tightframe; width: 6mm; space: 2mm;' \
-		--tabs      'fixed; hwidth: 50.79mm; vcount: 0;'  \
+		--tabs      'fixed; hwidth: 50.77mm; vcount: 0;'  \
 		--cuts      'vcuts;'                              \
 		--post      'millradius: 1mm; copperfill: true;'  \
 		--fiducials '3fid; hoffset: 15mm; voffset: 3mm; coppersize: 2mm; opening: 2.5mm;' \
