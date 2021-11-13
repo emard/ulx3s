@@ -33,4 +33,5 @@
   (lib (name max1112x-tqfn28)(type KiCad)(uri ${KIPRJMOD}/footprints/adc/max1112x-tqfn28.pretty)(options "")(descr ""))
   (lib (name dm)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/dm.pretty")(options "")(descr ""))
   (lib (name oshw)(type KiCad)(uri "$(KIPRJMOD)/footprints/logo/oshw.pretty")(options "")(descr ""))
+  (lib (name abs07)(type KiCad)(uri "$(KIPRJMOD)/footprints/crystal/abs07.pretty")(options "")(descr ""))
 )
