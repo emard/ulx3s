@@ -156,7 +156,6 @@ module top_cut()
   }
 }
 
-/*
 module button_pin()
 {
   pin_d1=6; // top dia
@@ -171,6 +170,7 @@ module button_pin()
       }
 }
 
+/*
 module button_pins()
 {
   translate([Footx,Footy,Height-12])
@@ -294,4 +294,5 @@ if(1)
 {
   boxcut(side=1); // top
   boxcut(side=-1); // bottom
+  //button_pin();
 }
