@@ -1,5 +1,5 @@
-### Module positions - created on Sun May 23 23:57:02 2021 ###
-### Printed by Pcbnew version kicad 5.1.9+dfsg1-1
+### Module positions - created on ponedjeljak, 15. studenoga 2021. 23:22:45 CET ###
+### Printed by Pcbnew version kicad 5.99.0+really5.1.12+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val              Package                                           PosX       PosY       Rot  Side
@@ -65,10 +65,10 @@ C70       22nF             C_0603_1608Metric                              49.580
 C71       22nF             C_0603_1608Metric                              51.0800    14.2200   90.0000  bottom
 C72       22nF             C_0603_1608Metric                              52.5800    14.2200  270.0000  bottom
 D8        STPS2L40AF       D_SMA                                          17.8800    47.0200    0.0000  bottom
-D10       1N914            D_SOD-323_HandSoldering                        76.2000    27.9400    0.0000  bottom
+D10       1N914            D_SOD-323_HandSoldering                        76.2000    28.1610    0.0000  bottom
 D11       RED              LED_0805_2012Metric                            85.0900    32.3850   90.0000  bottom
 D12       BAT54W           D_SOD-323_HandSoldering                        74.9300    32.3850   90.0000  bottom
-D13       1N914            D_SOD-323_HandSoldering                        76.2000    26.4160  180.0000  bottom
+D13       1N914            D_SOD-323_HandSoldering                        76.2000    26.3830  180.0000  bottom
 D14       1N914            D_SOD-323_HandSoldering                        85.0900    36.1950   90.0000  bottom
 D15       BAT54W           D_SOD-323_HandSoldering                        83.1850    36.1950  270.0000  bottom
 D16       1N914            D_SOD-323_HandSoldering                        80.1370    38.7170    0.0000  bottom
@@ -79,7 +79,7 @@ D23       1N914            D_SOD-323_HandSoldering                        69.850
 D24       1N914            D_SOD-323_HandSoldering                        69.8500    46.8630  180.0000  bottom
 D25       1N914            D_SOD-323_HandSoldering                        83.1850    40.8760   90.0000  bottom
 D26       1N914            D_SOD-323_HandSoldering                        85.0900    40.8760  270.0000  bottom
-D27       1N914            D_SOD-323_HandSoldering                        80.1520    40.1140  180.0000  bottom
+D27       1N914            D_SOD-323_HandSoldering                        80.1520    40.4800  180.0000  bottom
 D29       1N914            D_SOD-323_HandSoldering                        61.2710    26.2560    0.0000  bottom
 D30       3.6V             D_SOD-323_HandSoldering                        58.8300    39.6200   90.0000  bottom
 L1        2.2uH            L_1008_1210                                    64.7700    24.1300  180.0000  bottom
@@ -157,5 +157,5 @@ U7        MCP7940NT        SOT96-1                                        79.390
 U9        ESP32            ESP32                                          23.2000     9.5000  180.0000  bottom
 U10       IS25LP128F-JBLE  SOA008-150-208mil                              24.2450    32.9980  270.0000  bottom
 U11       PCA9306D         SM8                                            50.5800    46.4185   90.0000  bottom
-Y2        32768Hz          Crystal_SMD_ABS25                              81.6760    12.2980  180.0000  bottom
+Y2        32768Hz          Crystal_SMD_ABS07                              84.4685    12.2980   90.0000  bottom
 ## End
