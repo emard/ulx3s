@@ -18,7 +18,7 @@ include <upbox.scad>
   FlatCable     = 1;
 
 // Front text
-  Text          = 2;// [0:No, 1:Extrude, 2:Cut]
+  Text          = 1;// [0:No, 1:Extrude, 2:Cut]
 
 // display_type:
 // 0:none
