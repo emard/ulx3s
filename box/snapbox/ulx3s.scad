@@ -290,6 +290,8 @@ difference()
 %pcb_with_parts();
 
 // 3D print
+// enable one, render (press F6), export as .stl
+// slice .stl to .gcode and print
 if(1)
 {
   boxcut(side=1); // top
