@@ -892,8 +892,8 @@ box enclosure (recommended is [snapbox](/box/snapbox))
 and display holders. Models are parametric and 3D printable,
 written in [OpenSCAD](https://openscad.org/).
 Enable one part (up/bottom/pin), render (press F6),
-export as .stl file, slice one or mor .stl files to .gcode
-and print.
+export as .stl file, slice one or more .stl files to
+.gcode and print.
 
 # Board differences
 
