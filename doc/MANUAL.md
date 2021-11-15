@@ -885,6 +885,16 @@ AN108 8-bit AD/DA 32 MSa/s IN, 125 Msa/s OUT
 AN926 12-bit 2-ch AD 50 MSa/s IN
 ![AN926 12-bit 2-ch 50 MSA/s](/pic/an926.png)
 
+# Plastic Box
+
+In the [box](/box) directory is 3D model for the
+box enclosure (recommended is [snapbox](/box/snapbox))
+and display holders. Models are parametric and 3D printable,
+written in [OpenSCAD](https://openscad.org/).
+Enable one part (up/bottom/pin), render (press F6),
+export as .stl file, slice one or mor .stl files to .gcode
+and print.
+
 # Board differences
 
 v1.7 prototype
