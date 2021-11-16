@@ -40,7 +40,7 @@
 // 4:SSD1351 128x128 1.54"
 // 5:SSD1306 128x64  0.96"
 display_type = 1;
-display_center = [1,0,0]; // XYZ center adjust X +right - left, (v3.1.7 [1,0,0]) Y +up -down, Z 0
+display_center = [1,0,0]; // XYZ center adjust X +right - left, Y +up -down, Z 0
 // display_center = [1,0,0]; // v3.1.7
 // display_center = [0,0,0]; // v3,0.8
 // display_center = [0,-0.5,0]; // v3.0.8
