@@ -1,6 +1,37 @@
 // Snap-on Screwless Box
 // Top and Bottom half snap and lock when pushed together
 
+// Prusa-Slicer: most settings PET-G default
+
+// Print settings -> Layers and settings
+// First layer height: 0.3 mm
+// External perimeters first: [x]
+
+// Print settings -> Skirt and brim
+// Skirt height: 0 layers
+
+// Print settings -> Advanced
+// Extrusion width
+// first layer: 0
+// Overlap
+// Infill/perimeters overlap: 2%
+// Slicing
+// Elephant foot compensation: 0
+
+// Filament settings -> Filament
+// Temperature
+// Nozzle First layer: 245'C, Other layers: 240'C
+// Bed    First layer:  90'C, Other layers:  80'C
+
+// Filament settings -> Advanced
+// Filament properties
+// Filament type: PET
+
+// Printer settings -> Extruder1
+// Retraction
+// Length: 2.5 mm
+// Lift Z: 0.1 mm
+
 // display_type:
 // 0:none
 // 1:ST7789  240x240 1.3"
@@ -9,7 +40,10 @@
 // 4:SSD1351 128x128 1.54"
 // 5:SSD1306 128x64  0.96"
 display_type = 1;
-display_center = [1,0,0]; // XYZ center adjust X +right - left, (v3.1.7 X=1) Y +up -down, Z 0
+display_center = [1,0,0]; // XYZ center adjust X +right - left, (v3.1.7 [1,0,0]) Y +up -down, Z 0
+// display_center = [1,0,0]; // v3.1.7
+// display_center = [0,0,0]; // v3,0.8
+// display_center = [0,-0.5,0]; // v3.0.8
 display_rotation = 0; // display z-rotation  adjust deg +cw -ccw
 
 // PCB
@@ -156,6 +190,7 @@ module top_cut()
   }
 }
 
+/*
 module button_pin()
 {
   pin_d1=6; // top dia
@@ -170,7 +205,6 @@ module button_pin()
       }
 }
 
-/*
 module button_pins()
 {
   translate([Footx,Footy,Height-12])
@@ -290,11 +324,8 @@ difference()
 %pcb_with_parts();
 
 // 3D print
-// enable one, render (press F6), export as .stl
-// slice .stl to .gcode and print
 if(1)
 {
   boxcut(side=1); // top
   boxcut(side=-1); // bottom
-  //button_pin();
 }
