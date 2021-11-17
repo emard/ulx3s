@@ -40,16 +40,18 @@
 // 4:SSD1351 128x128 1.54"
 // 5:SSD1306 128x64  0.96"
 display_type = 1;
+box_y_enlarge = display_type == 2 ? 1 : 0;
 display_center = [1,0,0]; // XYZ center adjust X +right - left, Y +up -down, Z 0
-// display_center = [1,0,0]; // v3.1.7
-// display_center = [0,0,0]; // v3,0.8
-// display_center = [0,-0.5,0]; // v3.0.8
+// display_center = [1,0,0]; // v3.1.7 st7789 1.3"
+// display_center = [0,-0.5,0]; // v3.0.8 st7789 1.3"
+// display_center = [0,0,0]; // v3,0.8 st7789 1.3"
+// display_center = [0.7,-0.5.0]; // v3.0.8 st7789 1.54"
 display_rotation = 0; // display z-rotation  adjust deg +cw -ccw
 
 // PCB
 
 pcb_dim = [37*2.54,20*2.54,1.6];
-pcb_pos = [0,2.1,-3.3]; // from center
+pcb_pos = [0,2.1-box_y_enlarge/2,-3.3]; // from center
 pcb_holes_grid = [30,17]*2.54; // assumed center
 pcb_hole_dia = 3.2;
 
@@ -57,7 +59,7 @@ screw_hole = 1*[1.8,8]; // d,h hole screws to hold box
 
 // BOX
 
-dim_box_inner = [96,60,24]; // xyz inside space
+dim_box_inner = [96,60+box_y_enlarge,24]; // xyz inside space
 dim_box_thick = 2;
 dim_box_outer = dim_box_inner+[dim_box_thick,dim_box_thick,dim_box_thick]*2; // xyz outer dim
 dim_box_round = 5;
@@ -95,7 +97,7 @@ button_pos =
 
 tube_h=9; // btn tube height
 tube_id=7; // button tube inner diameter
-tube_od=9; // tube outer diameter
+tube_od=8.5; // tube outer diameter
 
 
 include <snapbox.scad>
