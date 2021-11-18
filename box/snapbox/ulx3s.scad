@@ -45,7 +45,7 @@ display_center = [1,0,0]; // XYZ center adjust X +right - left, Y +up -down, Z 0
 // display_center = [1,0,0]; // v3.1.7 st7789 1.3"
 // display_center = [0,-0.5,0]; // v3.0.8 st7789 1.3"
 // display_center = [0,0,0]; // v3,0.8 st7789 1.3" (untested)
-// display_center = [1.2,-1,0]; // v3.1.7 st7789 1.54"
+// display_center = [1.7,-1,0]; // v3.1.7 st7789 1.54"
 // display_center = [0.7,-0.5.0]; // v3.0.8 st7789 1.54"
 display_rotation = 0; // display z-rotation  adjust deg +cw -ccw
 
