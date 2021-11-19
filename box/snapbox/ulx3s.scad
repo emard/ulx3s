@@ -51,20 +51,25 @@ display_rotation = 0; // display z-rotation  adjust deg +cw -ccw
 
 // PCB
 
+header_type = 2; // 0:none, 1:side female header, 2:bottom male pins
+box_header_enlarge = 4;
+box_z_enlarge = header_type == 2 ? box_header_enlarge: 0;
+
 pcb_dim = [37*2.54,20*2.54,1.6];
-pcb_pos = [0,2.1-box_y_enlarge/2,-3.3]; // from center
+pcb_pos = [0,2.1-box_y_enlarge/2,-3.3-box_header_enlarge/2+box_z_enlarge/2]; // from center
 pcb_holes_grid = [30,17]*2.54; // assumed center
 pcb_hole_dia = 3.2;
 
 screw_hole = 1*[1.8,8]; // d,h hole screws to hold box
 
+
 // BOX
 
-dim_box_inner = [96,60+box_y_enlarge,24]; // xyz inside space
+dim_box_inner = [96,60+box_y_enlarge,24-box_header_enlarge+box_z_enlarge]; // xyz inside space
 dim_box_thick = 2;
 dim_box_outer = dim_box_inner+[dim_box_thick,dim_box_thick,dim_box_thick]*2; // xyz outer dim
 dim_box_round = 5;
-dim_box_split = 2; // split line 0:half +:to top -:to bottom
+dim_box_split = box_z_enlarge/2; // split line 0:half +:to top -:to bottom
 
 dim_boxhook = [10,2,6]; // xyz hook size
 dim_pos_boxhook = [38,0]; // xy from center (3 hooks at each side, if zero, then 1 hook per side
@@ -117,6 +122,7 @@ module pcb_with_parts()
     cube(dim_st7789,center=true);
   // header pins
   pin_dim=[0.5,0.5,11];
+  if(header_type==2)
   for(k=[-1,1]) // sides
     for(i=[-0.5,0.5]) // 2 pin rows
       for(j=[0:19]) // each pin
@@ -220,7 +226,6 @@ module button_pins()
 module connector_cut()
 {
   cy = -1;
-  if(1)
   translate(pcb_pos+[-pcb_holes_grid[0]/2,dim_box_inner[1]/2+dim_box_thick/2,-8.3])
   {
       // cut off for HDMI
@@ -251,7 +256,13 @@ module screws_cut()
         cylinder(d=screw_hole[0],h=screw_hole[1],$fn=12);
 }
 
-module flatcable_cut()
+module side_header_cut()
+{
+  translate(pcb_pos+[0,0,5])
+    cube([dim_box_outer[0]+0.01,53,7],center=true);
+}
+
+module bottom_header_cut()
 {
   // flat cable connector spacing between centers
   flatcable_spacing = 35*2.54;
@@ -272,6 +283,13 @@ module flatcable_cut()
   }
 }
 
+module flatcable_cut()
+{
+  if(header_type==1)
+    side_header_cut();
+  if(header_type==2)
+    bottom_header_cut();
+}
 
 module boxcut(side=1)
 {
