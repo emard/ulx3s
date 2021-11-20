@@ -107,38 +107,7 @@ tube_od=8.5; // tube outer diameter
 
 
 include <snapbox.scad>
-
-module pcb_with_parts()
-{
-  pcb();
-  // esp32
-  dim_esp32=[18,31.4,0.8];
-  pos_esp32=[-pcb_dim[0]/2+dim_esp32[0]/2+14.22,-6.3,0];
-  translate(pcb_pos+[0,-pcb_dim[1]/2+dim_esp32[1]/2,-pcb_dim[2]/2-dim_esp32[2]/2]+pos_esp32)
-    cube(dim_esp32,center=true);
-  dim_st7789=[20,20,1];
-  pos_st7789=[0,3,15];
-  translate(pcb_pos+pos_st7789)
-    cube(dim_st7789,center=true);
-  // header pins
-  pin_dim=[0.5,0.5,11];
-  if(header_type==2)
-  for(k=[-1,1]) // sides
-    for(i=[-0.5,0.5]) // 2 pin rows
-      for(j=[0:19]) // each pin
-        translate(pcb_pos+[(17.5*k+i)*2.54,(j-9.5)*2.54,-3.5])
-          cube(pin_dim,center=true);
-  // BTNs
-  btn_d=4.5;
-  btn_h=5;
-  translate(pcb_pos+[-pcb_holes_grid[0]/2,-pcb_holes_grid[1]/2,pcb_dim[2]/2+btn_h/2])
-  {
-    // btn hole
-    for(i = [0:6])
-      translate(button_pos[i])
-        cylinder(d=btn_d,h=btn_h,$fn=24,center=true);
-  }    
-}
+include <ulx3s_pcb.scad>
 
 // addition to top shell - button tubes
 module top_add()
@@ -171,7 +140,7 @@ module top_cut()
         translate(button_pos[i])
           cylinder(d=tube_id,h=tube_h+1,$fn=24,center=true);
   }
-  translate(pcb_pos+[0,0,dim_box_outer[2]/2])
+  translate([pcb_pos[0],pcb_pos[1],dim_box_outer[2]/2])
   {
       // display (screen)
       xadj=-1.0;
@@ -258,8 +227,9 @@ module screws_cut()
 
 module side_header_cut()
 {
-  translate(pcb_pos+[0,0,5])
-    cube([dim_box_outer[0]+0.01,53,7],center=true);
+  for(i=[-1,1])
+  translate(pcb_pos+[i*dim_box_inner[0]/2,0,4])
+    cube([dim_box_thick*2+0.01,53,6],center=true);
 }
 
 module bottom_header_cut()
@@ -342,7 +312,8 @@ difference()
     cube([80,80,200],center=true);
 }
 
-%pcb_with_parts();
+translate(pcb_pos)
+  %ulx3s_pcb(header_type=header_type);
 
 // 3D print
 if(1)
