@@ -195,7 +195,7 @@ module button_pins()
 module connector_cut()
 {
   cy = -1;
-  translate(pcb_pos+[-pcb_holes_grid[0]/2,dim_box_inner[1]/2+dim_box_thick/2,-8.3])
+  translate(pcb_pos+[-pcb_holes_grid[0]/2,dim_box_inner[1]/2+dim_box_thick/2,-8])
   {
       // cut off for HDMI
       translate([42.3+0.2,cy,11.5])
