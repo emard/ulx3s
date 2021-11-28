@@ -822,7 +822,7 @@ there are cheap 100-Mbit RMII-standard pin compatible ethernet modules
 which can be directly plugged into ULX3S (pins GP,GN 9-13 VCC=3.3V).
 Warning: LAN8720 module will be permanently damaged if powered at 5V instead of 3.3V.
 
-[LAN8720 RMII RJ45 Ethernet module](https://www.ebay.com/itm/1pcs-Smart-Electronics-LAN8720-network-module-Ethernet-transceiver-for-arduino/183479331440)
+[LAN8720 RMII RJ45 Ethernet module](https://www.ebay.com/itm/163847001207?hash=item26260ad477:g:oX8AAOSwM0Rdb23Z
 
 ![LAN8720 RMII RJ45 Ethernet module](/pic/LAN8720.png)
 
