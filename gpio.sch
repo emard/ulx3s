@@ -700,4 +700,6 @@ Text GLabel 4200 2800 0    60   Input ~ 0
 WIFI_GPIO35
 Text Notes 2800 2850 0    60   ~ 0
 NC <v3.1.2
+Text Notes 4200 3400 0    60   ~ 0
+SINGLE ENDED - NOT DIFFERENTIAL
 $EndSCHEMATC

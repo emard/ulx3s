@@ -695,4 +695,6 @@ $EndComp
 Connection ~ 7200 3900
 Wire Wire Line
 	7200 3900 6950 3900
+Text Notes 2850 4100 0    60   ~ 0
+SINGLE ENDED - NOT DIFFERENTIAL
 $EndSCHEMATC
