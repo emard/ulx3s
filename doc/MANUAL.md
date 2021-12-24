@@ -313,11 +313,15 @@ or FLASH.
     fujprog -j flash bitstream.bit
     fujprog bitstream.svf
 
-"openFPGALoader" tool accepts BIT files for uploading to the FPGA SRAM or
+"openFPGALoader" tool accepts BIT files or gzipped BIT files for uploading
+to the FPGA SRAM or
 FLASH.
 
     openFPGALoader --board=ulx3s bitstream.bit
+    openFPGALoader -b ulx3s bitstream.bit.gz
+
     openFPGALoader --board=ulx3s --write-flash bitstream.bit
+    openFPGALoader -b ulx3s -f bitstream.bit.gz
 
 Here is a hacky shell script for most common uses of "fujprog"
 replaced with "openFPGALoader", assuming 1-argument call is
@@ -412,7 +416,13 @@ to SPI config FLASH. Bootloader uses multiboot feature of ECP5 FPGA.
 
 DFU bootloader is very stable, fast, has multiplatform compatible tools
 to write flash (dfu-util, openFPGALoader, and others) so it can be
-regularly used. It enumerates as OpenMoko DFU device.
+regularly used. It enumerates as OpenMoko DFU device. Examples:
+
+    dfu-util -a0 -D bitstream.bit
+    dfu-util -a0 -e
+
+    openFPGALoader --board=ulx3s_dfu bitstream.bit
+    openFPGALoader -b ulx3s_dfu bitstream.bit.gz
 
 Tinyfpga bootloader is less stable, sensitive to cable length and
 USB port type and its tool should be compiled from C source.
