@@ -1038,8 +1038,13 @@ as many versions as here are git commits.
 v3.0.3 is sold at
 [skriptarnica](http://skriptarnica.hr/vijest.aspx?newsID=1466).
 
-v3.0.8 is sold at
+v3.0.8 has been sold at
 [Mouser](https://hr.mouser.com/Search/Refine?Keyword=ulx3s)
+before 2022
+
+v3.1.7 is sold at
+[Mouser](https://hr.mouser.com/Search/Refine?Keyword=ulx3s)
+from 2022
 
 Other versions are either prototypes or independently produced.
 
