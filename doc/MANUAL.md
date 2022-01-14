@@ -1072,4 +1072,5 @@ soldered.
     v3.1.4    INTERGALAKTIK  1          nov 2020     v314            prototype  MT48LC16M16A2TG-6A    W25Q128JVSIQ
     v3.1.6    e-RADIONICA    16         may 2021     v316            prototype  IS42S16160G-7TL-TR    W25Q128JVSIQ
     v3.1.7    e-RADIONICA    64         sep 2021     v316            prototype  IS42S16160G-7TL-TR    IS25LP128F-BL3
-    v3.1.7    D&M            176        jan 2022     v316            for sale   IS42S16160G-7TL-TR    W25Q128JVSIQ
+    v3.1.7    D&M            8          dec 2021     v316            for sale   IS42S16160G-7TL-TR    W25Q128JVSIQ
+    v3.1.7    D&M            168        jan 2022     v316            for sale   IS42S16160G-7TL-TR    W25Q128JVSIQ
