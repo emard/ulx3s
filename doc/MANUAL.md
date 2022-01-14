@@ -1073,9 +1073,9 @@ soldered.
     v3.0.8    Lolsborn       1          oct 2019     v20             handwork
     v3.0.3    INEM-KONČAR    220        oct 2019     v20             for sale   M12L2561616A-6TG2T    W25Q128JVSIQ
     v3.0.7    Watterott      88         nov 2019     v20             for sale   AS4C32M16SB-7TCN      W25Q128JVSIQ
-    v3.0.8    INEM-KONČAR    1000       jul 2020     v20             for sale   IS42S16160G-7TL-TR    W25Q128JVSIQ
+    v3.0.8    INEM-KONČAR    1000       jul 2020     v20             for sale   IS42S16160G-7TL       W25Q128JVSIQ
     v3.1.4    INTERGALAKTIK  1          nov 2020     v314            prototype  MT48LC16M16A2TG-6A    W25Q128JVSIQ
-    v3.1.6    e-RADIONICA    16         may 2021     v316            prototype  IS42S16160G-7TL-TR    W25Q128JVSIQ
-    v3.1.7    e-RADIONICA    64         sep 2021     v316            prototype  IS42S16160G-7TL-TR    IS25LP128F-BL3
-    v3.1.7    D&M            8          dec 2021     v316            for sale   IS42S16160G-7TL-TR    W25Q128JVSIQ
-    v3.1.7    D&M            168        jan 2022     v316            for sale   IS42S16160G-7TL-TR    W25Q128JVSIQ
+    v3.1.6    e-RADIONICA    16         may 2021     v316            prototype  IS42S16160G-7TL       W25Q128JVSIQ
+    v3.1.7    e-RADIONICA    64         sep 2021     v316            prototype  IS42S16160G-7TL       IS25LP128F-BL3
+    v3.1.7    D&M            8          dec 2021     v316            for sale   IS42S16160G-7TL       W25Q128JVSIQ
+    v3.1.7    D&M            168        jan 2022     v316            for sale   IS42S16160G-7TL       W25Q128JVSIQ
