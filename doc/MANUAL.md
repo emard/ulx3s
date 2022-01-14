@@ -1042,7 +1042,7 @@ v3.0.8 has been sold at
 [Mouser](https://hr.mouser.com/Search/Refine?Keyword=ulx3s)
 before 2022
 
-v3.1.7 is sold at
+v3.1.7 will be sold at
 [Mouser](https://hr.mouser.com/Search/Refine?Keyword=ulx3s)
 from 2022
 
