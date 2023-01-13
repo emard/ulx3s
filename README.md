@@ -64,7 +64,7 @@ View generated gerbers
 
 # Features
 
-FPGA: Lattice ECP5 [LFE5U-85F-6BG381C](http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf?document_id=50461) (12/25/45/85K LUT)
+FPGA: Lattice ECP5 [LFE5U-85F-6BG381C](http://www.latticesemi.com/view_document?document_id=50461) (12/25/45/85K LUT)
 
 USB: FTDI [FT231XS](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf) (500kbit JTAG and 3Mbit USB-serial)
 
