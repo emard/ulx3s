@@ -72,7 +72,7 @@ GPIO: 56 pins (12 true differential pairs, 16 single-ended pairs),
 [PMOD](https://reference.digilentinc.com/_media/pmod:pmod:originalPmodInterfaceSpecification.pdf) compatible
 with power out 3.3V/1A 2.5V/1.5A
 
-RAM: 16-bit SDRAM [MT48LC32M16](https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf) (8/16/32/64 MB)
+RAM: 16-bit SDRAM [MT48LC32M16](https://www.micron.com/-/media/client/global/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf) (8/16/32/64 MB)
 
 Flash: Quad-SPI Flash [IS25LP128F](http://www.issi.com/WW/pdf/25LP-WP128F.pdf) (4/8/16 MB for FPGA config and user data)
 
