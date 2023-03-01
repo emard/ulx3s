@@ -32,6 +32,8 @@
 // Length: 2.5 mm
 // Lift Z: 0.1 mm
 
+// 0.8 mm nozzle: 0.5 mm layer, 1 layer vertical shell
+
 // display_type:
 // 0:none
 // 1:ST7789  240x240 1.3"
