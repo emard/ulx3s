@@ -164,3 +164,4 @@ PCBA production are recommended:
 Nobody wants quality issues, so it is good to ask if manufacturer has qualified personnel
 able to follow instructions 
 for [ULX3S self-test](https://github.com/emard/ulx3s-bin) before shipping.
+## This readme clearly shows how to use make the project step by step in simple ways happy making :)
