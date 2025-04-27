@@ -189,3 +189,35 @@ Manufacturer Part Number 	MEM2075-00-140-01-A
 Description 	MICRO SD PUSH-PUSH, SMT, 1.40MM 	
 Manufacturer Standard Lead Time 	6 Weeks 	
 Detailed Description 	9 (8 + 1) Position Card Connector microSD™ Surface Mount, Right Angle Gold 
+
+ESP32S3
+
+    [ ] reconnect esp32 for s3
+        connection for ESP32 classic (old)
+        GPIO4    SD_D1
+        GPIO12   SD_D2
+        GPIO14   SD_CLK
+        GPIO21   WIFI_GPIO21
+        GPIO22   WIFI_GPIO22
+
+        connections for ESP32S3 (new)
+        ESP32    ESP32S3
+        GPIO0    GPIO0  - PWRBTn (D28 anode)
+        GPIO12   GPIO19 - US1 D- (USB esp32s3, was esp32 SD_D2)
+        GPIO14   GPIO20 - US1 D+ (USB esp32s3, was esp32 SD_CLK)
+        GPIO21   GPIO42 - SD_CLK (was esp32 WIFI_GPIO21)
+        GPIO22   GPIO2  - SD_D2  (was esp32 WIFI_GPIO22)
+        GPIO19   GPIO40 - SD_D1  (was esp32 SD_D1)
+        GPIO4    GPIO35 - NC (cutoff, Octal PSRAM caution)
+
+        ESP32S3 bottom pins: 
+        connect to RS232 signaling and FPGA
+        GPIO 3,9-14,21,47,48
+
+        drawbacks after this reconnection when ESP32 classic
+        is mounted
+    [ ] SDMMC mode unavailable on classic ESP32
+    [ ] RMII unavailable on classic ESP32
+    [ ] ESP32S3 doesn't have bluetooth classic, only BLE
+
+
