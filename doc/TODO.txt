@@ -219,5 +219,12 @@ ESP32S3
     [ ] SDMMC mode unavailable on classic ESP32
     [ ] RMII unavailable on classic ESP32
     [ ] ESP32S3 doesn't have bluetooth classic, only BLE
+    [ ] multiboot esp32 switching between micropython and esp32s3-jtag
 
+pinout for esp32s3-jtag (arduino sketch)
 
+#define PIN_TCK  39
+#define PIN_TMS  38
+#define PIN_TDI  1
+#define PIN_TDO  6
+#define PIN_SRST 41
